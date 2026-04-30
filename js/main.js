@@ -6,10 +6,15 @@ function renderMenu() {
     if (!container) return;
 
     const renderChannels = (channels) => channels.map(ch => `
-        <label class="menu-channel">
-            <input type="checkbox" value="${ch.value}" class="child-checkbox">
-            <span>${ch.name}</span>
-        </label>
+        <div class="menu-channel-row" style="display: flex; align-items: center; justify-content: space-between;">
+            <label class="menu-channel" style="flex: 1;">
+                <input type="checkbox" value="${ch.value}" class="child-checkbox">
+                <span>${ch.name}</span>
+            </label>
+            <button onclick="event.stopPropagation(); openPreviewModal('${ch.value}')" class="preview-btn" title="預覽此分類" style="padding: 0.25rem 0.5rem; background: none; border: none; color: #6B7280; cursor: pointer; font-size: 0.875rem;">
+                <i class="fas fa-eye"></i>
+            </button>
+        </div>
     `).join('');
 
     const renderSubUnit = (sub) => `
@@ -94,6 +99,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (window.universitySchemaPromise) {
         await window.universitySchemaPromise;
     }
+    loadPreviewData(); // 非同步載入預覽資料
     renderMenu();
     // 附加 checkbox 行為監聽，處理 child -> parent 的同步
     const menuContainer = document.getElementById('menu-container');
@@ -132,4 +138,66 @@ function updateParentStates(startElem) {
         // 繼續往上尋找包含當前 row 的父層容器
         container = row ? row.closest('.collapsible-content') : null;
     }
+}
+
+// 預覽模態邏輯
+window.categoryPreviewData = null;
+
+async function loadPreviewData() {
+    if (window.categoryPreviewData) {
+        return; // 已載入則直接返回
+    }
+    try {
+        const response = await fetch('category-previews.json');
+        if (response.ok) {
+            window.categoryPreviewData = await response.json();
+        } else {
+            console.warn('無法載入預覽資料');
+            window.categoryPreviewData = {};
+        }
+    } catch (error) {
+        console.error('載入預覽資料失敗', error);
+        window.categoryPreviewData = {};
+    }
+}
+
+function openPreviewModal(categoryId) {
+    if (!window.categoryPreviewData) {
+        alert('預覽資料尚未載入，請稍候');
+        return;
+    }
+
+    const data = window.categoryPreviewData[categoryId];
+    if (!data) {
+        alert('此分類暫無預覽資料');
+        return;
+    }
+
+    const modal = document.getElementById('preview-modal');
+    const title = document.getElementById('preview-title');
+    const content = document.getElementById('preview-content');
+
+    title.textContent = `${data.label} - 預覽`;
+
+    if (data.announcements.length === 0) {
+        content.innerHTML = '<p class="text-sm text-slate-500 text-center py-8">暫無公告</p>';
+    } else {
+        content.innerHTML = data.announcements.map((anno, idx) => `
+            <div class="mb-4 pb-4 ${idx < data.announcements.length - 1 ? 'border-b border-slate-200' : ''}">
+                <h4 class="text-sm font-bold text-slate-800 mb-1">
+                    <a href="${anno.url}" target="_blank" class="text-blue-600 hover:underline">
+                        ${anno.title}
+                    </a>
+                </h4>
+                <p class="text-xs text-slate-500">📅 ${anno.date}</p>
+            </div>
+        `).join('');
+    }
+
+    modal.classList.remove('hidden');
+}
+
+function closePreviewModal() {
+    const modal = document.getElementById('preview-modal');
+    modal.classList.add('hidden');
 }

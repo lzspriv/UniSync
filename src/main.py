@@ -43,6 +43,8 @@ def run_sync():
     total_dispatched = 0
     # 以 URL 聚合新公告，避免同一篇被多分類重複推播
     pending_by_url = {}
+    # 記錄每個分類的所有公告用於預覽
+    category_previews = {cat_id: [] for cat_id in CSIE_CATEGORIES.keys()}
 
     for cat_id, cat_url in CSIE_CATEGORIES.items():
         # 友善顯示名稱（中文）
@@ -50,6 +52,9 @@ def run_sync():
         
         print(f"🔍 掃描分類：{display_name} ({cat_id})")
         news_items = fetch_ntnu_csie_category(cat_url, display_name)
+        
+        # 記錄該分類爬到的所有公告（用於預覽）
+        category_previews[cat_id] = news_items[:5]  # 每個分類保留最新 5 篇用於預覽
         
         for item in news_items:
             # 檢查資料庫是否已存過此 URL
@@ -81,6 +86,27 @@ def run_sync():
         # 2. 合併此公告所有分類的訂閱者，去重後只推播一次
         dispatched_count = notify_announcement_once(supabase, item, categories, CATEGORY_LABELS)
         total_dispatched += dispatched_count
+    
+    # 第三階段：生成預覽 JSON 供前端使用
+    preview_data = {}
+    for cat_id, items in category_previews.items():
+        preview_data[cat_id] = {
+            "label": CATEGORY_LABELS.get(cat_id, cat_id),
+            "announcements": [
+                {
+                    "title": item.get("title", "(無標題)"),
+                    "url": item.get("url", ""),
+                    "date": item.get("date", "未知日期")
+                }
+                for item in items
+            ]
+        }
+    
+    # 寫入預覽檔案到專案根目錄
+    preview_path = Path(__file__).resolve().parent.parent / "category-previews.json"
+    with preview_path.open("w", encoding="utf-8") as f:
+        json.dump(preview_data, f, ensure_ascii=False, indent=2)
+    print(f"📋 預覽資料已生成：{preview_path}")
     
     print(f"✅ 同步完成！共觸發 {total_dispatched} 次推播。")
 

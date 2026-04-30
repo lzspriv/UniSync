@@ -1,0 +1,302 @@
+{
+  "csie_news": {
+    "label": "資訊工程學系-最新消息",
+    "announcements": [
+      {
+        "title": "【114學年度轉系及預修生公告】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/27/2026-04-27/",
+        "date": "2026-04-27"
+      },
+      {
+        "title": "【5月6日 從數據到診斷：人工智慧如何改變醫療照護的未來】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/24/2026-04-24/",
+        "date": "2026-04-24"
+      },
+      {
+        "title": "【115大三專題說明會】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/22/2026-04-22/",
+        "date": "2026-04-22"
+      },
+      {
+        "title": "【5月13日 Deep Generative Models for Music: Technical Overview and the Academic TTM Challenge】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/07/2026-04-07-2/",
+        "date": "2026-04-07"
+      },
+      {
+        "title": "【4月29日 Music Information Retrieval and Music Knowledge Discovery】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/07/2026-04-07/",
+        "date": "2026-04-07"
+      }
+    ]
+  },
+  "csie_announcement": {
+    "label": "資訊工程學系-系所公告",
+    "announcements": [
+      {
+        "title": "【114學年度轉系及預修生公告】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/27/2026-04-27/",
+        "date": "2026-04-27"
+      },
+      {
+        "title": "【5月6日 從數據到診斷：人工智慧如何改變醫療照護的未來】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/24/2026-04-24/",
+        "date": "2026-04-24"
+      },
+      {
+        "title": "【115大三專題說明會】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/22/2026-04-22/",
+        "date": "2026-04-22"
+      },
+      {
+        "title": "【115 學年度博士班複試名單】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/22/2026-04-20/",
+        "date": "2026-04-22"
+      },
+      {
+        "title": "114學年度第2學期學士班書卷獎獲獎名單",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/10/20260410/",
+        "date": "2026-04-10"
+      }
+    ]
+  },
+  "csie_seminar": {
+    "label": "資訊工程學系-演講公告",
+    "announcements": [
+      {
+        "title": "【5月6日 從數據到診斷：人工智慧如何改變醫療照護的未來】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/24/2026-04-24/",
+        "date": "2026-04-24"
+      },
+      {
+        "title": "【5月13日 Deep Generative Models for Music: Technical Overview and the Academic TTM Challenge】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/07/2026-04-07-2/",
+        "date": "2026-04-07"
+      },
+      {
+        "title": "【4月29日 Music Information Retrieval and Music Knowledge Discovery】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/07/2026-04-07/",
+        "date": "2026-04-07"
+      },
+      {
+        "title": "【4月22日 Improving Vocational Students’ Oral Presentation Skills via an LLM-Based Feedback System】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/03/17/2026-03-17-6/",
+        "date": "2026-03-17"
+      },
+      {
+        "title": "【4月15日 Dimensional Aspect-based Sentiment Analysis】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/03/17/2026-03-17-5/",
+        "date": "2026-03-17"
+      }
+    ]
+  },
+  "csie_enrollment": {
+    "label": "資訊工程學系-招生公告",
+    "announcements": [
+      {
+        "title": "【115 學年度博士班複試名單】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/22/2026-04-20/",
+        "date": "2026-04-22"
+      },
+      {
+        "title": "115學年度大學申請入學 甄試通知單",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/06/2026-04-06/",
+        "date": "2026-04-06"
+      },
+      {
+        "title": "【114學年度第2學期資工系學生逕修讀博士學位招生簡章】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/02/23/2026-2-23-2/",
+        "date": "2026-02-23"
+      },
+      {
+        "title": "【115學年度學士班特殊選才複試延至11月15日辦理】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2025/11/12/2025-11-12/",
+        "date": "2025-11-12"
+      },
+      {
+        "title": "【115學年度學士班特殊選才逕取及複試名單公告】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2025/11/10/2025-11-10/",
+        "date": "2025-11-10"
+      }
+    ]
+  },
+  "csie_competition": {
+    "label": "資訊工程學系-競賽活動",
+    "announcements": [
+      {
+        "title": "【活動資訊】IET ICETA 2026",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/29/20260429/",
+        "date": "2026-04-29"
+      },
+      {
+        "title": "【活動資訊】2026沙崙資安新秀大賽",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/22/20260422/",
+        "date": "2026-04-22"
+      },
+      {
+        "title": "【活動資訊】115年資訊月「全國海報徵選活動」",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/21/20260421-4/",
+        "date": "2026-04-21"
+      },
+      {
+        "title": "【活動資訊】2026通訊大賽 － Mobileheroes Global",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/21/20260421-3/",
+        "date": "2026-04-21"
+      },
+      {
+        "title": "【活動資訊】第23屆國家新創獎",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/21/20260421-2/",
+        "date": "2026-04-21"
+      }
+    ]
+  },
+  "csie_honor_roll": {
+    "label": "資訊工程學系-榮譽榜",
+    "announcements": [
+      {
+        "title": "恭喜本系陳柏琳老師與碩士班黃冠棠同學之研究成果Robust generative audio quality assessment: Disentangling quality from spurious correlations榮登頂尖會議ICME 2026 (International Conference on Multimedia and Expo 2026)",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/03/20/20260320-2/",
+        "date": "2026-03-20"
+      },
+      {
+        "title": "恭喜本系吳志強老師與學士班黃子謙同學之研究成果Residual Adapter with Offset Correction for Accurate 3D Animal Mesh Recovery榮登頂尖會議ICME 2026 (International Conference on Multimedia and Expo 2026)",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/03/20/20260320/",
+        "date": "2026-03-20"
+      },
+      {
+        "title": "恭喜本系陳柏琳教授指導碩士班王建鈞同學「利用無監督領域自適應實現穩健語音辨識與增強之研究」榮獲「台灣管理學會AI應用論文競賽」碩士組優等論文獎",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2025/10/23/20251023-2/",
+        "date": "2025-10-23"
+      },
+      {
+        "title": "恭喜本系陳柏琳教授指導碩士班王建鈞同學「利用無監督領域自適應實現穩健語音辨識與增強之研究」榮獲「中華民國計算語言學學會第二十五屆博碩士論文獎」碩士論文優等獎",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2025/10/23/20251023/",
+        "date": "2025-10-23"
+      },
+      {
+        "title": "恭喜本系陳炫佑、陳繹夫、陳蓉敬、余竣學、林宏昀、李沛儒、鄭聿喬、林哲丞、張辰瑜、許容珮，獲核定國科會114年度大專學生研究計畫補助！",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2025/06/27/20250627/",
+        "date": "2025-06-27"
+      }
+    ]
+  },
+  "csie_scholarship": {
+    "label": "資訊工程學系-獎學金",
+    "announcements": [
+      {
+        "title": "【獎學金】「2026年度第二期日本台灣交流協會獎學金（短期留學生）」自即日起開始受理申請至115年6月1日截止。",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/24/20260424/",
+        "date": "2026-04-24"
+      },
+      {
+        "title": "【獎學金】114學年度第2學期宗教研究獎學金",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/21/20260421-6/",
+        "date": "2026-04-21"
+      },
+      {
+        "title": "【獎學金】114學年度第2學期「捐贈款設置之獎(助)學金」",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/21/20260421-5/",
+        "date": "2026-04-21"
+      },
+      {
+        "title": "【獎學金】本校114學年度「師鐸文學獎學金」及「佛學研究獎學金」",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/13/20260413-3/",
+        "date": "2026-04-13"
+      },
+      {
+        "title": "【獎學金】114學年度第2學期學士班「STAR星辰獎學金」（系辦公室受理期限至115年3月16日中午12時止）",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/03/05/20260305-2/",
+        "date": "2026-03-05"
+      }
+    ]
+  },
+  "csie_intern": {
+    "label": "資訊工程學系-工讀實習",
+    "announcements": [
+      {
+        "title": "【校外實習】財團法人資訊工業策進會「2025 FinTech校園接班人」",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2025/04/07/20250407/",
+        "date": "2025-04-07"
+      },
+      {
+        "title": "【暑期實習】財團法人中華民國證券櫃檯買賣中心114年暑期實習",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2025/03/31/20250331-01/",
+        "date": "2025-03-31"
+      },
+      {
+        "title": "【實習資訊】中華航空114年實習資訊",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2025/03/17/20250317/",
+        "date": "2025-03-17"
+      },
+      {
+        "title": "【宇聯管理顧問有限公司誠徵兼職工讀助理一名】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2024/12/24/20241224-01/",
+        "date": "2024-12-24"
+      },
+      {
+        "title": "【校外實習】中國信託資訊科技企業實習計畫",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2024/10/28/20241028-2/",
+        "date": "2024-10-28"
+      }
+    ]
+  },
+  "csie_recruitment": {
+    "label": "資訊工程學系-校外徵才",
+    "announcements": [
+      {
+        "title": "【校外徵才】台灣應用材料股份有限公司招募「客戶技術支援工程師／助理工程師」",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/04/13/20260413/",
+        "date": "2026-04-13"
+      },
+      {
+        "title": "【校外實習】臺灣證券交易所股份有限公司「115年暑期技術專題實習」",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/03/30/20260330/",
+        "date": "2026-03-30"
+      },
+      {
+        "title": "【校外徵才】勞動部勞動力發展署桃竹苗分署資訊應用職類聘用助理訓練師職缺3名",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/03/16/20260316-2/",
+        "date": "2026-03-16"
+      },
+      {
+        "title": "【校外徵才】勞動部勞動力發展署桃竹苗分署資訊應用職類聘用助理訓練師",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/02/25/20260225/",
+        "date": "2026-02-25"
+      },
+      {
+        "title": "【校外徵才】勞動部資訊應用職類聘用助理訓練師職缺1名",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2025/12/31/20251231/",
+        "date": "2025-12-31"
+      }
+    ]
+  },
+  "csie_teacher": {
+    "label": "資訊工程學系-徵聘教師",
+    "announcements": [
+      {
+        "title": "【國立臺灣師範大學資訊工程學系徵聘專任教師】（預定115年8月起聘）",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2025/12/11/20251211-01/",
+        "date": "2025-12-11"
+      },
+      {
+        "title": "【國立臺灣師範大學資訊工程學系徵聘全英語授課（EMI）專任教師】（預定115年8月起聘）",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2025/12/11/20251211-02/",
+        "date": "2025-12-11"
+      },
+      {
+        "title": "【國立臺灣師範大學資訊工程學系徵聘全英語授課（EMI）專任教師】（預定115年2月起聘）",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2025/08/01/20250801-2/",
+        "date": "2025-08-01"
+      },
+      {
+        "title": "【國立臺灣師範大學資訊工程學系徵聘專任教師】（預定115年2月起聘）",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2025/08/01/20250801-1/",
+        "date": "2025-08-01"
+      },
+      {
+        "title": "【國立臺灣師範大學資訊工程學系徵聘全英語授課（EMI）專任教師】（預定114年8月起聘）",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2024/12/25/20241225-02/",
+        "date": "2024-12-25"
+      }
+    ]
+  }
+}

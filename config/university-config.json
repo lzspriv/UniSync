@@ -1,19 +1,54 @@
 {
   "categories": {
+    "csie_news": {
+      "label": "最新消息",
+      "owner": "資訊工程學系",
+      "url": "https://www.csie.ntnu.edu.tw/index.php/news/"
+    },
     "csie_announcement": {
       "label": "系所公告",
       "owner": "資訊工程學系",
       "url": "https://www.csie.ntnu.edu.tw/index.php/category/news/announcement/"
+    },
+    "csie_seminar": {
+      "label": "演講公告",
+      "owner": "資訊工程學系",
+      "url": "https://www.csie.ntnu.edu.tw/index.php/category/news/seminar/"
+    },
+    "csie_enrollment": {
+      "label": "招生公告",
+      "owner": "資訊工程學系",
+      "url": "https://www.csie.ntnu.edu.tw/index.php/category/news/enrollment/"
+    },
+    "csie_competition": {
+      "label": "競賽活動",
+      "owner": "資訊工程學系",
+      "url": "https://www.csie.ntnu.edu.tw/index.php/category/news/competition/"
+    },
+    "csie_honor_roll": {
+      "label": "榮譽榜",
+      "owner": "資訊工程學系",
+      "url": "https://www.csie.ntnu.edu.tw/index.php/category/news/honor-roll/"
     },
     "csie_scholarship": {
       "label": "獎學金",
       "owner": "資訊工程學系",
       "url": "https://www.csie.ntnu.edu.tw/index.php/category/news/scholarship/"
     },
-    "csie_news": {
-      "label": "最新消息",
+    "csie_intern": {
+      "label": "工讀實習",
       "owner": "資訊工程學系",
-      "url": "https://www.csie.ntnu.edu.tw/index.php/category/news/competition/"
+      "url": "https://www.csie.ntnu.edu.tw/index.php/category/news/intern/"
+    },
+    "csie_recruitment": {
+      "label": "校外徵才",
+      "owner": "資訊工程學系",
+      "url": "https://www.csie.ntnu.edu.tw/index.php/category/news/recruitment/"
+    },
+    "csie_teacher": {
+      "label": "徵聘教師",
+      "owner": "資訊工程學系",
+      "url": "https://www.csie.ntnu.edu.tw/index.php/category/news/1/"
     }
   },
   "schema": [
@@ -51,7 +86,14 @@
               "channels": [
                 { "name": "最新消息", "value": "csie_news" },
                 { "name": "系所公告", "value": "csie_announcement" },
-                { "name": "獎學金", "value": "csie_scholarship" }
+                { "name": "演講公告", "value": "csie_seminar" },
+                { "name": "招生公告", "value": "csie_enrollment" },
+                { "name": "競賽活動", "value": "csie_competition" },
+                { "name": "榮譽榜", "value": "csie_honor_roll" },
+                { "name": "獎學金", "value": "csie_scholarship" },
+                { "name": "工讀實習", "value": "csie_intern" },
+                { "name": "校外徵才", "value": "csie_recruitment" },
+                { "name": "徵聘教師", "value": "csie_teacher" }
               ]
             }
           ]
