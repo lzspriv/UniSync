@@ -1,0 +1,62 @@
+{
+  "categories": {
+    "csie_announcement": {
+      "label": "系所公告",
+      "owner": "資訊工程學系",
+      "url": "https://www.csie.ntnu.edu.tw/index.php/category/news/announcement/"
+    },
+    "csie_scholarship": {
+      "label": "獎學金",
+      "owner": "資訊工程學系",
+      "url": "https://www.csie.ntnu.edu.tw/index.php/category/news/scholarship/"
+    },
+    "csie_news": {
+      "label": "最新消息",
+      "owner": "資訊工程學系",
+      "url": "https://www.csie.ntnu.edu.tw/index.php/category/news/competition/"
+    }
+  },
+  "schema": [
+    {
+      "id": "l1-admin",
+      "name": "行政組織",
+      "units": [
+        {
+          "id": "l2-osa",
+          "name": "學務處",
+          "subUnits": [
+            {
+              "id": "l3-osa-life",
+              "name": "生活輔導組",
+              "channels": [
+                { "name": "最新消息", "value": "osa_life_news" },
+                { "name": "行政公告", "value": "osa_life_admin" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1-academic",
+      "name": "學術單位",
+      "units": [
+        {
+          "id": "l2-science",
+          "name": "理學院",
+          "subUnits": [
+            {
+              "id": "l3-csie",
+              "name": "資訊工程學系",
+              "channels": [
+                { "name": "最新消息", "value": "csie_news" },
+                { "name": "系所公告", "value": "csie_announcement" },
+                { "name": "獎學金", "value": "csie_scholarship" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

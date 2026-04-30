@@ -1,0 +1,16 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+ENV/
+env/
+pip-selfcheck.json
+pip-log.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
