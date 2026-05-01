@@ -52,8 +52,8 @@
                         <div>
                             <h2 class="text-2xl md:text-3xl font-black text-slate-900 tracking-tight leading-tight">個人化通知中心</h2>
                             <div class="flex items-center gap-4 mt-2">
-                                <span class="flex items-center gap-1.5 text-sm font-bold text-green-600 bg-green-50 px-2 py-1 rounded-md">
-                                    <span class="w-2 h-2 bg-green-500 rounded-full status-pulse"></span> 全校網頁監控中
+                                <span id="monitoring-status" class="flex items-center gap-1.5 text-sm font-bold text-slate-400 bg-slate-100 px-2 py-1 rounded-md">
+                                    <span class="w-2 h-2 bg-slate-400 rounded-full"></span> 未連線
                                 </span>
                                 <span class="hidden sm:block text-slate-500 text-xs font-bold uppercase tracking-tighter">Monitoring all NTNU domains</span>
                             </div>
@@ -63,7 +63,7 @@
                         <div class="flex gap-2 sm:gap-4 justify-end">
                             <div class="bg-white px-4 py-2 rounded-xl shadow-sm border border-slate-200 text-center min-w-[90px] sm:min-w-[100px]">
                                 <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest">主動訂閱</p>
-                                <p class="text-xl font-black text-blue-600">12</p>
+                                <p id="active-subscriptions-count" class="text-xl font-black text-blue-600">--</p>
                             </div>
                             <div class="bg-white px-4 py-2 rounded-xl shadow-sm border border-slate-200 text-center min-w-[90px] sm:min-w-[100px]">
                                 <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest">全域命中</p>

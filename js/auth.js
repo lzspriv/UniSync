@@ -12,7 +12,8 @@ const authElements = {
     userAvatar: document.getElementById('user-avatar'),
     discordInput: document.getElementById('discord-input'),
     saveProfileBtn: document.getElementById('save-profile-btn'),
-    updateSubBtn: document.getElementById('update-sub-btn')
+    updateSubBtn: document.getElementById('update-sub-btn'),
+    monitoringStatus: document.getElementById('monitoring-status')
 };
 
 /* --- 🔑 認證邏輯 --- */
@@ -29,7 +30,22 @@ async function loginWithGoogle() {
 // 登出
 async function logout() {
     await _supabase.auth.signOut();
+    // 重置訂閱計數
+    const countEl = document.getElementById('active-subscriptions-count');
+    if (countEl) countEl.textContent = '--';
     window.location.reload();
+}
+
+// 更新監控武是連線狀態
+function updateMonitoringStatus(isConnected) {
+    if (!authElements.monitoringStatus) return;
+    if (isConnected) {
+        authElements.monitoringStatus.className = 'flex items-center gap-1.5 text-sm font-bold text-green-600 bg-green-50 px-2 py-1 rounded-md';
+        authElements.monitoringStatus.innerHTML = '<span class="w-2 h-2 bg-green-500 rounded-full status-pulse"></span> 全校網頁監控中';
+    } else {
+        authElements.monitoringStatus.className = 'flex items-center gap-1.5 text-sm font-bold text-slate-400 bg-slate-100 px-2 py-1 rounded-md';
+        authElements.monitoringStatus.innerHTML = '<span class="w-2 h-2 bg-slate-400 rounded-full"></span> 未連線';
+    }
 }
 
 // 更新登入狀態 UI
@@ -39,16 +55,37 @@ function updateAuthUI(user) {
         authElements.userInfo.classList.remove('hidden');
         authElements.userName.innerText = user.user_metadata.full_name || user.email;
         authElements.userAvatar.src = user.user_metadata.avatar_url || "";
+        updateMonitoringStatus(true);
     } else {
         authElements.loginBtn.classList.remove('hidden');
         authElements.userInfo.classList.add('hidden');
         authElements.discordInput.value = "";
+        updateMonitoringStatus(false);
         // 清空所有勾勾
         document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
     }
 }
 
 /* --- 🛰️ 資料同步邏輯 --- */
+
+// 更新訂閱計數
+async function updateSubscriptionCount(userId) {
+    const countEl = document.getElementById('active-subscriptions-count');
+    if (!countEl) return;
+    
+    try {
+        const { count, error } = await _supabase
+            .from('user_subscriptions')
+            .select('*', { count: 'exact', head: true })
+            .eq('user_id', userId);
+        
+        if (error) throw error;
+        countEl.textContent = count || 0;
+    } catch (err) {
+        console.error('獲取訂閱數量失敗', err);
+        countEl.textContent = '--';
+    }
+}
 
 // 從雲端載入使用者資料與訂閱
 async function syncUserData(userId) {
@@ -110,6 +147,9 @@ async function syncUserData(userId) {
             parent = parent.parentElement?.closest('.collapsible-content');
         }
     });
+
+    // 更新訂閱計數
+    await updateSubscriptionCount(userId);
 }
 
 /* --- 💾 儲存操作 --- */
@@ -198,6 +238,10 @@ authElements.updateSubBtn.addEventListener('click', async () => {
 
     authElements.updateSubBtn.disabled = false;
     authElements.updateSubBtn.innerText = prevText;
+    
+    // 更新訂閱計數
+    await updateSubscriptionCount(session.user.id);
+    
     window.dispatchEvent(new CustomEvent('subscriptions:updated', {
         detail: {
             userId: session.user.id,
