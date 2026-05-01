@@ -2,9 +2,8 @@ name: UniSync Auto Scraper
 
 on:
   schedule:
-    # 這裡設定每小時的第 0 分鐘執行 (UTC 時間)
     - cron: '0 * * * *'
-  workflow_dispatch: # 保留手動執行按鈕
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,21 +11,23 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # ✨ 已更新版本
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # ✨ 已更新版本
         with:
           python-version: '3.11'
 
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install -r requirements.txt
+
+      - name: Debug Path (Optional)
+        run: ls -R # ✨ 幫助你確認 config 資料夾是否存在
 
       - name: Run UniSync Engine
         env:
-          # 將 GitHub Secrets 映射為 Python 可讀取的環境變數
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python src/main.py
