@@ -198,6 +198,12 @@ authElements.updateSubBtn.addEventListener('click', async () => {
 
     authElements.updateSubBtn.disabled = false;
     authElements.updateSubBtn.innerText = prevText;
+    window.dispatchEvent(new CustomEvent('subscriptions:updated', {
+        detail: {
+            userId: session.user.id,
+            categoryIds: selected
+        }
+    }));
     alert("訂閱偏好已更新 🔔");
 });
 

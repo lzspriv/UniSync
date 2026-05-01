@@ -1,6 +1,7 @@
 import os
 import json
 from pathlib import Path
+from datetime import datetime
 from dotenv import load_dotenv
 from supabase import create_client, Client
 from scraper import fetch_ntnu_csie_category
@@ -38,6 +39,24 @@ def load_category_config():
 # 2. 從共用設定檔載入掃描清單與中文標籤
 CSIE_CATEGORIES, CATEGORY_LABELS = load_category_config()
 
+
+def parse_published_at(item_date: str):
+    """
+    將爬蟲日期字串轉為 ISO 時間，失敗則回傳 None。
+    """
+    if not item_date:
+        return None
+
+    date_text = item_date.strip()
+    if date_text in ("未知日期", ""):
+        return None
+
+    try:
+        # 來源格式示例：2026-04-30
+        return datetime.strptime(date_text, "%Y-%m-%d").isoformat()
+    except ValueError:
+        return None
+
 def run_sync():
     print("🚀 UniSync 多使用者同步引擎啟動...")
     total_dispatched = 0
@@ -57,35 +76,43 @@ def run_sync():
         category_previews[cat_id] = news_items[:5]  # 每個分類保留最新 5 篇用於預覽
         
         for item in news_items:
-            # 檢查資料庫是否已存過此 URL
-            check = supabase.table("announcements").select("id").eq("url", item['url']).execute()
-            
-            if len(check.data) == 0:
-                if item['url'] not in pending_by_url:
-                    pending_by_url[item['url']] = {
-                        "item": item,
-                        "categories": set()
-                    }
-                pending_by_url[item['url']]["categories"].add(cat_id)
+            if item['url'] not in pending_by_url:
+                pending_by_url[item['url']] = {
+                    "item": item,
+                    "categories": set()
+                }
+            pending_by_url[item['url']]["categories"].add(cat_id)
 
-    # 第二階段：每個 URL 只通知一次，由 notifier 統一處理推播
+    # 第二階段：每個 URL 僅通知一次；資料庫則按 category_id 存一筆，供 Live Feed 查詢
     for url_key, data in pending_by_url.items():
         item = data["item"]
         categories = sorted(data["categories"])
         category_names = [CATEGORY_LABELS.get(cat_id, cat_id) for cat_id in categories]
 
-        # 1. 存入公告紀錄表（同 URL 只插入一次）
-        supabase.table("announcements").insert({
-            "title": item['title'],
-            "url": item['url'],
-            "source": f"資工系辦 - {', '.join(category_names)}"
-        }).execute()
+        # 1. 檢查這個 URL 是否首次出現（用於「是否推播」判斷）
+        existing_url = supabase.table("announcements").select("id").eq("url", item['url']).limit(1).execute()
+        is_new_url = len(existing_url.data) == 0
 
-        print(f"✨ [新公告] {item['title']}")
+        # 2. 每個分類各存一筆，確保 Live Feed 可依 category_id 精準查詢
+        for cat_id in categories:
+            supabase.table("announcements").upsert(
+                {
+                    "title": item['title'],
+                    "url": item['url'],
+                    "category_id": cat_id,
+                    "source": CATEGORY_LABELS.get(cat_id, cat_id),
+                    "trigger_type": "menu",
+                    "published_at": parse_published_at(item.get("date"))
+                },
+                on_conflict="url,category_id"
+            ).execute()
 
-        # 2. 合併此公告所有分類的訂閱者，去重後只推播一次
-        dispatched_count = notify_announcement_once(supabase, item, categories, CATEGORY_LABELS)
-        total_dispatched += dispatched_count
+        print(f"✨ [新公告] {item['title']} ({', '.join(category_names)})")
+
+        # 3. 只有首次出現的 URL 才觸發推播（避免重複通知）
+        if is_new_url:
+            dispatched_count = notify_announcement_once(supabase, item, categories, CATEGORY_LABELS)
+            total_dispatched += dispatched_count
     
     # 第三階段：生成預覽 JSON 供前端使用
     preview_data = {}

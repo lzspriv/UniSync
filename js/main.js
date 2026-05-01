@@ -1,6 +1,15 @@
 /**
  * 渲染組織選單[cite: 1]
  */
+const liveFeedState = {
+    allItems: [],
+    visibleCount: 0,
+    pageSize: 20,
+    maxTotal: 50,
+    currentUserId: null,
+    isLoading: false
+};
+
 function renderMenu() {
     const container = document.getElementById('menu-container');
     if (!container) return;
@@ -94,29 +103,6 @@ function toggleElement(id) {
     icon?.classList.toggle('rotate-icon');
 }
 
-// 頁面初始化
-document.addEventListener('DOMContentLoaded', async () => {
-    if (window.universitySchemaPromise) {
-        await window.universitySchemaPromise;
-    }
-    loadPreviewData(); // 非同步載入預覽資料
-    renderMenu();
-    // 附加 checkbox 行為監聽，處理 child -> parent 的同步
-    const menuContainer = document.getElementById('menu-container');
-    if (menuContainer) {
-        // 當 child-checkbox 或 parent-checkbox 改變時，同步上層狀態
-        menuContainer.addEventListener('change', (e) => {
-            const target = e.target;
-            if (target.matches('.child-checkbox')) {
-                updateParentStates(target);
-            } else if (target.matches('.parent-checkbox')) {
-                // parent checkbox 會由原本的 onclick 處理子項，但在此也更新上層父層的勾選狀態
-                updateParentStates(target);
-            }
-        });
-    }
-});
-
 // 將某一節點（child 或 parent）狀態向上同步至祖先 parent-checkbox
 function updateParentStates(startElem) {
     // 從 startElem 找到它所屬的容器（若為 child 則為最近的 .collapsible-content；若為 parent 則找到其對應的 container）
@@ -139,6 +125,295 @@ function updateParentStates(startElem) {
         container = row ? row.closest('.collapsible-content') : null;
     }
 }
+
+function escapeHtml(value) {
+    if (typeof value !== 'string') return '';
+    return value
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+}
+
+function formatFeedDate(timeValue) {
+    if (!timeValue) return '--';
+    const dt = new Date(timeValue);
+    if (Number.isNaN(dt.getTime())) return '--';
+    const mm = String(dt.getMonth() + 1).padStart(2, '0');
+    const dd = String(dt.getDate()).padStart(2, '0');
+    return `${mm}-${dd}`;
+}
+
+function inferTriggerType(item) {
+    const value = (item.trigger_type || '').toLowerCase();
+    if (value.includes('global')) {
+        return {
+            label: '全域關鍵字',
+            wrapperClass: 'bg-rose-100 text-rose-600 border-rose-200',
+            icon: 'fa-crosshairs',
+            rowClass: 'bg-rose-50/5 hover:bg-rose-50/30'
+        };
+    }
+    return {
+        label: '選單訂閱',
+        wrapperClass: 'bg-blue-100 text-blue-600 border-blue-200',
+        icon: 'fa-check-double',
+        rowClass: 'hover:bg-blue-50/30'
+    };
+}
+
+function setLiveFeedStatus(message, tone = 'default') {
+    const statusEl = document.getElementById('live-feed-status');
+    if (!statusEl) return;
+    const classMap = {
+        default: 'text-slate-500',
+        loading: 'text-blue-600',
+        error: 'text-rose-600',
+        muted: 'text-slate-400'
+    };
+    statusEl.className = `px-4 sm:px-6 py-3 text-sm border-b border-slate-100 ${classMap[tone] || classMap.default}`;
+    statusEl.textContent = message;
+}
+
+function toggleLoadMoreButton() {
+    const btn = document.getElementById('live-feed-load-more');
+    if (!btn) return;
+    const hasMore = liveFeedState.visibleCount < liveFeedState.allItems.length;
+    btn.classList.toggle('hidden', !hasMore);
+}
+
+function renderFeedItems(reset = false) {
+    const tableBody = document.getElementById('live-feed-table-body');
+    const mobileContainer = document.getElementById('live-feed-mobile');
+    if (!tableBody || !mobileContainer) return;
+
+    if (reset) {
+        tableBody.innerHTML = '';
+        mobileContainer.innerHTML = '';
+    }
+
+    const nextCount = Math.min(liveFeedState.visibleCount + liveFeedState.pageSize, liveFeedState.allItems.length);
+    const chunk = liveFeedState.allItems.slice(liveFeedState.visibleCount, nextCount);
+    liveFeedState.visibleCount = nextCount;
+
+    const desktopRows = chunk.map((item) => {
+        const timeValue = item.published_at || item.created_at;
+        const timeText = formatFeedDate(timeValue);
+        const multipleSources = Array.isArray(item.sources) && item.sources.length > 1;
+        const sourceHtml = multipleSources ? (item.sources.map(s => escapeHtml(s)).join('<br>')) : escapeHtml(item.source || item.category_id || '未分類');
+        const titleText = escapeHtml(item.title || '無標題');
+        const safeUrl = item.url || '#';
+
+        // triggers may be an array (aggregated). normalize to array
+        const triggers = Array.isArray(item.triggers) ? item.triggers : [item.trigger_type || '選單訂閱'];
+
+        // render up to 2 badges, then +n
+        const badgesHtml = triggers.slice(0, 2).map(t => {
+            const tt = inferTriggerType({ trigger_type: t });
+            return `<span class="px-2 py-1 ${tt.wrapperClass} text-[10px] font-black rounded-full border flex items-center gap-1 mr-1">` +
+                   `<i class="fas ${tt.icon} text-[8px]"></i> ${escapeHtml(tt.label)}</span>`;
+        }).join('');
+        const extra = triggers.length > 2 ? `<span class="px-2 py-1 bg-slate-100 text-slate-600 text-[10px] font-black rounded-full border">+${triggers.length - 2}</span>` : '';
+
+        // rowClass - prefer first trigger's rowClass
+        const primaryRowClass = inferTriggerType({ trigger_type: triggers[0] }).rowClass;
+
+        return `
+            <tr class="transition-colors group ${primaryRowClass}">
+                <td class="px-6 py-4 text-xs font-bold text-slate-500 whitespace-nowrap">${timeText}</td>
+                <td class="px-6 py-4 w-36 whitespace-nowrap">${badgesHtml}${extra}</td>
+                <td class="px-6 py-4 w-48 ${multipleSources ? 'whitespace-normal break-words' : 'whitespace-nowrap'}"><span class="text-sm font-bold text-slate-600">${sourceHtml}</span></td>
+                <td class="px-6 py-4"><p class="text-sm font-bold text-slate-800">${titleText}</p></td>
+                <td class="px-6 py-4 text-right"><a href="${safeUrl}" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-blue-600"><i class="fas fa-external-link-alt"></i></a></td>
+            </tr>
+        `;
+    }).join('');
+
+    const mobileRows = chunk.map((item) => {
+        const timeValue = item.published_at || item.created_at;
+        const timeText = formatFeedDate(timeValue);
+        const multipleSources = Array.isArray(item.sources) && item.sources.length > 1;
+        const sourceHtml = multipleSources ? (item.sources.map(s => escapeHtml(s)).join('<br>')) : escapeHtml(item.source || item.category_id || '未分類');
+        const titleText = escapeHtml(item.title || '無標題');
+        const safeUrl = item.url || '#';
+        const triggers = Array.isArray(item.triggers) ? item.triggers : [item.trigger_type || '選單訂閱'];
+        const badgesHtml = triggers.slice(0, 2).map(t => {
+            const tt = inferTriggerType({ trigger_type: t });
+            return `<span class="px-2 py-1 ${tt.wrapperClass} text-[10px] font-black rounded-full border flex items-center gap-1 mr-1">` +
+                   `<i class="fas ${tt.icon} text-[8px]"></i> ${escapeHtml(tt.label)}</span>`;
+        }).join('');
+        const extra = triggers.length > 2 ? `<span class="px-2 py-1 bg-slate-100 text-slate-600 text-[10px] font-black rounded-full border">+${triggers.length - 2}</span>` : '';
+        const wrapperClass = (triggers[0] && inferTriggerType({ trigger_type: triggers[0] }).rowClass.includes('rose')) ? 'p-4 bg-rose-50/5' : 'p-4';
+        return `
+            <div class="${wrapperClass}">
+                <div class="flex justify-between items-start mb-2 gap-2">
+                    <div class="flex items-center gap-1">${badgesHtml}${extra}</div>
+                    <span class="text-xs font-bold text-slate-500 whitespace-nowrap">${timeText}</span>
+                </div>
+                <p class="text-base font-bold text-slate-800 mb-1">${titleText}</p>
+                <div class="flex justify-between items-center gap-3">
+                    <span class="text-sm font-bold text-slate-500 ${multipleSources ? 'whitespace-normal' : 'truncate'}">${sourceHtml}</span>
+                    <a href="${safeUrl}" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-blue-600"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        `;
+    }).join('');
+
+    tableBody.insertAdjacentHTML('beforeend', desktopRows);
+    mobileContainer.insertAdjacentHTML('beforeend', mobileRows);
+    toggleLoadMoreButton();
+}
+
+function resetLiveFeedWithStatus(message, tone = 'default') {
+    liveFeedState.allItems = [];
+    liveFeedState.visibleCount = 0;
+    const tableBody = document.getElementById('live-feed-table-body');
+    const mobileContainer = document.getElementById('live-feed-mobile');
+    if (tableBody) tableBody.innerHTML = '';
+    if (mobileContainer) mobileContainer.innerHTML = '';
+    toggleLoadMoreButton();
+    setLiveFeedStatus(message, tone);
+}
+
+async function fetchFeedWithFallback(userId) {
+    // 優先使用 RPC（DB 端聚合較省讀取），若未建立則 fallback 直接查詢
+    const { data: rpcData, error: rpcError } = await _supabase.rpc('get_user_feed', {
+        p_user_id: userId,
+        p_per_cat_limit: 10,
+        p_overall_limit: liveFeedState.maxTotal,
+        p_days: 90
+    });
+
+    if (!rpcError && Array.isArray(rpcData)) {
+        return rpcData;
+    }
+
+    const { data: subs, error: subsError } = await _supabase
+        .from('user_subscriptions')
+        .select('category_id')
+        .eq('user_id', userId);
+
+    if (subsError) throw subsError;
+
+    const subIds = (subs || []).map(s => s.category_id);
+    if (subIds.length === 0) return [];
+
+    const selectWithPublishedAt = 'id,title,url,source,category_id,trigger_type,published_at,created_at';
+    const selectWithoutPublishedAt = 'id,title,url,source,category_id,trigger_type,created_at';
+
+    let query = _supabase
+        .from('announcements')
+        .select(selectWithPublishedAt)
+        .in('category_id', subIds)
+        .order('published_at', { ascending: false, nullsFirst: false })
+        .order('created_at', { ascending: false })
+        .limit(liveFeedState.maxTotal);
+
+    let { data, error } = await query;
+
+    if (error) {
+        const retry = await _supabase
+            .from('announcements')
+            .select(selectWithoutPublishedAt)
+            .in('category_id', subIds)
+            .order('created_at', { ascending: false })
+            .limit(liveFeedState.maxTotal);
+        data = retry.data;
+        error = retry.error;
+    }
+
+    if (error) throw error;
+    return data || [];
+}
+
+async function reloadLiveFeedForUser(userId) {
+    if (!userId || liveFeedState.isLoading) return;
+    liveFeedState.isLoading = true;
+    liveFeedState.currentUserId = userId;
+    setLiveFeedStatus('Live Feed 載入中...', 'loading');
+
+    try {
+        let items = await fetchFeedWithFallback(userId);
+        // aggregate same announcement (by URL) to combine multiple triggers/tags
+        items = aggregateFeedItems(items);
+        liveFeedState.allItems = items;
+        liveFeedState.visibleCount = 0;
+
+        if (items.length === 0) {
+            resetLiveFeedWithStatus('你目前的訂閱尚未有可顯示的公告。', 'muted');
+            return;
+        }
+
+        renderFeedItems(true);
+        setLiveFeedStatus(`已載入 ${Math.min(liveFeedState.visibleCount, items.length)} / ${items.length} 筆。`);
+    } catch (err) {
+        console.error('載入 Live Feed 失敗', err);
+        resetLiveFeedWithStatus('載入 Live Feed 失敗，請稍後再試。', 'error');
+    } finally {
+        liveFeedState.isLoading = false;
+    }
+}
+
+async function initializeLiveFeed() {
+    const loadMoreBtn = document.getElementById('live-feed-load-more');
+    if (loadMoreBtn) {
+        loadMoreBtn.addEventListener('click', () => {
+            renderFeedItems(false);
+            setLiveFeedStatus(`已載入 ${liveFeedState.visibleCount} / ${liveFeedState.allItems.length} 筆。`);
+        });
+    }
+
+    if (!_supabase || !_supabase.auth) {
+        resetLiveFeedWithStatus('尚未初始化 Supabase，無法載入 Live Feed。', 'error');
+        return;
+    }
+
+    _supabase.auth.onAuthStateChange((_event, session) => {
+        if (session?.user?.id) {
+            reloadLiveFeedForUser(session.user.id);
+        } else {
+            resetLiveFeedWithStatus('請先登入以載入 Live Feed。');
+        }
+    });
+
+    window.addEventListener('subscriptions:updated', async (e) => {
+        const nextUserId = e?.detail?.userId || liveFeedState.currentUserId;
+        if (nextUserId) {
+            await reloadLiveFeedForUser(nextUserId);
+        }
+    });
+
+    const { data: { session } } = await _supabase.auth.getSession();
+    if (session?.user?.id) {
+        await reloadLiveFeedForUser(session.user.id);
+    } else {
+        resetLiveFeedWithStatus('請先登入以載入 Live Feed。');
+    }
+}
+
+// 頁面初始化
+document.addEventListener('DOMContentLoaded', async () => {
+    if (window.universitySchemaPromise) {
+        await window.universitySchemaPromise;
+    }
+    loadPreviewData();
+    renderMenu();
+
+    const menuContainer = document.getElementById('menu-container');
+    if (menuContainer) {
+        menuContainer.addEventListener('change', (e) => {
+            const target = e.target;
+            if (target.matches('.child-checkbox')) {
+                updateParentStates(target);
+            } else if (target.matches('.parent-checkbox')) {
+                updateParentStates(target);
+            }
+        });
+    }
+
+    await initializeLiveFeed();
+});
 
 // 預覽模態邏輯
 window.categoryPreviewData = null;
@@ -200,4 +475,39 @@ function openPreviewModal(categoryId) {
 function closePreviewModal() {
     const modal = document.getElementById('preview-modal');
     modal.classList.add('hidden');
+}
+
+function aggregateFeedItems(items) {
+    if (!Array.isArray(items)) return [];
+    const map = new Map();
+    items.forEach(item => {
+        const key = item.url || item.id || `${item.title || ''}::${item.published_at || item.created_at || ''}`;
+        const triggerLabel = item.trigger_type || '選單訂閱';
+        const sourceLabel = item.source || item.category_id || '未分類';
+
+        if (!map.has(key)) {
+            map.set(key, Object.assign({}, item, {
+                triggers: [triggerLabel],
+                sources: [sourceLabel]
+            }));
+        } else {
+            const cur = map.get(key);
+            if (triggerLabel && !cur.triggers.includes(triggerLabel)) cur.triggers.push(triggerLabel);
+            if (sourceLabel && !cur.sources.includes(sourceLabel)) cur.sources.push(sourceLabel);
+            // prefer the newest published_at if available
+            if (item.published_at && (!cur.published_at || new Date(item.published_at) > new Date(cur.published_at))) {
+                cur.published_at = item.published_at;
+            }
+            if (item.created_at && (!cur.created_at || new Date(item.created_at) > new Date(cur.created_at))) {
+                cur.created_at = item.created_at;
+            }
+            if (!cur.title && item.title) cur.title = item.title;
+        }
+    });
+    // Normalize sources into single string
+    return Array.from(map.values()).map(it => ({
+        ...it,
+        source: (it.sources || []).join(', '),
+        triggers: it.triggers || []
+    }));
 }
