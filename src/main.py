@@ -2,6 +2,7 @@ import os
 import json
 from pathlib import Path
 from datetime import datetime
+from urllib.parse import urlsplit, urlunsplit
 from dotenv import load_dotenv
 from supabase import create_client, Client
 from scraper import fetch_ntnu_csie_category
@@ -57,11 +58,60 @@ def parse_published_at(item_date: str):
     except ValueError:
         return None
 
+
+def normalize_announcement_url(raw_url: str):
+    """
+    將公告 URL 正規化，避免尾斜線、query string 或 fragment 造成重複判定。
+    """
+    if not raw_url:
+        return ""
+
+    parsed = urlsplit(raw_url.strip())
+    path = parsed.path.rstrip("/")
+    if not path:
+        path = "/"
+
+    return urlunsplit((parsed.scheme.lower(), parsed.netloc.lower(), path, "", ""))
+
+
+def announcement_exists(supabase_client: Client, raw_url: str, cache: dict):
+    """
+    判斷公告是否已存在。會同時檢查原始 URL 與正規化 URL，並以快取避免重複查詢。
+    """
+    normalized_url = normalize_announcement_url(raw_url)
+    if not normalized_url:
+        return False
+
+    if normalized_url in cache:
+        return cache[normalized_url]
+
+    candidates = []
+    if raw_url:
+        candidates.append(raw_url)
+    if normalized_url != raw_url:
+        candidates.append(normalized_url)
+
+    for candidate in candidates:
+        existing = (
+            supabase_client.table("announcements")
+            .select("id")
+            .eq("url", candidate)
+            .limit(1)
+            .execute()
+        )
+        if existing.data:
+            cache[normalized_url] = True
+            return True
+
+    cache[normalized_url] = False
+    return False
+
 def run_sync():
     print("🚀 UniSync 多使用者同步引擎啟動...")
     total_dispatched = 0
     # 以 URL 聚合新公告，避免同一篇被多分類重複推播
     pending_by_url = {}
+    announcement_exists_cache = {}
     # 記錄每個分類的所有公告用於預覽
     category_previews = {cat_id: [] for cat_id in CSIE_CATEGORIES.keys()}
 
@@ -76,22 +126,31 @@ def run_sync():
         category_previews[cat_id] = news_items[:5]  # 每個分類保留最新 5 篇用於預覽
         
         for item in news_items:
-            if item['url'] not in pending_by_url:
-                pending_by_url[item['url']] = {
+            normalized_url = normalize_announcement_url(item.get('url', ''))
+            if not normalized_url:
+                continue
+
+            if normalized_url not in pending_by_url:
+                pending_by_url[normalized_url] = {
                     "item": item,
-                    "categories": set()
+                    "categories": set(),
+                    "normalized_url": normalized_url
                 }
-            pending_by_url[item['url']]["categories"].add(cat_id)
+            pending_by_url[normalized_url]["categories"].add(cat_id)
 
     # 第二階段：每個 URL 僅通知一次；資料庫則按 category_id 存一筆，供 Live Feed 查詢
-    for url_key, data in pending_by_url.items():
+    for _, data in pending_by_url.items():
         item = data["item"]
         categories = sorted(data["categories"])
         category_names = [CATEGORY_LABELS.get(cat_id, cat_id) for cat_id in categories]
+        normalized_url = data.get("normalized_url", normalize_announcement_url(item.get("url", "")))
 
         # 1. 檢查這個 URL 是否首次出現（用於「是否推播」判斷）
-        existing_url = supabase.table("announcements").select("id").eq("url", item['url']).limit(1).execute()
-        is_new_url = len(existing_url.data) == 0
+        is_new_url = not announcement_exists(supabase, item.get("url", ""), announcement_exists_cache)
+
+        if not is_new_url:
+            print(f"↩️ [已存在] {item['title']} ({', '.join(category_names)})")
+            continue
 
         # 2. 每個分類各存一筆，確保 Live Feed 可依 category_id 精準查詢
         for cat_id in categories:

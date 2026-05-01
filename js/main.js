@@ -14,7 +14,7 @@ function renderMenu() {
     const container = document.getElementById('menu-container');
     if (!container) return;
 
-    const renderChannels = (channels) => channels.map(ch => `
+    const renderChannels = (channels = []) => channels.map(ch => `
         <div class="menu-channel-row" style="display: flex; align-items: center; justify-content: space-between;">
             <label class="menu-channel" style="flex: 1;">
                 <input type="checkbox" value="${ch.value}" class="child-checkbox">
@@ -37,7 +37,9 @@ function renderMenu() {
                        onclick="event.stopPropagation(); handleParentClick(this, '${sub.id}')">
             </div>
             <div id="${sub.id}" class="collapsible-content menu-children menu-children-channel">
-                ${renderChannels(sub.channels)}
+                ${(Array.isArray(sub.subUnits) && sub.subUnits.length > 0)
+                    ? sub.subUnits.map(renderSubUnit).join('')
+                    : renderChannels(sub.channels || [])}
             </div>
         </div>
     `;
@@ -53,7 +55,8 @@ function renderMenu() {
                        onclick="event.stopPropagation(); handleParentClick(this, '${unit.id}')">
             </div>
             <div id="${unit.id}" class="collapsible-content menu-children menu-children-unit">
-                ${unit.subUnits.map(renderSubUnit).join('')}
+                ${(unit.channels || []).length > 0 ? renderChannels(unit.channels) : ''}
+                ${(unit.subUnits || []).map(renderSubUnit).join('')}
             </div>
         </div>
     `;
@@ -69,7 +72,7 @@ function renderMenu() {
                        onclick="event.stopPropagation(); handleParentClick(this, '${category.id}')">
             </div>
             <div id="${category.id}" class="collapsible-content menu-children menu-children-category">
-                ${category.units.map(renderUnit).join('')}
+                ${(category.units || []).map(renderUnit).join('')}
             </div>
         </div>
     `).join('');

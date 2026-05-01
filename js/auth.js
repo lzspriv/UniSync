@@ -119,7 +119,7 @@ async function syncUserData(userId) {
         cb.checked = subIds.includes(cb.value);
     });
 
-    // 自動展開並同步父層 checkbox 的勾選狀態
+    // 同步父層 checkbox 的勾選狀態，但不自動展開選單
     document.querySelectorAll('.parent-checkbox').forEach(parentCb => {
         // 嘗試取得該 parent 對應的容器（通常為 menu-row 的下一個 sibling）
         const row = parentCb.closest('.menu-row');
@@ -130,22 +130,6 @@ async function syncUserData(userId) {
         // 當前容器下是否有任何被勾選的 child-checkbox
         const anyChildChecked = container.querySelectorAll('.child-checkbox:checked').length > 0;
         parentCb.checked = anyChildChecked;
-
-        // 若有則展開該容器與上層
-        if (anyChildChecked && !container.classList.contains('expanded')) {
-            container.classList.add('expanded');
-            document.getElementById(`icon-${container.id}`)?.classList.add('rotate-icon');
-        }
-    });
-
-    // 最後把多層父層也展開（逐級向上）
-    document.querySelectorAll('.collapsible-content.expanded').forEach(container => {
-        let parent = container.parentElement?.closest('.collapsible-content');
-        while (parent) {
-            parent.classList.add('expanded');
-            document.getElementById(`icon-${parent.id}`)?.classList.add('rotate-icon');
-            parent = parent.parentElement?.closest('.collapsible-content');
-        }
     });
 
     // 更新訂閱計數
