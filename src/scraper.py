@@ -18,6 +18,7 @@ def fetch_ntnu_csie_category(url, category_name):
         all_news = []  # 所有爬到的公告（不限時間）
         recent_news = []  # 最近 5 天內的公告
         cutoff_date = datetime.now() - timedelta(days=5)  # 最近 5 天的截止日期
+        old_articles_count = 0  # 連續超過 5 天的公告計數器
 
         # 定位所有文章區塊
         articles = soup.select('#blog-entries article')
@@ -46,9 +47,16 @@ def fetch_ntnu_csie_category(url, category_name):
                     article_date = datetime.strptime(date_text, "%Y-%m-%d")
                     if article_date >= cutoff_date:
                         recent_news.append(news_item)
+                        old_articles_count = 0  # 重置計數器
+                    else:
+                        old_articles_count += 1
+                        # 🎯 提前停止：已爬 20 篇且連續遇到 5 篇舊公告，就停止
+                        if len(all_news) >= 20 and old_articles_count >= 5:
+                            break
                 except ValueError:
                     # 無法解析日期，當作新公告處理
                     recent_news.append(news_item)
+                    old_articles_count = 0
         
         # 🎯 智慧邏輯：5 天內不足 5 篇就爬 5 篇；5 天內滿 5 篇以上就只爬 5 天內的
         if len(recent_news) < 5:
