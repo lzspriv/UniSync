@@ -36,7 +36,7 @@ def send_discord_notification(webhook_url: str, category_id: str, announcements:
     embeds = []
     for anno in announcements[:5]: # 最多一次顯示 5 則，避免訊息過長
         embeds.append({
-            "title": f"📢 {category_id}：新公告",
+            "title": f"📢 {category_id}",
             "url": anno['url'],
             "description": f"{anno['title']}\n發布日期: {anno.get('date', 'N/A')}",
             "color": 3447003 # Discord 藍色
@@ -98,7 +98,7 @@ def notify_announcement_once(supabase: Client, item: dict, category_ids: list, c
 
     category_labels = category_labels or {}
     friendly_names = [category_labels.get(cat_id, cat_id) for cat_id in sorted(category_ids)]
-    category_label = " / ".join(friendly_names)
+    category_label = "\n".join(friendly_names)
     webhooks = get_subscriptions_for_categories(supabase, category_ids)
 
     if not webhooks:
