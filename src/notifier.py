@@ -36,7 +36,7 @@ def send_discord_notification(webhook_url: str, category_id: str, announcements:
     embeds = []
     for anno in announcements[:5]: # 最多一次顯示 5 則，避免訊息過長
         embeds.append({
-            "title": f"📢 {category_id}",
+            "title": f"📢 {category_id}\n新公告",
             "url": anno['url'],
             "description": f"{anno['title']}\n發布日期: {anno.get('date', 'N/A')}",
             "color": 3447003 # Discord 藍色
