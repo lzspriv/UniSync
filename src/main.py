@@ -37,9 +37,6 @@ def load_category_config():
     return csie_categories, category_labels, categories
 
 
-# 2. 從共用設定檔載入掃描清單與中文標籤
-CSIE_CATEGORIES, CATEGORY_LABELS, FULL_CATEGORIES = load_category_config()
-
 
 def parse_published_at(date_str: str):
     if not date_str:
@@ -55,8 +52,7 @@ def parse_published_at(date_str: str):
             return datetime.strptime(date_text, fmt).isoformat()
         except ValueError:
             continue
-    return None
-
+    return datetime.utcnow().isoformat() + "Z"
 
 def normalize_announcement_url(raw_url: str):
     """
@@ -110,6 +106,8 @@ def announcement_exists(supabase_client: Client, raw_url: str, cache: dict):
     return False
 
 def run_sync():
+    # 2. 從共用設定檔載入掃描清單與中文標籤
+    CSIE_CATEGORIES, CATEGORY_LABELS, FULL_CATEGORIES = load_category_config()
     print("🚀 UniSync 多使用者同步引擎啟動...")
     total_dispatched = 0
     # 以 URL 聚合新公告，避免同一篇被多分類重複推播
