@@ -65,11 +65,6 @@
       "owner": "物理學系",
       "url": "https://www2.phy.ntnu.edu.tw/index.php/category/news/1/"
     },
-    "phy_talk": {
-      "label": "演講活動",
-      "owner": "物理學系",
-      "url": "https://www2.phy.ntnu.edu.tw/index.php/invite-talk/"
-    },
     "phy_honor": {
       "label": "系所榮譽",
       "owner": "物理學系",
@@ -110,20 +105,15 @@
       "owner": "化學系",
       "url": "https://www.chem.ntnu.edu.tw/index.php/category/uncategorized/5/"
     },
-    "chem_lecture": {
-      "label": "學術演講",
-      "owner": "化學系",
-      "url": "https://www.chem.ntnu.edu.tw/index.php/lecture/"
-    },
     "chem_cnews": {
       "label": "系所新聞",
       "owner": "化學系",
-      "url": "https://www.chem.ntnu.edu.tw/index.php/cnews/"
-    },
-    "chem_giving": {
-      "label": "捐款支持",
-      "owner": "化學系",
-      "url": "https://www.chem.ntnu.edu.tw/index.php/giving/"
+      "url": "https://www.chem.ntnu.edu.tw/index.php/cnews/",
+      "selectors": {
+        "article": ".elementor-widget-image-box",
+        "title_link": ".elementor-image-box-title a",
+        "date": ".elementor-image-box-description"
+      }
     },
     "chem_recruitment": {
       "label": "徵才資訊",
@@ -342,7 +332,6 @@
               "channels": [
                 { "name": "最新公告", "value": "phy_news" },
                 { "name": "系所公告", "value": "phy_announcement" },
-                { "name": "演講活動", "value": "phy_talk" },
                 { "name": "系所榮譽", "value": "phy_honor" },
                 { "name": "獎助學金", "value": "phy_scholarship" }
               ]
@@ -357,9 +346,7 @@
                 { "name": "教務公告", "value": "chem_academic" },
                 { "name": "獎助學金", "value": "chem_scholarship" },
                 { "name": "師生榮譽", "value": "chem_honor" },
-                { "name": "學術演講", "value": "chem_lecture" },
                 { "name": "系所新聞", "value": "chem_cnews" },
-                { "name": "捐款支持", "value": "chem_giving" },
                 { "name": "徵才資訊", "value": "chem_recruitment" }
               ]
             },

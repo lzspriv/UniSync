@@ -1,13 +1,48 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
+import re
 
-def fetch_ntnu_csie_category(url, category_name):
+def parse_taiwan_date(text):
+    """
+    智慧解析字串中的日期（支援民國、西元格式）。
+    成功則回傳 "YYYY-MM-DD"，失敗回傳 "未知日期"。
+    """
+    if not text:
+        return "未知日期", text
+        
+    # 🔍 尋找民國格式，例如: 115年4月29日 或 114年12月15日
+    tw_match = re.search(r'(\d{2,3})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日', text)
+    if tw_match:
+        year = int(tw_match.group(1)) + 1911  # 轉為西元年
+        month = int(tw_match.group(2))
+        day = int(tw_match.group(3))
+        # 將原本文字中的日期標籤部分拿掉，保留純內文當摘要
+        summary = text.replace(tw_match.group(0), "").replace("🏷️", "").strip()
+        return f"{year}-{month:02d}-{day:02d}", summary
+
+    # 🔍 尋找西元格式，例如: 2026-04-30
+    en_match = re.search(r'(\d{4})[-/](\d{1,2})[-/](\d{1,2})', text)
+    if en_match:
+        summary = text.replace(en_match.group(0), "").strip()
+        return f"{en_match.group(1)}-{int(en_match.group(2)):02d}-{int(en_match.group(3)):02d}", summary
+
+    return "未知日期", text
+
+def fetch_university_announcements(url, category_name, scraper_config=None):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
+    
+    if not scraper_config:
+        scraper_config = {
+            "article": "#blog-entries article",
+            "title_link": ".blog-entry-title.entry-title a",
+            "date": ".meta-date"
+        }
+
     try:
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, timeout=10)
         response.encoding = 'utf-8'
         
         if response.status_code != 200:
@@ -15,68 +50,59 @@ def fetch_ntnu_csie_category(url, category_name):
             return []
 
         soup = BeautifulSoup(response.text, 'html.parser')
-        all_news = []  # 所有爬到的公告（不限時間）
-        recent_news = []  # 最近 5 天內的公告
-        cutoff_date = datetime.now() - timedelta(days=5)  # 最近 5 天的截止日期
-        old_articles_count = 0  # 連續超過 5 天的公告計數器
+        all_news = []
+        recent_news = []
+        cutoff_date = datetime.now() - timedelta(days=10) # 擴大緩衝到10天
+        old_articles_count = 0
 
-        # 定位所有文章區塊
-        articles = soup.select('#blog-entries article')
+        articles = soup.select(scraper_config.get("article", "#blog-entries article"))
         
         for article in articles:
-            link_tag = article.select_one('.blog-entry-title.entry-title a')
-            # 🔍 定位日期標籤
-            date_tag = article.select_one('.meta-date')
+            link_tag = article.select_one(scraper_config.get("title_link", ".blog-entry-title.entry-title a"))
+            date_tag = article.select_one(scraper_config.get("date", ".meta-date"))
             
-            if link_tag:
-                # 清理日期字串，去掉多餘的標籤文字
-                date_text = date_tag.get_text(strip=True).replace("Post published:", "") if date_tag else "未知日期"
+            if link_tag and link_tag.get('href'):
+                raw_date_text = date_tag.get_text(strip=True) if date_tag else ""
+                
+                # 智慧日期解析，分離出乾淨的日期與摘要
+                date_text, summary_text = parse_taiwan_date(raw_date_text)
                 
                 news_item = {
                     "title": link_tag.get_text(strip=True),
                     "url": link_tag.get('href'),
                     "date": date_text,
+                    "summary": summary_text[:150] + "..." if len(summary_text) > 150 else summary_text,
                     "category": category_name
                 }
-                
-                # 先加入 all_news（用於備援）
                 all_news.append(news_item)
                 
-                # 判斷是否在 5 天內
+                # 📝 修正時間截斷邏輯：確保不被 ValueError 意外重置
                 try:
-                    article_date = datetime.strptime(date_text, "%Y-%m-%d")
-                    if article_date >= cutoff_date:
-                        recent_news.append(news_item)
-                        old_articles_count = 0  # 重置計數器
-                    else:
+                    if date_text == "未知日期":
+                        # 無法取得日期的單頁或卡片，不計入連續舊公告，但也不重置計數
                         old_articles_count += 1
-                        # 🎯 提前停止：已爬 20 篇且連續遇到 5 篇舊公告，就停止
-                        if len(all_news) >= 20 and old_articles_count >= 5:
-                            break
+                    else:
+                        article_date = datetime.strptime(date_text, "%Y-%m-%d")
+                        if article_date >= cutoff_date:
+                            recent_news.append(news_item)
+                            old_articles_count = 0 # 真正的新公告，重置計數器
+                        else:
+                            old_articles_count += 1
+                            # 🎯 超過 5 天的舊公告，且連續遇到 5 篇，且總數已經夠多，就安全中斷
+                            if len(all_news) >= 10 and old_articles_count >= 5:
+                                break
                 except ValueError:
-                    # 無法解析日期，當作新公告處理
-                    recent_news.append(news_item)
-                    old_articles_count = 0
+                    # 解析格式異常時，安全遞增舊公告計數，不盲目重置
+                    old_articles_count += 1
         
-        # 🎯 智慧邏輯：5 天內不足 5 篇就爬 5 篇；5 天內滿 5 篇以上就只爬 5 天內的
-        if len(recent_news) < 5:
-            # 5 天內不足 5 篇，取前 5 篇（可能跨越時間）
-            news_list = all_news[:5]
-        else:
-            # 5 天內滿 5 篇以上，只保留 5 天內的（會自動被截斷為預覽用）
-            news_list = recent_news
+        # 🎯 確保 main.py 和 JSON 檔案拿到完全一致的前 5 筆 Fallback 資料
+        return all_news[:5] if len(recent_news) < 5 else recent_news
         
-        return news_list
     except Exception as e:
-        print(f"❌ 錯誤: {e}")
+        print(f"❌ 爬取 {category_name} 時發生異常: {e}")
         return []
 
 if __name__ == "__main__":
+    # 測試用
     test_url = "https://www.csie.ntnu.edu.tw/index.php/category/news/announcement/"
-    print(f"🔍 正在測試抓取：{test_url}...")
-    results = fetch_ntnu_csie_category(test_url, "系所公告")
-    
-    if not results:
-        print("查無資料")
-    else:
-        print(f"✅ 成功抓取 {len(results)} 筆資料，第一筆日期：{results[0]['date']}")
+    print(fetch_university_announcements(test_url, "資工系辦測試"))

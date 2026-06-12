@@ -5,7 +5,7 @@ from datetime import datetime
 from urllib.parse import urlsplit, urlunsplit
 from dotenv import load_dotenv
 from supabase import create_client, Client
-from scraper import fetch_ntnu_csie_category
+from scraper import fetch_university_announcements
 from notifier import notify_announcement_once
 
 # 1. 初始化環境變數與 Supabase
@@ -34,34 +34,34 @@ def load_category_config():
         )
         for category_id, meta in categories.items()
     }
-    return csie_categories, category_labels
+    return csie_categories, category_labels, categories
 
 
 # 2. 從共用設定檔載入掃描清單與中文標籤
-CSIE_CATEGORIES, CATEGORY_LABELS = load_category_config()
+CSIE_CATEGORIES, CATEGORY_LABELS, FULL_CATEGORIES = load_category_config()
 
 
-def parse_published_at(item_date: str):
-    """
-    將爬蟲日期字串轉為 ISO 時間，失敗則回傳 None。
-    """
-    if not item_date:
+def parse_published_at(date_str: str):
+    if not date_str:
         return None
 
-    date_text = item_date.strip()
+    date_text = date_str.strip()
     if date_text in ("未知日期", ""):
         return None
 
-    try:
-        # 來源格式示例：2026-04-30
-        return datetime.strptime(date_text, "%Y-%m-%d").isoformat()
-    except ValueError:
-        return None
+    # 支援 YYYY-MM-DD 轉 ISO
+    for fmt in ("%Y-%m-%d", "%Y/%m/%d"):
+        try:
+            return datetime.strptime(date_text, fmt).isoformat()
+        except ValueError:
+            continue
+    return None
 
 
 def normalize_announcement_url(raw_url: str):
     """
-    將公告 URL 正規化，避免尾斜線、query string 或 fragment 造成重複判定。
+    將公告 URL 正規化，避免尾斜線或 fragment 造成重複判定。
+    保留 query string，因為它通常包含區分公告的唯一標識符（如 id）。
     """
     if not raw_url:
         return ""
@@ -70,8 +70,11 @@ def normalize_announcement_url(raw_url: str):
     path = parsed.path.rstrip("/")
     if not path:
         path = "/"
+    
+    # 保留 query string 以正確區分有相同路徑但不同 ID 的公告
+    query = parsed.query
 
-    return urlunsplit((parsed.scheme.lower(), parsed.netloc.lower(), path, "", ""))
+    return urlunsplit((parsed.scheme.lower(), parsed.netloc.lower(), path, query, ""))
 
 
 def announcement_exists(supabase_client: Client, raw_url: str, cache: dict):
@@ -119,8 +122,12 @@ def run_sync():
         # 友善顯示名稱（中文）
         display_name = CATEGORY_LABELS.get(cat_id, cat_id)
         
+        # ✨ 修正：從完整設定中抓出對應分類的 selectors
+        meta = FULL_CATEGORIES.get(cat_id, {})
+        scraper_selectors = meta.get("selectors", None)
+
         print(f"🔍 掃描分類：{display_name} ({cat_id})")
-        news_items = fetch_ntnu_csie_category(cat_url, display_name)
+        news_items = fetch_university_announcements(cat_url, display_name, scraper_selectors)
         
         # 記錄該分類爬到的所有公告（用於預覽）
         category_previews[cat_id] = news_items[:5]  # 每個分類保留最新 5 篇用於預覽
