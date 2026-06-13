@@ -5,20 +5,26 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: unisync-auto-scraper
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    # ✨ 加入這行環境變數，強制所有 Action 使用 Node 24 執行
+
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-      
+
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4 # ✨ 已更新版本
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5 # ✨ 已更新版本
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -27,11 +33,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Debug Path (Optional)
-        run: ls -R # ✨ 幫助你確認 config 資料夾是否存在
-
       - name: Run UniSync Engine
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python src/main.py
+
+      - name: Commit Category Preview Updates
+        run: |
+          if git diff --quiet -- category-previews.json; then
+            echo "category-previews.json has no changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add category-previews.json
+          git commit -m "chore: 更新分類預覽快取 [skip ci]"
+          git push
