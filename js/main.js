@@ -89,12 +89,6 @@ function handleParentClick(parentCheckbox, containerId) {
     // 勾選該容器下所有的 checkbox[cite: 1]
     const allCheckboxes = container.querySelectorAll('input[type="checkbox"]');
     allCheckboxes.forEach(cb => cb.checked = isChecked);
-    
-    // 自動展開選單[cite: 1]
-    if (isChecked && !container.classList.contains('expanded')) {
-        container.classList.add('expanded');
-        document.getElementById(`icon-${containerId}`)?.classList.add('rotate-icon');
-    }
 }
 
 /**
