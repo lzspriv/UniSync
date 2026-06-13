@@ -764,6 +764,142 @@
         "title_link": ".gdlr-core-blog-title a",
         "date": ".gdlr-core-blog-info-date a"
       }
+    },
+    "cal_latest": {
+      "label": "最新消息",
+      "owner": "英語學術素養中心",
+      "url": "https://www.cal.ntnu.edu.tw/index.php",
+      "selectors": {
+        "parser": "cal_news_card",
+        "article": "#home-news .list-box",
+        "title_link": ".article-box .title a",
+        "date": ".date"
+      }
+    },
+    "cal_center_news": {
+      "label": "中心消息",
+      "owner": "英語學術素養中心",
+      "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/category/1",
+      "selectors": {
+        "parser": "cal_news_card",
+        "article": ".main .list-box",
+        "title_link": ".image-box a[title]",
+        "date": ".date"
+      }
+    },
+    "cal_events": {
+      "label": "活動資訊",
+      "owner": "英語學術素養中心",
+      "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/category/2",
+      "selectors": {
+        "parser": "cal_news_card",
+        "article": ".main .list-box",
+        "title_link": ".image-box a[title]",
+        "date": ".date"
+      }
+    },
+    "cal_important": {
+      "label": "重要公告",
+      "owner": "英語學術素養中心",
+      "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/category/3",
+      "selectors": {
+        "parser": "cal_news_card",
+        "article": ".main .list-box",
+        "title_link": ".image-box a[title]",
+        "date": ".date"
+      }
+    },
+    "cal_linkup": {
+      "label": "LinkUp: EMI 學術文化探索營",
+      "owner": "英語學術素養中心",
+      "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/category/5",
+      "selectors": {
+        "parser": "cal_news_card",
+        "article": ".main .list-box",
+        "title_link": ".image-box a[title]",
+        "date": ".date"
+      }
+    },
+    "cal_forwarded": {
+      "label": "轉知消息",
+      "owner": "英語學術素養中心",
+      "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/category/6",
+      "selectors": {
+        "parser": "cal_news_card",
+        "article": ".main .list-box",
+        "title_link": ".image-box a[title]",
+        "date": ".date"
+      }
+    },
+    "iaao_latest": {
+      "label": "最新消息",
+      "owner": "跨領域學習規劃辦公室",
+      "url": "https://www.iaao.ntnu.edu.tw/?page_id=2558",
+      "selectors": {
+        "article": "li.wp-block-post",
+        "title_link": ".wp-block-post-title a",
+        "date": ".wp-block-post-date time"
+      }
+    },
+    "iaao_english": {
+      "label": "English",
+      "owner": "跨領域學習規劃辦公室",
+      "url": "https://www.iaao.ntnu.edu.tw/?cat=38",
+      "selectors": {
+        "article": "li.wp-block-post",
+        "title_link": ".wp-block-post-title a",
+        "date": ".wp-block-post-date time"
+      }
+    },
+    "iaao_all": {
+      "label": "全部類別",
+      "owner": "跨領域學習規劃辦公室",
+      "url": "https://www.iaao.ntnu.edu.tw/?cat=42",
+      "selectors": {
+        "article": "li.wp-block-post",
+        "title_link": ".wp-block-post-title a",
+        "date": ".wp-block-post-date time"
+      }
+    },
+    "iaao_results": {
+      "label": "活動成果",
+      "owner": "跨領域學習規劃辦公室",
+      "url": "https://www.iaao.ntnu.edu.tw/?cat=52",
+      "selectors": {
+        "article": "li.wp-block-post",
+        "title_link": ".wp-block-post-title a",
+        "date": ".wp-block-post-date time"
+      }
+    },
+    "iaao_events": {
+      "label": "活動資訊",
+      "owner": "跨領域學習規劃辦公室",
+      "url": "https://www.iaao.ntnu.edu.tw/?cat=28",
+      "selectors": {
+        "article": "li.wp-block-post",
+        "title_link": ".wp-block-post-title a",
+        "date": ".wp-block-post-date time"
+      }
+    },
+    "iaao_office": {
+      "label": "辦公室消息",
+      "owner": "跨領域學習規劃辦公室",
+      "url": "https://www.iaao.ntnu.edu.tw/?cat=1",
+      "selectors": {
+        "article": "li.wp-block-post",
+        "title_link": ".wp-block-post-title a",
+        "date": ".wp-block-post-date time"
+      }
+    },
+    "iaao_important": {
+      "label": "重要公告",
+      "owner": "跨領域學習規劃辦公室",
+      "url": "https://www.iaao.ntnu.edu.tw/?cat=29",
+      "selectors": {
+        "article": "li.wp-block-post",
+        "title_link": ".wp-block-post-title a",
+        "date": ".wp-block-post-date time"
+      }
     }
   },
   "schema": [
@@ -934,12 +1070,66 @@
             {
               "id": "l3-academic-literacy-center",
               "name": "英語學術素養中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "cal_latest",
+                  "name": "最新消息"
+                },
+                {
+                  "value": "cal_center_news",
+                  "name": "中心消息"
+                },
+                {
+                  "value": "cal_events",
+                  "name": "活動資訊"
+                },
+                {
+                  "value": "cal_important",
+                  "name": "重要公告"
+                },
+                {
+                  "value": "cal_linkup",
+                  "name": "LinkUp: EMI 學術文化探索營"
+                },
+                {
+                  "value": "cal_forwarded",
+                  "name": "轉知消息"
+                }
+              ]
             },
             {
               "id": "l3-interdisciplinary-learning-office",
               "name": "跨領域學習規劃辦公室",
-              "channels": []
+              "channels": [
+                {
+                  "value": "iaao_latest",
+                  "name": "最新消息"
+                },
+                {
+                  "value": "iaao_english",
+                  "name": "English"
+                },
+                {
+                  "value": "iaao_all",
+                  "name": "全部類別"
+                },
+                {
+                  "value": "iaao_results",
+                  "name": "活動成果"
+                },
+                {
+                  "value": "iaao_events",
+                  "name": "活動資訊"
+                },
+                {
+                  "value": "iaao_office",
+                  "name": "辦公室消息"
+                },
+                {
+                  "value": "iaao_important",
+                  "name": "重要公告"
+                }
+              ]
             }
           ]
         },

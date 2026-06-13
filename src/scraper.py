@@ -55,6 +55,10 @@ def parse_taiwan_date(text):
     return "未知日期", text
 
 
+def normalize_whitespace(text):
+    return re.sub(r"\s+", " ", text or "").strip()
+
+
 def parse_dated_link_text(text):
     """
     Parse list links that include the publish date in the link text, for example:
@@ -109,6 +113,45 @@ def parse_split_date(yearmonth_text, day_text):
     year, month = match.groups()
     day = day_match.group(1)
     return f"{year}-{int(month):02d}-{int(day):02d}"
+
+
+def parse_cal_date(date_tag):
+    if not date_tag:
+        return "未知日期"
+
+    date_text = date_tag.get_text(" ", strip=True)
+    parsed_date, _ = parse_taiwan_date(date_text)
+    if parsed_date != "未知日期":
+        return parsed_date
+
+    month_map = {
+        "jan": 1,
+        "feb": 2,
+        "mar": 3,
+        "apr": 4,
+        "may": 5,
+        "jun": 6,
+        "jul": 7,
+        "aug": 8,
+        "sep": 9,
+        "oct": 10,
+        "nov": 11,
+        "dec": 12,
+    }
+    day_tag = date_tag.select_one(".day")
+    month_tag = date_tag.select_one(".month")
+    day_match = re.search(r"\d{1,2}", day_tag.get_text(" ", strip=True) if day_tag else "")
+    month_text = (month_tag.get_text(" ", strip=True) if month_tag else "")[:3].lower()
+
+    if not day_match or month_text not in month_map:
+        return "未知日期"
+
+    today = datetime.now()
+    candidate = datetime(today.year, month_map[month_text], int(day_match.group(0)))
+    if candidate - today > timedelta(days=30):
+        candidate = candidate.replace(year=today.year - 1)
+
+    return candidate.strftime("%Y-%m-%d")
 
 
 class SafeFormatDict(dict):
@@ -239,7 +282,7 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
             date_tag = article.select_one(scraper_config.get("date", ".meta-date"))
             
             if link_tag and link_tag.get('href'):
-                link_text = link_tag.get_text(" ", strip=True)
+                link_text = normalize_whitespace(link_tag.get_text(" ", strip=True))
                 absolute_url = urljoin(url, link_tag.get('href'))
                 if absolute_url in seen_urls:
                     continue
@@ -273,6 +316,11 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                     raw_date_text = date_tag.get_text(" ", strip=True) if date_tag else ""
                     date_text, _ = parse_taiwan_date(raw_date_text)
                     summary_text = ""
+                elif scraper_config.get("parser") == "cal_news_card":
+                    title_text = link_text or link_tag.get("title", "").strip()
+                    date_text = parse_cal_date(date_tag)
+                    summary_tag = article.select_one(scraper_config.get("summary", ".article"))
+                    summary_text = summary_tag.get_text(" ", strip=True) if summary_tag else ""
                 else:
                     raw_date_text = date_tag.get_text(strip=True) if date_tag else ""
 

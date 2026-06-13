@@ -3988,5 +3988,434 @@
         "summary": ""
       }
     ]
+  },
+  "cal_latest": {
+    "label": "最新消息",
+    "announcements": [
+      {
+        "title": "【錄取名單】2026 LinkUp:EMI 學術文化探索營EMI Academic & Cultural Camp",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/5/109",
+        "date": "2026-05-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【轉知消息】TESPA 「AI × EMI」圓桌對談系列工作坊",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/6/107",
+        "date": "2026-05-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【報名開始】 LinkUp: EMI 學術文化探索營",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/5/105",
+        "date": "2026-05-04",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cal_center_news": {
+    "label": "中心消息",
+    "announcements": [
+      {
+        "title": "【114-2學年度 諮詢預約開跑囉！】",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/1/87",
+        "date": "2026-02-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "學術投稿英語專書，正式上市！",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/1/81",
+        "date": "2026-01-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "誠徵｜學術英語輔導員",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/1/79",
+        "date": "2025-12-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【CAL寒假諮詢開跑啦！】",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/1/77",
+        "date": "2025-12-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【114-1學年度 預約開跑囉！】",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/1/73",
+        "date": "2025-09-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cal_events": {
+    "label": "活動資訊",
+    "announcements": [
+      {
+        "title": "【114-2 學術英語M.A.P系列講座 CAL TALKS-3】",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/2/93",
+        "date": "2026-04-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "你圈我叉 英文哈拉擂台賽 Circle or Cross — Let’s Talk It Out!",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/2/95",
+        "date": "2026-04-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【114-2 學術英語M.A.P系列講座 CAL TALKS-2】",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/2/91",
+        "date": "2026-04-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "0324 | CAL轉運車輪餅",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/2/89",
+        "date": "2026-03-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-2 學術英語M.A.P系列講座 CAL TALKS-1",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/2/85",
+        "date": "2026-02-26",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cal_important": {
+    "label": "重要公告",
+    "announcements": [
+      {
+        "title": "【重要公告：中心將全面結合AI進行寫作與口說諮詢】",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/3/37",
+        "date": "2024-10-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "諮詢預約制度調整",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/3/3",
+        "date": "2024-05-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要公告：諮詢時間調整】",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/3/45",
+        "date": "2024-11-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【英語學術素養中心 最新服務 Writing Study Group】",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/3/47",
+        "date": "2024-11-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cal_linkup": {
+    "label": "LinkUp: EMI 學術文化探索營",
+    "announcements": [
+      {
+        "title": "【錄取名單】2026 LinkUp:EMI 學術文化探索營EMI Academic & Cultural Camp",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/5/109",
+        "date": "2026-05-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【報名開始】 LinkUp: EMI 學術文化探索營",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/5/105",
+        "date": "2026-05-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "06/17-06/18 | LinkUp：EMI學術文化探索營",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/5/101",
+        "date": "2026-04-23",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cal_forwarded": {
+    "label": "轉知消息",
+    "announcements": [
+      {
+        "title": "【轉知消息】TESPA 「AI × EMI」圓桌對談系列工作坊",
+        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/6/107",
+        "date": "2026-05-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "iaao_latest": {
+    "label": "最新消息",
+    "announcements": [
+      {
+        "title": "【活動紀實】臺師大首屆校學士畢業生 跨域探索開創專屬學習藍圖",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3398",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動紀實】臺師大「AI與宗教」跨域講座 探討人工智能時代的信仰變革",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3390",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動紀實】跨域講座聚焦職場趨勢 羊正鈺解析企業選才關鍵",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3370",
+        "date": "2026-05-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "第一屆校學士成果發表暨小畢典",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3362",
+        "date": "2026-05-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動分享】從聲音創作切入科技跨域應用",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3353",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "iaao_english": {
+    "label": "English",
+    "announcements": [
+      {
+        "title": "Important Announcement: Online Information Session for the 2026 Academic Year University Interdisciplinary Bachelor Program",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3221",
+        "date": "2026-03-12",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "iaao_all": {
+    "label": "全部類別",
+    "announcements": [
+      {
+        "title": "【活動紀實】臺師大首屆校學士畢業生 跨域探索開創專屬學習藍圖",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3398",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動紀實】臺師大「AI與宗教」跨域講座 探討人工智能時代的信仰變革",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3390",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動紀實】跨域講座聚焦職場趨勢 羊正鈺解析企業選才關鍵",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3370",
+        "date": "2026-05-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "第一屆校學士成果發表暨小畢典",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3362",
+        "date": "2026-05-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動分享】從聲音創作切入科技跨域應用",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3353",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "iaao_results": {
+    "label": "活動成果",
+    "announcements": [
+      {
+        "title": "【活動紀實】臺師大首屆校學士畢業生 跨域探索開創專屬學習藍圖",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3398",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動紀實】臺師大「AI與宗教」跨域講座 探討人工智能時代的信仰變革",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3390",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動紀實】跨域講座聚焦職場趨勢 羊正鈺解析企業選才關鍵",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3370",
+        "date": "2026-05-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動紀實】勇於跳脫框架、定義人生關卡 謝佩璇回母校談「以終為始」的跨域實踐",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3340",
+        "date": "2026-05-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "找到你的跨域人生定位：興趣ｘ專業ｘ社會責任／公民教育與活動領導學系",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3238",
+        "date": "2026-03-16",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "iaao_events": {
+    "label": "活動資訊",
+    "announcements": [
+      {
+        "title": "【開放報名】114-2 跨領域學習系列講座「跨域進化論：AI 時代的生存與超越」",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3280",
+        "date": "2026-03-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【跨域講座】淺談語言黑科技：跨領域學習的秘密武器",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=2383",
+        "date": "2025-10-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【跨域講座】向運動員學習，活出無限人生",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=2379",
+        "date": "2025-10-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【跨域講座】從企業管理管到知識轉譯：獨立記者如何跨界養成、找到產業定位？",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=2371",
+        "date": "2025-10-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動資訊】跨領域學習系列講座 熱烈報名中",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=2271",
+        "date": "2025-10-14",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "iaao_office": {
+    "label": "辦公室消息",
+    "announcements": [
+      {
+        "title": "第一屆校學士成果發表暨小畢典",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3362",
+        "date": "2026-05-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動分享】從聲音創作切入科技跨域應用",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3353",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要資訊】114學年度第2學期「跨領域人才培育活動補助」第二階段申請通過名單",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=2834",
+        "date": "2026-02-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動紀實】講座與補助雙軌並進 跨域辦公室深化跨領域學習支持",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=2790",
+        "date": "2025-12-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動紀實】從企管跨域新聞 《報導者》影音製作人方君竹 藉創新轉譯建構自身定位",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=2614",
+        "date": "2025-12-05",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "iaao_important": {
+    "label": "重要公告",
+    "announcements": [
+      {
+        "title": "【重要公告】115學年度校學士線上說明會",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=2972",
+        "date": "2026-02-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要公告】國立臺灣師範大學115學年度校學士申請說明",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=2964",
+        "date": "2026-02-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要資訊】114學年度第2學期「跨領域人才培育活動補助」第一階段申請通過名單",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=2813",
+        "date": "2026-01-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要資訊】114學年度第2學期「跨領域人才培育活動補助」申請資訊",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=2516",
+        "date": "2025-11-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要公告】114學年度第1學期「跨領域人才培育活動補助」第二階段申請通過名單",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=2225",
+        "date": "2025-10-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   }
 }
