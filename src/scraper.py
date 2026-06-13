@@ -4,6 +4,20 @@ from datetime import datetime, timedelta
 import re
 from urllib.parse import urljoin
 
+
+def article_matches_selector(article, selector):
+    if not selector:
+        return False
+
+    if selector.startswith("."):
+        return selector[1:] in article.get("class", [])
+
+    if selector.startswith("#"):
+        return article.get("id") == selector[1:]
+
+    return article.name == selector
+
+
 def parse_taiwan_date(text):
     """
     智慧解析字串中的日期（支援民國、西元格式）。
@@ -69,7 +83,13 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                 # 智慧日期解析，分離出乾淨的日期與摘要
                 date_text, summary_text = parse_taiwan_date(raw_date_text)
 
-                is_pinned = bool(pinned_selector and article.select_one(pinned_selector))
+                is_pinned = bool(
+                    pinned_selector
+                    and (
+                        article_matches_selector(article, pinned_selector)
+                        or article.select_one(pinned_selector)
+                    )
+                )
                 is_recent = False
                 date_is_known = date_text != "未知日期"
 

@@ -417,6 +417,54 @@
       "label": "其他資訊公告",
       "owner": "生命科學系",
       "url": "https://www.biol.ntnu.edu.tw/index.php/category/uncategorized/3/"
+    },
+    "nutrition_news": {
+      "label": "最新消息",
+      "owner": "營養科學學士暨碩士學位學程",
+      "url": "https://www.nutrition.ntnu.edu.tw/index.php/2022-01-12/",
+      "selectors": {
+        "pinned": ".sticky"
+      }
+    },
+    "nutrition_all": {
+      "label": "所有消息",
+      "owner": "營養科學學士暨碩士學位學程",
+      "url": "https://www.nutrition.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "pinned": ".sticky"
+      }
+    },
+    "nutrition_dept": {
+      "label": "系務公告",
+      "owner": "營養科學學士暨碩士學位學程",
+      "url": "https://www.nutrition.ntnu.edu.tw/index.php/category/uncategorized/dept/",
+      "selectors": {
+        "pinned": ".sticky"
+      }
+    },
+    "nutrition_activities": {
+      "label": "活動消息",
+      "owner": "營養科學學士暨碩士學位學程",
+      "url": "https://www.nutrition.ntnu.edu.tw/index.php/category/uncategorized/activ/",
+      "selectors": {
+        "pinned": ".sticky"
+      }
+    },
+    "nutrition_career": {
+      "label": "就業資訊",
+      "owner": "營養科學學士暨碩士學位學程",
+      "url": "https://www.nutrition.ntnu.edu.tw/index.php/category/uncategorized/career/",
+      "selectors": {
+        "pinned": ".sticky"
+      }
+    },
+    "nutrition_honors": {
+      "label": "榮譽事蹟",
+      "owner": "營養科學學士暨碩士學位學程",
+      "url": "https://www.nutrition.ntnu.edu.tw/index.php/category/uncategorized/honors/",
+      "selectors": {
+        "pinned": ".sticky"
+      }
     }
   },
   "schema": [
@@ -592,7 +640,14 @@
                 {
                   "id": "l3-nutrition-sci",
                   "name": "營養科學學士暨碩士學位學程",
-                  "channels": []
+                  "channels": [
+                    { "name": "最新消息", "value": "nutrition_news" },
+                    { "name": "所有消息", "value": "nutrition_all" },
+                    { "name": "系務公告", "value": "nutrition_dept" },
+                    { "name": "活動消息", "value": "nutrition_activities" },
+                    { "name": "就業資訊", "value": "nutrition_career" },
+                    { "name": "榮譽事蹟", "value": "nutrition_honors" }
+                  ]
                 }
               ]
             }
