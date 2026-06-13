@@ -382,6 +382,41 @@
       "label": "獎學金公告",
       "owner": "生命科學專業學院",
       "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/5-1/"
+    },
+    "biol_news": {
+      "label": "最新消息",
+      "owner": "生命科學系",
+      "url": "https://www.biol.ntnu.edu.tw/index.php/category/uncategorized/"
+    },
+    "biol_speeches": {
+      "label": "演講公告",
+      "owner": "生命科學系",
+      "url": "https://www.biol.ntnu.edu.tw/index.php/category/uncategorized/5/"
+    },
+    "biol_admission": {
+      "label": "招生公告",
+      "owner": "生命科學系",
+      "url": "https://www.biol.ntnu.edu.tw/index.php/category/uncategorized/2/"
+    },
+    "biol_courses": {
+      "label": "課程公告",
+      "owner": "生命科學系",
+      "url": "https://www.biol.ntnu.edu.tw/index.php/category/uncategorized/4/"
+    },
+    "biol_recruitment": {
+      "label": "徵才公告",
+      "owner": "生命科學系",
+      "url": "https://www.biol.ntnu.edu.tw/index.php/category/uncategorized/we-want-you/"
+    },
+    "biol_scholarship": {
+      "label": "獎學金公告",
+      "owner": "生命科學系",
+      "url": "https://www.biol.ntnu.edu.tw/index.php/category/uncategorized/5-1/"
+    },
+    "biol_other": {
+      "label": "其他資訊公告",
+      "owner": "生命科學系",
+      "url": "https://www.biol.ntnu.edu.tw/index.php/category/uncategorized/3/"
     }
   },
   "schema": [
@@ -544,7 +579,15 @@
                 {
                   "id": "l3-life-science",
                   "name": "生命科學系",
-                  "channels": []
+                  "channels": [
+                    { "name": "最新消息", "value": "biol_news" },
+                    { "name": "演講公告", "value": "biol_speeches" },
+                    { "name": "招生公告", "value": "biol_admission" },
+                    { "name": "課程公告", "value": "biol_courses" },
+                    { "name": "徵才公告", "value": "biol_recruitment" },
+                    { "name": "獎學金公告", "value": "biol_scholarship" },
+                    { "name": "其他資訊公告", "value": "biol_other" }
+                  ]
                 },
                 {
                   "id": "l3-nutrition-sci",
