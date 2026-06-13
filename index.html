@@ -193,8 +193,8 @@
     <script src="js/main.js"></script>      <!-- 4. 執行 UI 與 事件處理 -->
 
     <!-- 📋 預覽 Modal -->
-    <div id="preview-modal" class="fixed inset-0 bg-black/50 z-50 hidden flex items-center justify-center p-4">
-        <div class="bg-white rounded-2xl shadow-2xl max-w-2xl w-full max-h-[80vh] flex flex-col">
+    <div id="preview-modal" class="fixed inset-0 bg-black/50 z-50 hidden flex items-center justify-center p-4" onclick="closePreviewModal()">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-2xl w-full max-h-[80vh] flex flex-col" onclick="event.stopPropagation()">
             <div class="p-6 border-b border-slate-200 flex items-center justify-between">
                 <h3 id="preview-title" class="text-lg font-bold text-slate-900">預覽</h3>
                 <button onclick="closePreviewModal()" class="text-slate-400 hover:text-slate-600">
