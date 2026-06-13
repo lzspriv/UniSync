@@ -1314,10 +1314,9 @@
       "owner": "??????",
       "url": "https://www.spe.ntnu.edu.tw/index.php/news/",
       "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
+        "parser": "wordpress_rest",
+        "api_url": "https://www.spe.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
+        "categories": "18,1,19,26,21,25,22,65"
       }
     },
     "spe_dept": {
@@ -1325,10 +1324,9 @@
       "owner": "??????",
       "url": "https://www.spe.ntnu.edu.tw/index.php/departmentannouncement/",
       "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
+        "parser": "wordpress_rest",
+        "api_url": "https://www.spe.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
+        "categories": "19"
       }
     },
     "spe_oral_defense": {
@@ -1336,10 +1334,9 @@
       "owner": "??????",
       "url": "https://www.spe.ntnu.edu.tw/index.php/oraldefense/",
       "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
+        "parser": "wordpress_rest",
+        "api_url": "https://www.spe.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
+        "categories": "26"
       }
     },
     "spe_award": {
@@ -1347,10 +1344,9 @@
       "owner": "??????",
       "url": "https://www.spe.ntnu.edu.tw/index.php/award/",
       "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
+        "parser": "wordpress_rest",
+        "api_url": "https://www.spe.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
+        "categories": "21"
       }
     },
     "spe_events": {
@@ -1358,10 +1354,9 @@
       "owner": "??????",
       "url": "https://www.spe.ntnu.edu.tw/index.php/eventandspeech/",
       "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
+        "parser": "wordpress_rest",
+        "api_url": "https://www.spe.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
+        "categories": "25"
       }
     },
     "spe_admission": {
@@ -1369,10 +1364,9 @@
       "owner": "??????",
       "url": "https://www.spe.ntnu.edu.tw/index.php/admissions-information-2/",
       "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
+        "parser": "wordpress_rest",
+        "api_url": "https://www.spe.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
+        "categories": "22"
       }
     },
     "spe_other": {
@@ -1380,10 +1374,9 @@
       "owner": "??????",
       "url": "https://www.spe.ntnu.edu.tw/index.php/othernews/",
       "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
+        "parser": "wordpress_rest",
+        "api_url": "https://www.spe.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
+        "categories": "65"
       }
     },
     "tpicoe_news": {
@@ -1402,10 +1395,9 @@
       "owner": "????????????",
       "url": "https://www.girg.ntnu.edu.tw/index.php/allnews/",
       "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
+        "parser": "wordpress_rest",
+        "api_url": "https://www.girg.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
+        "categories": "18,1,19,26,22,21,25,65"
       }
     },
     "girg_dept": {
@@ -1413,10 +1405,9 @@
       "owner": "????????????",
       "url": "https://www.girg.ntnu.edu.tw/index.php/departmentannouncement/",
       "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
+        "parser": "wordpress_rest",
+        "api_url": "https://www.girg.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
+        "categories": "19"
       }
     },
     "girg_oral_defense": {
@@ -1424,10 +1415,9 @@
       "owner": "????????????",
       "url": "https://www.girg.ntnu.edu.tw/index.php/oraldefense/",
       "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
+        "parser": "wordpress_rest",
+        "api_url": "https://www.girg.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
+        "categories": "26"
       }
     },
     "girg_admission": {
@@ -1435,10 +1425,9 @@
       "owner": "????????????",
       "url": "https://www.girg.ntnu.edu.tw/index.php/admission-information/",
       "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
+        "parser": "wordpress_rest",
+        "api_url": "https://www.girg.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
+        "categories": "22"
       }
     },
     "girg_award": {
@@ -1446,10 +1435,9 @@
       "owner": "????????????",
       "url": "https://www.girg.ntnu.edu.tw/index.php/award/",
       "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
+        "parser": "wordpress_rest",
+        "api_url": "https://www.girg.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
+        "categories": "21"
       }
     },
     "girg_events": {
@@ -1457,10 +1445,9 @@
       "owner": "????????????",
       "url": "https://www.girg.ntnu.edu.tw/index.php/eventandspeech/",
       "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
+        "parser": "wordpress_rest",
+        "api_url": "https://www.girg.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
+        "categories": "25"
       }
     },
     "girg_other": {
@@ -1468,10 +1455,9 @@
       "owner": "????????????",
       "url": "https://www.girg.ntnu.edu.tw/index.php/othernews/",
       "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
+        "parser": "wordpress_rest",
+        "api_url": "https://www.girg.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
+        "categories": "65"
       }
     },
     "epa_news": {

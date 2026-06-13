@@ -4,7 +4,18 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import re
 import ssl
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urlencode, urljoin, urlparse
+from html import unescape
+
+
+REQUEST_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Upgrade-Insecure-Requests": "1",
+}
 
 
 class LegacySSLAdapter(HTTPAdapter):
@@ -36,8 +47,15 @@ def parse_taiwan_date(text):
     if not text:
         return "未知日期", text
         
+    # 🔍 尋找西元中文格式，例如: 2026 年 6 月 12 日
+    ad_zh_match = re.search(r'(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日', text)
+    if ad_zh_match:
+        year, month, day = ad_zh_match.groups()
+        summary = text.replace(ad_zh_match.group(0), "").strip()
+        return f"{year}-{int(month):02d}-{int(day):02d}", summary
+
     # 🔍 尋找民國格式，例如: 115年4月29日 或 114年12月15日
-    tw_match = re.search(r'(\d{2,3})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日', text)
+    tw_match = re.search(r'(?<!\d)(\d{2,3})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日', text)
     if tw_match:
         year = int(tw_match.group(1)) + 1911  # 轉為西元年
         month = int(tw_match.group(2))
@@ -170,9 +188,7 @@ def fetch_json_announcements(url, category_name, scraper_config):
     try:
         response = create_request_session(url).get(
             url,
-            headers={
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-            },
+            headers=REQUEST_HEADERS,
             timeout=10,
         )
         response.encoding = 'utf-8'
@@ -243,11 +259,76 @@ def fetch_json_announcements(url, category_name, scraper_config):
         return []
 
 
+def clean_html_text(value):
+    text = BeautifulSoup(value or "", "html.parser").get_text(" ", strip=True)
+    return normalize_whitespace(unescape(text))
+
+
+def fetch_wordpress_rest_announcements(url, category_name, scraper_config):
+    try:
+        api_url = scraper_config.get("api_url")
+        if not api_url:
+            parsed_url = urlparse(url)
+            api_url = f"{parsed_url.scheme}://{parsed_url.netloc}/index.php/wp-json/wp/v2/posts"
+
+        query = {
+            "per_page": scraper_config.get("per_page", 20),
+            "orderby": "date",
+            "order": "desc",
+            "_fields": "date,link,title",
+        }
+        categories = scraper_config.get("categories")
+        if categories:
+            query["categories"] = categories
+
+        separator = "&" if "?" in api_url else "?"
+        response = create_request_session(api_url).get(
+            f"{api_url}{separator}{urlencode(query)}",
+            headers=REQUEST_HEADERS,
+            timeout=10,
+        )
+
+        if response.status_code != 200:
+            print(f"⚠️ 無法讀取 {category_name}: {response.status_code}")
+            return []
+
+        all_news = []
+        recent_news = []
+        cutoff_date = datetime.now() - timedelta(days=10)
+        seen_urls = set()
+
+        for item in response.json():
+            title_text = clean_html_text(item.get("title", {}).get("rendered", ""))
+            absolute_url = item.get("link", "")
+            if not title_text or not absolute_url or absolute_url in seen_urls:
+                continue
+            seen_urls.add(absolute_url)
+
+            date_text, _ = parse_taiwan_date(str(item.get("date", "")))
+            news_item = {
+                "title": title_text,
+                "url": absolute_url,
+                "date": date_text,
+                "summary": "",
+                "show_summary": False,
+                "category": category_name,
+            }
+            all_news.append(news_item)
+
+            if date_text != "未知日期":
+                try:
+                    if datetime.strptime(date_text, "%Y-%m-%d") >= cutoff_date:
+                        recent_news.append(news_item)
+                except ValueError:
+                    pass
+
+        return all_news[:5] if len(recent_news) < 5 else recent_news
+    except Exception as e:
+        print(f"❌ 爬取 {category_name} 時發生異常: {e}")
+        return []
+
+
 def fetch_university_announcements(url, category_name, scraper_config=None):
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-    }
-    
     if not scraper_config:
         scraper_config = {
             "article": "#blog-entries article",
@@ -257,9 +338,11 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
 
     if scraper_config.get("parser") == "json_events":
         return fetch_json_announcements(url, category_name, scraper_config)
+    if scraper_config.get("parser") == "wordpress_rest":
+        return fetch_wordpress_rest_announcements(url, category_name, scraper_config)
 
     try:
-        response = create_request_session(url).get(url, headers=headers, timeout=10)
+        response = create_request_session(url).get(url, headers=REQUEST_HEADERS, timeout=10)
         response.encoding = 'utf-8'
         
         if response.status_code != 200:
