@@ -2221,5 +2221,65 @@
         "date": "2023-04-12"
       }
     ]
+  },
+  "top_important": {
+    "label": "高等教育深耕計畫辦公室-重要公告",
+    "announcements": [
+      {
+        "title": "統合分析系列工作坊(三)-論文投稿與答辯經驗分享論壇",
+        "url": "https://top.ntnu.edu.tw/Ndetail.aspx?ns=240",
+        "date": "2026-05-11"
+      },
+      {
+        "title": "統合分析系列工作坊(二) ：從方法理解、軟體操作到統計詮釋",
+        "url": "https://top.ntnu.edu.tw/Ndetail.aspx?ns=239",
+        "date": "2026-05-01"
+      },
+      {
+        "title": "【講座資訊】臺師大頂尖學術講座｜人工智慧時代的電氣化革命",
+        "url": "https://top.ntnu.edu.tw/Ndetail.aspx?ns=241",
+        "date": "2026-04-30"
+      },
+      {
+        "title": "統合分析系列工作坊(一) 更佳研究證據：統合分析思潮與下一步",
+        "url": "https://top.ntnu.edu.tw/Ndetail.aspx?ns=238",
+        "date": "2026-04-02"
+      },
+      {
+        "title": "【講座訊息】深論AI與跨域研究系列演講-黃悅民講座教授",
+        "url": "https://top.ntnu.edu.tw/Ndetail.aspx?ns=237",
+        "date": "2025-09-02"
+      }
+    ]
+  },
+  "top_results": {
+    "label": "高等教育深耕計畫辦公室-執行成果",
+    "announcements": [
+      {
+        "title": "【中心成果】14項產品獲選教育部「校園數位內容與教學軟體」產品選購推薦",
+        "url": "https://cltc.ntnu.edu.tw/news?id=64d1d938b05b3514944034e5",
+        "date": "2023-09-12"
+      },
+      {
+        "title": "PASSION偏鄉優質教育學分學程入鄉實習 提供偏鄉學生高品質教學",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=21818",
+        "date": "2023-08-17"
+      },
+      {
+        "title": "臺師大實踐USR計畫 持續深耕與創新",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=21777",
+        "date": "2023-08-16"
+      },
+      {
+        "title": "高教深耕計畫第二期核定結果公布 臺師大獲逾3.2億 成長近五成",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=21761",
+        "date": "2023-07-27"
+      },
+      {
+        "title": "臺師大與金門縣府推動Smart Reading適性閱讀計畫 表揚優異師生",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=21733",
+        "date": "2023-07-09"
+      }
+    ]
   }
 }

@@ -44,6 +44,27 @@ def parse_taiwan_date(text):
 
     return "未知日期", text
 
+
+def parse_dated_link_text(text):
+    """
+    Parse list links that include the publish date in the link text, for example:
+    [2026/05/11] Title
+    """
+    if not text:
+        return "未知日期", ""
+
+    match = re.match(
+        r"^\s*[\[【(（]?\s*(\d{4})[-/](\d{1,2})[-/](\d{1,2})\s*[\]】)）]?\s*(.+?)\s*$",
+        text,
+    )
+    if match:
+        year, month, day, title = match.groups()
+        return f"{year}-{int(month):02d}-{int(day):02d}", title.strip()
+
+    date_text, summary_text = parse_taiwan_date(text)
+    return date_text, summary_text.strip()
+
+
 def fetch_university_announcements(url, category_name, scraper_config=None):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
@@ -78,10 +99,17 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
             date_tag = article.select_one(scraper_config.get("date", ".meta-date"))
             
             if link_tag and link_tag.get('href'):
-                raw_date_text = date_tag.get_text(strip=True) if date_tag else ""
-                
-                # 智慧日期解析，分離出乾淨的日期與摘要
-                date_text, summary_text = parse_taiwan_date(raw_date_text)
+                link_text = link_tag.get_text(" ", strip=True)
+
+                if scraper_config.get("parser") == "dated_link_list":
+                    date_text, title_text = parse_dated_link_text(link_text)
+                    summary_text = title_text
+                else:
+                    raw_date_text = date_tag.get_text(strip=True) if date_tag else ""
+
+                    # 智慧日期解析，分離出乾淨的日期與摘要
+                    date_text, summary_text = parse_taiwan_date(raw_date_text)
+                    title_text = link_text
 
                 is_pinned = bool(
                     pinned_selector
@@ -106,7 +134,7 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                     continue
                 
                 news_item = {
-                    "title": link_tag.get_text(strip=True),
+                    "title": title_text,
                     "url": urljoin(url, link_tag.get('href')),
                     "date": date_text,
                     "summary": summary_text[:150] + "..." if len(summary_text) > 150 else summary_text,

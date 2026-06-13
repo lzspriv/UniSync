@@ -465,6 +465,28 @@
       "selectors": {
         "pinned": ".sticky"
       }
+    },
+    "top_important": {
+      "label": "重要公告",
+      "owner": "高等教育深耕計畫辦公室",
+      "url": "https://top.ntnu.edu.tw/NewsList.aspx",
+      "selectors": {
+        "parser": "dated_link_list",
+        "article": "#ListView1_itemPlaceholderContainer li",
+        "title_link": "a",
+        "date": "a"
+      }
+    },
+    "top_results": {
+      "label": "執行成果",
+      "owner": "高等教育深耕計畫辦公室",
+      "url": "https://top.ntnu.edu.tw/SpecList.aspx",
+      "selectors": {
+        "parser": "dated_link_list",
+        "article": "#ListView1_itemPlaceholderContainer li",
+        "title_link": "a",
+        "date": "a"
+      }
     }
   },
   "schema": [
@@ -475,7 +497,16 @@
         {
           "id": "l2-higher-education-sprout",
           "name": "高等教育深耕計畫辦公室",
-          "channels": []
+          "channels": [
+            {
+              "value": "top_important",
+              "name": "重要公告"
+            },
+            {
+              "value": "top_results",
+              "name": "執行成果"
+            }
+          ]
         },
         {
           "id": "l2-secretariat",
