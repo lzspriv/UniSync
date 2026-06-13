@@ -167,6 +167,47 @@ function inferTriggerType(item) {
     };
 }
 
+function normalizeFeedTriggers(item) {
+    const triggers = Array.isArray(item.triggers)
+        ? item.triggers
+        : [item.trigger_type || '選單訂閱'];
+    const dedupedTriggers = [];
+    const seenTypes = new Set();
+
+    triggers.filter(Boolean).forEach(trigger => {
+        const triggerText = String(trigger);
+        const typeKey = triggerText.toLowerCase().includes('global')
+            ? 'global'
+            : 'menu';
+
+        if (seenTypes.has(typeKey)) return;
+
+        seenTypes.add(typeKey);
+        dedupedTriggers.push(trigger);
+    });
+
+    return dedupedTriggers;
+}
+
+function renderTriggerBadges(triggers) {
+    const visibleTriggers = triggers.slice(0, 2);
+    const badgesHtml = visibleTriggers.map(trigger => {
+        const triggerType = inferTriggerType({ trigger_type: trigger });
+        return `
+            <span class="inline-flex shrink-0 items-center gap-1 rounded-full border px-2 py-1 text-[10px] font-black leading-none ${triggerType.wrapperClass}">
+                <i class="fas ${triggerType.icon} text-[8px]"></i>
+                <span>${escapeHtml(triggerType.label)}</span>
+            </span>
+        `;
+    }).join('');
+
+    const extraHtml = triggers.length > 2
+        ? `<span class="inline-flex shrink-0 items-center rounded-full border bg-slate-100 px-2 py-1 text-[10px] font-black leading-none text-slate-600">+${triggers.length - 2}</span>`
+        : '';
+
+    return `<div class="flex flex-wrap items-center gap-1.5">${badgesHtml}${extraHtml}</div>`;
+}
+
 function setLiveFeedStatus(message, tone = 'default') {
     const statusEl = document.getElementById('live-feed-status');
     if (!statusEl) return;
@@ -209,16 +250,8 @@ function renderFeedItems(reset = false) {
         const titleText = escapeHtml(item.title || '無標題');
         const safeUrl = item.url || '#';
 
-        // triggers may be an array (aggregated). normalize to array
-        const triggers = Array.isArray(item.triggers) ? item.triggers : [item.trigger_type || '選單訂閱'];
-
-        // render up to 2 badges, then +n
-        const badgesHtml = triggers.slice(0, 2).map(t => {
-            const tt = inferTriggerType({ trigger_type: t });
-            return `<span class="px-2 py-1 ${tt.wrapperClass} text-[10px] font-black rounded-full border flex items-center gap-1 mr-1">` +
-                   `<i class="fas ${tt.icon} text-[8px]"></i> ${escapeHtml(tt.label)}</span>`;
-        }).join('');
-        const extra = triggers.length > 2 ? `<span class="px-2 py-1 bg-slate-100 text-slate-600 text-[10px] font-black rounded-full border">+${triggers.length - 2}</span>` : '';
+        const triggers = normalizeFeedTriggers(item);
+        const badgesHtml = renderTriggerBadges(triggers);
 
         // rowClass - prefer first trigger's rowClass
         const primaryRowClass = inferTriggerType({ trigger_type: triggers[0] }).rowClass;
@@ -226,7 +259,7 @@ function renderFeedItems(reset = false) {
         return `
             <tr class="transition-colors group ${primaryRowClass}">
                 <td class="px-6 py-4 text-xs font-bold text-slate-500 whitespace-nowrap">${timeText}</td>
-                <td class="px-6 py-4 w-36 whitespace-nowrap">${badgesHtml}${extra}</td>
+                <td class="px-6 py-4 w-44">${badgesHtml}</td>
                 <td class="px-6 py-4 w-48 ${multipleSources ? 'whitespace-normal break-words' : 'whitespace-nowrap'}"><span class="text-sm font-bold text-slate-600">${sourceHtml}</span></td>
                 <td class="px-6 py-4"><p class="text-sm font-bold text-slate-800">${titleText}</p></td>
                 <td class="px-6 py-4 text-right"><a href="${safeUrl}" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-blue-600"><i class="fas fa-external-link-alt"></i></a></td>
@@ -241,18 +274,13 @@ function renderFeedItems(reset = false) {
         const sourceHtml = multipleSources ? (item.sources.map(s => escapeHtml(s)).join('<br>')) : escapeHtml(item.source || item.category_id || '未分類');
         const titleText = escapeHtml(item.title || '無標題');
         const safeUrl = item.url || '#';
-        const triggers = Array.isArray(item.triggers) ? item.triggers : [item.trigger_type || '選單訂閱'];
-        const badgesHtml = triggers.slice(0, 2).map(t => {
-            const tt = inferTriggerType({ trigger_type: t });
-            return `<span class="px-2 py-1 ${tt.wrapperClass} text-[10px] font-black rounded-full border flex items-center gap-1 mr-1">` +
-                   `<i class="fas ${tt.icon} text-[8px]"></i> ${escapeHtml(tt.label)}</span>`;
-        }).join('');
-        const extra = triggers.length > 2 ? `<span class="px-2 py-1 bg-slate-100 text-slate-600 text-[10px] font-black rounded-full border">+${triggers.length - 2}</span>` : '';
+        const triggers = normalizeFeedTriggers(item);
+        const badgesHtml = renderTriggerBadges(triggers);
         const wrapperClass = (triggers[0] && inferTriggerType({ trigger_type: triggers[0] }).rowClass.includes('rose')) ? 'p-4 bg-rose-50/5' : 'p-4';
         return `
             <div class="${wrapperClass}">
                 <div class="flex justify-between items-start mb-2 gap-2">
-                    <div class="flex items-center gap-1">${badgesHtml}${extra}</div>
+                    ${badgesHtml}
                     <span class="text-xs font-bold text-slate-500 whitespace-nowrap">${timeText}</span>
                 </div>
                 <p class="text-base font-bold text-slate-800 mb-1">${titleText}</p>
