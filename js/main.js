@@ -1041,7 +1041,7 @@ function openPreviewModal(categoryId) {
                     </a>
                 </h4>
                 <p class="text-xs text-slate-500">📅 ${anno.date_label || '發布日期'}：${anno.date}</p>
-                ${anno.summary ? `<p class="mt-1 text-xs leading-relaxed text-slate-600">${anno.summary}</p>` : ''}
+                ${anno.show_summary && anno.summary ? `<p class="mt-1 text-xs leading-relaxed text-slate-600">${anno.summary}</p>` : ''}
             </div>
         `).join('');
     }

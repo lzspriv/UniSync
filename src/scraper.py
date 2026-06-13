@@ -136,6 +136,7 @@ def fetch_json_announcements(url, category_name, scraper_config):
         recency_field = scraper_config.get("recency_field", date_field)
         date_label = scraper_config.get("date_label", "發布日期")
         summary_template = scraper_config.get("summary_template")
+        include_summary = scraper_config.get("include_summary", False)
         seen_urls = set()
 
         for item in response.json():
@@ -170,6 +171,7 @@ def fetch_json_announcements(url, category_name, scraper_config):
                 "date": date_text,
                 "date_label": date_label,
                 "summary": summary_text[:150] + "..." if len(summary_text) > 150 else summary_text,
+                "show_summary": include_summary,
                 "category": category_name
             }
             all_news.append(news_item)
@@ -218,6 +220,7 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
 
         articles = soup.select(scraper_config.get("article", "#blog-entries article"))
         pinned_selector = scraper_config.get("pinned")
+        include_summary = scraper_config.get("include_summary", False)
         seen_urls = set()
         
         for article in articles:
@@ -278,6 +281,7 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                     "url": absolute_url,
                     "date": date_text,
                     "summary": summary_text[:150] + "..." if len(summary_text) > 150 else summary_text,
+                    "show_summary": include_summary,
                     "category": category_name
                 }
                 all_news.append(news_item)

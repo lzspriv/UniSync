@@ -46,7 +46,7 @@ def build_discord_embed(category_label: str, announcement: dict, matched_keyword
         announcement.get("title", "(無標題)"),
         f"{date_label}: {announcement.get('date', 'N/A')}",
     ]
-    summary = announcement.get("summary")
+    summary = announcement.get("summary") if announcement.get("show_summary") else ""
     if summary:
         description_lines.append(summary)
 
@@ -255,7 +255,8 @@ def notify_announcement_once(supabase: Client, item: dict, category_ids: list, c
         "url": item.get("url", ""),
         "date": item.get("date", "N/A"),
         "date_label": item.get("date_label", "發布日期"),
-        "summary": item.get("summary", "")
+        "summary": item.get("summary", "") if item.get("show_summary") else "",
+        "show_summary": item.get("show_summary", False)
     }
 
     for webhook in all_webhooks:

@@ -543,7 +543,8 @@
         "date_field": "created_time",
         "recency_field": "created_time",
         "date_label": "新增日期",
-        "summary_template": "活動時間：{start} ~ {end} / 地點：{place}"
+        "summary_template": "活動時間：{start} ~ {end} / 地點：{place}",
+        "include_summary": true
       }
     },
     "alumni_news": {
@@ -616,6 +617,30 @@
         "article": ".blog-entry-inner",
         "title_link": ".blog-entry-title.entry-title a",
         "date": ".meta-date"
+      }
+    },
+    "aa_news": {
+      "label": "最新消息",
+      "owner": "教務處",
+      "url": "https://www.aa.ntnu.edu.tw/zh_tw/News?category%5B%5D=6331b9713817848ea26d27b5&category%5B%5D=6331b9713817848ea26d27b6&category%5B%5D=6331b9713817848ea26d27b7&category%5B%5D=6331b9713817848ea26d27b8&category%5B%5D=6331ed7b381784be12bdd622&tags%5B%5D=all",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "tr",
+        "title_link": "a[href*='/zh_tw/News/']",
+        "date": "tr",
+        "pinned": ".status-top"
+      }
+    },
+    "aa_admission": {
+      "label": "招生公告",
+      "owner": "教務處",
+      "url": "https://www.aa.ntnu.edu.tw/zh_tw/admission?category%5B%5D=6331d7d3381784486be9a6e4&tags%5B%5D=6331d9d4381784a4e7b93f9b&tags%5B%5D=633fa478843f7551fd248eed",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "tr",
+        "title_link": "a[href*='/zh_tw/admission/']",
+        "date": "tr",
+        "pinned": ".status-top"
       }
     }
   },
@@ -711,6 +736,16 @@
         {
           "id": "l2-academic-affairs",
           "name": "教務處",
+          "channels": [
+            {
+              "value": "aa_news",
+              "name": "最新消息"
+            },
+            {
+              "value": "aa_admission",
+              "name": "招生公告"
+            }
+          ],
           "subUnits": [
             {
               "id": "l3-general-education-center",
