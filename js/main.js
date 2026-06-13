@@ -17,66 +17,126 @@ function renderMenu() {
     if (!container) return;
 
     const renderChannels = (channels = []) => channels.map(ch => `
-        <div class="menu-channel-row" style="display: flex; align-items: center; justify-content: space-between;">
-            <label class="menu-channel" style="flex: 1;">
+        <div class="menu-channel-row" data-menu-leaf data-menu-text="${escapeHtml(ch.name)}">
+            <label class="menu-channel">
                 <input type="checkbox" value="${ch.value}" class="child-checkbox">
                 <span>${ch.name}</span>
             </label>
-            <button onclick="event.stopPropagation(); openPreviewModal('${ch.value}')" class="preview-btn" title="預覽此分類" style="padding: 0.25rem 0.5rem; background: none; border: none; color: #6B7280; cursor: pointer; font-size: 0.875rem;">
+            <button onclick="event.stopPropagation(); openPreviewModal('${ch.value}')" class="preview-btn" title="預覽此分類">
                 <i class="fas fa-eye"></i>
             </button>
         </div>
     `).join('');
 
-    const renderSubUnit = (sub) => `
-        <div class="menu-subunit">
-            <div onclick="toggleElement('${sub.id}')" class="menu-row menu-row-sub">
-                <div class="menu-row-left">
-                    <i id="icon-${sub.id}" class="fas fa-caret-right menu-icon menu-icon-sub"></i>
-                    <span class="menu-label">${sub.name}</span>
-                </div>
-                <input type="checkbox" class="menu-checkbox menu-checkbox-sub parent-checkbox"
-                       onclick="event.stopPropagation(); handleParentClick(this, '${sub.id}')">
+    const renderMenuToolbar = () => `
+        <div class="menu-toolbar">
+            <div class="menu-search-wrap">
+                <i class="fas fa-search menu-search-icon"></i>
+                <input id="menu-search-input" type="search" class="menu-search-input" placeholder="搜尋單位或公告類型">
             </div>
-            <div id="${sub.id}" class="collapsible-content menu-children menu-children-channel">
-                ${(sub.channels || []).length > 0 ? renderChannels(sub.channels) : ''}
-                ${(sub.subUnits || []).map(renderSubUnit).join('')}
-            </div>
-        </div>
-    `;
-
-    const renderUnit = (unit) => `
-        <div class="menu-unit">
-            <div class="menu-row menu-row-unit" onclick="toggleElement('${unit.id}')">
-                <div class="menu-row-left">
-                    <i id="icon-${unit.id}" class="fas fa-caret-right menu-icon menu-icon-unit"></i>
-                    <span class="menu-label">${unit.name}</span>
-                </div>
-                <input type="checkbox" class="menu-checkbox menu-checkbox-unit parent-checkbox"
-                       onclick="event.stopPropagation(); handleParentClick(this, '${unit.id}')">
-            </div>
-            <div id="${unit.id}" class="collapsible-content menu-children menu-children-unit">
-                ${(unit.channels || []).length > 0 ? renderChannels(unit.channels) : ''}
-                ${(unit.subUnits || []).map(renderSubUnit).join('')}
+            <div class="menu-toolbar-actions">
+                <label class="menu-filter-toggle">
+                    <input id="menu-subscribable-only" type="checkbox">
+                    <span>只看可訂閱</span>
+                </label>
+                <button type="button" id="menu-expand-all" class="menu-tool-btn" title="展開全部"><i class="fas fa-angles-down"></i></button>
+                <button type="button" id="menu-collapse-all" class="menu-tool-btn" title="收合全部"><i class="fas fa-angles-up"></i></button>
             </div>
         </div>
     `;
 
-    container.innerHTML = universitySchema.map(category => `
-        <div class="menu-group border border-slate-200 rounded-2xl overflow-hidden mb-4 bg-white">
-            <div class="menu-row menu-row-category" onclick="toggleElement('${category.id}')">
+    const hasMenuChildren = (node) =>
+        (node.channels || []).length > 0 || (node.subUnits || []).length > 0;
+
+    const countSubscribableChannels = (node) =>
+        (node.channels || []).length +
+        (node.units || []).reduce((sum, child) => sum + countSubscribableChannels(child), 0) +
+        (node.subUnits || []).reduce((sum, child) => sum + countSubscribableChannels(child), 0);
+
+    const renderSubUnit = (sub) => {
+        const hasChildren = hasMenuChildren(sub);
+        const subscribableCount = countSubscribableChannels(sub);
+        const hasSubscribable = subscribableCount > 0;
+        return `
+            <div class="menu-subunit menu-node ${hasChildren ? '' : 'menu-node-empty'}" data-menu-node data-menu-text="${escapeHtml(sub.name)}" data-subscribable="${hasSubscribable ? 'true' : 'false'}">
+                <div ${hasChildren ? `onclick="toggleElement('${sub.id}')"` : ''} class="menu-row menu-row-sub ${hasChildren ? '' : 'menu-row-empty'}" ${hasChildren ? 'aria-expanded="false"' : ''}>
+                    <div class="menu-row-left">
+                        ${hasChildren
+                            ? `<i id="icon-${sub.id}" class="fas fa-caret-right menu-icon menu-icon-sub"></i>`
+                            : '<span class="menu-icon menu-icon-sub"></span>'}
+                        <span class="menu-label">${sub.name}</span>
+                        ${hasSubscribable ? `<span class="menu-count">${subscribableCount}</span>` : ''}
+                    </div>
+                    ${hasSubscribable ? `
+                        <input type="checkbox" class="menu-checkbox menu-checkbox-sub parent-checkbox"
+                               onclick="event.stopPropagation(); handleParentClick(this, '${sub.id}')">
+                    ` : '<span class="menu-pending-badge">待接公告</span>'}
+                </div>
+                ${hasChildren ? `
+                    <div id="${sub.id}" class="collapsible-content menu-children menu-children-channel">
+                        ${(sub.channels || []).length > 0 ? renderChannels(sub.channels) : ''}
+                        ${(sub.subUnits || []).map(renderSubUnit).join('')}
+                    </div>
+                ` : ''}
+            </div>
+        `;
+    };
+
+    const renderUnit = (unit) => {
+        const hasChildren = hasMenuChildren(unit);
+        const subscribableCount = countSubscribableChannels(unit);
+        const hasSubscribable = subscribableCount > 0;
+        return `
+            <div class="menu-unit menu-node ${hasChildren ? '' : 'menu-node-empty'}" data-menu-node data-menu-text="${escapeHtml(unit.name)}" data-subscribable="${hasSubscribable ? 'true' : 'false'}">
+                <div class="menu-row menu-row-unit ${hasChildren ? '' : 'menu-row-empty'}" ${hasChildren ? `onclick="toggleElement('${unit.id}')"` : ''} ${hasChildren ? 'aria-expanded="false"' : ''}>
+                    <div class="menu-row-left">
+                        ${hasChildren
+                            ? `<i id="icon-${unit.id}" class="fas fa-caret-right menu-icon menu-icon-unit"></i>`
+                            : '<span class="menu-icon menu-icon-unit"></span>'}
+                        <span class="menu-label">${unit.name}</span>
+                        ${hasSubscribable ? `<span class="menu-count">${subscribableCount}</span>` : ''}
+                    </div>
+                    ${hasSubscribable ? `
+                        <input type="checkbox" class="menu-checkbox menu-checkbox-unit parent-checkbox"
+                               onclick="event.stopPropagation(); handleParentClick(this, '${unit.id}')">
+                    ` : '<span class="menu-pending-badge">待接公告</span>'}
+                </div>
+                ${hasChildren ? `
+                    <div id="${unit.id}" class="collapsible-content menu-children menu-children-unit">
+                        ${(unit.channels || []).length > 0 ? renderChannels(unit.channels) : ''}
+                        ${(unit.subUnits || []).map(renderSubUnit).join('')}
+                    </div>
+                ` : ''}
+            </div>
+        `;
+    };
+
+    container.innerHTML = `
+        ${renderMenuToolbar()}
+        <div id="menu-empty-state" class="menu-empty-state hidden">找不到符合條件的單位或公告類型</div>
+        ${universitySchema.map(category => {
+        const subscribableCount = countSubscribableChannels(category);
+        return `
+        <div class="menu-group border border-slate-200 rounded-2xl overflow-hidden mb-4 bg-white" data-menu-group>
+            <div class="menu-row menu-row-category" onclick="toggleElement('${category.id}')" aria-expanded="false">
                 <div class="menu-row-left">
                     <i id="icon-${category.id}" class="fas fa-chevron-right menu-icon menu-icon-category"></i>
                     <span class="menu-label menu-label-category">${category.name}</span>
+                    ${subscribableCount > 0 ? `<span class="menu-count">${subscribableCount}</span>` : '<span class="menu-pending-badge">待接公告</span>'}
                 </div>
-                <input type="checkbox" class="menu-checkbox menu-checkbox-category parent-checkbox" 
+                ${subscribableCount > 0 ? `<input type="checkbox" class="menu-checkbox menu-checkbox-category parent-checkbox"
                        onclick="event.stopPropagation(); handleParentClick(this, '${category.id}')">
+                ` : ''}
             </div>
             <div id="${category.id}" class="collapsible-content menu-children menu-children-category">
                 ${(category.units || []).map(renderUnit).join('')}
             </div>
         </div>
-    `).join('');
+    `;
+    }).join('')}
+    `;
+
+    bindMenuToolbar();
 }
 
 /**
@@ -97,8 +157,87 @@ function handleParentClick(parentCheckbox, containerId) {
 function toggleElement(id) {
     const content = document.getElementById(id);
     const icon = document.getElementById(`icon-${id}`);
-    content?.classList.toggle('expanded');
-    icon?.classList.toggle('rotate-icon');
+    const expanded = content?.classList.toggle('expanded');
+    icon?.classList.toggle('rotate-icon', expanded);
+
+    const row = content?.previousElementSibling;
+    if (row) {
+        row.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+    }
+}
+
+function setMenuNodeExpanded(id, expanded) {
+    const content = document.getElementById(id);
+    const icon = document.getElementById(`icon-${id}`);
+    if (!content) return;
+
+    content.classList.toggle('expanded', expanded);
+    icon?.classList.toggle('rotate-icon', expanded);
+    content.previousElementSibling?.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+}
+
+function bindMenuToolbar() {
+    const searchInput = document.getElementById('menu-search-input');
+    const subscribableOnly = document.getElementById('menu-subscribable-only');
+    const expandAllBtn = document.getElementById('menu-expand-all');
+    const collapseAllBtn = document.getElementById('menu-collapse-all');
+
+    const applyFilter = () => {
+        const query = (searchInput?.value || '').trim().toLowerCase();
+        const onlySubscribable = Boolean(subscribableOnly?.checked);
+        const groups = Array.from(document.querySelectorAll('[data-menu-group]'));
+        let visibleGroups = 0;
+
+        groups.forEach(group => {
+            const nodes = Array.from(group.querySelectorAll('[data-menu-node]'));
+            const leaves = Array.from(group.querySelectorAll('[data-menu-leaf]'));
+
+            leaves.forEach(item => {
+                const text = (item.dataset.menuText || item.textContent || '').toLowerCase();
+                const isSubscribable = true;
+                const matchesQuery = !query || text.includes(query);
+                const matchesSubscriptionFilter = !onlySubscribable || isSubscribable;
+                const visible = matchesQuery && matchesSubscriptionFilter;
+                item.classList.toggle('hidden', !visible);
+            });
+
+            [...nodes].reverse().forEach(item => {
+                const text = (item.dataset.menuText || item.textContent || '').toLowerCase();
+                const isSubscribable = item.dataset.subscribable === 'true';
+                const matchesQuery = !query || text.includes(query);
+                const matchesSubscriptionFilter = !onlySubscribable || isSubscribable;
+                const selfMatches = matchesQuery && matchesSubscriptionFilter;
+                const hasVisibleDescendant = Boolean(item.querySelector('[data-menu-node]:not(.hidden), [data-menu-leaf]:not(.hidden)'));
+                item.classList.toggle('hidden', !(selfMatches || hasVisibleDescendant));
+            });
+
+            const groupHasMatch = Boolean(group.querySelector('[data-menu-node]:not(.hidden), [data-menu-leaf]:not(.hidden)'));
+            group.classList.toggle('hidden', !groupHasMatch);
+            if (groupHasMatch) visibleGroups += 1;
+
+            if (query || onlySubscribable) {
+                group.querySelectorAll('.collapsible-content').forEach(content => {
+                    const hasVisibleChild = Boolean(content.querySelector('[data-menu-node]:not(.hidden), [data-menu-leaf]:not(.hidden)'));
+                    if (hasVisibleChild) {
+                        setMenuNodeExpanded(content.id, true);
+                    }
+                });
+            }
+        });
+
+        document.getElementById('menu-empty-state')?.classList.toggle('hidden', visibleGroups > 0);
+    };
+
+    searchInput?.addEventListener('input', applyFilter);
+    subscribableOnly?.addEventListener('change', applyFilter);
+
+    expandAllBtn?.addEventListener('click', () => {
+        document.querySelectorAll('#menu-container .collapsible-content').forEach(content => setMenuNodeExpanded(content.id, true));
+    });
+
+    collapseAllBtn?.addEventListener('click', () => {
+        document.querySelectorAll('#menu-container .collapsible-content').forEach(content => setMenuNodeExpanded(content.id, false));
+    });
 }
 
 // 將某一節點（child 或 parent）狀態向上同步至祖先 parent-checkbox

@@ -473,16 +473,354 @@
       "name": "行政組織",
       "units": [
         {
-          "id": "l2-osa",
-          "name": "學務處",
+          "id": "l2-president",
+          "name": "校長",
+          "channels": []
+        },
+        {
+          "id": "l2-vice-president",
+          "name": "副校長",
+          "channels": []
+        },
+        {
+          "id": "l2-higher-education-sprout",
+          "name": "高等教育深耕計畫辦公室",
+          "channels": []
+        },
+        {
+          "id": "l2-secretariat",
+          "name": "秘書室",
           "subUnits": [
             {
-              "id": "l3-osa-life",
-              "name": "生活輔導組",
-              "channels": [
-                { "name": "最新消息", "value": "osa_life_news" },
-                { "name": "行政公告", "value": "osa_life_admin" }
+              "id": "l3-public-affairs-center",
+              "name": "公共事務中心",
+              "channels": []
+            },
+            {
+              "id": "l3-alumni-center",
+              "name": "校友中心",
+              "channels": []
+            },
+            {
+              "id": "l3-institutional-research-office",
+              "name": "校務研究辦公室",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-academic-affairs",
+          "name": "教務處",
+          "subUnits": [
+            {
+              "id": "l3-general-education-center",
+              "name": "通識教育中心",
+              "channels": []
+            },
+            {
+              "id": "l3-teaching-learning-development-center",
+              "name": "教學發展中心",
+              "channels": []
+            },
+            {
+              "id": "l3-online-college-office",
+              "name": "網路大學辦公室",
+              "channels": []
+            },
+            {
+              "id": "l3-academic-literacy-center",
+              "name": "英語學術素養中心",
+              "channels": []
+            },
+            {
+              "id": "l3-interdisciplinary-learning-office",
+              "name": "跨領域學習規劃辦公室",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-student-affairs",
+          "name": "學生事務處",
+          "subUnits": [
+            {
+              "id": "l3-career-development-center",
+              "name": "職涯發展中心",
+              "channels": []
+            },
+            {
+              "id": "l3-student-counseling-center",
+              "name": "學生輔導中心",
+              "channels": []
+            },
+            {
+              "id": "l3-student-housing-service-center",
+              "name": "學生住宿服務中心",
+              "channels": []
+            },
+            {
+              "id": "l3-dedicated-mentor-office",
+              "name": "專責導師室",
+              "channels": []
+            },
+            {
+              "id": "l3-health-center",
+              "name": "健康中心",
+              "channels": []
+            },
+            {
+              "id": "l3-community-counseling-center",
+              "name": "社區諮商中心",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-general-affairs",
+          "name": "總務處",
+          "channels": []
+        },
+        {
+          "id": "l2-research-development",
+          "name": "研究發展處",
+          "subUnits": [
+            {
+              "id": "l3-innovation-incubation-center",
+              "name": "創新育成中心",
+              "channels": []
+            },
+            {
+              "id": "l3-precision-instrument-center",
+              "name": "貴重儀器中心",
+              "channels": []
+            },
+            {
+              "id": "l3-research-ethics-center",
+              "name": "研究倫理中心",
+              "channels": []
+            },
+            {
+              "id": "l3-human-research-protection-office",
+              "name": "研究參與者保護辦公室",
+              "channels": []
+            },
+            {
+              "id": "l3-international-industry-liaison-office",
+              "name": "國際產學聯盟",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-library",
+          "name": "圖書館",
+          "subUnits": [
+            {
+              "id": "l3-press-center",
+              "name": "出版中心",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-international-affairs",
+          "name": "國際事務處",
+          "channels": []
+        },
+        {
+          "id": "l2-teacher-education",
+          "name": "師資培育學院",
+          "channels": []
+        },
+        {
+          "id": "l2-continuing-extension-education",
+          "name": "進修推廣學院",
+          "channels": []
+        },
+        {
+          "id": "l2-mandarin-training-center",
+          "name": "國語教學中心",
+          "channels": []
+        },
+        {
+          "id": "l2-information-technology-center",
+          "name": "資訊中心",
+          "channels": []
+        },
+        {
+          "id": "l2-environmental-safety-health-center",
+          "name": "環境安全衛生中心",
+          "subUnits": [
+            {
+              "id": "l3-sustainable-development-center",
+              "name": "永續發展中心",
+              "channels": []
+            },
+            {
+              "id": "l3-campus-security-police",
+              "name": "駐衛警察隊",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-human-resources-office",
+          "name": "人事室",
+          "channels": []
+        },
+        {
+          "id": "l2-accounting-office",
+          "name": "主計室",
+          "channels": []
+        },
+        {
+          "id": "l2-physical-education-office",
+          "name": "體育室",
+          "channels": []
+        },
+        {
+          "id": "l2-overseas-preparatory-school",
+          "name": "僑生先修部",
+          "channels": []
+        },
+        {
+          "id": "l2-bilingual-education-office",
+          "name": "雙語教育推動辦公室",
+          "subUnits": [
+            {
+              "id": "l3-emi-resource-center",
+              "name": "EMI教學資源中心",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-art-museum",
+          "name": "美術館",
+          "subUnits": [
+            {
+              "id": "l3-cultural-relics-conservation-center",
+              "name": "文物保存維護研究發展中心",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-affiliated-senior-high-school",
+          "name": "附屬高級中學",
+          "channels": []
+        },
+        {
+          "id": "l2-research-teaching-centers",
+          "name": "研究與教學中心",
+          "subUnits": [
+            {
+              "id": "l3-university-level-centers",
+              "name": "校級中心",
+              "subUnits": [
+                { "id": "l4-science-education-center", "name": "科學教育中心", "channels": [] },
+                { "id": "l4-special-education-center", "name": "特殊教育中心", "channels": [] },
+                { "id": "l4-rcpet", "name": "心理與教育測驗研究發展中心", "channels": [] },
+                { "id": "l4-ceri", "name": "教育研究與創新中心", "channels": [] },
+                { "id": "l4-perdc", "name": "體育研究與發展中心", "channels": [] },
+                { "id": "l4-math-education-center", "name": "數學教育中心", "channels": [] }
               ]
+            },
+            {
+              "id": "l3-college-level-centers",
+              "name": "院級中心",
+              "subUnits": [
+                { "id": "l4-cltc", "name": "華語文與科技研究中心", "channels": [] },
+                { "id": "l4-irels", "name": "學習科學跨國頂尖研究中心", "channels": [] },
+                { "id": "l4-seedcenter", "name": "社會情緒發展研究中心", "channels": [] },
+                { "id": "l4-cag", "name": "天文與重力中心", "channels": [] },
+                { "id": "l4-green-energy-research-center", "name": "先進材料與綠能研究中心", "channels": [] },
+                { "id": "l4-icsdrc", "name": "智慧運算導向永續發展研究中心", "channels": [] },
+                { "id": "l4-gcwc", "name": "全球華文寫作中心", "channels": [] },
+                { "id": "l4-itsc", "name": "國際臺灣學研究中心", "channels": [] },
+                { "id": "l4-irdc", "name": "原住民族研究發展中心", "channels": [] },
+                { "id": "l4-hakka-center", "name": "客語與客家文化教學研究中心", "channels": [] },
+                { "id": "l4-cks", "name": "韓國學研究中心", "channels": [] },
+                { "id": "l4-printmaking-center", "name": "國際版畫中心", "channels": [] },
+                { "id": "l4-taiwan-art-history-center", "name": "臺灣藝術史研究中心", "channels": [] },
+                { "id": "l4-modern-ink-center", "name": "現代水墨研究中心", "channels": [] },
+                { "id": "l4-mndirc", "name": "微奈米元件檢測研究中心", "channels": [] },
+                { "id": "l4-east-asia-center", "name": "東亞文化與漢學研究中心", "channels": [] },
+                { "id": "l4-swfs", "name": "社會工作與家庭研究中心", "channels": [] },
+                { "id": "l4-dacm", "name": "音樂數位典藏中心", "channels": [] },
+                { "id": "l4-mgt-research-center", "name": "產業與管理研究發展中心", "channels": [] },
+                { "id": "l4-index-investment-center", "name": "智能與指數化投資研究中心", "channels": [] }
+              ]
+            },
+            {
+              "id": "l3-department-level-centers",
+              "name": "系所級中心",
+              "subUnits": [
+                { "id": "l4-education-professional-development-center", "name": "教育專業發展中心", "channels": [] },
+                { "id": "l4-paulo-freire-center", "name": "臺灣保羅‧弗萊瑞學術交流中心", "channels": [] },
+                { "id": "l4-cloud-testing-center", "name": "雲端測驗中心", "channels": [] },
+                { "id": "l4-adult-education-research-center", "name": "成人教育研究中心", "channels": [] },
+                { "id": "l4-frdc", "name": "家庭研究與發展中心", "channels": [] },
+                { "id": "l4-plastic-reduction-center", "name": "減塑促進中心", "channels": [] },
+                { "id": "l4-experiential-education-leadership-center", "name": "體驗教育與領導力中心", "channels": [] },
+                { "id": "l4-performing-arts-musical-center", "name": "表演藝術暨華文音樂劇中心", "channels": [] },
+                { "id": "l4-tvc", "name": "技術職業教育研究中心", "channels": [] },
+                { "id": "l4-overseas-tvet-center", "name": "海外技職教育研究中心", "channels": [] },
+                { "id": "l4-education-robotics-center", "name": "教育機器人研究中心", "channels": [] },
+                { "id": "l4-china-studies-center", "name": "中國大陸研究中心", "channels": [] },
+                { "id": "l4-overseas-chinese-research-center", "name": "海外華人研究中心", "channels": [] },
+                { "id": "l4-japan-studies-center", "name": "日本研究中心", "channels": [] },
+                { "id": "l4-french-teaching-center", "name": "法語教學中心", "channels": [] },
+                { "id": "l4-management-innovation-center", "name": "先進管理創新研究中心", "channels": [] },
+                { "id": "l4-global-innovation-entrepreneurship-center", "name": "全球創新創業研究中心", "channels": [] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l2-national-committees",
+          "name": "國家級委員會",
+          "subUnits": [
+            {
+              "id": "l3-tocfl",
+              "name": "教育部國家華語測驗推動工作委員會",
+              "channels": []
+            },
+            {
+              "id": "l3-cap-national-test-affairs",
+              "name": "國中教育會考全國試務會",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-university-committees",
+          "name": "校級委員會",
+          "subUnits": [
+            {
+              "id": "l3-gender-equity-committee",
+              "name": "性別平等教育委員會",
+              "channels": []
+            },
+            {
+              "id": "l3-student-appeals-committee",
+              "name": "學生申訴評議委員會",
+              "channels": []
+            },
+            {
+              "id": "l3-special-education-committee",
+              "name": "特殊教育推行委員會",
+              "channels": []
+            },
+            {
+              "id": "l3-general-education-committee",
+              "name": "共同教育委員會",
+              "channels": []
+            },
+            {
+              "id": "l3-research-ethics-review-committee",
+              "name": "研究倫理審查委員會",
+              "channels": []
             }
           ]
         }
