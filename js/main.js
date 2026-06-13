@@ -7,6 +7,7 @@ const liveFeedState = {
     pageSize: 20,
     maxTotal: 50,
     fetchSourceLimit: 200,
+    lookbackDays: 90,
     currentUserId: null,
     isLoading: false
 };
@@ -202,6 +203,31 @@ function renderTriggerBadges(triggers) {
     return `<div class="flex flex-wrap items-center gap-1.5">${badgesHtml}${extraHtml}</div>`;
 }
 
+function normalizeFeedSources(item) {
+    if (Array.isArray(item.sources) && item.sources.length > 0) {
+        return item.sources.filter(Boolean);
+    }
+    return [item.source || item.category_id || '未分類'];
+}
+
+function renderSourceLabels(sources, compact = false) {
+    const labels = Array.from(new Set((sources || []).filter(Boolean)));
+    const textClass = compact ? 'text-sm' : 'text-sm';
+    const containerClass = compact
+        ? 'flex min-w-0 max-w-full flex-col gap-1 leading-relaxed'
+        : 'flex min-w-[14rem] max-w-[22rem] flex-col gap-1 leading-relaxed';
+
+    return `
+        <div class="${containerClass}">
+            ${labels.map(source => `
+                <span class="${textClass} font-bold text-slate-600 break-words whitespace-normal">
+                    ${escapeHtml(source)}
+                </span>
+            `).join('')}
+        </div>
+    `;
+}
+
 function setLiveFeedStatus(message, tone = 'default') {
     const statusEl = document.getElementById('live-feed-status');
     if (!statusEl) return;
@@ -239,8 +265,7 @@ function renderFeedItems(reset = false) {
     const desktopRows = chunk.map((item) => {
         const timeValue = item.published_at || item.created_at;
         const timeText = formatFeedDate(timeValue);
-        const multipleSources = Array.isArray(item.sources) && item.sources.length > 1;
-        const sourceHtml = multipleSources ? (item.sources.map(s => escapeHtml(s)).join('<br>')) : escapeHtml(item.source || item.category_id || '未分類');
+        const sourceHtml = renderSourceLabels(normalizeFeedSources(item));
         const titleText = escapeHtml(item.title || '無標題');
         const safeUrl = item.url || '#';
 
@@ -254,7 +279,7 @@ function renderFeedItems(reset = false) {
             <tr class="transition-colors group ${primaryRowClass}">
                 <td class="px-6 py-4 text-xs font-bold text-slate-500 whitespace-nowrap">${timeText}</td>
                 <td class="px-6 py-4 w-44">${badgesHtml}</td>
-                <td class="px-6 py-4 w-48 ${multipleSources ? 'whitespace-normal break-words' : 'whitespace-nowrap'}"><span class="text-sm font-bold text-slate-600">${sourceHtml}</span></td>
+                <td class="px-6 py-4 min-w-[15rem] align-top">${sourceHtml}</td>
                 <td class="px-6 py-4"><p class="text-sm font-bold text-slate-800">${titleText}</p></td>
                 <td class="px-6 py-4 text-right"><a href="${safeUrl}" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-blue-600"><i class="fas fa-external-link-alt"></i></a></td>
             </tr>
@@ -264,8 +289,7 @@ function renderFeedItems(reset = false) {
     const mobileRows = chunk.map((item) => {
         const timeValue = item.published_at || item.created_at;
         const timeText = formatFeedDate(timeValue);
-        const multipleSources = Array.isArray(item.sources) && item.sources.length > 1;
-        const sourceHtml = multipleSources ? (item.sources.map(s => escapeHtml(s)).join('<br>')) : escapeHtml(item.source || item.category_id || '未分類');
+        const sourceHtml = renderSourceLabels(normalizeFeedSources(item), true);
         const titleText = escapeHtml(item.title || '無標題');
         const safeUrl = item.url || '#';
         const triggers = normalizeFeedTriggers(item);
@@ -279,7 +303,7 @@ function renderFeedItems(reset = false) {
                 </div>
                 <p class="text-base font-bold text-slate-800 mb-1">${titleText}</p>
                 <div class="flex justify-between items-center gap-3">
-                    <span class="text-sm font-bold text-slate-500 ${multipleSources ? 'whitespace-normal' : 'truncate'}">${sourceHtml}</span>
+                    <div class="min-w-0 flex-1">${sourceHtml}</div>
                     <a href="${safeUrl}" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-blue-600"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
@@ -321,6 +345,12 @@ function countGlobalKeywordMatches(items) {
 const FEED_SELECT_WITH_PUBLISHED_AT = 'id,title,url,source,category_id,trigger_type,published_at,created_at';
 const FEED_SELECT_WITHOUT_PUBLISHED_AT = 'id,title,url,source,category_id,trigger_type,created_at';
 
+function getLiveFeedCutoffIso() {
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - liveFeedState.lookbackDays);
+    return cutoff.toISOString();
+}
+
 function normalizeLiveFeedKeywords(keywords) {
     if (!Array.isArray(keywords)) return [];
 
@@ -360,12 +390,14 @@ async function fetchKeywordsForLiveFeed(userId) {
 }
 
 async function fetchSubscribedFeedWithFallback(userId) {
+    const cutoffIso = getLiveFeedCutoffIso();
+
     // 優先使用 RPC（DB 端聚合較省讀取），若未建立則 fallback 直接查詢
     const { data: rpcData, error: rpcError } = await _supabase.rpc('get_user_feed', {
         p_user_id: userId,
         p_per_cat_limit: 50,
         p_overall_limit: liveFeedState.fetchSourceLimit,
-        p_days: 90
+        p_days: liveFeedState.lookbackDays
     });
 
     if (!rpcError && Array.isArray(rpcData)) {
@@ -386,6 +418,7 @@ async function fetchSubscribedFeedWithFallback(userId) {
         .from('announcements')
         .select(FEED_SELECT_WITH_PUBLISHED_AT)
         .in('category_id', subIds)
+        .gte('published_at', cutoffIso)
         .order('published_at', { ascending: false, nullsFirst: false })
         .order('created_at', { ascending: false })
         .limit(liveFeedState.fetchSourceLimit);
@@ -397,6 +430,7 @@ async function fetchSubscribedFeedWithFallback(userId) {
             .from('announcements')
             .select(FEED_SELECT_WITHOUT_PUBLISHED_AT)
             .in('category_id', subIds)
+            .gte('created_at', cutoffIso)
             .order('created_at', { ascending: false })
             .limit(liveFeedState.fetchSourceLimit);
         data = retry.data;
@@ -409,11 +443,13 @@ async function fetchSubscribedFeedWithFallback(userId) {
 
 async function fetchKeywordMatchesByField(keyword, fieldName) {
     const pattern = `%${keyword}%`;
+    const cutoffIso = getLiveFeedCutoffIso();
 
     let { data, error } = await _supabase
         .from('announcements')
         .select(FEED_SELECT_WITH_PUBLISHED_AT)
         .ilike(fieldName, pattern)
+        .gte('published_at', cutoffIso)
         .order('published_at', { ascending: false, nullsFirst: false })
         .order('created_at', { ascending: false })
         .limit(liveFeedState.fetchSourceLimit);
@@ -423,6 +459,7 @@ async function fetchKeywordMatchesByField(keyword, fieldName) {
             .from('announcements')
             .select(FEED_SELECT_WITHOUT_PUBLISHED_AT)
             .ilike(fieldName, pattern)
+            .gte('created_at', cutoffIso)
             .order('created_at', { ascending: false })
             .limit(liveFeedState.fetchSourceLimit);
         data = retry.data;
