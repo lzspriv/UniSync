@@ -267,6 +267,12 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                         yearmonth_tag.get_text(" ", strip=True) if yearmonth_tag else "",
                         day_tag.get_text(" ", strip=True) if day_tag else "",
                     )
+                elif scraper_config.get("parser") == "ctld_media":
+                    title_tag = article.select_one(scraper_config.get("title", "h4.media-heading"))
+                    title_text = title_tag.get_text(" ", strip=True) if title_tag else link_text
+                    raw_date_text = date_tag.get_text(" ", strip=True) if date_tag else ""
+                    date_text, _ = parse_taiwan_date(raw_date_text)
+                    summary_text = ""
                 else:
                     raw_date_text = date_tag.get_text(strip=True) if date_tag else ""
 

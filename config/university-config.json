@@ -678,6 +678,42 @@
         "date_yearmonth": ".yearmonth",
         "date_day": ".day"
       }
+    },
+    "ctld_admin": {
+      "label": "行政公告",
+      "owner": "教學發展中心",
+      "url": "https://ctld.ntnu.edu.tw/c/%e8%a1%8c%e6%94%bf%e5%85%ac%e5%91%8a",
+      "selectors": {
+        "parser": "ctld_media",
+        "article": ".editable > .media",
+        "title_link": ".media-body > a[href]",
+        "title": "h4.media-heading",
+        "date": ".media-body > a > div"
+      }
+    },
+    "ctld_events": {
+      "label": "活動報名",
+      "owner": "教學發展中心",
+      "url": "https://ctld.ntnu.edu.tw/c/%e6%b4%bb%e5%8b%95%e5%85%ac%e5%91%8a%e8%88%87%e5%a0%b1%e5%90%8d",
+      "selectors": {
+        "parser": "ctld_media",
+        "article": ".editable > .media",
+        "title_link": ".media-body > a[href]",
+        "title": "h4.media-heading",
+        "date": ".media-body > a > div"
+      }
+    },
+    "ctld_external_events": {
+      "label": "轉知活動",
+      "owner": "教學發展中心",
+      "url": "https://ctld.ntnu.edu.tw/c/%e8%bd%89%e7%9f%a5%e6%b4%bb%e5%8b%95",
+      "selectors": {
+        "parser": "ctld_media",
+        "article": ".editable > .media",
+        "title_link": ".media-body > a[href]",
+        "title": "h4.media-heading",
+        "date": ".media-body > a > div"
+      }
     }
   },
   "schema": [
@@ -804,7 +840,20 @@
             {
               "id": "l3-teaching-learning-development-center",
               "name": "教學發展中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "ctld_admin",
+                  "name": "行政公告"
+                },
+                {
+                  "value": "ctld_events",
+                  "name": "活動報名"
+                },
+                {
+                  "value": "ctld_external_events",
+                  "name": "轉知活動"
+                }
+              ]
             },
             {
               "id": "l3-online-college-office",

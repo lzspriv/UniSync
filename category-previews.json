@@ -3668,5 +3668,125 @@
         "summary": ""
       }
     ]
+  },
+  "ctld_admin": {
+    "label": "行政公告",
+    "announcements": [
+      {
+        "title": "114-2【學生課業輔導員學習獎勵方案】第2階段審核結果公告",
+        "url": "https://ctld.ntnu.edu.tw/%e8%a1%8c%e6%94%bf%e5%85%ac%e5%91%8a/29644",
+        "date": "2026-05-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第1學期傑出教學助理遴選審查結果公告-獲獎名單",
+        "url": "https://ctld.ntnu.edu.tw/%e8%a1%8c%e6%94%bf%e5%85%ac%e5%91%8a/29620",
+        "date": "2026-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-2【課業輔導學習社群】審核結果公告",
+        "url": "https://ctld.ntnu.edu.tw/%e8%a1%8c%e6%94%bf%e5%85%ac%e5%91%8a/29215",
+        "date": "2026-03-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-2【學生課業輔導員學習獎勵方案】第1階段審核結果公告",
+        "url": "https://ctld.ntnu.edu.tw/%e8%a1%8c%e6%94%bf%e5%85%ac%e5%91%8a/29208",
+        "date": "2026-03-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第2學期「補助教學精進創新與專業社群計畫」補助名單公告",
+        "url": "https://ctld.ntnu.edu.tw/%e8%a1%8c%e6%94%bf%e5%85%ac%e5%91%8a/28903",
+        "date": "2026-01-27",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ctld_events": {
+    "label": "活動報名",
+    "announcements": [
+      {
+        "title": "教學實踐AI融入基礎專業課程之分享",
+        "url": "https://ctld.ntnu.edu.tw/%e6%b4%bb%e5%8b%95%e5%85%ac%e5%91%8a%e8%88%87%e5%a0%b1%e5%90%8d/29685",
+        "date": "2026-05-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "AI系列講座：AI教育應用 x Vibe Coding校園行政智慧化",
+        "url": "https://ctld.ntnu.edu.tw/%e6%b4%bb%e5%8b%95%e5%85%ac%e5%91%8a%e8%88%87%e5%a0%b1%e5%90%8d/%e6%95%99%e5%b8%ab%e5%b0%88%e6%a5%ad%e7%99%bc%e5%b1%95-%e6%b4%bb%e5%8b%95%e5%85%ac%e5%91%8a%e8%88%87%e5%a0%b1%e5%90%8d/29602",
+        "date": "2026-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-2英語授課知能工作坊(第二場)",
+        "url": "https://ctld.ntnu.edu.tw/%e6%b4%bb%e5%8b%95%e5%85%ac%e5%91%8a%e8%88%87%e5%a0%b1%e5%90%8d/29536",
+        "date": "2026-04-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-2專業知能工作坊－教學實務講座：開盲盒的不確定驚喜：課堂上TA有效溝通輔導專業技能，兼談AI運用的美麗錯誤",
+        "url": "https://ctld.ntnu.edu.tw/%e6%b4%bb%e5%8b%95%e5%85%ac%e5%91%8a%e8%88%87%e5%a0%b1%e5%90%8d/29235",
+        "date": "2026-03-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115年度教學實踐研究計畫研究倫理主題演講「 當教室成為研究場域：教學實踐研究的倫理議題與再思」",
+        "url": "https://ctld.ntnu.edu.tw/%e6%b4%bb%e5%8b%95%e5%85%ac%e5%91%8a%e8%88%87%e5%a0%b1%e5%90%8d/29177",
+        "date": "2026-03-19",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ctld_external_events": {
+    "label": "轉知活動",
+    "announcements": [
+      {
+        "title": "​[轉知]靜宜大學-教學實踐研究計畫中部區域基地115年6月15日「轉型正義」教育的教學實踐與規劃研習活動",
+        "url": "https://ctld.ntnu.edu.tw/%e8%bd%89%e7%9f%a5%e6%b4%bb%e5%8b%95/29914",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "​[轉知]國立陽明交通大學-教學實踐研究區域基地計畫115年6月22、23日「讓教學問題變成研究：教學實踐研究計畫的起點與方法」工作坊",
+        "url": "https://ctld.ntnu.edu.tw/%e8%bd%89%e7%9f%a5%e6%b4%bb%e5%8b%95/29872",
+        "date": "2026-06-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "​[轉知]國立中山大學-​教學實踐南區基地115年6月12日「教學實踐中的轉型正義」相關講座",
+        "url": "https://ctld.ntnu.edu.tw/%e8%bd%89%e7%9f%a5%e6%b4%bb%e5%8b%95/%e6%95%99%e5%ad%b8%e5%af%a6%e8%b8%90%e7%a0%94%e7%a9%b6/29858",
+        "date": "2026-06-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "​[轉知]靜宜大學-教學實踐研究計畫中部區域基地115年6月4日「性別主流化：從國家政策到教學實踐」研習活動",
+        "url": "https://ctld.ntnu.edu.tw/%e8%bd%89%e7%9f%a5%e6%b4%bb%e5%8b%95/29838",
+        "date": "2026-06-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[轉知]國立屏東大學-115年7月16日「教學實務升等暨撰寫分享講座」",
+        "url": "https://ctld.ntnu.edu.tw/%e8%bd%89%e7%9f%a5%e6%b4%bb%e5%8b%95/29791",
+        "date": "2026-05-28",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   }
 }
