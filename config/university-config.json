@@ -473,16 +473,6 @@
       "name": "行政組織",
       "units": [
         {
-          "id": "l2-president",
-          "name": "校長",
-          "channels": []
-        },
-        {
-          "id": "l2-vice-president",
-          "name": "副校長",
-          "channels": []
-        },
-        {
           "id": "l2-higher-education-sprout",
           "name": "高等教育深耕計畫辦公室",
           "channels": []
