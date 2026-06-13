@@ -285,22 +285,115 @@ function normalizeFeedSources(item) {
     return [item.source || item.category_id || '未分類'];
 }
 
+function parseSourceLabel(source) {
+    const text = String(source || '').trim();
+    const separatorIndex = text.indexOf('-');
+
+    if (separatorIndex <= 0) {
+        return {
+            unit: text,
+            category: ''
+        };
+    }
+
+    return {
+        unit: text.slice(0, separatorIndex).trim(),
+        category: text.slice(separatorIndex + 1).trim()
+    };
+}
+
+function groupSourceLabels(sources) {
+    const groups = [];
+    const groupMap = new Map();
+
+    Array.from(new Set((sources || []).filter(Boolean))).forEach(source => {
+        const parsed = parseSourceLabel(source);
+        if (!parsed.unit) return;
+
+        if (!groupMap.has(parsed.unit)) {
+            const group = {
+                unit: parsed.unit,
+                categories: []
+            };
+            groupMap.set(parsed.unit, group);
+            groups.push(group);
+        }
+
+        if (parsed.category) {
+            const group = groupMap.get(parsed.unit);
+            if (!group.categories.includes(parsed.category)) {
+                group.categories.push(parsed.category);
+            }
+        }
+    });
+
+    return groups;
+}
+
 function renderSourceLabels(sources, compact = false) {
-    const labels = Array.from(new Set((sources || []).filter(Boolean)));
-    const textClass = compact ? 'text-sm' : 'text-sm';
+    const groups = groupSourceLabels(sources);
+    const visibleChipCount = compact ? 4 : 3;
     const containerClass = compact
-        ? 'flex min-w-0 max-w-full flex-col gap-1 leading-relaxed'
-        : 'flex min-w-[14rem] max-w-[22rem] flex-col gap-1 leading-relaxed';
+        ? 'flex min-w-0 max-w-full flex-col gap-2 leading-relaxed'
+        : 'flex min-w-[15rem] max-w-[22rem] flex-col gap-2 leading-relaxed';
+
+    if (groups.length === 0) {
+        return `
+            <div class="${containerClass}">
+                <span class="text-sm font-bold text-slate-500">未分類</span>
+            </div>
+        `;
+    }
 
     return `
         <div class="${containerClass}">
-            ${labels.map(source => `
-                <span class="${textClass} font-bold text-slate-600 break-words whitespace-normal">
-                    ${escapeHtml(source)}
-                </span>
-            `).join('')}
+            ${groups.map(group => {
+                const visibleCategories = group.categories.slice(0, visibleChipCount);
+                const hiddenCategories = group.categories.slice(visibleChipCount);
+                const hiddenCount = Math.max(group.categories.length - visibleCategories.length, 0);
+                const fullLabel = group.categories.length > 0
+                    ? `${group.unit}-${group.categories.join('、')}`
+                    : group.unit;
+
+                return `
+                    <div class="min-w-0" title="${escapeHtml(fullLabel)}">
+                        <div class="truncate text-sm font-black text-slate-700">${escapeHtml(group.unit)}</div>
+                        ${group.categories.length > 0 ? `
+                            <div class="mt-1 flex flex-wrap gap-1.5">
+                                ${visibleCategories.map(category => `
+                                    <span class="inline-flex max-w-full items-center rounded-full border border-slate-200 bg-slate-50 px-2 py-0.5 text-[11px] font-bold leading-5 text-slate-600">
+                                        <span class="truncate">${escapeHtml(category)}</span>
+                                    </span>
+                                `).join('')}
+                                ${hiddenCategories.map(category => `
+                                    <span class="hidden max-w-full items-center rounded-full border border-slate-200 bg-slate-50 px-2 py-0.5 text-[11px] font-bold leading-5 text-slate-600" data-source-extra>
+                                        <span class="truncate">${escapeHtml(category)}</span>
+                                    </span>
+                                `).join('')}
+                                ${hiddenCount > 0 ? `
+                                    <button type="button" class="inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-2 py-0.5 text-[11px] font-black leading-5 text-blue-600 hover:bg-blue-100" data-source-toggle data-expanded="false" data-more-label="+${hiddenCount}" data-less-label="收合">+${hiddenCount}</button>
+                                ` : ''}
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            }).join('')}
         </div>
     `;
+}
+
+function toggleSourceGroup(button) {
+    const wrapper = button.closest('[title]');
+    if (!wrapper) return;
+
+    const expanded = button.dataset.expanded === 'true';
+    wrapper.querySelectorAll('[data-source-extra]').forEach(chip => {
+        chip.classList.toggle('hidden', expanded);
+        chip.classList.toggle('inline-flex', !expanded);
+    });
+
+    button.dataset.expanded = expanded ? 'false' : 'true';
+    button.textContent = expanded ? button.dataset.moreLabel : button.dataset.lessLabel;
 }
 
 function setLiveFeedStatus(message, tone = 'default') {
@@ -681,7 +774,20 @@ async function reloadLiveFeedForUser(userId) {
 }
 
 async function initializeLiveFeed() {
+    const tableBody = document.getElementById('live-feed-table-body');
+    const mobileContainer = document.getElementById('live-feed-mobile');
     const loadMoreBtn = document.getElementById('live-feed-load-more');
+
+    [tableBody, mobileContainer].filter(Boolean).forEach(container => {
+        container.addEventListener('click', (event) => {
+            const toggleButton = event.target.closest('[data-source-toggle]');
+            if (!toggleButton || !container.contains(toggleButton)) return;
+            event.preventDefault();
+            event.stopPropagation();
+            toggleSourceGroup(toggleButton);
+        });
+    });
+
     if (loadMoreBtn) {
         loadMoreBtn.addEventListener('click', () => {
             renderFeedItems(false);
