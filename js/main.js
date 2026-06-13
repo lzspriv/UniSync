@@ -280,7 +280,48 @@ function resetLiveFeedWithStatus(message, tone = 'default') {
     setLiveFeedStatus(message, tone);
 }
 
-async function fetchFeedWithFallback(userId) {
+const FEED_SELECT_WITH_PUBLISHED_AT = 'id,title,url,source,category_id,trigger_type,published_at,created_at';
+const FEED_SELECT_WITHOUT_PUBLISHED_AT = 'id,title,url,source,category_id,trigger_type,created_at';
+
+function normalizeLiveFeedKeywords(keywords) {
+    if (!Array.isArray(keywords)) return [];
+
+    const seen = new Set();
+    return keywords
+        .map(keyword => (typeof keyword === 'string' ? keyword.trim() : ''))
+        .filter(Boolean)
+        .filter(keyword => {
+            const key = keyword.toLocaleLowerCase();
+            if (seen.has(key)) return false;
+            seen.add(key);
+            return true;
+        });
+}
+
+async function fetchKeywordsForLiveFeed(userId) {
+    const keywordState = window.globalRadarKeywords;
+    if (
+        keywordState?.currentUserId === userId &&
+        Array.isArray(keywordState.keywords)
+    ) {
+        return normalizeLiveFeedKeywords(keywordState.keywords);
+    }
+
+    const { data: profile, error } = await _supabase
+        .from('profiles')
+        .select('keywords')
+        .eq('id', userId)
+        .single();
+
+    if (error) {
+        console.warn('Unable to load Global Radar keywords for Live Feed.', error);
+        return [];
+    }
+
+    return normalizeLiveFeedKeywords(profile?.keywords);
+}
+
+async function fetchSubscribedFeedWithFallback(userId) {
     // 優先使用 RPC（DB 端聚合較省讀取），若未建立則 fallback 直接查詢
     const { data: rpcData, error: rpcError } = await _supabase.rpc('get_user_feed', {
         p_user_id: userId,
@@ -303,12 +344,9 @@ async function fetchFeedWithFallback(userId) {
     const subIds = (subs || []).map(s => s.category_id);
     if (subIds.length === 0) return [];
 
-    const selectWithPublishedAt = 'id,title,url,source,category_id,trigger_type,published_at,created_at';
-    const selectWithoutPublishedAt = 'id,title,url,source,category_id,trigger_type,created_at';
-
     let query = _supabase
         .from('announcements')
-        .select(selectWithPublishedAt)
+        .select(FEED_SELECT_WITH_PUBLISHED_AT)
         .in('category_id', subIds)
         .order('published_at', { ascending: false, nullsFirst: false })
         .order('created_at', { ascending: false })
@@ -319,7 +357,7 @@ async function fetchFeedWithFallback(userId) {
     if (error) {
         const retry = await _supabase
             .from('announcements')
-            .select(selectWithoutPublishedAt)
+            .select(FEED_SELECT_WITHOUT_PUBLISHED_AT)
             .in('category_id', subIds)
             .order('created_at', { ascending: false })
             .limit(liveFeedState.fetchSourceLimit);
@@ -329,6 +367,136 @@ async function fetchFeedWithFallback(userId) {
 
     if (error) throw error;
     return data || [];
+}
+
+async function fetchKeywordMatchesByField(keyword, fieldName) {
+    const pattern = `%${keyword}%`;
+
+    let { data, error } = await _supabase
+        .from('announcements')
+        .select(FEED_SELECT_WITH_PUBLISHED_AT)
+        .ilike(fieldName, pattern)
+        .order('published_at', { ascending: false, nullsFirst: false })
+        .order('created_at', { ascending: false })
+        .limit(liveFeedState.fetchSourceLimit);
+
+    if (error) {
+        const retry = await _supabase
+            .from('announcements')
+            .select(FEED_SELECT_WITHOUT_PUBLISHED_AT)
+            .ilike(fieldName, pattern)
+            .order('created_at', { ascending: false })
+            .limit(liveFeedState.fetchSourceLimit);
+        data = retry.data;
+        error = retry.error;
+    }
+
+    if (error) {
+        console.warn(`Unable to load Global Radar matches from ${fieldName}.`, error);
+        return [];
+    }
+
+    return data || [];
+}
+
+async function fetchAnnouncementRowsForUrls(urls) {
+    const uniqueUrls = Array.from(new Set((urls || []).filter(Boolean)));
+    if (uniqueUrls.length === 0) return [];
+
+    const rows = [];
+    const chunkSize = 50;
+
+    for (let i = 0; i < uniqueUrls.length; i += chunkSize) {
+        const chunk = uniqueUrls.slice(i, i + chunkSize);
+        let { data, error } = await _supabase
+            .from('announcements')
+            .select(FEED_SELECT_WITH_PUBLISHED_AT)
+            .in('url', chunk)
+            .order('published_at', { ascending: false, nullsFirst: false })
+            .order('created_at', { ascending: false });
+
+        if (error) {
+            const retry = await _supabase
+                .from('announcements')
+                .select(FEED_SELECT_WITHOUT_PUBLISHED_AT)
+                .in('url', chunk)
+                .order('created_at', { ascending: false });
+            data = retry.data;
+            error = retry.error;
+        }
+
+        if (error) {
+            console.warn('Unable to load full tag set for Global Radar matches.', error);
+            continue;
+        }
+
+        rows.push(...(data || []));
+    }
+
+    return rows;
+}
+
+function appendUnique(target, value) {
+    if (value && !target.includes(value)) {
+        target.push(value);
+    }
+}
+
+async function fetchGlobalKeywordFeed(userId) {
+    const keywords = await fetchKeywordsForLiveFeed(userId);
+    if (keywords.length === 0) return [];
+
+    const matchedByKey = new Map();
+
+    for (const keyword of keywords) {
+        const [titleMatches, sourceMatches] = await Promise.all([
+            fetchKeywordMatchesByField(keyword, 'title'),
+            fetchKeywordMatchesByField(keyword, 'source')
+        ]);
+
+        [...titleMatches, ...sourceMatches].forEach(item => {
+            const key = item.url || item.id || `${item.title || ''}::${item.published_at || item.created_at || ''}`;
+            const triggerLabel = `global_keyword:${keyword}`;
+            const existing = matchedByKey.get(key);
+
+            if (!existing) {
+                matchedByKey.set(key, {
+                    ...item,
+                    trigger_type: triggerLabel,
+                    triggers: [triggerLabel],
+                    matched_keywords: [keyword],
+                    sources: [item.source || item.category_id || '未分類']
+                });
+                return;
+            }
+
+            appendUnique(existing.triggers, triggerLabel);
+            appendUnique(existing.matched_keywords, keyword);
+            appendUnique(existing.sources, item.source || item.category_id || '未分類');
+        });
+    }
+
+    const matchedUrls = Array.from(matchedByKey.values()).map(item => item.url).filter(Boolean);
+    const fullTagRows = await fetchAnnouncementRowsForUrls(matchedUrls);
+
+    fullTagRows.forEach(item => {
+        const key = item.url || item.id || `${item.title || ''}::${item.published_at || item.created_at || ''}`;
+        const existing = matchedByKey.get(key);
+        if (!existing) return;
+
+        appendUnique(existing.sources, item.source || item.category_id || '未分類');
+    });
+
+    return Array.from(matchedByKey.values());
+}
+
+async function fetchFeedWithFallback(userId) {
+    const [subscribedItems, keywordItems] = await Promise.all([
+        fetchSubscribedFeedWithFallback(userId),
+        fetchGlobalKeywordFeed(userId)
+    ]);
+
+    return [...subscribedItems, ...keywordItems];
 }
 
 async function reloadLiveFeedForUser(userId) {
@@ -382,6 +550,13 @@ async function initializeLiveFeed() {
     });
 
     window.addEventListener('subscriptions:updated', async (e) => {
+        const nextUserId = e?.detail?.userId || liveFeedState.currentUserId;
+        if (nextUserId) {
+            await reloadLiveFeedForUser(nextUserId);
+        }
+    });
+
+    window.addEventListener('keywords:updated', async (e) => {
         const nextUserId = e?.detail?.userId || liveFeedState.currentUserId;
         if (nextUserId) {
             await reloadLiveFeedForUser(nextUserId);
@@ -523,9 +698,15 @@ function aggregateFeedItems(items) {
         }
     });
     // Normalize sources into single string
-    return Array.from(map.values()).map(it => ({
-        ...it,
-        source: (it.sources || []).join(', '),
-        triggers: it.triggers || []
-    }));
+    return Array.from(map.values())
+        .map(it => ({
+            ...it,
+            source: (it.sources || []).join(', '),
+            triggers: it.triggers || []
+        }))
+        .sort((a, b) => {
+            const aTime = new Date(a.published_at || a.created_at || 0).getTime();
+            const bTime = new Date(b.published_at || b.created_at || 0).getTime();
+            return bTime - aTime;
+        });
 }

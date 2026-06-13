@@ -74,6 +74,12 @@ async function updateKeywordsInSupabase(keywords) {
         }
         
         console.log('關鍵字已同步至 Supabase:', keywords);
+        window.dispatchEvent(new CustomEvent('keywords:updated', {
+            detail: {
+                userId: window.globalRadarKeywords.currentUserId,
+                keywords: [...keywords]
+            }
+        }));
         window.globalRadarKeywords.isSyncing = false;
         return true;
     } catch (err) {
