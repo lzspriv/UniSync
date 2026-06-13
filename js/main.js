@@ -144,6 +144,81 @@ function formatFeedDate(timeValue) {
     return `${mm}-${dd}`;
 }
 
+function normalizeGismeePathForKey(pathname) {
+    const path = pathname.replace(/\/+$/, '') || '/';
+    const segments = path.split('/').filter(Boolean);
+
+    if (segments.length === 3 && segments[0] === 'zh_tw' && ['news', 'menu2_1'].includes(segments[1])) {
+        return `/zh_tw/news/${segments[2]}`;
+    }
+
+    if (
+        segments.length === 4 &&
+        segments[0] === 'zh_tw' &&
+        segments[1] === 'news' &&
+        segments[2] === 'menu2_2'
+    ) {
+        return `/zh_tw/news/${segments[3]}`;
+    }
+
+    return path;
+}
+
+function normalizeAnnouncementUrlForKey(rawUrl) {
+    if (!rawUrl) return '';
+
+    try {
+        const parsed = new URL(rawUrl, window.location.origin);
+        const hostname = parsed.hostname.toLowerCase();
+        const normalizedHost = ['www.gismee.ntnu.edu.tw', 'gismee.ntnu.edu.tw'].includes(hostname)
+            ? 'www.gismee.ntnu.edu.tw'
+            : hostname;
+        const normalizedPath = normalizedHost === 'www.gismee.ntnu.edu.tw'
+            ? normalizeGismeePathForKey(parsed.pathname)
+            : (parsed.pathname.replace(/\/+$/, '') || '/');
+
+        return `${parsed.protocol.toLowerCase()}//${normalizedHost}${normalizedPath}${parsed.search}`;
+    } catch (err) {
+        return String(rawUrl).trim().replace(/\/+$/, '');
+    }
+}
+
+function getAnnouncementUrlCandidates(rawUrl) {
+    const normalizedUrl = normalizeAnnouncementUrlForKey(rawUrl);
+    if (!normalizedUrl) return [];
+
+    const candidates = [];
+    const append = value => {
+        if (value && !candidates.includes(value)) candidates.push(value);
+    };
+
+    append(rawUrl);
+    append(normalizedUrl);
+
+    try {
+        const parsed = new URL(normalizedUrl);
+        if (parsed.hostname.toLowerCase() === 'www.gismee.ntnu.edu.tw') {
+            const segments = parsed.pathname.replace(/\/+$/, '').split('/').filter(Boolean);
+            if (segments.length === 3 && segments[0] === 'zh_tw' && segments[1] === 'news') {
+                const slug = segments[2];
+                [
+                    `/zh_tw/news/${slug}`,
+                    `/zh_tw/menu2_1/${slug}`,
+                    `/zh_tw/news/menu2_2/${slug}`
+                ].forEach(path => append(`${parsed.protocol}//${parsed.hostname}${path}${parsed.search}`));
+            }
+        }
+    } catch (err) {
+        // Keep the original normalized candidate only.
+    }
+
+    return candidates;
+}
+
+function getAnnouncementKey(item) {
+    return normalizeAnnouncementUrlForKey(item?.url) || item?.id || `${item?.title || ''}::${item?.published_at || item?.created_at || ''}`;
+}
+
 function inferTriggerType(item) {
     const value = (item.trigger_type || '').toLowerCase();
     if (value.includes('global')) {
@@ -475,7 +550,7 @@ async function fetchKeywordMatchesByField(keyword, fieldName) {
 }
 
 async function fetchAnnouncementRowsForUrls(urls) {
-    const uniqueUrls = Array.from(new Set((urls || []).filter(Boolean)));
+    const uniqueUrls = Array.from(new Set((urls || []).flatMap(getAnnouncementUrlCandidates).filter(Boolean)));
     if (uniqueUrls.length === 0) return [];
 
     const rows = [];
@@ -530,7 +605,7 @@ async function fetchGlobalKeywordFeed(userId) {
         ]);
 
         [...titleMatches, ...sourceMatches].forEach(item => {
-            const key = item.url || item.id || `${item.title || ''}::${item.published_at || item.created_at || ''}`;
+            const key = getAnnouncementKey(item);
             const triggerLabel = `global_keyword:${keyword}`;
             const existing = matchedByKey.get(key);
 
@@ -555,7 +630,7 @@ async function fetchGlobalKeywordFeed(userId) {
     const fullTagRows = await fetchAnnouncementRowsForUrls(matchedUrls);
 
     fullTagRows.forEach(item => {
-        const key = item.url || item.id || `${item.title || ''}::${item.published_at || item.created_at || ''}`;
+        const key = getAnnouncementKey(item);
         const existing = matchedByKey.get(key);
         if (!existing) return;
 
@@ -582,7 +657,7 @@ async function reloadLiveFeedForUser(userId) {
 
     try {
         const fetchedItems = await fetchFeedWithFallback(userId);
-        // aggregate same announcement (by URL) to combine multiple triggers/tags
+        // aggregate same announcement (by canonical URL) to combine multiple triggers/tags
         const aggregatedItems = aggregateFeedItems(fetchedItems);
         setGlobalKeywordMatchCount(countGlobalKeywordMatches(aggregatedItems));
 
@@ -748,7 +823,7 @@ function aggregateFeedItems(items) {
     };
 
     items.forEach(item => {
-        const key = item.url || item.id || `${item.title || ''}::${item.published_at || item.created_at || ''}`;
+        const key = getAnnouncementKey(item);
         const triggerLabels = normalizeList(item.triggers, item.trigger_type || '選單訂閱');
         const sourceLabels = normalizeList(item.sources, item.source || item.category_id || '未分類');
 

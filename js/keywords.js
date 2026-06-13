@@ -151,13 +151,56 @@ async function fetchPreviewMatches(keyword) {
     }
 }
 
+function normalizePreviewGismeePathForKey(pathname) {
+    const path = pathname.replace(/\/+$/, '') || '/';
+    const segments = path.split('/').filter(Boolean);
+
+    if (segments.length === 3 && segments[0] === 'zh_tw' && ['news', 'menu2_1'].includes(segments[1])) {
+        return `/zh_tw/news/${segments[2]}`;
+    }
+
+    if (
+        segments.length === 4 &&
+        segments[0] === 'zh_tw' &&
+        segments[1] === 'news' &&
+        segments[2] === 'menu2_2'
+    ) {
+        return `/zh_tw/news/${segments[3]}`;
+    }
+
+    return path;
+}
+
+function normalizePreviewAnnouncementUrlForKey(rawUrl) {
+    if (!rawUrl) return '';
+
+    try {
+        const parsed = new URL(rawUrl, window.location.origin);
+        const hostname = parsed.hostname.toLowerCase();
+        const normalizedHost = ['www.gismee.ntnu.edu.tw', 'gismee.ntnu.edu.tw'].includes(hostname)
+            ? 'www.gismee.ntnu.edu.tw'
+            : hostname;
+        const normalizedPath = normalizedHost === 'www.gismee.ntnu.edu.tw'
+            ? normalizePreviewGismeePathForKey(parsed.pathname)
+            : (parsed.pathname.replace(/\/+$/, '') || '/');
+
+        return `${parsed.protocol.toLowerCase()}//${normalizedHost}${normalizedPath}${parsed.search}`;
+    } catch (err) {
+        return String(rawUrl).trim().replace(/\/+$/, '');
+    }
+}
+
+function getPreviewAnnouncementKey(item) {
+    return normalizePreviewAnnouncementUrlForKey(item?.url) || item?.id || `${item?.title || ''}::${item?.published_at || ''}`;
+}
+
 function aggregatePreviewMatches(matches) {
     if (!Array.isArray(matches) || matches.length === 0) return [];
 
     const grouped = new Map();
 
     matches.forEach((item) => {
-        const key = item.url || item.id || `${item.title || ''}::${item.published_at || ''}`;
+        const key = getPreviewAnnouncementKey(item);
         const sourceLabel = item.source || '未分類';
 
         if (!grouped.has(key)) {
