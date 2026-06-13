@@ -280,6 +280,22 @@ function resetLiveFeedWithStatus(message, tone = 'default') {
     setLiveFeedStatus(message, tone);
 }
 
+function setGlobalKeywordMatchCount(count) {
+    const countEl = document.getElementById('global-keyword-matches-count');
+    if (!countEl) return;
+    countEl.textContent = Number.isFinite(count) ? count : '--';
+}
+
+function countGlobalKeywordMatches(items) {
+    if (!Array.isArray(items)) return 0;
+    return items.filter(item => {
+        const triggers = Array.isArray(item.triggers)
+            ? item.triggers
+            : [item.trigger_type || ''];
+        return triggers.some(trigger => String(trigger).toLowerCase().includes('global'));
+    }).length;
+}
+
 const FEED_SELECT_WITH_PUBLISHED_AT = 'id,title,url,source,category_id,trigger_type,published_at,created_at';
 const FEED_SELECT_WITHOUT_PUBLISHED_AT = 'id,title,url,source,category_id,trigger_type,created_at';
 
@@ -506,9 +522,12 @@ async function reloadLiveFeedForUser(userId) {
     setLiveFeedStatus('Live Feed 載入中...', 'loading');
 
     try {
-        let items = await fetchFeedWithFallback(userId);
+        const fetchedItems = await fetchFeedWithFallback(userId);
         // aggregate same announcement (by URL) to combine multiple triggers/tags
-        items = aggregateFeedItems(items).slice(0, liveFeedState.maxTotal);
+        const aggregatedItems = aggregateFeedItems(fetchedItems);
+        setGlobalKeywordMatchCount(countGlobalKeywordMatches(aggregatedItems));
+
+        const items = aggregatedItems.slice(0, liveFeedState.maxTotal);
         liveFeedState.allItems = items;
         liveFeedState.visibleCount = 0;
 

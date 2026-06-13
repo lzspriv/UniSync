@@ -20,6 +20,12 @@ window.globalRadarKeywords = {
     pendingKeyword: ''
 };
 
+function updateKeywordCountMetric(keywords) {
+    const countEl = document.getElementById('global-keywords-count');
+    if (!countEl) return;
+    countEl.textContent = Array.isArray(keywords) ? keywords.length : '--';
+}
+
 /**
  * 從 Supabase 載入當前使用者的關鍵字
  */
@@ -93,6 +99,8 @@ async function updateKeywordsInSupabase(keywords) {
  * 動態渲染關鍵字標籤
  */
 function renderKeywordTags(keywords) {
+    updateKeywordCountMetric(keywords);
+
     const container = document.getElementById('global-radar-tags');
     if (!container) return;
     
@@ -434,6 +442,7 @@ _supabase.auth.onAuthStateChange(async (event, session) => {
         window.globalRadarKeywords.keywords = [];
         window.globalRadarKeywords.currentUserId = null;
         renderKeywordTags([]);
+        updateKeywordCountMetric(null);
     }
 });
 

@@ -16,6 +16,11 @@ const authElements = {
     monitoringStatus: document.getElementById('monitoring-status')
 };
 
+function setDashboardMetric(elementId, value) {
+    const el = document.getElementById(elementId);
+    if (el) el.textContent = value;
+}
+
 /* --- 🔑 認證邏輯 --- */
 
 // Google 登入
@@ -31,8 +36,9 @@ async function loginWithGoogle() {
 async function logout() {
     await _supabase.auth.signOut();
     // 重置訂閱計數
-    const countEl = document.getElementById('active-subscriptions-count');
-    if (countEl) countEl.textContent = '--';
+    setDashboardMetric('active-subscriptions-count', '--');
+    setDashboardMetric('global-keyword-matches-count', '--');
+    setDashboardMetric('global-keywords-count', '--');
     window.location.reload();
 }
 
@@ -61,6 +67,9 @@ function updateAuthUI(user) {
         authElements.userInfo.classList.add('hidden');
         authElements.discordInput.value = "";
         updateMonitoringStatus(false);
+        setDashboardMetric('active-subscriptions-count', '--');
+        setDashboardMetric('global-keyword-matches-count', '--');
+        setDashboardMetric('global-keywords-count', '--');
         // 清空所有勾勾
         document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
     }
