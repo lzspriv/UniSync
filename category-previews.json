@@ -3548,5 +3548,125 @@
         "summary": ""
       }
     ]
+  },
+  "cge_news": {
+    "label": "公告",
+    "announcements": [
+      {
+        "title": "114暑期課程：策略管理101 (Strategic Management 101) 歡迎學生選修",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=18&id=1911",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115-1學期新開 [校園性別事件解析]課程，歡迎學生選修",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=18&id=1909",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115 年全國夏季學院 5/18 開始第二階段報名，暑假跨校通識抵學分！Summer College Phase 2 registration starts May 18 — cross-university credit opportunities this summer!",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=18&id=1903",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "第一屆「全國通識教育短影音創作競賽」徵件，即日起至 115 年 10 月 15 日",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=18&id=1899",
+        "date": "2026-05-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "歡迎 6月2日一起走進莎士比亞的世界，探索愛與權力、悲劇與喜劇的交織",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=18&id=1898",
+        "date": "2026-05-19",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cge_courses": {
+    "label": "課程",
+    "announcements": [
+      {
+        "title": "114學年度暑期通識課(2026年暑假) 5/28起選課 Summer Session Course Selection",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=12&id=1890",
+        "date": "2026-04-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】本校學生參與國家語言能力認證獎勵申請",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=12&id=1879",
+        "date": "2026-03-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "通識課程「自主學習：專題探究」開放申請至3月31日截止 (115-1學期執行)",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=12&id=1801",
+        "date": "2025-03-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【課程資訊】113-2新開設「多元文化」與「人工智慧與日常生活」2門通識課程，歡迎同學選修",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=12&id=1782",
+        "date": "2024-12-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "112學年度暑期通識課(2024年暑假) 5/23起報名 Summer Session Course Selection",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=12&id=1725",
+        "date": "2024-04-15",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cge_activities": {
+    "label": "活動",
+    "announcements": [
+      {
+        "title": "115.5.13：114-2通識影展《大風之島》影片放映",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=6&id=1893",
+        "date": "2026-05-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115.5.20：114-2通識影展《大風之島》導演座談",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=6&id=1896",
+        "date": "2026-05-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115.5.6：114-2通識講座「歐洲中古的政治漫畫－貝葉掛毯」",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=6&id=1892",
+        "date": "2026-05-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115.4.29：114-2通識讀書會《失控的焦慮世代：手機餵養的世代，如何面對心理疾病的瘟疫》導讀",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=6&id=1889",
+        "date": "2026-04-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115.4.22：114-2通識講座「我與中國、我與台灣」",
+        "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=6&id=1886",
+        "date": "2026-04-16",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   }
 }

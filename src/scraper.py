@@ -100,6 +100,17 @@ def parse_leading_date(text):
     return parse_taiwan_date(text)
 
 
+def parse_split_date(yearmonth_text, day_text):
+    match = re.search(r"(\d{4})[-/](\d{1,2})", yearmonth_text or "")
+    day_match = re.search(r"(\d{1,2})", day_text or "")
+    if not match or not day_match:
+        return "未知日期"
+
+    year, month = match.groups()
+    day = day_match.group(1)
+    return f"{year}-{int(month):02d}-{int(day):02d}"
+
+
 class SafeFormatDict(dict):
     def __missing__(self, key):
         return ""
@@ -247,6 +258,15 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                     title_text = title_tag.get_text(" ", strip=True) if title_tag else link_text
                     summary_text = summary_tag.get_text(" ", strip=True) if summary_tag else title_text
                     date_text = parse_alumni_date(date_tag.get_text(" ", strip=True) if date_tag else "")
+                elif scraper_config.get("parser") == "split_date_card":
+                    yearmonth_tag = article.select_one(scraper_config.get("date_yearmonth", ".yearmonth"))
+                    day_tag = article.select_one(scraper_config.get("date_day", ".day"))
+                    title_text = link_text
+                    summary_text = ""
+                    date_text = parse_split_date(
+                        yearmonth_tag.get_text(" ", strip=True) if yearmonth_tag else "",
+                        day_tag.get_text(" ", strip=True) if day_tag else "",
+                    )
                 else:
                     raw_date_text = date_tag.get_text(strip=True) if date_tag else ""
 

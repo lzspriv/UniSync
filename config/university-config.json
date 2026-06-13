@@ -642,6 +642,42 @@
         "date": "tr",
         "pinned": ".status-top"
       }
+    },
+    "cge_news": {
+      "label": "公告",
+      "owner": "通識教育中心",
+      "url": "https://www.cge.ntnu.edu.tw/article.php?lang=tw&tb=3&cid=18",
+      "selectors": {
+        "parser": "split_date_card",
+        "article": ".layoutlist_2 .item",
+        "title_link": "a.article_subject",
+        "date_yearmonth": ".yearmonth",
+        "date_day": ".day"
+      }
+    },
+    "cge_courses": {
+      "label": "課程",
+      "owner": "通識教育中心",
+      "url": "https://www.cge.ntnu.edu.tw/article.php?lang=tw&tb=3&cid=12",
+      "selectors": {
+        "parser": "split_date_card",
+        "article": ".layoutlist_2 .item",
+        "title_link": "a.article_subject",
+        "date_yearmonth": ".yearmonth",
+        "date_day": ".day"
+      }
+    },
+    "cge_activities": {
+      "label": "活動",
+      "owner": "通識教育中心",
+      "url": "https://www.cge.ntnu.edu.tw/article.php?lang=tw&tb=3&cid=6",
+      "selectors": {
+        "parser": "split_date_card",
+        "article": ".layoutlist_2 .item",
+        "title_link": "a.article_subject",
+        "date_yearmonth": ".yearmonth",
+        "date_day": ".day"
+      }
     }
   },
   "schema": [
@@ -750,7 +786,20 @@
             {
               "id": "l3-general-education-center",
               "name": "通識教育中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "cge_news",
+                  "name": "公告"
+                },
+                {
+                  "value": "cge_courses",
+                  "name": "課程"
+                },
+                {
+                  "value": "cge_activities",
+                  "name": "活動"
+                }
+              ]
             },
             {
               "id": "l3-teaching-learning-development-center",
