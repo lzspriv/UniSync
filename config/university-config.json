@@ -319,6 +319,39 @@
       "label": "徵人啟事",
       "owner": "科學教育研究所",
       "url": "https://www.gise.ntnu.edu.tw/index.php/category/news/6/"
+    },
+    "gismee_news": {
+      "label": "最新消息",
+      "owner": "永續管理與環境教育研究所",
+      "url": "https://www.gismee.ntnu.edu.tw/zh_tw/news",
+      "selectors": {
+        "article": ".i-annc__table tbody tr",
+        "title_link": ".i-annc__content .i-annc__title",
+        "date": ".i-annc__postdate-content, .i-annc__postdate",
+        "pinned": ".status-top"
+      }
+    },
+    "gismee_affairs": {
+      "label": "所務訊息公告",
+      "owner": "永續管理與環境教育研究所",
+      "url": "https://www.gismee.ntnu.edu.tw/zh_tw/news/menu2_2",
+      "selectors": {
+        "article": ".i-annc__table tbody tr",
+        "title_link": ".i-annc__content .i-annc__title",
+        "date": ".i-annc__postdate-content, .i-annc__postdate",
+        "pinned": ".status-top"
+      }
+    },
+    "gismee_admission": {
+      "label": "招生資訊",
+      "owner": "永續管理與環境教育研究所",
+      "url": "https://www.gismee.ntnu.edu.tw/zh_tw/menu2_1",
+      "selectors": {
+        "article": ".i-annc__table tbody tr",
+        "title_link": ".i-annc__content .i-annc__title",
+        "date": ".i-annc__postdate-content, .i-annc__postdate",
+        "pinned": ".status-top"
+      }
     }
   },
   "schema": [
@@ -460,7 +493,11 @@
             {
               "id": "l3-sustainable-mgmt-env-edu",
               "name": "永續管理與環境教育研究所",
-              "channels": []
+              "channels": [
+                { "name": "最新消息", "value": "gismee_news" },
+                { "name": "所務訊息公告", "value": "gismee_affairs" },
+                { "name": "招生資訊", "value": "gismee_admission" }
+              ]
             },
             {
               "id": "l3-life-science-college",

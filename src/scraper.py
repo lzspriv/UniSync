@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import re
+from urllib.parse import urljoin
 
 def parse_taiwan_date(text):
     """
@@ -56,6 +57,7 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
         old_articles_count = 0
 
         articles = soup.select(scraper_config.get("article", "#blog-entries article"))
+        pinned_selector = scraper_config.get("pinned")
         
         for article in articles:
             link_tag = article.select_one(scraper_config.get("title_link", ".blog-entry-title.entry-title a"))
@@ -66,10 +68,26 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                 
                 # 智慧日期解析，分離出乾淨的日期與摘要
                 date_text, summary_text = parse_taiwan_date(raw_date_text)
+
+                is_pinned = bool(pinned_selector and article.select_one(pinned_selector))
+                is_recent = False
+                date_is_known = date_text != "未知日期"
+
+                if date_is_known:
+                    try:
+                        article_date = datetime.strptime(date_text, "%Y-%m-%d")
+                        is_recent = article_date >= cutoff_date
+                    except ValueError:
+                        date_is_known = False
+
+                # Some sites keep "important" pinned rows above newer normal rows.
+                # Old pinned rows should not affect preview fallback or old-row cutoff.
+                if is_pinned and not is_recent:
+                    continue
                 
                 news_item = {
                     "title": link_tag.get_text(strip=True),
-                    "url": link_tag.get('href'),
+                    "url": urljoin(url, link_tag.get('href')),
                     "date": date_text,
                     "summary": summary_text[:150] + "..." if len(summary_text) > 150 else summary_text,
                     "category": category_name
@@ -77,23 +95,14 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                 all_news.append(news_item)
                 
                 # 📝 修正時間截斷邏輯：確保不被 ValueError 意外重置
-                try:
-                    if date_text == "未知日期":
-                        # 無法取得日期的單頁或卡片，不計入連續舊公告，但也不重置計數
-                        old_articles_count += 1
-                    else:
-                        article_date = datetime.strptime(date_text, "%Y-%m-%d")
-                        if article_date >= cutoff_date:
-                            recent_news.append(news_item)
-                            old_articles_count = 0 # 真正的新公告，重置計數器
-                        else:
-                            old_articles_count += 1
-                            # 🎯 超過 5 天的舊公告，且連續遇到 5 篇，且總數已經夠多，就安全中斷
-                            if len(all_news) >= 10 and old_articles_count >= 5:
-                                break
-                except ValueError:
-                    # 解析格式異常時，安全遞增舊公告計數，不盲目重置
+                if is_recent:
+                    recent_news.append(news_item)
+                    old_articles_count = 0 # 真正的新公告，重置計數器
+                else:
                     old_articles_count += 1
+                    # 🎯 超過 5 天的舊公告，且連續遇到 5 篇，且總數已經夠多，就安全中斷
+                    if date_is_known and len(all_news) >= 10 and old_articles_count >= 5:
+                        break
         
         # 🎯 確保 main.py 和 JSON 檔案拿到完全一致的前 5 筆 Fallback 資料
         return all_news[:5] if len(recent_news) < 5 else recent_news
