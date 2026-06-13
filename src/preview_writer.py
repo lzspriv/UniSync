@@ -18,6 +18,8 @@ def build_category_preview_payload(category_previews: dict, category_labels: dic
                     "title": item.get("title", "(無標題)"),
                     "url": item.get("url", ""),
                     "date": item.get("date", UNKNOWN_DATE),
+                    "date_label": item.get("date_label", "發布日期"),
+                    "summary": item.get("summary", ""),
                 }
                 for item in items
             ],

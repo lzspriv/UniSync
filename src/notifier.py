@@ -41,10 +41,14 @@ def build_discord_embed(category_label: str, announcement: dict, matched_keyword
     """
     matched_keywords = matched_keywords or []
     announcement_url = announcement.get("url", "")
+    date_label = announcement.get("date_label", "發布日期")
     description_lines = [
         announcement.get("title", "(無標題)"),
-        f"發布日期: {announcement.get('date', 'N/A')}",
+        f"{date_label}: {announcement.get('date', 'N/A')}",
     ]
+    summary = announcement.get("summary")
+    if summary:
+        description_lines.append(summary)
 
     if announcement_url:
         description_lines.append(f"[開啟公告]({announcement_url})")
@@ -249,7 +253,9 @@ def notify_announcement_once(supabase: Client, item: dict, category_ids: list, c
     send_item = {
         "title": item.get("title", "(無標題)"),
         "url": item.get("url", ""),
-        "date": item.get("date", "N/A")
+        "date": item.get("date", "N/A"),
+        "date_label": item.get("date_label", "發布日期"),
+        "summary": item.get("summary", "")
     }
 
     for webhook in all_webhooks:

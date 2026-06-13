@@ -487,6 +487,136 @@
         "title_link": "a",
         "date": "a"
       }
+    },
+    "scr_school_meeting": {
+      "label": "校務會議",
+      "owner": "秘書室",
+      "url": "https://scr.ntnu.edu.tw/zh-tw/school-meeting",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "tr",
+        "title_link": "a[href*='record'], a[href$='.pdf']",
+        "date": "tr"
+      }
+    },
+    "scr_administrative_meeting": {
+      "label": "行政會議",
+      "owner": "秘書室",
+      "url": "https://scr.ntnu.edu.tw/zh-tw/administrative-meeting",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "tr",
+        "title_link": "a[href*='-1.pdf'], a[href$='.pdf']",
+        "date": "tr"
+      }
+    },
+    "scr_fund": {
+      "label": "校務基金管理委員會",
+      "owner": "秘書室",
+      "url": "https://scr.ntnu.edu.tw/zh-tw/fund",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "tr",
+        "title_link": "a[href$='.pdf']",
+        "date": "tr"
+      }
+    },
+    "pr_news": {
+      "label": "師大新聞",
+      "owner": "公共事務中心",
+      "url": "https://pr.ntnu.edu.tw/news/",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "tr",
+        "title_link": "a[title][href*='mode=data']",
+        "date": "tr"
+      }
+    },
+    "pr_chirpy": {
+      "label": "活動預告",
+      "owner": "公共事務中心",
+      "url": "https://pr.ntnu.edu.tw/chirpy/index_api.php",
+      "selectors": {
+        "parser": "json_events",
+        "title_field": "title",
+        "url_field": "url",
+        "date_field": "created_time",
+        "recency_field": "created_time",
+        "date_label": "新增日期",
+        "summary_template": "活動時間：{start} ~ {end} / 地點：{place}"
+      }
+    },
+    "alumni_news": {
+      "label": "最新消息",
+      "owner": "校友中心",
+      "url": "https://alumni.ntnu.edu.tw/ActiveMessage?itemid=23&mid=8",
+      "selectors": {
+        "parser": "alumni_card",
+        "article": ".item",
+        "title_link": "a",
+        "date": ".square_date",
+        "title": ".title",
+        "summary": ".font_con"
+      }
+    },
+    "alumni_development": {
+      "label": "學校發展",
+      "owner": "校友中心",
+      "url": "https://alumni.ntnu.edu.tw/ActiveMessage?itemid=8&mid=9",
+      "selectors": {
+        "parser": "alumni_card",
+        "article": ".item",
+        "title_link": "a",
+        "date": ".square_date",
+        "title": ".title",
+        "summary": ".font_con"
+      }
+    },
+    "alumni_activities": {
+      "label": "校友活動",
+      "owner": "校友中心",
+      "url": "https://alumni.ntnu.edu.tw/Message?itemid=21&mid=10",
+      "selectors": {
+        "parser": "alumni_card",
+        "article": ".item",
+        "title_link": "a",
+        "date": ".square_date",
+        "title": ".title",
+        "summary": ".font_con"
+      }
+    },
+    "alumni_training": {
+      "label": "校園研習",
+      "owner": "校友中心",
+      "url": "https://alumni.ntnu.edu.tw/Message?itemid=1&mid=32",
+      "selectors": {
+        "parser": "alumni_card",
+        "article": ".item",
+        "title_link": "a",
+        "date": ".square_date",
+        "title": ".title",
+        "summary": ".font_con"
+      }
+    },
+    "iro_news": {
+      "label": "最新消息",
+      "owner": "校務研究辦公室",
+      "url": "https://www.iro.ntnu.edu.tw/iro/index.php/category/news/",
+      "selectors": {
+        "article": ".blog-entry-inner",
+        "title_link": ".blog-entry-title.entry-title a",
+        "date": ".meta-date"
+      }
+    },
+    "iro_fyi": {
+      "label": "轉知訊息",
+      "owner": "校務研究辦公室",
+      "url": "https://www.iro.ntnu.edu.tw/iro/index.php/category/news/fyi/",
+      "selectors": {
+        "article": ".blog-entry-inner",
+        "title_link": ".blog-entry-title.entry-title a",
+        "date": ".meta-date"
+      }
     }
   },
   "schema": [
@@ -511,21 +641,70 @@
         {
           "id": "l2-secretariat",
           "name": "秘書室",
+          "channels": [
+            {
+              "value": "scr_school_meeting",
+              "name": "校務會議"
+            },
+            {
+              "value": "scr_administrative_meeting",
+              "name": "行政會議"
+            },
+            {
+              "value": "scr_fund",
+              "name": "校務基金管理委員會"
+            }
+          ],
           "subUnits": [
             {
               "id": "l3-public-affairs-center",
               "name": "公共事務中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "pr_news",
+                  "name": "師大新聞"
+                },
+                {
+                  "value": "pr_chirpy",
+                  "name": "活動預告"
+                }
+              ]
             },
             {
               "id": "l3-alumni-center",
               "name": "校友中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "alumni_news",
+                  "name": "最新消息"
+                },
+                {
+                  "value": "alumni_development",
+                  "name": "學校發展"
+                },
+                {
+                  "value": "alumni_activities",
+                  "name": "校友活動"
+                },
+                {
+                  "value": "alumni_training",
+                  "name": "校園研習"
+                }
+              ]
             },
             {
               "id": "l3-institutional-research-office",
               "name": "校務研究辦公室",
-              "channels": []
+              "channels": [
+                {
+                  "value": "iro_news",
+                  "name": "最新消息"
+                },
+                {
+                  "value": "iro_fyi",
+                  "name": "轉知訊息"
+                }
+              ]
             }
           ]
         },
