@@ -1480,9 +1480,9 @@
       "url": "https://epa.ed.ntnu.edu.tw/zh_tw/news",
       "selectors": {
         "parser": "row_date_link",
-        "article": "tr",
-        "title_link": "a[href*='/zh_tw/news/']",
-        "date": "tr",
+        "article": ".i-annc__item",
+        "title_link": ".i-annc__title",
+        "date": ".i-annc__postdate",
         "pinned": ".status-top"
       }
     },
@@ -1492,9 +1492,9 @@
       "url": "https://epa.ed.ntnu.edu.tw/zh_tw/more_announcement?category%5B%5D=all&tags%5B%5D=all",
       "selectors": {
         "parser": "row_date_link",
-        "article": "tr",
-        "title_link": "a[href*='/zh_tw/more_announcement/']",
-        "date": "tr",
+        "article": ".i-annc__content-wrap",
+        "title_link": ".i-annc__title",
+        "date": ".i-annc__postdate",
         "pinned": ".status-top"
       }
     },

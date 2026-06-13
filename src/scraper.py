@@ -46,8 +46,8 @@ def parse_taiwan_date(text):
         summary = text.replace(tw_match.group(0), "").replace("🏷️", "").strip()
         return f"{year}-{month:02d}-{day:02d}", summary
 
-    # 🔍 尋找西元格式，例如: 2026-04-30
-    en_match = re.search(r'(\d{4})[-/](\d{1,2})[-/](\d{1,2})', text)
+    # 🔍 尋找西元格式，例如: 2026-04-30、2026/04/30、2026.04.30
+    en_match = re.search(r'(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})', text)
     if en_match:
         summary = text.replace(en_match.group(0), "").strip()
         return f"{en_match.group(1)}-{int(en_match.group(2)):02d}-{int(en_match.group(3)):02d}", summary
