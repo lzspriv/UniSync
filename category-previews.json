@@ -3220,11 +3220,11 @@
         "show_summary": true
       },
       {
-        "title": "115年度教檢解題直播",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10581",
-        "date": "2026-06-08",
+        "title": "【場地暫停開放】公館校區中正堂B1施工",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10580",
+        "date": "2026-06-05",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-06-14 19:30 ~ 2026-06-14 21:00 / 地點：師培學院師培課程組",
+        "summary": "活動時間：2026-06-15 08:00 ~ 2026-09-06 15:35 / 地點：中正堂地下一樓",
         "show_summary": true
       }
     ]
@@ -3791,43 +3791,7 @@
   },
   "co_latest": {
     "label": "網路大學辦公室-最新消息",
-    "announcements": [
-      {
-        "title": "【全球虛擬教室課程獎勵申請】即日起至115年8月14日，歡迎本校教師踴躍申請！",
-        "url": "https://www.co.ntnu.edu.tw/index.php/15667/",
-        "date": "2026-06-12",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【線上講座】AI 時代高教人才培育與教學轉型系列講座",
-        "url": "https://www.co.ntnu.edu.tw/index.php/15524/",
-        "date": "2026-06-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度暑期全球虛擬教室觀課活動 2026 Summer Peer Observation & Feedback – Opening Classrooms",
-        "url": "https://www.co.ntnu.edu.tw/index.php/15439/",
-        "date": "2026-05-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "遠距數位課程字幕工具及配套資源 Captioning Tools and Support Resources for Online Courses",
-        "url": "https://www.co.ntnu.edu.tw/index.php/15373/",
-        "date": "2026-04-28",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【5/4(一)實體+線上講座】數位孿生在教學研究的應用 Applications of Digital Twins in Teaching and Research",
-        "url": "https://www.co.ntnu.edu.tw/index.php/15270/",
-        "date": "2026-03-30",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "co_news": {
     "label": "網路大學辦公室-公告",
