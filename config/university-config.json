@@ -284,6 +284,41 @@
       "label": "獎學金",
       "owner": "海洋環境科技研究所",
       "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/5/"
+    },
+    "gise_news": {
+      "label": "最新消息",
+      "owner": "科學教育研究所",
+      "url": "https://www.gise.ntnu.edu.tw/index.php/category/news/"
+    },
+    "gise_affairs": {
+      "label": "所務公告",
+      "owner": "科學教育研究所",
+      "url": "https://www.gise.ntnu.edu.tw/index.php/category/news/1/"
+    },
+    "gise_admission": {
+      "label": "招生公告",
+      "owner": "科學教育研究所",
+      "url": "https://www.gise.ntnu.edu.tw/index.php/category/news/2/"
+    },
+    "gise_speeches": {
+      "label": "專題演講",
+      "owner": "科學教育研究所",
+      "url": "https://www.gise.ntnu.edu.tw/index.php/category/3/"
+    },
+    "gise_media": {
+      "label": "媒體報導",
+      "owner": "科學教育研究所",
+      "url": "https://www.gise.ntnu.edu.tw/index.php/category/news/4/"
+    },
+    "gise_workshop": {
+      "label": "研習活動",
+      "owner": "科學教育研究所",
+      "url": "https://www.gise.ntnu.edu.tw/index.php/category/news/5/"
+    },
+    "gise_recruitment": {
+      "label": "徵人啟事",
+      "owner": "科學教育研究所",
+      "url": "https://www.gise.ntnu.edu.tw/index.php/category/news/6/"
     }
   },
   "schema": [
@@ -412,7 +447,15 @@
             {
               "id": "l3-science-edu",
               "name": "科學教育研究所",
-              "channels": []
+              "channels": [
+                { "name": "最新消息", "value": "gise_news" },
+                { "name": "所務公告", "value": "gise_affairs" },
+                { "name": "招生公告", "value": "gise_admission" },
+                { "name": "專題演講", "value": "gise_speeches" },
+                { "name": "媒體報導", "value": "gise_media" },
+                { "name": "研習活動", "value": "gise_workshop" },
+                { "name": "徵人啟事", "value": "gise_recruitment" }
+              ]
             },
             {
               "id": "l3-sustainable-mgmt-env-edu",
