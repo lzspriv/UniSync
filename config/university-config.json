@@ -1227,7 +1227,7 @@
       "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2",
       "selectors": {
         "parser": "row_date_link",
-        "article": "tr",
+        "article": "table.table tbody tr",
         "title_link": "a[href*='news02=']",
         "date": "tr"
       }
@@ -1235,10 +1235,10 @@
     "cve_dept": {
       "label": "????",
       "owner": "???????????",
-      "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=????",
+      "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E7%B3%BB%E6%89%80%E5%85%AC%E5%91%8A",
       "selectors": {
         "parser": "row_date_link",
-        "article": "tr",
+        "article": "table.table tbody tr",
         "title_link": "a[href*='news02=']",
         "date": "tr"
       }
@@ -1246,10 +1246,10 @@
     "cve_admission": {
       "label": "????",
       "owner": "???????????",
-      "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=????",
+      "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E6%8B%9B%E7%94%9F%E5%85%AC%E5%91%8A",
       "selectors": {
         "parser": "row_date_link",
-        "article": "tr",
+        "article": "table.table tbody tr",
         "title_link": "a[href*='news02=']",
         "date": "tr"
       }
@@ -1257,10 +1257,10 @@
     "cve_speeches": {
       "label": "????",
       "owner": "???????????",
-      "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=????",
+      "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E6%BC%94%E8%AC%9B%E5%85%AC%E5%91%8A",
       "selectors": {
         "parser": "row_date_link",
-        "article": "tr",
+        "article": "table.table tbody tr",
         "title_link": "a[href*='news02=']",
         "date": "tr"
       }
@@ -1268,10 +1268,10 @@
     "cve_recruitment": {
       "label": "????",
       "owner": "???????????",
-      "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=????",
+      "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E5%BE%B5%E8%81%98%E8%A8%8A%E6%81%AF",
       "selectors": {
         "parser": "row_date_link",
-        "article": "tr",
+        "article": "table.table tbody tr",
         "title_link": "a[href*='news02=']",
         "date": "tr"
       }
@@ -1279,10 +1279,10 @@
     "cve_competition": {
       "label": "????",
       "owner": "???????????",
-      "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=????",
+      "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E7%AB%B6%E8%B3%BD%E6%B4%BB%E5%8B%95",
       "selectors": {
         "parser": "row_date_link",
-        "article": "tr",
+        "article": "table.table tbody tr",
         "title_link": "a[href*='news02=']",
         "date": "tr"
       }
@@ -1290,10 +1290,10 @@
     "cve_grants": {
       "label": "????",
       "owner": "???????????",
-      "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=????",
+      "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E7%8D%8E%E5%8B%B5%E8%A3%9C%E5%8A%A9",
       "selectors": {
         "parser": "row_date_link",
-        "article": "tr",
+        "article": "table.table tbody tr",
         "title_link": "a[href*='news02=']",
         "date": "tr"
       }
@@ -1301,10 +1301,10 @@
     "cve_honor": {
       "label": "???",
       "owner": "???????????",
-      "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=???",
+      "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E6%A6%AE%E8%AD%BD%E6%A6%9C",
       "selectors": {
         "parser": "row_date_link",
-        "article": "tr",
+        "article": "table.table tbody tr",
         "title_link": "a[href*='news02=']",
         "date": "tr"
       }
