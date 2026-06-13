@@ -67,16 +67,17 @@ async function updateKeywordsInSupabase(keywords) {
             });
         
         if (error) {
-            console.error('同步關鍵字失敗', error);
+            // ✨ 讓這行印出更詳細的資料庫拒絕原因（例如 RLS 違規或權限問題）
+            console.error('Supabase 拒絕更新關鍵字，詳細錯誤原因:', error.message, '代碼:', error.code);
             window.globalRadarKeywords.isSyncing = false;
             return false;
         }
         
-        console.log('關鍵字已同步至 Supabase:', keywords);
+        console.log('關鍵字已成功同步至 Supabase:', keywords);
         window.globalRadarKeywords.isSyncing = false;
         return true;
     } catch (err) {
-        console.error('同步關鍵字時發生錯誤', err);
+        console.error('同步關鍵字時發生非預期錯誤', err);
         window.globalRadarKeywords.isSyncing = false;
         return false;
     }
