@@ -16,17 +16,20 @@ function renderMenu() {
     const container = document.getElementById('menu-container');
     if (!container) return;
 
-    const renderChannels = (channels = []) => channels.map(ch => `
-        <div class="menu-channel-row" data-menu-leaf data-menu-text="${escapeHtml(ch.name)}">
+    const renderChannels = (channels = [], parentPath = []) => channels.map(ch => {
+        const displayLabel = [...parentPath, ch.name].filter(Boolean).join('-');
+        return `
+        <div class="menu-channel-row" data-menu-leaf data-menu-text="${escapeAttribute(ch.name)}">
             <label class="menu-channel">
                 <input type="checkbox" value="${ch.value}" class="child-checkbox">
                 <span>${ch.name}</span>
             </label>
-            <button onclick="event.stopPropagation(); openPreviewModal('${ch.value}')" class="preview-btn" title="預覽此分類">
+            <button type="button" class="preview-btn" data-preview-category="${escapeAttribute(ch.value)}" data-preview-label="${escapeAttribute(displayLabel)}" title="預覽此分類">
                 <i class="fas fa-eye"></i>
             </button>
         </div>
-    `).join('');
+    `;
+    }).join('');
 
     const renderMenuToolbar = () => `
         <div class="menu-toolbar">
@@ -53,14 +56,15 @@ function renderMenu() {
         (node.units || []).reduce((sum, child) => sum + countSubscribableChannels(child), 0) +
         (node.subUnits || []).reduce((sum, child) => sum + countSubscribableChannels(child), 0);
 
-    const renderSubUnit = (sub) => {
+    const renderSubUnit = (sub, parentPath = []) => {
         const hasChildren = hasMenuChildren(sub);
         const subscribableCount = countSubscribableChannels(sub);
         const hasSubscribable = subscribableCount > 0;
+        const currentPath = [...parentPath, sub.name].filter(Boolean);
         return `
             <div class="menu-subunit menu-node ${hasChildren ? '' : 'menu-node-empty'}" data-menu-node data-menu-text="${escapeHtml(sub.name)}" data-subscribable="${hasSubscribable ? 'true' : 'false'}">
-                <div ${hasChildren ? `onclick="toggleElement('${sub.id}')"` : ''} class="menu-row menu-row-sub ${hasChildren ? '' : 'menu-row-empty'}" ${hasChildren ? 'aria-expanded="false"' : ''}>
-                    <div class="menu-row-left">
+                <div class="menu-row menu-row-sub ${hasChildren ? '' : 'menu-row-empty'}" ${hasChildren ? 'aria-expanded="false"' : ''}>
+                    <div class="menu-row-left" ${hasChildren ? `data-menu-toggle="${escapeAttribute(sub.id)}" role="button" tabindex="0"` : ''}>
                         ${hasChildren
                             ? `<i id="icon-${sub.id}" class="fas fa-caret-right menu-icon menu-icon-sub"></i>`
                             : '<span class="menu-icon menu-icon-sub"></span>'}
@@ -74,22 +78,23 @@ function renderMenu() {
                 </div>
                 ${hasChildren ? `
                     <div id="${sub.id}" class="collapsible-content menu-children menu-children-channel">
-                        ${(sub.channels || []).length > 0 ? renderChannels(sub.channels) : ''}
-                        ${(sub.subUnits || []).map(renderSubUnit).join('')}
+                        ${(sub.channels || []).length > 0 ? renderChannels(sub.channels, currentPath) : ''}
+                        ${(sub.subUnits || []).map(child => renderSubUnit(child, currentPath)).join('')}
                     </div>
                 ` : ''}
             </div>
         `;
     };
 
-    const renderUnit = (unit) => {
+    const renderUnit = (unit, parentPath = []) => {
         const hasChildren = hasMenuChildren(unit);
         const subscribableCount = countSubscribableChannels(unit);
         const hasSubscribable = subscribableCount > 0;
+        const currentPath = [...parentPath, unit.name].filter(Boolean);
         return `
             <div class="menu-unit menu-node ${hasChildren ? '' : 'menu-node-empty'}" data-menu-node data-menu-text="${escapeHtml(unit.name)}" data-subscribable="${hasSubscribable ? 'true' : 'false'}">
-                <div class="menu-row menu-row-unit ${hasChildren ? '' : 'menu-row-empty'}" ${hasChildren ? `onclick="toggleElement('${unit.id}')"` : ''} ${hasChildren ? 'aria-expanded="false"' : ''}>
-                    <div class="menu-row-left">
+                <div class="menu-row menu-row-unit ${hasChildren ? '' : 'menu-row-empty'}" ${hasChildren ? 'aria-expanded="false"' : ''}>
+                    <div class="menu-row-left" ${hasChildren ? `data-menu-toggle="${escapeAttribute(unit.id)}" role="button" tabindex="0"` : ''}>
                         ${hasChildren
                             ? `<i id="icon-${unit.id}" class="fas fa-caret-right menu-icon menu-icon-unit"></i>`
                             : '<span class="menu-icon menu-icon-unit"></span>'}
@@ -103,8 +108,8 @@ function renderMenu() {
                 </div>
                 ${hasChildren ? `
                     <div id="${unit.id}" class="collapsible-content menu-children menu-children-unit">
-                        ${(unit.channels || []).length > 0 ? renderChannels(unit.channels) : ''}
-                        ${(unit.subUnits || []).map(renderSubUnit).join('')}
+                        ${(unit.channels || []).length > 0 ? renderChannels(unit.channels, currentPath) : ''}
+                        ${(unit.subUnits || []).map(sub => renderSubUnit(sub, [])).join('')}
                     </div>
                 ` : ''}
             </div>
@@ -118,8 +123,8 @@ function renderMenu() {
         const subscribableCount = countSubscribableChannels(category);
         return `
         <div class="menu-group border border-slate-200 rounded-2xl overflow-hidden mb-4 bg-white" data-menu-group>
-            <div class="menu-row menu-row-category" onclick="toggleElement('${category.id}')" aria-expanded="false">
-                <div class="menu-row-left">
+            <div class="menu-row menu-row-category" aria-expanded="false">
+                <div class="menu-row-left" data-menu-toggle="${escapeAttribute(category.id)}" role="button" tabindex="0">
                     <i id="icon-${category.id}" class="fas fa-chevron-right menu-icon menu-icon-category"></i>
                     <span class="menu-label menu-label-category">${category.name}</span>
                     ${subscribableCount > 0 ? `<span class="menu-count">${subscribableCount}</span>` : '<span class="menu-pending-badge">待接公告</span>'}
@@ -129,7 +134,7 @@ function renderMenu() {
                 ` : ''}
             </div>
             <div id="${category.id}" class="collapsible-content menu-children menu-children-category">
-                ${(category.units || []).map(renderUnit).join('')}
+                ${(category.units || []).map(unit => renderUnit(unit, [])).join('')}
             </div>
         </div>
     `;
@@ -137,6 +142,7 @@ function renderMenu() {
     `;
 
     bindMenuToolbar();
+    bindMenuInteractions();
 }
 
 /**
@@ -151,16 +157,109 @@ function handleParentClick(parentCheckbox, containerId) {
     allCheckboxes.forEach(cb => cb.checked = isChecked);
 }
 
-/**
- * 通用選單展開切換[cite: 1]
- */
+function syncAncestorHeights(content) {
+    let parent = content.parentElement?.closest('.collapsible-content.expanded');
+    while (parent) {
+        parent.style.height = parent.dataset.animating === 'true' ? `${parent.scrollHeight}px` : 'auto';
+        parent = parent.parentElement?.closest('.collapsible-content.expanded');
+    }
+}
+
+function syncExpandedMenuHeights(root = document) {
+    if (!root) return;
+
+    Array.from(root.querySelectorAll('.collapsible-content.expanded'))
+        .reverse()
+        .forEach(content => {
+            content.style.height = content.dataset.animating === 'true' ? `${content.scrollHeight}px` : 'auto';
+        });
+}
+
+function setCollapsibleExpanded(content, expanded) {
+    const animationToken = `${Date.now()}-${Math.random()}`;
+    content.dataset.animationToken = animationToken;
+
+    const finishAnimation = () => {
+        if (content.dataset.animationToken !== animationToken) return;
+
+        content.dataset.animating = 'false';
+        if (content.classList.contains('expanded')) {
+            content.style.height = 'auto';
+        }
+        syncAncestorHeights(content);
+    };
+
+    content.addEventListener('transitionend', (event) => {
+        if (event.target === content && event.propertyName === 'height') {
+            finishAnimation();
+        }
+    }, { once: true });
+    window.setTimeout(finishAnimation, 320);
+
+    if (expanded) {
+        content.dataset.animating = 'true';
+        content.classList.add('expanded');
+        content.style.height = '0px';
+        content.offsetHeight;
+        content.style.height = `${content.scrollHeight}px`;
+        syncAncestorHeights(content);
+        return;
+    }
+
+    content.dataset.animating = 'true';
+    content.style.height = `${content.scrollHeight}px`;
+    content.offsetHeight;
+    content.classList.remove('expanded');
+    content.style.height = '0px';
+    syncAncestorHeights(content);
+}
+
 function toggleElement(id) {
     const content = document.getElementById(id);
-    const icon = document.getElementById(`icon-${id}`);
-    const expanded = content?.classList.toggle('expanded');
+    if (!content) return;
+
+    setMenuNodeExpanded(id, !content.classList.contains('expanded'));
+}
+
+function bindMenuInteractions() {
+    const container = document.getElementById('menu-container');
+    if (!container) return;
+    if (container.dataset.menuInteractionsBound === 'true') return;
+    container.dataset.menuInteractionsBound = 'true';
+
+    container.addEventListener('click', (event) => {
+        const previewButton = event.target.closest('[data-preview-category]');
+        if (previewButton && container.contains(previewButton)) {
+            event.preventDefault();
+            event.stopPropagation();
+            openPreviewModal(previewButton.dataset.previewCategory, previewButton.dataset.previewLabel);
+            return;
+        }
+
+        const toggleTarget = event.target.closest('[data-menu-toggle]');
+        if (!toggleTarget || !container.contains(toggleTarget)) return;
+
+        event.preventDefault();
+        event.stopPropagation();
+        toggleElement(toggleTarget.dataset.menuToggle);
+    });
+
+    container.addEventListener('keydown', (event) => {
+        if (event.key !== 'Enter' && event.key !== ' ') return;
+
+        const toggleTarget = event.target.closest('[data-menu-toggle]');
+        if (!toggleTarget || !container.contains(toggleTarget)) return;
+
+        event.preventDefault();
+        toggleElement(toggleTarget.dataset.menuToggle);
+    });
+}
+
+function updateMenuExpandedState(content, expanded) {
+    const icon = document.getElementById(`icon-${content.id}`);
     icon?.classList.toggle('rotate-icon', expanded);
 
-    const row = content?.previousElementSibling;
+    const row = content.previousElementSibling;
     if (row) {
         row.setAttribute('aria-expanded', expanded ? 'true' : 'false');
     }
@@ -168,12 +267,10 @@ function toggleElement(id) {
 
 function setMenuNodeExpanded(id, expanded) {
     const content = document.getElementById(id);
-    const icon = document.getElementById(`icon-${id}`);
     if (!content) return;
 
-    content.classList.toggle('expanded', expanded);
-    icon?.classList.toggle('rotate-icon', expanded);
-    content.previousElementSibling?.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+    setCollapsibleExpanded(content, expanded);
+    updateMenuExpandedState(content, expanded);
 }
 
 function bindMenuToolbar() {
@@ -226,6 +323,7 @@ function bindMenuToolbar() {
         });
 
         document.getElementById('menu-empty-state')?.classList.toggle('hidden', visibleGroups > 0);
+        syncExpandedMenuHeights(document.getElementById('menu-container'));
     };
 
     searchInput?.addEventListener('input', applyFilter);
@@ -233,6 +331,7 @@ function bindMenuToolbar() {
 
     expandAllBtn?.addEventListener('click', () => {
         document.querySelectorAll('#menu-container .collapsible-content').forEach(content => setMenuNodeExpanded(content.id, true));
+        syncExpandedMenuHeights(document.getElementById('menu-container'));
     });
 
     collapseAllBtn?.addEventListener('click', () => {
@@ -271,6 +370,10 @@ function escapeHtml(value) {
         .replaceAll('>', '&gt;')
         .replaceAll('"', '&quot;')
         .replaceAll("'", '&#39;');
+}
+
+function escapeAttribute(value) {
+    return escapeHtml(value);
 }
 
 function formatFeedDate(timeValue) {
@@ -1012,7 +1115,7 @@ async function loadPreviewData() {
     }
 }
 
-function openPreviewModal(categoryId) {
+function openPreviewModal(categoryId, displayLabel = '') {
     if (!window.categoryPreviewData) {
         alert('預覽資料尚未載入，請稍候');
         return;
@@ -1028,7 +1131,8 @@ function openPreviewModal(categoryId) {
     const title = document.getElementById('preview-title');
     const content = document.getElementById('preview-content');
 
-    title.textContent = `${data.label} - 預覽`;
+    const previewLabel = displayLabel || data.full_label || data.label;
+    title.textContent = `${previewLabel} - 預覽`;
 
     if (data.announcements.length === 0) {
         content.innerHTML = '<p class="text-sm text-slate-500 text-center py-8">暫無公告</p>';

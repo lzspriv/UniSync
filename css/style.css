@@ -1,12 +1,12 @@
 .collapsible-content {
-	max-height: 0;
+	height: 0;
 	overflow: hidden;
-	transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+	transition: height 0.24s ease;
+	will-change: height;
 }
 
 .expanded {
-	max-height: 2500px;
-	transition: max-height 0.5s ease-in;
+	transition: height 0.24s ease;
 }
 
 .rotate-icon {
@@ -154,7 +154,7 @@
 	justify-content: space-between;
 	gap: 1rem;
 	width: 100%;
-	cursor: pointer;
+	cursor: default;
 	transition: background-color 0.2s ease, color 0.2s ease;
 }
 
@@ -163,6 +163,16 @@
 	align-items: center;
 	gap: 0.75rem;
 	min-width: 0;
+}
+
+.menu-row-left[data-menu-toggle] {
+	cursor: pointer;
+	outline: none;
+}
+
+.menu-row-left[data-menu-toggle]:focus-visible {
+	border-radius: 0.75rem;
+	box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.25);
 }
 
 .menu-label {
