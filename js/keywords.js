@@ -1,4 +1,4 @@
-/* --- 🌐 Global Radar Keywords Management --- */
+/* --- 🌐 Global Radar Keywords Management (Optimized Scheme A) --- */
 
 // Utility function to escape HTML
 function escapeHtml(value) {
@@ -16,14 +16,15 @@ window.globalRadarKeywords = {
     keywords: [],
     currentUserId: null,
     isLoading: false,
-    isSyncing: false
+    isSyncing: false,
+    pendingKeyword: ''
 };
 
 /**
  * 從 Supabase 載入當前使用者的關鍵字
  */
 async function loadKeywordsFromSupabase(userId) {
-    if (!userId || !_supabase) return;
+    if (!userId || !_supabase) return [];
     
     try {
         const { data: profile, error } = await _supabase
@@ -67,17 +68,16 @@ async function updateKeywordsInSupabase(keywords) {
             });
         
         if (error) {
-            // ✨ 讓這行印出更詳細的資料庫拒絕原因（例如 RLS 違規或權限問題）
             console.error('Supabase 拒絕更新關鍵字，詳細錯誤原因:', error.message, '代碼:', error.code);
             window.globalRadarKeywords.isSyncing = false;
             return false;
         }
         
-        console.log('關鍵字已成功同步至 Supabase:', keywords);
+        console.log('關鍵字已同步至 Supabase:', keywords);
         window.globalRadarKeywords.isSyncing = false;
         return true;
     } catch (err) {
-        console.error('同步關鍵字時發生非預期錯誤', err);
+        console.error('同步關鍵字時發生錯誤', err);
         window.globalRadarKeywords.isSyncing = false;
         return false;
     }
@@ -110,6 +110,154 @@ function renderKeywordTags(keywords) {
 }
 
 /**
+ * 🛰️ 從 Supabase 撈取匹配關鍵字的最新 10 筆公告 (方案 A 專用)
+ */
+async function fetchPreviewMatches(keyword) {
+    if (!keyword || typeof keyword !== 'string' || !_supabase) return [];
+    
+    keyword = keyword.trim();
+    if (keyword.length === 0) return [];
+    
+    try {
+        const { data: matches, error } = await _supabase
+            .from('announcements')
+            .select('id, title, url, source, published_at')
+            .or(`title.ilike.%${keyword}%,source.ilike.%${keyword}%`) 
+            .order('published_at', { ascending: false }) 
+            .limit(50);
+
+        if (error) {
+            console.error('預覽關鍵字查詢失敗:', error);
+            return [];
+        }
+        return matches;
+    } catch (err) {
+        console.error('執行預覽時發生非預期錯誤:', err);
+        return [];
+    }
+}
+
+function aggregatePreviewMatches(matches) {
+    if (!Array.isArray(matches) || matches.length === 0) return [];
+
+    const grouped = new Map();
+
+    matches.forEach((item) => {
+        const key = item.url || item.id || `${item.title || ''}::${item.published_at || ''}`;
+        const sourceLabel = item.source || '未分類';
+
+        if (!grouped.has(key)) {
+            grouped.set(key, {
+                ...item,
+                sources: [sourceLabel]
+            });
+            return;
+        }
+
+        const current = grouped.get(key);
+        if (sourceLabel && !current.sources.includes(sourceLabel)) {
+            current.sources.push(sourceLabel);
+        }
+    });
+
+    return Array.from(grouped.values()).map((item) => ({
+        ...item,
+        sources: Array.isArray(item.sources) ? item.sources : []
+    }));
+}
+
+/**
+ * 🎨 將撈出的公告陣列渲染到前端預覽貨架上
+ */
+function renderPreviewList(keyword, matches) {
+    const list = document.getElementById('modal-preview-list');
+    const footer = document.getElementById('modal-action-footer');
+    
+    if (!list) return;
+
+    if (!keyword || keyword.trim().length === 0) {
+        list.innerHTML = '';
+        if (footer) footer.classList.add('hidden');
+        return;
+    }
+
+    window.globalRadarKeywords.pendingKeyword = keyword.trim();
+    list.innerHTML = '';
+
+    const mergedMatches = aggregatePreviewMatches(matches).slice(0, 10);
+
+    if (mergedMatches.length === 0) {
+        list.innerHTML = `
+            <li class="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-xs leading-relaxed text-amber-800">
+                ⚠️ 目前資料庫中無相符公告。新增此關鍵字後，未來有新公告上架時仍會觸發雷達。
+            </li>`;
+        if (footer) footer.classList.add('hidden');
+        return;
+    }
+
+    mergedMatches.forEach((item, index) => {
+        const dateDisplay = item.published_at ? item.published_at.split('T')[0] : '未知日期';
+        const sources = Array.isArray(item.sources) ? item.sources : [];
+        
+        const li = document.createElement('li');
+        li.className = 'preview-card group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg';
+        li.style.animationDelay = `${Math.min(index * 40, 240)}ms`;
+        li.innerHTML = `
+            <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" class="block text-base font-bold leading-8 text-slate-800 transition-colors group-hover:text-blue-600" title="${escapeHtml(item.title)}">
+                <span class="mr-2 inline-flex rounded-full bg-blue-50 px-2.5 py-0.5 text-xs font-black uppercase tracking-[0.2em] text-blue-600">${escapeHtml(item.source || '未分類')}</span>
+                <span class="whitespace-normal break-words">${escapeHtml(item.title)}</span>
+            </a>
+            ${sources.length > 1 ? `
+                <div class="mt-3 flex flex-wrap gap-2">
+                    ${sources.map((source) => `<span class="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs font-bold text-slate-500">${escapeHtml(source)}</span>`).join('')}
+                </div>
+            ` : ''}
+            <div class="mt-3 flex items-center justify-between gap-3 border-t border-slate-100 pt-3">
+                <span class="text-xs font-bold uppercase tracking-[0.22em] text-slate-400">${sources.length > 1 ? `已合併 ${sources.length} 個標籤` : '點擊可開啟原文'}</span>
+                <span class="shrink-0 rounded-full bg-slate-100 px-2.5 py-1 font-mono text-xs font-bold text-slate-500">${dateDisplay}</span>
+            </div>
+        `;
+        list.appendChild(li);
+    });
+
+    if (footer) footer.classList.remove('hidden');
+}
+
+function clearKeywordModalState() {
+    const input = document.getElementById('modal-radar-input');
+    const list = document.getElementById('modal-preview-list');
+    const footer = document.getElementById('modal-action-footer');
+
+    if (input) input.value = '';
+    if (list) list.innerHTML = '';
+    if (footer) footer.classList.add('hidden');
+    window.globalRadarKeywords.pendingKeyword = '';
+}
+
+function openKeywordActionModal() {
+    const modal = document.getElementById('keyword-action-modal');
+    if (!modal) return;
+
+    clearKeywordModalState();
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+
+    const input = document.getElementById('modal-radar-input');
+    if (input) {
+        window.setTimeout(() => input.focus(), 0);
+    }
+}
+
+function closeKeywordActionModal() {
+    const modal = document.getElementById('keyword-action-modal');
+    if (!modal) return;
+
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    clearKeywordModalState();
+}
+
+/**
  * 新增關鍵字
  */
 async function addKeyword(keyword) {
@@ -117,30 +265,23 @@ async function addKeyword(keyword) {
     
     keyword = keyword.trim();
     
-    // 驗證：空值檢查
     if (keyword.length === 0) {
         alert('請輸入有效的關鍵字');
         return false;
     }
     
-    // 驗證：重複檢查
     if (window.globalRadarKeywords.keywords.includes(keyword)) {
         alert('此關鍵字已存在，請勿重複新增');
         return false;
     }
     
-    // 新增至本地陣列
     window.globalRadarKeywords.keywords.push(keyword);
-    
-    // 同步至 Supabase
     const success = await updateKeywordsInSupabase(window.globalRadarKeywords.keywords);
     
     if (success) {
-        // 重新渲染 UI
         renderKeywordTags(window.globalRadarKeywords.keywords);
         return true;
     } else {
-        // 同步失敗，回滾本地陣列
         window.globalRadarKeywords.keywords.pop();
         alert('新增關鍵字失敗，請稍後再試');
         return false;
@@ -155,19 +296,14 @@ async function removeKeyword(index) {
         return false;
     }
     
-    // 移除陣列中的關鍵字
     const keyword = window.globalRadarKeywords.keywords[index];
     window.globalRadarKeywords.keywords.splice(index, 1);
-    
-    // 同步至 Supabase
     const success = await updateKeywordsInSupabase(window.globalRadarKeywords.keywords);
     
     if (success) {
-        // 重新渲染 UI
         renderKeywordTags(window.globalRadarKeywords.keywords);
         return true;
     } else {
-        // 同步失敗，回滾本地陣列
         window.globalRadarKeywords.keywords.splice(index, 0, keyword);
         alert('刪除關鍵字失敗，請稍後再試');
         return false;
@@ -175,33 +311,62 @@ async function removeKeyword(index) {
 }
 
 /**
- * 初始化關鍵字管理系統
+ * 初始化關鍵字管理系統 (方案 A 完全體)
  */
 function initializeKeywordManagement() {
-    const input = document.getElementById('global-radar-input');
+    if (window.__keywordManagementInitialized) return;
+    window.__keywordManagementInitialized = true;
+
     const container = document.getElementById('global-radar-tags');
+    const openModalBtn = document.getElementById('open-radar-modal-btn');
+    const modal = document.getElementById('keyword-action-modal');
+    const modalInput = document.getElementById('modal-radar-input');
+    const modalPreviewBtn = document.getElementById('modal-preview-btn');
+    const modalCloseBtn = document.getElementById('close-keyword-modal-btn');
+    const modalConfirmBtn = document.getElementById('confirm-modal-add-keyword-btn');
     
-    if (!input || !container) {
-        console.warn('找不到關鍵字輸入框或容器');
+    if (!container) {
+        console.warn('找不到關鍵字標籤容器');
         return;
     }
-    
-    // 監聽 Enter 鍵事件
-    input.addEventListener('keypress', async (e) => {
-        if (e.key === 'Enter') {
-            e.preventDefault();
-            const keyword = input.value;
-            
-            // 新增關鍵字
-            const success = await addKeyword(keyword);
-            
-            if (success) {
-                input.value = ''; // 清空輸入框
+
+    if (openModalBtn) {
+        openModalBtn.addEventListener('click', openKeywordActionModal);
+    }
+
+    if (modalCloseBtn) {
+        modalCloseBtn.addEventListener('click', closeKeywordActionModal);
+    }
+
+    if (modal) {
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeKeywordActionModal();
+            }
+        });
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            const modalEl = document.getElementById('keyword-action-modal');
+            if (modalEl && !modalEl.classList.contains('hidden')) {
+                closeKeywordActionModal();
             }
         }
     });
+
+    if (modalInput) {
+        modalInput.addEventListener('keydown', async (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                if (modalPreviewBtn) {
+                    modalPreviewBtn.click();
+                }
+            }
+        });
+    }
     
-    // 監聽刪除按鈕事件（使用事件委派）
+    // 監聽刪除按報按鈕（事件委派）
     container.addEventListener('click', async (e) => {
         if (e.target.classList.contains('keyword-delete-btn')) {
             const index = parseInt(e.target.dataset.index, 10);
@@ -211,13 +376,50 @@ function initializeKeywordManagement() {
         }
     });
     
+    if (modalPreviewBtn && modalInput) {
+        modalPreviewBtn.addEventListener('click', async (e) => {
+            e.preventDefault();
+            const keyword = modalInput.value.trim();
+            
+            if (!keyword) {
+                alert('請先輸入關鍵字再進行預覽');
+                return;
+            }
+
+            const originalBtnText = modalPreviewBtn.innerHTML;
+            modalPreviewBtn.innerHTML = '<span class="inline-flex items-center gap-2"><i class="fas fa-spinner fa-spin"></i>搜尋中...</span>';
+            modalPreviewBtn.disabled = true;
+
+            const matches = await fetchPreviewMatches(keyword);
+            renderPreviewList(keyword, matches);
+
+            modalPreviewBtn.innerHTML = originalBtnText;
+            modalPreviewBtn.disabled = false;
+        });
+    }
+
+    if (modalConfirmBtn) {
+        modalConfirmBtn.addEventListener('click', async (e) => {
+            e.preventDefault();
+            const keyword = window.globalRadarKeywords.pendingKeyword || (modalInput ? modalInput.value.trim() : '');
+
+            if (!keyword) {
+                alert('請先輸入關鍵字再進行新增');
+                return;
+            }
+
+            const success = await addKeyword(keyword);
+            if (success) {
+                closeKeywordActionModal();
+            }
+        });
+    }
+    
     // 初始化渲染
     renderKeywordTags(window.globalRadarKeywords.keywords);
 }
 
-/**
- * 監聽認證狀態改變並載入關鍵字
- */
+// 監聽認證狀態改變並載入關鍵字
 _supabase.auth.onAuthStateChange(async (event, session) => {
     if (session?.user?.id) {
         const keywords = await loadKeywordsFromSupabase(session.user.id);
@@ -229,8 +431,12 @@ _supabase.auth.onAuthStateChange(async (event, session) => {
     }
 });
 
-// 初始化關鍵字管理系統（立即執行，不等待 DOMContentLoaded）
-initializeKeywordManagement();
+// 初始化關鍵字管理系統（等 Modal HTML 一起載入完成）
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeKeywordManagement, { once: true });
+} else {
+    initializeKeywordManagement();
+}
 
 // 頁面初始化時檢查 session
 document.addEventListener('DOMContentLoaded', async () => {
