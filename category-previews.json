@@ -3550,7 +3550,7 @@
     ]
   },
   "cge_news": {
-    "label": "公告",
+    "label": "通識教育中心-公告",
     "announcements": [
       {
         "title": "114暑期課程：策略管理101 (Strategic Management 101) 歡迎學生選修",
@@ -3590,10 +3590,10 @@
     ]
   },
   "cge_courses": {
-    "label": "課程",
+    "label": "通識教育中心-課程",
     "announcements": [
       {
-        "title": "114學年度暑期通識課(2026年暑假) 5/28起選課 Summer Session Course Selection",
+        "title": "114學年度暑期通識課(2026年暑假)  5/28起選課 Summer Session Course Selection",
         "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=12&id=1890",
         "date": "2026-04-30",
         "date_label": "發布日期",
@@ -3621,7 +3621,7 @@
         "summary": ""
       },
       {
-        "title": "112學年度暑期通識課(2024年暑假) 5/23起報名 Summer Session Course Selection",
+        "title": "112學年度暑期通識課(2024年暑假)  5/23起報名 Summer Session Course Selection",
         "url": "https://www.cge.ntnu.edu.tw/article_d.php?lang=tw&tb=3&cid=12&id=1725",
         "date": "2024-04-15",
         "date_label": "發布日期",
@@ -3630,7 +3630,7 @@
     ]
   },
   "cge_activities": {
-    "label": "活動",
+    "label": "通識教育中心-活動",
     "announcements": [
       {
         "title": "115.5.13：114-2通識影展《大風之島》影片放映",
@@ -3670,7 +3670,7 @@
     ]
   },
   "ctld_admin": {
-    "label": "行政公告",
+    "label": "教學發展中心-行政公告",
     "announcements": [
       {
         "title": "114-2【學生課業輔導員學習獎勵方案】第2階段審核結果公告",
@@ -3710,7 +3710,7 @@
     ]
   },
   "ctld_events": {
-    "label": "活動報名",
+    "label": "教學發展中心-活動報名",
     "announcements": [
       {
         "title": "教學實踐AI融入基礎專業課程之分享",
@@ -3750,7 +3750,7 @@
     ]
   },
   "ctld_external_events": {
-    "label": "轉知活動",
+    "label": "教學發展中心-轉知活動",
     "announcements": [
       {
         "title": "​[轉知]靜宜大學-教學實踐研究計畫中部區域基地115年6月15日「轉型正義」教育的教學實踐與規劃研習活動",
@@ -3790,7 +3790,7 @@
     ]
   },
   "co_latest": {
-    "label": "最新消息",
+    "label": "網路大學辦公室-最新消息",
     "announcements": [
       {
         "title": "【全球虛擬教室課程獎勵申請】即日起至115年8月14日，歡迎本校教師踴躍申請！",
@@ -3830,7 +3830,7 @@
     ]
   },
   "co_news": {
-    "label": "公告",
+    "label": "網路大學辦公室-公告",
     "announcements": [
       {
         "title": "【全球虛擬教室課程獎勵申請】即日起至115年8月14日，歡迎本校教師踴躍申請！",
@@ -3870,7 +3870,7 @@
     ]
   },
   "co_recruit": {
-    "label": "招生",
+    "label": "網路大學辦公室-招生",
     "announcements": [
       {
         "title": "【114-2全球遠距學院】114-2學期課程公開！115年2月4日起至3月4日開放報名！",
@@ -3910,7 +3910,7 @@
     ]
   },
   "co_resource": {
-    "label": "教學資源",
+    "label": "網路大學辦公室-教學資源",
     "announcements": [
       {
         "title": "【全球虛擬教室課程獎勵申請】即日起至115年8月14日，歡迎本校教師踴躍申請！",
@@ -3950,7 +3950,7 @@
     ]
   },
   "co_activity": {
-    "label": "研習活動",
+    "label": "網路大學辦公室-研習活動",
     "announcements": [
       {
         "title": "【線上講座】AI 時代高教人才培育與教學轉型系列講座",
