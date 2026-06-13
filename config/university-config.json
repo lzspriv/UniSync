@@ -1425,163 +1425,773 @@
       "name": "學術單位",
       "units": [
         {
+          "id": "l2-coe",
+          "name": "教育學院",
+          "channels": [],
+          "subUnits": [
+            {
+              "id": "l3-ed",
+              "name": "教育學系",
+              "channels": []
+            },
+            {
+              "id": "l3-epc",
+              "name": "教育心理與輔導學系",
+              "channels": []
+            },
+            {
+              "id": "l3-ace",
+              "name": "社會教育學系",
+              "channels": []
+            },
+            {
+              "id": "l3-he",
+              "name": "健康促進與衛生教育學系",
+              "channels": []
+            },
+            {
+              "id": "l3-cfs",
+              "name": "幼兒與家庭科學學系",
+              "channels": []
+            },
+            {
+              "id": "l3-cve",
+              "name": "公民教育與活動領導學系",
+              "channels": []
+            },
+            {
+              "id": "l3-spe",
+              "name": "特殊教育學系",
+              "channels": []
+            },
+            {
+              "id": "l3-tpicoe",
+              "name": "教育學院學士班",
+              "channels": []
+            },
+            {
+              "id": "l3-girg",
+              "name": "復健諮商與高齡福祉研究所",
+              "channels": []
+            },
+            {
+              "id": "l3-epa-ed",
+              "name": "教育政策與行政研究所",
+              "channels": []
+            },
+            {
+              "id": "l3-ci-ed",
+              "name": "課程與教學研究所",
+              "channels": []
+            },
+            {
+              "id": "l3-cd",
+              "name": "創造力發展碩士在職專班",
+              "channels": []
+            },
+            {
+              "id": "l3-cappr",
+              "name": "成癮防制碩士在職學位學程",
+              "channels": []
+            },
+            {
+              "id": "l3-sli",
+              "name": "學習資訊專業學院",
+              "channels": [],
+              "subUnits": [
+                {
+                  "id": "l3-upls",
+                  "name": "學習科學學士學位學程",
+                  "channels": []
+                },
+                {
+                  "id": "l3-glis",
+                  "name": "圖書資訊學研究所",
+                  "channels": []
+                },
+                {
+                  "id": "l3-ice",
+                  "name": "資訊教育研究所",
+                  "channels": []
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "l2-science",
           "name": "理學院",
           "channels": [
-            { "name": "最新消息", "value": "cos_news" },
-            { "name": "學院公告", "value": "cos_announcement" },
-            { "name": "焦點活動", "value": "cos_focal_point" },
-            { "name": "師生榮耀", "value": "cos_honor" },
-            { "name": "赴外交流", "value": "cos_outbound" },
-            { "name": "雙語計畫", "value": "cos_emi" }
+            {
+              "name": "最新消息",
+              "value": "cos_news"
+            },
+            {
+              "name": "學院公告",
+              "value": "cos_announcement"
+            },
+            {
+              "name": "焦點活動",
+              "value": "cos_focal_point"
+            },
+            {
+              "name": "師生榮耀",
+              "value": "cos_honor"
+            },
+            {
+              "name": "赴外交流",
+              "value": "cos_outbound"
+            },
+            {
+              "name": "雙語計畫",
+              "value": "cos_emi"
+            }
           ],
           "subUnits": [
-            {
-              "id": "l3-csie",
-              "name": "資訊工程學系",
-              "channels": [
-                { "name": "最新消息", "value": "csie_news" },
-                { "name": "系所公告", "value": "csie_announcement" },
-                { "name": "演講公告", "value": "csie_seminar" },
-                { "name": "招生公告", "value": "csie_enrollment" },
-                { "name": "競賽活動", "value": "csie_competition" },
-                { "name": "榮譽榜", "value": "csie_honor_roll" },
-                { "name": "獎學金", "value": "csie_scholarship" },
-                { "name": "工讀實習", "value": "csie_intern" },
-                { "name": "校外徵才", "value": "csie_recruitment" },
-                { "name": "徵聘教師", "value": "csie_teacher" }
-              ]
-            },
             {
               "id": "l3-math",
               "name": "數學系",
               "channels": [
-                { "name": "最新消息", "value": "math_news" },
-                { "name": "系所公告", "value": "math_announcement" },
-                { "name": "演講公告", "value": "math_speeches" },
-                { "name": "課程資訊", "value": "math_course" },
-                { "name": "研究生公告", "value": "math_graduate" },
-                { "name": "師培資訊", "value": "math_smtpp" },
-                { "name": "招生訊息", "value": "math_admission_news" },
-                { "name": "校外徵才", "value": "math_off_campus_recruitment" },
-                { "name": "徵聘教職員", "value": "math_recruiting_teaching_staff" },
-                { "name": "獎助學金", "value": "math_scholarship" },
-                { "name": "榮譽榜", "value": "math_honor" }
+                {
+                  "name": "最新消息",
+                  "value": "math_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "math_announcement"
+                },
+                {
+                  "name": "演講公告",
+                  "value": "math_speeches"
+                },
+                {
+                  "name": "課程資訊",
+                  "value": "math_course"
+                },
+                {
+                  "name": "研究生公告",
+                  "value": "math_graduate"
+                },
+                {
+                  "name": "師培資訊",
+                  "value": "math_smtpp"
+                },
+                {
+                  "name": "招生訊息",
+                  "value": "math_admission_news"
+                },
+                {
+                  "name": "校外徵才",
+                  "value": "math_off_campus_recruitment"
+                },
+                {
+                  "name": "徵聘教職員",
+                  "value": "math_recruiting_teaching_staff"
+                },
+                {
+                  "name": "獎助學金",
+                  "value": "math_scholarship"
+                },
+                {
+                  "name": "榮譽榜",
+                  "value": "math_honor"
+                }
               ]
             },
             {
               "id": "l3-physics",
               "name": "物理學系",
               "channels": [
-                { "name": "最新公告", "value": "phy_news" },
-                { "name": "系所公告", "value": "phy_announcement" },
-                { "name": "系所榮譽", "value": "phy_honor" },
-                { "name": "獎助學金", "value": "phy_scholarship" }
+                {
+                  "name": "最新公告",
+                  "value": "phy_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "phy_announcement"
+                },
+                {
+                  "name": "系所榮譽",
+                  "value": "phy_honor"
+                },
+                {
+                  "name": "獎助學金",
+                  "value": "phy_scholarship"
+                }
               ]
             },
             {
               "id": "l3-chemistry",
               "name": "化學系",
               "channels": [
-                { "name": "最新公告", "value": "chem_news" },
-                { "name": "系所公告", "value": "chem_announcement" },
-                { "name": "招生公告", "value": "chem_admission" },
-                { "name": "教務公告", "value": "chem_academic" },
-                { "name": "獎助學金", "value": "chem_scholarship" },
-                { "name": "師生榮譽", "value": "chem_honor" },
-                { "name": "系所新聞", "value": "chem_cnews" },
-                { "name": "徵才資訊", "value": "chem_recruitment" }
+                {
+                  "name": "最新公告",
+                  "value": "chem_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "chem_announcement"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "chem_admission"
+                },
+                {
+                  "name": "教務公告",
+                  "value": "chem_academic"
+                },
+                {
+                  "name": "獎助學金",
+                  "value": "chem_scholarship"
+                },
+                {
+                  "name": "師生榮譽",
+                  "value": "chem_honor"
+                },
+                {
+                  "name": "系所新聞",
+                  "value": "chem_cnews"
+                },
+                {
+                  "name": "徵才資訊",
+                  "value": "chem_recruitment"
+                }
               ]
             },
             {
               "id": "l3-earth-science",
               "name": "地球科學系",
               "channels": [
-                { "name": "最新消息", "value": "es_news" },
-                { "name": "系所公告", "value": "es_dept" },
-                { "name": "招生公告", "value": "es_admission" },
-                { "name": "徵才訊息", "value": "es_wanted" },
-                { "name": "徵聘教師", "value": "es_wanted_teacher" },
-                { "name": "工讀訊息", "value": "es_wanted_student_pt" },
-                { "name": "榮譽分享", "value": "es_honors" },
-                { "name": "演講公告", "value": "es_speeches" },
-                { "name": "活動公告", "value": "es_events" },
-                { "name": "實習公告", "value": "es_internship" },
-                { "name": "獎學金公告", "value": "es_scholarship" }
+                {
+                  "name": "最新消息",
+                  "value": "es_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "es_dept"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "es_admission"
+                },
+                {
+                  "name": "徵才訊息",
+                  "value": "es_wanted"
+                },
+                {
+                  "name": "徵聘教師",
+                  "value": "es_wanted_teacher"
+                },
+                {
+                  "name": "工讀訊息",
+                  "value": "es_wanted_student_pt"
+                },
+                {
+                  "name": "榮譽分享",
+                  "value": "es_honors"
+                },
+                {
+                  "name": "演講公告",
+                  "value": "es_speeches"
+                },
+                {
+                  "name": "活動公告",
+                  "value": "es_events"
+                },
+                {
+                  "name": "實習公告",
+                  "value": "es_internship"
+                },
+                {
+                  "name": "獎學金公告",
+                  "value": "es_scholarship"
+                }
               ]
             },
             {
               "id": "l3-ocean-env-tech",
               "name": "海洋環境科技研究所",
               "channels": [
-                { "name": "最新消息", "value": "mest_news" },
-                { "name": "系所公告", "value": "mest_announcement" },
-                { "name": "學術演講", "value": "mest_speeches" },
-                { "name": "徵才公告", "value": "mest_recruitment" },
-                { "name": "招生公告", "value": "mest_admission" },
-                { "name": "獎學金", "value": "mest_scholarship" }
+                {
+                  "name": "最新消息",
+                  "value": "mest_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "mest_announcement"
+                },
+                {
+                  "name": "學術演講",
+                  "value": "mest_speeches"
+                },
+                {
+                  "name": "徵才公告",
+                  "value": "mest_recruitment"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "mest_admission"
+                },
+                {
+                  "name": "獎學金",
+                  "value": "mest_scholarship"
+                }
+              ]
+            },
+            {
+              "id": "l3-csie",
+              "name": "資訊工程學系",
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "csie_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "csie_announcement"
+                },
+                {
+                  "name": "演講公告",
+                  "value": "csie_seminar"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "csie_enrollment"
+                },
+                {
+                  "name": "競賽活動",
+                  "value": "csie_competition"
+                },
+                {
+                  "name": "榮譽榜",
+                  "value": "csie_honor_roll"
+                },
+                {
+                  "name": "獎學金",
+                  "value": "csie_scholarship"
+                },
+                {
+                  "name": "工讀實習",
+                  "value": "csie_intern"
+                },
+                {
+                  "name": "校外徵才",
+                  "value": "csie_recruitment"
+                },
+                {
+                  "name": "徵聘教師",
+                  "value": "csie_teacher"
+                }
               ]
             },
             {
               "id": "l3-science-edu",
               "name": "科學教育研究所",
               "channels": [
-                { "name": "最新消息", "value": "gise_news" },
-                { "name": "所務公告", "value": "gise_affairs" },
-                { "name": "招生公告", "value": "gise_admission" },
-                { "name": "專題演講", "value": "gise_speeches" },
-                { "name": "媒體報導", "value": "gise_media" },
-                { "name": "研習活動", "value": "gise_workshop" },
-                { "name": "徵人啟事", "value": "gise_recruitment" }
+                {
+                  "name": "最新消息",
+                  "value": "gise_news"
+                },
+                {
+                  "name": "所務公告",
+                  "value": "gise_affairs"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "gise_admission"
+                },
+                {
+                  "name": "專題演講",
+                  "value": "gise_speeches"
+                },
+                {
+                  "name": "媒體報導",
+                  "value": "gise_media"
+                },
+                {
+                  "name": "研習活動",
+                  "value": "gise_workshop"
+                },
+                {
+                  "name": "徵人啟事",
+                  "value": "gise_recruitment"
+                }
               ]
             },
             {
               "id": "l3-sustainable-mgmt-env-edu",
               "name": "永續管理與環境教育研究所",
               "channels": [
-                { "name": "最新消息", "value": "gismee_news" },
-                { "name": "所務訊息公告", "value": "gismee_affairs" },
-                { "name": "招生資訊", "value": "gismee_admission" }
+                {
+                  "name": "最新消息",
+                  "value": "gismee_news"
+                },
+                {
+                  "name": "所務訊息公告",
+                  "value": "gismee_affairs"
+                },
+                {
+                  "name": "招生資訊",
+                  "value": "gismee_admission"
+                }
               ]
             },
             {
               "id": "l3-life-science-college",
               "name": "生命科學專業學院",
               "channels": [
-                { "name": "最新消息", "value": "sls_news" },
-                { "name": "演講公告", "value": "sls_speeches" },
-                { "name": "招生公告", "value": "sls_admission" },
-                { "name": "課程公告", "value": "sls_courses" },
-                { "name": "徵才公告", "value": "sls_recruitment" },
-                { "name": "獎學金公告", "value": "sls_scholarship" }
+                {
+                  "name": "最新消息",
+                  "value": "sls_news"
+                },
+                {
+                  "name": "演講公告",
+                  "value": "sls_speeches"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "sls_admission"
+                },
+                {
+                  "name": "課程公告",
+                  "value": "sls_courses"
+                },
+                {
+                  "name": "徵才公告",
+                  "value": "sls_recruitment"
+                },
+                {
+                  "name": "獎學金公告",
+                  "value": "sls_scholarship"
+                }
               ],
               "subUnits": [
                 {
                   "id": "l3-life-science",
                   "name": "生命科學系",
                   "channels": [
-                    { "name": "最新消息", "value": "biol_news" },
-                    { "name": "演講公告", "value": "biol_speeches" },
-                    { "name": "招生公告", "value": "biol_admission" },
-                    { "name": "課程公告", "value": "biol_courses" },
-                    { "name": "徵才公告", "value": "biol_recruitment" },
-                    { "name": "獎學金公告", "value": "biol_scholarship" },
-                    { "name": "其他資訊公告", "value": "biol_other" }
+                    {
+                      "name": "最新消息",
+                      "value": "biol_news"
+                    },
+                    {
+                      "name": "演講公告",
+                      "value": "biol_speeches"
+                    },
+                    {
+                      "name": "招生公告",
+                      "value": "biol_admission"
+                    },
+                    {
+                      "name": "課程公告",
+                      "value": "biol_courses"
+                    },
+                    {
+                      "name": "徵才公告",
+                      "value": "biol_recruitment"
+                    },
+                    {
+                      "name": "獎學金公告",
+                      "value": "biol_scholarship"
+                    },
+                    {
+                      "name": "其他資訊公告",
+                      "value": "biol_other"
+                    }
                   ]
                 },
                 {
                   "id": "l3-nutrition-sci",
                   "name": "營養科學學士暨碩士學位學程",
                   "channels": [
-                    { "name": "最新消息", "value": "nutrition_news" },
-                    { "name": "所有消息", "value": "nutrition_all" },
-                    { "name": "系務公告", "value": "nutrition_dept" },
-                    { "name": "活動消息", "value": "nutrition_activities" },
-                    { "name": "就業資訊", "value": "nutrition_career" },
-                    { "name": "榮譽事蹟", "value": "nutrition_honors" }
+                    {
+                      "name": "最新消息",
+                      "value": "nutrition_news"
+                    },
+                    {
+                      "name": "所有消息",
+                      "value": "nutrition_all"
+                    },
+                    {
+                      "name": "系務公告",
+                      "value": "nutrition_dept"
+                    },
+                    {
+                      "name": "活動消息",
+                      "value": "nutrition_activities"
+                    },
+                    {
+                      "name": "就業資訊",
+                      "value": "nutrition_career"
+                    },
+                    {
+                      "name": "榮譽事蹟",
+                      "value": "nutrition_honors"
+                    }
                   ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "id": "l2-cla",
+          "name": "文學院",
+          "channels": [],
+          "subUnits": [
+            {
+              "id": "l3-ch",
+              "name": "國文學系",
+              "channels": []
+            },
+            {
+              "id": "l3-eng",
+              "name": "英語學系",
+              "channels": []
+            },
+            {
+              "id": "l3-his",
+              "name": "歷史學系",
+              "channels": []
+            },
+            {
+              "id": "l3-geo",
+              "name": "地理學系",
+              "channels": []
+            },
+            {
+              "id": "l3-tcll",
+              "name": "臺灣語文學系",
+              "channels": []
+            },
+            {
+              "id": "l3-giti",
+              "name": "翻譯研究所",
+              "channels": []
+            },
+            {
+              "id": "l3-taih",
+              "name": "臺灣史研究所",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-cte",
+          "name": "科技與工程學院",
+          "channels": [],
+          "subUnits": [
+            {
+              "id": "l3-ie",
+              "name": "工業教育學系 (含公費專班)",
+              "channels": []
+            },
+            {
+              "id": "l3-tahrd",
+              "name": "科技應用與人力資源發展學系",
+              "channels": []
+            },
+            {
+              "id": "l3-gac",
+              "name": "圖文傳播學系",
+              "channels": []
+            },
+            {
+              "id": "l3-me",
+              "name": "機電工程學系",
+              "channels": []
+            },
+            {
+              "id": "l3-ee",
+              "name": "電機工程學系",
+              "channels": []
+            },
+            {
+              "id": "l3-en-vee",
+              "name": "車輛與能源工程研究所暨學士學位學程",
+              "channels": []
+            },
+            {
+              "id": "l3-ieo",
+              "name": "光電工程研究所暨學士學位學程",
+              "channels": []
+            },
+            {
+              "id": "l3-stem",
+              "name": "科學-科技-工程-數學整合教育國際博士學位學程",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-arts",
+          "name": "藝術學院",
+          "channels": [],
+          "subUnits": [
+            {
+              "id": "l3-art",
+              "name": "美術學系",
+              "channels": []
+            },
+            {
+              "id": "l3-design",
+              "name": "設計學系",
+              "channels": []
+            },
+            {
+              "id": "l3-arthistory",
+              "name": "藝術史研究所",
+              "channels": []
+            },
+            {
+              "id": "l3-emam",
+              "name": "藝術產業高階經理碩士在職專班(EMAM)",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-csr",
+          "name": "運動與休閒學院",
+          "channels": [],
+          "subUnits": [
+            {
+              "id": "l3-pe",
+              "name": "體育與運動科學系",
+              "channels": []
+            },
+            {
+              "id": "l3-ap",
+              "name": "運動競技學系",
+              "channels": []
+            },
+            {
+              "id": "l3-slhm",
+              "name": "運動休閒與餐旅管理研究所",
+              "channels": []
+            },
+            {
+              "id": "l3-csremba",
+              "name": "樂活產業高階經理人企業管理碩士在職專班(LOHAS-EMBA)",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-musicollege",
+          "name": "音樂學院",
+          "channels": [],
+          "subUnits": [
+            {
+              "id": "l3-music",
+              "name": "音樂學系",
+              "channels": []
+            },
+            {
+              "id": "l3-bdppa",
+              "name": "表演藝術學士學位學程",
+              "channels": []
+            },
+            {
+              "id": "l3-gipa",
+              "name": "表演藝術研究所",
+              "channels": []
+            },
+            {
+              "id": "l3-giem",
+              "name": "民族音樂研究所",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-ciss",
+          "name": "國際與社會科學學院",
+          "channels": [],
+          "subUnits": [
+            {
+              "id": "l3-tcsl",
+              "name": "華語文教學系",
+              "channels": []
+            },
+            {
+              "id": "l3-deas",
+              "name": "東亞學系 (含政治所)",
+              "channels": []
+            },
+            {
+              "id": "l3-pgs",
+              "name": "全球研究全英語學士學位學程",
+              "channels": []
+            },
+            {
+              "id": "l3-mcom",
+              "name": "大眾傳播研究所",
+              "channels": []
+            },
+            {
+              "id": "l3-ihrd",
+              "name": "國際人力資源發展研究所",
+              "channels": []
+            },
+            {
+              "id": "l3-sw",
+              "name": "社會工作學研究所",
+              "channels": []
+            },
+            {
+              "id": "l3-giect",
+              "name": "歐洲文化與觀光研究所",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-mgt",
+          "name": "管理學院",
+          "channels": [],
+          "subUnits": [
+            {
+              "id": "l3-ba",
+              "name": "企業管理學系",
+              "channels": []
+            },
+            {
+              "id": "l3-mba",
+              "name": "管理研究所",
+              "channels": []
+            },
+            {
+              "id": "l3-gbs",
+              "name": "全球經營與策略研究所",
+              "channels": []
+            },
+            {
+              "id": "l3-emba",
+              "name": "高階經理人企業管理碩士在職專班(EMBA)",
+              "channels": []
+            },
+            {
+              "id": "l3-gf",
+              "name": "國際時尚高階管理碩士在職專班(GF-EMBA)",
+              "channels": []
+            }
+          ]
+        },
+        {
+          "id": "l2-ciai",
+          "name": "跨域科技產業創新研究學院",
+          "channels": [],
+          "subUnits": [
+            {
+              "id": "l3-ciai",
+              "name": "AI 跨域應用研究所",
+              "channels": []
+            },
+            {
+              "id": "l3-ciai-2",
+              "name": "綠能科技與永續治理研究所",
+              "channels": []
             }
           ]
         }
