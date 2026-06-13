@@ -254,6 +254,36 @@
       "label": "徵聘教師",
       "owner": "資訊工程學系",
       "url": "https://www.csie.ntnu.edu.tw/index.php/category/news/1/"
+    },
+    "mest_news": {
+      "label": "最新消息",
+      "owner": "海洋環境科技研究所",
+      "url": "https://www.mest.ntnu.edu.tw/index.php/news/"
+    },
+    "mest_announcement": {
+      "label": "系所公告",
+      "owner": "海洋環境科技研究所",
+      "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/1/"
+    },
+    "mest_speeches": {
+      "label": "學術演講",
+      "owner": "海洋環境科技研究所",
+      "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/2/"
+    },
+    "mest_recruitment": {
+      "label": "徵才公告",
+      "owner": "海洋環境科技研究所",
+      "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/3/"
+    },
+    "mest_admission": {
+      "label": "招生公告",
+      "owner": "海洋環境科技研究所",
+      "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/4/"
+    },
+    "mest_scholarship": {
+      "label": "獎學金",
+      "owner": "海洋環境科技研究所",
+      "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/5/"
     }
   },
   "schema": [
@@ -370,7 +400,14 @@
             {
               "id": "l3-ocean-env-tech",
               "name": "海洋環境科技研究所",
-              "channels": []
+              "channels": [
+                { "name": "最新消息", "value": "mest_news" },
+                { "name": "系所公告", "value": "mest_announcement" },
+                { "name": "學術演講", "value": "mest_speeches" },
+                { "name": "徵才公告", "value": "mest_recruitment" },
+                { "name": "招生公告", "value": "mest_admission" },
+                { "name": "獎學金", "value": "mest_scholarship" }
+              ]
             },
             {
               "id": "l3-science-edu",
