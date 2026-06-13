@@ -39,9 +39,8 @@ function renderMenu() {
                        onclick="event.stopPropagation(); handleParentClick(this, '${sub.id}')">
             </div>
             <div id="${sub.id}" class="collapsible-content menu-children menu-children-channel">
-                ${(Array.isArray(sub.subUnits) && sub.subUnits.length > 0)
-                    ? sub.subUnits.map(renderSubUnit).join('')
-                    : renderChannels(sub.channels || [])}
+                ${(sub.channels || []).length > 0 ? renderChannels(sub.channels) : ''}
+                ${(sub.subUnits || []).map(renderSubUnit).join('')}
             </div>
         </div>
     `;

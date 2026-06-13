@@ -352,6 +352,36 @@
         "date": ".i-annc__postdate-content, .i-annc__postdate",
         "pinned": ".status-top"
       }
+    },
+    "sls_news": {
+      "label": "最新消息",
+      "owner": "生命科學專業學院",
+      "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/"
+    },
+    "sls_speeches": {
+      "label": "演講公告",
+      "owner": "生命科學專業學院",
+      "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/5/"
+    },
+    "sls_admission": {
+      "label": "招生公告",
+      "owner": "生命科學專業學院",
+      "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/2/"
+    },
+    "sls_courses": {
+      "label": "課程公告",
+      "owner": "生命科學專業學院",
+      "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/4/"
+    },
+    "sls_recruitment": {
+      "label": "徵才公告",
+      "owner": "生命科學專業學院",
+      "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/we-want-you/"
+    },
+    "sls_scholarship": {
+      "label": "獎學金公告",
+      "owner": "生命科學專業學院",
+      "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/5-1/"
     }
   },
   "schema": [
@@ -502,6 +532,14 @@
             {
               "id": "l3-life-science-college",
               "name": "生命科學專業學院",
+              "channels": [
+                { "name": "最新消息", "value": "sls_news" },
+                { "name": "演講公告", "value": "sls_speeches" },
+                { "name": "招生公告", "value": "sls_admission" },
+                { "name": "課程公告", "value": "sls_courses" },
+                { "name": "徵才公告", "value": "sls_recruitment" },
+                { "name": "獎學金公告", "value": "sls_scholarship" }
+              ],
               "subUnits": [
                 {
                   "id": "l3-life-science",
