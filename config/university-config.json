@@ -714,6 +714,56 @@
         "title": "h4.media-heading",
         "date": ".media-body > a > div"
       }
+    },
+    "co_latest": {
+      "label": "最新消息",
+      "owner": "網路大學辦公室",
+      "url": "https://www.co.ntnu.edu.tw/index.php/news/",
+      "selectors": {
+        "article": ".gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list",
+        "title_link": ".gdlr-core-blog-title a",
+        "date": ".gdlr-core-blog-info-date a"
+      }
+    },
+    "co_news": {
+      "label": "公告",
+      "owner": "網路大學辦公室",
+      "url": "https://www.co.ntnu.edu.tw/index.php/category/news/",
+      "selectors": {
+        "article": ".gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list",
+        "title_link": ".gdlr-core-blog-title a",
+        "date": ".gdlr-core-blog-info-date a"
+      }
+    },
+    "co_recruit": {
+      "label": "招生",
+      "owner": "網路大學辦公室",
+      "url": "https://www.co.ntnu.edu.tw/index.php/category/recruit/",
+      "selectors": {
+        "article": ".gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list",
+        "title_link": ".gdlr-core-blog-title a",
+        "date": ".gdlr-core-blog-info-date a"
+      }
+    },
+    "co_resource": {
+      "label": "教學資源",
+      "owner": "網路大學辦公室",
+      "url": "https://www.co.ntnu.edu.tw/index.php/category/resource/",
+      "selectors": {
+        "article": ".gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list",
+        "title_link": ".gdlr-core-blog-title a",
+        "date": ".gdlr-core-blog-info-date a"
+      }
+    },
+    "co_activity": {
+      "label": "研習活動",
+      "owner": "網路大學辦公室",
+      "url": "https://www.co.ntnu.edu.tw/index.php/category/activity/",
+      "selectors": {
+        "article": ".gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list",
+        "title_link": ".gdlr-core-blog-title a",
+        "date": ".gdlr-core-blog-info-date a"
+      }
     }
   },
   "schema": [
@@ -858,7 +908,28 @@
             {
               "id": "l3-online-college-office",
               "name": "網路大學辦公室",
-              "channels": []
+              "channels": [
+                {
+                  "value": "co_latest",
+                  "name": "最新消息"
+                },
+                {
+                  "value": "co_news",
+                  "name": "公告"
+                },
+                {
+                  "value": "co_recruit",
+                  "name": "招生"
+                },
+                {
+                  "value": "co_resource",
+                  "name": "教學資源"
+                },
+                {
+                  "value": "co_activity",
+                  "name": "研習活動"
+                }
+              ]
             },
             {
               "id": "l3-academic-literacy-center",
