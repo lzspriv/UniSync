@@ -6,6 +6,7 @@ const liveFeedState = {
     visibleCount: 0,
     pageSize: 20,
     maxTotal: 50,
+    fetchSourceLimit: 200,
     currentUserId: null,
     isLoading: false
 };
@@ -283,8 +284,8 @@ async function fetchFeedWithFallback(userId) {
     // 優先使用 RPC（DB 端聚合較省讀取），若未建立則 fallback 直接查詢
     const { data: rpcData, error: rpcError } = await _supabase.rpc('get_user_feed', {
         p_user_id: userId,
-        p_per_cat_limit: 10,
-        p_overall_limit: liveFeedState.maxTotal,
+        p_per_cat_limit: 50,
+        p_overall_limit: liveFeedState.fetchSourceLimit,
         p_days: 90
     });
 
@@ -311,7 +312,7 @@ async function fetchFeedWithFallback(userId) {
         .in('category_id', subIds)
         .order('published_at', { ascending: false, nullsFirst: false })
         .order('created_at', { ascending: false })
-        .limit(liveFeedState.maxTotal);
+        .limit(liveFeedState.fetchSourceLimit);
 
     let { data, error } = await query;
 
@@ -321,7 +322,7 @@ async function fetchFeedWithFallback(userId) {
             .select(selectWithoutPublishedAt)
             .in('category_id', subIds)
             .order('created_at', { ascending: false })
-            .limit(liveFeedState.maxTotal);
+            .limit(liveFeedState.fetchSourceLimit);
         data = retry.data;
         error = retry.error;
     }
@@ -339,7 +340,7 @@ async function reloadLiveFeedForUser(userId) {
     try {
         let items = await fetchFeedWithFallback(userId);
         // aggregate same announcement (by URL) to combine multiple triggers/tags
-        items = aggregateFeedItems(items);
+        items = aggregateFeedItems(items).slice(0, liveFeedState.maxTotal);
         liveFeedState.allItems = items;
         liveFeedState.visibleCount = 0;
 
@@ -483,20 +484,34 @@ function closePreviewModal() {
 function aggregateFeedItems(items) {
     if (!Array.isArray(items)) return [];
     const map = new Map();
+    const normalizeList = (value, fallback) => {
+        if (Array.isArray(value)) {
+            return value.filter(Boolean);
+        }
+        if (value) {
+            return [value];
+        }
+        return fallback ? [fallback] : [];
+    };
+
     items.forEach(item => {
         const key = item.url || item.id || `${item.title || ''}::${item.published_at || item.created_at || ''}`;
-        const triggerLabel = item.trigger_type || '選單訂閱';
-        const sourceLabel = item.source || item.category_id || '未分類';
+        const triggerLabels = normalizeList(item.triggers, item.trigger_type || '選單訂閱');
+        const sourceLabels = normalizeList(item.sources, item.source || item.category_id || '未分類');
 
         if (!map.has(key)) {
             map.set(key, Object.assign({}, item, {
-                triggers: [triggerLabel],
-                sources: [sourceLabel]
+                triggers: Array.from(new Set(triggerLabels)),
+                sources: Array.from(new Set(sourceLabels))
             }));
         } else {
             const cur = map.get(key);
-            if (triggerLabel && !cur.triggers.includes(triggerLabel)) cur.triggers.push(triggerLabel);
-            if (sourceLabel && !cur.sources.includes(sourceLabel)) cur.sources.push(sourceLabel);
+            triggerLabels.forEach(label => {
+                if (label && !cur.triggers.includes(label)) cur.triggers.push(label);
+            });
+            sourceLabels.forEach(label => {
+                if (label && !cur.sources.includes(label)) cur.sources.push(label);
+            });
             // prefer the newest published_at if available
             if (item.published_at && (!cur.published_at || new Date(item.published_at) > new Date(cur.published_at))) {
                 cur.published_at = item.published_at;
