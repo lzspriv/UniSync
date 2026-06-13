@@ -73,6 +73,8 @@ def print_scrape_summary(category_timings: list):
 
 def process_pending_announcements(supabase_client, pending_by_url: dict, category_labels: dict):
     total_dispatched = 0
+    existing_count = 0
+    new_count = 0
     announcement_exists_cache = {}
 
     for data in pending_by_url.values():
@@ -82,15 +84,20 @@ def process_pending_announcements(supabase_client, pending_by_url: dict, categor
 
         is_new_url = not announcement_exists(supabase_client, item.get("url", ""), announcement_exists_cache)
         if not is_new_url:
-            print(f"↩️ [已存在] {item['title']} ({', '.join(category_names)})")
+            existing_count += 1
             continue
 
         upsert_announcement_for_categories(supabase_client, item, categories, category_labels)
+        new_count += 1
         print(f"✨ [新公告] {item['title']} ({', '.join(category_names)})")
 
         dispatched_count = notify_announcement_once(supabase_client, item, categories, category_labels)
         total_dispatched += dispatched_count
 
+    print(
+        f"📬 公告處理摘要：{len(pending_by_url)} 筆唯一公告，"
+        f"{existing_count} 筆已存在，{new_count} 筆新公告。"
+    )
     return total_dispatched
 
 
