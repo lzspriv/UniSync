@@ -85,3 +85,12 @@ ALTER TABLE public.profiles
 ```
 
 `telegram_bot_token` 與 `telegram_chat_id` 都有值時，後端才會送出 Telegram 通知。未填 Telegram 的使用者會維持原本 Discord 通知流程。
+
+`get_user_feed` 是 `SECURITY DEFINER` RPC。建立或更新函式後，建議一併收斂執行權限：
+
+```sql
+REVOKE EXECUTE ON FUNCTION public.get_user_feed(uuid, integer, integer, integer, integer) FROM PUBLIC;
+GRANT EXECUTE ON FUNCTION public.get_user_feed(uuid, integer, integer, integer, integer) TO authenticated;
+```
+
+RPC 內部仍需保留 `auth.uid() = p_user_id` 檢查，避免使用者用別人的 `user_id` 讀取訂閱動態。

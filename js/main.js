@@ -78,7 +78,7 @@ function renderMenu() {
                     </div>
                     ${hasSubscribable ? `
                         <input type="checkbox" class="menu-checkbox menu-checkbox-sub parent-checkbox"
-                               onclick="event.stopPropagation(); handleParentClick(this, '${sub.id}')">
+                               data-parent-target="${escapeAttribute(sub.id)}">
                     ` : '<span class="menu-pending-badge">待接公告</span>'}
                 </div>
                 ${hasChildren ? `
@@ -108,7 +108,7 @@ function renderMenu() {
                     </div>
                     ${hasSubscribable ? `
                         <input type="checkbox" class="menu-checkbox menu-checkbox-unit parent-checkbox"
-                               onclick="event.stopPropagation(); handleParentClick(this, '${unit.id}')">
+                               data-parent-target="${escapeAttribute(unit.id)}">
                     ` : '<span class="menu-pending-badge">待接公告</span>'}
                 </div>
                 ${hasChildren ? `
@@ -139,7 +139,7 @@ function renderMenu() {
                     ${subscribableCount > 0 ? `<span class="menu-count">${subscribableCount}</span>` : '<span class="menu-pending-badge">待接公告</span>'}
                 </div>
                 ${subscribableCount > 0 ? `<input type="checkbox" class="menu-checkbox menu-checkbox-category parent-checkbox"
-                       onclick="event.stopPropagation(); handleParentClick(this, '${category.id}')">
+                       data-parent-target="${escapeAttribute(category.id)}">
                 ` : ''}
             </div>
             <div id="${category.id}" class="collapsible-content menu-children menu-children-category">
@@ -159,6 +159,7 @@ function renderMenu() {
  */
 function handleParentClick(parentCheckbox, containerId) {
     const container = document.getElementById(containerId);
+    if (!container) return;
     const isChecked = parentCheckbox.checked;
     
     // 勾選該容器下所有的 checkbox[cite: 1]
@@ -1110,6 +1111,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
     loadPreviewData();
     renderMenu();
+    initializePreviewModal();
 
     const menuContainer = document.getElementById('menu-container');
     if (menuContainer) {
@@ -1118,6 +1120,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (target.matches('.child-checkbox')) {
                 updateParentStates(target);
             } else if (target.matches('.parent-checkbox')) {
+                handleParentClick(target, target.dataset.parentTarget);
                 updateParentStates(target);
             }
             updateMenuSelectedSummary();
@@ -1190,6 +1193,21 @@ function openPreviewModal(categoryId, displayLabel = '') {
 function closePreviewModal() {
     const modal = document.getElementById('preview-modal');
     modal.classList.add('hidden');
+}
+
+function initializePreviewModal() {
+    const modal = document.getElementById('preview-modal');
+    const closeBtn = document.getElementById('close-preview-modal-btn');
+    const footerCloseBtn = document.getElementById('close-preview-modal-footer-btn');
+    if (!modal) return;
+
+    modal.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            closePreviewModal();
+        }
+    });
+    closeBtn?.addEventListener('click', closePreviewModal);
+    footerCloseBtn?.addEventListener('click', closePreviewModal);
 }
 
 function aggregateFeedItems(items) {
