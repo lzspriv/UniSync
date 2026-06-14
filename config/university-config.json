@@ -4355,6 +4355,222 @@
       "owner": "國際事務處",
       "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-link",
       "selectorPreset": "oia_next_data"
+    },
+    "sec_announcements": {
+      "label": "公告事項",
+      "owner": "科學教育中心",
+      "url": "https://www.sec.ntnu.edu.tw/zh_tw/announcements?category%5B%5D=619e0a3e3817840930000005&tags%5B%5D=all",
+      "selectorPreset": "oen_annc_table"
+    },
+    "sec_news": {
+      "label": "最新消息",
+      "owner": "科學教育中心",
+      "url": "https://www.sec.ntnu.edu.tw/zh_tw/news?category%5B%5D=all&tags%5B%5D=all",
+      "selectorPreset": "oen_annc_table"
+    },
+    "spc_center_announcement": {
+      "label": "中心公告",
+      "owner": "特殊教育中心",
+      "url": "https://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=%E4%B8%AD%E5%BF%83%E5%85%AC%E5%91%8A",
+      "selectors": {
+        "parser": "table_row",
+        "article": "table tbody tr",
+        "title_link": "td:nth-of-type(3) a[href]",
+        "date": "td:nth-of-type(2)"
+      }
+    },
+    "spc_training": {
+      "label": "研習進修",
+      "owner": "特殊教育中心",
+      "url": "https://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2-1",
+      "selectors": {
+        "parser": "table_row",
+        "article": "table tbody tr",
+        "title_link": "td:nth-of-type(3) a[href]",
+        "date": "td:nth-of-type(2)"
+      }
+    },
+    "spc_recruitment": {
+      "label": "人才招募",
+      "owner": "特殊教育中心",
+      "url": "https://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=%E4%BA%BA%E6%89%8D%E6%8B%9B%E5%8B%9F",
+      "selectors": {
+        "parser": "table_row",
+        "article": "table tbody tr",
+        "title_link": "td:nth-of-type(3) a[href]",
+        "date": "td:nth-of-type(2)"
+      }
+    },
+    "rcpet_announcements": {
+      "label": "公告事項",
+      "owner": "心理與教育測驗研究發展中心",
+      "url": "https://www.rcpet.edu.tw/",
+      "selectors": {
+        "parser": "table_row",
+        "article": "section table tbody tr",
+        "title": "td:nth-of-type(2)",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "date": "td:nth-of-type(1)",
+        "allow_row_without_link": true
+      }
+    },
+    "perdc_news": {
+      "label": "最新消息",
+      "owner": "體育研究與發展中心",
+      "url": "https://www.perdc.ntnu.edu.tw/zh_tw/News?category%5B%5D=all&tags%5B%5D=all",
+      "selectorPreset": "oen_annc_table"
+    },
+    "cltc_news": {
+      "label": "最新消息",
+      "owner": "華語文與科技研究中心",
+      "url": "https://cltc.ntnu.edu.tw/",
+      "selectors": {
+        "parser": "table_row",
+        "article": ".table tbody tr",
+        "title": "td:nth-of-type(2)",
+        "date": "td:nth-of-type(1)"
+      }
+    },
+    "seed_news": {
+      "label": "消息公告",
+      "owner": "社會情緒發展研究中心",
+      "url": "https://seedcenter.tw/news/",
+      "selectors": {
+        "parser": "wordpress_rest",
+        "api_url": "https://seedcenter.tw/wp-json/wp/v2/posts"
+      }
+    },
+    "swfs_announcement": {
+      "label": "中心公告",
+      "owner": "社會工作與家庭研究中心",
+      "url": "https://swfs.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=",
+      "selectors": {
+        "parser": "table_row",
+        "article": "#ContentPlaceContent_ContentConentA table tbody tr",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "date": "td:nth-of-type(3)"
+      }
+    },
+    "swfs_training": {
+      "label": "課程訓練",
+      "owner": "社會工作與家庭研究中心",
+      "url": "https://swfs.ntnu.edu.tw/Front/Latest-News/Latest-News-Course-Training/News.aspx?id=PrPAeVbJgjo=",
+      "selectors": {
+        "parser": "table_row",
+        "article": "#ContentPlaceContent_ContentConentA table tbody tr",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "date": "td:nth-of-type(3)"
+      }
+    },
+    "swfs_seminar": {
+      "label": "專題演講",
+      "owner": "社會工作與家庭研究中心",
+      "url": "https://swfs.ntnu.edu.tw/Front/Latest-News/Latest-News-Seminar/News.aspx?id=jkgBr1zqgsk=",
+      "selectors": {
+        "parser": "table_row",
+        "article": "#ContentPlaceContent_ContentConentA table tbody tr",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "date": "td:nth-of-type(3)"
+      }
+    },
+    "swfs_research": {
+      "label": "研究調查",
+      "owner": "社會工作與家庭研究中心",
+      "url": "https://swfs.ntnu.edu.tw/Front/Latest-News/Latest-News-Research/News.aspx?id=RbtCbgqudXM=",
+      "selectors": {
+        "parser": "table_row",
+        "article": "#ContentPlaceContent_ContentConentA table tbody tr",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "date": "td:nth-of-type(3)"
+      }
+    },
+    "rcitepc_news": {
+      "label": "首頁公告",
+      "owner": "雲端測驗中心",
+      "url": "https://www.rcitepc.ntnu.edu.tw/",
+      "selectors": {
+        "parser": "table_row",
+        "article": ".recent-news-items li.news_li",
+        "title_link": "a.newspost-title[href]",
+        "date": ".widget-date-post"
+      }
+    },
+    "nepac_news": {
+      "label": "最新消息",
+      "owner": "成人教育研究中心",
+      "url": "https://www.nepac.org.tw/?c=index&f=news",
+      "selectors": {
+        "parser": "table_row",
+        "article": "table.news_tab tr",
+        "title_link": "td:nth-of-type(3) a[href]",
+        "date": "td:nth-of-type(2)"
+      }
+    },
+    "tvc_center_announcement": {
+      "label": "中心公告",
+      "owner": "技術職業教育研究中心",
+      "url": "https://www.tvc.ntnu.edu.tw/GoWeb2/include/index.php?Page=0-1",
+      "selectors": {
+        "parser": "table_row",
+        "article": ".news_ul a[href]",
+        "title": ".news_title",
+        "title_link": "a[href]",
+        "date": ".date"
+      }
+    },
+    "tvc_plan_news": {
+      "label": "計畫消息",
+      "owner": "技術職業教育研究中心",
+      "url": "https://www.tvc.ntnu.edu.tw/GoWeb2/include/index.php?Page=0-2",
+      "selectors": {
+        "parser": "table_row",
+        "article": ".news_ul a[href]",
+        "title": ".news_title",
+        "title_link": "a[href]",
+        "date": ".date"
+      }
+    },
+    "tvc_projects": {
+      "label": "專案計畫",
+      "owner": "技術職業教育研究中心",
+      "url": "https://www.tvc.ntnu.edu.tw/GoWeb2/include/index.php?Page=0-3",
+      "selectors": {
+        "parser": "table_row",
+        "article": ".news_ul a[href]",
+        "title": ".news_title",
+        "title_link": "a[href]",
+        "date": ".date"
+      }
+    },
+    "frcenter_news": {
+      "label": "最新消息",
+      "owner": "法語教學中心",
+      "url": "https://www.frcenter.ntnu.edu.tw/",
+      "selectors": {
+        "parser": "table_row",
+        "article": ".news_post_large, .news_post_small",
+        "title_link": "a[href*=\"/News/Detail/\"]",
+        "date": ".news_post_meta li:first-child span",
+        "pinned": ".news_post-tag"
+      }
+    },
+    "overseas_chinese_research_news": {
+      "label": "最新消息",
+      "owner": "海外華人研究中心",
+      "url": "https://rcocntnu.blogspot.com/",
+      "selectors": {
+        "parser": "atom_json",
+        "api_url": "https://rcocntnu.blogspot.com/feeds/posts/default?alt=json&max-results=20"
+      }
+    },
+    "japan_studies_news": {
+      "label": "最新消息",
+      "owner": "日本研究中心",
+      "url": "https://ntnueasjrc.blogspot.com/",
+      "selectors": {
+        "parser": "atom_json",
+        "api_url": "https://ntnueasjrc.blogspot.com/feeds/posts/default?alt=json&max-results=20"
+      }
     }
   },
   "schema": [
@@ -5508,17 +5724,44 @@
                 {
                   "id": "l4-science-education-center",
                   "name": "科學教育中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "sec_announcements",
+                      "name": "公告事項"
+                    },
+                    {
+                      "value": "sec_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-special-education-center",
                   "name": "特殊教育中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "spc_center_announcement",
+                      "name": "中心公告"
+                    },
+                    {
+                      "value": "spc_training",
+                      "name": "研習進修"
+                    },
+                    {
+                      "value": "spc_recruitment",
+                      "name": "人才招募"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-rcpet",
                   "name": "心理與教育測驗研究發展中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "rcpet_announcements",
+                      "name": "公告事項"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-ceri",
@@ -5528,7 +5771,12 @@
                 {
                   "id": "l4-perdc",
                   "name": "體育研究與發展中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "perdc_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-math-education-center",
@@ -5544,7 +5792,12 @@
                 {
                   "id": "l4-cltc",
                   "name": "華語文與科技研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "cltc_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-irels",
@@ -5554,7 +5807,12 @@
                 {
                   "id": "l4-seedcenter",
                   "name": "社會情緒發展研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "seed_news",
+                      "name": "消息公告"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-cag",
@@ -5624,7 +5882,24 @@
                 {
                   "id": "l4-swfs",
                   "name": "社會工作與家庭研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "swfs_announcement",
+                      "name": "中心公告"
+                    },
+                    {
+                      "value": "swfs_training",
+                      "name": "課程訓練"
+                    },
+                    {
+                      "value": "swfs_seminar",
+                      "name": "專題演講"
+                    },
+                    {
+                      "value": "swfs_research",
+                      "name": "研究調查"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-dacm",
@@ -5634,12 +5909,22 @@
                 {
                   "id": "l4-mgt-research-center",
                   "name": "產業與管理研究發展中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "mgt_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-index-investment-center",
                   "name": "智能與指數化投資研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "mgt_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 }
               ]
             },
@@ -5650,7 +5935,12 @@
                 {
                   "id": "l4-education-professional-development-center",
                   "name": "教育專業發展中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "ed_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-paulo-freire-center",
@@ -5660,12 +5950,22 @@
                 {
                   "id": "l4-cloud-testing-center",
                   "name": "雲端測驗中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "rcitepc_news",
+                      "name": "首頁公告"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-adult-education-research-center",
                   "name": "成人教育研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "nepac_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-frdc",
@@ -5685,12 +5985,30 @@
                 {
                   "id": "l4-performing-arts-musical-center",
                   "name": "表演藝術暨華文音樂劇中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "gipa_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-tvc",
                   "name": "技術職業教育研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "tvc_center_announcement",
+                      "name": "中心公告"
+                    },
+                    {
+                      "value": "tvc_plan_news",
+                      "name": "計畫消息"
+                    },
+                    {
+                      "value": "tvc_projects",
+                      "name": "專案計畫"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-overseas-tvet-center",
@@ -5710,27 +6028,52 @@
                 {
                   "id": "l4-overseas-chinese-research-center",
                   "name": "海外華人研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "overseas_chinese_research_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-japan-studies-center",
                   "name": "日本研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "japan_studies_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-french-teaching-center",
                   "name": "法語教學中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "frcenter_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-management-innovation-center",
                   "name": "先進管理創新研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "ba_news",
+                      "name": "學系公告&活動"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-global-innovation-entrepreneurship-center",
                   "name": "全球創新創業研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "gbs_news",
+                      "name": "系所公告"
+                    }
+                  ]
                 }
               ]
             }

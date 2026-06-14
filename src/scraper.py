@@ -66,6 +66,14 @@ def parse_taiwan_date(text):
         return f"{year}-{month:02d}-{day:02d}", summary
 
     # 🔍 尋找西元格式，例如: 2026-04-30、2026/04/30、2026.04.30
+    tw_slash_match = re.search(r'(?<!\d)(\d{2,3})[-/.](\d{1,2})[-/.](\d{1,2})(?!\d)', text)
+    if tw_slash_match:
+        year = int(tw_slash_match.group(1)) + 1911
+        month = int(tw_slash_match.group(2))
+        day = int(tw_slash_match.group(3))
+        summary = text.replace(tw_slash_match.group(0), "").strip()
+        return f"{year}-{month:02d}-{day:02d}", summary
+
     en_match = re.search(r'(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})', text)
     if en_match:
         summary = text.replace(en_match.group(0), "").strip()
@@ -385,8 +393,9 @@ def clean_html_text(value):
 
 def fetch_atom_json_announcements(url, category_name, scraper_config):
     try:
+        feed_url = scraper_config.get("api_url", url)
         response = create_request_session(url).get(
-            url,
+            feed_url,
             headers=REQUEST_HEADERS,
             timeout=10,
         )
@@ -717,12 +726,20 @@ def fetch_table_row_announcements(url, category_name, scraper_config):
 
             link_selector = scraper_config.get("title_link", "a[href]")
             link_tag = article.select_one(link_selector)
+            if (not link_tag or not link_tag.get("href")) and article.name == "a" and article.get("href"):
+                link_tag = article
             if not title_tag:
                 title_tag = link_tag
 
             title_text = normalize_whitespace(
                 title_tag.get_text(" ", strip=True) if title_tag else ""
             )
+            if (
+                link_tag
+                and link_tag.get("title")
+                and (scraper_config.get("prefer_title_attr") or title_text.startswith("標題:"))
+            ):
+                title_text = normalize_whitespace(link_tag.get("title"))
             if not title_text:
                 continue
 

@@ -24246,5 +24246,89 @@
   "oia_link": {
     "label": "國際事務處-相關連結",
     "announcements": []
+  },
+  "sec_announcements": {
+    "label": "公告事項",
+    "announcements": []
+  },
+  "sec_news": {
+    "label": "最新消息",
+    "announcements": []
+  },
+  "spc_center_announcement": {
+    "label": "中心公告",
+    "announcements": []
+  },
+  "spc_training": {
+    "label": "研習進修",
+    "announcements": []
+  },
+  "spc_recruitment": {
+    "label": "人才招募",
+    "announcements": []
+  },
+  "rcpet_announcements": {
+    "label": "公告事項",
+    "announcements": []
+  },
+  "perdc_news": {
+    "label": "最新消息",
+    "announcements": []
+  },
+  "cltc_news": {
+    "label": "最新消息",
+    "announcements": []
+  },
+  "seed_news": {
+    "label": "消息公告",
+    "announcements": []
+  },
+  "swfs_announcement": {
+    "label": "中心公告",
+    "announcements": []
+  },
+  "swfs_training": {
+    "label": "課程訓練",
+    "announcements": []
+  },
+  "swfs_seminar": {
+    "label": "專題演講",
+    "announcements": []
+  },
+  "swfs_research": {
+    "label": "研究調查",
+    "announcements": []
+  },
+  "rcitepc_news": {
+    "label": "首頁公告",
+    "announcements": []
+  },
+  "nepac_news": {
+    "label": "最新消息",
+    "announcements": []
+  },
+  "tvc_center_announcement": {
+    "label": "中心公告",
+    "announcements": []
+  },
+  "tvc_plan_news": {
+    "label": "計畫消息",
+    "announcements": []
+  },
+  "tvc_projects": {
+    "label": "專案計畫",
+    "announcements": []
+  },
+  "frcenter_news": {
+    "label": "最新消息",
+    "announcements": []
+  },
+  "overseas_chinese_research_news": {
+    "label": "最新消息",
+    "announcements": []
+  },
+  "japan_studies_news": {
+    "label": "最新消息",
+    "announcements": []
   }
 }
