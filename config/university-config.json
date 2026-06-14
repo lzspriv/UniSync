@@ -4448,17 +4448,6 @@
         "pinned": ".sticky"
       }
     },
-    "tcsl_extension": {
-      "label": "推廣教育",
-      "owner": "華語文教學系",
-      "url": "https://www.tcsl.ntnu.edu.tw/index.php/category/edu/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
     "tcsl_honor": {
       "label": "榮譽事項",
       "owner": "華語文教學系",
@@ -4820,17 +4809,6 @@
         "title_link": "td a[href*=\"news02=\"]",
         "date": "th:nth-of-type(2)",
         "pinned": ".badge"
-      }
-    },
-    "politics_affairs": {
-      "label": "政治所-系所公告",
-      "owner": "東亞學系 (含政治所)",
-      "url": "https://www.politics.ntnu.edu.tw/index.php/category/uncategorized/1/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
       }
     },
     "sw_affairs": {
@@ -7771,10 +7749,6 @@
                   "value": "tcsl_recruitment"
                 },
                 {
-                  "name": "推廣教育",
-                  "value": "tcsl_extension"
-                },
-                {
                   "name": "榮譽事項",
                   "value": "tcsl_honor"
                 },
@@ -7827,10 +7801,6 @@
                 {
                   "name": "傑出表現",
                   "value": "deas_honor"
-                },
-                {
-                  "name": "政治所-系所公告",
-                  "value": "politics_affairs"
                 }
               ]
             },
