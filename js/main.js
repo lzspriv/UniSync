@@ -396,6 +396,18 @@ function escapeAttribute(value) {
     return escapeHtml(value);
 }
 
+function sanitizeExternalUrl(rawUrl) {
+    if (!rawUrl || typeof rawUrl !== 'string') return '#';
+
+    try {
+        const url = new URL(rawUrl, window.location.origin);
+        if (!['http:', 'https:'].includes(url.protocol)) return '#';
+        return url.href;
+    } catch (err) {
+        return '#';
+    }
+}
+
 function formatFeedDate(timeValue) {
     if (!timeValue) return '--';
     const dt = new Date(timeValue);
@@ -696,7 +708,7 @@ function renderFeedItems(reset = false) {
         const timeText = formatFeedDate(timeValue);
         const sourceHtml = renderSourceLabels(normalizeFeedSources(item));
         const titleText = escapeHtml(item.title || '無標題');
-        const safeUrl = item.url || '#';
+        const safeUrl = escapeAttribute(sanitizeExternalUrl(item.url));
 
         const triggers = normalizeFeedTriggers(item);
         const badgesHtml = renderTriggerBadges(triggers);
@@ -720,7 +732,7 @@ function renderFeedItems(reset = false) {
         const timeText = formatFeedDate(timeValue);
         const sourceHtml = renderSourceLabels(normalizeFeedSources(item), true);
         const titleText = escapeHtml(item.title || '無標題');
-        const safeUrl = item.url || '#';
+        const safeUrl = escapeAttribute(sanitizeExternalUrl(item.url));
         const triggers = normalizeFeedTriggers(item);
         const badgesHtml = renderTriggerBadges(triggers);
         const wrapperClass = (triggers[0] && inferTriggerType({ trigger_type: triggers[0] }).rowClass.includes('rose')) ? 'p-4 bg-rose-50/5' : 'p-4';
@@ -1162,12 +1174,12 @@ function openPreviewModal(categoryId, displayLabel = '') {
         content.innerHTML = data.announcements.map((anno, idx) => `
             <div class="mb-4 pb-4 ${idx < data.announcements.length - 1 ? 'border-b border-slate-200' : ''}">
                 <h4 class="text-sm font-bold text-slate-800 mb-1">
-                    <a href="${anno.url}" target="_blank" class="text-blue-600 hover:underline">
-                        ${anno.title}
+                    <a href="${escapeAttribute(sanitizeExternalUrl(anno.url))}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">
+                        ${escapeHtml(anno.title || '(無標題)')}
                     </a>
                 </h4>
-                <p class="text-xs text-slate-500">📅 ${anno.date_label || '發布日期'}：${anno.date}</p>
-                ${anno.show_summary && anno.summary ? `<p class="mt-1 text-xs leading-relaxed text-slate-600">${anno.summary}</p>` : ''}
+                <p class="text-xs text-slate-500">📅 ${escapeHtml(anno.date_label || '發布日期')}：${escapeHtml(anno.date || 'N/A')}</p>
+                ${anno.show_summary && anno.summary ? `<p class="mt-1 text-xs leading-relaxed text-slate-600">${escapeHtml(anno.summary)}</p>` : ''}
             </div>
         `).join('');
     }

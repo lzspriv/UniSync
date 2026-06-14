@@ -11,6 +11,8 @@ const authElements = {
     userName: document.getElementById('user-name'),
     userAvatar: document.getElementById('user-avatar'),
     discordInput: document.getElementById('discord-input'),
+    telegramBotTokenInput: document.getElementById('telegram-bot-token-input'),
+    telegramChatIdInput: document.getElementById('telegram-chat-id-input'),
     saveProfileBtn: document.getElementById('save-profile-btn'),
     updateSubBtn: document.getElementById('update-sub-btn'),
     monitoringStatus: document.getElementById('monitoring-status')
@@ -66,6 +68,8 @@ function updateAuthUI(user) {
         authElements.loginBtn.classList.remove('hidden');
         authElements.userInfo.classList.add('hidden');
         authElements.discordInput.value = "";
+        authElements.telegramBotTokenInput.value = "";
+        authElements.telegramChatIdInput.value = "";
         updateMonitoringStatus(false);
         setDashboardMetric('active-subscriptions-count', '--');
         setDashboardMetric('global-keyword-matches-count', '--');
@@ -103,12 +107,16 @@ async function syncUserData(userId) {
     // 1. 載入 Webhook 設定
     const { data: profile, error: profileError } = await _supabase
         .from('profiles')
-        .select('discord_webhook')
+        .select('discord_webhook,telegram_bot_token,telegram_chat_id')
         .eq('id', userId)
         .single();
 
     if (profileError) console.error('載入 profile 時發生錯誤', profileError);
-    if (profile) authElements.discordInput.value = profile.discord_webhook || "";
+    if (profile) {
+        authElements.discordInput.value = profile.discord_webhook || "";
+        authElements.telegramBotTokenInput.value = profile.telegram_bot_token || "";
+        authElements.telegramChatIdInput.value = profile.telegram_chat_id || "";
+    }
 
     // 2. 載入訂閱偏好
     const { data: subs, error: subsError } = await _supabase
@@ -149,7 +157,7 @@ async function syncUserData(userId) {
 
 /* --- 💾 儲存操作 --- */
 
-// 儲存 Webhook 設定[cite: 1]
+// 儲存通知設定[cite: 1]
 authElements.saveProfileBtn.addEventListener('click', async () => {
     const { data: { session } } = await _supabase.auth.getSession();
     if (!session) return alert("請先登入！");
@@ -157,6 +165,8 @@ authElements.saveProfileBtn.addEventListener('click', async () => {
     const { data, error } = await _supabase.from('profiles').upsert({
         id: session.user.id,
         discord_webhook: authElements.discordInput.value,
+        telegram_bot_token: authElements.telegramBotTokenInput.value,
+        telegram_chat_id: authElements.telegramChatIdInput.value,
         updated_at: new Date().toISOString()
     });
     authElements.saveProfileBtn.disabled = false;
@@ -166,7 +176,7 @@ authElements.saveProfileBtn.addEventListener('click', async () => {
         return alert("儲存失敗: " + error.message);
     }
 
-    alert("Webhook 設定已儲存 🚀");
+    alert("通知設定已儲存 🚀");
 });
 
 // 儲存訂閱偏好[cite: 1]

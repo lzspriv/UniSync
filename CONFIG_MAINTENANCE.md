@@ -73,3 +73,15 @@ GitHub Actions 在執行爬蟲前也會先跑這個驗證。
 3. 跑 `scripts\validate_config.py`。
 4. 必要時重建相關分類的 preview。
 5. 分開 commit：設定結構、預覽快取、UI 或 scraper 行為盡量不要混在同一個 commit。
+
+## Supabase 欄位維護
+
+Telegram 通知會使用 `profiles` 表的兩個欄位。首次部署此功能前，請在 Supabase SQL Editor 執行：
+
+```sql
+ALTER TABLE public.profiles
+    ADD COLUMN IF NOT EXISTS telegram_bot_token text,
+    ADD COLUMN IF NOT EXISTS telegram_chat_id text;
+```
+
+`telegram_bot_token` 與 `telegram_chat_id` 都有值時，後端才會送出 Telegram 通知。未填 Telegram 的使用者會維持原本 Discord 通知流程。
