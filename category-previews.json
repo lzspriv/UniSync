@@ -24330,5 +24330,53 @@
   "japan_studies_news": {
     "label": "最新消息",
     "announcements": []
+  },
+  "ceri_news": {
+    "label": "News",
+    "announcements": []
+  },
+  "cag_news": {
+    "label": "News",
+    "announcements": []
+  },
+  "icsdrc_news": {
+    "label": "News",
+    "announcements": []
+  },
+  "itsc_news": {
+    "label": "News",
+    "announcements": []
+  },
+  "irdc_news": {
+    "label": "最新消息",
+    "announcements": []
+  },
+  "irdc_boundaryless": {
+    "label": "原無疆界",
+    "announcements": []
+  },
+  "irdc_speech": {
+    "label": "演講公告",
+    "announcements": []
+  },
+  "irdc_program": {
+    "label": "原民學程",
+    "announcements": []
+  },
+  "irdc_related": {
+    "label": "相關公告",
+    "announcements": []
+  },
+  "frdc_news": {
+    "label": "最新消息",
+    "announcements": []
+  },
+  "hakka_news": {
+    "label": "最新消息",
+    "announcements": []
+  },
+  "cks_news": {
+    "label": "News",
+    "announcements": []
   }
 }

@@ -4571,6 +4571,78 @@
         "parser": "atom_json",
         "api_url": "https://ntnueasjrc.blogspot.com/feeds/posts/default?alt=json&max-results=20"
       }
+    },
+    "ceri_news": {
+      "label": "News",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/en/category/uncategorized-en/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "cag_news": {
+      "label": "News",
+      "owner": "天文與重力中心",
+      "url": "https://www.cag.ntnu.edu.tw/index.php/en/category/uncategorized/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "icsdrc_news": {
+      "label": "News",
+      "owner": "智慧運算導向永續發展研究中心",
+      "url": "https://www.icsdrc.ntnu.edu.tw/index.php/en/category/uncategorized-en/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "itsc_news": {
+      "label": "News",
+      "owner": "國際臺灣學研究中心",
+      "url": "https://www.itsc.ntnu.edu.tw/index.php/en/news-2/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "irdc_news": {
+      "label": "最新消息",
+      "owner": "原住民族研究發展中心",
+      "url": "https://www.irdc.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "irdc_boundaryless": {
+      "label": "原無疆界",
+      "owner": "原住民族研究發展中心",
+      "url": "https://www.irdc.ntnu.edu.tw/index.php/category/2/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "irdc_speech": {
+      "label": "演講公告",
+      "owner": "原住民族研究發展中心",
+      "url": "https://www.irdc.ntnu.edu.tw/index.php/category/4/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "irdc_program": {
+      "label": "原民學程",
+      "owner": "原住民族研究發展中心",
+      "url": "https://www.irdc.ntnu.edu.tw/index.php/category/3/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "irdc_related": {
+      "label": "相關公告",
+      "owner": "原住民族研究發展中心",
+      "url": "https://www.irdc.ntnu.edu.tw/index.php/category/7/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "frdc_news": {
+      "label": "最新消息",
+      "owner": "家庭研究與發展中心",
+      "url": "https://www.frdc.ntnu.edu.tw/index.php/category/00/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "hakka_news": {
+      "label": "最新消息",
+      "owner": "客語與客家文化教學研究中心",
+      "url": "https://www.hakka.ntnu.edu.tw/?page_id=41",
+      "selectorPreset": "wordpress_broad"
+    },
+    "cks_news": {
+      "label": "News",
+      "owner": "韓國學研究中心",
+      "url": "https://www.cks.ntnu.edu.tw/index.php/en/news/",
+      "selectorPreset": "wordpress_broad"
     }
   },
   "schema": [
@@ -5766,7 +5838,12 @@
                 {
                   "id": "l4-ceri",
                   "name": "教育研究與創新中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "ceri_news",
+                      "name": "News"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-perdc",
@@ -5817,7 +5894,12 @@
                 {
                   "id": "l4-cag",
                   "name": "天文與重力中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "cag_news",
+                      "name": "News"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-green-energy-research-center",
@@ -5827,7 +5909,12 @@
                 {
                   "id": "l4-icsdrc",
                   "name": "智慧運算導向永續發展研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "icsdrc_news",
+                      "name": "News"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-gcwc",
@@ -5837,22 +5924,58 @@
                 {
                   "id": "l4-itsc",
                   "name": "國際臺灣學研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "itsc_news",
+                      "name": "News"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-irdc",
                   "name": "原住民族研究發展中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "irdc_news",
+                      "name": "最新消息"
+                    },
+                    {
+                      "value": "irdc_boundaryless",
+                      "name": "原無疆界"
+                    },
+                    {
+                      "value": "irdc_speech",
+                      "name": "演講公告"
+                    },
+                    {
+                      "value": "irdc_program",
+                      "name": "原民學程"
+                    },
+                    {
+                      "value": "irdc_related",
+                      "name": "相關公告"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-hakka-center",
                   "name": "客語與客家文化教學研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "hakka_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-cks",
                   "name": "韓國學研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "cks_news",
+                      "name": "News"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-printmaking-center",
@@ -5970,7 +6093,12 @@
                 {
                   "id": "l4-frdc",
                   "name": "家庭研究與發展中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "frdc_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-plastic-reduction-center",
