@@ -8039,18 +8039,7 @@
               "value": "ciai_forwarded"
             }
           ],
-          "subUnits": [
-            {
-              "id": "l3-ciai",
-              "name": "AI 跨域應用研究所",
-              "channels": []
-            },
-            {
-              "id": "l3-ciai-2",
-              "name": "綠能科技與永續治理研究所",
-              "channels": []
-            }
-          ]
+          "subUnits": []
         }
       ]
     }
