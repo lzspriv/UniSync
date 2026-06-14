@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <!-- ✨ 引入自定義 CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=20260614-visual">
 </head>
 <body class="app-base-text bg-slate-50 font-sans text-slate-800">
 
     <div class="relative flex h-screen overflow-hidden">
         
         <!-- Sidebar -->
-        <aside id="sidebar" class="w-96 max-w-[90vw] bg-white border-r border-slate-200 flex flex-col h-full shadow-xl z-20 absolute lg:relative -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out">
+        <aside id="sidebar" class="app-sidebar w-96 max-w-[90vw] border-r flex flex-col h-full z-20 absolute lg:relative -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out">
             <div class="p-6 border-b border-slate-100 flex items-center justify-between">
                 <div class="flex items-center gap-3">
-                    <div class="bg-blue-600 p-2 rounded-xl text-white shadow-lg">
+                    <div class="app-logo p-2 text-white">
                         <i class="fas fa-sync-alt fa-lg"></i>
                     </div>
                     <div>
@@ -37,20 +37,20 @@
                 <p class="text-sm text-slate-400 p-4">初始化選單中...</p>
             </div>
 
-            <div class="p-4 bg-slate-50 border-t border-slate-200">
-                <button id="update-sub-btn" class="w-full bg-blue-600 text-white py-3 rounded-xl font-bold hover:bg-blue-700 transition-all shadow-lg active:scale-95">更新訂閱偏好</button>
+            <div class="p-4 bg-white border-t border-slate-200">
+                <button id="update-sub-btn" class="app-primary-button w-full py-3 font-bold active:scale-95">更新訂閱偏好</button>
             </div>
         </aside>
 
         <div id="overlay" class="fixed inset-0 bg-black/50 z-10 hidden lg:hidden"></div>
 
-        <main class="flex-1 overflow-y-auto bg-slate-50 p-4 md:p-8 custom-scrollbar">
+        <main class="flex-1 overflow-y-auto p-4 md:p-8 custom-scrollbar">
             <div class="max-w-6xl mx-auto">
                 <header class="mb-8 flex flex-col md:flex-row md:items-center justify-between gap-4">
                     <div class="flex items-center gap-4">
                         <button id="menu-btn" class="lg:hidden text-slate-500 hover:text-blue-600 p-2 -ml-2"><i class="fas fa-bars fa-lg"></i></button>
                         <div>
-                            <h2 class="text-3xl md:text-4xl font-black text-slate-900 tracking-tight leading-tight">個人化通知中心</h2>
+                            <h2 class="text-3xl md:text-4xl font-black leading-tight">個人化通知中心</h2>
                             <div class="flex items-center gap-4 mt-2">
                                 <span id="monitoring-status" class="flex items-center gap-1.5 text-base font-bold text-slate-400 bg-slate-100 px-2 py-1 rounded-md">
                                     <span class="w-2 h-2 bg-slate-400 rounded-full"></span> 未連線
@@ -61,22 +61,22 @@
                     </div>
                     <div class="flex flex-col items-end gap-4">
                         <div class="flex flex-wrap gap-2 sm:gap-4 justify-end">
-                            <div class="bg-white px-4 py-2 rounded-xl shadow-sm border border-slate-200 text-center min-w-[90px] sm:min-w-[100px]">
+                            <div class="app-metric-card px-4 py-2 text-center min-w-[90px] sm:min-w-[100px]">
                                 <p class="text-xs font-black text-slate-400 uppercase tracking-widest">訂閱類別</p>
                                 <p id="active-subscriptions-count" class="text-2xl font-black text-blue-600">--</p>
                             </div>
-                            <div class="bg-white px-4 py-2 rounded-xl shadow-sm border border-slate-200 text-center min-w-[90px] sm:min-w-[100px]">
+                            <div class="app-metric-card px-4 py-2 text-center min-w-[90px] sm:min-w-[100px]">
                                 <p class="text-xs font-black text-slate-400 uppercase tracking-widest">雷達命中</p>
                                 <p id="global-keyword-matches-count" class="text-2xl font-black text-rose-500">--</p>
                             </div>
-                            <div class="bg-white px-4 py-2 rounded-xl shadow-sm border border-slate-200 text-center min-w-[90px] sm:min-w-[100px]">
+                            <div class="app-metric-card px-4 py-2 text-center min-w-[90px] sm:min-w-[100px]">
                                 <p class="text-xs font-black text-slate-400 uppercase tracking-widest">關鍵字數</p>
                                 <p id="global-keywords-count" class="text-2xl font-black text-emerald-600">--</p>
                             </div>
                         </div>
                         <!-- Auth Section -->
                         <div id="auth-section">
-                            <button id="login-btn" class="flex items-center gap-2 bg-white px-4 py-2 rounded-xl text-base font-bold shadow-sm border border-slate-200 hover:bg-slate-50">
+                            <button id="login-btn" class="app-metric-card flex items-center gap-2 px-4 py-2 text-base font-bold hover:bg-slate-50">
                                 <i class="fab fa-google text-red-500"></i><span>Google 登入</span>
                             </button>
                             <div id="user-info" class="hidden flex items-center gap-3 bg-white p-1 pr-4 rounded-full border shadow-sm">
@@ -90,7 +90,7 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                     
-                    <section class="bg-white p-5 sm:p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <section class="app-card p-5 sm:p-6 flex flex-col justify-between">
                         <div>
                             <div class="mb-5 flex items-start justify-between gap-4">
                                 <div>
@@ -100,13 +100,13 @@
                                     </h3>
                                     <p class="mt-1 text-xs font-medium text-slate-500">設定完成後，新公告會透過啟用的管道通知你。</p>
                                 </div>
-                                <span class="shrink-0 rounded-full bg-emerald-50 px-2.5 py-1 text-[11px] font-black text-emerald-700">Discord 已支援</span>
+                                <span class="app-chip app-chip-success shrink-0 px-2.5 py-1 text-[11px]">Discord 已支援</span>
                             </div>
                             <div class="space-y-3">
                                 <label class="block">
                                     <span class="mb-1.5 flex items-center justify-between text-xs font-bold text-slate-600">
                                         <span class="inline-flex items-center gap-2"><i class="fab fa-discord text-[#5865F2]"></i> Discord Webhook</span>
-                                        <span class="rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-black text-emerald-700">可使用</span>
+                                        <span class="app-chip app-chip-success px-2 py-0.5 text-[10px]">可使用</span>
                                     </span>
                                     <input id="discord-input" type="text" placeholder="貼上 Discord Webhook URL" class="w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5 text-sm font-mono outline-none transition-all focus:border-blue-500 focus:bg-white focus:ring-4 focus:ring-blue-500/10">
                                 </label>
@@ -127,11 +127,11 @@
                             </div>
                         </div>
                         <div class="mt-6 flex justify-end">
-                            <button id="save-profile-btn" class="rounded-xl bg-blue-600 px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-blue-700 active:bg-blue-800">儲存通知設定</button>
+                            <button id="save-profile-btn" class="app-primary-button px-5 py-2.5 text-sm font-bold active:bg-blue-800">儲存通知設定</button>
                         </div>
                     </section>
 
-                    <section class="bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm flex flex-col justify-between">
+                    <section class="app-card p-5 sm:p-6 flex flex-col justify-between">
                         <div>
                             <div class="mb-5 flex items-start justify-between gap-4">
                                 <div>
@@ -141,7 +141,7 @@
                                     </h3>
                                     <p class="mt-1 text-xs font-medium text-slate-500">符合關鍵字的新公告會觸發通知，不限已訂閱分類。</p>
                                 </div>
-                                <span class="shrink-0 rounded-full bg-blue-50 px-2.5 py-1 text-[11px] font-black text-blue-700">全站比對</span>
+                                <span class="app-chip shrink-0 px-2.5 py-1 text-[11px]">全站比對</span>
                             </div>
 
                             <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -150,7 +150,7 @@
                                 </div>
                                 <button
                                     id="open-radar-modal-btn"
-                                    class="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl border border-blue-200 bg-blue-50 px-4 py-2.5 text-sm font-bold text-blue-700 transition-colors hover:bg-blue-100 focus:outline-none focus:ring-4 focus:ring-blue-500/10"
+                                    class="app-soft-button inline-flex shrink-0 items-center justify-center gap-2 px-4 py-2.5 text-sm font-bold"
                                 >
                                     <i class="fas fa-plus-circle"></i>
                                     <span>新增關鍵字</span>
@@ -164,7 +164,7 @@
                     </section>
                 </div>
 
-                <section class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+                <section class="app-card overflow-hidden">
                     <div class="border-b border-slate-100 p-4 sm:p-5">
                         <div class="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                             <div>
