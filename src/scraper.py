@@ -411,7 +411,7 @@ def fetch_atom_json_announcements(url, category_name, scraper_config):
         recent_news = []
         cutoff_date = datetime.now() - timedelta(days=10)
         seen_urls = set()
-        date_label = scraper_config.get("date_label", "?澆??交?")
+        date_label = scraper_config.get("date_label", "\u767c\u5e03\u65e5\u671f")
         include_summary = scraper_config.get("include_summary", False)
 
         for entry in entries:
@@ -716,7 +716,7 @@ def fetch_table_row_announcements(url, category_name, scraper_config):
         unknown_date, _ = parse_taiwan_date("")
         pinned_selector = scraper_config.get("pinned")
         include_summary = scraper_config.get("include_summary", False)
-        date_label = scraper_config.get("date_label", "?澆??交?")
+        date_label = scraper_config.get("date_label", "\u767c\u5e03\u65e5\u671f")
 
         for article in soup.select(scraper_config.get("article", "tr")):
             title_tag = None
@@ -737,7 +737,7 @@ def fetch_table_row_announcements(url, category_name, scraper_config):
             if (
                 link_tag
                 and link_tag.get("title")
-                and (scraper_config.get("prefer_title_attr") or title_text.startswith("標題:"))
+                and (scraper_config.get("prefer_title_attr") or title_text.startswith("\u6a19\u984c:"))
             ):
                 title_text = normalize_whitespace(link_tag.get("title"))
             if not title_text:
