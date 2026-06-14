@@ -181,6 +181,11 @@
       "article": ".ultp-block-37c113 .ultp-block-item",
       "title_link": ".ultp-block-title a[href]",
       "date": ".ultp-block-date"
+    },
+    "activity_home_latest": {
+      "article": ".ultp-block-c6bf62 .ultp-block-item",
+      "title_link": ".ultp-block-title a[href]",
+      "date": ".ultp-block-date"
     }
   },
   "categories": {
@@ -3797,8 +3802,8 @@
     "activity_news": {
       "label": "最新消息",
       "owner": "課外活動指導組",
-      "url": "https://activity.sa.ntnu.edu.tw/news/",
-      "selectorPreset": "ultimate_post_grid"
+      "url": "https://activity.sa.ntnu.edu.tw/",
+      "selectorPreset": "activity_home_latest"
     },
     "holistic_news": {
       "label": "最新消息",
@@ -3888,6 +3893,42 @@
         "title_link": ".ultp-block-title a[href]",
         "date": ".ultp-block-date"
       }
+    },
+    "activity_group_news": {
+      "label": "社團公告",
+      "owner": "課外活動指導組",
+      "url": "https://activity.sa.ntnu.edu.tw/category/group-news/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "activity_activity_info": {
+      "label": "活動資訊",
+      "owner": "課外活動指導組",
+      "url": "https://activity.sa.ntnu.edu.tw/category/activity/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "activity_competition": {
+      "label": "競賽資訊",
+      "owner": "課外活動指導組",
+      "url": "https://activity.sa.ntnu.edu.tw/category/competition/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "activity_subsidy": {
+      "label": "社團補助",
+      "owner": "課外活動指導組",
+      "url": "https://activity.sa.ntnu.edu.tw/category/subsidy/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "activity_announce": {
+      "label": "行政公告",
+      "owner": "課外活動指導組",
+      "url": "https://activity.sa.ntnu.edu.tw/category/announce/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "activity_tri_ntu": {
+      "label": "三校活動",
+      "owner": "課外活動指導組",
+      "url": "https://activity.sa.ntnu.edu.tw/category/tri-ntu/",
+      "selectorPreset": "ultimate_post_grid"
     }
   },
   "schema": [
@@ -4150,6 +4191,30 @@
                 {
                   "value": "activity_news",
                   "name": "最新消息"
+                },
+                {
+                  "value": "activity_group_news",
+                  "name": "社團公告"
+                },
+                {
+                  "value": "activity_activity_info",
+                  "name": "活動資訊"
+                },
+                {
+                  "value": "activity_competition",
+                  "name": "競賽資訊"
+                },
+                {
+                  "value": "activity_subsidy",
+                  "name": "社團補助"
+                },
+                {
+                  "value": "activity_announce",
+                  "name": "行政公告"
+                },
+                {
+                  "value": "activity_tri_ntu",
+                  "name": "三校活動"
                 }
               ]
             },
