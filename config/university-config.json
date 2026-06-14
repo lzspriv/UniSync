@@ -3388,6 +3388,302 @@
         "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
         "pinned": ".sticky"
       }
+    },
+    "arts_news": {
+      "label": "最新消息",
+      "owner": "藝術學院",
+      "url": "https://arts.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arts_affairs": {
+      "label": "院務公告",
+      "owner": "藝術學院",
+      "url": "https://arts.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arts_honor": {
+      "label": "榮譽事蹟",
+      "owner": "藝術學院",
+      "url": "https://arts.ntnu.edu.tw/index.php/category/uncategorized/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arts_outbound": {
+      "label": "赴外交換",
+      "owner": "藝術學院",
+      "url": "https://arts.ntnu.edu.tw/index.php/category/uncategorized/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arts_art_news": {
+      "label": "藝文新訊",
+      "owner": "藝術學院",
+      "url": "https://arts.ntnu.edu.tw/index.php/category/uncategorized/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arts_exchange_highlights": {
+      "label": "交流亮點",
+      "owner": "藝術學院",
+      "url": "https://arts.ntnu.edu.tw/index.php/category/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arts_workshop_results": {
+      "label": "工坊成果",
+      "owner": "藝術學院",
+      "url": "https://arts.ntnu.edu.tw/index.php/category/uncategorized/6/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arts_competition_internship": {
+      "label": "競賽/實習",
+      "owner": "藝術學院",
+      "url": "https://arts.ntnu.edu.tw/index.php/category/uncategorized/7/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arts_emi": {
+      "label": "EMI資訊",
+      "owner": "藝術學院",
+      "url": "https://arts.ntnu.edu.tw/index.php/category/emi-news/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arts_sdgs": {
+      "label": "SDGs聯合國永續發展指標",
+      "owner": "藝術學院",
+      "url": "https://arts.ntnu.edu.tw/index.php/category/uncategorized/8/sdgs/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arts_usr": {
+      "label": "USR大學社會責任",
+      "owner": "藝術學院",
+      "url": "https://arts.ntnu.edu.tw/index.php/category/uncategorized/8/usr/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "art_news": {
+      "label": "最新消息",
+      "owner": "美術學系",
+      "url": "https://www.art.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "art_affairs": {
+      "label": "系辦公告",
+      "owner": "美術學系",
+      "url": "https://www.art.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "art_new_student": {
+      "label": "新生快訊",
+      "owner": "美術學系",
+      "url": "https://www.art.ntnu.edu.tw/index.php/category/uncategorized/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "art_exhibition_lecture": {
+      "label": "展覽演講",
+      "owner": "美術學系",
+      "url": "https://www.art.ntnu.edu.tw/index.php/category/uncategorized/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "art_course_teacher": {
+      "label": "日間課務/師培",
+      "owner": "美術學系",
+      "url": "https://www.art.ntnu.edu.tw/index.php/category/uncategorized/6-uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "art_in_service": {
+      "label": "在職專班訊息",
+      "owner": "美術學系",
+      "url": "https://www.art.ntnu.edu.tw/index.php/category/uncategorized/7/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "art_honor": {
+      "label": "榮譽榜",
+      "owner": "美術學系",
+      "url": "https://www.art.ntnu.edu.tw/index.php/category/uncategorized/6/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "art_competition_recruitment": {
+      "label": "比賽徵才",
+      "owner": "美術學系",
+      "url": "https://www.art.ntnu.edu.tw/index.php/category/uncategorized/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "art_scholarship": {
+      "label": "獎助學金",
+      "owner": "美術學系",
+      "url": "https://www.art.ntnu.edu.tw/index.php/category/uncategorized/8/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arthistory_news": {
+      "label": "最新消息",
+      "owner": "藝術史研究所",
+      "url": "https://arthistory.ntnu.edu.tw/index.php/zh/category/news/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arthistory_latest": {
+      "label": "近期公告",
+      "owner": "藝術史研究所",
+      "url": "https://arthistory.ntnu.edu.tw/index.php/zh/category/news/latest-news/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arthistory_important": {
+      "label": "重要資訊",
+      "owner": "藝術史研究所",
+      "url": "https://arthistory.ntnu.edu.tw/index.php/zh/category/news/important-information/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arthistory_events": {
+      "label": "活動資訊",
+      "owner": "藝術史研究所",
+      "url": "https://arthistory.ntnu.edu.tw/index.php/zh/category/news/archive-events/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "arthistory_event_highlights": {
+      "label": "活動花絮",
+      "owner": "藝術史研究所",
+      "url": "https://arthistory.ntnu.edu.tw/index.php/zh/category/news/activities/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "emam_news": {
+      "label": "最新消息",
+      "owner": "藝術產業高階經理碩士在職專班(EMAM)",
+      "url": "https://emam.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "design_news": {
+      "label": "最新消息",
+      "owner": "設計學系",
+      "url": "https://www.design.ntnu.edu.tw/?page_id=5793",
+      "selectors": {
+        "article": "ul.oceanwp-recent-posts > li",
+        "title_link": ".recent-posts-title a, .recent-posts-details-inner > a",
+        "date": ".recent-posts-date"
+      }
     }
   },
   "schema": [
@@ -5625,27 +5921,140 @@
         {
           "id": "l2-arts",
           "name": "藝術學院",
-          "channels": [],
+          "channels": [
+            {
+              "name": "最新消息",
+              "value": "arts_news"
+            },
+            {
+              "name": "院務公告",
+              "value": "arts_affairs"
+            },
+            {
+              "name": "榮譽事蹟",
+              "value": "arts_honor"
+            },
+            {
+              "name": "赴外交換",
+              "value": "arts_outbound"
+            },
+            {
+              "name": "藝文新訊",
+              "value": "arts_art_news"
+            },
+            {
+              "name": "交流亮點",
+              "value": "arts_exchange_highlights"
+            },
+            {
+              "name": "工坊成果",
+              "value": "arts_workshop_results"
+            },
+            {
+              "name": "競賽/實習",
+              "value": "arts_competition_internship"
+            },
+            {
+              "name": "EMI資訊",
+              "value": "arts_emi"
+            },
+            {
+              "name": "SDGs聯合國永續發展指標",
+              "value": "arts_sdgs"
+            },
+            {
+              "name": "USR大學社會責任",
+              "value": "arts_usr"
+            }
+          ],
           "subUnits": [
             {
               "id": "l3-art",
               "name": "美術學系",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "art_news"
+                },
+                {
+                  "name": "系辦公告",
+                  "value": "art_affairs"
+                },
+                {
+                  "name": "新生快訊",
+                  "value": "art_new_student"
+                },
+                {
+                  "name": "展覽演講",
+                  "value": "art_exhibition_lecture"
+                },
+                {
+                  "name": "日間課務/師培",
+                  "value": "art_course_teacher"
+                },
+                {
+                  "name": "在職專班訊息",
+                  "value": "art_in_service"
+                },
+                {
+                  "name": "榮譽榜",
+                  "value": "art_honor"
+                },
+                {
+                  "name": "比賽徵才",
+                  "value": "art_competition_recruitment"
+                },
+                {
+                  "name": "獎助學金",
+                  "value": "art_scholarship"
+                }
+              ]
             },
             {
               "id": "l3-design",
               "name": "設計學系",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "design_news"
+                }
+              ]
             },
             {
               "id": "l3-arthistory",
               "name": "藝術史研究所",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "arthistory_news"
+                },
+                {
+                  "name": "近期公告",
+                  "value": "arthistory_latest"
+                },
+                {
+                  "name": "重要資訊",
+                  "value": "arthistory_important"
+                },
+                {
+                  "name": "活動資訊",
+                  "value": "arthistory_events"
+                },
+                {
+                  "name": "活動花絮",
+                  "value": "arthistory_event_highlights"
+                }
+              ]
             },
             {
               "id": "l3-emam",
               "name": "藝術產業高階經理碩士在職專班(EMAM)",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "emam_news"
+                }
+              ]
             }
           ]
         },
