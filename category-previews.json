@@ -21468,5 +21468,78 @@
         "summary": ""
       }
     ]
+  },
+  "student_affairs_home_latest": {
+    "label": "首頁最新消息",
+    "announcements": [
+      {
+        "title": "教育部大專校院校園安全參考彙編 College Campus Safety Handbook",
+        "url": "https://counselor.sa.ntnu.edu.tw/2026/05/29/post3-2-2-3-4-2-2-2-2-2-3-3-2-2-2-3-2-3-2-2-4-3-3-2-2-2-2/",
+        "date": "2026-05-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "新生入學健康檢查注意事項",
+        "url": "https://health.sa.ntnu.edu.tw/%e6%96%b0%e7%94%9f%e5%85%a5%e5%ad%b8%e5%81%a5%e5%ba%b7%e6%aa%a2%e6%9f%a5%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a0%85/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "青(少)年照顧者照顧支持政策",
+        "url": "https://assistance.sa.ntnu.edu.tw/%e9%9d%92%e5%b0%91%e5%b9%b4%e7%85%a7%e9%a1%a7%e8%80%85%e7%85%a7%e9%a1%a7%e6%94%af%e6%8c%81/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "經濟不利學生身心門診補助",
+        "url": "https://assistance.sa.ntnu.edu.tw/ministry-edu-5/",
+        "date": "2025-07-04",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "student_affairs_announcements": {
+    "label": "訊息公告",
+    "announcements": [
+      {
+        "title": "國立臺灣師範大學學生參與學生事務研究發展獎勵計畫",
+        "url": "https://www.sa.ntnu.edu.tw/2025/08/25/incentive-program/",
+        "date": "2025-08-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "學生專案支持機制—女足案聯絡窗口",
+        "url": "https://www.sa.ntnu.edu.tw/2025/07/18/student-support-framework/",
+        "date": "2025-07-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "女足隊專案輔導計畫資源說明",
+        "url": "https://www.sa.ntnu.edu.tw/2025/07/18/counseling-project/",
+        "date": "2025-07-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "受緬甸強震影響之僑外生助學措施",
+        "url": "https://www.sa.ntnu.edu.tw/2025/03/31/student-assistance-measures/",
+        "date": "2025-03-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "學生事務處聲明",
+        "url": "https://www.sa.ntnu.edu.tw/2023/05/24/osastatement/",
+        "date": "2023-05-24",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   }
 }

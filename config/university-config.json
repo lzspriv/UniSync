@@ -171,6 +171,16 @@
       "article": "table.table2 tbody tr",
       "title_link": "a[href]",
       "date": "td:nth-of-type(1)"
+    },
+    "sa_home_latest": {
+      "article": ".ultp-block-eaca03 .ultp-block-item",
+      "title_link": ".ultp-block-title a[href]",
+      "date": ".ultp-block-date"
+    },
+    "sa_home_announcements": {
+      "article": ".ultp-block-37c113 .ultp-block-item",
+      "title_link": ".ultp-block-title a[href]",
+      "date": ".ultp-block-date"
     }
   },
   "categories": {
@@ -3845,6 +3855,18 @@
       "owner": "原住民族學生資源中心",
       "url": "https://isrc.sa.ntnu.edu.tw/category/item4/",
       "selectorPreset": "ultimate_post_grid"
+    },
+    "student_affairs_home_latest": {
+      "label": "首頁最新消息",
+      "owner": "學生事務處",
+      "url": "https://www.sa.ntnu.edu.tw/",
+      "selectorPreset": "sa_home_latest"
+    },
+    "student_affairs_announcements": {
+      "label": "訊息公告",
+      "owner": "學生事務處",
+      "url": "https://www.sa.ntnu.edu.tw/",
+      "selectorPreset": "sa_home_announcements"
     }
   },
   "schema": [
@@ -4262,6 +4284,16 @@
                   "name": "獎助學金資訊"
                 }
               ]
+            }
+          ],
+          "channels": [
+            {
+              "value": "student_affairs_home_latest",
+              "name": "首頁最新消息"
+            },
+            {
+              "value": "student_affairs_announcements",
+              "name": "訊息公告"
             }
           ]
         },
