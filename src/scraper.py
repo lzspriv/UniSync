@@ -117,6 +117,34 @@ def parse_spaced_date_link_text(text):
     return date_text, title.strip()
 
 
+def parse_mgt_card_article(article, fallback_title):
+    year_tag = article.select_one(".news-list-date .year")
+    month_tag = article.select_one(".news-list-date .month")
+    day_tag = article.select_one(".news-list-date .date")
+    title_tag = article.select_one(".news-list-text")
+
+    if year_tag and month_tag and day_tag:
+        year_match = re.search(r"(?:19|20)\d{2}", year_tag.get_text(" ", strip=True))
+        month_match = re.search(r"\d{1,2}", month_tag.get_text(" ", strip=True))
+        day_match = re.search(r"\d{1,2}", day_tag.get_text(" ", strip=True))
+        if year_match and month_match and day_match:
+            try:
+                date_text = datetime(
+                    int(year_match.group(0)),
+                    int(month_match.group(0)),
+                    int(day_match.group(0)),
+                ).strftime("%Y-%m-%d")
+            except ValueError:
+                date_text = "未知日期"
+            else:
+                title_text = normalize_whitespace(
+                    title_tag.get_text(" ", strip=True) if title_tag else fallback_title
+                )
+                return date_text, title_text
+
+    return parse_spaced_date_link_text(fallback_title)
+
+
 def parse_alumni_date(text):
     if not text:
         return "未知日期"
@@ -420,6 +448,11 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                     summary_text = title_text
                 elif scraper_config.get("parser") == "spaced_date_link":
                     date_text, title_text = parse_spaced_date_link_text(link_text)
+                    if date_text == "未知日期" or not title_text:
+                        continue
+                    summary_text = ""
+                elif scraper_config.get("parser") == "mgt_card":
+                    date_text, title_text = parse_mgt_card_article(article, link_text)
                     if date_text == "未知日期" or not title_text:
                         continue
                     summary_text = ""

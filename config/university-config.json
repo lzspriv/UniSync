@@ -4970,29 +4970,139 @@
       }
     },
     "ba_news": {
-      "label": "最新消息",
+      "label": "學系公告&活動",
       "owner": "企業管理學系",
-      "url": "https://www.ba.ntnu.edu.tw/news",
+      "url": "https://www.ba.ntnu.edu.tw/news-img",
       "selectors": {
         "article": "table tbody tr",
         "title_link": "td:nth-of-type(2) a[href]",
         "date": "td:nth-of-type(1)"
+      }
+    },
+    "ba_honor": {
+      "label": "師生榮譽榜",
+      "owner": "企業管理學系",
+      "url": "https://www.ba.ntnu.edu.tw/榮譽榜",
+      "selectors": {
+        "parser": "mgt_card",
+        "article": ".sideleft-content a[href]",
+        "title_link": "a[href]"
+      }
+    },
+    "ba_scholarship": {
+      "label": "獎學金公告",
+      "owner": "企業管理學系",
+      "url": "https://www.ba.ntnu.edu.tw/獎學金公告",
+      "selectors": {
+        "article": "table tbody tr",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "date": "td:nth-of-type(1)"
+      }
+    },
+    "ba_media": {
+      "label": "影片與文章",
+      "owner": "企業管理學系",
+      "url": "https://www.ba.ntnu.edu.tw/experience-sharing",
+      "selectors": {
+        "parser": "mgt_card",
+        "article": ".sideleft-content a[href]",
+        "title_link": "a[href]"
       }
     },
     "mba_news": {
-      "label": "最新消息",
+      "label": "系所公告",
       "owner": "管理研究所",
-      "url": "https://www.mba.ntnu.edu.tw/news",
+      "url": "https://www.mba.ntnu.edu.tw/news-2",
       "selectors": {
         "article": "table tbody tr",
         "title_link": "td:nth-of-type(2) a[href]",
         "date": "td:nth-of-type(1)"
       }
     },
+    "mba_scholarship": {
+      "label": "獎學金",
+      "owner": "管理研究所",
+      "url": "https://www.mba.ntnu.edu.tw/scholarship",
+      "selectors": {
+        "parser": "mgt_card",
+        "article": ".sideleft-content a[href]",
+        "title_link": "a[href]"
+      }
+    },
+    "mba_honor": {
+      "label": "榮譽榜",
+      "owner": "管理研究所",
+      "url": "https://www.mba.ntnu.edu.tw/榮譽榜-2",
+      "selectors": {
+        "article": "table tbody tr",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "date": "td:nth-of-type(1)"
+      }
+    },
+    "mba_seminar": {
+      "label": "專題演講",
+      "owner": "管理研究所",
+      "url": "https://www.mba.ntnu.edu.tw/news-img",
+      "selectors": {
+        "parser": "mgt_card",
+        "article": ".sideleft-content a[href]",
+        "title_link": "a[href]"
+      }
+    },
+    "mba_internship": {
+      "label": "學長姐實習經驗",
+      "owner": "管理研究所",
+      "url": "https://www.mba.ntnu.edu.tw/學長姐實習經驗",
+      "selectors": {
+        "parser": "mgt_card",
+        "article": ".sideleft-content a[href]",
+        "title_link": "a[href]"
+      }
+    },
     "gbs_news": {
-      "label": "最新消息",
+      "label": "系所公告",
       "owner": "全球經營與策略研究所",
-      "url": "https://www.gbs.ntnu.edu.tw/news",
+      "url": "https://www.gbs.ntnu.edu.tw/news-2",
+      "selectors": {
+        "article": "table tbody tr",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "date": "td:nth-of-type(1)"
+      }
+    },
+    "gbs_events": {
+      "label": "活動與演講",
+      "owner": "全球經營與策略研究所",
+      "url": "https://www.gbs.ntnu.edu.tw/news-img",
+      "selectors": {
+        "parser": "mgt_card",
+        "article": ".sideleft-content a[href]",
+        "title_link": "a[href]"
+      }
+    },
+    "gbs_recruitment": {
+      "label": "徵才資訊",
+      "owner": "全球經營與策略研究所",
+      "url": "https://www.gbs.ntnu.edu.tw/news-recruit",
+      "selectors": {
+        "parser": "mgt_card",
+        "article": ".sideleft-content a[href]",
+        "title_link": "a[href]"
+      }
+    },
+    "gbs_honor": {
+      "label": "榮譽榜",
+      "owner": "全球經營與策略研究所",
+      "url": "https://www.gbs.ntnu.edu.tw/news-award",
+      "selectors": {
+        "parser": "mgt_card",
+        "article": ".sideleft-content a[href]",
+        "title_link": "a[href]"
+      }
+    },
+    "gbs_resources": {
+      "label": "學習資源",
+      "owner": "全球經營與策略研究所",
+      "url": "https://www.gbs.ntnu.edu.tw/學習影音",
       "selectors": {
         "article": "table tbody tr",
         "title_link": "td:nth-of-type(2) a[href]",
@@ -8051,8 +8161,20 @@
               "name": "企業管理學系",
               "channels": [
                 {
-                  "name": "最新消息",
+                  "name": "學系公告&活動",
                   "value": "ba_news"
+                },
+                {
+                  "name": "師生榮譽榜",
+                  "value": "ba_honor"
+                },
+                {
+                  "name": "獎學金公告",
+                  "value": "ba_scholarship"
+                },
+                {
+                  "name": "影片與文章",
+                  "value": "ba_media"
                 }
               ]
             },
@@ -8061,8 +8183,24 @@
               "name": "管理研究所",
               "channels": [
                 {
-                  "name": "最新消息",
+                  "name": "系所公告",
                   "value": "mba_news"
+                },
+                {
+                  "name": "獎學金",
+                  "value": "mba_scholarship"
+                },
+                {
+                  "name": "榮譽榜",
+                  "value": "mba_honor"
+                },
+                {
+                  "name": "專題演講",
+                  "value": "mba_seminar"
+                },
+                {
+                  "name": "學長姐實習經驗",
+                  "value": "mba_internship"
                 }
               ]
             },
@@ -8071,8 +8209,24 @@
               "name": "全球經營與策略研究所",
               "channels": [
                 {
-                  "name": "最新消息",
+                  "name": "系所公告",
                   "value": "gbs_news"
+                },
+                {
+                  "name": "活動與演講",
+                  "value": "gbs_events"
+                },
+                {
+                  "name": "徵才資訊",
+                  "value": "gbs_recruitment"
+                },
+                {
+                  "name": "榮譽榜",
+                  "value": "gbs_honor"
+                },
+                {
+                  "name": "學習資源",
+                  "value": "gbs_resources"
                 }
               ]
             },
