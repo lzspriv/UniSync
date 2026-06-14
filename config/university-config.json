@@ -902,8 +902,8 @@
       }
     },
     "coe_news": {
-      "label": "????",
-      "owner": "????",
+      "label": "最新消息",
+      "owner": "教育學院",
       "url": "https://www.coe.ntnu.edu.tw/index.php/news/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -913,8 +913,8 @@
       }
     },
     "coe_affairs": {
-      "label": "????",
-      "owner": "????",
+      "label": "院務公告",
+      "owner": "教育學院",
       "url": "https://www.coe.ntnu.edu.tw/index.php/category/uncategorized/1/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -924,8 +924,8 @@
       }
     },
     "coe_events": {
-      "label": "????",
-      "owner": "????",
+      "label": "活動資訊",
+      "owner": "教育學院",
       "url": "https://www.coe.ntnu.edu.tw/index.php/category/uncategorized/2/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -935,8 +935,8 @@
       }
     },
     "coe_honor": {
-      "label": "????",
-      "owner": "????",
+      "label": "師生榮耀",
+      "owner": "教育學院",
       "url": "https://www.coe.ntnu.edu.tw/index.php/category/uncategorized/3/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -946,8 +946,8 @@
       }
     },
     "coe_personnel": {
-      "label": "????",
-      "owner": "????",
+      "label": "人事動態",
+      "owner": "教育學院",
       "url": "https://www.coe.ntnu.edu.tw/index.php/category/uncategorized/4/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -957,8 +957,8 @@
       }
     },
     "coe_dean_selection": {
-      "label": "????",
-      "owner": "????",
+      "label": "院長遴選",
+      "owner": "教育學院",
       "url": "https://www.coe.ntnu.edu.tw/index.php/category/uncategorized/5/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -968,8 +968,8 @@
       }
     },
     "ed_news": {
-      "label": "????",
-      "owner": "????",
+      "label": "最新消息",
+      "owner": "教育學系",
       "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2",
       "selectors": {
         "parser": "row_date_link",
@@ -980,8 +980,8 @@
       }
     },
     "epc_news": {
-      "label": "????",
-      "owner": "?????????",
+      "label": "最新消息",
+      "owner": "教育心理與輔導學系",
       "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=",
       "selectors": {
         "parser": "row_date_link",
@@ -991,8 +991,8 @@
       }
     },
     "epc_academic_events": {
-      "label": "????",
-      "owner": "?????????",
+      "label": "學術活動",
+      "owner": "教育心理與輔導學系",
       "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=",
       "selectors": {
         "parser": "row_date_link",
@@ -1002,8 +1002,8 @@
       }
     },
     "epc_internship": {
-      "label": "??????",
-      "owner": "?????????",
+      "label": "徵才實習訊息",
+      "owner": "教育心理與輔導學系",
       "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=",
       "selectors": {
         "parser": "row_date_link",
@@ -1013,8 +1013,8 @@
       }
     },
     "epc_incentive": {
-      "label": "????",
-      "owner": "?????????",
+      "label": "獎勵補助",
+      "owner": "教育心理與輔導學系",
       "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Incentive/News.aspx?id=PrPAeVbJgjo=",
       "selectors": {
         "parser": "row_date_link",
@@ -1024,8 +1024,8 @@
       }
     },
     "epc_honor": {
-      "label": "????",
-      "owner": "?????????",
+      "label": "傑出表現",
+      "owner": "教育心理與輔導學系",
       "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Honor_Roll/News.aspx?id=RbtCbgqudXM=",
       "selectors": {
         "parser": "row_date_link",
@@ -1035,8 +1035,8 @@
       }
     },
     "ace_news": {
-      "label": "????",
-      "owner": "??????",
+      "label": "最新消息",
+      "owner": "社會教育學系",
       "url": "https://www.ace.ntnu.edu.tw/index.php/news/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1046,8 +1046,8 @@
       }
     },
     "ace_dept": {
-      "label": "????",
-      "owner": "??????",
+      "label": "系所公告",
+      "owner": "社會教育學系",
       "url": "https://www.ace.ntnu.edu.tw/index.php/category/1/2/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1057,8 +1057,8 @@
       }
     },
     "ace_admission": {
-      "label": "????",
-      "owner": "??????",
+      "label": "招生公告",
+      "owner": "社會教育學系",
       "url": "https://www.ace.ntnu.edu.tw/index.php/category/1/3/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1068,8 +1068,8 @@
       }
     },
     "ace_speeches": {
-      "label": "????",
-      "owner": "??????",
+      "label": "演講公告",
+      "owner": "社會教育學系",
       "url": "https://www.ace.ntnu.edu.tw/index.php/category/1/4/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1079,8 +1079,8 @@
       }
     },
     "ace_internship": {
-      "label": "????",
-      "owner": "??????",
+      "label": "就業實習",
+      "owner": "社會教育學系",
       "url": "https://www.ace.ntnu.edu.tw/index.php/category/1/5/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1090,8 +1090,8 @@
       }
     },
     "ace_honor": {
-      "label": "???",
-      "owner": "??????",
+      "label": "榮譽榜",
+      "owner": "社會教育學系",
       "url": "https://www.ace.ntnu.edu.tw/index.php/category/1/6/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1101,8 +1101,8 @@
       }
     },
     "ace_alumni": {
-      "label": "????",
-      "owner": "??????",
+      "label": "系友專區",
+      "owner": "社會教育學系",
       "url": "https://www.ace.ntnu.edu.tw/index.php/category/1/7/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1112,8 +1112,8 @@
       }
     },
     "he_news": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "最新消息",
+      "owner": "健康促進與衛生教育學系",
       "url": "https://www.he.ntnu.edu.tw/index.php/category/uncategorized/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1123,8 +1123,8 @@
       }
     },
     "he_dept": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "系所公告",
+      "owner": "健康促進與衛生教育學系",
       "url": "https://www.he.ntnu.edu.tw/index.php/category/1/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1134,8 +1134,8 @@
       }
     },
     "he_speeches": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "演講公告",
+      "owner": "健康促進與衛生教育學系",
       "url": "https://www.he.ntnu.edu.tw/index.php/category/5/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1145,8 +1145,8 @@
       }
     },
     "he_recruitment": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "徵才訊息",
+      "owner": "健康促進與衛生教育學系",
       "url": "https://www.he.ntnu.edu.tw/index.php/category/8/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1156,8 +1156,8 @@
       }
     },
     "cfs_news": {
-      "label": "????",
-      "owner": "?????????",
+      "label": "最新消息",
+      "owner": "幼兒與家庭科學學系",
       "url": "https://www.cfs.ntnu.edu.tw/index.php/news-2/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1167,8 +1167,8 @@
       }
     },
     "cfs_events": {
-      "label": "????",
-      "owner": "?????????",
+      "label": "活動訊息",
+      "owner": "幼兒與家庭科學學系",
       "url": "https://www.cfs.ntnu.edu.tw/index.php/category/uncategorized/3/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1178,8 +1178,8 @@
       }
     },
     "cfs_recruitment": {
-      "label": "????",
-      "owner": "?????????",
+      "label": "徵才訊息",
+      "owner": "幼兒與家庭科學學系",
       "url": "https://www.cfs.ntnu.edu.tw/index.php/category/uncategorized/8/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1189,8 +1189,8 @@
       }
     },
     "cfs_dept": {
-      "label": "????",
-      "owner": "?????????",
+      "label": "系所公告",
+      "owner": "幼兒與家庭科學學系",
       "url": "https://www.cfs.ntnu.edu.tw/index.php/category/uncategorized/1/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1200,8 +1200,8 @@
       }
     },
     "cfs_faculty_recruitment": {
-      "label": "????",
-      "owner": "?????????",
+      "label": "徵聘師資",
+      "owner": "幼兒與家庭科學學系",
       "url": "https://www.cfs.ntnu.edu.tw/index.php/category/uncategorized/10/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1211,8 +1211,8 @@
       }
     },
     "cfs_scholarship": {
-      "label": "?????",
-      "owner": "?????????",
+      "label": "獎學金申請",
+      "owner": "幼兒與家庭科學學系",
       "url": "https://www.cfs.ntnu.edu.tw/index.php/category/uncategorized/6/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1222,8 +1222,8 @@
       }
     },
     "cve_all": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "所有消息",
+      "owner": "公民教育與活動領導學系",
       "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2",
       "selectors": {
         "parser": "row_date_link",
@@ -1233,8 +1233,8 @@
       }
     },
     "cve_dept": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "系所公告",
+      "owner": "公民教育與活動領導學系",
       "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E7%B3%BB%E6%89%80%E5%85%AC%E5%91%8A",
       "selectors": {
         "parser": "row_date_link",
@@ -1244,8 +1244,8 @@
       }
     },
     "cve_admission": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "招生公告",
+      "owner": "公民教育與活動領導學系",
       "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E6%8B%9B%E7%94%9F%E5%85%AC%E5%91%8A",
       "selectors": {
         "parser": "row_date_link",
@@ -1255,8 +1255,8 @@
       }
     },
     "cve_speeches": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "演講公告",
+      "owner": "公民教育與活動領導學系",
       "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E6%BC%94%E8%AC%9B%E5%85%AC%E5%91%8A",
       "selectors": {
         "parser": "row_date_link",
@@ -1266,8 +1266,8 @@
       }
     },
     "cve_recruitment": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "徵聘訊息",
+      "owner": "公民教育與活動領導學系",
       "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E5%BE%B5%E8%81%98%E8%A8%8A%E6%81%AF",
       "selectors": {
         "parser": "row_date_link",
@@ -1277,8 +1277,8 @@
       }
     },
     "cve_competition": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "競賽活動",
+      "owner": "公民教育與活動領導學系",
       "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E7%AB%B6%E8%B3%BD%E6%B4%BB%E5%8B%95",
       "selectors": {
         "parser": "row_date_link",
@@ -1288,8 +1288,8 @@
       }
     },
     "cve_grants": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "獎勵補助",
+      "owner": "公民教育與活動領導學系",
       "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E7%8D%8E%E5%8B%B5%E8%A3%9C%E5%8A%A9",
       "selectors": {
         "parser": "row_date_link",
@@ -1299,8 +1299,8 @@
       }
     },
     "cve_honor": {
-      "label": "???",
-      "owner": "???????????",
+      "label": "榮譽榜",
+      "owner": "公民教育與活動領導學系",
       "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E6%A6%AE%E8%AD%BD%E6%A6%9C",
       "selectors": {
         "parser": "row_date_link",
@@ -1310,8 +1310,8 @@
       }
     },
     "spe_news": {
-      "label": "????",
-      "owner": "??????",
+      "label": "最新消息",
+      "owner": "特殊教育學系",
       "url": "https://www.spe.ntnu.edu.tw/index.php/news/",
       "selectors": {
         "parser": "wordpress_rest",
@@ -1320,8 +1320,8 @@
       }
     },
     "spe_dept": {
-      "label": "????",
-      "owner": "??????",
+      "label": "系所公告",
+      "owner": "特殊教育學系",
       "url": "https://www.spe.ntnu.edu.tw/index.php/departmentannouncement/",
       "selectors": {
         "parser": "wordpress_rest",
@@ -1330,8 +1330,8 @@
       }
     },
     "spe_oral_defense": {
-      "label": "?????",
-      "owner": "??????",
+      "label": "研究生口試",
+      "owner": "特殊教育學系",
       "url": "https://www.spe.ntnu.edu.tw/index.php/oraldefense/",
       "selectors": {
         "parser": "wordpress_rest",
@@ -1340,8 +1340,8 @@
       }
     },
     "spe_award": {
-      "label": "????",
-      "owner": "??????",
+      "label": "榮譽獎項",
+      "owner": "特殊教育學系",
       "url": "https://www.spe.ntnu.edu.tw/index.php/award/",
       "selectors": {
         "parser": "wordpress_rest",
@@ -1350,8 +1350,8 @@
       }
     },
     "spe_events": {
-      "label": "????",
-      "owner": "??????",
+      "label": "活動演講",
+      "owner": "特殊教育學系",
       "url": "https://www.spe.ntnu.edu.tw/index.php/eventandspeech/",
       "selectors": {
         "parser": "wordpress_rest",
@@ -1360,8 +1360,8 @@
       }
     },
     "spe_admission": {
-      "label": "????",
-      "owner": "??????",
+      "label": "招生訊息",
+      "owner": "特殊教育學系",
       "url": "https://www.spe.ntnu.edu.tw/index.php/admissions-information-2/",
       "selectors": {
         "parser": "wordpress_rest",
@@ -1370,8 +1370,8 @@
       }
     },
     "spe_other": {
-      "label": "????",
-      "owner": "??????",
+      "label": "其他訊息",
+      "owner": "特殊教育學系",
       "url": "https://www.spe.ntnu.edu.tw/index.php/othernews/",
       "selectors": {
         "parser": "wordpress_rest",
@@ -1380,8 +1380,8 @@
       }
     },
     "tpicoe_news": {
-      "label": "????",
-      "owner": "???????",
+      "label": "最新消息",
+      "owner": "教育學院學士班",
       "url": "https://www.tpicoe.ntnu.edu.tw/news/103",
       "selectors": {
         "parser": "row_date_link",
@@ -1391,8 +1391,8 @@
       }
     },
     "girg_news": {
-      "label": "????",
-      "owner": "????????????",
+      "label": "最新消息",
+      "owner": "復健諮商與高齡福祉研究所",
       "url": "https://www.girg.ntnu.edu.tw/index.php/allnews/",
       "selectors": {
         "parser": "wordpress_rest",
@@ -1401,8 +1401,8 @@
       }
     },
     "girg_dept": {
-      "label": "????",
-      "owner": "????????????",
+      "label": "系所公告",
+      "owner": "復健諮商與高齡福祉研究所",
       "url": "https://www.girg.ntnu.edu.tw/index.php/departmentannouncement/",
       "selectors": {
         "parser": "wordpress_rest",
@@ -1411,8 +1411,8 @@
       }
     },
     "girg_oral_defense": {
-      "label": "?????",
-      "owner": "????????????",
+      "label": "研究生口試",
+      "owner": "復健諮商與高齡福祉研究所",
       "url": "https://www.girg.ntnu.edu.tw/index.php/oraldefense/",
       "selectors": {
         "parser": "wordpress_rest",
@@ -1421,8 +1421,8 @@
       }
     },
     "girg_admission": {
-      "label": "????",
-      "owner": "????????????",
+      "label": "招生訊息",
+      "owner": "復健諮商與高齡福祉研究所",
       "url": "https://www.girg.ntnu.edu.tw/index.php/admission-information/",
       "selectors": {
         "parser": "wordpress_rest",
@@ -1431,8 +1431,8 @@
       }
     },
     "girg_award": {
-      "label": "????",
-      "owner": "????????????",
+      "label": "榮譽獎項",
+      "owner": "復健諮商與高齡福祉研究所",
       "url": "https://www.girg.ntnu.edu.tw/index.php/award/",
       "selectors": {
         "parser": "wordpress_rest",
@@ -1441,8 +1441,8 @@
       }
     },
     "girg_events": {
-      "label": "????",
-      "owner": "????????????",
+      "label": "活動演講",
+      "owner": "復健諮商與高齡福祉研究所",
       "url": "https://www.girg.ntnu.edu.tw/index.php/eventandspeech/",
       "selectors": {
         "parser": "wordpress_rest",
@@ -1451,8 +1451,8 @@
       }
     },
     "girg_other": {
-      "label": "????",
-      "owner": "????????????",
+      "label": "其他訊息",
+      "owner": "復健諮商與高齡福祉研究所",
       "url": "https://www.girg.ntnu.edu.tw/index.php/othernews/",
       "selectors": {
         "parser": "wordpress_rest",
@@ -1461,8 +1461,8 @@
       }
     },
     "epa_news": {
-      "label": "????",
-      "owner": "??????????",
+      "label": "最新消息",
+      "owner": "教育政策與行政研究所",
       "url": "https://epa.ed.ntnu.edu.tw/zh_tw/news",
       "selectors": {
         "parser": "row_date_link",
@@ -1473,8 +1473,8 @@
       }
     },
     "epa_flash": {
-      "label": "????",
-      "owner": "??????????",
+      "label": "訊息快報",
+      "owner": "教育政策與行政研究所",
       "url": "https://epa.ed.ntnu.edu.tw/zh_tw/more_announcement?category%5B%5D=all&tags%5B%5D=all",
       "selectors": {
         "parser": "row_date_link",
@@ -1485,8 +1485,8 @@
       }
     },
     "ci_news": {
-      "label": "????",
-      "owner": "????????",
+      "label": "最新消息",
+      "owner": "課程與教學研究所",
       "url": "https://ci.ed.ntnu.edu.tw/zh_tw/news201",
       "selectors": {
         "parser": "row_date_link",
@@ -1497,8 +1497,8 @@
       }
     },
     "cd_news": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "最新消息",
+      "owner": "創造力發展碩士在職專班",
       "url": "https://www.cd.ntnu.edu.tw/index.php/category/uncategorized/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1508,8 +1508,8 @@
       }
     },
     "cd_dept": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "系所公告",
+      "owner": "創造力發展碩士在職專班",
       "url": "https://www.cd.ntnu.edu.tw/index.php/category/uncategorized/1/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1519,8 +1519,8 @@
       }
     },
     "cd_admission": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "招生公告",
+      "owner": "創造力發展碩士在職專班",
       "url": "https://www.cd.ntnu.edu.tw/index.php/category/uncategorized/2/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1530,8 +1530,8 @@
       }
     },
     "cd_speeches": {
-      "label": "????",
-      "owner": "???????????",
+      "label": "演講公告",
+      "owner": "創造力發展碩士在職專班",
       "url": "https://www.cd.ntnu.edu.tw/index.php/category/uncategorized/5/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1541,8 +1541,8 @@
       }
     },
     "cappr_news": {
-      "label": "????",
-      "owner": "????????????",
+      "label": "最新消息",
+      "owner": "成癮防制碩士在職學位學程",
       "url": "https://www.cappr.ntnu.edu.tw/index.php/category/uncategorized/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1552,8 +1552,8 @@
       }
     },
     "cappr_dept": {
-      "label": "????",
-      "owner": "????????????",
+      "label": "系所公告",
+      "owner": "成癮防制碩士在職學位學程",
       "url": "https://www.cappr.ntnu.edu.tw/index.php/category/uncategorized/1/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1563,8 +1563,8 @@
       }
     },
     "cappr_admission": {
-      "label": "????",
-      "owner": "????????????",
+      "label": "招生公告",
+      "owner": "成癮防制碩士在職學位學程",
       "url": "https://www.cappr.ntnu.edu.tw/index.php/category/uncategorized/2/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1574,8 +1574,8 @@
       }
     },
     "cappr_speeches": {
-      "label": "????",
-      "owner": "????????????",
+      "label": "演講公告",
+      "owner": "成癮防制碩士在職學位學程",
       "url": "https://www.cappr.ntnu.edu.tw/index.php/category/uncategorized/3/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1585,8 +1585,8 @@
       }
     },
     "sli_news": {
-      "label": "????",
-      "owner": "????????",
+      "label": "最新消息",
+      "owner": "學習資訊專業學院",
       "url": "https://www.sli.ntnu.edu.tw/index.php/category/latestnews/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1596,8 +1596,8 @@
       }
     },
     "sli_international": {
-      "label": "????",
-      "owner": "????????",
+      "label": "國際交流",
+      "owner": "學習資訊專業學院",
       "url": "https://www.sli.ntnu.edu.tw/index.php/category/latestnews/international-exchange/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1607,8 +1607,8 @@
       }
     },
     "sli_honor": {
-      "label": "????",
-      "owner": "????????",
+      "label": "師生榮耀",
+      "owner": "學習資訊專業學院",
       "url": "https://www.sli.ntnu.edu.tw/index.php/category/latestnews/honor-roll/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1618,8 +1618,8 @@
       }
     },
     "upls_news": {
-      "label": "????",
-      "owner": "??????????",
+      "label": "最新消息",
+      "owner": "學習科學學士學位學程",
       "url": "https://www.upls.ntnu.edu.tw/?cat=1",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1629,8 +1629,8 @@
       }
     },
     "upls_dept": {
-      "label": "????",
-      "owner": "??????????",
+      "label": "系所公告",
+      "owner": "學習科學學士學位學程",
       "url": "https://www.upls.ntnu.edu.tw/?cat=18",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1640,8 +1640,8 @@
       }
     },
     "upls_admission": {
-      "label": "????",
-      "owner": "??????????",
+      "label": "招生公告",
+      "owner": "學習科學學士學位學程",
       "url": "https://www.upls.ntnu.edu.tw/?cat=23",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1651,8 +1651,8 @@
       }
     },
     "upls_speeches": {
-      "label": "????",
-      "owner": "??????????",
+      "label": "演講公告",
+      "owner": "學習科學學士學位學程",
       "url": "https://www.upls.ntnu.edu.tw/?cat=19",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1662,8 +1662,8 @@
       }
     },
     "upls_competition": {
-      "label": "??/??",
-      "owner": "??????????",
+      "label": "競賽/活動",
+      "owner": "學習科學學士學位學程",
       "url": "https://www.upls.ntnu.edu.tw/?cat=88",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1673,8 +1673,8 @@
       }
     },
     "upls_recruitment": {
-      "label": "????",
-      "owner": "??????????",
+      "label": "徵才訊息",
+      "owner": "學習科學學士學位學程",
       "url": "https://www.upls.ntnu.edu.tw/?cat=22",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1684,8 +1684,8 @@
       }
     },
     "upls_scholarship": {
-      "label": "???",
-      "owner": "??????????",
+      "label": "獎學金",
+      "owner": "學習科學學士學位學程",
       "url": "https://www.upls.ntnu.edu.tw/?cat=86",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1695,8 +1695,8 @@
       }
     },
     "upls_honor": {
-      "label": "???",
-      "owner": "??????????",
+      "label": "榮譽榜",
+      "owner": "學習科學學士學位學程",
       "url": "https://www.upls.ntnu.edu.tw/?cat=82",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1706,8 +1706,8 @@
       }
     },
     "upls_other": {
-      "label": "??",
-      "owner": "??????????",
+      "label": "其他",
+      "owner": "學習科學學士學位學程",
       "url": "https://www.upls.ntnu.edu.tw/?cat=112",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1717,8 +1717,8 @@
       }
     },
     "glis_news": {
-      "label": "????",
-      "owner": "????????",
+      "label": "最新消息",
+      "owner": "圖書資訊學研究所",
       "url": "https://www.glis.ntnu.edu.tw/index.php/news/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1728,8 +1728,8 @@
       }
     },
     "glis_academic_affairs": {
-      "label": "????",
-      "owner": "????????",
+      "label": "教務訊息",
+      "owner": "圖書資訊學研究所",
       "url": "https://www.glis.ntnu.edu.tw/index.php/category/uncategorized/1/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1739,8 +1739,8 @@
       }
     },
     "glis_admission": {
-      "label": "????",
-      "owner": "????????",
+      "label": "招生訊息",
+      "owner": "圖書資訊學研究所",
       "url": "https://www.glis.ntnu.edu.tw/index.php/category/uncategorized/2/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1750,8 +1750,8 @@
       }
     },
     "glis_academic": {
-      "label": "????",
-      "owner": "????????",
+      "label": "學術訊息",
+      "owner": "圖書資訊學研究所",
       "url": "https://www.glis.ntnu.edu.tw/index.php/category/uncategorized/3/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1761,8 +1761,8 @@
       }
     },
     "glis_student_affairs": {
-      "label": "????",
-      "owner": "????????",
+      "label": "學務訊息",
+      "owner": "圖書資訊學研究所",
       "url": "https://www.glis.ntnu.edu.tw/index.php/category/uncategorized/4/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1772,8 +1772,8 @@
       }
     },
     "glis_honor": {
-      "label": "???",
-      "owner": "????????",
+      "label": "榮譽榜",
+      "owner": "圖書資訊學研究所",
       "url": "https://www.glis.ntnu.edu.tw/index.php/category/uncategorized/5/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1783,8 +1783,8 @@
       }
     },
     "glis_recruitment": {
-      "label": "????",
-      "owner": "????????",
+      "label": "徵才資訊",
+      "owner": "圖書資訊學研究所",
       "url": "https://www.glis.ntnu.edu.tw/index.php/category/uncategorized/6/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1794,8 +1794,8 @@
       }
     },
     "glis_other": {
-      "label": "????",
-      "owner": "????????",
+      "label": "其他訊息",
+      "owner": "圖書資訊學研究所",
       "url": "https://www.glis.ntnu.edu.tw/index.php/category/uncategorized/7/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1805,8 +1805,8 @@
       }
     },
     "ice_news": {
-      "label": "????",
-      "owner": "???????",
+      "label": "最新消息",
+      "owner": "資訊教育研究所",
       "url": "https://www.ice.ntnu.edu.tw/index.php/category/latestnews/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1816,8 +1816,8 @@
       }
     },
     "ice_affairs": {
-      "label": "????",
-      "owner": "???????",
+      "label": "所務公告",
+      "owner": "資訊教育研究所",
       "url": "https://www.ice.ntnu.edu.tw/index.php/category/latestnews/3/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1827,8 +1827,8 @@
       }
     },
     "ice_speeches": {
-      "label": "????",
-      "owner": "???????",
+      "label": "專題演講",
+      "owner": "資訊教育研究所",
       "url": "https://www.ice.ntnu.edu.tw/index.php/category/latestnews/2/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1838,8 +1838,8 @@
       }
     },
     "ice_recruitment": {
-      "label": "????",
-      "owner": "???????",
+      "label": "徵才訊息",
+      "owner": "資訊教育研究所",
       "url": "https://www.ice.ntnu.edu.tw/index.php/category/latestnews/4/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1849,8 +1849,8 @@
       }
     },
     "ice_other": {
-      "label": "????",
-      "owner": "???????",
+      "label": "其他訊息",
+      "owner": "資訊教育研究所",
       "url": "https://www.ice.ntnu.edu.tw/index.php/category/latestnews/5/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -1860,8 +1860,8 @@
       }
     },
     "ice_calendar": {
-      "label": "???",
-      "owner": "???????",
+      "label": "行事曆",
+      "owner": "資訊教育研究所",
       "url": "https://www.ice.ntnu.edu.tw/index.php/category/calendar/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
@@ -2570,27 +2570,27 @@
           "name": "教育學院",
           "channels": [
             {
-              "name": "????",
+              "name": "最新消息",
               "value": "coe_news"
             },
             {
-              "name": "????",
+              "name": "院務公告",
               "value": "coe_affairs"
             },
             {
-              "name": "????",
+              "name": "活動資訊",
               "value": "coe_events"
             },
             {
-              "name": "????",
+              "name": "師生榮耀",
               "value": "coe_honor"
             },
             {
-              "name": "????",
+              "name": "人事動態",
               "value": "coe_personnel"
             },
             {
-              "name": "????",
+              "name": "院長遴選",
               "value": "coe_dean_selection"
             }
           ],
@@ -2600,7 +2600,7 @@
               "name": "教育學系",
               "channels": [
                 {
-                  "name": "????",
+                  "name": "最新消息",
                   "value": "ed_news"
                 }
               ]
@@ -2610,23 +2610,23 @@
               "name": "教育心理與輔導學系",
               "channels": [
                 {
-                  "name": "????",
+                  "name": "最新消息",
                   "value": "epc_news"
                 },
                 {
-                  "name": "????",
+                  "name": "學術活動",
                   "value": "epc_academic_events"
                 },
                 {
-                  "name": "??????",
+                  "name": "徵才實習訊息",
                   "value": "epc_internship"
                 },
                 {
-                  "name": "????",
+                  "name": "獎勵補助",
                   "value": "epc_incentive"
                 },
                 {
-                  "name": "????",
+                  "name": "傑出表現",
                   "value": "epc_honor"
                 }
               ]
@@ -2636,31 +2636,31 @@
               "name": "社會教育學系",
               "channels": [
                 {
-                  "name": "????",
+                  "name": "最新消息",
                   "value": "ace_news"
                 },
                 {
-                  "name": "????",
+                  "name": "系所公告",
                   "value": "ace_dept"
                 },
                 {
-                  "name": "????",
+                  "name": "招生公告",
                   "value": "ace_admission"
                 },
                 {
-                  "name": "????",
+                  "name": "演講公告",
                   "value": "ace_speeches"
                 },
                 {
-                  "name": "????",
+                  "name": "就業實習",
                   "value": "ace_internship"
                 },
                 {
-                  "name": "???",
+                  "name": "榮譽榜",
                   "value": "ace_honor"
                 },
                 {
-                  "name": "????",
+                  "name": "系友專區",
                   "value": "ace_alumni"
                 }
               ]
@@ -2670,19 +2670,19 @@
               "name": "健康促進與衛生教育學系",
               "channels": [
                 {
-                  "name": "????",
+                  "name": "最新消息",
                   "value": "he_news"
                 },
                 {
-                  "name": "????",
+                  "name": "系所公告",
                   "value": "he_dept"
                 },
                 {
-                  "name": "????",
+                  "name": "演講公告",
                   "value": "he_speeches"
                 },
                 {
-                  "name": "????",
+                  "name": "徵才訊息",
                   "value": "he_recruitment"
                 }
               ]
@@ -2692,27 +2692,27 @@
               "name": "幼兒與家庭科學學系",
               "channels": [
                 {
-                  "name": "????",
+                  "name": "最新消息",
                   "value": "cfs_news"
                 },
                 {
-                  "name": "????",
+                  "name": "活動訊息",
                   "value": "cfs_events"
                 },
                 {
-                  "name": "????",
+                  "name": "徵才訊息",
                   "value": "cfs_recruitment"
                 },
                 {
-                  "name": "????",
+                  "name": "系所公告",
                   "value": "cfs_dept"
                 },
                 {
-                  "name": "????",
+                  "name": "徵聘師資",
                   "value": "cfs_faculty_recruitment"
                 },
                 {
-                  "name": "?????",
+                  "name": "獎學金申請",
                   "value": "cfs_scholarship"
                 }
               ]
@@ -2722,35 +2722,35 @@
               "name": "公民教育與活動領導學系",
               "channels": [
                 {
-                  "name": "????",
+                  "name": "所有消息",
                   "value": "cve_all"
                 },
                 {
-                  "name": "????",
+                  "name": "系所公告",
                   "value": "cve_dept"
                 },
                 {
-                  "name": "????",
+                  "name": "招生公告",
                   "value": "cve_admission"
                 },
                 {
-                  "name": "????",
+                  "name": "演講公告",
                   "value": "cve_speeches"
                 },
                 {
-                  "name": "????",
+                  "name": "徵聘訊息",
                   "value": "cve_recruitment"
                 },
                 {
-                  "name": "????",
+                  "name": "競賽活動",
                   "value": "cve_competition"
                 },
                 {
-                  "name": "????",
+                  "name": "獎勵補助",
                   "value": "cve_grants"
                 },
                 {
-                  "name": "???",
+                  "name": "榮譽榜",
                   "value": "cve_honor"
                 }
               ]
@@ -2760,31 +2760,31 @@
               "name": "特殊教育學系",
               "channels": [
                 {
-                  "name": "????",
+                  "name": "最新消息",
                   "value": "spe_news"
                 },
                 {
-                  "name": "????",
+                  "name": "系所公告",
                   "value": "spe_dept"
                 },
                 {
-                  "name": "?????",
+                  "name": "研究生口試",
                   "value": "spe_oral_defense"
                 },
                 {
-                  "name": "????",
+                  "name": "榮譽獎項",
                   "value": "spe_award"
                 },
                 {
-                  "name": "????",
+                  "name": "活動演講",
                   "value": "spe_events"
                 },
                 {
-                  "name": "????",
+                  "name": "招生訊息",
                   "value": "spe_admission"
                 },
                 {
-                  "name": "????",
+                  "name": "其他訊息",
                   "value": "spe_other"
                 }
               ]
@@ -2794,7 +2794,7 @@
               "name": "教育學院學士班",
               "channels": [
                 {
-                  "name": "????",
+                  "name": "最新消息",
                   "value": "tpicoe_news"
                 }
               ]
@@ -2804,31 +2804,31 @@
               "name": "復健諮商與高齡福祉研究所",
               "channels": [
                 {
-                  "name": "????",
+                  "name": "最新消息",
                   "value": "girg_news"
                 },
                 {
-                  "name": "????",
+                  "name": "系所公告",
                   "value": "girg_dept"
                 },
                 {
-                  "name": "?????",
+                  "name": "研究生口試",
                   "value": "girg_oral_defense"
                 },
                 {
-                  "name": "????",
+                  "name": "招生訊息",
                   "value": "girg_admission"
                 },
                 {
-                  "name": "????",
+                  "name": "榮譽獎項",
                   "value": "girg_award"
                 },
                 {
-                  "name": "????",
+                  "name": "活動演講",
                   "value": "girg_events"
                 },
                 {
-                  "name": "????",
+                  "name": "其他訊息",
                   "value": "girg_other"
                 }
               ]
@@ -2838,11 +2838,11 @@
               "name": "教育政策與行政研究所",
               "channels": [
                 {
-                  "name": "????",
+                  "name": "最新消息",
                   "value": "epa_news"
                 },
                 {
-                  "name": "????",
+                  "name": "訊息快報",
                   "value": "epa_flash"
                 }
               ]
@@ -2852,7 +2852,7 @@
               "name": "課程與教學研究所",
               "channels": [
                 {
-                  "name": "????",
+                  "name": "最新消息",
                   "value": "ci_news"
                 }
               ]
@@ -2862,19 +2862,19 @@
               "name": "創造力發展碩士在職專班",
               "channels": [
                 {
-                  "name": "????",
+                  "name": "最新消息",
                   "value": "cd_news"
                 },
                 {
-                  "name": "????",
+                  "name": "系所公告",
                   "value": "cd_dept"
                 },
                 {
-                  "name": "????",
+                  "name": "招生公告",
                   "value": "cd_admission"
                 },
                 {
-                  "name": "????",
+                  "name": "演講公告",
                   "value": "cd_speeches"
                 }
               ]
@@ -2884,19 +2884,19 @@
               "name": "成癮防制碩士在職學位學程",
               "channels": [
                 {
-                  "name": "????",
+                  "name": "最新消息",
                   "value": "cappr_news"
                 },
                 {
-                  "name": "????",
+                  "name": "系所公告",
                   "value": "cappr_dept"
                 },
                 {
-                  "name": "????",
+                  "name": "招生公告",
                   "value": "cappr_admission"
                 },
                 {
-                  "name": "????",
+                  "name": "演講公告",
                   "value": "cappr_speeches"
                 }
               ]
@@ -2906,15 +2906,15 @@
               "name": "學習資訊專業學院",
               "channels": [
                 {
-                  "name": "????",
+                  "name": "最新消息",
                   "value": "sli_news"
                 },
                 {
-                  "name": "????",
+                  "name": "國際交流",
                   "value": "sli_international"
                 },
                 {
-                  "name": "????",
+                  "name": "師生榮耀",
                   "value": "sli_honor"
                 }
               ],
@@ -2924,39 +2924,39 @@
                   "name": "學習科學學士學位學程",
                   "channels": [
                     {
-                      "name": "????",
+                      "name": "最新消息",
                       "value": "upls_news"
                     },
                     {
-                      "name": "????",
+                      "name": "系所公告",
                       "value": "upls_dept"
                     },
                     {
-                      "name": "????",
+                      "name": "招生公告",
                       "value": "upls_admission"
                     },
                     {
-                      "name": "????",
+                      "name": "演講公告",
                       "value": "upls_speeches"
                     },
                     {
-                      "name": "??/??",
+                      "name": "競賽/活動",
                       "value": "upls_competition"
                     },
                     {
-                      "name": "????",
+                      "name": "徵才訊息",
                       "value": "upls_recruitment"
                     },
                     {
-                      "name": "???",
+                      "name": "獎學金",
                       "value": "upls_scholarship"
                     },
                     {
-                      "name": "???",
+                      "name": "榮譽榜",
                       "value": "upls_honor"
                     },
                     {
-                      "name": "??",
+                      "name": "其他",
                       "value": "upls_other"
                     }
                   ]
@@ -2966,35 +2966,35 @@
                   "name": "圖書資訊學研究所",
                   "channels": [
                     {
-                      "name": "????",
+                      "name": "最新消息",
                       "value": "glis_news"
                     },
                     {
-                      "name": "????",
+                      "name": "教務訊息",
                       "value": "glis_academic_affairs"
                     },
                     {
-                      "name": "????",
+                      "name": "招生訊息",
                       "value": "glis_admission"
                     },
                     {
-                      "name": "????",
+                      "name": "學術訊息",
                       "value": "glis_academic"
                     },
                     {
-                      "name": "????",
+                      "name": "學務訊息",
                       "value": "glis_student_affairs"
                     },
                     {
-                      "name": "???",
+                      "name": "榮譽榜",
                       "value": "glis_honor"
                     },
                     {
-                      "name": "????",
+                      "name": "徵才資訊",
                       "value": "glis_recruitment"
                     },
                     {
-                      "name": "????",
+                      "name": "其他訊息",
                       "value": "glis_other"
                     }
                   ]
@@ -3004,27 +3004,27 @@
                   "name": "資訊教育研究所",
                   "channels": [
                     {
-                      "name": "????",
+                      "name": "最新消息",
                       "value": "ice_news"
                     },
                     {
-                      "name": "????",
+                      "name": "所務公告",
                       "value": "ice_affairs"
                     },
                     {
-                      "name": "????",
+                      "name": "專題演講",
                       "value": "ice_speeches"
                     },
                     {
-                      "name": "????",
+                      "name": "徵才訊息",
                       "value": "ice_recruitment"
                     },
                     {
-                      "name": "????",
+                      "name": "其他訊息",
                       "value": "ice_other"
                     },
                     {
-                      "name": "???",
+                      "name": "行事曆",
                       "value": "ice_calendar"
                     }
                   ]
