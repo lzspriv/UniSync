@@ -4067,6 +4067,17 @@
       "owner": "學生住宿服務中心",
       "url": "https://dorm.sa.ntnu.edu.tw/category/disaster_prevention/",
       "selectorPreset": "wordpress_broad"
+    },
+    "isrc_home_latest": {
+      "label": "最新消息",
+      "owner": "原住民族學生資源中心",
+      "url": "https://isrc.sa.ntnu.edu.tw/",
+      "selectorPreset": "wordpress_broad",
+      "selectors": {
+        "article": "article.uagb-post__inner-wrap",
+        "title_link": ".uagb-post__title a[href], a[href]",
+        "date": "time.uagb-post__date"
+      }
     }
   },
   "schema": [
@@ -4568,6 +4579,10 @@
               "id": "l3-indigenous-student-resource-center",
               "name": "原住民族學生資源中心",
               "channels": [
+                {
+                  "value": "isrc_home_latest",
+                  "name": "最新消息"
+                },
                 {
                   "value": "isrc_announce",
                   "name": "行政公告"

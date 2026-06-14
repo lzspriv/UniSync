@@ -22512,5 +22512,45 @@
         "summary": ""
       }
     ]
+  },
+  "isrc_home_latest": {
+    "label": "原住民族學生資源中心-最新消息",
+    "announcements": [
+      {
+        "title": "2026原民小畢典【tjaljitiv—瀑布】活動報導!!",
+        "url": "https://isrc.sa.ntnu.edu.tw/2026%e5%8e%9f%e6%b0%91%e5%b0%8f%e7%95%a2%e5%85%b8%e3%80%90tjaljitiv-%e7%80%91%e5%b8%83%e3%80%91%e6%b4%bb%e5%8b%95%e5%a0%b1%e5%b0%8e/",
+        "date": "2026-06-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "第六屆臺師大LIMA盃原住民族學生運動會活動報導!!",
+        "url": "https://isrc.sa.ntnu.edu.tw/%e7%ac%ac%e5%85%ad%e5%b1%86%e8%87%ba%e5%b8%ab%e5%a4%a7lima%e7%9b%83%e5%8e%9f%e4%bd%8f%e6%b0%91%e6%97%8f%e5%ad%b8%e7%94%9f%e9%81%8b%e5%8b%95%e6%9c%83%e6%b4%bb%e5%8b%95%e5%a0%b1%e5%b0%8e/",
+        "date": "2026-05-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "青年百億海外圓夢基金計畫",
+        "url": "https://isrc.sa.ntnu.edu.tw/%e9%9d%92%e5%b9%b4%e7%99%be%e5%84%84%e6%b5%b7%e5%a4%96%e5%9c%93%e5%a4%a2%e5%9f%ba%e9%87%91%e8%a8%88%e7%95%ab/",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115年樹豆的故鄉返鄉服務",
+        "url": "https://isrc.sa.ntnu.edu.tw/115%e5%b9%b4%e6%a8%b9%e8%b1%86%e7%9a%84%e6%95%85%e9%84%89%e8%bf%94%e9%84%89%e6%9c%8d%e5%8b%99/",
+        "date": "2026-05-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026原民小畢典【tjaljitiv—瀑布】",
+        "url": "https://isrc.sa.ntnu.edu.tw/2026%e5%8e%9f%e6%b0%91%e5%b0%8f%e7%95%a2%e5%85%b8%e3%80%90tjaljitiv-%e7%80%91%e5%b8%83%e3%80%91/",
+        "date": "2026-05-04",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   }
 }
