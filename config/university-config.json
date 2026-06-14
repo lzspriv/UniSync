@@ -3459,7 +3459,7 @@
       "label": "最新消息",
       "owner": "學生住宿服務中心",
       "url": "https://dorm.sa.ntnu.edu.tw/category/news/",
-      "selectorPreset": "ultimate_post_grid"
+      "selectorPreset": "wordpress_broad"
     },
     "health_announce": {
       "label": "最新消息",
@@ -4026,6 +4026,47 @@
       "owner": "社區諮商中心",
       "url": "https://www.hsin-tien.com/blog/categories/%E6%80%A7%E5%89%B5%E5%82%B7%E7%9B%B8%E9%97%9C",
       "selectorPreset": "wix_blog_card"
+    },
+    "dorm_all": {
+      "label": "全部",
+      "owner": "學生住宿服務中心",
+      "url": "https://dorm.sa.ntnu.edu.tw/news/",
+      "selectorPreset": "ultimate_post_grid",
+      "selectors": {
+        "article": ".ultp-block-52148d .ultp-block-item",
+        "title_link": ".ultp-block-title a[href]",
+        "date": ".ultp-block-date"
+      }
+    },
+    "dorm_admin": {
+      "label": "行政公告",
+      "owner": "學生住宿服務中心",
+      "url": "https://dorm.sa.ntnu.edu.tw/category/%E8%A1%8C%E6%94%BF%E5%85%AC%E5%91%8A/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "dorm_housing_application": {
+      "label": "宿舍申請",
+      "owner": "學生住宿服務中心",
+      "url": "https://dorm.sa.ntnu.edu.tw/category/housing_application/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "dorm_housing_waitlist": {
+      "label": "宿舍遞補",
+      "owner": "學生住宿服務中心",
+      "url": "https://dorm.sa.ntnu.edu.tw/category/housing_waitlist/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "dorm_housing_event": {
+      "label": "宿舍活動",
+      "owner": "學生住宿服務中心",
+      "url": "https://dorm.sa.ntnu.edu.tw/category/housing_event/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "dorm_disaster_prevention": {
+      "label": "宿舍防災",
+      "owner": "學生住宿服務中心",
+      "url": "https://dorm.sa.ntnu.edu.tw/category/disaster_prevention/",
+      "selectorPreset": "wordpress_broad"
     }
   },
   "schema": [
@@ -4494,8 +4535,32 @@
               "name": "學生住宿服務中心",
               "channels": [
                 {
+                  "value": "dorm_all",
+                  "name": "全部"
+                },
+                {
                   "value": "dorm_news",
                   "name": "最新消息"
+                },
+                {
+                  "value": "dorm_admin",
+                  "name": "行政公告"
+                },
+                {
+                  "value": "dorm_housing_application",
+                  "name": "宿舍申請"
+                },
+                {
+                  "value": "dorm_housing_waitlist",
+                  "name": "宿舍遞補"
+                },
+                {
+                  "value": "dorm_housing_event",
+                  "name": "宿舍活動"
+                },
+                {
+                  "value": "dorm_disaster_prevention",
+                  "name": "宿舍防災"
                 }
               ]
             },

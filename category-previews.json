@@ -19480,7 +19480,7 @@
     ]
   },
   "dorm_news": {
-    "label": "最新消息",
+    "label": "學生住宿服務中心-最新消息",
     "announcements": [
       {
         "title": "學生住宿服務中心赴輔仁大學參訪 交流宿舍管理與學生自治實務",
@@ -22268,6 +22268,246 @@
         "title": "數位性別暴力：私密照被外流，我該怎麼辦？",
         "url": "https://www.hsin-tien.com/post/數位性別暴力：私密照被外流，我該怎麼辦？",
         "date": "2025-10-14",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "dorm_all": {
+    "label": "學生住宿服務中心-全部",
+    "announcements": [
+      {
+        "title": "115學年度舊生學生宿舍床位分配名單(正取生)115.06.09",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e8%88%8a%e7%94%9f%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e5%ba%8a%e4%bd%8d%e5%88%86%e9%85%8d%e5%90%8d%e5%96%ae%e6%ad%a3%e5%8f%96%e7%94%9f115-06-09/",
+        "date": "2026-06-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度研究生準新生申請114學年暑期宿舍已遞補上宿舍名單115.6.14",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e7%a0%94%e7%a9%b6%e7%94%9f%e6%ba%96%e6%96%b0%e7%94%9f%e7%94%b3%e8%ab%8b114%e5%ad%b8%e5%b9%b4%e6%9a%91%e6%9c%9f%e5%ae%bf%e8%88%8d%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a/",
+        "date": "2026-06-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "學生住宿服務中心赴輔仁大學參訪 交流宿舍管理與學生自治實務",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=24642#new_tab",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度學生宿舍第5次已遞補上宿舍名單115.6.10",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e7%ac%ac5%e6%ac%a1%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a%e5%ae%bf%e8%88%8d%e5%90%8d%e5%96%ae115-6-10/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度暑期學生宿舍第6次已遞補上宿舍名單115.6.10",
+        "url": "https://dorm.sa.ntnu.edu.tw/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%9a%91%e6%9c%9f%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e7%ac%ac6%e6%ac%a1%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a%e5%ae%bf%e8%88%8d%e5%90%8d%e5%96%ae115-6-10/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "dorm_admin": {
+    "label": "學生住宿服務中心-行政公告",
+    "announcements": [
+      {
+        "title": "[活動快訊Event] 114-2學生宿舍防災教育講座2026 Fire Safety Seminar",
+        "url": "https://dorm.sa.ntnu.edu.tw/114-2%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e9%98%b2%e7%81%bd%e6%95%99%e8%82%b2%e8%ac%9b%e5%ba%a7/",
+        "date": "2026-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-2退宿+114暑宿進住公館車輛入校路線圖",
+        "url": "https://dorm.sa.ntnu.edu.tw/114-2%e9%80%80%e5%ae%bf114%e6%9a%91%e5%ae%bf%e9%80%b2%e4%bd%8f%e5%85%ac%e9%a4%a8%e8%bb%8a%e8%bc%9b%e5%85%a5%e6%a0%a1%e8%b7%af%e7%b7%9a%e5%9c%96/",
+        "date": "2026-04-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年防災演練參與狀況公告Participation Status of the 2025–2026 Academic Year Student Dormitory Disaster Drill",
+        "url": "https://dorm.sa.ntnu.edu.tw/114%e5%ad%b8%e5%b9%b4%e9%98%b2%e7%81%bd%e6%bc%94%e7%b7%b4%e5%8f%83%e8%88%87%e7%8b%80%e6%b3%81%e5%85%ac%e5%91%8aparticipation-status-of-the-2025-2026-academic-year-student-dormitory-disaster-dr/",
+        "date": "2026-04-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "National Taiwan Normal University Student Accommodation Fee",
+        "url": "https://dorm.sa.ntnu.edu.tw/national-taiwan-normal-university-student-accommodation-fee/",
+        "date": "2026-03-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度寒假住宿保證金扣款公告115.03.31",
+        "url": "https://dorm.sa.ntnu.edu.tw/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%af%92%e5%81%87%e4%bd%8f%e5%ae%bf%e4%bf%9d%e8%ad%89%e9%87%91%e6%89%a3%e6%ac%be%e5%85%ac%e5%91%8a115-03-31/",
+        "date": "2026-03-31",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "dorm_housing_application": {
+    "label": "學生住宿服務中心-宿舍申請",
+    "announcements": [
+      {
+        "title": "115學年度舊生學生宿舍床位分配名單(正取生)115.06.09",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e8%88%8a%e7%94%9f%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e5%ba%8a%e4%bd%8d%e5%88%86%e9%85%8d%e5%90%8d%e5%96%ae%e6%ad%a3%e5%8f%96%e7%94%9f115-06-09/",
+        "date": "2026-06-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度暑期在職進修碩士班床位公告115.06.05",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%9a%91%e6%9c%9f%e5%9c%a8%e8%81%b7%e9%80%b2%e4%bf%ae%e7%a2%a9%e5%a3%ab%e7%8f%ad%e5%ba%8a%e4%bd%8d%e5%85%ac%e5%91%8a115-06-05/",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度暑期學生宿舍第5次已遞補上宿舍名單115.6.3",
+        "url": "https://dorm.sa.ntnu.edu.tw/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%9a%91%e6%9c%9f%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e7%ac%ac5%e6%ac%a1%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a%e5%ae%bf%e8%88%8d%e5%90%8d%e5%96%ae115-6-3/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度學生宿舍第4次已遞補上宿舍名單115.6.3",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e7%ac%ac4%e6%ac%a1%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a%e5%ae%bf%e8%88%8d%e5%90%8d%e5%96%ae115-6-3/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度研究生準新生申請114學年度暑期宿舍公告 115.6.2",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e7%a0%94%e7%a9%b6%e7%94%9f%e6%ba%96%e6%96%b0%e7%94%9f%e7%94%b3%e8%ab%8b114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%9a%91%e6%9c%9f%e5%ae%bf%e8%88%8d%e5%85%ac%e5%91%8a-115-6-2/",
+        "date": "2026-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "dorm_housing_waitlist": {
+    "label": "學生住宿服務中心-宿舍遞補",
+    "announcements": [
+      {
+        "title": "115學年度舊生學生宿舍床位分配名單(正取生)115.06.09",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e8%88%8a%e7%94%9f%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e5%ba%8a%e4%bd%8d%e5%88%86%e9%85%8d%e5%90%8d%e5%96%ae%e6%ad%a3%e5%8f%96%e7%94%9f115-06-09/",
+        "date": "2026-06-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度暑期在職進修碩士班床位公告115.06.05",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%9a%91%e6%9c%9f%e5%9c%a8%e8%81%b7%e9%80%b2%e4%bf%ae%e7%a2%a9%e5%a3%ab%e7%8f%ad%e5%ba%8a%e4%bd%8d%e5%85%ac%e5%91%8a115-06-05/",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度暑期學生宿舍第5次已遞補上宿舍名單115.6.3",
+        "url": "https://dorm.sa.ntnu.edu.tw/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%9a%91%e6%9c%9f%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e7%ac%ac5%e6%ac%a1%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a%e5%ae%bf%e8%88%8d%e5%90%8d%e5%96%ae115-6-3/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度學生宿舍第4次已遞補上宿舍名單115.6.3",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e7%ac%ac4%e6%ac%a1%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a%e5%ae%bf%e8%88%8d%e5%90%8d%e5%96%ae115-6-3/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度研究生準新生申請114學年度暑期宿舍公告 115.6.2",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e7%a0%94%e7%a9%b6%e7%94%9f%e6%ba%96%e6%96%b0%e7%94%9f%e7%94%b3%e8%ab%8b114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%9a%91%e6%9c%9f%e5%ae%bf%e8%88%8d%e5%85%ac%e5%91%8a-115-6-2/",
+        "date": "2026-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "dorm_housing_event": {
+    "label": "學生住宿服務中心-宿舍活動",
+    "announcements": [
+      {
+        "title": "學生住宿服務中心赴輔仁大學參訪 交流宿舍管理與學生自治實務",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=24642#new_tab",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "共寢共學話端午 男二舍打造國際文化交流宿舍",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24599#new_tab",
+        "date": "2026-05-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "環保綠生活落實日常 男二舍首辦節能競賽響應永續",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24591#new_tab",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "住宿服務中心舉辦學生宿舍防災教育講座 提升住宿生防災與急救觀念",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=24573#new_tab",
+        "date": "2026-05-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "公館校區第二屆「風之市集」登場 兩舍住宿生共創交流與永續活動",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=24571#new_tab",
+        "date": "2026-05-22",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "dorm_disaster_prevention": {
+    "label": "學生住宿服務中心-宿舍防災",
+    "announcements": [
+      {
+        "title": "[活動快訊Event] 114-2學生宿舍防災教育講座2026 Fire Safety Seminar",
+        "url": "https://dorm.sa.ntnu.edu.tw/114-2%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e9%98%b2%e7%81%bd%e6%95%99%e8%82%b2%e8%ac%9b%e5%ba%a7/",
+        "date": "2026-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年防災演練參與狀況公告Participation Status of the 2025–2026 Academic Year Student Dormitory Disaster Drill",
+        "url": "https://dorm.sa.ntnu.edu.tw/114%e5%ad%b8%e5%b9%b4%e9%98%b2%e7%81%bd%e6%bc%94%e7%b7%b4%e5%8f%83%e8%88%87%e7%8b%80%e6%b3%81%e5%85%ac%e5%91%8aparticipation-status-of-the-2025-2026-academic-year-student-dormitory-disaster-dr/",
+        "date": "2026-04-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "公告Announcement |114-2宿舍用電安全檢查補檢Dormitory Electrical Safety Inspection Make-up (114-2)",
+        "url": "https://dorm.sa.ntnu.edu.tw/%e5%85%ac%e5%91%8aannouncement114-2%e5%ae%bf%e8%88%8d%e7%94%a8%e9%9b%bb%e5%ae%89%e5%85%a8%e6%aa%a2%e6%9f%a5%e8%a3%9c%e6%aa%a2/",
+        "date": "2026-03-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "公告Announcement | 114-2學生宿舍防災演練Dormitory Disaster Drill (114-2)",
+        "url": "https://dorm.sa.ntnu.edu.tw/%e5%85%ac%e5%91%8aannouncement_114-2%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e9%98%b2%e7%81%bd%e6%bc%94%e7%b7%b4/",
+        "date": "2026-03-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[重要公告Important Notice] 114-2 防災演練補訓（防災教育講座）114-2 Disaster Drill Make-up Session (Disaster Prevention Lecture)",
+        "url": "https://dorm.sa.ntnu.edu.tw/114-2%e9%98%b2%e7%81%bd%e6%bc%94%e7%b7%b4%e8%a3%9c%e8%a8%93%e5%85%ac%e5%91%8a/",
+        "date": "2026-03-06",
         "date_label": "發布日期",
         "summary": ""
       }
