@@ -15,6 +15,7 @@ const liveFeedState = {
 function renderMenu() {
     const container = document.getElementById('menu-container');
     if (!container) return;
+    const toolbarContainer = document.getElementById('menu-toolbar-container');
 
     const renderChannels = (channels = [], parentPath = []) => channels.map(ch => {
         const displayLabel = [...parentPath, ch.name].filter(Boolean).join('-');
@@ -120,8 +121,12 @@ function renderMenu() {
         `;
     };
 
+    if (toolbarContainer) {
+        toolbarContainer.innerHTML = renderMenuToolbar();
+    }
+
     container.innerHTML = `
-        ${renderMenuToolbar()}
+        ${toolbarContainer ? '' : renderMenuToolbar()}
         <div id="menu-empty-state" class="menu-empty-state hidden">找不到符合條件的單位或公告類型</div>
         ${universitySchema.map(category => {
         const subscribableCount = countSubscribableChannels(category);
