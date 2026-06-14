@@ -3323,17 +3323,6 @@
         "pinned": ".sticky"
       }
     },
-    "arts_art_news": {
-      "label": "藝文新訊",
-      "owner": "藝術學院",
-      "url": "https://arts.ntnu.edu.tw/index.php/category/uncategorized/4/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
     "arts_exchange_highlights": {
       "label": "交流亮點",
       "owner": "藝術學院",
@@ -3367,39 +3356,6 @@
         "pinned": ".sticky"
       }
     },
-    "arts_emi": {
-      "label": "EMI資訊",
-      "owner": "藝術學院",
-      "url": "https://arts.ntnu.edu.tw/index.php/category/emi-news/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "arts_sdgs": {
-      "label": "SDGs聯合國永續發展指標",
-      "owner": "藝術學院",
-      "url": "https://arts.ntnu.edu.tw/index.php/category/uncategorized/8/sdgs/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "arts_usr": {
-      "label": "USR大學社會責任",
-      "owner": "藝術學院",
-      "url": "https://arts.ntnu.edu.tw/index.php/category/uncategorized/8/usr/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
     "art_news": {
       "label": "最新消息",
       "owner": "美術學系",
@@ -3415,17 +3371,6 @@
       "label": "系辦公告",
       "owner": "美術學系",
       "url": "https://www.art.ntnu.edu.tw/index.php/category/uncategorized/1/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "art_new_student": {
-      "label": "新生快訊",
-      "owner": "美術學系",
-      "url": "https://www.art.ntnu.edu.tw/index.php/category/uncategorized/4/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
         "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
@@ -3510,10 +3455,10 @@
         "pinned": ".sticky"
       }
     },
-    "arthistory_latest": {
-      "label": "近期公告",
+    "arthistory_important": {
+      "label": "重要資訊",
       "owner": "藝術史研究所",
-      "url": "https://arthistory.ntnu.edu.tw/index.php/zh/category/news/latest-news/",
+      "url": "https://arthistory.ntnu.edu.tw/index.php/zh/category/news/important-information/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
         "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
@@ -3521,10 +3466,10 @@
         "pinned": ".sticky"
       }
     },
-    "arthistory_important": {
-      "label": "重要資訊",
+    "arthistory_jobs": {
+      "label": "徵才",
       "owner": "藝術史研究所",
-      "url": "https://arthistory.ntnu.edu.tw/index.php/zh/category/news/important-information/",
+      "url": "https://arthistory.ntnu.edu.tw/index.php/zh/category/news/jobs/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
         "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
@@ -3569,6 +3514,16 @@
       "label": "最新消息",
       "owner": "設計學系",
       "url": "https://www.design.ntnu.edu.tw/?page_id=5793",
+      "selectors": {
+        "article": "ul.oceanwp-recent-posts > li",
+        "title_link": ".recent-posts-title a, .recent-posts-details-inner > a",
+        "date": ".recent-posts-date"
+      }
+    },
+    "design_events": {
+      "label": "活動紀錄",
+      "owner": "設計學系",
+      "url": "https://www.design.ntnu.edu.tw/?page_id=5797",
       "selectors": {
         "article": "ul.oceanwp-recent-posts > li",
         "title_link": ".recent-posts-title a, .recent-posts-details-inner > a",
@@ -4048,17 +4003,6 @@
         "pinned": ".sticky"
       }
     },
-    "music_new_student": {
-      "label": "新生快訊",
-      "owner": "音樂學系",
-      "url": "https://www.music.ntnu.edu.tw/index.php/category/uncategorized/4/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
     "music_seminar": {
       "label": "演講公告",
       "owner": "音樂學系",
@@ -4213,17 +4157,6 @@
         "pinned": ".sticky"
       }
     },
-    "bdppa_media": {
-      "label": "新聞露出",
-      "owner": "表演藝術學士學位學程",
-      "url": "https://www.bdppa.ntnu.edu.tw/index.php/category/1/7/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
     "gipa_news": {
       "label": "最新消息",
       "owner": "表演藝術研究所",
@@ -4305,17 +4238,6 @@
       "label": "獎助學金",
       "owner": "表演藝術研究所",
       "url": "https://www.gipa.ntnu.edu.tw/index.php/category/1/8/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "gipa_media": {
-      "label": "新聞露出",
-      "owner": "表演藝術研究所",
-      "url": "https://www.gipa.ntnu.edu.tw/index.php/category/1/15/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
         "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
@@ -7331,10 +7253,6 @@
               "value": "arts_outbound"
             },
             {
-              "name": "藝文新訊",
-              "value": "arts_art_news"
-            },
-            {
               "name": "交流亮點",
               "value": "arts_exchange_highlights"
             },
@@ -7345,18 +7263,6 @@
             {
               "name": "競賽/實習",
               "value": "arts_competition_internship"
-            },
-            {
-              "name": "EMI資訊",
-              "value": "arts_emi"
-            },
-            {
-              "name": "SDGs聯合國永續發展指標",
-              "value": "arts_sdgs"
-            },
-            {
-              "name": "USR大學社會責任",
-              "value": "arts_usr"
             }
           ],
           "subUnits": [
@@ -7371,10 +7277,6 @@
                 {
                   "name": "系辦公告",
                   "value": "art_affairs"
-                },
-                {
-                  "name": "新生快訊",
-                  "value": "art_new_student"
                 },
                 {
                   "name": "展覽演講",
@@ -7409,6 +7311,10 @@
                 {
                   "name": "最新消息",
                   "value": "design_news"
+                },
+                {
+                  "name": "活動紀錄",
+                  "value": "design_events"
                 }
               ]
             },
@@ -7421,10 +7327,6 @@
                   "value": "arthistory_news"
                 },
                 {
-                  "name": "近期公告",
-                  "value": "arthistory_latest"
-                },
-                {
                   "name": "重要資訊",
                   "value": "arthistory_important"
                 },
@@ -7435,6 +7337,10 @@
                 {
                   "name": "活動花絮",
                   "value": "arthistory_event_highlights"
+                },
+                {
+                  "name": "徵才",
+                  "value": "arthistory_jobs"
                 }
               ]
             },
@@ -7615,32 +7521,32 @@
               "value": "musicollege_news"
             },
             {
-              "name": "傑出表現",
-              "value": "musicollege_honor"
-            },
-            {
-              "name": "展演活動",
-              "value": "musicollege_performance"
-            },
-            {
               "name": "活動公告",
               "value": "musicollege_events"
             },
             {
-              "name": "來校學術活動",
-              "value": "musicollege_academic_visit"
+              "name": "EMI",
+              "value": "musicollege_emi"
             },
             {
-              "name": "學術研討會",
-              "value": "musicollege_seminar"
+              "name": "傑出表現",
+              "value": "musicollege_honor"
             },
             {
               "name": "赴外交流活動",
               "value": "musicollege_outbound"
             },
             {
-              "name": "EMI",
-              "value": "musicollege_emi"
+              "name": "來校學術活動",
+              "value": "musicollege_academic_visit"
+            },
+            {
+              "name": "展演活動",
+              "value": "musicollege_performance"
+            },
+            {
+              "name": "學術研討會",
+              "value": "musicollege_seminar"
             },
             {
               "name": "SDGs成果",
@@ -7667,10 +7573,6 @@
                 {
                   "name": "招生公告",
                   "value": "music_admission"
-                },
-                {
-                  "name": "新生快訊",
-                  "value": "music_new_student"
                 },
                 {
                   "name": "演講公告",
@@ -7733,10 +7635,6 @@
                 {
                   "name": "獎助學金",
                   "value": "bdppa_scholarship"
-                },
-                {
-                  "name": "新聞露出",
-                  "value": "bdppa_media"
                 }
               ]
             },
@@ -7775,10 +7673,6 @@
                 {
                   "name": "獎助學金",
                   "value": "gipa_scholarship"
-                },
-                {
-                  "name": "新聞露出",
-                  "value": "gipa_media"
                 }
               ]
             },
