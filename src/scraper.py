@@ -113,7 +113,7 @@ def parse_leading_date(text):
     if not text:
         return "未知日期", text
 
-    match = re.match(r"^\s*(\d{4})[-/](\d{1,2})[-/](\d{1,2})", text)
+    match = re.match(r"^\s*(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})", text)
     if match:
         year, month, day = match.groups()
         summary = text[match.end():].lstrip(" |｜-—\t")

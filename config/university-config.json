@@ -3684,6 +3684,336 @@
         "title_link": ".recent-posts-title a, .recent-posts-details-inner > a",
         "date": ".recent-posts-date"
       }
+    },
+    "csr_news": {
+      "label": "最新消息",
+      "owner": "運動與休閒學院",
+      "url": "https://www.csr.ntnu.edu.tw/index.php/category/news-zh/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "csr_announcement": {
+      "label": "一般公告",
+      "owner": "運動與休閒學院",
+      "url": "https://www.csr.ntnu.edu.tw/index.php/category/news-zh/announcement-zh/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "csr_college_announcement": {
+      "label": "書院公告",
+      "owner": "運動與休閒學院",
+      "url": "https://www.csr.ntnu.edu.tw/index.php/category/news-zh/elite-athletes/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "csr_events": {
+      "label": "活動資訊",
+      "owner": "運動與休閒學院",
+      "url": "https://www.csr.ntnu.edu.tw/index.php/category/news-zh/activities-zh/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "csr_honor": {
+      "label": "傑出表現",
+      "owner": "運動與休閒學院",
+      "url": "https://www.csr.ntnu.edu.tw/index.php/category/news-zh/honor-zh/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "csr_scholarship": {
+      "label": "獎助學金",
+      "owner": "運動與休閒學院",
+      "url": "https://www.csr.ntnu.edu.tw/index.php/category/news-zh/scholarships/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "csr_outbound": {
+      "label": "赴外資訊",
+      "owner": "運動與休閒學院",
+      "url": "https://www.csr.ntnu.edu.tw/index.php/category/news-zh/exchange-program/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "csr_research": {
+      "label": "研究亮點",
+      "owner": "運動與休閒學院",
+      "url": "https://www.csr.ntnu.edu.tw/index.php/category/news-zh/academic-zh/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "csr_emi": {
+      "label": "雙語計畫",
+      "owner": "運動與休閒學院",
+      "url": "https://www.csr.ntnu.edu.tw/index.php/category/news-zh/emi-program-zh/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ap_news": {
+      "label": "最新消息",
+      "owner": "運動競技學系",
+      "url": "https://www.ap.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ap_affairs": {
+      "label": "系所公告",
+      "owner": "運動競技學系",
+      "url": "https://www.ap.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ap_admission": {
+      "label": "招生公告",
+      "owner": "運動競技學系",
+      "url": "https://www.ap.ntnu.edu.tw/index.php/category/uncategorized/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ap_new_student": {
+      "label": "新生快訊",
+      "owner": "運動競技學系",
+      "url": "https://www.ap.ntnu.edu.tw/index.php/category/uncategorized/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ap_recruitment": {
+      "label": "徵人訊息",
+      "owner": "運動競技學系",
+      "url": "https://www.ap.ntnu.edu.tw/index.php/category/uncategorized/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ap_seminar": {
+      "label": "演講公告",
+      "owner": "運動競技學系",
+      "url": "https://www.ap.ntnu.edu.tw/index.php/category/uncategorized/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ap_competition": {
+      "label": "競賽活動",
+      "owner": "運動競技學系",
+      "url": "https://www.ap.ntnu.edu.tw/index.php/category/uncategorized/6/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "csremba_news": {
+      "label": "最新消息",
+      "owner": "樂活產業高階經理人企業管理碩士在職專班(LOHAS-EMBA)",
+      "url": "https://www.csremba.ntnu.edu.tw/index.php/category/2020112601/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "csremba_announcements": {
+      "label": "最新公告",
+      "owner": "樂活產業高階經理人企業管理碩士在職專班(LOHAS-EMBA)",
+      "url": "https://www.csremba.ntnu.edu.tw/index.php/category/2020112601/2021112602/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "csremba_honor": {
+      "label": "師生榮耀",
+      "owner": "樂活產業高階經理人企業管理碩士在職專班(LOHAS-EMBA)",
+      "url": "https://www.csremba.ntnu.edu.tw/index.php/category/2020112601/20210722/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "csremba_events": {
+      "label": "活動剪輯",
+      "owner": "樂活產業高階經理人企業管理碩士在職專班(LOHAS-EMBA)",
+      "url": "https://www.csremba.ntnu.edu.tw/index.php/category/2020112601/20210311/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "pe_news": {
+      "label": "最新消息",
+      "owner": "體育與運動科學系",
+      "url": "https://www.pe.ntnu.edu.tw/news.htm",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "ul.article-list > li",
+        "title_link": "a[href]"
+      }
+    },
+    "pe_admission": {
+      "label": "招生資訊",
+      "owner": "體育與運動科學系",
+      "url": "https://www.pe.ntnu.edu.tw/news/Admission.htm",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "ul.article-list > li",
+        "title_link": "a[href]"
+      }
+    },
+    "pe_affairs": {
+      "label": "本系公告",
+      "owner": "體育與運動科學系",
+      "url": "https://www.pe.ntnu.edu.tw/news/Announce.htm",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "ul.article-list > li",
+        "title_link": "a[href]"
+      }
+    },
+    "pe_honor": {
+      "label": "師生榮耀",
+      "owner": "體育與運動科學系",
+      "url": "https://www.pe.ntnu.edu.tw/news/Congratulations.htm",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "ul.article-list > li",
+        "title_link": "a[href]"
+      }
+    },
+    "pe_other": {
+      "label": "其他公告",
+      "owner": "體育與運動科學系",
+      "url": "https://www.pe.ntnu.edu.tw/news/Others.htm",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "ul.article-list > li",
+        "title_link": "a[href]"
+      }
+    },
+    "slhm_news": {
+      "label": "最新消息",
+      "owner": "運動休閒與餐旅管理研究所",
+      "url": "https://www.slhm.ntnu.edu.tw/news.htm",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "ul.article-list > li",
+        "title_link": "a[href]"
+      }
+    },
+    "slhm_affairs": {
+      "label": "本所公告",
+      "owner": "運動休閒與餐旅管理研究所",
+      "url": "https://www.slhm.ntnu.edu.tw/news/Announce.htm",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "ul.article-list > li",
+        "title_link": "a[href]"
+      }
+    },
+    "slhm_honor": {
+      "label": "師生榮耀",
+      "owner": "運動休閒與餐旅管理研究所",
+      "url": "https://www.slhm.ntnu.edu.tw/news/Congratulations.htm",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "ul.article-list > li",
+        "title_link": "a[href]"
+      }
+    },
+    "slhm_admission": {
+      "label": "招生資訊",
+      "owner": "運動休閒與餐旅管理研究所",
+      "url": "https://www.slhm.ntnu.edu.tw/news/Admission.htm",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "ul.article-list > li",
+        "title_link": "a[href]"
+      }
+    },
+    "slhm_other": {
+      "label": "其他公告",
+      "owner": "運動休閒與餐旅管理研究所",
+      "url": "https://www.slhm.ntnu.edu.tw/news/Others.htm",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "ul.article-list > li",
+        "title_link": "a[href]"
+      }
+    },
+    "slhm_events": {
+      "label": "活動資訊",
+      "owner": "運動休閒與餐旅管理研究所",
+      "url": "https://www.slhm.ntnu.edu.tw/news/Activity.htm",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "ul.article-list > li",
+        "title_link": "a[href]"
+      }
     }
   },
   "schema": [
@@ -6061,27 +6391,156 @@
         {
           "id": "l2-csr",
           "name": "運動與休閒學院",
-          "channels": [],
+          "channels": [
+            {
+              "name": "最新消息",
+              "value": "csr_news"
+            },
+            {
+              "name": "一般公告",
+              "value": "csr_announcement"
+            },
+            {
+              "name": "書院公告",
+              "value": "csr_college_announcement"
+            },
+            {
+              "name": "活動資訊",
+              "value": "csr_events"
+            },
+            {
+              "name": "傑出表現",
+              "value": "csr_honor"
+            },
+            {
+              "name": "獎助學金",
+              "value": "csr_scholarship"
+            },
+            {
+              "name": "赴外資訊",
+              "value": "csr_outbound"
+            },
+            {
+              "name": "研究亮點",
+              "value": "csr_research"
+            },
+            {
+              "name": "雙語計畫",
+              "value": "csr_emi"
+            }
+          ],
           "subUnits": [
             {
               "id": "l3-pe",
               "name": "體育與運動科學系",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "pe_news"
+                },
+                {
+                  "name": "招生資訊",
+                  "value": "pe_admission"
+                },
+                {
+                  "name": "本系公告",
+                  "value": "pe_affairs"
+                },
+                {
+                  "name": "師生榮耀",
+                  "value": "pe_honor"
+                },
+                {
+                  "name": "其他公告",
+                  "value": "pe_other"
+                }
+              ]
             },
             {
               "id": "l3-ap",
               "name": "運動競技學系",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "ap_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "ap_affairs"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "ap_admission"
+                },
+                {
+                  "name": "新生快訊",
+                  "value": "ap_new_student"
+                },
+                {
+                  "name": "徵人訊息",
+                  "value": "ap_recruitment"
+                },
+                {
+                  "name": "演講公告",
+                  "value": "ap_seminar"
+                },
+                {
+                  "name": "競賽活動",
+                  "value": "ap_competition"
+                }
+              ]
             },
             {
               "id": "l3-slhm",
               "name": "運動休閒與餐旅管理研究所",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "slhm_news"
+                },
+                {
+                  "name": "本所公告",
+                  "value": "slhm_affairs"
+                },
+                {
+                  "name": "師生榮耀",
+                  "value": "slhm_honor"
+                },
+                {
+                  "name": "招生資訊",
+                  "value": "slhm_admission"
+                },
+                {
+                  "name": "其他公告",
+                  "value": "slhm_other"
+                },
+                {
+                  "name": "活動資訊",
+                  "value": "slhm_events"
+                }
+              ]
             },
             {
               "id": "l3-csremba",
               "name": "樂活產業高階經理人企業管理碩士在職專班(LOHAS-EMBA)",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "csremba_news"
+                },
+                {
+                  "name": "最新公告",
+                  "value": "csremba_announcements"
+                },
+                {
+                  "name": "師生榮耀",
+                  "value": "csremba_honor"
+                },
+                {
+                  "name": "活動剪輯",
+                  "value": "csremba_events"
+                }
+              ]
             }
           ]
         },
