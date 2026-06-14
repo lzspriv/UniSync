@@ -3867,6 +3867,12 @@
       "owner": "學生事務處",
       "url": "https://www.sa.ntnu.edu.tw/",
       "selectorPreset": "sa_home_announcements"
+    },
+    "assistance_news": {
+      "label": "最新消息",
+      "owner": "生活輔導組",
+      "url": "https://assistance.sa.ntnu.edu.tw/new/",
+      "selectorPreset": "ultimate_post_grid"
     }
   },
   "schema": [
@@ -4108,6 +4114,10 @@
               "id": "l3-life-guidance-section",
               "name": "生活輔導組",
               "channels": [
+                {
+                  "value": "assistance_news",
+                  "name": "最新消息"
+                },
                 {
                   "value": "assistance_admin",
                   "name": "行政公告"

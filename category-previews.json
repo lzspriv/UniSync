@@ -21541,5 +21541,45 @@
         "summary": ""
       }
     ]
+  },
+  "assistance_news": {
+    "label": "最新消息",
+    "announcements": [
+      {
+        "title": "經濟不利學生身心門診補助",
+        "url": "https://assistance.sa.ntnu.edu.tw/ministry-edu-5/",
+        "date": "2026-05-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "青(少)年照顧者照顧支持政策",
+        "url": "https://assistance.sa.ntnu.edu.tw/%e9%9d%92%e5%b0%91%e5%b9%b4%e7%85%a7%e9%a1%a7%e8%80%85%e7%85%a7%e9%a1%a7%e6%94%af%e6%8c%81/",
+        "date": "2026-05-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "畢業典禮",
+        "url": "https://assistance.sa.ntnu.edu.tw/graduation/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "查詢各項獎助學金~~獎學金管理系統",
+        "url": "https://assistance.sa.ntnu.edu.tw/%e7%8d%8e%e5%ad%b8%e9%87%91%e7%ae%a1%e7%90%86%e7%b3%bb%e7%b5%b1/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "新生營-伯樂大學堂",
+        "url": "https://assistance.sa.ntnu.edu.tw/freshman/",
+        "date": "2026-05-14",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   }
 }
