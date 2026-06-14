@@ -3510,32 +3510,32 @@
       "selectorPreset": "oen_annc_table"
     },
     "acad_planning": {
-      "label": "企劃組公告",
-      "owner": "研究發展處",
+      "label": "最新消息",
+      "owner": "企劃組",
       "url": "https://www.acad.ntnu.edu.tw/zh_tw/dsp/2news",
       "selectorPreset": "oen_annc_table"
     },
     "acad_research_promotion_projects": {
-      "label": "研究推動組公告",
-      "owner": "研究發展處",
+      "label": "最新公告",
+      "owner": "研究推動組",
       "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news1",
       "selectorPreset": "oen_annc_table"
     },
     "acad_research_promotion_awards": {
-      "label": "研究獎勵補助",
-      "owner": "研究發展處",
+      "label": "計畫徵求公告",
+      "owner": "研究推動組",
       "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news2",
       "selectorPreset": "oen_annc_table"
     },
     "acad_research_promotion_other": {
-      "label": "其他研究訊息",
-      "owner": "研究發展處",
+      "label": "校內獎補助公告",
+      "owner": "研究推動組",
       "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news3",
       "selectorPreset": "oen_annc_table"
     },
     "acad_industry_cooperation": {
-      "label": "產學合作組公告",
-      "owner": "研究發展處",
+      "label": "最新公告",
+      "owner": "產學合作組",
       "url": "https://www.acad.ntnu.edu.tw/zh_tw/dril/4downs1/dnews1",
       "selectorPreset": "oen_annc_table"
     },
@@ -4148,6 +4148,24 @@
         "pinned_text_selector": "td:nth-of-type(3)",
         "pinned_text": "總務處"
       }
+    },
+    "acad_awards": {
+      "label": "獎補助公告",
+      "owner": "研究發展處",
+      "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3page4/130",
+      "selectorPreset": "oen_annc_table"
+    },
+    "acad_industry_projects": {
+      "label": "計畫徵求",
+      "owner": "產學合作組",
+      "url": "https://www.acad.ntnu.edu.tw/zh_tw/dril/4downs1/dnews2",
+      "selectorPreset": "oen_annc_table"
+    },
+    "acad_industry_activities": {
+      "label": "活動與演講",
+      "owner": "產學合作組",
+      "url": "https://www.acad.ntnu.edu.tw/zh_tw/dril/4downs1/dnews3",
+      "selectorPreset": "oen_annc_table"
     }
   },
   "schema": [
@@ -4794,6 +4812,52 @@
           "name": "研究發展處",
           "subUnits": [
             {
+              "id": "l3-research-development-planning-section",
+              "name": "企劃組",
+              "channels": [
+                {
+                  "value": "acad_planning",
+                  "name": "最新消息"
+                }
+              ]
+            },
+            {
+              "id": "l3-research-promotion-section",
+              "name": "研究推動組",
+              "channels": [
+                {
+                  "value": "acad_research_promotion_projects",
+                  "name": "最新公告"
+                },
+                {
+                  "value": "acad_research_promotion_awards",
+                  "name": "計畫徵求公告"
+                },
+                {
+                  "value": "acad_research_promotion_other",
+                  "name": "校內獎補助公告"
+                }
+              ]
+            },
+            {
+              "id": "l3-industry-academia-cooperation-section",
+              "name": "產學合作組",
+              "channels": [
+                {
+                  "value": "acad_industry_cooperation",
+                  "name": "最新公告"
+                },
+                {
+                  "value": "acad_industry_projects",
+                  "name": "計畫徵求"
+                },
+                {
+                  "value": "acad_industry_activities",
+                  "name": "活動與演講"
+                }
+              ]
+            },
+            {
               "id": "l3-innovation-incubation-center",
               "name": "創新育成中心",
               "channels": []
@@ -4838,32 +4902,16 @@
               "name": "政府機關招標公告"
             },
             {
+              "value": "acad_awards",
+              "name": "獎補助公告"
+            },
+            {
               "value": "acad_conferences",
               "name": "研討會及徵稿"
             },
             {
               "value": "acad_activities",
               "name": "活動與演講"
-            },
-            {
-              "value": "acad_planning",
-              "name": "企劃組公告"
-            },
-            {
-              "value": "acad_research_promotion_projects",
-              "name": "研究推動組公告"
-            },
-            {
-              "value": "acad_research_promotion_awards",
-              "name": "研究獎勵補助"
-            },
-            {
-              "value": "acad_research_promotion_other",
-              "name": "其他研究訊息"
-            },
-            {
-              "value": "acad_industry_cooperation",
-              "name": "產學合作組公告"
             }
           ]
         },
