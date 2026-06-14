@@ -562,6 +562,14 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                         or article.select_one(pinned_selector)
                     )
                 )
+                pinned_text_selector = scraper_config.get("pinned_text_selector")
+                pinned_text = scraper_config.get("pinned_text")
+                if pinned_text_selector and pinned_text:
+                    pinned_text_tag = article.select_one(pinned_text_selector)
+                    is_pinned = is_pinned or (
+                        pinned_text_tag
+                        and normalize_whitespace(pinned_text_tag.get_text(" ", strip=True)) == pinned_text
+                    )
                 if date_text == "未知日期":
                     date_text = parse_date_from_url(absolute_url)
 

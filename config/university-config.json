@@ -196,7 +196,7 @@
       "summary": "[data-hook=\"post-description\"]"
     },
     "ga_legacy_table": {
-      "article": "tr:has(a[href*=\"item.aspx?line=\"])",
+      "article": "#GridView1 > tr:has(a[href*=\"item.aspx?line=\"])",
       "title_link": "a[href*=\"item.aspx?line=\"]",
       "date": "td:nth-of-type(2)",
       "strip_title_suffix": ".....more"
@@ -4143,7 +4143,11 @@
       "label": "最新消息",
       "owner": "總務處",
       "url": "https://www.ga.ntnu.edu.tw/main.aspx",
-      "selectorPreset": "ga_legacy_table"
+      "selectorPreset": "ga_legacy_table",
+      "selectors": {
+        "pinned_text_selector": "td:nth-of-type(3)",
+        "pinned_text": "總務處"
+      }
     }
   },
   "schema": [
