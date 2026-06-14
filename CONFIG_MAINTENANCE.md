@@ -106,3 +106,13 @@ C:\Users\lzspr\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\p
 ```
 
 腳本只會在 log 顯示成功或 HTTP 狀態碼，不會輸出 Bot Token。
+
+## 中文輸出與亂碼
+
+專案檔案使用 UTF-8。GitHub Actions 已設定 `PYTHONUTF8=1` 與 `PYTHONIOENCODING=utf-8`，`src/main.py` 也會在同步入口重新設定 stdout/stderr。
+
+如果在 Windows PowerShell 直接讀檔仍看到亂碼，通常是終端輸出編碼問題，可先執行：
+
+```powershell
+chcp 65001
+```

@@ -1,4 +1,5 @@
 import os
+import sys
 from time import perf_counter
 
 from dotenv import load_dotenv
@@ -10,6 +11,13 @@ from config_loader import load_category_config
 from notifier import notify_announcement_once
 from preview_writer import write_category_previews
 from scraper import fetch_university_announcements
+
+
+def configure_output_encoding():
+    for stream_name in ("stdout", "stderr"):
+        stream = getattr(sys, stream_name, None)
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8")
 
 
 def create_supabase_client():
@@ -102,6 +110,7 @@ def process_pending_announcements(supabase_client, pending_by_url: dict, categor
 
 
 def run_sync():
+    configure_output_encoding()
     sync_started_at = perf_counter()
     category_urls, category_labels, full_categories = load_category_config()
     supabase_client = create_supabase_client()
