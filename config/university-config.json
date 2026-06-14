@@ -2949,32 +2949,10 @@
         "pinned": ".sticky"
       }
     },
-    "gac_course": {
-      "label": "課程訊息",
-      "owner": "圖文傳播學系",
-      "url": "https://www.gac.ntnu.edu.tw/index.php/category/4/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
     "gac_honor": {
       "label": "榮譽榜",
       "owner": "圖文傳播學系",
       "url": "https://www.gac.ntnu.edu.tw/index.php/category/5/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "gac_submission": {
-      "label": "徵件訊息",
-      "owner": "圖文傳播學系",
-      "url": "https://www.gac.ntnu.edu.tw/index.php/category/6/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
         "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
@@ -3019,17 +2997,6 @@
       "label": "招生公告",
       "owner": "機電工程學系",
       "url": "https://www.me.ntnu.edu.tw/index.php/category/uncategorized/2/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "me_new_student": {
-      "label": "新生快訊",
-      "owner": "機電工程學系",
-      "url": "https://www.me.ntnu.edu.tw/index.php/category/uncategorized/4/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
         "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
@@ -3169,87 +3136,10 @@
         "pinned": ".sticky"
       }
     },
-    "ee_teacher_recruitment": {
-      "label": "徵聘教師",
-      "owner": "電機工程學系",
-      "url": "https://www.ee.ntnu.edu.tw/index.php/category/3/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "ee_admission": {
-      "label": "招生公告",
-      "owner": "電機工程學系",
-      "url": "https://www.ee.ntnu.edu.tw/index.php/category/2/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "ee_admission_bachelor": {
-      "label": "招生資訊-學士班",
-      "owner": "電機工程學系",
-      "url": "https://www.ee.ntnu.edu.tw/index.php/category/21/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "ee_admission_master": {
-      "label": "招生資訊-碩士班",
-      "owner": "電機工程學系",
-      "url": "https://www.ee.ntnu.edu.tw/index.php/category/22/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "ee_admission_phd": {
-      "label": "招生資訊-博士班",
-      "owner": "電機工程學系",
-      "url": "https://www.ee.ntnu.edu.tw/index.php/category/23/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
     "vee_news": {
       "label": "最新消息",
       "owner": "車輛與能源工程研究所暨學士學位學程",
       "url": "https://en.vee.ntnu.edu.tw/index.php/zh/category/category/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "vee_affairs": {
-      "label": "系所公告",
-      "owner": "車輛與能源工程研究所暨學士學位學程",
-      "url": "https://en.vee.ntnu.edu.tw/index.php/zh/category/category/1/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "vee_events": {
-      "label": "活動公告",
-      "owner": "車輛與能源工程研究所暨學士學位學程",
-      "url": "https://en.vee.ntnu.edu.tw/index.php/zh/category/category/2/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
         "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
@@ -7267,16 +7157,8 @@
                   "value": "gac_events"
                 },
                 {
-                  "name": "課程訊息",
-                  "value": "gac_course"
-                },
-                {
                   "name": "榮譽榜",
                   "value": "gac_honor"
-                },
-                {
-                  "name": "徵件訊息",
-                  "value": "gac_submission"
                 },
                 {
                   "name": "徵才訊息",
@@ -7299,10 +7181,6 @@
                 {
                   "name": "招生公告",
                   "value": "me_admission"
-                },
-                {
-                  "name": "新生快訊",
-                  "value": "me_new_student"
                 },
                 {
                   "name": "徵聘教師",
@@ -7357,26 +7235,6 @@
                 {
                   "name": "徵才/實習",
                   "value": "ee_recruitment"
-                },
-                {
-                  "name": "徵聘教師",
-                  "value": "ee_teacher_recruitment"
-                },
-                {
-                  "name": "招生公告",
-                  "value": "ee_admission"
-                },
-                {
-                  "name": "招生資訊-學士班",
-                  "value": "ee_admission_bachelor"
-                },
-                {
-                  "name": "招生資訊-碩士班",
-                  "value": "ee_admission_master"
-                },
-                {
-                  "name": "招生資訊-博士班",
-                  "value": "ee_admission_phd"
                 }
               ]
             },
@@ -7387,14 +7245,6 @@
                 {
                   "name": "最新消息",
                   "value": "vee_news"
-                },
-                {
-                  "name": "系所公告",
-                  "value": "vee_affairs"
-                },
-                {
-                  "name": "活動公告",
-                  "value": "vee_events"
                 }
               ]
             },
