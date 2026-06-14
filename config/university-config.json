@@ -3465,12 +3465,6 @@
       "url": "https://health.sa.ntnu.edu.tw/category/item/infectious-disease-prevention/",
       "selectorPreset": "wordpress_broad"
     },
-    "health_activity": {
-      "label": "活動訊息",
-      "owner": "健康中心",
-      "url": "https://health.sa.ntnu.edu.tw/%e6%9c%80%e6%96%b0%e6%b4%bb%e5%8b%95%e8%a8%8a%e6%81%af%e8%88%87%e5%a0%b1%e5%90%8d/",
-      "selectorPreset": "wordpress_broad"
-    },
     "acad_latest": {
       "label": "最新公告",
       "owner": "研究發展處",
@@ -3929,6 +3923,36 @@
       "owner": "課外活動指導組",
       "url": "https://activity.sa.ntnu.edu.tw/category/tri-ntu/",
       "selectorPreset": "ultimate_post_grid"
+    },
+    "health_body_checkup": {
+      "label": "體檢. 就醫",
+      "owner": "健康中心",
+      "url": "https://health.sa.ntnu.edu.tw/category/item/body-checkup/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "health_dietary_hygiene": {
+      "label": "膳食衛生",
+      "owner": "健康中心",
+      "url": "https://health.sa.ntnu.edu.tw/category/item/dietary-hygiene/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "health_promotion": {
+      "label": "健康促進議題",
+      "owner": "健康中心",
+      "url": "https://health.sa.ntnu.edu.tw/category/item/health-promotion/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "health_occupational_safety": {
+      "label": "職業安全衛生護理",
+      "owner": "健康中心",
+      "url": "https://health.sa.ntnu.edu.tw/category/item/occupational-safety/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "health_education": {
+      "label": "衛生教育",
+      "owner": "健康中心",
+      "url": "https://health.sa.ntnu.edu.tw/category/item/health-education/",
+      "selectorPreset": "wordpress_broad"
     }
   },
   "schema": [
@@ -4249,8 +4273,24 @@
                   "name": "傳染病防治"
                 },
                 {
-                  "value": "health_activity",
-                  "name": "活動訊息"
+                  "value": "health_body_checkup",
+                  "name": "體檢. 就醫"
+                },
+                {
+                  "value": "health_dietary_hygiene",
+                  "name": "膳食衛生"
+                },
+                {
+                  "value": "health_promotion",
+                  "name": "健康促進議題"
+                },
+                {
+                  "value": "health_occupational_safety",
+                  "name": "職業安全衛生護理"
+                },
+                {
+                  "value": "health_education",
+                  "name": "衛生教育"
                 }
               ]
             },
