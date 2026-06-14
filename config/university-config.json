@@ -4014,6 +4014,484 @@
         "article": "ul.article-list > li",
         "title_link": "a[href]"
       }
+    },
+    "musicollege_news": {
+      "label": "最新消息",
+      "owner": "音樂學院",
+      "url": "https://www.musicollege.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "musicollege_honor": {
+      "label": "傑出表現",
+      "owner": "音樂學院",
+      "url": "https://www.musicollege.ntnu.edu.tw/index.php/category/uncategorized/outstanding-performance/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "musicollege_performance": {
+      "label": "展演活動",
+      "owner": "音樂學院",
+      "url": "https://www.musicollege.ntnu.edu.tw/index.php/category/uncategorized/activities/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "musicollege_events": {
+      "label": "活動公告",
+      "owner": "音樂學院",
+      "url": "https://www.musicollege.ntnu.edu.tw/index.php/category/uncategorized/activity/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "musicollege_academic_visit": {
+      "label": "來校學術活動",
+      "owner": "音樂學院",
+      "url": "https://www.musicollege.ntnu.edu.tw/index.php/category/uncategorized/inpot/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "musicollege_seminar": {
+      "label": "學術研討會",
+      "owner": "音樂學院",
+      "url": "https://www.musicollege.ntnu.edu.tw/index.php/category/uncategorized/academic-seminar/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "musicollege_outbound": {
+      "label": "赴外交流活動",
+      "owner": "音樂學院",
+      "url": "https://www.musicollege.ntnu.edu.tw/index.php/category/uncategorized/output/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "musicollege_emi": {
+      "label": "EMI",
+      "owner": "音樂學院",
+      "url": "https://www.musicollege.ntnu.edu.tw/index.php/category/uncategorized/emi/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "musicollege_sdgs": {
+      "label": "SDGs成果",
+      "owner": "音樂學院",
+      "url": "https://www.musicollege.ntnu.edu.tw/index.php/category/uncategorized/sdgs/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "musicollege_dvap": {
+      "label": "數位影音藝術學分學程",
+      "owner": "音樂學院",
+      "url": "https://www.musicollege.ntnu.edu.tw/index.php/category/dvap/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "music_news": {
+      "label": "最新消息",
+      "owner": "音樂學系",
+      "url": "https://www.music.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "music_affairs": {
+      "label": "系所公告",
+      "owner": "音樂學系",
+      "url": "https://www.music.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "music_admission": {
+      "label": "招生公告",
+      "owner": "音樂學系",
+      "url": "https://www.music.ntnu.edu.tw/index.php/category/uncategorized/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "music_new_student": {
+      "label": "新生快訊",
+      "owner": "音樂學系",
+      "url": "https://www.music.ntnu.edu.tw/index.php/category/uncategorized/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "music_seminar": {
+      "label": "演講公告",
+      "owner": "音樂學系",
+      "url": "https://www.music.ntnu.edu.tw/index.php/category/uncategorized/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "music_competition": {
+      "label": "競賽活動",
+      "owner": "音樂學系",
+      "url": "https://www.music.ntnu.edu.tw/index.php/category/uncategorized/6/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "music_honor": {
+      "label": "榮譽榜",
+      "owner": "音樂學系",
+      "url": "https://www.music.ntnu.edu.tw/index.php/category/uncategorized/9/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "music_scholarship": {
+      "label": "獎學金",
+      "owner": "音樂學系",
+      "url": "https://www.music.ntnu.edu.tw/index.php/category/uncategorized/10/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "music_recruitment": {
+      "label": "徵才訊息",
+      "owner": "音樂學系",
+      "url": "https://www.music.ntnu.edu.tw/index.php/category/uncategorized/8/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "music_teacher_recruitment": {
+      "label": "徵聘教師",
+      "owner": "音樂學系",
+      "url": "https://www.music.ntnu.edu.tw/index.php/category/uncategorized/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "music_part_time": {
+      "label": "工讀訊息",
+      "owner": "音樂學系",
+      "url": "https://www.music.ntnu.edu.tw/index.php/category/uncategorized/7/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "bdppa_news": {
+      "label": "最新消息",
+      "owner": "表演藝術學士學位學程",
+      "url": "https://www.bdppa.ntnu.edu.tw/index.php/category/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "bdppa_affairs": {
+      "label": "學程公告",
+      "owner": "表演藝術學士學位學程",
+      "url": "https://www.bdppa.ntnu.edu.tw/index.php/category/1/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "bdppa_recruitment": {
+      "label": "徵才公告",
+      "owner": "表演藝術學士學位學程",
+      "url": "https://www.bdppa.ntnu.edu.tw/index.php/category/1/2-1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "bdppa_admission": {
+      "label": "招生訊息",
+      "owner": "表演藝術學士學位學程",
+      "url": "https://www.bdppa.ntnu.edu.tw/index.php/category/1/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "bdppa_academic": {
+      "label": "學術活動",
+      "owner": "表演藝術學士學位學程",
+      "url": "https://www.bdppa.ntnu.edu.tw/index.php/category/1/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "bdppa_performance": {
+      "label": "演出活動",
+      "owner": "表演藝術學士學位學程",
+      "url": "https://www.bdppa.ntnu.edu.tw/index.php/category/1/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "bdppa_scholarship": {
+      "label": "獎助學金",
+      "owner": "表演藝術學士學位學程",
+      "url": "https://www.bdppa.ntnu.edu.tw/index.php/category/1/6/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "bdppa_media": {
+      "label": "新聞露出",
+      "owner": "表演藝術學士學位學程",
+      "url": "https://www.bdppa.ntnu.edu.tw/index.php/category/1/7/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gipa_news": {
+      "label": "最新消息",
+      "owner": "表演藝術研究所",
+      "url": "https://www.gipa.ntnu.edu.tw/index.php/category/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gipa_affairs": {
+      "label": "系所公告",
+      "owner": "表演藝術研究所",
+      "url": "https://www.gipa.ntnu.edu.tw/index.php/category/1/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gipa_degree": {
+      "label": "學位考試/畢製",
+      "owner": "表演藝術研究所",
+      "url": "https://www.gipa.ntnu.edu.tw/index.php/category/1/16/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gipa_recruitment": {
+      "label": "徵才公告",
+      "owner": "表演藝術研究所",
+      "url": "https://www.gipa.ntnu.edu.tw/index.php/category/17/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gipa_admission": {
+      "label": "招生資訊",
+      "owner": "表演藝術研究所",
+      "url": "https://www.gipa.ntnu.edu.tw/index.php/category/1/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gipa_academic": {
+      "label": "學術活動",
+      "owner": "表演藝術研究所",
+      "url": "https://www.gipa.ntnu.edu.tw/index.php/category/1/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gipa_performance": {
+      "label": "演出活動",
+      "owner": "表演藝術研究所",
+      "url": "https://www.gipa.ntnu.edu.tw/index.php/category/1/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gipa_scholarship": {
+      "label": "獎助學金",
+      "owner": "表演藝術研究所",
+      "url": "https://www.gipa.ntnu.edu.tw/index.php/category/1/8/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gipa_media": {
+      "label": "新聞露出",
+      "owner": "表演藝術研究所",
+      "url": "https://www.gipa.ntnu.edu.tw/index.php/category/1/15/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "giem_news": {
+      "label": "最新消息",
+      "owner": "民族音樂研究所",
+      "url": "http://www.giem.ntnu.edu.tw/web/news/news.jsp",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "tr",
+        "title_link": "td a[href]"
+      }
+    },
+    "giem_focus": {
+      "label": "焦點新聞",
+      "owner": "民族音樂研究所",
+      "url": "http://www.giem.ntnu.edu.tw/web/news/news.jsp?dm_no=DM1601564054491",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "tr",
+        "title_link": "td a[href]"
+      }
+    },
+    "giem_affairs": {
+      "label": "系所公告",
+      "owner": "民族音樂研究所",
+      "url": "http://www.giem.ntnu.edu.tw/web/news/news.jsp?dm_no=DM1592987531774",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "tr",
+        "title_link": "td a[href]"
+      }
+    },
+    "giem_scholarship": {
+      "label": "獎補助金",
+      "owner": "民族音樂研究所",
+      "url": "http://www.giem.ntnu.edu.tw/web/news/news.jsp?dm_no=DM1598324487672",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "tr",
+        "title_link": "td a[href]"
+      }
+    },
+    "giem_recruitment": {
+      "label": "徵才徵稿",
+      "owner": "民族音樂研究所",
+      "url": "http://www.giem.ntnu.edu.tw/web/news/news.jsp?dm_no=DM1598324473954",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "tr",
+        "title_link": "td a[href]"
+      }
+    },
+    "giem_events": {
+      "label": "活動資訊",
+      "owner": "民族音樂研究所",
+      "url": "http://www.giem.ntnu.edu.tw/web/news/news.jsp?dm_no=DM1607092588704",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "tr",
+        "title_link": "td a[href]"
+      }
     }
   },
   "schema": [
@@ -6547,27 +7025,208 @@
         {
           "id": "l2-musicollege",
           "name": "音樂學院",
-          "channels": [],
+          "channels": [
+            {
+              "name": "最新消息",
+              "value": "musicollege_news"
+            },
+            {
+              "name": "傑出表現",
+              "value": "musicollege_honor"
+            },
+            {
+              "name": "展演活動",
+              "value": "musicollege_performance"
+            },
+            {
+              "name": "活動公告",
+              "value": "musicollege_events"
+            },
+            {
+              "name": "來校學術活動",
+              "value": "musicollege_academic_visit"
+            },
+            {
+              "name": "學術研討會",
+              "value": "musicollege_seminar"
+            },
+            {
+              "name": "赴外交流活動",
+              "value": "musicollege_outbound"
+            },
+            {
+              "name": "EMI",
+              "value": "musicollege_emi"
+            },
+            {
+              "name": "SDGs成果",
+              "value": "musicollege_sdgs"
+            },
+            {
+              "name": "數位影音藝術學分學程",
+              "value": "musicollege_dvap"
+            }
+          ],
           "subUnits": [
             {
               "id": "l3-music",
               "name": "音樂學系",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "music_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "music_affairs"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "music_admission"
+                },
+                {
+                  "name": "新生快訊",
+                  "value": "music_new_student"
+                },
+                {
+                  "name": "演講公告",
+                  "value": "music_seminar"
+                },
+                {
+                  "name": "競賽活動",
+                  "value": "music_competition"
+                },
+                {
+                  "name": "榮譽榜",
+                  "value": "music_honor"
+                },
+                {
+                  "name": "獎學金",
+                  "value": "music_scholarship"
+                },
+                {
+                  "name": "徵才訊息",
+                  "value": "music_recruitment"
+                },
+                {
+                  "name": "徵聘教師",
+                  "value": "music_teacher_recruitment"
+                },
+                {
+                  "name": "工讀訊息",
+                  "value": "music_part_time"
+                }
+              ]
             },
             {
               "id": "l3-bdppa",
               "name": "表演藝術學士學位學程",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "bdppa_news"
+                },
+                {
+                  "name": "學程公告",
+                  "value": "bdppa_affairs"
+                },
+                {
+                  "name": "徵才公告",
+                  "value": "bdppa_recruitment"
+                },
+                {
+                  "name": "招生訊息",
+                  "value": "bdppa_admission"
+                },
+                {
+                  "name": "學術活動",
+                  "value": "bdppa_academic"
+                },
+                {
+                  "name": "演出活動",
+                  "value": "bdppa_performance"
+                },
+                {
+                  "name": "獎助學金",
+                  "value": "bdppa_scholarship"
+                },
+                {
+                  "name": "新聞露出",
+                  "value": "bdppa_media"
+                }
+              ]
             },
             {
               "id": "l3-gipa",
               "name": "表演藝術研究所",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "gipa_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "gipa_affairs"
+                },
+                {
+                  "name": "學位考試/畢製",
+                  "value": "gipa_degree"
+                },
+                {
+                  "name": "徵才公告",
+                  "value": "gipa_recruitment"
+                },
+                {
+                  "name": "招生資訊",
+                  "value": "gipa_admission"
+                },
+                {
+                  "name": "學術活動",
+                  "value": "gipa_academic"
+                },
+                {
+                  "name": "演出活動",
+                  "value": "gipa_performance"
+                },
+                {
+                  "name": "獎助學金",
+                  "value": "gipa_scholarship"
+                },
+                {
+                  "name": "新聞露出",
+                  "value": "gipa_media"
+                }
+              ]
             },
             {
               "id": "l3-giem",
               "name": "民族音樂研究所",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "giem_news"
+                },
+                {
+                  "name": "焦點新聞",
+                  "value": "giem_focus"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "giem_affairs"
+                },
+                {
+                  "name": "獎補助金",
+                  "value": "giem_scholarship"
+                },
+                {
+                  "name": "徵才徵稿",
+                  "value": "giem_recruitment"
+                },
+                {
+                  "name": "活動資訊",
+                  "value": "giem_events"
+                }
+              ]
             }
           ]
         },
