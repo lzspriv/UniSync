@@ -94,3 +94,15 @@ GRANT EXECUTE ON FUNCTION public.get_user_feed(uuid, integer, integer, integer, 
 ```
 
 RPC 內部仍需保留 `auth.uid() = p_user_id` 檢查，避免使用者用別人的 `user_id` 讀取訂閱動態。
+
+## Telegram 測試通知
+
+設定 Telegram 後，可以先用本機測試腳本確認 Bot Token 與 Chat ID 是否可用：
+
+```powershell
+$env:TELEGRAM_BOT_TOKEN="你的 Bot Token"
+$env:TELEGRAM_CHAT_ID="你的 Chat ID"
+C:\Users\lzspr\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe scripts\test_telegram_notification.py
+```
+
+腳本只會在 log 顯示成功或 HTTP 狀態碼，不會輸出 Bot Token。
