@@ -3761,6 +3761,90 @@
       "owner": "文物保存維護研究發展中心",
       "url": "https://rcccr.ntnu.edu.tw/news/",
       "selectorPreset": "rcccr_content_item"
+    },
+    "assistance_admin": {
+      "label": "行政公告",
+      "owner": "生活輔導組",
+      "url": "https://assistance.sa.ntnu.edu.tw/category/new-1/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "assistance_publicity": {
+      "label": "宣導事項",
+      "owner": "生活輔導組",
+      "url": "https://assistance.sa.ntnu.edu.tw/category/new-2/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "activity_news": {
+      "label": "最新消息",
+      "owner": "課外活動指導組",
+      "url": "https://activity.sa.ntnu.edu.tw/news/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "holistic_news": {
+      "label": "最新消息",
+      "owner": "社會實踐中心",
+      "url": "https://holistic.sa.ntnu.edu.tw/category/news/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "counselor_announce": {
+      "label": "行政公告",
+      "owner": "專責導師室",
+      "url": "https://counselor.sa.ntnu.edu.tw/category/announce/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "counselor_activity": {
+      "label": "活動訊息",
+      "owner": "專責導師室",
+      "url": "https://counselor.sa.ntnu.edu.tw/category/activity/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "honorscollege_announce": {
+      "label": "最新消息",
+      "owner": "公館校區學務組",
+      "url": "https://honorscollege.sa.ntnu.edu.tw/category/announce/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "honorscollege_rent": {
+      "label": "校外賃居",
+      "owner": "公館校區學務組",
+      "url": "https://honorscollege.sa.ntnu.edu.tw/category/rent/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "honorscollege_activity": {
+      "label": "活動訊息",
+      "owner": "公館校區學務組",
+      "url": "https://honorscollege.sa.ntnu.edu.tw/category/activity/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "isrc_announce": {
+      "label": "行政公告",
+      "owner": "原住民族學生資源中心",
+      "url": "https://isrc.sa.ntnu.edu.tw/category/announce/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "isrc_activity": {
+      "label": "活動訊息",
+      "owner": "原住民族學生資源中心",
+      "url": "https://isrc.sa.ntnu.edu.tw/category/activity/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "isrc_school_activity": {
+      "label": "原資中心活動",
+      "owner": "原住民族學生資源中心",
+      "url": "https://isrc.sa.ntnu.edu.tw/category/school-act/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "isrc_results": {
+      "label": "各項活動成果",
+      "owner": "原住民族學生資源中心",
+      "url": "https://isrc.sa.ntnu.edu.tw/category/item3/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "isrc_scholarship": {
+      "label": "獎助學金資訊",
+      "owner": "原住民族學生資源中心",
+      "url": "https://isrc.sa.ntnu.edu.tw/category/item4/",
+      "selectorPreset": "ultimate_post_grid"
     }
   },
   "schema": [
@@ -3999,6 +4083,108 @@
           "name": "學生事務處",
           "subUnits": [
             {
+              "id": "l3-life-guidance-section",
+              "name": "生活輔導組",
+              "channels": [
+                {
+                  "value": "assistance_admin",
+                  "name": "行政公告"
+                },
+                {
+                  "value": "assistance_publicity",
+                  "name": "宣導事項"
+                }
+              ]
+            },
+            {
+              "id": "l3-extracurricular-activities-section",
+              "name": "課外活動指導組",
+              "channels": [
+                {
+                  "value": "activity_news",
+                  "name": "最新消息"
+                }
+              ]
+            },
+            {
+              "id": "l3-student-counseling-center",
+              "name": "學生輔導中心",
+              "channels": [
+                {
+                  "value": "counseling_news",
+                  "name": "最新消息"
+                },
+                {
+                  "value": "counseling_activity",
+                  "name": "活動訊息"
+                },
+                {
+                  "value": "counseling_administration",
+                  "name": "行政公告"
+                }
+              ]
+            },
+            {
+              "id": "l3-health-center",
+              "name": "健康中心",
+              "channels": [
+                {
+                  "value": "health_announce",
+                  "name": "最新消息"
+                },
+                {
+                  "value": "health_infectious",
+                  "name": "傳染病防治"
+                },
+                {
+                  "value": "health_activity",
+                  "name": "活動訊息"
+                }
+              ]
+            },
+            {
+              "id": "l3-holistic-education-center",
+              "name": "社會實踐中心",
+              "channels": [
+                {
+                  "value": "holistic_news",
+                  "name": "最新消息"
+                }
+              ]
+            },
+            {
+              "id": "l3-dedicated-mentor-office",
+              "name": "專責導師室",
+              "channels": [
+                {
+                  "value": "counselor_announce",
+                  "name": "行政公告"
+                },
+                {
+                  "value": "counselor_activity",
+                  "name": "活動訊息"
+                }
+              ]
+            },
+            {
+              "id": "l3-gongguan-student-affairs-section",
+              "name": "公館校區學務組",
+              "channels": [
+                {
+                  "value": "honorscollege_announce",
+                  "name": "最新消息"
+                },
+                {
+                  "value": "honorscollege_rent",
+                  "name": "校外賃居"
+                },
+                {
+                  "value": "honorscollege_activity",
+                  "name": "活動訊息"
+                }
+              ]
+            },
+            {
               "id": "l3-career-development-center",
               "name": "職涯發展中心",
               "channels": [
@@ -4037,22 +4223,9 @@
               ]
             },
             {
-              "id": "l3-student-counseling-center",
-              "name": "學生輔導中心",
-              "channels": [
-                {
-                  "value": "counseling_news",
-                  "name": "最新消息"
-                },
-                {
-                  "value": "counseling_activity",
-                  "name": "活動訊息"
-                },
-                {
-                  "value": "counseling_administration",
-                  "name": "行政公告"
-                }
-              ]
+              "id": "l3-community-counseling-center",
+              "name": "社區諮商中心",
+              "channels": []
             },
             {
               "id": "l3-student-housing-service-center",
@@ -4065,32 +4238,30 @@
               ]
             },
             {
-              "id": "l3-dedicated-mentor-office",
-              "name": "專責導師室",
-              "channels": []
-            },
-            {
-              "id": "l3-health-center",
-              "name": "健康中心",
+              "id": "l3-indigenous-student-resource-center",
+              "name": "原住民族學生資源中心",
               "channels": [
                 {
-                  "value": "health_announce",
-                  "name": "最新消息"
+                  "value": "isrc_announce",
+                  "name": "行政公告"
                 },
                 {
-                  "value": "health_infectious",
-                  "name": "傳染病防治"
-                },
-                {
-                  "value": "health_activity",
+                  "value": "isrc_activity",
                   "name": "活動訊息"
+                },
+                {
+                  "value": "isrc_school_activity",
+                  "name": "原資中心活動"
+                },
+                {
+                  "value": "isrc_results",
+                  "name": "各項活動成果"
+                },
+                {
+                  "value": "isrc_scholarship",
+                  "name": "獎助學金資訊"
                 }
               ]
-            },
-            {
-              "id": "l3-community-counseling-center",
-              "name": "社區諮商中心",
-              "channels": []
             }
           ]
         },
