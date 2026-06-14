@@ -4434,7 +4434,7 @@
       "label": "最新消息",
       "owner": "體育研究與發展中心",
       "url": "https://www.perdc.ntnu.edu.tw/zh_tw/News?category%5B%5D=all&tags%5B%5D=all",
-      "selectorPreset": "oen_annc_table"
+      "selectorPreset": "oen_annc_list"
     },
     "cltc_news": {
       "label": "最新消息",
