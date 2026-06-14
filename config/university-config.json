@@ -4492,6 +4492,622 @@
         "article": "tr",
         "title_link": "td a[href]"
       }
+    },
+    "ciss_news": {
+      "label": "最新消息",
+      "owner": "國際與社會科學學院",
+      "url": "https://www.ciss.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ciss_affairs": {
+      "label": "院務公告",
+      "owner": "國際與社會科學學院",
+      "url": "https://www.ciss.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ciss_outbound": {
+      "label": "赴外交流",
+      "owner": "國際與社會科學學院",
+      "url": "https://www.ciss.ntnu.edu.tw/index.php/category/uncategorized/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ciss_events": {
+      "label": "活動公告",
+      "owner": "國際與社會科學學院",
+      "url": "https://www.ciss.ntnu.edu.tw/index.php/category/uncategorized/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ciss_honor": {
+      "label": "師生榮譽",
+      "owner": "國際與社會科學學院",
+      "url": "https://www.ciss.ntnu.edu.tw/index.php/category/uncategorized/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ciss_scholarship": {
+      "label": "獎助學金",
+      "owner": "國際與社會科學學院",
+      "url": "https://www.ciss.ntnu.edu.tw/index.php/category/uncategorized/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ciss_bilingual": {
+      "label": "雙語教育",
+      "owner": "國際與社會科學學院",
+      "url": "https://www.ciss.ntnu.edu.tw/index.php/category/uncategorized/bilingual-education/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tcsl_news": {
+      "label": "最新消息",
+      "owner": "華語文教學系",
+      "url": "https://www.tcsl.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tcsl_affairs": {
+      "label": "系務教務",
+      "owner": "華語文教學系",
+      "url": "https://www.tcsl.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tcsl_international": {
+      "label": "國際交流",
+      "owner": "華語文教學系",
+      "url": "https://www.tcsl.ntnu.edu.tw/index.php/category/uncategorized/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tcsl_academic": {
+      "label": "學術活動",
+      "owner": "華語文教學系",
+      "url": "https://www.tcsl.ntnu.edu.tw/index.php/category/uncategorized/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tcsl_teacher_training": {
+      "label": "師資培育",
+      "owner": "華語文教學系",
+      "url": "https://www.tcsl.ntnu.edu.tw/index.php/category/uncategorized/7/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tcsl_recruitment": {
+      "label": "徵才公告",
+      "owner": "華語文教學系",
+      "url": "https://www.tcsl.ntnu.edu.tw/index.php/category/uncategorized/10/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tcsl_extension": {
+      "label": "推廣教育",
+      "owner": "華語文教學系",
+      "url": "https://www.tcsl.ntnu.edu.tw/index.php/category/edu/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tcsl_honor": {
+      "label": "榮譽事項",
+      "owner": "華語文教學系",
+      "url": "https://www.tcsl.ntnu.edu.tw/index.php/category/uncategorized/6/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tcsl_events": {
+      "label": "活動訊息",
+      "owner": "華語文教學系",
+      "url": "https://www.tcsl.ntnu.edu.tw/index.php/category/uncategorized/8/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tcsl_related_news": {
+      "label": "相關新聞",
+      "owner": "華語文教學系",
+      "url": "https://www.tcsl.ntnu.edu.tw/index.php/category/uncategorized/news/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "pgs_news": {
+      "label": "最新消息",
+      "owner": "全球研究全英語學士學位學程",
+      "url": "https://www.pgs.ntnu.edu.tw/index.php/zh/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "pgs_affairs": {
+      "label": "學程公告",
+      "owner": "全球研究全英語學士學位學程",
+      "url": "https://www.pgs.ntnu.edu.tw/index.php/zh/category/uncategorized/board-zh-zh/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "pgs_admission": {
+      "label": "招生公告",
+      "owner": "全球研究全英語學士學位學程",
+      "url": "https://www.pgs.ntnu.edu.tw/index.php/zh/category/uncategorized/admissions-zh/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "mcom_news": {
+      "label": "最新消息",
+      "owner": "大眾傳播研究所",
+      "url": "https://www.mcom.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "mcom_admin": {
+      "label": "行政公告",
+      "owner": "大眾傳播研究所",
+      "url": "https://www.mcom.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "mcom_admission": {
+      "label": "招生資訊",
+      "owner": "大眾傳播研究所",
+      "url": "https://www.mcom.ntnu.edu.tw/index.php/category/uncategorized/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "mcom_academic": {
+      "label": "學術活動",
+      "owner": "大眾傳播研究所",
+      "url": "https://www.mcom.ntnu.edu.tw/index.php/category/uncategorized/7/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "mcom_program": {
+      "label": "學分學程",
+      "owner": "大眾傳播研究所",
+      "url": "https://www.mcom.ntnu.edu.tw/index.php/category/uncategorized/8/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ihrd_news": {
+      "label": "最新消息",
+      "owner": "國際人力資源發展研究所",
+      "url": "https://www.ihrd.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ihrd_affairs": {
+      "label": "系所公告",
+      "owner": "國際人力資源發展研究所",
+      "url": "https://www.ihrd.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ihrd_admission": {
+      "label": "招生公告",
+      "owner": "國際人力資源發展研究所",
+      "url": "https://www.ihrd.ntnu.edu.tw/index.php/category/uncategorized/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ihrd_recruitment": {
+      "label": "徵才資訊",
+      "owner": "國際人力資源發展研究所",
+      "url": "https://www.ihrd.ntnu.edu.tw/index.php/category/uncategorized/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ihrd_honor": {
+      "label": "師生榮耀",
+      "owner": "國際人力資源發展研究所",
+      "url": "https://www.ihrd.ntnu.edu.tw/index.php/category/uncategorized/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ihrd_academic": {
+      "label": "學術活動",
+      "owner": "國際人力資源發展研究所",
+      "url": "https://www.ihrd.ntnu.edu.tw/index.php/category/uncategorized/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "giect_news": {
+      "label": "最新消息",
+      "owner": "歐洲文化與觀光研究所",
+      "url": "https://www.giect.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "giect_academic": {
+      "label": "學術動態",
+      "owner": "歐洲文化與觀光研究所",
+      "url": "https://www.giect.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "giect_admission": {
+      "label": "招生資訊",
+      "owner": "歐洲文化與觀光研究所",
+      "url": "https://www.giect.ntnu.edu.tw/index.php/category/uncategorized/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "giect_student_affairs": {
+      "label": "教務/學務",
+      "owner": "歐洲文化與觀光研究所",
+      "url": "https://www.giect.ntnu.edu.tw/index.php/category/uncategorized/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "giect_honor": {
+      "label": "榮譽事蹟",
+      "owner": "歐洲文化與觀光研究所",
+      "url": "https://www.giect.ntnu.edu.tw/index.php/category/uncategorized/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "giect_program": {
+      "label": "歐語學程",
+      "owner": "歐洲文化與觀光研究所",
+      "url": "https://www.giect.ntnu.edu.tw/index.php/category/uncategorized/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "giect_column": {
+      "label": "歐洲二三事專欄",
+      "owner": "歐洲文化與觀光研究所",
+      "url": "https://www.giect.ntnu.edu.tw/index.php/category/6/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "deas_news": {
+      "label": "所有消息",
+      "owner": "東亞學系 (含政治所)",
+      "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2",
+      "selectors": {
+        "article": "table.table tbody tr",
+        "title_link": "td a[href*=\"news02=\"]",
+        "date": "th:nth-of-type(2)",
+        "pinned": ".badge"
+      }
+    },
+    "deas_affairs": {
+      "label": "系所公告",
+      "owner": "東亞學系 (含政治所)",
+      "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=%E7%B3%BB%E6%89%80%E5%85%AC%E5%91%8A",
+      "selectors": {
+        "article": "table.table tbody tr",
+        "title_link": "td a[href*=\"news02=\"]",
+        "date": "th:nth-of-type(2)",
+        "pinned": ".badge"
+      }
+    },
+    "deas_admission": {
+      "label": "招生公告",
+      "owner": "東亞學系 (含政治所)",
+      "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=%E6%8B%9B%E7%94%9F%E5%85%AC%E5%91%8A",
+      "selectors": {
+        "article": "table.table tbody tr",
+        "title_link": "td a[href*=\"news02=\"]",
+        "date": "th:nth-of-type(2)",
+        "pinned": ".badge"
+      }
+    },
+    "deas_events": {
+      "label": "本系活動與演講",
+      "owner": "東亞學系 (含政治所)",
+      "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=%E6%9C%AC%E7%B3%BB%E6%B4%BB%E5%8B%95%E8%88%87%E6%BC%94%E8%AC%9B",
+      "selectors": {
+        "article": "table.table tbody tr",
+        "title_link": "td a[href*=\"news02=\"]",
+        "date": "th:nth-of-type(2)",
+        "pinned": ".badge"
+      }
+    },
+    "deas_bachelor": {
+      "label": "學士班",
+      "owner": "東亞學系 (含政治所)",
+      "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=%E5%AD%B8%E5%A3%AB%E7%8F%AD",
+      "selectors": {
+        "article": "table.table tbody tr",
+        "title_link": "td a[href*=\"news02=\"]",
+        "date": "th:nth-of-type(2)",
+        "pinned": ".badge"
+      }
+    },
+    "deas_graduate": {
+      "label": "碩博士班",
+      "owner": "東亞學系 (含政治所)",
+      "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=%E7%A2%A9%E5%8D%9A%E5%A3%AB%E7%8F%AD",
+      "selectors": {
+        "article": "table.table tbody tr",
+        "title_link": "td a[href*=\"news02=\"]",
+        "date": "th:nth-of-type(2)",
+        "pinned": ".badge"
+      }
+    },
+    "deas_scholarship": {
+      "label": "獎勵補助",
+      "owner": "東亞學系 (含政治所)",
+      "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=%E7%8D%8E%E5%8B%B5%E8%A3%9C%E5%8A%A9",
+      "selectors": {
+        "article": "table.table tbody tr",
+        "title_link": "td a[href*=\"news02=\"]",
+        "date": "th:nth-of-type(2)",
+        "pinned": ".badge"
+      }
+    },
+    "deas_academic": {
+      "label": "學界動態",
+      "owner": "東亞學系 (含政治所)",
+      "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=%E5%AD%B8%E7%95%8C%E5%8B%95%E6%85%8B",
+      "selectors": {
+        "article": "table.table tbody tr",
+        "title_link": "td a[href*=\"news02=\"]",
+        "date": "th:nth-of-type(2)",
+        "pinned": ".badge"
+      }
+    },
+    "deas_honor": {
+      "label": "傑出表現",
+      "owner": "東亞學系 (含政治所)",
+      "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=%E5%82%91%E5%87%BA%E8%A1%A8%E7%8F%BE",
+      "selectors": {
+        "article": "table.table tbody tr",
+        "title_link": "td a[href*=\"news02=\"]",
+        "date": "th:nth-of-type(2)",
+        "pinned": ".badge"
+      }
+    },
+    "politics_affairs": {
+      "label": "政治所-系所公告",
+      "owner": "東亞學系 (含政治所)",
+      "url": "https://www.politics.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "sw_affairs": {
+      "label": "所務公告",
+      "owner": "社會工作學研究所",
+      "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=",
+      "selectors": {
+        "article": "tr",
+        "title_link": "td:nth-of-type(2) a[href*=\"Sn=\"]",
+        "date": "td:nth-of-type(3)",
+        "pinned": ".label-top"
+      }
+    },
+    "sw_speech": {
+      "label": "本所活動演講",
+      "owner": "社會工作學研究所",
+      "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Speech/News.aspx?id=jkgBr1zqgsk=",
+      "selectors": {
+        "article": "tr",
+        "title_link": "td:nth-of-type(2) a[href*=\"Sn=\"]",
+        "date": "td:nth-of-type(3)",
+        "pinned": ".label-top"
+      }
+    },
+    "sw_admission": {
+      "label": "招生訊息",
+      "owner": "社會工作學研究所",
+      "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Admission/News.aspx?id=PrPAeVbJgjo=",
+      "selectors": {
+        "article": "tr",
+        "title_link": "td:nth-of-type(2) a[href*=\"Sn=\"]",
+        "date": "td:nth-of-type(3)",
+        "pinned": ".label-top"
+      }
+    },
+    "sw_paper_exam": {
+      "label": "論文考試資訊",
+      "owner": "社會工作學研究所",
+      "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-PaperExam/News.aspx?id=RbtCbgqudXM=",
+      "selectors": {
+        "article": "tr",
+        "title_link": "td:nth-of-type(2) a[href*=\"Sn=\"]",
+        "date": "td:nth-of-type(3)",
+        "pinned": ".label-top"
+      }
+    },
+    "sw_scholarship": {
+      "label": "獎學金公告",
+      "owner": "社會工作學研究所",
+      "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Sholarship/News.aspx?id=7KShBTi6PLM=",
+      "selectors": {
+        "article": "tr",
+        "title_link": "td:nth-of-type(2) a[href*=\"Sn=\"]",
+        "date": "td:nth-of-type(3)",
+        "pinned": ".label-top"
+      }
+    },
+    "sw_internship": {
+      "label": "實習訊息",
+      "owner": "社會工作學研究所",
+      "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Intern/News.aspx?id=9kvKyFQwyY8=",
+      "selectors": {
+        "article": "tr",
+        "title_link": "td:nth-of-type(2) a[href*=\"Sn=\"]",
+        "date": "td:nth-of-type(3)",
+        "pinned": ".label-top"
+      }
+    },
+    "sw_other_speech": {
+      "label": "其他活動演講",
+      "owner": "社會工作學研究所",
+      "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-OtherSpeech/News.aspx?id=uiHdRYIUPjE=",
+      "selectors": {
+        "article": "tr",
+        "title_link": "td:nth-of-type(2) a[href*=\"Sn=\"]",
+        "date": "td:nth-of-type(3)",
+        "pinned": ".label-top"
+      }
+    },
+    "sw_recruitment": {
+      "label": "徵才資訊",
+      "owner": "社會工作學研究所",
+      "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=",
+      "selectors": {
+        "article": "tr",
+        "title_link": "td:nth-of-type(2) a[href*=\"Sn=\"]",
+        "date": "td:nth-of-type(3)",
+        "pinned": ".label-top"
+      }
     }
   },
   "schema": [
@@ -7233,42 +7849,274 @@
         {
           "id": "l2-ciss",
           "name": "國際與社會科學學院",
-          "channels": [],
+          "channels": [
+            {
+              "name": "最新消息",
+              "value": "ciss_news"
+            },
+            {
+              "name": "院務公告",
+              "value": "ciss_affairs"
+            },
+            {
+              "name": "赴外交流",
+              "value": "ciss_outbound"
+            },
+            {
+              "name": "活動公告",
+              "value": "ciss_events"
+            },
+            {
+              "name": "師生榮譽",
+              "value": "ciss_honor"
+            },
+            {
+              "name": "獎助學金",
+              "value": "ciss_scholarship"
+            },
+            {
+              "name": "雙語教育",
+              "value": "ciss_bilingual"
+            }
+          ],
           "subUnits": [
             {
               "id": "l3-tcsl",
               "name": "華語文教學系",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "tcsl_news"
+                },
+                {
+                  "name": "系務教務",
+                  "value": "tcsl_affairs"
+                },
+                {
+                  "name": "國際交流",
+                  "value": "tcsl_international"
+                },
+                {
+                  "name": "學術活動",
+                  "value": "tcsl_academic"
+                },
+                {
+                  "name": "師資培育",
+                  "value": "tcsl_teacher_training"
+                },
+                {
+                  "name": "徵才公告",
+                  "value": "tcsl_recruitment"
+                },
+                {
+                  "name": "推廣教育",
+                  "value": "tcsl_extension"
+                },
+                {
+                  "name": "榮譽事項",
+                  "value": "tcsl_honor"
+                },
+                {
+                  "name": "活動訊息",
+                  "value": "tcsl_events"
+                },
+                {
+                  "name": "相關新聞",
+                  "value": "tcsl_related_news"
+                }
+              ]
             },
             {
               "id": "l3-deas",
               "name": "東亞學系 (含政治所)",
-              "channels": []
+              "channels": [
+                {
+                  "name": "所有消息",
+                  "value": "deas_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "deas_affairs"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "deas_admission"
+                },
+                {
+                  "name": "本系活動與演講",
+                  "value": "deas_events"
+                },
+                {
+                  "name": "學士班",
+                  "value": "deas_bachelor"
+                },
+                {
+                  "name": "碩博士班",
+                  "value": "deas_graduate"
+                },
+                {
+                  "name": "獎勵補助",
+                  "value": "deas_scholarship"
+                },
+                {
+                  "name": "學界動態",
+                  "value": "deas_academic"
+                },
+                {
+                  "name": "傑出表現",
+                  "value": "deas_honor"
+                },
+                {
+                  "name": "政治所-系所公告",
+                  "value": "politics_affairs"
+                }
+              ]
             },
             {
               "id": "l3-pgs",
               "name": "全球研究全英語學士學位學程",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "pgs_news"
+                },
+                {
+                  "name": "學程公告",
+                  "value": "pgs_affairs"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "pgs_admission"
+                }
+              ]
             },
             {
               "id": "l3-mcom",
               "name": "大眾傳播研究所",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "mcom_news"
+                },
+                {
+                  "name": "行政公告",
+                  "value": "mcom_admin"
+                },
+                {
+                  "name": "招生資訊",
+                  "value": "mcom_admission"
+                },
+                {
+                  "name": "學術活動",
+                  "value": "mcom_academic"
+                },
+                {
+                  "name": "學分學程",
+                  "value": "mcom_program"
+                }
+              ]
             },
             {
               "id": "l3-ihrd",
               "name": "國際人力資源發展研究所",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "ihrd_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "ihrd_affairs"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "ihrd_admission"
+                },
+                {
+                  "name": "徵才資訊",
+                  "value": "ihrd_recruitment"
+                },
+                {
+                  "name": "師生榮耀",
+                  "value": "ihrd_honor"
+                },
+                {
+                  "name": "學術活動",
+                  "value": "ihrd_academic"
+                }
+              ]
             },
             {
               "id": "l3-sw",
               "name": "社會工作學研究所",
-              "channels": []
+              "channels": [
+                {
+                  "name": "所務公告",
+                  "value": "sw_affairs"
+                },
+                {
+                  "name": "本所活動演講",
+                  "value": "sw_speech"
+                },
+                {
+                  "name": "招生訊息",
+                  "value": "sw_admission"
+                },
+                {
+                  "name": "論文考試資訊",
+                  "value": "sw_paper_exam"
+                },
+                {
+                  "name": "獎學金公告",
+                  "value": "sw_scholarship"
+                },
+                {
+                  "name": "實習訊息",
+                  "value": "sw_internship"
+                },
+                {
+                  "name": "其他活動演講",
+                  "value": "sw_other_speech"
+                },
+                {
+                  "name": "徵才資訊",
+                  "value": "sw_recruitment"
+                }
+              ]
             },
             {
               "id": "l3-giect",
               "name": "歐洲文化與觀光研究所",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "giect_news"
+                },
+                {
+                  "name": "學術動態",
+                  "value": "giect_academic"
+                },
+                {
+                  "name": "招生資訊",
+                  "value": "giect_admission"
+                },
+                {
+                  "name": "教務/學務",
+                  "value": "giect_student_affairs"
+                },
+                {
+                  "name": "榮譽事蹟",
+                  "value": "giect_honor"
+                },
+                {
+                  "name": "歐語學程",
+                  "value": "giect_program"
+                },
+                {
+                  "name": "歐洲二三事專欄",
+                  "value": "giect_column"
+                }
+              ]
             }
           ]
         },
