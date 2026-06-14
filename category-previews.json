@@ -25256,5 +25256,49 @@
   "ceri_tank_digital_learning": {
     "label": "數位學習",
     "announcements": []
+  },
+  "ime_teacher_training": {
+    "label": "教師培訓",
+    "announcements": []
+  },
+  "ime_student_learning": {
+    "label": "學生學習活動",
+    "announcements": []
+  },
+  "ime_easy_think": {
+    "label": "易思＋思易",
+    "announcements": []
+  },
+  "ime_junior_adaptive_grouping": {
+    "label": "國中適性分組",
+    "announcements": []
+  },
+  "ime_adaptive_transition": {
+    "label": "適性轉銜輔導",
+    "announcements": []
+  },
+  "ime_cmsmaa": {
+    "label": "數學科學應用",
+    "announcements": []
+  },
+  "ime_girls_science": {
+    "label": "女學生科學",
+    "announcements": []
+  },
+  "ime_yan_xiaomei": {
+    "label": "閻小妹",
+    "announcements": []
+  },
+  "ime_icag": {
+    "label": "iCAG天文幾何",
+    "announcements": []
+  },
+  "ime_media_share": {
+    "label": "傳媒分享",
+    "announcements": []
+  },
+  "ime_academic_exchange": {
+    "label": "學術交流",
+    "announcements": []
   }
 }

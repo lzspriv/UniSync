@@ -4743,6 +4743,72 @@
       "owner": "教育研究與創新中心",
       "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-12",
       "selectorPreset": "wordpress_broad"
+    },
+    "ime_teacher_training": {
+      "label": "教師培訓",
+      "owner": "數學教育中心",
+      "url": "https://www.ime.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ime_student_learning": {
+      "label": "學生學習活動",
+      "owner": "數學教育中心",
+      "url": "https://www.ime.ntnu.edu.tw/index.php/category/uncategorized/2/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ime_easy_think": {
+      "label": "易思＋思易",
+      "owner": "數學教育中心",
+      "url": "https://www.ime.ntnu.edu.tw/index.php/category/uncategorized/4/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ime_junior_adaptive_grouping": {
+      "label": "國中適性分組",
+      "owner": "數學教育中心",
+      "url": "https://www.ime.ntnu.edu.tw/index.php/category/uncategorized/7/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ime_adaptive_transition": {
+      "label": "適性轉銜輔導",
+      "owner": "數學教育中心",
+      "url": "https://www.ime.ntnu.edu.tw/index.php/category/uncategorized/9/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ime_cmsmaa": {
+      "label": "數學科學應用",
+      "owner": "數學教育中心",
+      "url": "https://www.ime.ntnu.edu.tw/index.php/category/uncategorized/cmsmaa/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ime_girls_science": {
+      "label": "女學生科學",
+      "owner": "數學教育中心",
+      "url": "https://www.ime.ntnu.edu.tw/index.php/category/uncategorized/girls/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ime_yan_xiaomei": {
+      "label": "閻小妹",
+      "owner": "數學教育中心",
+      "url": "https://www.ime.ntnu.edu.tw/index.php/category/uncategorized/y/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ime_icag": {
+      "label": "iCAG天文幾何",
+      "owner": "數學教育中心",
+      "url": "https://www.ime.ntnu.edu.tw/index.php/category/uncategorized/icag/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ime_media_share": {
+      "label": "傳媒分享",
+      "owner": "數學教育中心",
+      "url": "https://www.ime.ntnu.edu.tw/index.php/category/uncategorized/news/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ime_academic_exchange": {
+      "label": "學術交流",
+      "owner": "數學教育中心",
+      "url": "https://www.ime.ntnu.edu.tw/index.php/category/uncategorized/x/",
+      "selectorPreset": "wordpress_broad"
     }
   },
   "schema": [
@@ -6031,7 +6097,52 @@
                 {
                   "id": "l4-math-education-center",
                   "name": "數學教育中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "ime_teacher_training",
+                      "name": "教師培訓"
+                    },
+                    {
+                      "value": "ime_student_learning",
+                      "name": "學生學習活動"
+                    },
+                    {
+                      "value": "ime_easy_think",
+                      "name": "易思＋思易"
+                    },
+                    {
+                      "value": "ime_junior_adaptive_grouping",
+                      "name": "國中適性分組"
+                    },
+                    {
+                      "value": "ime_adaptive_transition",
+                      "name": "適性轉銜輔導"
+                    },
+                    {
+                      "value": "ime_cmsmaa",
+                      "name": "數學科學應用"
+                    },
+                    {
+                      "value": "ime_girls_science",
+                      "name": "女學生科學"
+                    },
+                    {
+                      "value": "ime_yan_xiaomei",
+                      "name": "閻小妹"
+                    },
+                    {
+                      "value": "ime_icag",
+                      "name": "iCAG天文幾何"
+                    },
+                    {
+                      "value": "ime_media_share",
+                      "name": "傳媒分享"
+                    },
+                    {
+                      "value": "ime_academic_exchange",
+                      "name": "學術交流"
+                    }
+                  ]
                 }
               ]
             },
