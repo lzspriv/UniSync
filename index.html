@@ -131,29 +131,34 @@
                         </div>
                     </section>
 
-                    <section class="bg-white border border-slate-200 rounded-3xl p-6 shadow-md flex flex-col justify-between transition-all hover:shadow-lg">
+                    <section class="bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm flex flex-col justify-between">
                         <div>
-                            <div class="flex items-center gap-3 mb-5">
-                                <div class="p-2.5 bg-blue-600/10 text-blue-600 rounded-xl border border-blue-100 shadow-sm">
-                                    <i class="fas fa-satellite-dish text-lg"></i>
-                                </div>
+                            <div class="mb-5 flex items-start justify-between gap-4">
                                 <div>
-                                    <h3 class="text-sm font-black text-slate-800 uppercase tracking-widest">Global Radar 全域雷達</h3>
-                                    <p class="text-xs text-slate-400 mt-0.5">主動監控關鍵字，精準攔截全理學院的校園情報</p>
+                                    <h3 class="text-sm font-black text-slate-900 flex items-center gap-2">
+                                        <i class="fas fa-crosshairs text-blue-500"></i>
+                                        全域關鍵字
+                                    </h3>
+                                    <p class="mt-1 text-xs font-medium text-slate-500">符合關鍵字的新公告會觸發通知，不限已訂閱分類。</p>
                                 </div>
+                                <span class="shrink-0 rounded-full bg-blue-50 px-2.5 py-1 text-[11px] font-black text-blue-700">全站比對</span>
                             </div>
 
-                            <div class="flex flex-col gap-3 sm:flex-row sm:items-center">
+                            <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                                <div class="text-xs leading-relaxed text-slate-500">
+                                    先預覽目前資料庫命中；即使目前沒有結果，也可以加入等待未來公告。
+                                </div>
                                 <button
                                     id="open-radar-modal-btn"
-                                    class="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-blue-600 to-cyan-500 px-5 py-3 text-base font-black text-white shadow-lg shadow-blue-600/20 transition-all duration-200 hover:-translate-y-0.5 hover:from-blue-500 hover:to-cyan-400 hover:shadow-blue-600/30 active:translate-y-0 active:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400/40"
+                                    class="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl border border-blue-200 bg-blue-50 px-4 py-2.5 text-sm font-bold text-blue-700 transition-colors hover:bg-blue-100 focus:outline-none focus:ring-4 focus:ring-blue-500/10"
                                 >
-                                    <span>🔍 預覽與新增關鍵字</span>
+                                    <i class="fas fa-plus-circle"></i>
+                                    <span>新增關鍵字</span>
                                 </button>
                             </div>
 
-                            <div class="mt-4">
-                                <div id="global-radar-tags" class="flex flex-wrap gap-2 min-h-[32px] items-center"></div>
+                            <div class="mt-5 rounded-xl border border-slate-200 bg-slate-50 p-3">
+                                <div id="global-radar-tags" class="flex min-h-[32px] flex-wrap items-center gap-2"></div>
                             </div>
                         </div>
                     </section>
