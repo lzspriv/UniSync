@@ -245,8 +245,8 @@ function renderPreviewList(keyword, matches) {
 
     if (mergedMatches.length === 0) {
         list.innerHTML = `
-            <li class="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-xs leading-relaxed text-amber-800">
-                ⚠️ 目前資料庫中無相符公告。新增此關鍵字後，未來有新公告上架時仍會觸發雷達。
+            <li class="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-xs leading-relaxed text-amber-800">
+                目前資料庫中無相符公告。加入後，未來有新公告符合此關鍵字時仍會觸發通知。
             </li>`;
         if (footer) footer.classList.remove('hidden');
         return;
@@ -257,21 +257,21 @@ function renderPreviewList(keyword, matches) {
         const sources = Array.isArray(item.sources) ? item.sources : [];
         
         const li = document.createElement('li');
-        li.className = 'preview-card group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg';
+        li.className = 'preview-card rounded-xl border border-slate-200 bg-white p-4 transition-colors hover:border-blue-200';
         li.style.animationDelay = `${Math.min(index * 40, 240)}ms`;
         li.innerHTML = `
-            <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" class="block text-base font-bold leading-8 text-slate-800 transition-colors group-hover:text-blue-600" title="${escapeHtml(item.title)}">
-                <span class="mr-2 inline-flex rounded-full bg-blue-50 px-2.5 py-0.5 text-xs font-black uppercase tracking-[0.2em] text-blue-600">${escapeHtml(item.source || '未分類')}</span>
+            <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" class="block text-sm font-bold leading-6 text-slate-800 transition-colors hover:text-blue-700" title="${escapeHtml(item.title)}">
+                <span class="mr-2 inline-flex rounded-md bg-blue-50 px-2 py-0.5 text-[11px] font-bold text-blue-700">${escapeHtml(item.source || '未分類')}</span>
                 <span class="whitespace-normal break-words">${escapeHtml(item.title)}</span>
             </a>
             ${sources.length > 1 ? `
                 <div class="mt-3 flex flex-wrap gap-2">
-                    ${sources.map((source) => `<span class="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs font-bold text-slate-500">${escapeHtml(source)}</span>`).join('')}
+                    ${sources.map((source) => `<span class="inline-flex items-center rounded-md border border-slate-200 bg-slate-50 px-2 py-1 text-[11px] font-bold text-slate-500">${escapeHtml(source)}</span>`).join('')}
                 </div>
             ` : ''}
             <div class="mt-3 flex items-center justify-between gap-3 border-t border-slate-100 pt-3">
-                <span class="text-xs font-bold uppercase tracking-[0.22em] text-slate-400">${sources.length > 1 ? `已合併 ${sources.length} 個標籤` : '點擊可開啟原文'}</span>
-                <span class="shrink-0 rounded-full bg-slate-100 px-2.5 py-1 font-mono text-xs font-bold text-slate-500">${dateDisplay}</span>
+                <span class="text-[11px] font-bold text-slate-400">${sources.length > 1 ? `已合併 ${sources.length} 個來源標籤` : '點擊標題可開啟原文'}</span>
+                <span class="shrink-0 rounded-md bg-slate-100 px-2 py-1 font-mono text-[11px] font-bold text-slate-500">${dateDisplay}</span>
             </div>
         `;
         list.appendChild(li);
