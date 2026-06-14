@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import json
 import re
 import ssl
-from urllib.parse import urlencode, urljoin, urlparse
+from urllib.parse import quote, urlencode, urljoin, urlparse
 from html import unescape
 
 
@@ -229,6 +229,16 @@ def parse_yearless_month_day(text):
             return "未知日期"
 
     return parsed.strftime("%Y-%m-%d")
+
+
+def extract_onclick_url(onclick_text):
+    if not onclick_text:
+        return ""
+    match = re.search(
+        r"(?:location(?:\.href)?|window\.location(?:\.href)?)\s*=\s*['\"]([^'\"]+)['\"]",
+        onclick_text,
+    )
+    return match.group(1).strip() if match else ""
 
 
 def parse_split_date(yearmonth_text, day_text):
@@ -613,6 +623,112 @@ def fetch_eshc_announcements(url, category_name, scraper_config):
         return []
 
 
+def fetch_table_row_announcements(url, category_name, scraper_config):
+    try:
+        response = create_request_session(url).get(url, headers=REQUEST_HEADERS, timeout=10)
+        response.encoding = "utf-8"
+
+        if response.status_code != 200:
+            print(f"?? ?⊥?霈??{category_name}: {response.status_code}")
+            return []
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        all_news = []
+        recent_news = []
+        cutoff_date = datetime.now() - timedelta(days=10)
+        old_articles_count = 0
+        seen_urls = set()
+        unknown_date, _ = parse_taiwan_date("")
+        pinned_selector = scraper_config.get("pinned")
+        include_summary = scraper_config.get("include_summary", False)
+        date_label = scraper_config.get("date_label", "?澆??交?")
+
+        for article in soup.select(scraper_config.get("article", "tr")):
+            title_tag = None
+            title_selector = scraper_config.get("title")
+            if title_selector:
+                title_tag = article.select_one(title_selector)
+
+            link_selector = scraper_config.get("title_link", "a[href]")
+            link_tag = article.select_one(link_selector)
+            if not title_tag:
+                title_tag = link_tag
+
+            title_text = normalize_whitespace(
+                title_tag.get_text(" ", strip=True) if title_tag else ""
+            )
+            if not title_text:
+                continue
+
+            href = link_tag.get("href", "").strip() if link_tag and link_tag.get("href") else ""
+            if not href:
+                href = extract_onclick_url(article.get("onclick", ""))
+            if not href and scraper_config.get("allow_row_without_link"):
+                href = f"#{quote(title_text[:80])}"
+            if not href:
+                continue
+
+            absolute_url = urljoin(url, href)
+            if absolute_url in seen_urls:
+                continue
+            seen_urls.add(absolute_url)
+
+            date_selector = scraper_config.get("date")
+            date_tag = article.select_one(date_selector) if date_selector else None
+            raw_date_text = (
+                date_tag.get_text(" ", strip=True)
+                if date_tag
+                else article.get_text(" ", strip=True)
+            )
+            date_text, summary_text = parse_taiwan_date(raw_date_text)
+            if date_text == unknown_date:
+                date_text, summary_text = parse_leading_date(raw_date_text)
+
+            is_pinned = bool(
+                pinned_selector
+                and (
+                    article_matches_selector(article, pinned_selector)
+                    or article.select_one(pinned_selector)
+                )
+            )
+            item_date_label = "\u7f6e\u9802\u516c\u544a" if is_pinned else date_label
+            is_recent = False
+            date_is_known = date_text != unknown_date
+            if date_is_known:
+                try:
+                    article_date = datetime.strptime(date_text, "%Y-%m-%d")
+                    is_recent = article_date >= cutoff_date
+                except ValueError:
+                    date_is_known = False
+
+            if is_pinned and not is_recent:
+                continue
+
+            news_item = {
+                "title": title_text,
+                "url": absolute_url,
+                "date": date_text,
+                "date_label": item_date_label,
+                "summary": summary_text[:150] + "..." if len(summary_text) > 150 else summary_text,
+                "show_summary": include_summary,
+                "category": category_name,
+            }
+            all_news.append(news_item)
+
+            if is_recent:
+                recent_news.append(news_item)
+                old_articles_count = 0
+            else:
+                old_articles_count += 1
+                if date_is_known and len(all_news) >= 10 and old_articles_count >= 5:
+                    break
+
+        return all_news[:5] if len(recent_news) < 5 else recent_news
+    except Exception as e:
+        print(f"???砍? {category_name} ??撣? {e}")
+        return []
+
+
 def fetch_university_announcements(url, category_name, scraper_config=None):
     if not scraper_config:
         scraper_config = {
@@ -629,6 +745,8 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
         return fetch_oia_next_data_announcements(url, category_name, scraper_config)
     if scraper_config.get("parser") == "eshc_table":
         return fetch_eshc_announcements(url, category_name, scraper_config)
+    if scraper_config.get("parser") == "table_row":
+        return fetch_table_row_announcements(url, category_name, scraper_config)
 
     try:
         response = create_request_session(url).get(url, headers=REQUEST_HEADERS, timeout=10)
