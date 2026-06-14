@@ -70,6 +70,22 @@ def parse_taiwan_date(text):
         summary = text.replace(en_match.group(0), "").strip()
         return f"{en_match.group(1)}-{int(en_match.group(2)):02d}-{int(en_match.group(3)):02d}", summary
 
+    # Some Oen sites render dates as 2025-09/30.
+    hybrid_match = re.search(r'(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})', text.replace("/", "-"))
+    if hybrid_match:
+        summary = text.replace(hybrid_match.group(0), "").strip()
+        return (
+            f"{hybrid_match.group(1)}-{int(hybrid_match.group(2)):02d}-{int(hybrid_match.group(3)):02d}",
+            summary,
+        )
+
+    # Ultimate Post grids often render dates as 6 月 14, 2026.
+    zh_comma_match = re.search(r'(\d{1,2})\s*月\s*(\d{1,2})\s*,\s*((?:19|20)\d{2})', text)
+    if zh_comma_match:
+        month, day, year = zh_comma_match.groups()
+        summary = text.replace(zh_comma_match.group(0), "").strip()
+        return f"{year}-{int(month):02d}-{int(day):02d}", summary
+
     zh_month_match = re.search(r'(\d{4})\s*(?:年)?\s*(\d{1,2})\s*月\s*(\d{1,2})\s*(?:日)?', text)
     if zh_month_match:
         year, month, day = zh_month_match.groups()
@@ -168,6 +184,16 @@ def parse_leading_date(text):
         return f"{year}-{int(month):02d}-{int(day):02d}", summary
 
     return parse_taiwan_date(text)
+
+
+def parse_link_leading_date(text):
+    date_text, summary_text = parse_leading_date(text)
+    while date_text != "未知日期":
+        next_date_text, next_summary_text = parse_leading_date(summary_text)
+        if next_date_text == "未知日期":
+            break
+        summary_text = next_summary_text
+    return date_text, normalize_whitespace(summary_text)
 
 
 def parse_date_from_url(value):
@@ -459,6 +485,9 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                 elif scraper_config.get("parser") == "row_date_link":
                     date_text, summary_text = parse_leading_date(article.get_text(" ", strip=True))
                     title_text = link_text
+                elif scraper_config.get("parser") == "link_date_text":
+                    date_text, title_text = parse_link_leading_date(link_text)
+                    summary_text = title_text
                 elif scraper_config.get("parser") == "alumni_card":
                     title_tag = article.select_one(scraper_config.get("title", ".title"))
                     summary_tag = article.select_one(scraper_config.get("summary", ".font_con"))

@@ -103,6 +103,74 @@
       "title_link": ".media-body > a[href]",
       "title": "h4.media-heading",
       "date": ".media-body > a > div"
+    },
+    "career_list": {
+      "parser": "row_date_link",
+      "article": ".list-content ul.list > li",
+      "title_link": "a[href*='detail.php']",
+      "date": "li"
+    },
+    "ultimate_post_grid": {
+      "article": ".ast-article-post, .ultp-block-item",
+      "title_link": "h2.entry-title a, h3.ultp-block-title a, .ultp-block-title a",
+      "date": ".published, .posted-on, .entry-date, .ultp-block-date, .ultp-block-meta",
+      "pinned": ".sticky"
+    },
+    "oen_annc_table": {
+      "article": ".i-annc__table tbody tr",
+      "title_link": ".i-annc__title, a[href]",
+      "date": ".i-annc__event_start_date-content, .i-annc__postdate-content, .i-annc__postdate",
+      "pinned": ".status-top"
+    },
+    "oen_annc_list": {
+      "article": ".i-annc__list .i-annc__item",
+      "title_link": ".i-annc__title, a[href]",
+      "date": ".i-annc__postdate",
+      "pinned": ".status-top"
+    },
+    "oia_table": {
+      "article": "table tbody tr",
+      "title_link": "td:nth-of-type(4) a[href]",
+      "date": "td:nth-of-type(2)"
+    },
+    "tecs_rwd_table": {
+      "article": "#ContentPlaceHolder1_SPAN_NEWS_LIST .rwd-tbody > .rwd-tr",
+      "title_link": ".rwd-td:nth-of-type(3) a[href]",
+      "date": ".rwd-td:nth-of-type(2)",
+      "pinned": ".label-primary"
+    },
+    "sce_news_table": {
+      "article": "table.table tr",
+      "title_link": "td a[href*='detail.php']",
+      "date": "td:nth-of-type(1)"
+    },
+    "mtc_article_list": {
+      "article": ".article-list",
+      "title_link": ".article-text h3 a[href]",
+      "date": ".article-text .date"
+    },
+    "rcemi_article_box": {
+      "article": ".article-box",
+      "title_link": ".link-btn a[href]",
+      "title": ".article h3",
+      "date": ".date-row"
+    },
+    "rcccr_content_item": {
+      "parser": "link_date_text",
+      "article": "a.content-item[href]",
+      "title_link": "a[href]"
+    },
+    "goweb_news": {
+      "parser": "row_date_link",
+      "article": ".ntnu-news li.list-group-item",
+      "title_link": "a[href*='news02=']",
+      "date": "li",
+      "pinned": ".badge"
+    },
+    "nups_table": {
+      "article": "table.table2 tbody tr",
+      "title_link": "a[href]",
+      "date": "td:nth-of-type(1)"
     }
   },
   "categories": {
@@ -3297,6 +3365,402 @@
       "owner": "跨域科技產業創新研究學院",
       "url": "https://www.ciai.ntnu.edu.tw/index.php/category/uncategorized/4/",
       "selectorPreset": "wordpress_broad"
+    },
+    "career_sa_news": {
+      "label": "學務處公告",
+      "owner": "職涯發展中心",
+      "url": "https://careercenter.ntnu.edu.tw/news.php?lang=zh-tw&sid=124",
+      "selectorPreset": "career_list"
+    },
+    "career_industry_scholarship": {
+      "label": "產業獎學金",
+      "owner": "職涯發展中心",
+      "url": "https://careercenter.ntnu.edu.tw/news.php?lang=zh-tw&sid=95",
+      "selectorPreset": "career_list"
+    },
+    "career_industry_training": {
+      "label": "產業技能培訓與證照",
+      "owner": "職涯發展中心",
+      "url": "https://careercenter.ntnu.edu.tw/news.php?lang=zh-tw&sid=42",
+      "selectorPreset": "career_list"
+    },
+    "career_government_employment": {
+      "label": "政府就業獎補助",
+      "owner": "職涯發展中心",
+      "url": "https://careercenter.ntnu.edu.tw/news.php?lang=zh-tw&sid=28",
+      "selectorPreset": "career_list"
+    },
+    "career_overseas": {
+      "label": "海外留學與打工度假",
+      "owner": "職涯發展中心",
+      "url": "https://careercenter.ntnu.edu.tw/news.php?lang=zh-tw&sid=29",
+      "selectorPreset": "career_list"
+    },
+    "career_labor_rights": {
+      "label": "勞動權益與求職安全",
+      "owner": "職涯發展中心",
+      "url": "https://careercenter.ntnu.edu.tw/news.php?lang=zh-tw&sid=83",
+      "selectorPreset": "career_list"
+    },
+    "career_resources": {
+      "label": "職輔資源",
+      "owner": "職涯發展中心",
+      "url": "https://careercenter.ntnu.edu.tw/news.php?lang=zh-tw&sid=45",
+      "selectorPreset": "career_list"
+    },
+    "career_misc": {
+      "label": "其他宣導",
+      "owner": "職涯發展中心",
+      "url": "https://careercenter.ntnu.edu.tw/news.php?lang=zh-tw&sid=46",
+      "selectorPreset": "career_list"
+    },
+    "counseling_news": {
+      "label": "最新消息",
+      "owner": "學生輔導中心",
+      "url": "https://counseling.sa.ntnu.edu.tw/category/news/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "counseling_activity": {
+      "label": "活動訊息",
+      "owner": "學生輔導中心",
+      "url": "https://counseling.sa.ntnu.edu.tw/category/activity/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "counseling_administration": {
+      "label": "行政公告",
+      "owner": "學生輔導中心",
+      "url": "https://counseling.sa.ntnu.edu.tw/administration/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "dorm_news": {
+      "label": "最新消息",
+      "owner": "學生住宿服務中心",
+      "url": "https://dorm.sa.ntnu.edu.tw/category/news/",
+      "selectorPreset": "ultimate_post_grid"
+    },
+    "health_announce": {
+      "label": "最新消息",
+      "owner": "健康中心",
+      "url": "https://health.sa.ntnu.edu.tw/category/announce/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "health_infectious": {
+      "label": "傳染病防治",
+      "owner": "健康中心",
+      "url": "https://health.sa.ntnu.edu.tw/category/item/infectious-disease-prevention/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "health_activity": {
+      "label": "活動訊息",
+      "owner": "健康中心",
+      "url": "https://health.sa.ntnu.edu.tw/%e6%9c%80%e6%96%b0%e6%b4%bb%e5%8b%95%e8%a8%8a%e6%81%af%e8%88%87%e5%a0%b1%e5%90%8d/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "acad_latest": {
+      "label": "最新公告",
+      "owner": "研究發展處",
+      "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1101",
+      "selectorPreset": "oen_annc_table"
+    },
+    "acad_projects": {
+      "label": "計畫徵求",
+      "owner": "研究發展處",
+      "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1102",
+      "selectorPreset": "oen_annc_table"
+    },
+    "acad_bids": {
+      "label": "政府機關招標公告",
+      "owner": "研究發展處",
+      "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1103",
+      "selectorPreset": "oen_annc_table"
+    },
+    "acad_conferences": {
+      "label": "研討會及徵稿",
+      "owner": "研究發展處",
+      "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1104",
+      "selectorPreset": "oen_annc_table"
+    },
+    "acad_activities": {
+      "label": "活動與演講",
+      "owner": "研究發展處",
+      "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/actnews",
+      "selectorPreset": "oen_annc_table"
+    },
+    "acad_planning": {
+      "label": "企劃組公告",
+      "owner": "研究發展處",
+      "url": "https://www.acad.ntnu.edu.tw/zh_tw/dsp/2news",
+      "selectorPreset": "oen_annc_table"
+    },
+    "acad_research_promotion_projects": {
+      "label": "研究推動組公告",
+      "owner": "研究發展處",
+      "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news1",
+      "selectorPreset": "oen_annc_table"
+    },
+    "acad_research_promotion_awards": {
+      "label": "研究獎勵補助",
+      "owner": "研究發展處",
+      "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news2",
+      "selectorPreset": "oen_annc_table"
+    },
+    "acad_research_promotion_other": {
+      "label": "其他研究訊息",
+      "owner": "研究發展處",
+      "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news3",
+      "selectorPreset": "oen_annc_table"
+    },
+    "acad_industry_cooperation": {
+      "label": "產學合作組公告",
+      "owner": "研究發展處",
+      "url": "https://www.acad.ntnu.edu.tw/zh_tw/dril/4downs1/dnews1",
+      "selectorPreset": "oen_annc_table"
+    },
+    "ilo_news": {
+      "label": "最新消息",
+      "owner": "國際產學聯盟",
+      "url": "https://ilo.acad.ntnu.edu.tw/tw/news",
+      "selectorPreset": "wordpress_broad"
+    },
+    "oia_latest": {
+      "label": "最新發表",
+      "owner": "國際事務處",
+      "url": "https://bds.oia.ntnu.edu.tw/bds/web/latestnews",
+      "selectorPreset": "oia_table"
+    },
+    "oia_intcoop": {
+      "label": "國際交流",
+      "owner": "國際事務處",
+      "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-intcoop",
+      "selectorPreset": "oia_table"
+    },
+    "oia_exchange": {
+      "label": "交換/訪問學生計畫",
+      "owner": "國際事務處",
+      "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-exvs",
+      "selectorPreset": "oia_table"
+    },
+    "oia_admission": {
+      "label": "申請入學",
+      "owner": "國際事務處",
+      "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-apply",
+      "selectorPreset": "oia_table"
+    },
+    "oia_scholarship": {
+      "label": "獎學金",
+      "owner": "國際事務處",
+      "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-scholarship",
+      "selectorPreset": "oia_table"
+    },
+    "oia_subsidy": {
+      "label": "補助",
+      "owner": "國際事務處",
+      "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-subsidy",
+      "selectorPreset": "oia_table"
+    },
+    "oia_activity": {
+      "label": "活動訊息",
+      "owner": "國際事務處",
+      "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-activity",
+      "selectorPreset": "oia_table"
+    },
+    "oia_culture_program": {
+      "label": "文化交流活動",
+      "owner": "國際事務處",
+      "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-culture-program",
+      "selectorPreset": "oia_table"
+    },
+    "oia_camps": {
+      "label": "營隊資訊",
+      "owner": "國際事務處",
+      "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-camps",
+      "selectorPreset": "oia_table"
+    },
+    "oia_jobopening": {
+      "label": "徵才訊息",
+      "owner": "國際事務處",
+      "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-jobopening",
+      "selectorPreset": "oia_table"
+    },
+    "oia_misc": {
+      "label": "其他訊息",
+      "owner": "國際事務處",
+      "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-misc",
+      "selectorPreset": "oia_table"
+    },
+    "tecs_all": {
+      "label": "全部列表",
+      "owner": "師資培育學院",
+      "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&g=0",
+      "selectorPreset": "tecs_rwd_table"
+    },
+    "tecs_college": {
+      "label": "師資培育學院",
+      "owner": "師資培育學院",
+      "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&g=1006",
+      "selectorPreset": "tecs_rwd_table"
+    },
+    "tecs_curriculum": {
+      "label": "師資培育課程組",
+      "owner": "師資培育學院",
+      "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&g=187",
+      "selectorPreset": "tecs_rwd_table"
+    },
+    "tecs_practicum": {
+      "label": "實習與地方輔導組",
+      "owner": "師資培育學院",
+      "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&g=186",
+      "selectorPreset": "tecs_rwd_table"
+    },
+    "tecs_international": {
+      "label": "國際師培推動組",
+      "owner": "師資培育學院",
+      "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&g=185",
+      "selectorPreset": "tecs_rwd_table"
+    },
+    "sce_news": {
+      "label": "最新消息",
+      "owner": "進修推廣學院",
+      "url": "https://www.sce.ntnu.edu.tw/home/news/",
+      "selectorPreset": "sce_news_table"
+    },
+    "mtc_news": {
+      "label": "最新消息",
+      "owner": "國語教學中心",
+      "url": "https://mtc.ntnu.edu.tw/news.htm",
+      "selectorPreset": "mtc_article_list"
+    },
+    "mtc_admin": {
+      "label": "行政公布",
+      "owner": "國語教學中心",
+      "url": "https://mtc.ntnu.edu.tw/news/%E8%A1%8C%E6%94%BF%E5%85%AC%E5%B8%83.htm",
+      "selectorPreset": "mtc_article_list"
+    },
+    "mtc_activity": {
+      "label": "學生活動",
+      "owner": "國語教學中心",
+      "url": "https://mtc.ntnu.edu.tw/news/%E5%AD%B8%E7%94%9F%E6%B4%BB%E5%8B%95.htm",
+      "selectorPreset": "mtc_article_list"
+    },
+    "mtc_course": {
+      "label": "課程訊息",
+      "owner": "國語教學中心",
+      "url": "https://mtc.ntnu.edu.tw/news/%E8%AA%B2%E7%A8%8B%E8%A8%8A%E6%81%AF.htm",
+      "selectorPreset": "mtc_article_list"
+    },
+    "mtc_short_term": {
+      "label": "短期班相關訊息",
+      "owner": "國語教學中心",
+      "url": "https://mtc.ntnu.edu.tw/news/%E7%9F%AD%E6%9C%9F%E7%8F%AD%E7%9B%B8%E9%97%9C%E8%A8%8A%E6%81%AF.htm",
+      "selectorPreset": "mtc_article_list"
+    },
+    "itc_bulletin": {
+      "label": "最新消息",
+      "owner": "資訊中心",
+      "url": "https://www.itc.ntnu.edu.tw/index.php/bulletin_board/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "hrs_news": {
+      "label": "最新消息",
+      "owner": "人事室",
+      "url": "https://hrs.ntnu.edu.tw/GoWeb2/include/index.php?Page=A-0",
+      "selectorPreset": "goweb_news"
+    },
+    "acc_news": {
+      "label": "最新消息",
+      "owner": "主計室",
+      "url": "https://www.acc.ntnu.edu.tw/acc/include/index.php",
+      "selectorPreset": "goweb_news"
+    },
+    "phr_news": {
+      "label": "最新消息",
+      "owner": "體育室",
+      "url": "https://www.phr.ntnu.edu.tw/zh_tw/news",
+      "selectorPreset": "oen_annc_list"
+    },
+    "phr_proclamation": {
+      "label": "體育室公告",
+      "owner": "體育室",
+      "url": "https://www.phr.ntnu.edu.tw/zh_tw/proclamation",
+      "selectorPreset": "oen_annc_list"
+    },
+    "phr_activities": {
+      "label": "活動競賽訊息",
+      "owner": "體育室",
+      "url": "https://www.phr.ntnu.edu.tw/zh_tw/activities",
+      "selectorPreset": "oen_annc_list"
+    },
+    "phr_facilities": {
+      "label": "場地管理",
+      "owner": "體育室",
+      "url": "https://www.phr.ntnu.edu.tw/zh_tw/FacilitiesManagement",
+      "selectorPreset": "oen_annc_list"
+    },
+    "phr_workshop": {
+      "label": "研習說明會",
+      "owner": "體育室",
+      "url": "https://www.phr.ntnu.edu.tw/zh_tw/%E7%A0%94%E7%BF%92",
+      "selectorPreset": "oen_annc_list"
+    },
+    "nups_news": {
+      "label": "最新消息",
+      "owner": "僑生先修部",
+      "url": "https://www.nups.ntnu.edu.tw/news",
+      "selectorPreset": "nups_table"
+    },
+    "obe_news": {
+      "label": "最新消息",
+      "owner": "雙語教育推動辦公室",
+      "url": "https://www.obe.ntnu.edu.tw/index.php/news-2/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "obe_announcement": {
+      "label": "重要公告",
+      "owner": "雙語教育推動辦公室",
+      "url": "https://www.obe.ntnu.edu.tw/index.php/category/uncategorized/announcement/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "obe_activities": {
+      "label": "活動資訊",
+      "owner": "雙語教育推動辦公室",
+      "url": "https://www.obe.ntnu.edu.tw/index.php/category/uncategorized/activities/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "obe_focus_news": {
+      "label": "焦點新聞",
+      "owner": "雙語教育推動辦公室",
+      "url": "https://www.obe.ntnu.edu.tw/index.php/category/uncategorized/news/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "obe_forward_news": {
+      "label": "轉知消息",
+      "owner": "雙語教育推動辦公室",
+      "url": "https://www.obe.ntnu.edu.tw/index.php/category/uncategorized/forwardnews/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "rcemi_news": {
+      "label": "最新消息",
+      "owner": "EMI教學資源中心",
+      "url": "https://rcemi.ntnu.edu.tw/news",
+      "selectorPreset": "rcemi_article_box"
+    },
+    "rcemi_event_focus": {
+      "label": "活動焦點",
+      "owner": "EMI教學資源中心",
+      "url": "https://rcemi.ntnu.edu.tw/news/event_focus",
+      "selectorPreset": "rcemi_article_box"
+    },
+    "artmuse_news": {
+      "label": "最新消息",
+      "owner": "美術館",
+      "url": "https://www.artmuse.ntnu.edu.tw/index.php/category/announcement-ch/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "rcccr_news": {
+      "label": "最新消息",
+      "owner": "文物保存維護研究發展中心",
+      "url": "https://rcccr.ntnu.edu.tw/news/",
+      "selectorPreset": "rcccr_content_item"
     }
   },
   "schema": [
@@ -3537,17 +4001,68 @@
             {
               "id": "l3-career-development-center",
               "name": "職涯發展中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "career_sa_news",
+                  "name": "學務處公告"
+                },
+                {
+                  "value": "career_industry_scholarship",
+                  "name": "產業獎學金"
+                },
+                {
+                  "value": "career_industry_training",
+                  "name": "產業技能培訓與證照"
+                },
+                {
+                  "value": "career_government_employment",
+                  "name": "政府就業獎補助"
+                },
+                {
+                  "value": "career_overseas",
+                  "name": "海外留學與打工度假"
+                },
+                {
+                  "value": "career_labor_rights",
+                  "name": "勞動權益與求職安全"
+                },
+                {
+                  "value": "career_resources",
+                  "name": "職輔資源"
+                },
+                {
+                  "value": "career_misc",
+                  "name": "其他宣導"
+                }
+              ]
             },
             {
               "id": "l3-student-counseling-center",
               "name": "學生輔導中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "counseling_news",
+                  "name": "最新消息"
+                },
+                {
+                  "value": "counseling_activity",
+                  "name": "活動訊息"
+                },
+                {
+                  "value": "counseling_administration",
+                  "name": "行政公告"
+                }
+              ]
             },
             {
               "id": "l3-student-housing-service-center",
               "name": "學生住宿服務中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "dorm_news",
+                  "name": "最新消息"
+                }
+              ]
             },
             {
               "id": "l3-dedicated-mentor-office",
@@ -3557,7 +4072,20 @@
             {
               "id": "l3-health-center",
               "name": "健康中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "health_announce",
+                  "name": "最新消息"
+                },
+                {
+                  "value": "health_infectious",
+                  "name": "傳染病防治"
+                },
+                {
+                  "value": "health_activity",
+                  "name": "活動訊息"
+                }
+              ]
             },
             {
               "id": "l3-community-counseling-center",
@@ -3598,7 +4126,54 @@
             {
               "id": "l3-international-industry-liaison-office",
               "name": "國際產學聯盟",
-              "channels": []
+              "channels": [
+                {
+                  "value": "ilo_news",
+                  "name": "最新消息"
+                }
+              ]
+            }
+          ],
+          "channels": [
+            {
+              "value": "acad_latest",
+              "name": "最新公告"
+            },
+            {
+              "value": "acad_projects",
+              "name": "計畫徵求"
+            },
+            {
+              "value": "acad_bids",
+              "name": "政府機關招標公告"
+            },
+            {
+              "value": "acad_conferences",
+              "name": "研討會及徵稿"
+            },
+            {
+              "value": "acad_activities",
+              "name": "活動與演講"
+            },
+            {
+              "value": "acad_planning",
+              "name": "企劃組公告"
+            },
+            {
+              "value": "acad_research_promotion_projects",
+              "name": "研究推動組公告"
+            },
+            {
+              "value": "acad_research_promotion_awards",
+              "name": "研究獎勵補助"
+            },
+            {
+              "value": "acad_research_promotion_other",
+              "name": "其他研究訊息"
+            },
+            {
+              "value": "acad_industry_cooperation",
+              "name": "產學合作組公告"
             }
           ]
         },
@@ -3616,27 +4191,124 @@
         {
           "id": "l2-international-affairs",
           "name": "國際事務處",
-          "channels": []
+          "channels": [
+            {
+              "value": "oia_latest",
+              "name": "最新發表"
+            },
+            {
+              "value": "oia_intcoop",
+              "name": "國際交流"
+            },
+            {
+              "value": "oia_exchange",
+              "name": "交換/訪問學生計畫"
+            },
+            {
+              "value": "oia_admission",
+              "name": "申請入學"
+            },
+            {
+              "value": "oia_scholarship",
+              "name": "獎學金"
+            },
+            {
+              "value": "oia_subsidy",
+              "name": "補助"
+            },
+            {
+              "value": "oia_activity",
+              "name": "活動訊息"
+            },
+            {
+              "value": "oia_culture_program",
+              "name": "文化交流活動"
+            },
+            {
+              "value": "oia_camps",
+              "name": "營隊資訊"
+            },
+            {
+              "value": "oia_jobopening",
+              "name": "徵才訊息"
+            },
+            {
+              "value": "oia_misc",
+              "name": "其他訊息"
+            }
+          ]
         },
         {
           "id": "l2-teacher-education",
           "name": "師資培育學院",
-          "channels": []
+          "channels": [
+            {
+              "value": "tecs_all",
+              "name": "全部列表"
+            },
+            {
+              "value": "tecs_college",
+              "name": "師資培育學院"
+            },
+            {
+              "value": "tecs_curriculum",
+              "name": "師資培育課程組"
+            },
+            {
+              "value": "tecs_practicum",
+              "name": "實習與地方輔導組"
+            },
+            {
+              "value": "tecs_international",
+              "name": "國際師培推動組"
+            }
+          ]
         },
         {
           "id": "l2-continuing-extension-education",
           "name": "進修推廣學院",
-          "channels": []
+          "channels": [
+            {
+              "value": "sce_news",
+              "name": "最新消息"
+            }
+          ]
         },
         {
           "id": "l2-mandarin-training-center",
           "name": "國語教學中心",
-          "channels": []
+          "channels": [
+            {
+              "value": "mtc_news",
+              "name": "最新消息"
+            },
+            {
+              "value": "mtc_admin",
+              "name": "行政公布"
+            },
+            {
+              "value": "mtc_activity",
+              "name": "學生活動"
+            },
+            {
+              "value": "mtc_course",
+              "name": "課程訊息"
+            },
+            {
+              "value": "mtc_short_term",
+              "name": "短期班相關訊息"
+            }
+          ]
         },
         {
           "id": "l2-information-technology-center",
           "name": "資訊中心",
-          "channels": []
+          "channels": [
+            {
+              "value": "itc_bulletin",
+              "name": "最新消息"
+            }
+          ]
         },
         {
           "id": "l2-environmental-safety-health-center",
@@ -3657,22 +4329,58 @@
         {
           "id": "l2-human-resources-office",
           "name": "人事室",
-          "channels": []
+          "channels": [
+            {
+              "value": "hrs_news",
+              "name": "最新消息"
+            }
+          ]
         },
         {
           "id": "l2-accounting-office",
           "name": "主計室",
-          "channels": []
+          "channels": [
+            {
+              "value": "acc_news",
+              "name": "最新消息"
+            }
+          ]
         },
         {
           "id": "l2-physical-education-office",
           "name": "體育室",
-          "channels": []
+          "channels": [
+            {
+              "value": "phr_news",
+              "name": "最新消息"
+            },
+            {
+              "value": "phr_proclamation",
+              "name": "體育室公告"
+            },
+            {
+              "value": "phr_activities",
+              "name": "活動競賽訊息"
+            },
+            {
+              "value": "phr_facilities",
+              "name": "場地管理"
+            },
+            {
+              "value": "phr_workshop",
+              "name": "研習說明會"
+            }
+          ]
         },
         {
           "id": "l2-overseas-preparatory-school",
           "name": "僑生先修部",
-          "channels": []
+          "channels": [
+            {
+              "value": "nups_news",
+              "name": "最新消息"
+            }
+          ]
         },
         {
           "id": "l2-bilingual-education-office",
@@ -3681,7 +4389,38 @@
             {
               "id": "l3-emi-resource-center",
               "name": "EMI教學資源中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "rcemi_news",
+                  "name": "最新消息"
+                },
+                {
+                  "value": "rcemi_event_focus",
+                  "name": "活動焦點"
+                }
+              ]
+            }
+          ],
+          "channels": [
+            {
+              "value": "obe_news",
+              "name": "最新消息"
+            },
+            {
+              "value": "obe_announcement",
+              "name": "重要公告"
+            },
+            {
+              "value": "obe_activities",
+              "name": "活動資訊"
+            },
+            {
+              "value": "obe_focus_news",
+              "name": "焦點新聞"
+            },
+            {
+              "value": "obe_forward_news",
+              "name": "轉知消息"
             }
           ]
         },
@@ -3692,7 +4431,18 @@
             {
               "id": "l3-cultural-relics-conservation-center",
               "name": "文物保存維護研究發展中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "rcccr_news",
+                  "name": "最新消息"
+                }
+              ]
+            }
+          ],
+          "channels": [
+            {
+              "value": "artmuse_news",
+              "name": "最新消息"
             }
           ]
         },
