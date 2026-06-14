@@ -5171,6 +5171,61 @@
         "title": ".news-list-text",
         "date": ".news-list-date"
       }
+    },
+    "ciai_news": {
+      "label": "最新消息",
+      "owner": "跨域科技產業創新研究學院",
+      "url": "https://www.ciai.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ciai_affairs": {
+      "label": "學院公告",
+      "owner": "跨域科技產業創新研究學院",
+      "url": "https://www.ciai.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ciai_admission": {
+      "label": "招生",
+      "owner": "跨域科技產業創新研究學院",
+      "url": "https://www.ciai.ntnu.edu.tw/index.php/category/uncategorized/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ciai_scholarship": {
+      "label": "獎學金",
+      "owner": "跨域科技產業創新研究學院",
+      "url": "https://www.ciai.ntnu.edu.tw/index.php/category/uncategorized/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ciai_forwarded": {
+      "label": "轉知消息",
+      "owner": "跨域科技產業創新研究學院",
+      "url": "https://www.ciai.ntnu.edu.tw/index.php/category/uncategorized/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
     }
   },
   "schema": [
@@ -8248,7 +8303,28 @@
         {
           "id": "l2-ciai",
           "name": "跨域科技產業創新研究學院",
-          "channels": [],
+          "channels": [
+            {
+              "name": "最新消息",
+              "value": "ciai_news"
+            },
+            {
+              "name": "學院公告",
+              "value": "ciai_affairs"
+            },
+            {
+              "name": "招生",
+              "value": "ciai_admission"
+            },
+            {
+              "name": "獎學金",
+              "value": "ciai_scholarship"
+            },
+            {
+              "name": "轉知消息",
+              "value": "ciai_forwarded"
+            }
+          ],
           "subUnits": [
             {
               "id": "l3-ciai",
