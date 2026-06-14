@@ -18214,5 +18214,224 @@
         "summary": ""
       }
     ]
+  },
+  "mgt_activities": {
+    "label": "管理學院-焦點活動",
+    "announcements": [
+      {
+        "title": "臺師大EMBA海外管理實務研習赴日交流",
+        "url": "https://www.mgt.ntnu.edu.tw/臺師大emba海外管理實務研習赴日交流",
+        "date": "2026-05-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "華南銀行攜手臺師大管院共創智慧未來 啟動產學合作布局 Fintech 與全球人才庫",
+        "url": "https://www.mgt.ntnu.edu.tw/華南銀行攜手臺師大管院共創智慧未來-啟動產學合作布局-fintech-與全球人才庫",
+        "date": "2026-05-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "GF-EMBA校友柯淑玲捐贈臺北榮總巨幅畫作 管院師長與校友出席見證藝術與公益精神",
+        "url": "https://www.mgt.ntnu.edu.tw/gf-emba校友柯淑玲捐贈臺北榮總巨幅畫作-管院師長與校友出席見證藝術與公益精神",
+        "date": "2026-05-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "KPMG安侯建業蒞校分享職涯機會 吸引逾65名學生參與",
+        "url": "https://www.mgt.ntnu.edu.tw/師大管理學院舉辦企業實習招募說明會-kpmg安侯建業蒞校分享職涯機會-吸引逾65名學生參與",
+        "date": "2026-04-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大管理學院接待日本熊本大學共創學環代表團 深化社會創新與永續發展交流",
+        "url": "https://www.mgt.ntnu.edu.tw/臺師大管理學院接待日本熊本大學共創學環代表團深化社會創新與永續發展交流",
+        "date": "2026-03-12",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "mgt_scholarship": {
+    "label": "管理學院-學生獎助學金",
+    "announcements": [
+      {
+        "title": "【公告】114學年度管理學院弱勢學生助學金審查結果通知",
+        "url": "https://www.mgt.ntnu.edu.tw/公告114學年度管理學院弱勢學生助學金審查結果通知",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】本院114學年度人文教育德順獎學金得獎名單",
+        "url": "https://www.mgt.ntnu.edu.tw/公告本院114學年度人文教育德順獎學金得獎名單",
+        "date": "2025-10-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】本院114學年度優秀學生獎學金得獎名單",
+        "url": "https://www.mgt.ntnu.edu.tw/公告本院114學年度優秀學生獎學金得獎名單",
+        "date": "2025-10-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-1本院優秀學生獎學金09月08日開始申請，歡迎本院學生申請。",
+        "url": "https://www.mgt.ntnu.edu.tw/本院優秀學生獎學金09月08日開始申請歡迎本院學生申請",
+        "date": "2025-09-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-1本院人文教育德順獎學金09月08日開始申請，歡迎本院學生申請。",
+        "url": "https://www.mgt.ntnu.edu.tw/114-1本院人文教育德順獎學金開始申請歡迎本院學生申請",
+        "date": "2025-09-02",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "mgt_exchange": {
+    "label": "管理學院-國際交流及赴外甄審",
+    "announcements": [
+      {
+        "title": "轉知｜日本九州大學商學院2025秋季赴外交換簡章",
+        "url": "https://www.mgt.ntnu.edu.tw/轉知日本九州大學商學院2025秋季赴外交換簡章",
+        "date": "2025-01-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "轉知｜美國新墨西哥大學 2025秋季院級交換提名資訊",
+        "url": "https://www.mgt.ntnu.edu.tw/university-of-new-mexico-student-exchange-information-sheet-academic-year-2025-2026",
+        "date": "2025-02-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大GF-EMBA與九州大學MBA跨文化交流圓滿落幕",
+        "url": "https://www.mgt.ntnu.edu.tw/臺師大gf-emba與九州大學mba跨文化交流圓滿落幕",
+        "date": "2025-09-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026春季院級申請赴外進修（交換）暨獎學金補助甄選－即日起至9/5（五）下午五時截止收件",
+        "url": "https://www.mgt.ntnu.edu.tw/2026春季院級申請赴外進修交換暨獎學金補助甄選即日起至95五下午五時截止收件",
+        "date": "2025-06-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025秋季院級申請赴外進修（交換及雙聯）暨獎學金補助甄選－即日起至3/6 (四)下午五點止",
+        "url": "https://www.mgt.ntnu.edu.tw/2025秋季院級申請赴外進修交換及雙聯暨獎學金補助甄選-即日起至36-四下午五點止",
+        "date": "2024-12-25",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "mgt_competition_seminar": {
+    "label": "管理學院-競賽及研討會",
+    "announcements": [
+      {
+        "title": "2023 Data Science Meeting and Workshops",
+        "url": "https://www.mgt.ntnu.edu.tw/2023-data-science-meeting-and-workshops",
+        "date": "2023-03-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "百年校慶─管理教育論壇 管理教育之機會與挑戰",
+        "url": "https://www.mgt.ntnu.edu.tw/百年校慶管理教育論壇-管理教育之機會與挑戰",
+        "date": "2022-06-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021/12/3(五) 臺師大與九州大學線上論壇開放報名!",
+        "url": "https://www.mgt.ntnu.edu.tw/2021123五-臺師大與九州大學線上論壇開放報名",
+        "date": "2021-11-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "大賀！本院賴慧文教授、蔡蒔銓教授榮獲「2023臺灣財務金融學會年會暨國際研討會」富邦論文獎",
+        "url": "https://www.mgt.ntnu.edu.tw/大賀本院賴慧文教授蔡蒔銓教授榮獲2023臺灣財務金融學會年會暨國際研討會富邦論文獎",
+        "date": "2023-06-14",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "mgt_outstanding": {
+    "label": "管理學院-傑出表現",
+    "announcements": [
+      {
+        "title": "恭賀！本院林舒柔教授榮獲113年度「教學優良獎」",
+        "url": "https://www.mgt.ntnu.edu.tw/恭賀本院林舒柔教授榮獲113年度教學優良獎",
+        "date": "2024-10-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "恭賀! 本院印永翔教授、邱皓政教授、蔡蒔銓教授、賴慧文教授、吳彥濬教授張佳榮副教授榮獲本校112 年度特殊優秀人才獎勵",
+        "url": "https://www.mgt.ntnu.edu.tw/恭賀-本院印永翔教授邱皓政教授蔡蒔銓教授賴慧文教授吳彥濬教授張佳榮副教授榮獲本校112-年度特殊優秀人才獎勵",
+        "date": "2023-11-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "大賀！本院王仕茹老師及陳慧玲老師榮獲112年度教師教學獎勵「教學優良獎」",
+        "url": "https://www.mgt.ntnu.edu.tw/大賀本院王仕茹老師及陳慧玲老師榮獲112年度教師教學獎勵教學優良獎",
+        "date": "2023-07-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "恭賀！109級管理所學生顏筠同學榮獲『2022臺灣銀行經濟金融論文獎』銀獎！",
+        "url": "https://www.mgt.ntnu.edu.tw/恭賀109級管理所學生顏筠同學榮獲2022臺灣銀行經濟金融論文獎銀獎",
+        "date": "2023-04-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "恭喜本院EMBA 109級劉桓毅學長及賴慧文指導教授榮獲第15屆崇越論文大賞佳作",
+        "url": "https://www.mgt.ntnu.edu.tw/恭喜本院emba-109級劉桓毅學長及賴慧文指導教授榮獲第15屆崇越論文大賞佳作",
+        "date": "2022-09-29",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "mgt_recruitment": {
+    "label": "管理學院-學院徵才",
+    "announcements": [
+      {
+        "title": "經營管理領域 專任(案)教師徵聘公告",
+        "url": "https://www.mgt.ntnu.edu.tw/經營管理領域-專任案教師徵聘公告-2",
+        "date": "2025-11-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "一般財務管理領域 專任(案)教師徵聘公告",
+        "url": "https://www.mgt.ntnu.edu.tw/一般財務管理領域-專任案教師徵聘公告-2",
+        "date": "2025-11-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學管理學院高階經理人企業管理碩士在職專班EMBA 「約用行政人員(經理)」徵聘公告",
+        "url": "https://www.mgt.ntnu.edu.tw/管理學院-emba約用人員經理",
+        "date": "2026-01-21",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   }
 }

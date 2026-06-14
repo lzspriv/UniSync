@@ -103,6 +103,20 @@ def parse_dated_link_text(text):
     return date_text, summary_text.strip()
 
 
+def parse_spaced_date_link_text(text):
+    match = re.match(r"^\s*((?:19|20)\d{2})\s+(\d{1,2})\s+(\d{1,2})\s+(.+?)\s*$", text or "")
+    if not match:
+        return "未知日期", ""
+
+    year, month, day, title = match.groups()
+    try:
+        date_text = datetime(int(year), int(month), int(day)).strftime("%Y-%m-%d")
+    except ValueError:
+        return "未知日期", ""
+
+    return date_text, title.strip()
+
+
 def parse_alumni_date(text):
     if not text:
         return "未知日期"
@@ -404,6 +418,11 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                 if scraper_config.get("parser") == "dated_link_list":
                     date_text, title_text = parse_dated_link_text(link_text)
                     summary_text = title_text
+                elif scraper_config.get("parser") == "spaced_date_link":
+                    date_text, title_text = parse_spaced_date_link_text(link_text)
+                    if date_text == "未知日期" or not title_text:
+                        continue
+                    summary_text = ""
                 elif scraper_config.get("parser") == "row_date_link":
                     date_text, summary_text = parse_leading_date(article.get_text(" ", strip=True))
                     title_text = link_text

@@ -4899,10 +4899,70 @@
         "pinned": ".label-top"
       }
     },
+    "mgt_activities": {
+      "label": "焦點活動",
+      "owner": "管理學院",
+      "url": "https://www.mgt.ntnu.edu.tw/activities",
+      "selectors": {
+        "parser": "spaced_date_link",
+        "article": ".sideleft-content a[href]",
+        "title_link": "a[href]"
+      }
+    },
     "mgt_news": {
       "label": "最新消息",
       "owner": "管理學院",
       "url": "https://www.mgt.ntnu.edu.tw/announcement",
+      "selectors": {
+        "article": "table tbody tr",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "date": "td:nth-of-type(1)"
+      }
+    },
+    "mgt_scholarship": {
+      "label": "學生獎助學金",
+      "owner": "管理學院",
+      "url": "https://www.mgt.ntnu.edu.tw/第四任院長連任",
+      "selectors": {
+        "article": "table tbody tr",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "date": "td:nth-of-type(1)"
+      }
+    },
+    "mgt_exchange": {
+      "label": "國際交流及赴外甄審",
+      "owner": "管理學院",
+      "url": "https://www.mgt.ntnu.edu.tw/exchange",
+      "selectors": {
+        "parser": "spaced_date_link",
+        "article": ".sideleft-content a[href]",
+        "title_link": "a[href]"
+      }
+    },
+    "mgt_competition_seminar": {
+      "label": "競賽及研討會",
+      "owner": "管理學院",
+      "url": "https://www.mgt.ntnu.edu.tw/競賽及研討會",
+      "selectors": {
+        "article": "table tbody tr",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "date": "td:nth-of-type(1)"
+      }
+    },
+    "mgt_outstanding": {
+      "label": "傑出表現",
+      "owner": "管理學院",
+      "url": "https://www.mgt.ntnu.edu.tw/outstanding",
+      "selectors": {
+        "article": "table tbody tr",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "date": "td:nth-of-type(1)"
+      }
+    },
+    "mgt_recruitment": {
+      "label": "學院徵才",
+      "owner": "管理學院",
+      "url": "https://www.mgt.ntnu.edu.tw/work-opportunities",
       "selectors": {
         "article": "table tbody tr",
         "title_link": "td:nth-of-type(2) a[href]",
@@ -7957,8 +8017,32 @@
           "name": "管理學院",
           "channels": [
             {
+              "name": "焦點活動",
+              "value": "mgt_activities"
+            },
+            {
               "name": "最新消息",
               "value": "mgt_news"
+            },
+            {
+              "name": "學生獎助學金",
+              "value": "mgt_scholarship"
+            },
+            {
+              "name": "國際交流及赴外甄審",
+              "value": "mgt_exchange"
+            },
+            {
+              "name": "競賽及研討會",
+              "value": "mgt_competition_seminar"
+            },
+            {
+              "name": "傑出表現",
+              "value": "mgt_outstanding"
+            },
+            {
+              "name": "學院徵才",
+              "value": "mgt_recruitment"
             }
           ],
           "subUnits": [
