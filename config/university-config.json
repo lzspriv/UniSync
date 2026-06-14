@@ -3826,8 +3826,13 @@
     "honorscollege_announce": {
       "label": "最新消息",
       "owner": "公館校區學務組",
-      "url": "https://honorscollege.sa.ntnu.edu.tw/category/announce/",
-      "selectorPreset": "ultimate_post_grid"
+      "url": "https://honorscollege.sa.ntnu.edu.tw/%e6%9c%80%e6%96%b0%e6%b6%88%e6%81%af/",
+      "selectorPreset": "ultimate_post_grid",
+      "selectors": {
+        "article": ".ultp-block-42efb6 .ultp-block-item",
+        "title_link": ".ultp-block-title a[href]",
+        "date": ".ultp-block-date"
+      }
     },
     "honorscollege_rent": {
       "label": "校外賃居",
@@ -3959,6 +3964,12 @@
       "owner": "健康中心",
       "url": "https://health.sa.ntnu.edu.tw/category/item/health-education/",
       "selectorPreset": "wordpress_broad"
+    },
+    "honorscollege_honorscollege": {
+      "label": "全人書院",
+      "owner": "公館校區學務組",
+      "url": "https://honorscollege.sa.ntnu.edu.tw/category/honorscollege/",
+      "selectorPreset": "ultimate_post_grid"
     }
   },
   "schema": [
@@ -4333,12 +4344,16 @@
                   "name": "最新消息"
                 },
                 {
-                  "value": "honorscollege_rent",
-                  "name": "校外賃居"
-                },
-                {
                   "value": "honorscollege_activity",
                   "name": "活動訊息"
+                },
+                {
+                  "value": "honorscollege_honorscollege",
+                  "name": "全人書院"
+                },
+                {
+                  "value": "honorscollege_rent",
+                  "name": "校外賃居"
                 }
               ]
             },
