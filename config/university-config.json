@@ -3932,6 +3932,18 @@
       "url": "https://www.artmuse.ntnu.edu.tw/index.php/category/announcement-ch/",
       "selectorPreset": "wordpress_broad"
     },
+    "artmuse_press": {
+      "label": "新聞",
+      "owner": "美術館",
+      "url": "https://www.artmuse.ntnu.edu.tw/index.php/category/news/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "artmuse_events": {
+      "label": "活動",
+      "owner": "美術館",
+      "url": "https://www.artmuse.ntnu.edu.tw/index.php/category/events/",
+      "selectorPreset": "wordpress_broad"
+    },
     "rcccr_news": {
       "label": "最新消息",
       "owner": "文物保存維護研究發展中心",
@@ -5439,6 +5451,14 @@
             {
               "value": "artmuse_news",
               "name": "最新消息"
+            },
+            {
+              "value": "artmuse_press",
+              "name": "新聞"
+            },
+            {
+              "value": "artmuse_events",
+              "name": "活動"
             }
           ]
         },

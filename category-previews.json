@@ -21036,7 +21036,7 @@
     ]
   },
   "artmuse_news": {
-    "label": "最新消息",
+    "label": "美術館-最新消息",
     "announcements": [
       {
         "title": "【徵稿公告】師大美術館徵求典藏品詮釋研究撰稿員",
@@ -24082,6 +24082,86 @@
         "title": "【CAL】輔導員伴寫時間",
         "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/75",
         "date": "2025-03-19",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "artmuse_press": {
+    "label": "美術館-新聞",
+    "announcements": [
+      {
+        "title": "師大美術館《共生之華》重返近代臺日美術交會的璀璨時代，6月15日開幕儀式，歡迎各界蒞臨指導！",
+        "url": "https://www.artmuse.ntnu.edu.tw/index.php/2026/06/05/20260605/",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "「奧利・艾普的小鹹點」英國藝術家 Oli Epp 的怪誕視覺饗宴，反思當代社交媒體生活現象",
+        "url": "https://www.artmuse.ntnu.edu.tw/index.php/2025/03/17/0317/",
+        "date": "2025-03-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "師大美術館自製節目《米龍360》科藝跨域與傳統祭儀對話",
+        "url": "https://www.artmuse.ntnu.edu.tw/index.php/2024/11/11/1111/",
+        "date": "2024-11-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "師大美術館沉浸式展廳「光影走廊」feat.__ 系列展演活動，公眾展演場開始索票！",
+        "url": "https://www.artmuse.ntnu.edu.tw/index.php/2024/09/24/20240924/",
+        "date": "2024-09-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "公告 自113年5月20日至5月31日止，本館4樓因卸佈展作業暫停開放",
+        "url": "https://www.artmuse.ntnu.edu.tw/index.php/2024/05/21/01-3/",
+        "date": "2024-05-21",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "artmuse_events": {
+    "label": "美術館-活動",
+    "announcements": [
+      {
+        "title": "【徵稿公告】師大美術館徵求典藏品詮釋研究撰稿員",
+        "url": "https://www.artmuse.ntnu.edu.tw/index.php/2026/06/06/20260606/",
+        "date": "2026-06-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "「心象繪畫──高行健」11月13日跨國與談 開放現場報名參與",
+        "url": "https://www.artmuse.ntnu.edu.tw/index.php/2025/10/14/gaoxingjianlivestream/",
+        "date": "2025-10-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "師大美術館「理水．理園」計畫探訪在地文史，8 月走讀、共創工作坊開放報名中！",
+        "url": "https://www.artmuse.ntnu.edu.tw/index.php/2025/05/01/waterway/",
+        "date": "2025-05-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "美術館中的歷史寫真",
+        "url": "https://www.artmuse.ntnu.edu.tw/index.php/2025/04/30/30/",
+        "date": "2025-04-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "論壇側寫【文化轉譯力】轉譯力──轉譯敘事如何重現創作內涵，吳哲宇 Generative Artist & Founder CHEYUWU",
+        "url": "https://www.artmuse.ntnu.edu.tw/index.php/2024/12/10/ntnuambi_006/",
+        "date": "2024-12-10",
         "date_label": "發布日期",
         "summary": ""
       }
