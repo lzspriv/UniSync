@@ -209,6 +209,27 @@ def parse_date_from_url(value):
         return "未知日期"
 
 
+def parse_yearless_month_day(text):
+    match = re.search(r"(\d{1,2})\s*月\s*(\d{1,2})\s*日", text or "")
+    if not match:
+        return "未知日期"
+
+    now = datetime.now()
+    month, day = (int(part) for part in match.groups())
+    try:
+        parsed = datetime(now.year, month, day)
+    except ValueError:
+        return "未知日期"
+
+    if parsed.date() > now.date():
+        try:
+            parsed = datetime(now.year - 1, month, day)
+        except ValueError:
+            return "未知日期"
+
+    return parsed.strftime("%Y-%m-%d")
+
+
 def parse_split_date(yearmonth_text, day_text):
     match = re.search(r"(\d{4})[-/](\d{1,2})", yearmonth_text or "")
     day_match = re.search(r"(\d{1,2})", day_text or "")
@@ -514,6 +535,15 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                     title_text = link_text or link_tag.get("title", "").strip()
                     date_text = parse_cal_date(date_tag)
                     summary_tag = article.select_one(scraper_config.get("summary", ".article"))
+                    summary_text = summary_tag.get_text(" ", strip=True) if summary_tag else ""
+                elif scraper_config.get("parser") == "wix_blog_card":
+                    title_tag = article.select_one(scraper_config.get("title", "[data-hook='post-title']"))
+                    title_text = normalize_whitespace(
+                        title_tag.get_text(" ", strip=True) if title_tag else link_text
+                    )
+                    raw_date_text = date_tag.get_text(" ", strip=True) if date_tag else ""
+                    date_text = parse_yearless_month_day(raw_date_text)
+                    summary_tag = article.select_one(scraper_config.get("summary", "[data-hook='post-description']"))
                     summary_text = summary_tag.get_text(" ", strip=True) if summary_tag else ""
                 else:
                     raw_date_text = date_tag.get_text(strip=True) if date_tag else ""

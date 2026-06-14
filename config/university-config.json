@@ -186,6 +186,14 @@
       "article": ".ultp-block-c6bf62 .ultp-block-item",
       "title_link": ".ultp-block-title a[href]",
       "date": ".ultp-block-date"
+    },
+    "wix_blog_card": {
+      "parser": "wix_blog_card",
+      "article": "[data-hook=\"post-list-item\"]",
+      "title_link": "a[href*=\"/post/\"]",
+      "title": "[data-hook=\"post-title\"]",
+      "date": "span[data-hook=\"time-ago\"]",
+      "summary": "[data-hook=\"post-description\"]"
     }
   },
   "categories": {
@@ -3970,6 +3978,54 @@
       "owner": "公館校區學務組",
       "url": "https://honorscollege.sa.ntnu.edu.tw/category/honorscollege/",
       "selectorPreset": "ultimate_post_grid"
+    },
+    "hsin_tien_blog": {
+      "label": "好心文",
+      "owner": "社區諮商中心",
+      "url": "https://www.hsin-tien.com/blog",
+      "selectorPreset": "wix_blog_card"
+    },
+    "hsin_tien_hot_premiere": {
+      "label": "熱門首播",
+      "owner": "社區諮商中心",
+      "url": "https://www.hsin-tien.com/blog/categories/%E7%86%B1%E9%96%80%E9%A6%96%E6%92%AD",
+      "selectorPreset": "wix_blog_card"
+    },
+    "hsin_tien_relationship": {
+      "label": "情感關係",
+      "owner": "社區諮商中心",
+      "url": "https://www.hsin-tien.com/blog/categories/%E5%85%A9%E6%80%A7%E6%83%85%E6%84%9F",
+      "selectorPreset": "wix_blog_card"
+    },
+    "hsin_tien_family": {
+      "label": "親子家庭",
+      "owner": "社區諮商中心",
+      "url": "https://www.hsin-tien.com/blog/categories/%E8%A6%AA%E5%AD%90%E5%AE%B6%E5%BA%AD",
+      "selectorPreset": "wix_blog_card"
+    },
+    "hsin_tien_stress": {
+      "label": "壓力調適",
+      "owner": "社區諮商中心",
+      "url": "https://www.hsin-tien.com/blog/categories/%E5%A3%93%E5%8A%9B%E8%AA%BF%E9%81%A9",
+      "selectorPreset": "wix_blog_card"
+    },
+    "hsin_tien_reading": {
+      "label": "心閱讀",
+      "owner": "社區諮商中心",
+      "url": "https://www.hsin-tien.com/blog/categories/%E5%BF%83%E9%96%B1%E8%AE%80",
+      "selectorPreset": "wix_blog_card"
+    },
+    "hsin_tien_knowledge": {
+      "label": "心知識",
+      "owner": "社區諮商中心",
+      "url": "https://www.hsin-tien.com/blog/categories/%E5%BF%83%E7%9F%A5%E8%AD%98",
+      "selectorPreset": "wix_blog_card"
+    },
+    "hsin_tien_sexual_trauma": {
+      "label": "性創傷相關",
+      "owner": "社區諮商中心",
+      "url": "https://www.hsin-tien.com/blog/categories/%E6%80%A7%E5%89%B5%E5%82%B7%E7%9B%B8%E9%97%9C",
+      "selectorPreset": "wix_blog_card"
     }
   },
   "schema": [
@@ -4398,7 +4454,40 @@
             {
               "id": "l3-community-counseling-center",
               "name": "社區諮商中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "hsin_tien_blog",
+                  "name": "好心文"
+                },
+                {
+                  "value": "hsin_tien_hot_premiere",
+                  "name": "熱門首播"
+                },
+                {
+                  "value": "hsin_tien_relationship",
+                  "name": "情感關係"
+                },
+                {
+                  "value": "hsin_tien_family",
+                  "name": "親子家庭"
+                },
+                {
+                  "value": "hsin_tien_stress",
+                  "name": "壓力調適"
+                },
+                {
+                  "value": "hsin_tien_reading",
+                  "name": "心閱讀"
+                },
+                {
+                  "value": "hsin_tien_knowledge",
+                  "name": "心知識"
+                },
+                {
+                  "value": "hsin_tien_sexual_trauma",
+                  "name": "性創傷相關"
+                }
+              ]
             },
             {
               "id": "l3-student-housing-service-center",
