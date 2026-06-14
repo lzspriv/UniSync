@@ -1850,7 +1850,7 @@
       }
     },
     "cla_news": {
-      "label": "最新消息",
+      "label": "學院公告",
       "owner": "文學院",
       "url": "https://www.cla.ntnu.edu.tw/index.php/category/announcement/",
       "selectors": {
@@ -1919,6 +1919,94 @@
       "label": "雙語計畫",
       "owner": "文學院",
       "url": "https://www.cla.ntnu.edu.tw/index.php/category/emi/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "cla_japanese": {
+      "label": "日語學程",
+      "owner": "文學院",
+      "url": "https://www.cla.ntnu.edu.tw/index.php/category/japanese/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "cla_korean": {
+      "label": "韓語學程",
+      "owner": "文學院",
+      "url": "https://www.cla.ntnu.edu.tw/index.php/category/korean/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "cla_philosophy": {
+      "label": "哲學學程",
+      "owner": "文學院",
+      "url": "https://www.cla.ntnu.edu.tw/index.php/category/philosophy/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "cla_indigenous": {
+      "label": "原民學程",
+      "owner": "文學院",
+      "url": "https://www.cla.ntnu.edu.tw/index.php/category/indigenous/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "cla_idtah": {
+      "label": "數位學程",
+      "owner": "文學院",
+      "url": "https://www.cla.ntnu.edu.tw/index.php/category/idtah/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "cla_metaverse": {
+      "label": "元宇宙學程",
+      "owner": "文學院",
+      "url": "https://www.cla.ntnu.edu.tw/index.php/category/metaverse/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "cla_hakka": {
+      "label": "客語學程",
+      "owner": "文學院",
+      "url": "https://www.cla.ntnu.edu.tw/index.php/category/hakka/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "cla_intei": {
+      "label": "INTEI",
+      "owner": "文學院",
+      "url": "https://www.cla.ntnu.edu.tw/index.php/category/intei-esd/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
         "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
@@ -4147,7 +4235,7 @@
           "name": "文學院",
           "channels": [
             {
-              "name": "最新消息",
+              "name": "學院公告",
               "value": "cla_news"
             },
             {
@@ -4173,6 +4261,38 @@
             {
               "name": "雙語計畫",
               "value": "cla_emi"
+            },
+            {
+              "name": "日語學程",
+              "value": "cla_japanese"
+            },
+            {
+              "name": "韓語學程",
+              "value": "cla_korean"
+            },
+            {
+              "name": "哲學學程",
+              "value": "cla_philosophy"
+            },
+            {
+              "name": "原民學程",
+              "value": "cla_indigenous"
+            },
+            {
+              "name": "數位學程",
+              "value": "cla_idtah"
+            },
+            {
+              "name": "元宇宙學程",
+              "value": "cla_metaverse"
+            },
+            {
+              "name": "客語學程",
+              "value": "cla_hakka"
+            },
+            {
+              "name": "INTEI",
+              "value": "cla_intei"
             }
           ],
           "subUnits": [

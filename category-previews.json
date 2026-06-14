@@ -7282,7 +7282,7 @@
     ]
   },
   "cla_news": {
-    "label": "最新消息",
+    "label": "學院公告",
     "announcements": [
       {
         "title": "修正「教育部表揚推展本土語言傑出貢獻團體及個人實施要點」部分規定",
@@ -9920,5 +9920,282 @@
         "summary": ""
       }
     ]
+  },
+  "cla_japanese": {
+    "label": "日語學程",
+    "announcements": [
+      {
+        "title": "文學院學分學程異動公告",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2026/02/05/cla-programs-admin-change/",
+        "date": "2026-02-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113學年度第2學期文學院學分學程上課時間表(114.02.18更新)",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/01/06/113-2-class-timetable/",
+        "date": "2025-01-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[代公告] 徵才資訊：億光電子-日本線業務",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2024/11/29/job-fair-2024-11-28/",
+        "date": "2024-11-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動公告】電影《中村地平》欣賞暨映後座談",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2024/10/16/movie-festival-20241108/",
+        "date": "2024-10-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113學年度第1學期文學院學分學程上課時間表(113.09.13更新)",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2024/09/02/113-1-class-timetable/",
+        "date": "2024-09-02",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cla_korean": {
+    "label": "韓語學程",
+    "announcements": [
+      {
+        "title": "113學年度第2學期文學院學分學程上課時間表(114.02.18更新)",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/01/06/113-2-class-timetable/",
+        "date": "2025-01-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113學年度第1學期文學院學分學程上課時間表(113.09.13更新)",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2024/09/02/113-1-class-timetable/",
+        "date": "2024-09-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "112學年度第2學期文學院學分學程上課時間表(113.03.18更新)",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2024/02/16/112-2-class-timetable/",
+        "date": "2024-02-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "112學年度第1學期文學院學分學程上課時間表(112.09.19更新)",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2023/08/17/112-1-class-timetable/",
+        "date": "2023-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵聘公告】臺師大文學院約聘教師",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2022/12/16/2022-12-16/",
+        "date": "2022-12-16",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cla_philosophy": {
+    "label": "哲學學程",
+    "announcements": [
+      {
+        "title": "文學院學分學程異動公告",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2026/02/05/cla-programs-admin-change/",
+        "date": "2026-02-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動宣傳】12/5(五)生態、普遍主義與民主——新啟蒙概念的論證",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/11/20/2025-11-20/",
+        "date": "2025-11-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【課程宣傳】114-1 新課程:電影、政治與哲學",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/07/17/promotion/",
+        "date": "2025-07-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動宣傳】4/21(一) 哲學沙龍暨學程說明會",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/04/10/philosophysalon/",
+        "date": "2025-04-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113學年度第2學期文學院學分學程上課時間表(114.02.18更新)",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/01/06/113-2-class-timetable/",
+        "date": "2025-01-06",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cla_indigenous": {
+    "label": "原民學程",
+    "announcements": [
+      {
+        "title": "113學年度第2學期文學院學分學程上課時間表(114.02.18更新)",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/01/06/113-2-class-timetable/",
+        "date": "2025-01-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113學年度第1學期文學院學分學程上課時間表(113.09.13更新)",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2024/09/02/113-1-class-timetable/",
+        "date": "2024-09-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "112學年度第1學期文學院學分學程上課時間表(112.09.19更新)",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2023/08/17/112-1-class-timetable/",
+        "date": "2023-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "111學年度第2學期文學院學分學程上課時間表(112.03.10更新)",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2022/12/15/112-class-timetable/",
+        "date": "2022-12-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【招生公告】文學院學分學程資格登記：4/11-4/25，歡迎大家踴躍報名",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2022/03/10/2022-03-03/",
+        "date": "2022-03-10",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cla_idtah": {
+    "label": "數位學程",
+    "announcements": [
+      {
+        "title": "「數位人文與藝術學分學程」相關公告：停招及後續申請修習證明",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2024/07/03/2024-07-03/",
+        "date": "2024-07-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "112學年度第1學期文學院學分學程上課時間表(112.09.19更新)",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2023/08/17/112-1-class-timetable/",
+        "date": "2023-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【招生公告】文學院學分學程資格登記：4/11-4/25，歡迎大家踴躍報名",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2022/03/10/2022-03-03/",
+        "date": "2022-03-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】歡迎修習文學院「數位人文與藝術學分學程」(採事後認證制-109學年度開辦)",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2020/02/21/2020-02-21-3/",
+        "date": "2020-02-21",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cla_metaverse": {
+    "label": "元宇宙學程",
+    "announcements": [
+      {
+        "title": "【歡迎選修】文學院開設暑期課程，歡迎校內外同學選修！",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2026/05/27/2026-05-27/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "文學院學分學程異動公告",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2026/02/05/cla-programs-admin-change/",
+        "date": "2026-02-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【元宇宙系列講座】9/10(三)台灣文學的音樂轉譯—以楊逵與賴和的作品為例",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/09/09/114meta1/",
+        "date": "2025-09-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【歡迎選修】文學院開設暑期課程，歡迎校內外同學選修！",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/05/19/internpromotion/",
+        "date": "2025-05-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【產業實習系列講座】5/14(三)演講活動：國家考試怎麼考？",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/05/05/intern6/",
+        "date": "2025-05-05",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cla_hakka": {
+    "label": "客語學程",
+    "announcements": [
+      {
+        "title": "客委會114年度「共下來打嘴鼓」實施計畫(4/25申請截止)",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/03/27/114-hakka-conversation-project/",
+        "date": "2025-03-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動宣傳】113-2學期「客話打嘴鼓」客語聊天室系列活動",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/02/10/113-2_hakka_chat_room/",
+        "date": "2025-02-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動報名】客語中心：113學年度客語寫作與演說專業學習工作坊",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/02/06/113-hakka_prof_workshop/",
+        "date": "2025-02-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【申請公告】113-2學期臺師大桐花獎學金",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/01/17/113-2_hakka_scholarship_apply/",
+        "date": "2025-01-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【得獎名單】113-1學期臺師大桐花獎學金",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/01/17/113-1_hakka_scholarship_list/",
+        "date": "2025-01-17",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cla_intei": {
+    "label": "INTEI",
+    "announcements": []
   }
 }
