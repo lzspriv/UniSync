@@ -1,4 +1,3 @@
-import json
 import sys
 from pathlib import Path
 
@@ -7,6 +6,7 @@ current_dir = Path(__file__).resolve().parent
 if str(current_dir) not in sys.path:
     sys.path.append(str(current_dir))
 
+from config_loader import load_category_config
 from scraper import fetch_university_announcements
 
 CONFIG_PATH = current_dir.parent / "config" / "university-config.json"
@@ -15,19 +15,14 @@ def run_diagnostic():
     print("🧪 開始進行理學院各系所爬蟲相容性診斷...")
     print("=" * 60)
     
-    with CONFIG_PATH.open("r", encoding="utf-8") as config_file:
-        config = json.load(config_file)
-    
-    categories = config.get("categories", {})
+    category_urls, category_labels, categories = load_category_config(CONFIG_PATH)
     
     failed_sites = []
     success_count = 0
     
     for cat_id, meta in categories.items():
-        url = meta.get("url")
-        owner = meta.get("owner", "")
-        label = meta.get("label", "")
-        display_name = f"{owner} - {label}"
+        url = category_urls.get(cat_id, meta.get("url", ""))
+        display_name = category_labels.get(cat_id, cat_id)
         
         # 讀取個別選擇器，如果沒有就傳 None (使用 scraper.py 的預設值)
         selectors = meta.get("selectors", None)

@@ -36,6 +36,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Validate Config
+        run: python scripts/validate_config.py
+
       - name: Run UniSync Engine
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
@@ -52,5 +55,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add category-previews.json
-          git commit -m "chore: 更新分類預覽快取 [skip ci]"
+          git commit -m "chore: update category preview cache [skip ci]"
           git push
