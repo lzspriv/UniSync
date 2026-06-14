@@ -5122,14 +5122,43 @@
       }
     },
     "gf_news": {
-      "label": "最新消息",
+      "label": "熱門消息",
       "owner": "國際時尚高階管理碩士在職專班(GF-EMBA)",
-      "url": "https://www.gf.ntnu.edu.tw/news",
+      "url": "https://www.gf.ntnu.edu.tw/outstanding",
       "selectors": {
-        "article": ".sideleft-content > a[href]",
-        "title_link": ".news-list-text",
-        "title": ".news-list-text",
-        "date": ".news-list-date"
+        "parser": "mgt_card",
+        "article": ".sideleft-content a[href]",
+        "title_link": "a[href]"
+      }
+    },
+    "gf_report": {
+      "label": "媒體報導",
+      "owner": "國際時尚高階管理碩士在職專班(GF-EMBA)",
+      "url": "https://www.gf.ntnu.edu.tw/report",
+      "selectors": {
+        "parser": "mgt_card",
+        "article": ".sideleft-content a[href]",
+        "title_link": "a[href]"
+      }
+    },
+    "gf_visit": {
+      "label": "校外參訪",
+      "owner": "國際時尚高階管理碩士在職專班(GF-EMBA)",
+      "url": "https://www.gf.ntnu.edu.tw/announcement",
+      "selectors": {
+        "parser": "mgt_card",
+        "article": ".sideleft-content a[href]",
+        "title_link": "a[href]"
+      }
+    },
+    "gf_activities": {
+      "label": "演講活動",
+      "owner": "國際時尚高階管理碩士在職專班(GF-EMBA)",
+      "url": "https://www.gf.ntnu.edu.tw/activities",
+      "selectors": {
+        "parser": "mgt_card",
+        "article": ".sideleft-content a[href]",
+        "title_link": "a[href]"
       }
     },
     "ciai_news": {
@@ -8245,8 +8274,20 @@
               "name": "國際時尚高階管理碩士在職專班(GF-EMBA)",
               "channels": [
                 {
-                  "name": "最新消息",
+                  "name": "熱門消息",
                   "value": "gf_news"
+                },
+                {
+                  "name": "媒體報導",
+                  "value": "gf_report"
+                },
+                {
+                  "name": "校外參訪",
+                  "value": "gf_visit"
+                },
+                {
+                  "name": "演講活動",
+                  "value": "gf_activities"
                 }
               ]
             }

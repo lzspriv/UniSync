@@ -17892,7 +17892,7 @@
     ]
   },
   "gf_news": {
-    "label": "國際時尚高階管理碩士在職專班(GF-EMBA)-最新消息",
+    "label": "國際時尚高階管理碩士在職專班(GF-EMBA)-熱門消息",
     "announcements": [
       {
         "title": "臺師大GF-EMBA畢典登場 跨界人才展現學習與美學能量",
@@ -18869,6 +18869,126 @@
         "title": "108學年招生影片",
         "url": "https://www.gbs.ntnu.edu.tw/108學年招生影片",
         "date": "2019-01-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "gf_report": {
+    "label": "國際時尚高階管理碩士在職專班(GF-EMBA)-媒體報導",
+    "announcements": [
+      {
+        "title": "當時尚遇上管理 臺師大國際時尚GF-EMBA專班讓「生活美學」增添商業競爭力",
+        "url": "https://www.gf.ntnu.edu.tw/當時尚遇上管理臺師大國際時尚gf-emba專班讓生活美學增添商業競爭力",
+        "date": "2025-10-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "跨越時尚與商業的界線｜臺師大 GF-EMBA，走向世界的另一條路",
+        "url": "https://www.gf.ntnu.edu.tw/跨越時尚與商業的界線臺師大-gf-emba走向世界的另一條路",
+        "date": "2025-09-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025首屆客家時尚獎決賽登場 永續設計掀起文化新風潮(105級黃秀瑾)",
+        "url": "https://www.gf.ntnu.edu.tw/2025首屆客家時尚獎決賽登場-105級黃秀瑾擔任策展人兼裁判長",
+        "date": "2025-09-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "GF-EMBA 109級施承澤學長「和光同塵」獲全國美術展雕塑類銀牌獎",
+        "url": "https://www.gf.ntnu.edu.tw/gf-emba-109級施承澤學長和光同塵獲全國美術展雕塑類銀牌獎",
+        "date": "2024-08-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "「潑墨人生 濃淡皆宜」 GF-EMBA雜誌創辦人黃珏萍專訪同窗潑墨大師柯淑玲",
+        "url": "https://www.gf.ntnu.edu.tw/潑墨人生-濃淡皆宜-gf-emba雜誌創辦人黃珏萍專訪同窗潑墨大師柯淑玲",
+        "date": "2024-07-17",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "gf_visit": {
+    "label": "國際時尚高階管理碩士在職專班(GF-EMBA)-校外參訪",
+    "announcements": [
+      {
+        "title": "GF-EMBA 113級海外參訪赴日本九州 深化產業與學術交流拓展國際視野",
+        "url": "https://www.gf.ntnu.edu.tw/gf-113級海外參訪九州之旅圓滿落幕",
+        "date": "2026-03-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "House of Story Wear永續百貨知性導覽——融合文創、歷史、時尚與永續理念的生活場域體驗",
+        "url": "https://www.gf.ntnu.edu.tw/house-of-story-wear永續百貨知性導覽融合文創歷史時尚與永續理念的生活場域體驗-2",
+        "date": "2025-06-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "House of Story Wear永續百貨知性導覽——融合文創、歷史、時尚與永續理念的生活場域體驗",
+        "url": "https://www.gf.ntnu.edu.tw/house-of-story-wear永續百貨知性導覽融合文創歷史時尚與永續理念的生活場域體驗",
+        "date": "2025-02-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "GF-EMBA玩味藝術社成員走訪CINDY CHAO二十周年經典回顧展",
+        "url": "https://www.gf.ntnu.edu.tw/gf-emba玩味藝術社成員走訪cindy-chao二十周年經典回顧展",
+        "date": "2024-11-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "梵谷真跡現身台北 陸仲雁老師與113級學長姐共賞藝術珍品",
+        "url": "https://www.gf.ntnu.edu.tw/梵谷真跡現身台北-陸仲雁老師與113級學長姐共賞藝術珍品",
+        "date": "2024-11-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "gf_activities": {
+    "label": "國際時尚高階管理碩士在職專班(GF-EMBA)-演講活動",
+    "announcements": [
+      {
+        "title": "時尚產業專家溫筱鴻董事長蒞臨分享《時尚潮流趨勢與時尚精品經營策略》",
+        "url": "https://www.gf.ntnu.edu.tw/時尚產業專家溫筱鴻董事長蒞臨分享時尚潮流趨勢與時尚精品經營策略",
+        "date": "2025-11-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大GF-EMBA大師講座(二)邀請國立臺灣師範大學圖文傳播學系曹筱玥教授分享《A I 時代的沈浸體驗 & 元宇宙虛實展演新型態》",
+        "url": "https://www.gf.ntnu.edu.tw/臺師大gf-emba大師講座二邀請國立臺灣師範大學圖文傳播學系曹筱玥教授分享a-i-時代的沈浸體驗-元宇宙虛實展演新型態",
+        "date": "2025-10-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大GF-EMBA大師講座(一)邀請臺師大設計學系特聘教授洪聰敏教授分享《心理力：建立生命中的正向循環》",
+        "url": "https://www.gf.ntnu.edu.tw/臺師大gf-emba大師講座一邀請臺師大設計學系特聘教授洪聰敏教授分享心理力建立生命中的正向循環",
+        "date": "2025-08-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大GF-EMBA大師講座(一)邀請臺師大設計學系特聘教授黃心健教授分享《前進元宇宙:演唱會經濟&元宇宙商機》",
+        "url": "https://www.gf.ntnu.edu.tw/臺師大gf-emba大師講座一邀請臺師大設計學系特聘教授黃心健教授分享前進元宇宙演唱會經濟元宇宙商機",
+        "date": "2025-08-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大GF-EMBA大師講座(一)邀請企業永續管理師兼中華民國前審計長林慶隆先生分享《企業治理、社會責任、環境保護、永續轉型:永續發展議題在公司治理的關鍵角色》",
+        "url": "https://www.gf.ntnu.edu.tw/臺師大gf-emba大師講座一邀請企業永續管理師兼中華民國前審計長林慶隆先生分享企業治理社會責任環境保護永續轉型永續發展議題在公司治理的關鍵角色",
+        "date": "2025-07-21",
         "date_label": "發布日期",
         "summary": ""
       }
