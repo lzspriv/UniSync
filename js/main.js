@@ -1002,7 +1002,7 @@ async function reloadLiveFeedForUser(userId) {
     if (!userId || liveFeedState.isLoading) return;
     liveFeedState.isLoading = true;
     liveFeedState.currentUserId = userId;
-    setLiveFeedStatus('Live Feed 載入中...', 'loading');
+    setLiveFeedStatus('最近命中載入中...', 'loading');
 
     try {
         const fetchedItems = await fetchFeedWithFallback(userId);
@@ -1023,7 +1023,7 @@ async function reloadLiveFeedForUser(userId) {
         setLiveFeedStatus(`已載入 ${Math.min(liveFeedState.visibleCount, items.length)} / ${items.length} 筆。`);
     } catch (err) {
         console.error('載入 Live Feed 失敗', err);
-        resetLiveFeedWithStatus('載入 Live Feed 失敗，請稍後再試。', 'error');
+        resetLiveFeedWithStatus('載入最近命中失敗，請稍後再試。', 'error');
     } finally {
         liveFeedState.isLoading = false;
     }
@@ -1052,7 +1052,7 @@ async function initializeLiveFeed() {
     }
 
     if (!_supabase || !_supabase.auth) {
-        resetLiveFeedWithStatus('尚未初始化 Supabase，無法載入 Live Feed。', 'error');
+        resetLiveFeedWithStatus('尚未初始化 Supabase，無法載入最近命中。', 'error');
         return;
     }
 
@@ -1060,7 +1060,7 @@ async function initializeLiveFeed() {
         if (session?.user?.id) {
             reloadLiveFeedForUser(session.user.id);
         } else {
-            resetLiveFeedWithStatus('請先登入以載入 Live Feed。');
+            resetLiveFeedWithStatus('請先登入以載入最近命中。');
         }
     });
 
@@ -1082,7 +1082,7 @@ async function initializeLiveFeed() {
     if (session?.user?.id) {
         await reloadLiveFeedForUser(session.user.id);
     } else {
-        resetLiveFeedWithStatus('請先登入以載入 Live Feed。');
+        resetLiveFeedWithStatus('請先登入以載入最近命中。');
     }
 }
 
