@@ -221,6 +221,18 @@
       "title_link": "td:nth-of-type(1) a[href*='news02=']",
       "date": "th[scope=\"row\"]",
       "pinned": ".badge"
+    },
+    "eshc_table": {
+      "parser": "eshc_table",
+      "article": "#GridView1 tr",
+      "title_link": "a[href*='item.aspx']"
+    },
+    "sdgs_elementskit_card": {
+      "parser": "sdgs_elementskit_card",
+      "article": ".elementskit-post-image-card",
+      "title_link": ".entry-title a",
+      "summary": ".elementskit-post-body p",
+      "include_summary": false
     }
   },
   "categories": {
@@ -3794,6 +3806,18 @@
       "url": "https://www.itc.ntnu.edu.tw/index.php/bulletin_board/",
       "selectorPreset": "wordpress_broad"
     },
+    "eshc_news": {
+      "label": "最新消息",
+      "owner": "環境安全衛生中心",
+      "url": "https://www.eshc.ntnu.edu.tw/main.aspx",
+      "selectorPreset": "eshc_table"
+    },
+    "sdgs_news": {
+      "label": "最新消息",
+      "owner": "永續發展中心",
+      "url": "https://www.sdgs.ntnu.edu.tw/",
+      "selectorPreset": "sdgs_elementskit_card"
+    },
     "hrs_news": {
       "label": "最新消息",
       "owner": "人事室",
@@ -5297,12 +5321,18 @@
             {
               "id": "l3-sustainable-development-center",
               "name": "永續發展中心",
-              "channels": []
-            },
+              "channels": [
+                {
+                  "value": "sdgs_news",
+                  "name": "最新消息"
+                }
+              ]
+            }
+          ],
+          "channels": [
             {
-              "id": "l3-campus-security-police",
-              "name": "駐衛警察隊",
-              "channels": []
+              "value": "eshc_news",
+              "name": "最新消息"
             }
           ]
         },

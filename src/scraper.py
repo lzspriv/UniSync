@@ -526,6 +526,93 @@ def parse_rcemi_article(article, fallback_title):
     return date_text, title_text or fallback_title, summary_text
 
 
+def parse_sdgs_card_article(article, fallback_title):
+    title_tag = article.select_one(".entry-title a")
+    title_text = normalize_whitespace(title_tag.get_text(" ", strip=True) if title_tag else fallback_title)
+
+    date_text = "\u672a\u77e5\u65e5\u671f"
+    date_tag = article.select_one(".elementskit-meta-lists")
+    if date_tag:
+        date_source = normalize_whitespace(date_tag.get_text(" ", strip=True))
+        match = re.search(r"(\d{1,2})\s+(\d{1,2})\s*\u6708", date_source)
+        if match:
+            day, month = (int(part) for part in match.groups())
+            today = datetime.now()
+            try:
+                candidate = datetime(today.year, month, day)
+                if candidate.date() > today.date():
+                    candidate = candidate.replace(year=today.year - 1)
+                date_text = candidate.strftime("%Y-%m-%d")
+            except ValueError:
+                pass
+
+    summary_tag = article.select_one(".elementskit-post-body p")
+    summary_text = normalize_whitespace(summary_tag.get_text(" ", strip=True) if summary_tag else "")
+    return date_text, title_text, summary_text
+
+
+def fetch_eshc_announcements(url, category_name, scraper_config):
+    try:
+        response = create_request_session(url).get(url, headers=REQUEST_HEADERS, timeout=10)
+        response.encoding = "utf-8"
+
+        if response.status_code != 200:
+            print(f"\u26a0\ufe0f \u7121\u6cd5\u8b80\u53d6 {category_name}: {response.status_code}")
+            return []
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        all_news = []
+        recent_news = []
+        cutoff_date = datetime.now() - timedelta(days=10)
+        seen_urls = set()
+
+        for row in soup.select(scraper_config.get("article", "#GridView1 tr")):
+            link_tag = row.select_one(scraper_config.get("title_link", "a[href*='item.aspx']"))
+            if not link_tag or not link_tag.get("href"):
+                continue
+
+            title_text = normalize_whitespace(link_tag.get_text(" ", strip=True))
+            if not title_text:
+                continue
+
+            absolute_url = urljoin(url, link_tag.get("href"))
+            if absolute_url in seen_urls:
+                continue
+            seen_urls.add(absolute_url)
+
+            cells = row.select("td")
+            raw_date = normalize_whitespace(cells[-1].get_text(" ", strip=True) if cells else "")
+            date_text, _ = parse_taiwan_date(raw_date)
+            is_fake_pinned_date = bool(re.match(r"^2100[-/]12[-/]31$", raw_date))
+            is_pinned = title_text.startswith("[\u7f6e\u9802\u516c\u544a]") or is_fake_pinned_date
+            date_label = "\u7f6e\u9802\u516c\u544a" if is_pinned else scraper_config.get("date_label", "\u767c\u5e03\u65e5\u671f")
+            if is_fake_pinned_date:
+                date_text = "\u672a\u77e5\u65e5\u671f"
+
+            news_item = {
+                "title": title_text,
+                "url": absolute_url,
+                "date": date_text,
+                "date_label": date_label,
+                "summary": "",
+                "show_summary": False,
+                "category": category_name,
+            }
+            all_news.append(news_item)
+
+            if date_text != "\u672a\u77e5\u65e5\u671f":
+                try:
+                    if datetime.strptime(date_text, "%Y-%m-%d") >= cutoff_date:
+                        recent_news.append(news_item)
+                except ValueError:
+                    pass
+
+        return all_news[:5] if len(recent_news) < 5 else recent_news
+    except Exception as e:
+        print(f"\u274c \u722c\u53d6 {category_name} \u6642\u767c\u751f\u932f\u8aa4: {e}")
+        return []
+
+
 def fetch_university_announcements(url, category_name, scraper_config=None):
     if not scraper_config:
         scraper_config = {
@@ -540,6 +627,8 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
         return fetch_wordpress_rest_announcements(url, category_name, scraper_config)
     if scraper_config.get("parser") == "oia_next_data":
         return fetch_oia_next_data_announcements(url, category_name, scraper_config)
+    if scraper_config.get("parser") == "eshc_table":
+        return fetch_eshc_announcements(url, category_name, scraper_config)
 
     try:
         response = create_request_session(url).get(url, headers=REQUEST_HEADERS, timeout=10)
@@ -642,6 +731,10 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                 elif scraper_config.get("parser") == "rcemi_article_box":
                     date_text, title_text, summary_text = parse_rcemi_article(article, link_text)
                     if date_text == "未知日期" or not title_text:
+                        continue
+                elif scraper_config.get("parser") == "sdgs_elementskit_card":
+                    date_text, title_text, summary_text = parse_sdgs_card_article(article, link_text)
+                    if date_text == "?芰?交?" or not title_text:
                         continue
                 elif scraper_config.get("parser") == "wix_blog_card":
                     title_tag = article.select_one(scraper_config.get("title", "[data-hook='post-title']"))

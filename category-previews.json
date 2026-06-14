@@ -24166,5 +24166,85 @@
         "summary": ""
       }
     ]
+  },
+  "eshc_news": {
+    "label": "環境安全衛生中心-最新消息",
+    "announcements": [
+      {
+        "title": "[置頂公告] 本校職業安全衛生教育訓練說明 Education Trai……",
+        "url": "https://www.eshc.ntnu.edu.tw/item.aspx?line=2065",
+        "date": "未知日期",
+        "date_label": "置頂公告",
+        "summary": ""
+      },
+      {
+        "title": "歡迎報名環安衛中心-構築永續節能躍升節能推廣講座……",
+        "url": "https://www.eshc.ntnu.edu.tw/item.aspx?line=2076",
+        "date": "2026-06-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "有關教育部「大專校院電費分級補助方案」……",
+        "url": "https://www.eshc.ntnu.edu.tw/item.aspx?line=2073",
+        "date": "2026-03-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "本中心補助各單位節能風扇清洗費用……",
+        "url": "https://www.eshc.ntnu.edu.tw/item.aspx?line=2071",
+        "date": "2026-03-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "本中心補助各單位冷氣機清洗費用……",
+        "url": "https://www.eshc.ntnu.edu.tw/item.aspx?line=2070",
+        "date": "2026-03-06",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "sdgs_news": {
+    "label": "永續發展中心-最新消息",
+    "announcements": [
+      {
+        "title": "「文理共榮」 生科系63級系友、文化部李遠部長分享跨域人生",
+        "url": "https://www.sdgs.ntnu.edu.tw/%e3%80%8c%e6%96%87%e7%90%86%e5%85%b1%e6%a6%ae%e3%80%8d-%e7%94%9f%e7%a7%91%e7%b3%bb63%e7%b4%9a%e7%b3%bb%e5%8f%8b%e3%80%81%e6%96%87%e5%8c%96%e9%83%a8%e6%9d%8e%e9%81%a0%e9%83%a8%e9%95%b7%e5%88%86/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大生命科學系歡慶80週年 系友及退休師長返校共敘情誼",
+        "url": "https://www.sdgs.ntnu.edu.tw/%e8%87%ba%e5%b8%ab%e5%a4%a7%e7%94%9f%e5%91%bd%e7%a7%91%e5%ad%b8%e7%b3%bb%e6%ad%a1%e6%85%b680%e9%80%b1%e5%b9%b4-%e7%b3%bb%e5%8f%8b%e5%8f%8a%e9%80%80%e4%bc%91%e5%b8%ab%e9%95%b7%e8%bf%94%e6%a0%a1/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "咖啡渣再生實踐永續 女一舍舉辦手工皂工作坊",
+        "url": "https://www.sdgs.ntnu.edu.tw/%e5%92%96%e5%95%a1%e6%b8%a3%e5%86%8d%e7%94%9f%e5%af%a6%e8%b8%90%e6%b0%b8%e7%ba%8c-%e5%a5%b3%e4%b8%80%e8%88%8d%e8%88%89%e8%be%a6%e6%89%8b%e5%b7%a5%e7%9a%82%e5%b7%a5%e4%bd%9c%e5%9d%8a/",
+        "date": "2026-05-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "理學院TPCF綠色永續講座 邀請國泰金控李長庚總經理暢談「永續金融」",
+        "url": "https://www.sdgs.ntnu.edu.tw/%e7%90%86%e5%ad%b8%e9%99%a2tpcf%e7%b6%a0%e8%89%b2%e6%b0%b8%e7%ba%8c%e8%ac%9b%e5%ba%a7-%e9%82%80%e8%ab%8b%e5%9c%8b%e6%b3%b0%e9%87%91%e6%8e%a7%e6%9d%8e%e9%95%b7%e5%ba%9a%e7%b8%bd%e7%b6%93%e7%90%86/",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "從地心到宇宙：臺師大地科系 Open House 打造全校唯一沉浸式地球科學探索日",
+        "url": "https://www.sdgs.ntnu.edu.tw/%e5%be%9e%e5%9c%b0%e5%bf%83%e5%88%b0%e5%ae%87%e5%ae%99%ef%bc%9a%e8%87%ba%e5%b8%ab%e5%a4%a7%e5%9c%b0%e7%a7%91%e7%b3%bb-open-house-%e6%89%93%e9%80%a0%e5%85%a8%e6%a0%a1%e5%94%af%e4%b8%80%e6%b2%89/",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   }
 }
