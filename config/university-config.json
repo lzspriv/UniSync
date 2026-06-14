@@ -4138,6 +4138,12 @@
       "owner": "林口總務組",
       "url": "https://www.ga.ntnu.edu.tw/lin/main.aspx",
       "selectorPreset": "ga_legacy_table"
+    },
+    "general_affairs_home_news": {
+      "label": "最新消息",
+      "owner": "總務處",
+      "url": "https://www.ga.ntnu.edu.tw/main.aspx",
+      "selectorPreset": "ga_legacy_table"
     }
   },
   "schema": [
@@ -4680,7 +4686,12 @@
         {
           "id": "l2-general-affairs",
           "name": "總務處",
-          "channels": [],
+          "channels": [
+            {
+              "value": "general_affairs_home_news",
+              "name": "最新消息"
+            }
+          ],
           "subUnits": [
             {
               "id": "l3-general-affairs-director",

@@ -22912,5 +22912,45 @@
         "summary": ""
       }
     ]
+  },
+  "general_affairs_home_news": {
+    "label": "總務處-最新消息",
+    "announcements": [
+      {
+        "title": "【總務處聲明】不肖人士假冒本校總務處名義下訂大量財物.....",
+        "url": "https://www.ga.ntnu.edu.tw/item.aspx?line=2625",
+        "date": "2024-05-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【總務處聲明】本校採購業務均依據政府法令規定辦理，請.....",
+        "url": "https://www.ga.ntnu.edu.tw/item.aspx?line=2546",
+        "date": "2024-01-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【總務處聲明】不肖人士假冒本校總務處名義下訂大量財物.....",
+        "url": "https://www.ga.ntnu.edu.tw/item.aspx?line=2517",
+        "date": "2024-01-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "公告1150615起林口校區公文車收送公文時間調整.....",
+        "url": "https://www.ga.ntnu.edu.tw/item.aspx?line=1540",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "大型廢棄物清運時間公告.....",
+        "url": "https://www.ga.ntnu.edu.tw/item.aspx?line=1539",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   }
 }
