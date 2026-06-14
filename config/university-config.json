@@ -4360,7 +4360,7 @@
       "label": "公告事項",
       "owner": "科學教育中心",
       "url": "https://www.sec.ntnu.edu.tw/zh_tw/announcements?category%5B%5D=619e0a3e3817840930000005&tags%5B%5D=all",
-      "selectorPreset": "oen_annc_table"
+      "selectorPreset": "oen_annc_list"
     },
     "spc_center_announcement": {
       "label": "中心公告",
