@@ -24834,46 +24834,6 @@
     "label": "日本研究中心-最新消息",
     "announcements": []
   },
-  "ceri_news": {
-    "label": "教育研究與創新中心-News",
-    "announcements": [
-      {
-        "title": "October 12, 2021【International Conference on Education for Future: Educational Equity, Excellence and Effectiveness】Is available for registration!",
-        "url": "https://www.ceri.ntnu.edu.tw/index.php/en/2022/05/18/october-12-2021/",
-        "date": "2022-05-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "August 13, 2021 ” International Conference on Education for Future: Educational Equity, Excellence and Effectiveness” Abstract Review Results",
-        "url": "https://www.ceri.ntnu.edu.tw/index.php/en/2022/05/18/august-13-2021/",
-        "date": "2022-05-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "August 06-September 30, 2021 NTNU Plastic Reduction Center_Plastic Reduction Awareness Questionnaire Promotion Invitation Greetings!",
-        "url": "https://www.ceri.ntnu.edu.tw/index.php/en/2022/05/18/august-06-september-30-2021/",
-        "date": "2022-05-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "April 07, 2021 【International Conference on Education for Future: Educational Equity, Excellence and Effectiveness.】Registration and paper submission",
-        "url": "https://www.ceri.ntnu.edu.tw/index.php/en/2022/05/17/april-07-2021/",
-        "date": "2022-05-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "August 9-31, 2021【Education of outstanding athletes / the support of Sports science for Olympic athletes / Research related to physical education】Press Conference",
-        "url": "https://www.ceri.ntnu.edu.tw/index.php/en/2022/05/17/august9-31-2021/",
-        "date": "2022-05-17",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
-  },
   "cag_news": {
     "label": "天文與重力中心-News",
     "announcements": [
@@ -25236,5 +25196,65 @@
         "summary": ""
       }
     ]
+  },
+  "ceri_center_announcement": {
+    "label": "中心公告",
+    "announcements": []
+  },
+  "ceri_journal_announcement": {
+    "label": "期刊公告",
+    "announcements": []
+  },
+  "ceri_project_news": {
+    "label": "計畫消息",
+    "announcements": []
+  },
+  "ceri_tank_column": {
+    "label": "專欄",
+    "announcements": []
+  },
+  "ceri_tank_language_culture": {
+    "label": "語言文化教育",
+    "announcements": []
+  },
+  "ceri_tank_special_education": {
+    "label": "特殊教育",
+    "announcements": []
+  },
+  "ceri_tank_science_education": {
+    "label": "科學教育",
+    "announcements": []
+  },
+  "ceri_tank_usr": {
+    "label": "大學社會責任",
+    "announcements": []
+  },
+  "ceri_tank_early_childhood": {
+    "label": "幼兒教育",
+    "announcements": []
+  },
+  "ceri_tank_sports_science": {
+    "label": "運動科學",
+    "announcements": []
+  },
+  "ceri_tank_overseas_policy": {
+    "label": "僑教政策",
+    "announcements": []
+  },
+  "ceri_tank_rural_education": {
+    "label": "偏鄉教育",
+    "announcements": []
+  },
+  "ceri_tank_exam_education": {
+    "label": "考試與教育",
+    "announcements": []
+  },
+  "ceri_tank_curriculum_teacher": {
+    "label": "新課綱與師資培育",
+    "announcements": []
+  },
+  "ceri_tank_digital_learning": {
+    "label": "數位學習",
+    "announcements": []
   }
 }

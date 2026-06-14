@@ -4588,12 +4588,6 @@
         "api_url": "https://ntnueasjrc.blogspot.com/feeds/posts/default?alt=json&max-results=20"
       }
     },
-    "ceri_news": {
-      "label": "News",
-      "owner": "教育研究與創新中心",
-      "url": "https://www.ceri.ntnu.edu.tw/index.php/en/category/uncategorized-en/",
-      "selectorPreset": "wordpress_broad"
-    },
     "cag_news": {
       "label": "News",
       "owner": "天文與重力中心",
@@ -4658,6 +4652,96 @@
       "label": "News",
       "owner": "韓國學研究中心",
       "url": "https://www.cks.ntnu.edu.tw/index.php/en/news/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_center_announcement": {
+      "label": "中心公告",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_journal_announcement": {
+      "label": "期刊公告",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/uncategorized/2/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_project_news": {
+      "label": "計畫消息",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/uncategorized/3/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_tank_column": {
+      "label": "專欄",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-13",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_tank_language_culture": {
+      "label": "語言文化教育",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-2/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_tank_special_education": {
+      "label": "特殊教育",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-3",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_tank_science_education": {
+      "label": "科學教育",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-4",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_tank_usr": {
+      "label": "大學社會責任",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-5",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_tank_early_childhood": {
+      "label": "幼兒教育",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-6",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_tank_sports_science": {
+      "label": "運動科學",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-7",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_tank_overseas_policy": {
+      "label": "僑教政策",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-8",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_tank_rural_education": {
+      "label": "偏鄉教育",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-9",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_tank_exam_education": {
+      "label": "考試與教育",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-10",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_tank_curriculum_teacher": {
+      "label": "新課綱與師資培育",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-11",
+      "selectorPreset": "wordpress_broad"
+    },
+    "ceri_tank_digital_learning": {
+      "label": "數位學習",
+      "owner": "教育研究與創新中心",
+      "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-12",
       "selectorPreset": "wordpress_broad"
     }
   },
@@ -5858,10 +5942,79 @@
                 {
                   "id": "l4-ceri",
                   "name": "教育研究與創新中心",
-                  "channels": [
+                  "channels": [],
+                  "subUnits": [
                     {
-                      "value": "ceri_news",
-                      "name": "News"
+                      "id": "l5-ceri-latest-news",
+                      "name": "最新消息",
+                      "channels": [
+                        {
+                          "value": "ceri_center_announcement",
+                          "name": "中心公告"
+                        },
+                        {
+                          "value": "ceri_journal_announcement",
+                          "name": "期刊公告"
+                        },
+                        {
+                          "value": "ceri_project_news",
+                          "name": "計畫消息"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "l5-ceri-education-think-tank",
+                      "name": "教育智庫",
+                      "channels": [
+                        {
+                          "value": "ceri_tank_column",
+                          "name": "專欄"
+                        },
+                        {
+                          "value": "ceri_tank_language_culture",
+                          "name": "語言文化教育"
+                        },
+                        {
+                          "value": "ceri_tank_special_education",
+                          "name": "特殊教育"
+                        },
+                        {
+                          "value": "ceri_tank_science_education",
+                          "name": "科學教育"
+                        },
+                        {
+                          "value": "ceri_tank_usr",
+                          "name": "大學社會責任"
+                        },
+                        {
+                          "value": "ceri_tank_early_childhood",
+                          "name": "幼兒教育"
+                        },
+                        {
+                          "value": "ceri_tank_sports_science",
+                          "name": "運動科學"
+                        },
+                        {
+                          "value": "ceri_tank_overseas_policy",
+                          "name": "僑教政策"
+                        },
+                        {
+                          "value": "ceri_tank_rural_education",
+                          "name": "偏鄉教育"
+                        },
+                        {
+                          "value": "ceri_tank_exam_education",
+                          "name": "考試與教育"
+                        },
+                        {
+                          "value": "ceri_tank_curriculum_teacher",
+                          "name": "新課綱與師資培育"
+                        },
+                        {
+                          "value": "ceri_tank_digital_learning",
+                          "name": "數位學習"
+                        }
+                      ]
                     }
                   ]
                 },
