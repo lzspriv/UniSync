@@ -987,7 +987,8 @@
         "parser": "row_date_link",
         "article": "tr",
         "title_link": "a[href*='Sn=']",
-        "date": "tr"
+        "date": "tr",
+        "pinned": ".label-top"
       }
     },
     "epc_academic_events": {
@@ -998,7 +999,8 @@
         "parser": "row_date_link",
         "article": "tr",
         "title_link": "a[href*='Sn=']",
-        "date": "tr"
+        "date": "tr",
+        "pinned": ".label-top"
       }
     },
     "epc_internship": {
@@ -1009,7 +1011,8 @@
         "parser": "row_date_link",
         "article": "tr",
         "title_link": "a[href*='Sn=']",
-        "date": "tr"
+        "date": "tr",
+        "pinned": ".label-top"
       }
     },
     "epc_incentive": {
@@ -1020,7 +1023,8 @@
         "parser": "row_date_link",
         "article": "tr",
         "title_link": "a[href*='Sn=']",
-        "date": "tr"
+        "date": "tr",
+        "pinned": ".label-top"
       }
     },
     "epc_honor": {
@@ -1031,7 +1035,8 @@
         "parser": "row_date_link",
         "article": "tr",
         "title_link": "a[href*='Sn=']",
-        "date": "tr"
+        "date": "tr",
+        "pinned": ".label-top"
       }
     },
     "ace_news": {
@@ -1312,71 +1317,78 @@
     "spe_news": {
       "label": "最新消息",
       "owner": "特殊教育學系",
-      "url": "https://www.spe.ntnu.edu.tw/index.php/news/",
+      "url": "https://spe-girc.ntnu.edu.tw/index.php/category/00-1/",
       "selectors": {
-        "parser": "wordpress_rest",
-        "api_url": "https://www.spe.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
-        "categories": "18,1,19,26,21,25,22,65"
+        "article": "#blog-entries article",
+        "title_link": ".blog-entry-title.entry-title a",
+        "date": ".meta-date",
+        "pinned": ".sticky"
       }
     },
     "spe_dept": {
       "label": "系所公告",
       "owner": "特殊教育學系",
-      "url": "https://www.spe.ntnu.edu.tw/index.php/departmentannouncement/",
+      "url": "https://spe-girc.ntnu.edu.tw/index.php/category/00-1/00-2/",
       "selectors": {
-        "parser": "wordpress_rest",
-        "api_url": "https://www.spe.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
-        "categories": "19"
+        "article": "#blog-entries article",
+        "title_link": ".blog-entry-title.entry-title a",
+        "date": ".meta-date",
+        "pinned": ".sticky"
       }
     },
     "spe_oral_defense": {
       "label": "研究生口試",
       "owner": "特殊教育學系",
-      "url": "https://www.spe.ntnu.edu.tw/index.php/oraldefense/",
+      "url": "https://spe-girc.ntnu.edu.tw/index.php/category/00-1/00-6/",
       "selectors": {
-        "parser": "wordpress_rest",
-        "api_url": "https://www.spe.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
-        "categories": "26"
+        "article": "#blog-entries article",
+        "title_link": ".blog-entry-title.entry-title a",
+        "date": ".meta-date",
+        "pinned": ".sticky"
       }
     },
     "spe_award": {
       "label": "榮譽獎項",
       "owner": "特殊教育學系",
-      "url": "https://www.spe.ntnu.edu.tw/index.php/award/",
+      "url": "https://spe-girc.ntnu.edu.tw/index.php/category/00-1/00-4/",
       "selectors": {
-        "parser": "wordpress_rest",
-        "api_url": "https://www.spe.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
-        "categories": "21"
+        "article": "#blog-entries article",
+        "title_link": ".blog-entry-title.entry-title a",
+        "date": ".meta-date",
+        "pinned": ".sticky"
       }
     },
     "spe_events": {
       "label": "活動演講",
       "owner": "特殊教育學系",
-      "url": "https://www.spe.ntnu.edu.tw/index.php/eventandspeech/",
+      "url": "https://spe-girc.ntnu.edu.tw/index.php/category/00-1/00-3/",
       "selectors": {
-        "parser": "wordpress_rest",
-        "api_url": "https://www.spe.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
-        "categories": "25"
+        "article": "#blog-entries article",
+        "title_link": ".blog-entry-title.entry-title a",
+        "date": ".meta-date",
+        "pinned": ".sticky"
       }
     },
     "spe_admission": {
       "label": "招生訊息",
       "owner": "特殊教育學系",
-      "url": "https://www.spe.ntnu.edu.tw/index.php/admissions-information-2/",
+      "url": "https://spe-girc.ntnu.edu.tw/index.php/category/00-1/uncategorized/00-5/",
       "selectors": {
-        "parser": "wordpress_rest",
-        "api_url": "https://www.spe.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
-        "categories": "22"
+        "article": "#blog-entries article",
+        "title_link": ".blog-entry-title.entry-title a",
+        "date": ".meta-date",
+        "pinned": ".sticky"
       }
     },
     "spe_other": {
       "label": "其他訊息",
       "owner": "特殊教育學系",
-      "url": "https://www.spe.ntnu.edu.tw/index.php/othernews/",
+      "url": "https://spe-girc.ntnu.edu.tw/index.php/category/00-1/00-7/",
       "selectors": {
-        "parser": "wordpress_rest",
-        "api_url": "https://www.spe.ntnu.edu.tw/index.php/wp-json/wp/v2/posts",
-        "categories": "65"
+        "article": "#blog-entries article",
+        "title_link": ".blog-entry-title.entry-title a",
+        "date": ".meta-date",
+        "pinned": ".sticky"
       }
     },
     "tpicoe_news": {
@@ -1544,39 +1556,6 @@
       "label": "最新消息",
       "owner": "成癮防制碩士在職學位學程",
       "url": "https://www.cappr.ntnu.edu.tw/index.php/category/uncategorized/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "cappr_dept": {
-      "label": "系所公告",
-      "owner": "成癮防制碩士在職學位學程",
-      "url": "https://www.cappr.ntnu.edu.tw/index.php/category/uncategorized/1/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "cappr_admission": {
-      "label": "招生公告",
-      "owner": "成癮防制碩士在職學位學程",
-      "url": "https://www.cappr.ntnu.edu.tw/index.php/category/uncategorized/2/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "cappr_speeches": {
-      "label": "演講公告",
-      "owner": "成癮防制碩士在職學位學程",
-      "url": "https://www.cappr.ntnu.edu.tw/index.php/category/uncategorized/3/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
         "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
@@ -2886,18 +2865,6 @@
                 {
                   "name": "最新消息",
                   "value": "cappr_news"
-                },
-                {
-                  "name": "系所公告",
-                  "value": "cappr_dept"
-                },
-                {
-                  "name": "招生公告",
-                  "value": "cappr_admission"
-                },
-                {
-                  "name": "演講公告",
-                  "value": "cappr_speeches"
                 }
               ]
             },

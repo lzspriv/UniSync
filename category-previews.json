@@ -4624,13 +4624,6 @@
     "label": "最新消息",
     "announcements": [
       {
-        "title": "【轉知】師資培育制度變革 教育專業課程納入畢業學分",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1274",
-        "date": "2026-05-06",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "轉知 2026 資料價值創造與挑戰工作坊資訊",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1315",
         "date": "2026-06-10",
@@ -4657,19 +4650,19 @@
         "date": "2026-06-03",
         "date_label": "發布日期",
         "summary": ""
+      },
+      {
+        "title": "公告本系114學年度第2學期碩士班研究生 蔡粲鴻、李佩潔、鄭詠潔 論文考試",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1311",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
       }
     ]
   },
   "epc_academic_events": {
     "label": "學術活動",
     "announcements": [
-      {
-        "title": "【轉知】師資培育制度變革 教育專業課程納入畢業學分",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1274",
-        "date": "2026-05-06",
-        "date_label": "發布日期",
-        "summary": ""
-      },
       {
         "title": "轉知 2026 資料價值創造與挑戰工作坊資訊",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1315",
@@ -4695,6 +4688,13 @@
         "title": "公告本系114學年度第2學期碩士班研究生 蔡粲鴻、李佩潔、鄭詠潔 論文考試",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1311",
         "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "公告本系114學年度第2學期碩士在職專班研究生 劉昱君、莊心和 論文考試",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1307",
+        "date": "2026-05-27",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -5751,31 +5751,290 @@
   },
   "spe_news": {
     "label": "最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "🥳特殊教育研究學刊Podcast第五集來啦✨",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/10/1150610-3/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "本系書卷獎同名次參酌順序",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/10/1150610-2/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學特殊教育學系甄選 115 學年度花蓮縣師資培育公費生甄試（口試）名單",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/10/1150610/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度課表（2026.06.08公告）",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/08/1150608/",
+        "date": "2026-06-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "研究生（博、碩、暑碩）論文口試辦理時間表",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/05/01/",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度暑期研究生論文（計畫）口試時程表",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/05/1150605/",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "spe_dept": {
     "label": "系所公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "🥳特殊教育研究學刊Podcast第五集來啦✨",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/10/1150610-3/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "本系書卷獎同名次參酌順序",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/10/1150610-2/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學特殊教育學系甄選 115 學年度花蓮縣師資培育公費生甄試（口試）名單",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/10/1150610/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度課表（2026.06.08公告）",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/08/1150608/",
+        "date": "2026-06-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113學年度特殊教育學系師資培育生遞補甄選申請名單公告",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/04/1150604/",
+        "date": "2026-06-04",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "spe_oral_defense": {
     "label": "研究生口試",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "研究生（博、碩、暑碩）論文口試辦理時間表",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/05/01/",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度暑期研究生論文（計畫）口試時程表",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/05/1150605/",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第二學期研究生論文（計畫）口試時程表",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/01/27/1150127/",
+        "date": "2026-01-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第一學期研究生論文（計畫）口試時程表",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2025/07/03/1140703-2/",
+        "date": "2025-07-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度暑期研究生論文（計畫）口試時程表",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2025/06/17/1140617-2/",
+        "date": "2025-06-17",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "spe_award": {
     "label": "榮譽獎項",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "狂賀！賴妤甄(96級) 於2026全國身心障礙運動-聽障網球女子單打榮獲銀牌！聽障女子籃球榮獲銀牌！！！",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/01/1150601/",
+        "date": "2026-06-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "狂賀！特教碩林立翔於全國身心障礙運動會-游泳100公尺榮獲金牌！！！",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/05/27/11505274/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "狂賀！117級楊天筆於全國身心障礙運動會-田徑800公尺榮獲金牌！跨欄400公尺、田徑1500公尺榮獲銀牌！！！",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/05/27/11505273/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "狂賀！117級周彥廷於全國身心障礙運動會-游泳100公尺自由式榮獲銀牌！！！",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/05/27/11505272/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "狂賀！118級劉宗翰於全國身心障礙運動會-游泳50公尺自由式項目榮獲金牌！！！",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/05/27/11505271/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "spe_events": {
     "label": "活動演講",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026年85級師大人三十年重聚-邀請您重返師大，共同回憶青春歲月！",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/03/27/1150327/",
+        "date": "2026-03-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第二學期特殊教育專題討論",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/02/25/1150225/",
+        "date": "2026-02-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第一學期特殊教育專題討論",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2025/08/28/1140828/",
+        "date": "2025-08-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "第 27 屆亞洲智能障礙聯盟大會將於今年十月在臺北舉行，這是大會第三次在臺灣舉辦。誠摯邀請心智障礙者、家人、專業工作者與研究人員共同參與，一起推動共融與交流！",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2025/08/07/1140807/",
+        "date": "2025-08-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "敲敲門~30．20．10重聚的【2025系所友回娘家】活動於114年10月18日(星期六)下午兩點在博愛樓準備開張歡迎您們光臨~",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2025/06/27/1140627/",
+        "date": "2025-06-27",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "spe_admission": {
     "label": "招生訊息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "115學年度外籍生申請入學－學士班暨碩士班",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/03/11/1150311-2/",
+        "date": "2026-03-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立台灣師範大學特殊教育學系115學年度特殊教育碩士在職專班招生考試複試（口試）公告",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/03/04/1150304/",
+        "date": "2026-03-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學復健諮商與高齡福祉研究所 115學年度碩士班研究生甄試入學招生口試公告",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2025/11/04/1141104-2/",
+        "date": "2025-11-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學特殊教育學系 115學年度碩士班甄試入學招生口試公告",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2025/11/04/1141104/",
+        "date": "2025-11-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度碩士班招生簡章公告",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2025/11/03/1141103-2/",
+        "date": "2025-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "spe_other": {
     "label": "其他訊息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "財團法人台灣設計研究院於10月1日至10月22日下午5時整，辦理「2025-2026第十二屆新一代設計產學合作 ─ 學生徵件」，歡迎同學報名！",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2025/09/15/1140915/",
+        "date": "2025-09-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "特教系誠徵助理教授級以上專任/專案教師1名公告（2026/1/30截止）",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2025/09/08/1140529/",
+        "date": "2025-09-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【轉知】特教資源辦公室辦理114學年度同步聽打員培訓課程",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2025/08/29/1140829/",
+        "date": "2025-08-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【轉貼·分享】唐氏症基金會、唐氏症關愛者協會攜手國立臺灣師範大學特殊教育系合作辦理2025小唐夏令營",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2025/07/03/1140703/",
+        "date": "2025-07-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【轉貼·分享】桃園市政府社會局委託辦理「特殊需求兒童及少年團體家庭」生活輔導員招募資訊",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2023/07/31/1120731/",
+        "date": "2023-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "tpicoe_news": {
     "label": "最新消息",
@@ -6317,63 +6576,6 @@
         "date_label": "發布日期",
         "summary": ""
       },
-      {
-        "title": "【從首例到現在：臺灣愛滋防治40年歷程與展望】研討會圓滿成功",
-        "url": "https://www.cappr.ntnu.edu.tw/index.php/2025/06/23/20250623/",
-        "date": "2025-06-23",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
-  },
-  "cappr_dept": {
-    "label": "系所公告",
-    "announcements": [
-      {
-        "title": "【轉發】法務部司法官學院第十三屆傑出碩博士犯罪防治研究論文獎",
-        "url": "https://www.cappr.ntnu.edu.tw/index.php/2026/05/15/20260515/",
-        "date": "2026-05-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2022-10-05國立臺灣師範大學教育學院成癮防制碩士在職學位學程組織與運作要點",
-        "url": "https://www.cappr.ntnu.edu.tw/index.php/2022/10/05/2022-10-05-1/",
-        "date": "2022-10-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2022-10-05國立臺灣師範大學教育學院成癮防制碩士在職學位學程班務委員會設置要點",
-        "url": "https://www.cappr.ntnu.edu.tw/index.php/2022/10/05/2022-10-05-2/",
-        "date": "2022-10-05",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
-  },
-  "cappr_admission": {
-    "label": "招生公告",
-    "announcements": [
-      {
-        "title": "國立臺灣師範大學115學年度碩士在職專班正取生網路報到",
-        "url": "https://www.cappr.ntnu.edu.tw/index.php/2026/04/07/20260407/",
-        "date": "2026-04-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "國立臺灣師範大學115學年度碩士在職專班招生考試放榜",
-        "url": "https://www.cappr.ntnu.edu.tw/index.php/2026/02/26/20260226/",
-        "date": "2026-02-26",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
-  },
-  "cappr_speeches": {
-    "label": "演講公告",
-    "announcements": [
       {
         "title": "【從首例到現在：臺灣愛滋防治40年歷程與展望】研討會圓滿成功",
         "url": "https://www.cappr.ntnu.edu.tw/index.php/2025/06/23/20250623/",
