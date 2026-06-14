@@ -21035,30 +21035,6 @@
       }
     ]
   },
-  "rcemi_news": {
-    "label": "最新消息",
-    "announcements": [
-      {
-        "title": "115-1 EMI 教師專業社群",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/1/185",
-        "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
-  },
-  "rcemi_event_focus": {
-    "label": "活動焦點",
-    "announcements": [
-      {
-        "title": "115-1 EMI 教師專業社群",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/1/185",
-        "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
-  },
   "artmuse_news": {
     "label": "最新消息",
     "announcements": [
@@ -23974,6 +23950,138 @@
         "title": "公告113學年度春季班學生申請轉組注意事項",
         "url": "https://www.nups.ntnu.edu.tw/公告113學年度春季班學生申請轉組注意事項",
         "date": "2025-02-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "rcemi_event_latest": {
+    "label": "EMI教學資源中心-最新活動",
+    "announcements": [
+      {
+        "title": "115-1 EMI 教師專業社群",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/1/185",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "rcemi_event_history": {
+    "label": "EMI教學資源中心-歷史活動",
+    "announcements": [
+      {
+        "title": "Developing TA Training for EMI Speaking Support: Design, Implementation, and Reflection",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/2/159",
+        "date": "2026-06-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "AI Applications for Effective EMI Teaching: Conversations from Practice",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/2/155",
+        "date": "2026-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "ESAP Curriculum Development: Diverse Contextual",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/2/153",
+        "date": "2026-04-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Cross-University Open EMI Classroom Observation, Roundtable Discussion & AI Lecture",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/2/161",
+        "date": "2026-04-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-2 OUTA 跨校公開觀議課、雙語聯盟圓桌會議、雙語聯盟AI講座",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/2/173",
+        "date": "2026-04-13",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "rcemi_event_news": {
+    "label": "EMI教學資源中心-新聞",
+    "announcements": [
+      {
+        "title": "臺師大RCEMI辦理114-2學期EMI教師專業發展系列講座 聚焦OUTA實踐、AI應用、ESAP課程與TA口說支持",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/3/183",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大RCEMI串聯7校辦理17場EMI公開觀議課 建構跨校教師共學網絡",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/3/181",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大攜手澳洲新南威爾斯大學 推動EMI教師國際增能培訓",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/3/175",
+        "date": "2026-02-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "美國在台協會與臺師大EMI教學資源中心交流 持續深化資源連結與合作夥伴關係",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/3/147",
+        "date": "2025-12-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大打造雙語教師生態圈 AI融入教學示範亮眼",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/3/139",
+        "date": "2025-10-31",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "rcemi_event_forward": {
+    "label": "EMI教學資源中心-活動轉知",
+    "announcements": [
+      {
+        "title": "【CAL】AI時代的心靈韌性：研究者的啟發與反思",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/145",
+        "date": "2025-11-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【教學發展中心】英語授課知能工作坊",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/129",
+        "date": "2025-09-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【教學發展中心】EMI世界咖啡館",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/87",
+        "date": "2025-05-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【OBE x CAL Talks】邏輯思辨 × 職場發展",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/73",
+        "date": "2025-04-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【CAL】輔導員伴寫時間",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/75",
+        "date": "2025-03-19",
         "date_label": "發布日期",
         "summary": ""
       }

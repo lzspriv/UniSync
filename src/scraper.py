@@ -232,7 +232,7 @@ def parse_yearless_month_day(text):
 
 
 def parse_split_date(yearmonth_text, day_text):
-    match = re.search(r"(\d{4})[-/](\d{1,2})", yearmonth_text or "")
+    match = re.search(r"(\d{4})[-/.](\d{1,2})", yearmonth_text or "")
     day_match = re.search(r"(\d{1,2})", day_text or "")
     if not match or not day_match:
         return "未知日期"
@@ -502,6 +502,30 @@ def fetch_oia_next_data_announcements(url, category_name, scraper_config):
         return []
 
 
+def parse_rcemi_article(article, fallback_title):
+    title_tag = article.select_one(".article h3")
+    if not title_tag:
+        return "未知日期", "", ""
+
+    title_text = normalize_whitespace(title_tag.get_text(" ", strip=True))
+    date_row = article.select_one(".date-row")
+    if date_row:
+        date_text, _ = parse_taiwan_date(date_row.get_text(" ", strip=True))
+    else:
+        date_text = parse_split_date(
+            article.select_one(".date .month").get_text(" ", strip=True)
+            if article.select_one(".date .month")
+            else "",
+            article.select_one(".date .day").get_text(" ", strip=True)
+            if article.select_one(".date .day")
+            else "",
+        )
+
+    summary_tag = article.select_one(".article p")
+    summary_text = summary_tag.get_text(" ", strip=True) if summary_tag else ""
+    return date_text, title_text or fallback_title, summary_text
+
+
 def fetch_university_announcements(url, category_name, scraper_config=None):
     if not scraper_config:
         scraper_config = {
@@ -548,6 +572,13 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
             link_tag = article.select_one(link_selector)
             if (not link_tag or not link_tag.get("href")) and article.name == "a" and article.get("href"):
                 link_tag = article
+            if (
+                (not link_tag or not link_tag.get("href"))
+                and scraper_config.get("parser") == "rcemi_article_box"
+            ):
+                parent_link = article.find_parent("a", href=True)
+                if parent_link:
+                    link_tag = parent_link
             
             if link_tag and link_tag.get('href'):
                 link_text = normalize_whitespace((title_tag or link_tag).get_text(" ", strip=True))
@@ -608,6 +639,10 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                     date_text = parse_cal_date(date_tag)
                     summary_tag = article.select_one(scraper_config.get("summary", ".article"))
                     summary_text = summary_tag.get_text(" ", strip=True) if summary_tag else ""
+                elif scraper_config.get("parser") == "rcemi_article_box":
+                    date_text, title_text, summary_text = parse_rcemi_article(article, link_text)
+                    if date_text == "未知日期" or not title_text:
+                        continue
                 elif scraper_config.get("parser") == "wix_blog_card":
                     title_tag = article.select_one(scraper_config.get("title", "[data-hook='post-title']"))
                     title_text = normalize_whitespace(

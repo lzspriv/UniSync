@@ -150,8 +150,9 @@
       "date": ".article-text .date"
     },
     "rcemi_article_box": {
-      "article": ".article-box",
-      "title_link": ".link-btn a[href]",
+      "parser": "rcemi_article_box",
+      "article": ".article-box, .list-box",
+      "title_link": ".link-btn a[href], a[href]",
       "title": ".article h3",
       "date": ".date-row"
     },
@@ -3901,16 +3902,28 @@
       "url": "https://www.obe.ntnu.edu.tw/index.php/category/uncategorized/forwardnews/",
       "selectorPreset": "wordpress_broad"
     },
-    "rcemi_news": {
-      "label": "最新消息",
+    "rcemi_event_latest": {
+      "label": "最新活動",
       "owner": "EMI教學資源中心",
-      "url": "https://rcemi.ntnu.edu.tw/news",
+      "url": "https://rcemi.ntnu.edu.tw/news/event_focus/category/1",
       "selectorPreset": "rcemi_article_box"
     },
-    "rcemi_event_focus": {
-      "label": "活動焦點",
+    "rcemi_event_history": {
+      "label": "歷史活動",
       "owner": "EMI教學資源中心",
-      "url": "https://rcemi.ntnu.edu.tw/news/event_focus",
+      "url": "https://rcemi.ntnu.edu.tw/news/event_focus/category/2",
+      "selectorPreset": "rcemi_article_box"
+    },
+    "rcemi_event_news": {
+      "label": "新聞",
+      "owner": "EMI教學資源中心",
+      "url": "https://rcemi.ntnu.edu.tw/news/event_focus/category/3",
+      "selectorPreset": "rcemi_article_box"
+    },
+    "rcemi_event_forward": {
+      "label": "活動轉知",
+      "owner": "EMI教學資源中心",
+      "url": "https://rcemi.ntnu.edu.tw/news/event_focus/category/4",
       "selectorPreset": "rcemi_article_box"
     },
     "artmuse_news": {
@@ -5366,12 +5379,20 @@
               "name": "EMI教學資源中心",
               "channels": [
                 {
-                  "value": "rcemi_news",
-                  "name": "最新消息"
+                  "value": "rcemi_event_latest",
+                  "name": "最新活動"
                 },
                 {
-                  "value": "rcemi_event_focus",
-                  "name": "活動焦點"
+                  "value": "rcemi_event_history",
+                  "name": "歷史活動"
+                },
+                {
+                  "value": "rcemi_event_news",
+                  "name": "新聞"
+                },
+                {
+                  "value": "rcemi_event_forward",
+                  "name": "活動轉知"
                 }
               ]
             }
