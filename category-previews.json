@@ -321,123 +321,15 @@
   },
   "math_recruiting_teaching_staff": {
     "label": "數學系-徵聘教職員",
-    "announcements": [
-      {
-        "title": "[徵才訊息] 國立臺灣師範大學數學系徵聘專任教師2名",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/01/06/recruitment1150106/",
-        "date": "2026-01-06",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[徵才訊息] 國立臺灣師範大學數學系徵聘專任教師1名",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2025/02/26/recruitment11402/",
-        "date": "2025-02-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[徵才訊息] 數學系誠徵約用人員一名",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2024/07/26/recruitstaff20221221-2/",
-        "date": "2024-07-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[徵才訊息] 數學系誠徵專任助理1～2名",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2024/07/10/recruit20230627-2/",
-        "date": "2024-07-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[徵才訊息] 數學系誠徵專任助理1～2名",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2023/06/27/recruit20230627/",
-        "date": "2023-06-27",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "math_scholarship": {
     "label": "數學系-獎助學金",
-    "announcements": [
-      {
-        "title": "[獎助學金] 公告本系114學年度第2學期系獎學金得獎名單",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/10/114-2_math_scholarship_list/",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[獎助學金] 公告本系114學年度第2學期STAR星辰獎學金得獎名單",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/21/11402_star_list/",
-        "date": "2026-05-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[獎助學金] 公告本系114-1書卷獎得獎名單（領獎登錄期限至 04/24）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/04/09/114-1-aea/",
-        "date": "2026-04-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[獎助學金] 114-2 數學系獎學金申請至 03/20（五）17:00 截止收件",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/03/04/114-2_math_scholarship/",
-        "date": "2026-03-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[獎助學金] 114-2 STAR星辰獎學金申請至03/20截止",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/03/04/11402-star-reg/",
-        "date": "2026-03-04",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "math_honor": {
     "label": "數學系-榮譽榜",
-    "announcements": [
-      {
-        "title": "[榮譽] 恭喜本系學生於114-2師資生教學實務能力檢測獲獎",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/20/114-2-edu-practice-list/",
-        "date": "2026-05-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[獎助學金] 公告本系114-1書卷獎得獎名單（領獎登錄期限至 04/24）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/04/09/114-1-aea/",
-        "date": "2026-04-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[榮譽] 恭賀本系博士生劉書詠參與第十六屆台日研討會獲得Excellent Presentation Award",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/03/17/16th_taiwan-japan_honor/",
-        "date": "2026-03-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[獎助學金] 公告本系114學年度第1學期系獎學金得獎名單",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2025/12/10/114-1_math_scholarship_list/",
-        "date": "2025-12-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[榮譽] 恭賀本系114級系友詹子軒獲得113年度大專學生研究創作獎",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2025/11/27/113nstc_honor/",
-        "date": "2025-11-27",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "phy_news": {
     "label": "物理學系-最新公告",
@@ -873,7 +765,7 @@
       {
         "title": "中研院院士牟中原在臺師大開講：AI 時代的蛋白質科學革命 臺師大化學系展現跨域教育領航實力",
         "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=24318",
-        "date": "2026-03-23",
+        "date": "2026-03-16",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -3188,6 +3080,14 @@
     "label": "公共事務中心-活動預告",
     "announcements": [
       {
+        "title": "環安衛中心-構築永續節能躍升節能推廣講座",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10587",
+        "date": "2026-06-14",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-06-14 10:49 ~ 2026-06-30 10:50 / 地點：和平校區Ⅱ 教育學院大樓 2F 201 演講廳",
+        "show_summary": true
+      },
+      {
         "title": "2026 AI 風險與 AI 倫理國際論壇 徵稿中",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10586",
         "date": "2026-06-12",
@@ -3217,14 +3117,6 @@
         "date": "2026-06-08",
         "date_label": "新增日期",
         "summary": "活動時間：2026-06-15 08:30 ~ 2026-09-08 14:32 / 地點：校園",
-        "show_summary": true
-      },
-      {
-        "title": "【場地暫停開放】公館校區中正堂B1施工",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10580",
-        "date": "2026-06-05",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-06-15 08:00 ~ 2026-09-06 15:35 / 地點：中正堂地下一樓",
         "show_summary": true
       }
     ]
@@ -3791,7 +3683,43 @@
   },
   "co_latest": {
     "label": "網路大學辦公室-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【全球虛擬教室課程獎勵申請】即日起至115年8月14日，歡迎本校教師踴躍申請！",
+        "url": "https://www.co.ntnu.edu.tw/index.php/15667/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【線上講座】AI 時代高教人才培育與教學轉型系列講座",
+        "url": "https://www.co.ntnu.edu.tw/index.php/15524/",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度暑期全球虛擬教室觀課活動 2026 Summer Peer Observation & Feedback – Opening Classrooms",
+        "url": "https://www.co.ntnu.edu.tw/index.php/15439/",
+        "date": "2026-05-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "遠距數位課程字幕工具及配套資源 Captioning Tools and Support Resources for Online Courses",
+        "url": "https://www.co.ntnu.edu.tw/index.php/15373/",
+        "date": "2026-04-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【5/4(一)實體+線上講座】數位孿生在教學研究的應用 Applications of Digital Twins in Teaching and Research",
+        "url": "https://www.co.ntnu.edu.tw/index.php/15270/",
+        "date": "2026-03-30",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "co_news": {
     "label": "網路大學辦公室-公告",
@@ -3981,154 +3909,23 @@
   },
   "cal_center_news": {
     "label": "英語學術素養中心-中心消息",
-    "announcements": [
-      {
-        "title": "【114-2學年度 諮詢預約開跑囉！】",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/1/87",
-        "date": "2026-02-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "學術投稿英語專書，正式上市！",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/1/81",
-        "date": "2026-01-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "誠徵｜學術英語輔導員",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/1/79",
-        "date": "2025-12-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【CAL寒假諮詢開跑啦！】",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/1/77",
-        "date": "2025-12-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【114-1學年度 預約開跑囉！】",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/1/73",
-        "date": "2025-09-08",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "cal_events": {
     "label": "英語學術素養中心-活動資訊",
-    "announcements": [
-      {
-        "title": "【114-2 學術英語M.A.P系列講座 CAL TALKS-3】",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/2/93",
-        "date": "2026-04-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "你圈我叉 英文哈拉擂台賽 Circle or Cross — Let’s Talk It Out!",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/2/95",
-        "date": "2026-04-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【114-2 學術英語M.A.P系列講座 CAL TALKS-2】",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/2/91",
-        "date": "2026-04-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "0324 | CAL轉運車輪餅",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/2/89",
-        "date": "2026-03-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114-2 學術英語M.A.P系列講座 CAL TALKS-1",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/2/85",
-        "date": "2026-02-26",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "cal_important": {
     "label": "英語學術素養中心-重要公告",
-    "announcements": [
-      {
-        "title": "【重要公告：中心將全面結合AI進行寫作與口說諮詢】",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/3/37",
-        "date": "2024-10-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "諮詢預約制度調整",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/3/3",
-        "date": "2024-05-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【重要公告：諮詢時間調整】",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/3/45",
-        "date": "2024-11-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【英語學術素養中心 最新服務 Writing Study Group】",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/3/47",
-        "date": "2024-11-08",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "cal_linkup": {
     "label": "英語學術素養中心-LinkUp: EMI 學術文化探索營",
-    "announcements": [
-      {
-        "title": "【錄取名單】2026 LinkUp:EMI 學術文化探索營EMI Academic & Cultural Camp",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/5/109",
-        "date": "2026-05-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【報名開始】 LinkUp: EMI 學術文化探索營",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/5/105",
-        "date": "2026-05-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "06/17-06/18 | LinkUp：EMI學術文化探索營",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/5/101",
-        "date": "2026-04-23",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "cal_forwarded": {
     "label": "英語學術素養中心-轉知消息",
-    "announcements": [
-      {
-        "title": "【轉知消息】TESPA 「AI × EMI」圓桌對談系列工作坊",
-        "url": "https://www.cal.ntnu.edu.tw/index.php/news/article/content/6/107",
-        "date": "2026-05-08",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "iaao_latest": {
     "label": "跨領域學習規劃辦公室-最新消息",
@@ -4383,7 +4180,7 @@
     ]
   },
   "coe_news": {
-    "label": "最新消息",
+    "label": "教育學院-最新消息",
     "announcements": [
       {
         "title": "115-05-27 【活動公告】教院吉祥物形象徵選活動",
@@ -4423,7 +4220,7 @@
     ]
   },
   "coe_affairs": {
-    "label": "院務公告",
+    "label": "教育學院-院務公告",
     "announcements": [
       {
         "title": "114-04-01 【院務公告】薦選114年度中華民國斐陶斐榮譽學會新榮譽會員",
@@ -4463,7 +4260,7 @@
     ]
   },
   "coe_events": {
-    "label": "活動資訊",
+    "label": "教育學院-活動資訊",
     "announcements": [
       {
         "title": "114-05-07 【徵稿資訊】APATE 2026 Conference",
@@ -4503,7 +4300,7 @@
     ]
   },
   "coe_honor": {
-    "label": "師生榮耀",
+    "label": "教育學院-師生榮耀",
     "announcements": [
       {
         "title": "114-12-12 【賀榜】第九屆師大運動文青獎",
@@ -4522,7 +4319,7 @@
     ]
   },
   "coe_personnel": {
-    "label": "人事動態",
+    "label": "教育學院-人事動態",
     "announcements": [
       {
         "title": "115-03-19 【徵才資訊】教育學院學士班誠徵國際教育創新與跨域兼任教師",
@@ -4541,7 +4338,7 @@
     ]
   },
   "coe_dean_selection": {
-    "label": "院長遴選",
+    "label": "教育學院-院長遴選",
     "announcements": [
       {
         "title": "114-12-30【院長遴選】教育學院第18任院長公告",
@@ -4581,7 +4378,7 @@
     ]
   },
   "ed_news": {
-    "label": "最新消息",
+    "label": "教育學系-最新消息",
     "announcements": [
       {
         "title": "「重塑教育文化：以對話邁向共好」國際學術研討會徵稿啟事（Call for Papers）",
@@ -4621,7 +4418,7 @@
     ]
   },
   "epc_news": {
-    "label": "最新消息",
+    "label": "教育心理與輔導學系-最新消息",
     "announcements": [
       {
         "title": "轉知 2026 資料價值創造與挑戰工作坊資訊",
@@ -4661,7 +4458,7 @@
     ]
   },
   "epc_academic_events": {
-    "label": "學術活動",
+    "label": "教育心理與輔導學系-學術活動",
     "announcements": [
       {
         "title": "轉知 2026 資料價值創造與挑戰工作坊資訊",
@@ -4701,7 +4498,7 @@
     ]
   },
   "epc_internship": {
-    "label": "徵才實習訊息",
+    "label": "教育心理與輔導學系-徵才實習訊息",
     "announcements": [
       {
         "title": "轉知 新竹縣學生輔導諮商中心115年度第3梯次專任專業輔導人員甄選",
@@ -4741,7 +4538,7 @@
     ]
   },
   "epc_incentive": {
-    "label": "獎勵補助",
+    "label": "教育心理與輔導學系-獎勵補助",
     "announcements": [
       {
         "title": "公告 114學年度「大專校院學生雙語化學習計畫」加碼赴外補助案申請資訊",
@@ -4781,7 +4578,7 @@
     ]
   },
   "epc_honor": {
-    "label": "傑出表現",
+    "label": "教育心理與輔導學系-傑出表現",
     "announcements": [
       {
         "title": "恭賀本系鄧淑瑩（學士班84級）系友於2025年新接任大馬國立台灣師範大學校友會會長！",
@@ -4821,7 +4618,7 @@
     ]
   },
   "ace_news": {
-    "label": "最新消息",
+    "label": "社會教育學系-最新消息",
     "announcements": [
       {
         "title": "本系115學年度第一學期博士班排課",
@@ -4861,7 +4658,7 @@
     ]
   },
   "ace_dept": {
-    "label": "系所公告",
+    "label": "社會教育學系-系所公告",
     "announcements": [
       {
         "title": "本系115學年度第一學期博士班排課",
@@ -4901,7 +4698,7 @@
     ]
   },
   "ace_admission": {
-    "label": "招生公告",
+    "label": "社會教育學系-招生公告",
     "announcements": [
       {
         "title": "115年青年暑期社區職場體驗計畫",
@@ -4941,7 +4738,7 @@
     ]
   },
   "ace_speeches": {
-    "label": "演講公告",
+    "label": "社會教育學系-演講公告",
     "announcements": [
       {
         "title": "114下學期 專題演講主題：社會創業家的實踐歷程",
@@ -4981,7 +4778,7 @@
     ]
   },
   "ace_internship": {
-    "label": "就業實習",
+    "label": "社會教育學系-就業實習",
     "announcements": [
       {
         "title": "【天下雜誌】誠徵暑期民調訪員",
@@ -5021,7 +4818,7 @@
     ]
   },
   "ace_honor": {
-    "label": "榮譽榜",
+    "label": "社會教育學系-榮譽榜",
     "announcements": [
       {
         "title": "114學年度社教系STAR星辰獎學金及優秀研究生得獎名單公告",
@@ -5054,7 +4851,7 @@
     ]
   },
   "ace_alumni": {
-    "label": "系友專區",
+    "label": "社會教育學系-系友專區",
     "announcements": [
       {
         "title": "賀 本系碩士班系友蔡宜靜榮任教育部學生事務及特殊教育司司長",
@@ -5094,7 +4891,7 @@
     ]
   },
   "he_news": {
-    "label": "最新消息",
+    "label": "健康促進與衛生教育學系-最新消息",
     "announcements": [
       {
         "title": "恭賀本學系 連盈如教授當選-第15屆系主任",
@@ -5134,7 +4931,7 @@
     ]
   },
   "he_dept": {
-    "label": "系所公告",
+    "label": "健康促進與衛生教育學系-系所公告",
     "announcements": [
       {
         "title": "114-2學期本學系 師生進修會一覽表（演講活動）歡迎大家",
@@ -5174,7 +4971,7 @@
     ]
   },
   "he_speeches": {
-    "label": "演講公告",
+    "label": "健康促進與衛生教育學系-演講公告",
     "announcements": [
       {
         "title": "114-2學期本學系 師生進修會一覽表（演講活動）歡迎大家",
@@ -5214,7 +5011,7 @@
     ]
   },
   "he_recruitment": {
-    "label": "徵才訊息",
+    "label": "健康促進與衛生教育學系-徵才訊息",
     "announcements": [
       {
         "title": "[轉知]「115年青年暑期社區職場體驗計畫 」即日起至6/18開放學生應徵囉！",
@@ -5254,7 +5051,7 @@
     ]
   },
   "cfs_news": {
-    "label": "最新消息",
+    "label": "幼兒與家庭科學學系-最新消息",
     "announcements": [
       {
         "title": "【臺北市私立微笑音符幼兒園】徵才消息",
@@ -5294,7 +5091,7 @@
     ]
   },
   "cfs_events": {
-    "label": "活動訊息",
+    "label": "幼兒與家庭科學學系-活動訊息",
     "announcements": [
       {
         "title": "師資生台語文專業及教學能力計畫-教育部臺灣台語語言能力認證考試獎勵金",
@@ -5334,7 +5131,7 @@
     ]
   },
   "cfs_recruitment": {
-    "label": "徵才訊息",
+    "label": "幼兒與家庭科學學系-徵才訊息",
     "announcements": [
       {
         "title": "【臺北市私立微笑音符幼兒園】徵才消息",
@@ -5374,7 +5171,7 @@
     ]
   },
   "cfs_dept": {
-    "label": "系所公告",
+    "label": "幼兒與家庭科學學系-系所公告",
     "announcements": [
       {
         "title": "115學年度第2學期課表公告",
@@ -5414,7 +5211,7 @@
     ]
   },
   "cfs_faculty_recruitment": {
-    "label": "徵聘師資",
+    "label": "幼兒與家庭科學學系-徵聘師資",
     "announcements": [
       {
         "title": "誠徵專任（案）教師1名",
@@ -5426,7 +5223,7 @@
     ]
   },
   "cfs_scholarship": {
-    "label": "獎學金申請",
+    "label": "幼兒與家庭科學學系-獎學金申請",
     "announcements": [
       {
         "title": "115 學年度甄選師資培育公費生甄試通知",
@@ -5466,7 +5263,7 @@
     ]
   },
   "cve_all": {
-    "label": "所有消息",
+    "label": "公民教育與活動領導學系-所有消息",
     "announcements": [
       {
         "title": "臺北市公民教育基金會2026年度「雷飛龍教授獎學金」申請至8月31日止！",
@@ -5506,7 +5303,7 @@
     ]
   },
   "cve_dept": {
-    "label": "系所公告",
+    "label": "公民教育與活動領導學系-系所公告",
     "announcements": [
       {
         "title": "【公告】114學年度第二學期期末系務會議記錄",
@@ -5546,7 +5343,7 @@
     ]
   },
   "cve_admission": {
-    "label": "招生公告",
+    "label": "公民教育與活動領導學系-招生公告",
     "announcements": [
       {
         "title": "115學年度申請入學錄取名單公告",
@@ -5586,7 +5383,7 @@
     ]
   },
   "cve_speeches": {
-    "label": "演講公告",
+    "label": "公民教育與活動領導學系-演講公告",
     "announcements": [
       {
         "title": "【性別平等教育系列講座】《為了99%民眾的女性主義：一份宣言》",
@@ -5626,7 +5423,7 @@
     ]
   },
   "cve_recruitment": {
-    "label": "徵聘訊息",
+    "label": "公民教育與活動領導學系-徵聘訊息",
     "announcements": [
       {
         "title": "基隆市二信高級中學 115 學年度國高中公民教師甄選",
@@ -5666,11 +5463,11 @@
     ]
   },
   "cve_competition": {
-    "label": "競賽活動",
+    "label": "公民教育與活動領導學系-競賽活動",
     "announcements": []
   },
   "cve_grants": {
-    "label": "獎勵補助",
+    "label": "公民教育與活動領導學系-獎勵補助",
     "announcements": [
       {
         "title": "臺北市公民教育基金會2026年度「雷飛龍教授獎學金」申請至8月31日止！",
@@ -5710,7 +5507,7 @@
     ]
   },
   "cve_honor": {
-    "label": "榮譽榜",
+    "label": "公民教育與活動領導學系-榮譽榜",
     "announcements": [
       {
         "title": "【賀】本系碩士班陳昱維同學，榮獲115年全國大專盃柔道項目一般男生組第三級冠軍！",
@@ -5750,7 +5547,7 @@
     ]
   },
   "spe_news": {
-    "label": "最新消息",
+    "label": "特殊教育學系-最新消息",
     "announcements": [
       {
         "title": "🥳特殊教育研究學刊Podcast第五集來啦✨",
@@ -5786,18 +5583,11 @@
         "date": "2026-06-05",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "115學年度暑期研究生論文（計畫）口試時程表",
-        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/05/1150605/",
-        "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "spe_dept": {
-    "label": "系所公告",
+    "label": "特殊教育學系-系所公告",
     "announcements": [
       {
         "title": "🥳特殊教育研究學刊Podcast第五集來啦✨",
@@ -5837,7 +5627,7 @@
     ]
   },
   "spe_oral_defense": {
-    "label": "研究生口試",
+    "label": "特殊教育學系-研究生口試",
     "announcements": [
       {
         "title": "研究生（博、碩、暑碩）論文口試辦理時間表",
@@ -5877,7 +5667,7 @@
     ]
   },
   "spe_award": {
-    "label": "榮譽獎項",
+    "label": "特殊教育學系-榮譽獎項",
     "announcements": [
       {
         "title": "狂賀！賴妤甄(96級) 於2026全國身心障礙運動-聽障網球女子單打榮獲銀牌！聽障女子籃球榮獲銀牌！！！",
@@ -5917,7 +5707,7 @@
     ]
   },
   "spe_events": {
-    "label": "活動演講",
+    "label": "特殊教育學系-活動演講",
     "announcements": [
       {
         "title": "2026年85級師大人三十年重聚-邀請您重返師大，共同回憶青春歲月！",
@@ -5957,7 +5747,7 @@
     ]
   },
   "spe_admission": {
-    "label": "招生訊息",
+    "label": "特殊教育學系-招生訊息",
     "announcements": [
       {
         "title": "115學年度外籍生申請入學－學士班暨碩士班",
@@ -5997,7 +5787,7 @@
     ]
   },
   "spe_other": {
-    "label": "其他訊息",
+    "label": "特殊教育學系-其他訊息",
     "announcements": [
       {
         "title": "財團法人台灣設計研究院於10月1日至10月22日下午5時整，辦理「2025-2026第十二屆新一代設計產學合作 ─ 學生徵件」，歡迎同學報名！",
@@ -6037,7 +5827,7 @@
     ]
   },
   "tpicoe_news": {
-    "label": "最新消息",
+    "label": "教育學院學士班-最新消息",
     "announcements": [
       {
         "title": "114學年度第二次分流第三志願錄取名單公告",
@@ -6077,7 +5867,7 @@
     ]
   },
   "girg_news": {
-    "label": "最新消息",
+    "label": "復健諮商與高齡福祉研究所-最新消息",
     "announcements": [
       {
         "title": "國立臺灣師範大學復健諮商研究所徵聘專任、專案教師公告",
@@ -6117,7 +5907,7 @@
     ]
   },
   "girg_dept": {
-    "label": "系所公告",
+    "label": "復健諮商與高齡福祉研究所-系所公告",
     "announcements": [
       {
         "title": "國立臺灣師範大學復健諮商研究所徵聘專任、專案教師公告",
@@ -6157,7 +5947,7 @@
     ]
   },
   "girg_oral_defense": {
-    "label": "研究生口試",
+    "label": "復健諮商與高齡福祉研究所-研究生口試",
     "announcements": [
       {
         "title": "2020-08-18 研究生（博、碩、暑碩）論文口試辦理時間表",
@@ -6197,7 +5987,7 @@
     ]
   },
   "girg_admission": {
-    "label": "招生訊息",
+    "label": "復健諮商與高齡福祉研究所-招生訊息",
     "announcements": [
       {
         "title": "2020-09-03 110學年度 碩士班甄試入學招生簡章公告",
@@ -6237,7 +6027,7 @@
     ]
   },
   "girg_award": {
-    "label": "榮譽獎項",
+    "label": "復健諮商與高齡福祉研究所-榮譽獎項",
     "announcements": [
       {
         "title": "2020-09-02 賀！109年度本校教育學院百大亮點校友名單公告",
@@ -6277,7 +6067,7 @@
     ]
   },
   "girg_events": {
-    "label": "活動演講",
+    "label": "復健諮商與高齡福祉研究所-活動演講",
     "announcements": [
       {
         "title": "2020-09-03 109學年度第一學期特殊教育專題討論",
@@ -6317,7 +6107,7 @@
     ]
   },
   "girg_other": {
-    "label": "其他訊息",
+    "label": "復健諮商與高齡福祉研究所-其他訊息",
     "announcements": [
       {
         "title": "2020-06-05 本系所吳亭芳副教授誠徵專任研究助理人員1名",
@@ -6336,7 +6126,7 @@
     ]
   },
   "epa_news": {
-    "label": "最新消息",
+    "label": "教育政策與行政研究所-最新消息",
     "announcements": [
       {
         "title": "2020 教育治理的創新與挑戰國際學術研討會報名資訊",
@@ -6348,7 +6138,7 @@
     ]
   },
   "epa_flash": {
-    "label": "訊息快報",
+    "label": "教育政策與行政研究所-訊息快報",
     "announcements": [
       {
         "title": "Department of Education, Graduate Institute of Educational Policy and Administration, Graduate Institute of Curriculum and Instruction, Full-time Faculty Position Opening",
@@ -6388,7 +6178,7 @@
     ]
   },
   "ci_news": {
-    "label": "最新消息",
+    "label": "課程與教學研究所-最新消息",
     "announcements": [
       {
         "title": "114學年度第2學期博、碩士班暨在職進修碩士學位班「優秀研究生獎學金」申請相關事宜",
@@ -6407,7 +6197,7 @@
     ]
   },
   "cd_news": {
-    "label": "最新消息",
+    "label": "創造力發展碩士在職專班-最新消息",
     "announcements": [
       {
         "title": "115學年創造力發展碩士在職專班招生考試書面審查初試錄取名單",
@@ -6447,7 +6237,7 @@
     ]
   },
   "cd_dept": {
-    "label": "系所公告",
+    "label": "創造力發展碩士在職專班-系所公告",
     "announcements": [
       {
         "title": "2021-08-16 110學年度第一學期碩二課表",
@@ -6487,7 +6277,7 @@
     ]
   },
   "cd_admission": {
-    "label": "招生公告",
+    "label": "創造力發展碩士在職專班-招生公告",
     "announcements": [
       {
         "title": "112學年度碩士班考試招生簡章暨附件",
@@ -6527,7 +6317,7 @@
     ]
   },
   "cd_speeches": {
-    "label": "演講公告",
+    "label": "創造力發展碩士在職專班-演講公告",
     "announcements": [
       {
         "title": "[學術活動]100(1) 統計工作坊-11/2 SPSS應用與分析，歡迎參加！",
@@ -6546,7 +6336,7 @@
     ]
   },
   "cappr_news": {
-    "label": "最新消息",
+    "label": "成癮防制碩士在職學位學程-最新消息",
     "announcements": [
       {
         "title": "【轉發】法務部司法官學院第十三屆傑出碩博士犯罪防治研究論文獎",
@@ -6586,7 +6376,7 @@
     ]
   },
   "sli_news": {
-    "label": "最新消息",
+    "label": "學習資訊專業學院-最新消息",
     "announcements": [
       {
         "title": "狂賀!! 學習資訊專業學院共7位教授榮登「全球前2%頂尖科學家」",
@@ -6626,7 +6416,7 @@
     ]
   },
   "sli_international": {
-    "label": "國際交流",
+    "label": "學習資訊專業學院-國際交流",
     "announcements": [
       {
         "title": "2020國家講座系列活動：PLS-SEM研究與實務研討會",
@@ -6638,7 +6428,7 @@
     ]
   },
   "sli_honor": {
-    "label": "師生榮耀",
+    "label": "學習資訊專業學院-師生榮耀",
     "announcements": [
       {
         "title": "狂賀!! 學習資訊專業學院共7位教授榮登「全球前2%頂尖科學家」",
@@ -6671,7 +6461,7 @@
     ]
   },
   "upls_news": {
-    "label": "最新消息",
+    "label": "學習科學學士學位學程-最新消息",
     "announcements": [
       {
         "title": "115學年度申請入學甄試說明",
@@ -6711,7 +6501,7 @@
     ]
   },
   "upls_dept": {
-    "label": "系所公告",
+    "label": "學習科學學士學位學程-系所公告",
     "announcements": [
       {
         "title": "狂賀!! 本學程共6位教授榮登「全球前2%頂尖科學家」",
@@ -6751,7 +6541,7 @@
     ]
   },
   "upls_admission": {
-    "label": "招生公告",
+    "label": "學習科學學士學位學程-招生公告",
     "announcements": [
       {
         "title": "115學年度申請入學甄試說明",
@@ -6791,7 +6581,7 @@
     ]
   },
   "upls_speeches": {
-    "label": "演講公告",
+    "label": "學習科學學士學位學程-演講公告",
     "announcements": [
       {
         "title": "圖書館資料庫AI功能教育訓練",
@@ -6831,7 +6621,7 @@
     ]
   },
   "upls_competition": {
-    "label": "競賽/活動",
+    "label": "學習科學學士學位學程-競賽/活動",
     "announcements": [
       {
         "title": "財團法人台灣設計研究院辦理「2025-2026第十二屆新一代設計產學合作 ─ 學生徵件」",
@@ -6871,7 +6661,7 @@
     ]
   },
   "upls_recruitment": {
-    "label": "徵才訊息",
+    "label": "學習科學學士學位學程-徵才訊息",
     "announcements": [
       {
         "title": "國立臺灣師範大學教育學院學習科學學士學位學程-新聘教師申請表",
@@ -6883,7 +6673,7 @@
     ]
   },
   "upls_scholarship": {
-    "label": "獎學金",
+    "label": "學習科學學士學位學程-獎學金",
     "announcements": [
       {
         "title": "114-2學期「STAR星辰獎學金」申請說明",
@@ -6923,7 +6713,7 @@
     ]
   },
   "upls_honor": {
-    "label": "榮譽榜",
+    "label": "學習科學學士學位學程-榮譽榜",
     "announcements": [
       {
         "title": "恭賀!本學程應屆畢業生多位同學錄取國內外研究所",
@@ -6963,7 +6753,7 @@
     ]
   },
   "upls_other": {
-    "label": "其他",
+    "label": "學習科學學士學位學程-其他",
     "announcements": [
       {
         "title": "「113-1赴金門大學交換生」即日起受理申請(至4/22止)",
@@ -6989,7 +6779,7 @@
     ]
   },
   "glis_news": {
-    "label": "最新消息",
+    "label": "圖書資訊學研究所-最新消息",
     "announcements": [
       {
         "title": "國家圖書館徵聘館藏組專案助理2名",
@@ -7022,7 +6812,7 @@
     ]
   },
   "glis_academic_affairs": {
-    "label": "教務訊息",
+    "label": "圖書資訊學研究所-教務訊息",
     "announcements": [
       {
         "title": "【畢業相關】114學年度第2學期畢業離校注意事項(★★★)",
@@ -7062,7 +6852,7 @@
     ]
   },
   "glis_admission": {
-    "label": "招生訊息",
+    "label": "圖書資訊學研究所-招生訊息",
     "announcements": [
       {
         "title": "本所115學年度博士班考試招生口試公告（NEW！）",
@@ -7102,7 +6892,7 @@
     ]
   },
   "glis_academic": {
-    "label": "學術訊息",
+    "label": "圖書資訊學研究所-學術訊息",
     "announcements": [
       {
         "title": "6/17(三)專題演講： Publishing in SSCI Journals: Insights and Strategies from an Editor-in-Chief’s Perspective",
@@ -7142,7 +6932,7 @@
     ]
   },
   "glis_student_affairs": {
-    "label": "學務訊息",
+    "label": "圖書資訊學研究所-學務訊息",
     "announcements": [
       {
         "title": "115學年度新生住宿申請時程表",
@@ -7182,7 +6972,7 @@
     ]
   },
   "glis_honor": {
-    "label": "榮譽榜",
+    "label": "圖書資訊學研究所-榮譽榜",
     "announcements": [
       {
         "title": "賀！！！本所陳昭珍名譽教授榮獲第三屆教育部圖書館事業特別貢獻獎",
@@ -7222,7 +7012,7 @@
     ]
   },
   "glis_recruitment": {
-    "label": "徵才資訊",
+    "label": "圖書資訊學研究所-徵才資訊",
     "announcements": [
       {
         "title": "國家圖書館徵聘館藏組專案助理2名",
@@ -7262,7 +7052,7 @@
     ]
   },
   "glis_other": {
-    "label": "其他訊息",
+    "label": "圖書資訊學研究所-其他訊息",
     "announcements": [
       {
         "title": "115年暑假期間辦公時間調整公告",
@@ -7302,7 +7092,7 @@
     ]
   },
   "ice_news": {
-    "label": "最新消息",
+    "label": "資訊教育研究所-最新消息",
     "announcements": [
       {
         "title": "響應世界海洋日 李文瑜教授研究團隊於科教館推出「鱈魚消失了嗎？VR奇幻旅程」",
@@ -7342,7 +7132,7 @@
     ]
   },
   "ice_affairs": {
-    "label": "所務公告",
+    "label": "資訊教育研究所-所務公告",
     "announcements": [
       {
         "title": "響應世界海洋日 李文瑜教授研究團隊於科教館推出「鱈魚消失了嗎？VR奇幻旅程」",
@@ -7382,7 +7172,7 @@
     ]
   },
   "ice_speeches": {
-    "label": "專題演講",
+    "label": "資訊教育研究所-專題演講",
     "announcements": [
       {
         "title": "6/8 專題演講暫停一次",
@@ -7422,11 +7212,11 @@
     ]
   },
   "ice_recruitment": {
-    "label": "徵才訊息",
+    "label": "資訊教育研究所-徵才訊息",
     "announcements": []
   },
   "ice_other": {
-    "label": "其他訊息",
+    "label": "資訊教育研究所-其他訊息",
     "announcements": [
       {
         "title": "恭賀！本所蔡今中教授及張國恩教授榮登「全球前2%頂尖科學家榜單（World’s Top 2% Scientists 2020）」",
@@ -7452,7 +7242,7 @@
     ]
   },
   "ice_calendar": {
-    "label": "行事曆",
+    "label": "資訊教育研究所-行事曆",
     "announcements": [
       {
         "title": "114-2專題行事曆",
