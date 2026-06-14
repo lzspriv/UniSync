@@ -24255,6 +24255,14 @@
     "label": "中心公告",
     "announcements": []
   },
+  "spc_honor": {
+    "label": "榮譽事蹟",
+    "announcements": []
+  },
+  "spc_regulations": {
+    "label": "法令規章",
+    "announcements": []
+  },
   "spc_training": {
     "label": "研習進修",
     "announcements": []
