@@ -3915,6 +3915,17 @@
         "pinned": ".sticky"
       }
     },
+    "musicollege_music_festival": {
+      "label": "師大音樂節",
+      "owner": "音樂學院",
+      "url": "https://www.musicollege.ntnu.edu.tw/index.php/category/uncategorized/music-festival/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
     "musicollege_seminar": {
       "label": "學術研討會",
       "owner": "音樂學院",
@@ -3952,17 +3963,6 @@
       "label": "SDGs成果",
       "owner": "音樂學院",
       "url": "https://www.musicollege.ntnu.edu.tw/index.php/category/uncategorized/sdgs/",
-      "selectors": {
-        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
-        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
-        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
-        "pinned": ".sticky"
-      }
-    },
-    "musicollege_dvap": {
-      "label": "數位影音藝術學分學程",
-      "owner": "音樂學院",
-      "url": "https://www.musicollege.ntnu.edu.tw/index.php/category/dvap/",
       "selectors": {
         "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
         "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
@@ -7541,6 +7541,10 @@
               "value": "musicollege_academic_visit"
             },
             {
+              "name": "師大音樂節",
+              "value": "musicollege_music_festival"
+            },
+            {
               "name": "展演活動",
               "value": "musicollege_performance"
             },
@@ -7551,10 +7555,6 @@
             {
               "name": "SDGs成果",
               "value": "musicollege_sdgs"
-            },
-            {
-              "name": "數位影音藝術學分學程",
-              "value": "musicollege_dvap"
             }
           ],
           "subUnits": [

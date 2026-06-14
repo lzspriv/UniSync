@@ -14495,46 +14495,6 @@
       }
     ]
   },
-  "musicollege_dvap": {
-    "label": "音樂學院-數位影音藝術學分學程",
-    "announcements": [
-      {
-        "title": "學程將於110學年結束後停止開課、認證",
-        "url": "https://www.musicollege.ntnu.edu.tw/index.php/2022/03/14/discontinued/",
-        "date": "2022-03-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "師大音樂學院數位影音藝術學分學程停招及修課通知",
-        "url": "https://www.musicollege.ntnu.edu.tw/index.php/2020/06/04/elementor-7982/",
-        "date": "2020-06-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "108學年度學程招生報名開始囉!",
-        "url": "https://www.musicollege.ntnu.edu.tw/index.php/2019/03/11/registration-for-the-108-academic-year/",
-        "date": "2019-03-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "106學年度數位影音藝術學分學程甄選結果公告!",
-        "url": "https://www.musicollege.ntnu.edu.tw/index.php/2017/05/02/credits-and-course-selection-results-announcement/",
-        "date": "2017-05-02",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "106學年度招生報名與招生說明會",
-        "url": "https://www.musicollege.ntnu.edu.tw/index.php/2017/03/06/106-school-year-enrollment-registration-and-enrollment-briefing/",
-        "date": "2017-03-06",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
-  },
   "music_news": {
     "label": "音樂學系-最新消息",
     "announcements": [
@@ -18252,5 +18212,45 @@
   "arthistory_jobs": {
     "label": "藝術史研究所-徵才",
     "announcements": []
+  },
+  "musicollege_music_festival": {
+    "label": "音樂學院-師大音樂節",
+    "announcements": [
+      {
+        "title": "《藝脈長鳴》師大音樂節正式開幕 音樂學院78場次展演精彩可期",
+        "url": "https://www.musicollege.ntnu.edu.tw/index.php/2026/03/20/20260320-1ch/",
+        "date": "2026-03-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "「2026師大音樂節開幕慶」暨系列活動海報",
+        "url": "https://www.musicollege.ntnu.edu.tw/index.php/2026/03/07/20260307-1/",
+        "date": "2026-03-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "歡迎蒞臨2026師大音樂節系列活動",
+        "url": "https://www.musicollege.ntnu.edu.tw/index.php/2026/03/05/20260203-1/",
+        "date": "2026-03-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025師大音樂節開幕活動花絮",
+        "url": "https://www.musicollege.ntnu.edu.tw/index.php/2025/04/01/20250401-1/",
+        "date": "2025-04-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "歡迎蒞臨2025師大音樂節系列活動",
+        "url": "https://www.musicollege.ntnu.edu.tw/index.php/2025/03/11/20250311-2/",
+        "date": "2025-03-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   }
 }
