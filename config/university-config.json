@@ -2662,6 +2662,732 @@
         "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
         "pinned": ".sticky"
       }
+    },
+    "cte_news": {
+      "label": "最新消息",
+      "owner": "科技與工程學院",
+      "url": "https://www.cte.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "cte_focus": {
+      "label": "焦點活動",
+      "owner": "科技與工程學院",
+      "url": "https://www.cte.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "cte_affairs": {
+      "label": "院務公告",
+      "owner": "科技與工程學院",
+      "url": "https://www.cte.ntnu.edu.tw/index.php/category/uncategorized/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "cte_international": {
+      "label": "國際交流",
+      "owner": "科技與工程學院",
+      "url": "https://www.cte.ntnu.edu.tw/index.php/category/uncategorized/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "cte_recruitment": {
+      "label": "徵才訊息",
+      "owner": "科技與工程學院",
+      "url": "https://www.cte.ntnu.edu.tw/index.php/category/uncategorized/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "cte_dean_election": {
+      "label": "院長遴選",
+      "owner": "科技與工程學院",
+      "url": "https://www.cte.ntnu.edu.tw/index.php/category/uncategorized/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ie_news": {
+      "label": "最新消息",
+      "owner": "工業教育學系 (含公費專班)",
+      "url": "https://www.ie.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ie_pinned": {
+      "label": "重要置頂",
+      "owner": "工業教育學系 (含公費專班)",
+      "url": "https://www.ie.ntnu.edu.tw/index.php/category/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ie_affairs": {
+      "label": "系所公告",
+      "owner": "工業教育學系 (含公費專班)",
+      "url": "https://www.ie.ntnu.edu.tw/index.php/category/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ie_admission": {
+      "label": "招生公告",
+      "owner": "工業教育學系 (含公費專班)",
+      "url": "https://www.ie.ntnu.edu.tw/index.php/category/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ie_teacher_training": {
+      "label": "師資培育",
+      "owner": "工業教育學系 (含公費專班)",
+      "url": "https://www.ie.ntnu.edu.tw/index.php/category/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ie_academic": {
+      "label": "學術資訊",
+      "owner": "工業教育學系 (含公費專班)",
+      "url": "https://www.ie.ntnu.edu.tw/index.php/category/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ie_competition": {
+      "label": "競賽活動",
+      "owner": "工業教育學系 (含公費專班)",
+      "url": "https://www.ie.ntnu.edu.tw/index.php/category/6/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ie_scholarship": {
+      "label": "獎學金",
+      "owner": "工業教育學系 (含公費專班)",
+      "url": "https://www.ie.ntnu.edu.tw/index.php/category/7/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ie_recruitment": {
+      "label": "徵才訊息",
+      "owner": "工業教育學系 (含公費專班)",
+      "url": "https://www.ie.ntnu.edu.tw/index.php/category/8/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tahrd_news": {
+      "label": "最新消息",
+      "owner": "科技應用與人力資源發展學系",
+      "url": "https://www.tahrd.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tahrd_affairs": {
+      "label": "系所公告",
+      "owner": "科技應用與人力資源發展學系",
+      "url": "https://www.tahrd.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tahrd_admission": {
+      "label": "招生公告",
+      "owner": "科技應用與人力資源發展學系",
+      "url": "https://www.tahrd.ntnu.edu.tw/index.php/category/uncategorized/1/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tahrd_new_student": {
+      "label": "新生快訊",
+      "owner": "科技應用與人力資源發展學系",
+      "url": "https://www.tahrd.ntnu.edu.tw/index.php/category/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tahrd_teacher_recruitment": {
+      "label": "徵聘教師",
+      "owner": "科技應用與人力資源發展學系",
+      "url": "https://www.tahrd.ntnu.edu.tw/index.php/category/uncategorized/1/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tahrd_industry": {
+      "label": "產學互動",
+      "owner": "科技應用與人力資源發展學系",
+      "url": "https://www.tahrd.ntnu.edu.tw/index.php/category/uncategorized/1/7/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tahrd_internship": {
+      "label": "企業實習",
+      "owner": "科技應用與人力資源發展學系",
+      "url": "https://www.tahrd.ntnu.edu.tw/index.php/category/uncategorized/1/7/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "tahrd_seminar": {
+      "label": "專題演講",
+      "owner": "科技應用與人力資源發展學系",
+      "url": "https://www.tahrd.ntnu.edu.tw/index.php/category/uncategorized/1/7/6/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gac_news": {
+      "label": "最新消息",
+      "owner": "圖文傳播學系",
+      "url": "https://www.gac.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gac_affairs": {
+      "label": "系所公告",
+      "owner": "圖文傳播學系",
+      "url": "https://www.gac.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gac_events": {
+      "label": "活動消息",
+      "owner": "圖文傳播學系",
+      "url": "https://www.gac.ntnu.edu.tw/index.php/category/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gac_course": {
+      "label": "課程訊息",
+      "owner": "圖文傳播學系",
+      "url": "https://www.gac.ntnu.edu.tw/index.php/category/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gac_honor": {
+      "label": "榮譽榜",
+      "owner": "圖文傳播學系",
+      "url": "https://www.gac.ntnu.edu.tw/index.php/category/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gac_submission": {
+      "label": "徵件訊息",
+      "owner": "圖文傳播學系",
+      "url": "https://www.gac.ntnu.edu.tw/index.php/category/6/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "gac_recruitment": {
+      "label": "徵才訊息",
+      "owner": "圖文傳播學系",
+      "url": "https://www.gac.ntnu.edu.tw/index.php/category/7/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "me_news": {
+      "label": "最新消息",
+      "owner": "機電工程學系",
+      "url": "https://www.me.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "me_affairs": {
+      "label": "系所公告",
+      "owner": "機電工程學系",
+      "url": "https://www.me.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "me_admission": {
+      "label": "招生公告",
+      "owner": "機電工程學系",
+      "url": "https://www.me.ntnu.edu.tw/index.php/category/uncategorized/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "me_new_student": {
+      "label": "新生快訊",
+      "owner": "機電工程學系",
+      "url": "https://www.me.ntnu.edu.tw/index.php/category/uncategorized/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "me_teacher_recruitment": {
+      "label": "徵聘教師",
+      "owner": "機電工程學系",
+      "url": "https://www.me.ntnu.edu.tw/index.php/category/uncategorized/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "me_seminar": {
+      "label": "演講公告",
+      "owner": "機電工程學系",
+      "url": "https://www.me.ntnu.edu.tw/index.php/category/uncategorized/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "me_competition": {
+      "label": "競賽活動",
+      "owner": "機電工程學系",
+      "url": "https://www.me.ntnu.edu.tw/index.php/category/uncategorized/6/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "me_recruitment": {
+      "label": "徵才訊息",
+      "owner": "機電工程學系",
+      "url": "https://www.me.ntnu.edu.tw/index.php/category/uncategorized/7/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "me_scholarship": {
+      "label": "獎學金",
+      "owner": "機電工程學系",
+      "url": "https://www.me.ntnu.edu.tw/index.php/category/uncategorized/8/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "me_honor": {
+      "label": "榮譽榜",
+      "owner": "機電工程學系",
+      "url": "https://www.me.ntnu.edu.tw/index.php/category/uncategorized/9/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ee_news": {
+      "label": "最新消息",
+      "owner": "電機工程學系",
+      "url": "https://www.ee.ntnu.edu.tw/index.php/category/news/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ee_affairs": {
+      "label": "系所公告",
+      "owner": "電機工程學系",
+      "url": "https://www.ee.ntnu.edu.tw/index.php/category/news/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ee_seminar": {
+      "label": "演講公告",
+      "owner": "電機工程學系",
+      "url": "https://www.ee.ntnu.edu.tw/index.php/category/news/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ee_events": {
+      "label": "活動競賽",
+      "owner": "電機工程學系",
+      "url": "https://www.ee.ntnu.edu.tw/index.php/category/news/6/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ee_honor": {
+      "label": "傑出表現",
+      "owner": "電機工程學系",
+      "url": "https://www.ee.ntnu.edu.tw/index.php/category/news/9/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ee_recruitment": {
+      "label": "徵才/實習",
+      "owner": "電機工程學系",
+      "url": "https://www.ee.ntnu.edu.tw/index.php/category/8/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ee_teacher_recruitment": {
+      "label": "徵聘教師",
+      "owner": "電機工程學系",
+      "url": "https://www.ee.ntnu.edu.tw/index.php/category/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ee_admission": {
+      "label": "招生公告",
+      "owner": "電機工程學系",
+      "url": "https://www.ee.ntnu.edu.tw/index.php/category/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ee_admission_bachelor": {
+      "label": "招生資訊-學士班",
+      "owner": "電機工程學系",
+      "url": "https://www.ee.ntnu.edu.tw/index.php/category/21/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ee_admission_master": {
+      "label": "招生資訊-碩士班",
+      "owner": "電機工程學系",
+      "url": "https://www.ee.ntnu.edu.tw/index.php/category/22/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ee_admission_phd": {
+      "label": "招生資訊-博士班",
+      "owner": "電機工程學系",
+      "url": "https://www.ee.ntnu.edu.tw/index.php/category/23/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "vee_news": {
+      "label": "最新消息",
+      "owner": "車輛與能源工程研究所暨學士學位學程",
+      "url": "https://en.vee.ntnu.edu.tw/index.php/zh/category/category/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "vee_affairs": {
+      "label": "系所公告",
+      "owner": "車輛與能源工程研究所暨學士學位學程",
+      "url": "https://en.vee.ntnu.edu.tw/index.php/zh/category/category/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "vee_events": {
+      "label": "活動公告",
+      "owner": "車輛與能源工程研究所暨學士學位學程",
+      "url": "https://en.vee.ntnu.edu.tw/index.php/zh/category/category/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ieo_news": {
+      "label": "最新消息",
+      "owner": "光電工程研究所暨學士學位學程",
+      "url": "https://www.ieo.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ieo_affairs": {
+      "label": "系所公告",
+      "owner": "光電工程研究所暨學士學位學程",
+      "url": "https://www.ieo.ntnu.edu.tw/index.php/category/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ieo_academic": {
+      "label": "學術活動",
+      "owner": "光電工程研究所暨學士學位學程",
+      "url": "https://www.ieo.ntnu.edu.tw/index.php/category/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ieo_meetings": {
+      "label": "會議資訊",
+      "owner": "光電工程研究所暨學士學位學程",
+      "url": "https://www.ieo.ntnu.edu.tw/index.php/category/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ieo_admission": {
+      "label": "招生資訊",
+      "owner": "光電工程研究所暨學士學位學程",
+      "url": "https://www.ieo.ntnu.edu.tw/index.php/category/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ieo_alumni": {
+      "label": "校友園地",
+      "owner": "光電工程研究所暨學士學位學程",
+      "url": "https://www.ieo.ntnu.edu.tw/index.php/category/5/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "ieo_honor": {
+      "label": "榮譽榜",
+      "owner": "光電工程研究所暨學士學位學程",
+      "url": "https://www.ieo.ntnu.edu.tw/index.php/category/6/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "stem_news": {
+      "label": "最新消息",
+      "owner": "科學-科技-工程-數學整合教育國際博士學位學程",
+      "url": "https://www.stem.ntnu.edu.tw/index.php/category/uncategorized/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "stem_affairs": {
+      "label": "系所公告",
+      "owner": "科學-科技-工程-數學整合教育國際博士學位學程",
+      "url": "https://www.stem.ntnu.edu.tw/index.php/category/uncategorized/1/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "stem_admission": {
+      "label": "招生公告",
+      "owner": "科學-科技-工程-數學整合教育國際博士學位學程",
+      "url": "https://www.stem.ntnu.edu.tw/index.php/category/uncategorized/2/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "stem_seminar": {
+      "label": "演講公告",
+      "owner": "科學-科技-工程-數學整合教育國際博士學位學程",
+      "url": "https://www.stem.ntnu.edu.tw/index.php/category/uncategorized/3/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
+    },
+    "stem_new_student": {
+      "label": "新生快訊",
+      "owner": "科學-科技-工程-數學整合教育國際博士學位學程",
+      "url": "https://www.stem.ntnu.edu.tw/index.php/category/uncategorized/4/",
+      "selectors": {
+        "article": "#blog-entries article, .gdlr-core-blog-grid, .gdlr-core-blog-full, .gdlr-core-blog-list, li.wp-block-post, article",
+        "title_link": ".blog-entry-title.entry-title a, .gdlr-core-blog-title a, .wp-block-post-title a, h2.entry-title a, h3.entry-title a, .entry-title a",
+        "date": ".meta-date, .gdlr-core-blog-info-date a, .wp-block-post-date time, time, .entry-date, .posted-on",
+        "pinned": ".sticky"
+      }
     }
   },
   "schema": [
@@ -4579,47 +5305,320 @@
         {
           "id": "l2-cte",
           "name": "科技與工程學院",
-          "channels": [],
+          "channels": [
+            {
+              "name": "最新消息",
+              "value": "cte_news"
+            },
+            {
+              "name": "焦點活動",
+              "value": "cte_focus"
+            },
+            {
+              "name": "院務公告",
+              "value": "cte_affairs"
+            },
+            {
+              "name": "國際交流",
+              "value": "cte_international"
+            },
+            {
+              "name": "徵才訊息",
+              "value": "cte_recruitment"
+            },
+            {
+              "name": "院長遴選",
+              "value": "cte_dean_election"
+            }
+          ],
           "subUnits": [
             {
               "id": "l3-ie",
               "name": "工業教育學系 (含公費專班)",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "ie_news"
+                },
+                {
+                  "name": "重要置頂",
+                  "value": "ie_pinned"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "ie_affairs"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "ie_admission"
+                },
+                {
+                  "name": "師資培育",
+                  "value": "ie_teacher_training"
+                },
+                {
+                  "name": "學術資訊",
+                  "value": "ie_academic"
+                },
+                {
+                  "name": "競賽活動",
+                  "value": "ie_competition"
+                },
+                {
+                  "name": "獎學金",
+                  "value": "ie_scholarship"
+                },
+                {
+                  "name": "徵才訊息",
+                  "value": "ie_recruitment"
+                }
+              ]
             },
             {
               "id": "l3-tahrd",
               "name": "科技應用與人力資源發展學系",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "tahrd_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "tahrd_affairs"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "tahrd_admission"
+                },
+                {
+                  "name": "新生快訊",
+                  "value": "tahrd_new_student"
+                },
+                {
+                  "name": "徵聘教師",
+                  "value": "tahrd_teacher_recruitment"
+                },
+                {
+                  "name": "產學互動",
+                  "value": "tahrd_industry"
+                },
+                {
+                  "name": "企業實習",
+                  "value": "tahrd_internship"
+                },
+                {
+                  "name": "專題演講",
+                  "value": "tahrd_seminar"
+                }
+              ]
             },
             {
               "id": "l3-gac",
               "name": "圖文傳播學系",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "gac_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "gac_affairs"
+                },
+                {
+                  "name": "活動消息",
+                  "value": "gac_events"
+                },
+                {
+                  "name": "課程訊息",
+                  "value": "gac_course"
+                },
+                {
+                  "name": "榮譽榜",
+                  "value": "gac_honor"
+                },
+                {
+                  "name": "徵件訊息",
+                  "value": "gac_submission"
+                },
+                {
+                  "name": "徵才訊息",
+                  "value": "gac_recruitment"
+                }
+              ]
             },
             {
               "id": "l3-me",
               "name": "機電工程學系",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "me_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "me_affairs"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "me_admission"
+                },
+                {
+                  "name": "新生快訊",
+                  "value": "me_new_student"
+                },
+                {
+                  "name": "徵聘教師",
+                  "value": "me_teacher_recruitment"
+                },
+                {
+                  "name": "演講公告",
+                  "value": "me_seminar"
+                },
+                {
+                  "name": "競賽活動",
+                  "value": "me_competition"
+                },
+                {
+                  "name": "徵才訊息",
+                  "value": "me_recruitment"
+                },
+                {
+                  "name": "獎學金",
+                  "value": "me_scholarship"
+                },
+                {
+                  "name": "榮譽榜",
+                  "value": "me_honor"
+                }
+              ]
             },
             {
               "id": "l3-ee",
               "name": "電機工程學系",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "ee_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "ee_affairs"
+                },
+                {
+                  "name": "演講公告",
+                  "value": "ee_seminar"
+                },
+                {
+                  "name": "活動競賽",
+                  "value": "ee_events"
+                },
+                {
+                  "name": "傑出表現",
+                  "value": "ee_honor"
+                },
+                {
+                  "name": "徵才/實習",
+                  "value": "ee_recruitment"
+                },
+                {
+                  "name": "徵聘教師",
+                  "value": "ee_teacher_recruitment"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "ee_admission"
+                },
+                {
+                  "name": "招生資訊-學士班",
+                  "value": "ee_admission_bachelor"
+                },
+                {
+                  "name": "招生資訊-碩士班",
+                  "value": "ee_admission_master"
+                },
+                {
+                  "name": "招生資訊-博士班",
+                  "value": "ee_admission_phd"
+                }
+              ]
             },
             {
               "id": "l3-en-vee",
               "name": "車輛與能源工程研究所暨學士學位學程",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "vee_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "vee_affairs"
+                },
+                {
+                  "name": "活動公告",
+                  "value": "vee_events"
+                }
+              ]
             },
             {
               "id": "l3-ieo",
               "name": "光電工程研究所暨學士學位學程",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "ieo_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "ieo_affairs"
+                },
+                {
+                  "name": "學術活動",
+                  "value": "ieo_academic"
+                },
+                {
+                  "name": "會議資訊",
+                  "value": "ieo_meetings"
+                },
+                {
+                  "name": "招生資訊",
+                  "value": "ieo_admission"
+                },
+                {
+                  "name": "校友園地",
+                  "value": "ieo_alumni"
+                },
+                {
+                  "name": "榮譽榜",
+                  "value": "ieo_honor"
+                }
+              ]
             },
             {
               "id": "l3-stem",
               "name": "科學-科技-工程-數學整合教育國際博士學位學程",
-              "channels": []
+              "channels": [
+                {
+                  "name": "最新消息",
+                  "value": "stem_news"
+                },
+                {
+                  "name": "系所公告",
+                  "value": "stem_affairs"
+                },
+                {
+                  "name": "招生公告",
+                  "value": "stem_admission"
+                },
+                {
+                  "name": "演講公告",
+                  "value": "stem_seminar"
+                },
+                {
+                  "name": "新生快訊",
+                  "value": "stem_new_student"
+                }
+              ]
             }
           ]
         },

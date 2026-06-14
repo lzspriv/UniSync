@@ -10197,5 +10197,2151 @@
   "cla_intei": {
     "label": "INTEI",
     "announcements": []
+  },
+  "cte_news": {
+    "label": "科技與工程學院-最新消息",
+    "announcements": [
+      {
+        "title": "2026/2027美國萊斯大學海外研究實習計畫申請資訊(校內申請期限：2025年7月2日中午12時止)",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2026/06/08/20260608/",
+        "date": "2026-06-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學科技與工程學院講座教授及特聘教授申請表(115年)",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2026/03/27/news/",
+        "date": "2026-03-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "教育部免試計畫",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/11/17/updated-news-5/",
+        "date": "2025-11-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "科技與工程學院辦理115學年度第1學期(2027秋季班)院級學生赴海外姊妹校交換研習甄選公告(截止申請日：115年3月31日(二)16:00",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/09/23/elementor-10193/",
+        "date": "2025-09-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-1、115-1年度學赴九州大學綜合理工學研究院修讀碩士雙聯學位申請方式及流程",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/09/11/elementor-10164/",
+        "date": "2025-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cte_focus": {
+    "label": "科技與工程學院-焦點活動",
+    "announcements": [
+      {
+        "title": "教育部免試計畫",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/11/17/updated-news-5/",
+        "date": "2025-11-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學 X 台積電半導體學程說明會",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/09/01/updated-news-4/",
+        "date": "2025-09-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "日本熊本大學邀請科工院同學投稿發表口頭論文(截止日期：2024年9月11日)",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2024/08/01/1130801/",
+        "date": "2024-08-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "〔演講公告〕維吉尼亞理工大學STEM學程 Prof. John G. Wells演講公告 2023-7-76、27 (10:00-11:30)",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2023/07/20/20230720/",
+        "date": "2023-07-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "EMI咖啡角落邀請日籍演員福地祐介 分享人生冒險故事",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2023/06/14/emicoffeecorner/",
+        "date": "2023-06-14",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cte_affairs": {
+    "label": "科技與工程學院-院務公告",
+    "announcements": [
+      {
+        "title": "國立臺灣師範大學科技與工程學院講座教授及特聘教授申請表(115年)",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2026/03/27/news/",
+        "date": "2026-03-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學科技與工程學院講座教授及特聘教授申請表(114年)",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/03/06/updated-news-2/",
+        "date": "2025-03-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要】本院「學術研究經費補助要點」獎補助，自即日起受理申請，於114年3月31日(星期一)截止",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/03/03/updated-news/",
+        "date": "2025-03-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】科技與工程學院「獎勵教師參與全國或國際競賽補助」即日起受理申請-於114年3月31日(星期一)截止",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/03/03/upated/",
+        "date": "2025-03-03",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cte_international": {
+    "label": "科技與工程學院-國際交流",
+    "announcements": [
+      {
+        "title": "2026/2027美國萊斯大學海外研究實習計畫申請資訊(校內申請期限：2025年7月2日中午12時止)",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2026/06/08/20260608/",
+        "date": "2026-06-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "教育部免試計畫",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/11/17/updated-news-5/",
+        "date": "2025-11-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "科技與工程學院辦理115學年度第1學期(2027秋季班)院級學生赴海外姊妹校交換研習甄選公告(截止申請日：115年3月31日(二)16:00",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/09/23/elementor-10193/",
+        "date": "2025-09-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-1、115-1年度學赴九州大學綜合理工學研究院修讀碩士雙聯學位申請方式及流程",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/09/11/elementor-10164/",
+        "date": "2025-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025赴辛辛那提大學攻讀碩士雙聯學位招生說明會(暨理學院赴外說明會)114年9月16日中午12:00",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/09/05/elementor-10154/",
+        "date": "2025-09-05",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cte_recruitment": {
+    "label": "科技與工程學院-徵才訊息",
+    "announcements": [
+      {
+        "title": "科技與工程學院雙語計畫EMI專任助理徵聘公告",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2022/08/18/1110818_1/",
+        "date": "2022-08-18",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "cte_dean_election": {
+    "label": "科技與工程學院-院長遴選",
+    "announcements": [
+      {
+        "title": "【公告】洪翊軒教授自114年8月1日起新任本院第十任院長",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/05/23/updated-2/",
+        "date": "2025-05-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】本學院第十任院長候選人通過全院專任教師行使個別同意權名單",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/05/08/20250508/",
+        "date": "2025-05-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】本學院第十任院長候選人名單、理念說明會及全體專任教師行使個別同意權相關時程",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/04/17/updated-news-3/",
+        "date": "2025-04-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】 國立臺灣師範大學科技與工程學院公開徵求第10任院長候選人",
+        "url": "https://www.cte.ntnu.edu.tw/index.php/2025/02/14/20250214/",
+        "date": "2025-02-14",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ie_news": {
+    "label": "工業教育學系 (含公費專班)-最新消息",
+    "announcements": [
+      {
+        "title": "國立臺灣師範大學工業教育學系「科技應用管理組」助理教授級(含)以上專任(案)教師徵聘公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/06/04/1150604/",
+        "date": "2026-06-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第2學期-暑假期間系辦公時間調整公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/06/03/20260603001/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度工業教育學系公費專班單獨招生複試篩選名單公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/05/25/1150522/",
+        "date": "2026-05-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度工業教育學系技職教育數位碩士在職專班錄取名單",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/05/21/20260521/",
+        "date": "2026-05-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "中華會會員大會(系友會)、賴日生教授演講",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/05/19/%e4%b8%ad%e8%8f%af%e6%9c%83%e6%9c%83%e5%93%a1%e5%a4%a7%e6%9c%83%e7%b3%bb%e5%8f%8b%e6%9c%83%e3%80%81%e8%b3%b4%e6%97%a5%e7%94%9f%e6%95%99%e6%8e%88%e6%bc%94%e8%ac%9b/",
+        "date": "2026-05-19",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ie_pinned": {
+    "label": "工業教育學系 (含公費專班)-重要置頂",
+    "announcements": [
+      {
+        "title": "國立臺灣師範大學工業教育學系「科技應用管理組」助理教授級(含)以上專任(案)教師徵聘公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/06/04/1150604/",
+        "date": "2026-06-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第2學期-暑假期間系辦公時間調整公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/06/03/20260603001/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度工業教育學系公費專班單獨招生複試篩選名單公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/05/25/1150522/",
+        "date": "2026-05-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "工業教育學系115學年度新竹市中等學校(國民中學)科技領域生活科技專長師資培育公費生甄選第二次公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/05/18/1150518/",
+        "date": "2026-05-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度學士班公費專班單獨招生-複試考前公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/05/13/1150512/",
+        "date": "2026-05-13",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ie_affairs": {
+    "label": "工業教育學系 (含公費專班)-系所公告",
+    "announcements": [
+      {
+        "title": "國立臺灣師範大學工業教育學系「科技應用管理組」助理教授級(含)以上專任(案)教師徵聘公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/06/04/1150604/",
+        "date": "2026-06-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第2學期-暑假期間系辦公時間調整公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/06/03/20260603001/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度工業教育學系公費專班單獨招生複試篩選名單公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/05/25/1150522/",
+        "date": "2026-05-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度工業教育學系技職教育數位碩士在職專班錄取名單",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/05/21/20260521/",
+        "date": "2026-05-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "工業教育學系115學年度新竹市中等學校(國民中學)科技領域生活科技專長師資培育公費生甄選第二次公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/05/18/1150518/",
+        "date": "2026-05-18",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ie_admission": {
+    "label": "工業教育學系 (含公費專班)-招生公告",
+    "announcements": [
+      {
+        "title": "115學年度工業教育學系公費專班單獨招生複試篩選名單公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/05/25/1150522/",
+        "date": "2026-05-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度工業教育學系技職教育數位碩士在職專班錄取名單",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/05/21/20260521/",
+        "date": "2026-05-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度學士班公費專班單獨招生-複試考前公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/05/13/1150512/",
+        "date": "2026-05-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "工業教育學系115學年度技職教育數位碩士在職專班口試名單暨注意事項",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/04/30/1150420/",
+        "date": "2026-04-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "工業教育學系115學年度博士班考試入學-口試名單暨注意事項",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/04/16/1150415/",
+        "date": "2026-04-16",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ie_teacher_training": {
+    "label": "工業教育學系 (含公費專班)-師資培育",
+    "announcements": [
+      {
+        "title": "工業教育學系115學年度新竹市中等學校(國民中學)科技領域生活科技專長師資培育公費生甄選第二次公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/05/18/1150518/",
+        "date": "2026-05-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度學士班公費專班單獨招生-複試考前公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/05/13/1150512/",
+        "date": "2026-05-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "教育部115學年度核定乙案公費生申請公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/01/14/1150114/",
+        "date": "2026-01-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113學年度學士班師資培育生第二階段甄選公告 (11/20收件截止)",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2025/11/04/1141104/",
+        "date": "2025-11-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度工教系碩士班師資培育生甄選—錄取公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2025/08/21/1140821/",
+        "date": "2025-08-21",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ie_academic": {
+    "label": "工業教育學系 (含公費專班)-學術資訊",
+    "announcements": [
+      {
+        "title": "國立臺灣師範大學工業教育學系「科技應用管理組」助理教授級(含)以上專任(案)教師徵聘公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/06/04/1150604/",
+        "date": "2026-06-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "中國工業職業教育學會114年度「傑出人員金鐸獎」與「研究生暨大學生論文獎」遴選事宜",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2025/07/03/20250703/",
+        "date": "2025-07-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "(延長徵稿至09/16) 臺師大工教系【2024技職教育國際研討會】徵稿啟事",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2024/08/15/20240815001/",
+        "date": "2024-08-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "中國工業職業教育學會「112年度傑出人員金鐸獎」與「112年度研究生暨大學生論文獎」遴選事宜",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2023/05/15/1120515/",
+        "date": "2023-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "中國工業職業教育學會「111年度傑出人員金鐸獎」與「111年度研究生暨大學生論文獎」遴選事宜」",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2022/09/05/1110905/",
+        "date": "2022-09-05",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ie_competition": {
+    "label": "工業教育學系 (含公費專班)-競賽活動",
+    "announcements": [
+      {
+        "title": "轉知【裕隆日產汽車第二屆校園大使】報名資訊",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2023/08/22/1120822/",
+        "date": "2023-08-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "恭賀本系參加2023臺灣能-永續能源創意實作競賽通過初賽",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2023/07/26/1120726/",
+        "date": "2023-07-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "112年度教育部氣候變遷創意實作競賽_徵件中!!【總獎金61萬】",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2022/12/01/1111201/",
+        "date": "2022-12-01",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ie_scholarship": {
+    "label": "工業教育學系 (含公費專班)-獎學金",
+    "announcements": [
+      {
+        "title": "114學年度第二學期「戴氏獎學金」(3/13截止)",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/03/06/1150306-2/",
+        "date": "2026-03-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度STAR星辰獎學金即日起開始申請(3/16止)",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/03/05/1150305/",
+        "date": "2026-03-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第2學期優秀研究生獎學金申請(3/16截止)",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/03/04/20260304001/",
+        "date": "2026-03-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度系所獎學金申請公告(11/17止)",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2025/11/03/1141103/",
+        "date": "2025-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度許振聲教授紀念獎學金(10/08申請截止)",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2025/09/23/250923-2/",
+        "date": "2025-09-23",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ie_recruitment": {
+    "label": "工業教育學系 (含公費專班)-徵才訊息",
+    "announcements": [
+      {
+        "title": "國立臺灣師範大學工業教育學系「科技應用管理組」助理教授級(含)以上專任(案)教師徵聘公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/06/04/1150604/",
+        "date": "2026-06-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Department of Industrial Education, National Taiwan Normal UniversityEMI full-time faculty position opening",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/01/13/1150113/",
+        "date": "2026-01-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大工業教育學系「科技應用管理組」助理教授級(含)以上專任(案)教師–科技管理、工商管理、人工智慧專長，工程背景尤佳",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2025/10/17/20240703001/",
+        "date": "2025-10-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學工業教育學系誠徵約用人員1名",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2025/09/12/1140912/",
+        "date": "2025-09-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【轉知】國立員林崇實高工112學年度代理教師甄選公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2023/06/29/1120629001/",
+        "date": "2023-06-29",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "tahrd_news": {
+    "label": "科技應用與人力資源發展學系-最新消息",
+    "announcements": [
+      {
+        "title": "【學碩博及碩專】本校114學年度第2學期期末課程意見調查115年6月1日至115年6月21日止，請同學上網填寫（含碩專班)",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/06/08/20260608a1/",
+        "date": "2026-06-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立台灣師範大學 115 學年度科技應用與人力資源發展學系大學甄選入學考試口試時間表",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/05/15/20260515a1/",
+        "date": "2026-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "統一證券「115年下半年實習計劃」招募開跑囉！",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/05/15/0515/",
+        "date": "2026-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "台積電暑期半導體實務課程 線上招生說明會，於5/6 下午6:00-7:00歡迎本系同學參加!",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/04/28/0506tsmc/",
+        "date": "2026-04-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度第1學期 選修「專業實習」課程學生之申請注意事項",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/04/22/20260422a1/",
+        "date": "2026-04-22",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "tahrd_affairs": {
+    "label": "科技應用與人力資源發展學系-系所公告",
+    "announcements": [
+      {
+        "title": "國立台灣師範大學 115 學年度科技應用與人力資源發展學系大學甄選入學考試口試時間表",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/05/15/20260515a1/",
+        "date": "2026-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "統一證券「115年下半年實習計劃」招募開跑囉！",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/05/15/0515/",
+        "date": "2026-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度第1學期 選修「專業實習」課程學生之申請注意事項",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/04/22/20260422a1/",
+        "date": "2026-04-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "科技應用與人力資源發展學系115學年度博士班入學考試",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/04/16/20260416a1/",
+        "date": "2026-04-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度大學推薦甄選入學「申請入學」指定項目通知單",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/04/08/20260408a2/",
+        "date": "2026-04-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "tahrd_admission": {
+    "label": "科技應用與人力資源發展學系-招生公告",
+    "announcements": [
+      {
+        "title": "國立台灣師範大學 115 學年度科技應用與人力資源發展學系大學甄選入學考試口試時間表",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/05/15/20260515a1/",
+        "date": "2026-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "科技應用與人力資源發展學系115學年度博士班入學考試",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/04/16/20260416a1/",
+        "date": "2026-04-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度大學推薦甄選入學「申請入學」指定項目通知單",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/04/08/20260408a2/",
+        "date": "2026-04-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度特殊選才甄選流程表/複試名單",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2025/11/04/20251104a1/",
+        "date": "2025-11-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度碩士在職專班複試名單",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2025/02/06/20250206a1/",
+        "date": "2025-02-06",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "tahrd_new_student": {
+    "label": "科技應用與人力資源發展學系-新生快訊",
+    "announcements": [
+      {
+        "title": "國立台灣師範大學 115 學年度科技應用與人力資源發展學系大學甄選入學考試口試時間表",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/05/15/20260515a1/",
+        "date": "2026-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Cornerstone國際實習顧問_今天畢業明天就業！",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2021/04/08/20210408a0/",
+        "date": "2021-04-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "tahrd_teacher_recruitment": {
+    "label": "科技應用與人力資源發展學系-徵聘教師",
+    "announcements": [
+      {
+        "title": "台北市蘭雅國中誠徵114年下學期全薪生活科技代課老師",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/01/05/1150105/",
+        "date": "2026-01-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺中一中114學年度第2學期第1次代理教師甄選",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2025/11/20/20251120a1/",
+        "date": "2025-11-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "宜蘭高中正式生活科技教師甄試",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2025/07/24/20250724a2/",
+        "date": "2025-07-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "代課資訊：桃園市平鎮科技中心徵求代課教師",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2025/07/24/20250724a1/",
+        "date": "2025-07-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Faculty Position Opening at Department of Technology Application and Human Resource Development, National Taiwan Normal University, Taiwan",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2025/01/16/20250116a2/",
+        "date": "2025-01-16",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "tahrd_industry": {
+    "label": "科技應用與人力資源發展學系-產學互動",
+    "announcements": [
+      {
+        "title": "統一證券「115年下半年實習計劃」招募開跑囉！",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/05/15/0515/",
+        "date": "2026-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "緯穎科技_人力資源實習生 (歡迎在學學生)",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/01/22/20260122a1/",
+        "date": "2026-01-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "統一證券「115年上半年實習計劃」招募開跑囉！",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/01/12/20260112a1/",
+        "date": "2026-01-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "美國人力資源碩博士班申請與求學經驗分享會",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2025/12/16/20251216a1/",
+        "date": "2025-12-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "#美商 #三重 人力資源實習生(HR Intern)",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2025/11/10/20251110a1/",
+        "date": "2025-11-10",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "tahrd_internship": {
+    "label": "科技應用與人力資源發展學系-企業實習",
+    "announcements": [
+      {
+        "title": "統一證券「115年下半年實習計劃」招募開跑囉！",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/05/15/0515/",
+        "date": "2026-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "緯穎科技_人力資源實習生 (歡迎在學學生)",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/01/22/20260122a1/",
+        "date": "2026-01-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "統一證券「115年上半年實習計劃」招募開跑囉！",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2026/01/12/20260112a1/",
+        "date": "2026-01-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "#美商 #三重 人力資源實習生(HR Intern)",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2025/11/10/20251110a1/",
+        "date": "2025-11-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "緯穎科技HR工讀生職缺資訊",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2025/05/22/20250522a1/",
+        "date": "2025-05-22",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "tahrd_seminar": {
+    "label": "科技應用與人力資源發展學系-專題演講",
+    "announcements": [
+      {
+        "title": "美國人力資源碩博士班申請與求學經驗分享會",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2025/12/16/20251216a1/",
+        "date": "2025-12-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025科技創新應用與人力發展提升研討會-「組織文化與雇主品牌管理」論壇",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2025/03/18/20250318a3/",
+        "date": "2025-03-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "日本北海道大學2025年暑期學校說明會",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2025/02/14/1-2/",
+        "date": "2025-02-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2023科技創新應用與人力發展提升學術研討會-數位時代人才發展論壇",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2023/01/12/20230112a1/",
+        "date": "2023-01-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2022.12.16 專題演講: Educational technology and Technology education",
+        "url": "https://www.tahrd.ntnu.edu.tw/index.php/2022/11/28/20221128a0/",
+        "date": "2022-11-28",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "gac_news": {
+    "label": "圖文傳播學系-最新消息",
+    "announcements": [
+      {
+        "title": "本系115學年度大學申請入學面試時間表",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/05/13/gac-21/",
+        "date": "2026-05-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-2圖傳系碩士班暨碩士在職專班計畫口試/學位考試申請通知",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/04/02/20260402/",
+        "date": "2026-04-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "圖文傳播學系115學年度碩士在職專班招生考試複試通知",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/03/05/1150308/",
+        "date": "2026-03-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "圖文傳播學系115學年度碩士班考試入學口試通知",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/03/04/ggg/",
+        "date": "2026-03-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "本系114學年度徵聘教師公告",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2025/11/03/gac-20/",
+        "date": "2025-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "gac_affairs": {
+    "label": "圖文傳播學系-系所公告",
+    "announcements": [
+      {
+        "title": "114-2圖傳系碩士班暨碩士在職專班計畫口試/學位考試申請通知",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/04/02/20260402/",
+        "date": "2026-04-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "圖文傳播學系115學年度碩士在職專班招生考試複試通知",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/03/05/1150308/",
+        "date": "2026-03-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "圖文傳播學系115學年度碩士班考試入學口試通知",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/03/04/ggg/",
+        "date": "2026-03-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "圖文傳播學系114學年度四技二專推薦甄選指定項目甄試時間表",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2025/06/16/gac-16/",
+        "date": "2025-06-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "圖傳系學生組跨校創業團隊獲教育部肯定 以桌遊翻轉理財教育",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2025/05/14/001/",
+        "date": "2025-05-14",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "gac_events": {
+    "label": "圖文傳播學系-活動消息",
+    "announcements": [
+      {
+        "title": "臺師大圖文傳播學系暨科技應用與人力資源發展學系115級畢業專展《 圖 be continued × Tech Odyssey 》",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2023/05/03/test/",
+        "date": "2023-05-03",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "gac_course": {
+    "label": "圖文傳播學系-課程訊息",
+    "announcements": [
+      {
+        "title": "本系115年學生暑期職場實習申請",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2025/03/27/gac3594/",
+        "date": "2025-03-27",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "gac_honor": {
+    "label": "圖文傳播學系-榮譽榜",
+    "announcements": [
+      {
+        "title": "圖傳系學生組跨校創業團隊獲教育部肯定 以桌遊翻轉理財教育",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2025/05/14/001/",
+        "date": "2025-05-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "本系111學年度第1學期學士班書卷獎獲獎名單",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2022/10/14/elementor-20221014/",
+        "date": "2022-10-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2020-04-29 本系108學年度第2學期大學部五育獎學金得獎名單",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2020/09/20/elementor-20200920-2/",
+        "date": "2020-09-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2019-11-01 本系108學年度第1學期大學部學生五育獎及優秀學生選拔獲獎名單",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2020/09/20/elementor-20200920-3/",
+        "date": "2020-09-20",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "gac_submission": {
+    "label": "圖文傳播學系-徵件訊息",
+    "announcements": []
+  },
+  "gac_recruitment": {
+    "label": "圖文傳播學系-徵才訊息",
+    "announcements": [
+      {
+        "title": "本系114學年度徵聘教師公告",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2025/11/03/gac-20/",
+        "date": "2025-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2020-08-12 本系徵聘【專任或專案教師】數名 (109.9.30截止收件)",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2020/09/20/elementor-20200812/",
+        "date": "2020-09-20",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "me_news": {
+    "label": "機電工程學系-最新消息",
+    "announcements": [
+      {
+        "title": "2026-06-12 115學年度四技二專推薦甄選入學面試時程表",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/12/2026-06-12/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-09 賀! 本系張天立教授2026年指導學生林妤倢、張戎狄、蘇品睿、陳源濬，獲得115度台灣機電工程國際學會最佳論文奬 (名稱:以飛秒雷射製程製備整合微加熱可撓性 PI 基材之 NO 氣體感測器 Flexible PI-Based NO Gas Sensor with IntegratedMicroheater Fabricated by Femtosecond Laser Processing)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/12/2026-05-09-4/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-09 賀! 本系張天立教授2026年指導學生黃鴻儒、陳文凱、亓宇琛、劉珅有，獲得115度台灣機電工程國際學會最佳論文奬 第一名(名稱:以雷射製備微流體熱控平臺於重組酶聚合酶擴增技術之應用 Femtosecond Laser-Fabricated Microfluidic Thermal Platform for Recombinase Polymerase Amplification)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/12/2026-05-09-3/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-09 賀! 本系柯坤呈教授2026年指導學生鄧沛緹、段昀廷、楊育霖，獲得115度台灣機電工程國際學會最佳論文奬(名稱:以數位影像相關法應用於材料拉伸斷裂智慧預警系統之開發)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/12/2026-05-09-2/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-09 賀! 本系柯坤呈教授2026年指導學生陳衡、黃冠祐、劉其君，獲得115度台灣機電工程國際學會最佳論文奬(名稱:基於數據驅動與機器視覺技術之高分子材料即時缺陷檢測研究)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/12/2026-05-09-1/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "me_affairs": {
+    "label": "機電工程學系-系所公告",
+    "announcements": [
+      {
+        "title": "2026-06-12 115學年度四技二專推薦甄選入學面試時程表",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/12/2026-06-12/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-06-03 機電系書卷獎同名次參酌獲獎順序(第二次公告)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/03/2026-06-03/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-27 115-1 機電系初排課表公告",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/05/27/2026-05-27/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-13 115學年度大學申請入學面試時程表",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/05/13/2026-05-13/",
+        "date": "2026-05-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-04-15 115學年度轉學考招生簡章",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/04/15/2026-04-15/",
+        "date": "2026-04-15",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "me_admission": {
+    "label": "機電工程學系-招生公告",
+    "announcements": [
+      {
+        "title": "2026-06-12 115學年度四技二專推薦甄選入學面試時程表",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/12/2026-06-12/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-13 115學年度大學申請入學面試時程表",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/05/13/2026-05-13/",
+        "date": "2026-05-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-04-15 115學年度轉學考招生簡章",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/04/15/2026-04-15/",
+        "date": "2026-04-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-04-07 115學年度大學申請入學指定項目甄試通知單",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/04/07/2026-04-07/",
+        "date": "2026-04-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-03-02 115學年度博士班逕讀招生簡章(115年3月2日(一)起至3月13日(五))",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/03/06/2026-03-2/",
+        "date": "2026-03-06",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "me_new_student": {
+    "label": "機電工程學系-新生快訊",
+    "announcements": [
+      {
+        "title": "2025-08-01 本校「學士班新生入學成績優異獎學金實施要點」、學生申請表及學系推薦表",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2025/08/01/2025-08-01/",
+        "date": "2025-08-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2020-11-04 110學年度 機電系碩士班推薦甄選複試（口試）順序表",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2020/11/04/2020-11-04/",
+        "date": "2020-11-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2020-06-16 109學年度四技二專推薦甄選面試時程表",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2020/06/16/2020-06-16/",
+        "date": "2020-06-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2020-06-02 109學年度四技二專技優甄審面試時程表",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2020/06/02/2020-06-02/",
+        "date": "2020-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2020-05-27 109學年度碩士先修生甄選公告",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2020/05/27/2020-05-27/",
+        "date": "2020-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "me_teacher_recruitment": {
+    "label": "機電工程學系-徵聘教師",
+    "announcements": [
+      {
+        "title": "2025-08-15 國立臺灣師範大學機電工程學系徵聘專任教師公告",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2025/08/15/2025-08-15/",
+        "date": "2025-08-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2023-04-18 國立臺灣師範大學機電工程學系徵聘專任教師公告(延長至112年8月31日)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2023/07/27/1120418-1/",
+        "date": "2023-07-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021-09-07 國立臺灣師範大學機電工程學系徵聘專任教師公告(延長至110年9月22日)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2021/09/07/2021-09-07/",
+        "date": "2021-09-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2020-12-28 國立臺灣師範大學機電工程學系徵聘專任教師公告(延長收件至110年2月5日止)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2020/12/28/2020-09-22/",
+        "date": "2020-12-28",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "me_seminar": {
+    "label": "機電工程學系-演講公告",
+    "announcements": [
+      {
+        "title": "2026-06-02 轉知：科工學院演講，主題：半導體技術發展與國際人才培育策略，講者：傅昭銘教授 中原大學半導體產業學院院長，時間：115/06/03，地點：科工學院3樓會議室",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/02/2026-06-02/",
+        "date": "2026-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-12-28 機電工程學系專題演講，主題：[3D Printing of Advanced Ceramics, Metals and Biomaterials]&[Graduate Education and Programs of the Missouri S&T]，講者：呂明全特聘教授 (Prof. Ming-Chuan Leu, PhD)美國密蘇里科技大學機械與航太工程系 [Missouri S&T Dept. M&AE]，時間：2025/12/29 Monday 9:30AM，地點：科技大樓TA305",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2025/12/28/2025-12-28/",
+        "date": "2025-12-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-10-14 MOE Teaching Practice Research Program 2025演講訊息(15:20-17:20 PM 22th, Oct., 2025)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2025/10/14/2025-10-14/",
+        "date": "2025-10-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2022台灣磨粒加工學會年會暨精密加工技術研討會《2022年12月16日(五)_國立臺灣師範大學》",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2022/10/31/2022-10-31/",
+        "date": "2022-10-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021-08-31 110學年度第1學期 機電系書報討論上課及專題演講時程",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2021/08/31/2021-08-31/",
+        "date": "2021-08-31",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "me_competition": {
+    "label": "機電工程學系-競賽活動",
+    "announcements": [
+      {
+        "title": "2026-05-04 AI智慧機器人夏令營招生簡章",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/05/04/2026-05-04/",
+        "date": "2026-05-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-4-28 115智慧機器人創意研習營招生",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/04/28/2026-4-28/",
+        "date": "2026-04-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-12-12 第十屆（2025）北區跨校機械（電）工程學系專題製作競賽 賀!跨校專題製作競賽臺師大機電系獲獎5件",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2025/12/12/2025-12-12/",
+        "date": "2025-12-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-11-13 2026 AI智慧機器人冬令營招生簡章",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2025/11/13/2025-11-13-2026/",
+        "date": "2025-11-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-10-03 2025年全國二足機器人競賽簡章公告，歡迎踴躍報名參加！(公告得獎名單!)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2025/10/03/2025-10-03/",
+        "date": "2025-10-03",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "me_recruitment": {
+    "label": "機電工程學系-徵才訊息",
+    "announcements": [
+      {
+        "title": "2026-03-31 國立臺灣師範大學機電工程學系徵聘專任教師2名",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/03/31/2026-03-31/",
+        "date": "2026-03-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-12-26 臺灣師範大學機電工程學系徵聘專任助理1名",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2025/12/23/2025-12-26/",
+        "date": "2025-12-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-05-20 機電工程學系徵聘專任助理1名",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2025/05/20/2025-05-20-1/",
+        "date": "2025-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2023-08-08 國立臺灣師範大學機電工程學系誠徵約用人員1名",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2023/08/08/2023-08-08/",
+        "date": "2023-08-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2023-02-20【2023 台積電校園徵才】【台積電暑期實習】",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2023/02/20/2023-02-20/",
+        "date": "2023-02-20",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "me_scholarship": {
+    "label": "機電工程學系-獎學金",
+    "announcements": [
+      {
+        "title": "2026-05-08 2026 台積電博士獎學金(第二梯次)，即日起開放申請，並將於2026年05月30日截止收件。",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/05/08/2026-05-08/",
+        "date": "2026-05-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-08-01 本校「學士班新生入學成績優異獎學金實施要點」、學生申請表及學系推薦表",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2025/08/01/2025-08-01/",
+        "date": "2025-08-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-06-12 機電系書卷獎同名次參酌獲獎順序",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2025/06/12/2025-06-12/",
+        "date": "2025-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021-07-06 中山科學院優秀學生獎學金甄選資訊",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2021/07/06/2021-07-06/",
+        "date": "2021-07-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2020-09-14 109學年度機電工程學系師資培育獎學金甄選面試時程表",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2020/09/14/2020-09-14/",
+        "date": "2020-09-14",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "me_honor": {
+    "label": "機電工程學系-榮譽榜",
+    "announcements": [
+      {
+        "title": "2026-05-09 賀! 本系張天立教授2026年指導學生林妤倢、張戎狄、蘇品睿、陳源濬，獲得115度台灣機電工程國際學會最佳論文奬 (名稱:以飛秒雷射製程製備整合微加熱可撓性 PI 基材之 NO 氣體感測器 Flexible PI-Based NO Gas Sensor with IntegratedMicroheater Fabricated by Femtosecond Laser Processing)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/12/2026-05-09-4/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-09 賀! 本系張天立教授2026年指導學生黃鴻儒、陳文凱、亓宇琛、劉珅有，獲得115度台灣機電工程國際學會最佳論文奬 第一名(名稱:以雷射製備微流體熱控平臺於重組酶聚合酶擴增技術之應用 Femtosecond Laser-Fabricated Microfluidic Thermal Platform for Recombinase Polymerase Amplification)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/12/2026-05-09-3/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-09 賀! 本系柯坤呈教授2026年指導學生鄧沛緹、段昀廷、楊育霖，獲得115度台灣機電工程國際學會最佳論文奬(名稱:以數位影像相關法應用於材料拉伸斷裂智慧預警系統之開發)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/12/2026-05-09-2/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-09 賀! 本系柯坤呈教授2026年指導學生陳衡、黃冠祐、劉其君，獲得115度台灣機電工程國際學會最佳論文奬(名稱:基於數據驅動與機器視覺技術之高分子材料即時缺陷檢測研究)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/12/2026-05-09-1/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-12-24 賀! 本系張天立教授2025年指導學生黄鴻儒、陳源濬、劉珅有、蘇品睿，榮獲2025 全國力學會議 學生最佳論文獎熱流與能源組 第三名 (名稱:結合力學導向設計與雷射製程之微流體熱元件平臺應用於RPA反應 Mechanics-Guided Microfluidic Thermal Platform Fabricated by Laser Processing for Recombinase Polymerase Amplification)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2025/12/24/2025-12-24/",
+        "date": "2025-12-24",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ee_news": {
+    "label": "電機工程學系-最新消息",
+    "announcements": [
+      {
+        "title": "114學年度電機系學生專題製作發表暨競賽",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/06/10/002-192/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大學士班新生入學成績優異獎學金",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/06/03/002-190/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "轉知：科工學院演講，主題：半導體技術發展與國際人才培育策略，講者：傅昭銘教授 中原大學半導體產業學院院長，時間：115/06/03，地點：科工學院3樓會議室",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/06/02/006-14/",
+        "date": "2026-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026台積電新人訓練中心課程開報名，截止時間2026/6/18日",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/05/20/002-189/",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "恭賀本系蔡政翰教授參與計畫團隊獲得國立臺灣大學系統年輕學者創新性合作計畫優良成果評選第一名 電機系全體同賀",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/05/18/002-187/",
+        "date": "2026-05-18",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ee_affairs": {
+    "label": "電機工程學系-系所公告",
+    "announcements": [
+      {
+        "title": "114學年度電機系學生專題製作發表暨競賽",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/06/10/002-192/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大學士班新生入學成績優異獎學金",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/06/03/002-190/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026台積電新人訓練中心課程開報名，截止時間2026/6/18日",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/05/20/002-189/",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度大學申請入學電機工程學系口試公告",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/05/13/002-188/",
+        "date": "2026-05-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度申請入學甄試通知單",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/05/05/002-185/",
+        "date": "2026-05-05",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ee_seminar": {
+    "label": "電機工程學系-演講公告",
+    "announcements": [
+      {
+        "title": "轉知：科工學院演講，主題：半導體技術發展與國際人才培育策略，講者：傅昭銘教授 中原大學半導體產業學院院長，時間：115/06/03，地點：科工學院3樓會議室",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/06/02/006-14/",
+        "date": "2026-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "電機系專題演講：快門按下的瞬間，講者：林維揚 類比IC設計資深工程師，英屬蓋曼群島商譜瑞科技股份有限公司台灣分公司，115/5/13(三)18:00，科工學院三樓TA305會議室",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/05/05/002-186/",
+        "date": "2026-05-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "電機系專題演講：Working with AI to fine root causes，講者：Dr. Louie Lu，115/3/23(一)上午11:00，科技與工程學院TA412會議室",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/03/12/002-180/",
+        "date": "2026-03-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "電機系專題演講：What High-Speed SerDes Plays in the New Era of AI，講者：何盈杰執行長，博亢電子股份有限公司，114/12/11(四)上午10:20，教201演講廳",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2025/12/09/002-173/",
+        "date": "2025-12-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "電機系專題演講：Application of Deep Learning in Transportation，講者：Dr. Bui Ngoc Dung，越南河內交通運輸大學資訊科技學院副院長，114/12/8(一)10:00，科工學院三樓TA305會議室",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2025/12/05/002-172/",
+        "date": "2025-12-05",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ee_events": {
+    "label": "電機工程學系-活動競賽",
+    "announcements": [
+      {
+        "title": "114學年度電機系學生專題製作發表暨競賽",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/06/10/002-192/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "台積電2025設備卓越創新成果展，活動包含最新技術體驗與職涯交流機會，歡迎報名",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2025/09/25/002-153/",
+        "date": "2025-09-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "台積電2026預聘暨研發替代役招募，2025/9/30，TSMC巡迴徵才車，前進臺師大",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2025/09/25/002-152/",
+        "date": "2025-09-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "研究發展處創新育成中心於10月2日(四)14:00-17:15辦理創新思維工作坊，歡迎有興趣的學生報名參加。",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2025/09/11/003-33/",
+        "date": "2025-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大x台積電半導體學程說明會歡迎報名，凡於2025年9月5日(五)中午前報名成功者，會後提供餐盒一份。",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2025/09/01/002-144/",
+        "date": "2025-09-01",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ee_honor": {
+    "label": "電機工程學系-傑出表現",
+    "announcements": [
+      {
+        "title": "恭賀本系蔡政翰教授參與計畫團隊獲得國立臺灣大學系統年輕學者創新性合作計畫優良成果評選第一名 電機系全體同賀",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/05/18/002-187/",
+        "date": "2026-05-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "恭賀本系大學部畢業生李秔宜同學錄取德州大學奧斯汀分校碩士班 電機系全體同賀",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/04/29/002-184/",
+        "date": "2026-04-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "恭賀本系康立威教授指導碩士班畢業生顏伯諭 榮獲2026 International Workshop on Advanced Image Technology (IWAIT) Best Paper Award 電機系全體同賀",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/02/05/002-176/",
+        "date": "2026-02-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "恭賀本系葉家宏教授指導博士生羅真取得博士學位並榮獲台積電預聘 電機系全體同賀",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/01/26/002-175/",
+        "date": "2026-01-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "恭賀本系康立威教授指導碩士生彭昶得、大學部蔡杰宇參加2025 CACS 研討會榮獲Best Presentation Award 電機系全體同賀",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/01/07/002-174/",
+        "date": "2026-01-07",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ee_recruitment": {
+    "label": "電機工程學系-徵才/實習",
+    "announcements": [
+      {
+        "title": "【正職/實習招募】研華科技2026菁英領航計畫、Elite Internship、各項說明會 熱烈報名中！",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/03/16/006-13/",
+        "date": "2026-03-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "轉知：11/28(五)13:00~14:30工業技術研究院 AI Robot 線上技術說明會，歡迎大家報名參加!!",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2025/11/25/002-169/",
+        "date": "2025-11-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "轉知：2025年中鼎集團菁英獎學金(114年11月21日截止)",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2025/11/11/007-12/",
+        "date": "2025-11-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026年力積電人才預聘（暨）實習計畫",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2025/10/16/006-12/",
+        "date": "2025-10-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "研華科技_研職調查局－11/21（五）企業參訪活動",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2025/10/16/006-11/",
+        "date": "2025-10-16",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ee_teacher_recruitment": {
+    "label": "電機工程學系-徵聘教師",
+    "announcements": [
+      {
+        "title": "國立臺灣師範大學電機工程學系徵聘教師公告",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2025/10/14/007-3/",
+        "date": "2025-10-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學電機工程學系徵聘教師公告(資安)",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2024/05/30/002-5/",
+        "date": "2024-05-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學電機工程學系徵聘教師公告",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2022/08/29/001-53/",
+        "date": "2022-08-29",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ee_admission": {
+    "label": "電機工程學系-招生公告",
+    "announcements": [
+      {
+        "title": "國立臺灣師範大學電機工程學系徵聘教師公告",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2025/10/14/007-3/",
+        "date": "2025-10-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "電機系 112學年度第1次 轉系資訊",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2024/04/22/002-26/",
+        "date": "2024-04-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "電機系112申請入學指定項目甄試通知單",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2023/04/12/008-3/",
+        "date": "2023-04-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "112學年度大學甄選入學-申請入學 指定項目審查資料說明",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2023/03/30/002-25/",
+        "date": "2023-03-30",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ee_admission_bachelor": {
+    "label": "電機工程學系-招生資訊-學士班",
+    "announcements": [
+      {
+        "title": "110學年度電機系大學部招生",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2021/05/11/01/",
+        "date": "2021-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ee_admission_master": {
+    "label": "電機工程學系-招生資訊-碩士班",
+    "announcements": [
+      {
+        "title": "110學年度電機系碩士班招生資訊",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2021/05/11/02/",
+        "date": "2021-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ee_admission_phd": {
+    "label": "電機工程學系-招生資訊-博士班",
+    "announcements": [
+      {
+        "title": "110學年度電機系博士班招生考試入學",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2021/05/11/110%e5%ad%b8%e5%b9%b4%e5%ba%a6%e9%9b%bb%e6%a9%9f%e7%b3%bb%e5%8d%9a%e5%a3%ab%e7%8f%ad%e6%8b%9b%e7%94%9f%e8%80%83%e8%a9%a6%e5%85%a5%e5%ad%b8/",
+        "date": "2021-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "vee_news": {
+    "label": "車輛與能源工程研究所暨學士學位學程-最新消息",
+    "announcements": [
+      {
+        "title": "114學年度 優秀研究生獎學金得獎名單",
+        "url": "https://en.vee.ntnu.edu.tw/index.php/zh/2026/05/22/1150522/",
+        "date": "2026-05-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度 STAR星辰獎學金得獎名單",
+        "url": "https://en.vee.ntnu.edu.tw/index.php/zh/2026/05/19/20260519/",
+        "date": "2026-05-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大車能團隊參加2026 ISME 最佳論文獎得獎",
+        "url": "https://en.vee.ntnu.edu.tw/index.php/zh/2026/05/11/0511/",
+        "date": "2026-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大車能團隊赴大阪參與ICMET 2026 多元學習成果亮眼",
+        "url": "https://en.vee.ntnu.edu.tw/index.php/zh/2026/05/06/0506/",
+        "date": "2026-05-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026 Net Zero Tech 淨零排放科技國際競賽，歡迎報名參加",
+        "url": "https://en.vee.ntnu.edu.tw/index.php/zh/2026/04/15/2026-net-zero-tech/",
+        "date": "2026-04-15",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "vee_affairs": {
+    "label": "車輛與能源工程研究所暨學士學位學程-系所公告",
+    "announcements": [
+      {
+        "title": "2021-05-20 【通知】本校110學年度四技二專技優甄審取消到校甄試",
+        "url": "https://en.vee.ntnu.edu.tw/index.php/zh/2021/06/02/8/",
+        "date": "2021-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021-03-12 109學年度第2學期學士班「五育獎學金」申請",
+        "url": "https://en.vee.ntnu.edu.tw/index.php/zh/2021/06/02/5/",
+        "date": "2021-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021-01-04 109學年度第1學期學士班「優秀學生選拔」、「書卷獎」、「五育獎學金」獲獎名單公告",
+        "url": "https://en.vee.ntnu.edu.tw/index.php/zh/2021/06/02/1/",
+        "date": "2021-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "vee_events": {
+    "label": "車輛與能源工程研究所暨學士學位學程-活動公告",
+    "announcements": [
+      {
+        "title": "2021-04-07 第一屆台灣智慧電動車及綠能科技研討會",
+        "url": "https://en.vee.ntnu.edu.tw/index.php/zh/2021/06/02/7/",
+        "date": "2021-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021-03-17 2021年第三屆綠點子國際發明暨設計競賽",
+        "url": "https://en.vee.ntnu.edu.tw/index.php/zh/2021/06/02/6/",
+        "date": "2021-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021-03-08 「2021臺灣能-潔能科技創意實作競賽」",
+        "url": "https://en.vee.ntnu.edu.tw/index.php/zh/2021/06/02/4/",
+        "date": "2021-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021-02-26 澄德科技教育基金會-2021機電暨智慧創意實作競賽",
+        "url": "https://en.vee.ntnu.edu.tw/index.php/zh/2021/06/02/3/",
+        "date": "2021-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021-01-26 LEXUS SKILL BUILDING INTERNSHIP Skill Building技術人才培育計畫",
+        "url": "https://en.vee.ntnu.edu.tw/index.php/zh/2021/06/02/2/",
+        "date": "2021-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ieo_news": {
+    "label": "光電工程研究所暨學士學位學程-最新消息",
+    "announcements": [
+      {
+        "title": "【學術活動】本所謝振傑教授新創團隊-臺師大衍生新創「沛德永續科技」亮相InnoVEX 以AI驅動紡織循環經濟技術獲國內外肯定",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/06/10/1-186/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】115學年度第1學期逕讀博士班申請",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/06/03/1-185/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】2026 研究所新生座談會暨114學年度第2學期四校(師大光電/銘傳醫工/東吳物理/文化電機)聯合專題成果海報競賽",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/05/29/1-184/",
+        "date": "2026-05-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】2026中技社科技、創意、境外生獎學金申請（CTIC Foundation Science and Technology Scholarship)-收件至2026/8/6（四）止",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/05/26/1-182/",
+        "date": "2026-05-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】115學年度第1學期研究生註冊須知",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/05/25/2-50/",
+        "date": "2026-05-25",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ieo_affairs": {
+    "label": "光電工程研究所暨學士學位學程-系所公告",
+    "announcements": [
+      {
+        "title": "【學術活動】本所謝振傑教授新創團隊-臺師大衍生新創「沛德永續科技」亮相InnoVEX 以AI驅動紡織循環經濟技術獲國內外肯定",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/06/10/1-186/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】115學年度第1學期逕讀博士班申請",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/06/03/1-185/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】2026 研究所新生座談會暨114學年度第2學期四校(師大光電/銘傳醫工/東吳物理/文化電機)聯合專題成果海報競賽",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/05/29/1-184/",
+        "date": "2026-05-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】2026中技社科技、創意、境外生獎學金申請（CTIC Foundation Science and Technology Scholarship)-收件至2026/8/6（四）止",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/05/26/1-182/",
+        "date": "2026-05-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】115學年度第1學期研究生註冊須知",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/05/25/2-50/",
+        "date": "2026-05-25",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ieo_academic": {
+    "label": "光電工程研究所暨學士學位學程-學術活動",
+    "announcements": [
+      {
+        "title": "【學術活動】本所謝振傑教授新創團隊-臺師大衍生新創「沛德永續科技」亮相InnoVEX 以AI驅動紡織循環經濟技術獲國內外肯定",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/06/10/1-186/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】2026 研究所新生座談會暨114學年度第2學期四校(師大光電/銘傳醫工/東吳物理/文化電機)聯合專題成果海報競賽",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/05/29/1-184/",
+        "date": "2026-05-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【114-2跨領域人才培育講座系列】中央研究院應用科學中心",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/03/14/1-173/",
+        "date": "2026-03-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【114-2學術演講】 光電工程研究所 114學年度第2學期《書報討論》學術演講講者一覽表",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/03/02/1-170/",
+        "date": "2026-03-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【學術活動】本所謝振傑教授新創團隊攜手科工館 AI互動升級「衣技織長廳」打造永續時尚體驗",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2025/12/29/1-162/",
+        "date": "2025-12-29",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ieo_meetings": {
+    "label": "光電工程研究所暨學士學位學程-會議資訊",
+    "announcements": [
+      {
+        "title": "Workshop on Frontier Magnetic Technologies 2016",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2016/10/19/2016-10-19/",
+        "date": "2016-10-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Workshop on Magnetic-fluids and Magnetic Particle Imaging 2015 (WMMPI2015)",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2015/10/13/2015-10-13/",
+        "date": "2015-10-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2014台日磁性粒子在生醫應用聯合學術研討會",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2014/07/01/2014-07-01/",
+        "date": "2014-07-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Workshop on Advanced Photonic-crystal Devices, Taipei.",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2013/10/18/2013-10-18/",
+        "date": "2013-10-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2013第七屆東亞超導電子學會議",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2013/10/02/2013-10-02/",
+        "date": "2013-10-02",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ieo_admission": {
+    "label": "光電工程研究所暨學士學位學程-招生資訊",
+    "announcements": [
+      {
+        "title": "【公告】115學年度第1學期逕讀博士班申請",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/06/03/1-185/",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】115學年度光電工程學士學位學程 大學甄選入學「申請入學」指定項目甄試-口試公告",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/05/14/1-180/",
+        "date": "2026-05-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】115學年度學士班轉學考入學簡章",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/04/15/1-176/",
+        "date": "2026-04-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】115學年度大學甄選入學「申請入學」指定項目甄試通知",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/04/09/1-175/",
+        "date": "2026-04-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】NTNU College of Science – Joint TEEP & IIPP Summer Research Internship Invitation (2026)",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/02/05/1-167/",
+        "date": "2026-02-05",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ieo_alumni": {
+    "label": "光電工程研究所暨學士學位學程-校友園地",
+    "announcements": [
+      {
+        "title": "【公告】畢業生流向問卷調查-108學年度（109年）、106學年度（107年）、104學年度（105年）",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2021/09/07/4-10/",
+        "date": "2021-09-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "就業專欄",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2016/05/27/2016-10/",
+        "date": "2016-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【校友園地】",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2016/05/27/106-12/",
+        "date": "2016-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ieo_honor": {
+    "label": "光電工程研究所暨學士學位學程-榮譽榜",
+    "announcements": [
+      {
+        "title": "【公告】114學年度第1學期學士班書卷獎獲獎名單",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/04/15/1-177/",
+        "date": "2026-04-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】114學年度學士班星辰獎獎學金獲獎名單",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/03/31/2-48/",
+        "date": "2026-03-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】114學年度第2學期研究所優秀獎學金獲獎名單",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2026/03/31/1-174/",
+        "date": "2026-03-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【學術活動及榮耀】光電所打造「AI低碳×衣到衣ESG」關鍵技術 奪下APICTA Awards 2025冠軍助攻臺灣紡織永續循環走向世界 光電所AIoT團隊受邀進入總統府分享成果",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2025/12/12/1-157/",
+        "date": "2025-12-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】2025-114學年度第1學期課程專題成果競賽-獲獎名單",
+        "url": "https://www.ieo.ntnu.edu.tw/index.php/2025/12/09/1-156/",
+        "date": "2025-12-09",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "stem_news": {
+    "label": "科學-科技-工程-數學整合教育國際博士學位學程-最新消息",
+    "announcements": [
+      {
+        "title": "賀! 本學程林坤誼合聘教授獲美國CTETE協會頒發推動STEM教育獎項",
+        "url": "https://www.stem.ntnu.edu.tw/index.php/2023/05/01/20230501/",
+        "date": "2023-05-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2023春季招生中",
+        "url": "https://www.stem.ntnu.edu.tw/index.php/2023/01/08/20230108a0/",
+        "date": "2023-01-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "stem_affairs": {
+    "label": "科學-科技-工程-數學整合教育國際博士學位學程-系所公告",
+    "announcements": []
+  },
+  "stem_admission": {
+    "label": "科學-科技-工程-數學整合教育國際博士學位學程-招生公告",
+    "announcements": [
+      {
+        "title": "2023春季招生中",
+        "url": "https://www.stem.ntnu.edu.tw/index.php/2023/01/08/20230108a0/",
+        "date": "2023-01-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "stem_seminar": {
+    "label": "科學-科技-工程-數學整合教育國際博士學位學程-演講公告",
+    "announcements": []
+  },
+  "stem_new_student": {
+    "label": "科學-科技-工程-數學整合教育國際博士學位學程-新生快訊",
+    "announcements": []
   }
 }
