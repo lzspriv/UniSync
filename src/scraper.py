@@ -2,6 +2,7 @@ import requests
 from requests.adapters import HTTPAdapter
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
+import json
 import re
 import ssl
 from urllib.parse import urlencode, urljoin, urlparse
@@ -436,6 +437,71 @@ def fetch_wordpress_rest_announcements(url, category_name, scraper_config):
         return []
 
 
+def fetch_oia_next_data_announcements(url, category_name, scraper_config):
+    try:
+        response = create_request_session(url).get(url, headers=REQUEST_HEADERS, timeout=10)
+        response.encoding = "utf-8"
+
+        if response.status_code != 200:
+            print(f"⚠️ 無法讀取 {category_name}: {response.status_code}")
+            return []
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        next_data_tag = soup.select_one("#__NEXT_DATA__")
+        if not next_data_tag:
+            return []
+
+        data = json.loads(next_data_tag.string or "{}")
+        items = (
+            data.get("props", {})
+            .get("pageProps", {})
+            .get("pageData", {})
+            .get("pta16Data", {})
+            .get("highlights", [])
+        )
+
+        all_news = []
+        recent_news = []
+        cutoff_date = datetime.now() - timedelta(days=10)
+        seen_urls = set()
+
+        for item in items:
+            title = normalize_whitespace(item.get("title", ""))
+            news_sno = str(item.get("news_sno", "")).strip()
+            raw_date = str(item.get("post_date", "")).strip()
+            if not title or not news_sno:
+                continue
+
+            absolute_url = urljoin(url, f"{url.rstrip('/')}/{news_sno}")
+            if absolute_url in seen_urls:
+                continue
+            seen_urls.add(absolute_url)
+
+            date_text, _ = parse_taiwan_date(raw_date)
+            news_item = {
+                "title": title,
+                "url": absolute_url,
+                "date": date_text,
+                "date_label": scraper_config.get("date_label", "發布日期"),
+                "summary": "",
+                "show_summary": False,
+                "category": category_name,
+            }
+            all_news.append(news_item)
+
+            if date_text != "未知日期":
+                try:
+                    if datetime.strptime(date_text, "%Y-%m-%d") >= cutoff_date:
+                        recent_news.append(news_item)
+                except ValueError:
+                    pass
+
+        return all_news[:5] if len(recent_news) < 5 else recent_news
+    except Exception as e:
+        print(f"❌ 爬取 {category_name} 時發生異常: {e}")
+        return []
+
+
 def fetch_university_announcements(url, category_name, scraper_config=None):
     if not scraper_config:
         scraper_config = {
@@ -448,6 +514,8 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
         return fetch_json_announcements(url, category_name, scraper_config)
     if scraper_config.get("parser") == "wordpress_rest":
         return fetch_wordpress_rest_announcements(url, category_name, scraper_config)
+    if scraper_config.get("parser") == "oia_next_data":
+        return fetch_oia_next_data_announcements(url, category_name, scraper_config)
 
     try:
         response = create_request_session(url).get(url, headers=REQUEST_HEADERS, timeout=10)
@@ -466,6 +534,7 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
         articles = soup.select(scraper_config.get("article", "#blog-entries article"))
         pinned_selector = scraper_config.get("pinned")
         include_summary = scraper_config.get("include_summary", False)
+        date_label = scraper_config.get("date_label", "發布日期")
         seen_urls = set()
         
         for article in articles:
@@ -592,6 +661,7 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                     "title": title_text,
                     "url": absolute_url,
                     "date": date_text,
+                    "date_label": date_label,
                     "summary": summary_text[:150] + "..." if len(summary_text) > 150 else summary_text,
                     "show_summary": include_summary,
                     "category": category_name
