@@ -248,7 +248,7 @@ function renderPreviewList(keyword, matches) {
             <li class="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-xs leading-relaxed text-amber-800">
                 ⚠️ 目前資料庫中無相符公告。新增此關鍵字後，未來有新公告上架時仍會觸發雷達。
             </li>`;
-        if (footer) footer.classList.add('hidden');
+        if (footer) footer.classList.remove('hidden');
         return;
     }
 
