@@ -143,6 +143,8 @@ async function syncUserData(userId) {
 
     // 更新訂閱計數
     await updateSubscriptionCount(userId);
+    window.updateMenuSelectedSummary?.();
+    window.applyMenuFilter?.();
 }
 
 /* --- 💾 儲存操作 --- */

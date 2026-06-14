@@ -61,6 +61,31 @@
 	backdrop-filter: blur(10px);
 }
 
+.menu-toolbar-summary {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.75rem;
+}
+
+.menu-toolbar-title {
+	font-size: 0.78rem;
+	font-weight: 900;
+	letter-spacing: 0.08em;
+	color: #475569;
+}
+
+.menu-selected-count {
+	flex: 0 0 auto;
+	border: 1px solid #dbeafe;
+	border-radius: 999px;
+	background: #eff6ff;
+	padding: 0.25rem 0.55rem;
+	font-size: 0.72rem;
+	font-weight: 900;
+	color: #2563eb;
+}
+
 .menu-search-wrap {
 	position: relative;
 }
@@ -96,6 +121,7 @@
 .menu-toolbar-actions {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	gap: 0.5rem;
 }
 
@@ -104,18 +130,24 @@
 	align-items: center;
 	gap: 0.45rem;
 	min-height: 2rem;
-	border: 1px solid #dbeafe;
+	border: 1px solid #e2e8f0;
 	border-radius: 999px;
-	background: #eff6ff;
+	background: #ffffff;
 	padding: 0.35rem 0.7rem;
 	font-size: 0.8rem;
 	font-weight: 900;
-	color: #2563eb;
+	color: #475569;
 	cursor: pointer;
 }
 
 .menu-filter-toggle input {
 	accent-color: #2563eb;
+}
+
+.menu-filter-toggle:has(input:checked) {
+	border-color: #bfdbfe;
+	background: #eff6ff;
+	color: #2563eb;
 }
 
 .menu-tool-btn {

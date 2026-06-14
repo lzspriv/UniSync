@@ -19,7 +19,7 @@ function renderMenu() {
     const renderChannels = (channels = [], parentPath = []) => channels.map(ch => {
         const displayLabel = [...parentPath, ch.name].filter(Boolean).join('-');
         return `
-        <div class="menu-channel-row" data-menu-leaf data-menu-text="${escapeAttribute(ch.name)}">
+        <div class="menu-channel-row" data-menu-leaf data-menu-text="${escapeAttribute(displayLabel || ch.name)}">
             <label class="menu-channel">
                 <input type="checkbox" value="${ch.value}" class="child-checkbox">
                 <span>${ch.name}</span>
@@ -33,14 +33,18 @@ function renderMenu() {
 
     const renderMenuToolbar = () => `
         <div class="menu-toolbar">
+            <div class="menu-toolbar-summary">
+                <span class="menu-toolbar-title">訂閱來源</span>
+                <span id="menu-selected-count" class="menu-selected-count">已選 0</span>
+            </div>
             <div class="menu-search-wrap">
                 <i class="fas fa-search menu-search-icon"></i>
                 <input id="menu-search-input" type="search" class="menu-search-input" placeholder="搜尋單位或公告類型">
             </div>
             <div class="menu-toolbar-actions">
                 <label class="menu-filter-toggle">
-                    <input id="menu-subscribable-only" type="checkbox">
-                    <span>只看可訂閱</span>
+                    <input id="menu-selected-only" type="checkbox">
+                    <span>只看已選</span>
                 </label>
                 <button type="button" id="menu-expand-all" class="menu-tool-btn" title="展開全部"><i class="fas fa-angles-down"></i></button>
                 <button type="button" id="menu-collapse-all" class="menu-tool-btn" title="收合全部"><i class="fas fa-angles-up"></i></button>
@@ -273,15 +277,24 @@ function setMenuNodeExpanded(id, expanded) {
     updateMenuExpandedState(content, expanded);
 }
 
+function updateMenuSelectedSummary() {
+    const selectedCount = document.querySelectorAll('#menu-container .child-checkbox:checked').length;
+    const selectedCountEl = document.getElementById('menu-selected-count');
+    if (selectedCountEl) {
+        selectedCountEl.textContent = `已選 ${selectedCount}`;
+    }
+}
+window.updateMenuSelectedSummary = updateMenuSelectedSummary;
+
 function bindMenuToolbar() {
     const searchInput = document.getElementById('menu-search-input');
-    const subscribableOnly = document.getElementById('menu-subscribable-only');
+    const selectedOnly = document.getElementById('menu-selected-only');
     const expandAllBtn = document.getElementById('menu-expand-all');
     const collapseAllBtn = document.getElementById('menu-collapse-all');
 
     const applyFilter = () => {
         const query = (searchInput?.value || '').trim().toLowerCase();
-        const onlySubscribable = Boolean(subscribableOnly?.checked);
+        const onlySelected = Boolean(selectedOnly?.checked);
         const groups = Array.from(document.querySelectorAll('[data-menu-group]'));
         let visibleGroups = 0;
 
@@ -291,18 +304,18 @@ function bindMenuToolbar() {
 
             leaves.forEach(item => {
                 const text = (item.dataset.menuText || item.textContent || '').toLowerCase();
-                const isSubscribable = true;
+                const isSelected = Boolean(item.querySelector('.child-checkbox:checked'));
                 const matchesQuery = !query || text.includes(query);
-                const matchesSubscriptionFilter = !onlySubscribable || isSubscribable;
+                const matchesSubscriptionFilter = !onlySelected || isSelected;
                 const visible = matchesQuery && matchesSubscriptionFilter;
                 item.classList.toggle('hidden', !visible);
             });
 
             [...nodes].reverse().forEach(item => {
                 const text = (item.dataset.menuText || item.textContent || '').toLowerCase();
-                const isSubscribable = item.dataset.subscribable === 'true';
+                const hasSelectedDescendant = Boolean(item.querySelector('.child-checkbox:checked'));
                 const matchesQuery = !query || text.includes(query);
-                const matchesSubscriptionFilter = !onlySubscribable || isSubscribable;
+                const matchesSubscriptionFilter = !onlySelected || hasSelectedDescendant;
                 const selfMatches = matchesQuery && matchesSubscriptionFilter;
                 const hasVisibleDescendant = Boolean(item.querySelector('[data-menu-node]:not(.hidden), [data-menu-leaf]:not(.hidden)'));
                 item.classList.toggle('hidden', !(selfMatches || hasVisibleDescendant));
@@ -312,7 +325,7 @@ function bindMenuToolbar() {
             group.classList.toggle('hidden', !groupHasMatch);
             if (groupHasMatch) visibleGroups += 1;
 
-            if (query || onlySubscribable) {
+            if (query || onlySelected) {
                 group.querySelectorAll('.collapsible-content').forEach(content => {
                     const hasVisibleChild = Boolean(content.querySelector('[data-menu-node]:not(.hidden), [data-menu-leaf]:not(.hidden)'));
                     if (hasVisibleChild) {
@@ -327,7 +340,9 @@ function bindMenuToolbar() {
     };
 
     searchInput?.addEventListener('input', applyFilter);
-    subscribableOnly?.addEventListener('change', applyFilter);
+    selectedOnly?.addEventListener('change', applyFilter);
+    window.applyMenuFilter = applyFilter;
+    updateMenuSelectedSummary();
 
     expandAllBtn?.addEventListener('click', () => {
         document.querySelectorAll('#menu-container .collapsible-content').forEach(content => setMenuNodeExpanded(content.id, true));
@@ -1088,6 +1103,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             } else if (target.matches('.parent-checkbox')) {
                 updateParentStates(target);
             }
+            updateMenuSelectedSummary();
+            window.applyMenuFilter?.();
         });
     }
 
