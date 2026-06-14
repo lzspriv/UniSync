@@ -128,6 +128,19 @@ def parse_leading_date(text):
     return parse_taiwan_date(text)
 
 
+def parse_date_from_url(value):
+    parsed_url = urlparse(value or "")
+    match = re.search(r"/((?:19|20)\d{2})/(\d{1,2})/(\d{1,2})(?:/|$)", parsed_url.path)
+    if not match:
+        return "未知日期"
+
+    year, month, day = (int(part) for part in match.groups())
+    try:
+        return datetime(year, month, day).strftime("%Y-%m-%d")
+    except ValueError:
+        return "未知日期"
+
+
 def parse_split_date(yearmonth_text, day_text):
     match = re.search(r"(\d{4})[-/](\d{1,2})", yearmonth_text or "")
     day_match = re.search(r"(\d{1,2})", day_text or "")
@@ -435,6 +448,9 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                         or article.select_one(pinned_selector)
                     )
                 )
+                if date_text == "未知日期":
+                    date_text = parse_date_from_url(absolute_url)
+
                 is_recent = False
                 date_is_known = date_text != "未知日期"
 
