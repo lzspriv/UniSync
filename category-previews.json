@@ -18324,5 +18324,245 @@
         "summary": ""
       }
     ]
+  },
+  "mgt_news": {
+    "label": "管理學院-最新消息",
+    "announcements": [
+      {
+        "title": "2026 年暑期雙語6月赴大阪進修錄取與備取名單暨資料填報公告",
+        "url": "https://www.mgt.ntnu.edu.tw/2026-summer-best-outbound-results",
+        "date": "2026-04-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026精誠集團AI創新競賽【競賽主題：AI Ready Data— 打造理解關聯的智慧大腦】",
+        "url": "https://www.mgt.ntnu.edu.tw/2026精誠集團ai創新競賽競賽主題ai-ready-data-打造理解關聯的智慧大腦",
+        "date": "2026-03-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】2026年秋季學生赴外進修暨獎學金補助核定名單",
+        "url": "https://www.mgt.ntnu.edu.tw/公告2026年秋季學生赴外進修暨獎學金補助核定名單",
+        "date": "2026-02-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【講座活動】2026 臺師大冬季學院｜國際永續冬季課程 開放報名！",
+        "url": "https://www.mgt.ntnu.edu.tw/講座活動2026-臺師大冬季學院國際永續冬季課程-開放報名",
+        "date": "2025-12-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025台灣統計方法學學會年會暨學術研討會",
+        "url": "https://www.mgt.ntnu.edu.tw/2025台灣統計方法學學會年會暨學術研討會",
+        "date": "2025-11-13",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "ba_news": {
+    "label": "企業管理學系-最新消息",
+    "announcements": [
+      {
+        "title": "115學年度大學「申請入學」第二階段指定項目甄試口試時間表與注意事项",
+        "url": "https://www.ba.ntnu.edu.tw/115學年度大學申請入學第二階段指定項目甄試口試時間表與注意事项",
+        "date": "2026-05-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026師大企管之夜《BAck to the retro》",
+        "url": "https://www.ba.ntnu.edu.tw/2026師大企管之夜back-to-the-retro",
+        "date": "2026-05-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026師大企管週《重返198BA－企舞夜未央》",
+        "url": "https://www.ba.ntnu.edu.tw/2026師大企管週重返198ba企舞夜未央開跑囉",
+        "date": "2026-04-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "企業管理學系 115學年度大學甄選入學「申請入學」指定項目甄試通知單",
+        "url": "https://www.ba.ntnu.edu.tw/企業管理學系-115學年度大學甄選入學申請入學指定項目甄試通知單",
+        "date": "2026-04-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026秋季班企管系中文組外籍生申請入學線上口試公告-2026 Fall Semester Online Interview notice-For BA Group",
+        "url": "https://www.ba.ntnu.edu.tw/2026秋季班企管系中文組外籍生申請入學線上口試公告-2026-fall-semester-online-interview-notice-for-ba-group",
+        "date": "2026-03-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "mba_news": {
+    "label": "管理研究所-最新消息",
+    "announcements": [
+      {
+        "title": "114學年度第2學期碩博學位考試口試申請及畢業離校說明",
+        "url": "https://www.mba.ntnu.edu.tw/114學年度第2學期碩博學位考試口試申請及畢業離校說明",
+        "date": "2026-04-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "The 2026 Fall Semester (Second Round) Interview",
+        "url": "https://www.mba.ntnu.edu.tw/the-2026-fall-semester-second-round-interview",
+        "date": "2026-03-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度管理研究所碩士班考試-口試注意事項及名單",
+        "url": "https://www.mba.ntnu.edu.tw/115學年度管理研究所碩士班考試-口試注意事項及名單",
+        "date": "2026-03-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "The 2026 Fall Semester (First Round) Interview",
+        "url": "https://www.mba.ntnu.edu.tw/the-2026-fall-semester-first-round-interview",
+        "date": "2025-12-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度管理研究所碩士班考試開始報名",
+        "url": "https://www.mba.ntnu.edu.tw/115學年度管理研究所碩士班考試開始報名",
+        "date": "2025-12-01",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "gbs_news": {
+    "label": "全球經營與策略研究所-最新消息",
+    "announcements": [
+      {
+        "title": "2026年秋季班面試通知 2026 Fall Interview Notification",
+        "url": "https://www.gbs.ntnu.edu.tw/2026年秋季班面試通知-2026-fall-interview-notification",
+        "date": "2026-03-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度全球經營與策略研究所 面試公告",
+        "url": "https://www.gbs.ntnu.edu.tw/115學年度全球經營與策略研究所-面試公告",
+        "date": "2026-03-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115 學年度碩士班甄試口試注意事項及名單",
+        "url": "https://www.gbs.ntnu.edu.tw/115-學年度碩士班甄試口試注意事項及名單",
+        "date": "2025-10-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026年春季班面試通知 2026 Spring Interview Notification",
+        "url": "https://www.gbs.ntnu.edu.tw/2026年春季班面試通知-2026-spring-interview-notification",
+        "date": "2025-09-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025年秋季班面試通知 2025 Fall Interview Notification",
+        "url": "https://www.gbs.ntnu.edu.tw/2025年秋季班面試通知-2025-fall-interview-notification",
+        "date": "2025-03-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "emba_news": {
+    "label": "高階經理人企業管理碩士在職專班(EMBA)-最新消息",
+    "announcements": [
+      {
+        "title": "臺師大EMBA 113級畢業典禮盛大登場 「承光」而行展現跨界與韌性領導力",
+        "url": "https://emba.ntnu.edu.tw/news/臺師大EMBA 113級畢業典禮盛大登場 「承光」而行展現跨界與韌性領導力.html",
+        "date": "2026-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學115學年度高階經理人企業管理碩士在職專班(EMBA) 第2梯次遞補名單",
+        "url": "https://emba.ntnu.edu.tw/news/國立臺灣師範大學115學年度高階經理人企業管理碩士在職專班(EMBA) 第2梯次遞補名單.html",
+        "date": "2026-04-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大EMBA報到注意事項提醒",
+        "url": "https://emba.ntnu.edu.tw/news/臺師大EMBA報到注意事項提醒.html",
+        "date": "2026-03-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大EMBA新生說明會登場 結合藝文與科技打造跨域學習新藍圖",
+        "url": "https://emba.ntnu.edu.tw/news/臺師大EMBA新生說明會登場 結合藝文與科技打造跨域學習新藍圖.html",
+        "date": "2026-02-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度管理學院高階經理人企業管理碩士在職專班（EMBA）錄取名單公告",
+        "url": "https://emba.ntnu.edu.tw/news/115學年度管理學院高階經理人企業管理碩士在職專班（EMBA）錄取名單公告.html",
+        "date": "2026-01-15",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "gf_news": {
+    "label": "國際時尚高階管理碩士在職專班(GF-EMBA)-最新消息",
+    "announcements": [
+      {
+        "title": "臺師大GF-EMBA畢典登場 跨界人才展現學習與美學能量",
+        "url": "https://www.gf.ntnu.edu.tw/臺師大gf-emba畢典登場-跨界人才展現學習與美學能量",
+        "date": "2026-05-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "GF-EMBA校友柯淑玲捐贈臺北榮總巨幅畫作 管院師長與校友出席見證藝術與公益精神",
+        "url": "https://www.gf.ntnu.edu.tw/gf-emba校友柯淑玲捐贈臺北榮總巨幅畫作-管院師長與校友出席見證藝術與公益精神",
+        "date": "2026-05-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大 GF-EMBA ｜115級新生歡迎會",
+        "url": "https://www.gf.ntnu.edu.tw/gf-emba115-級新生歡迎會",
+        "date": "2026-04-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "GF-EMBA傑出校友陳亞蘭跨界音樂祭舞台 展現多元表演能量",
+        "url": "https://www.gf.ntnu.edu.tw/gf-emba傑出校友陳亞蘭跨界音樂祭舞台-展現多元表演能量",
+        "date": "2026-04-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "GF-EMBA葉瑞祥學長參與Net Zero City Expo 2026 深化AI與淨零發展視野",
+        "url": "https://www.gf.ntnu.edu.tw/gf-emba葉瑞祥學長參與net-zero-city-expo-2026深化ai與淨零發展視野",
+        "date": "2026-03-21",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   }
 }

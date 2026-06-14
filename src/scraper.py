@@ -70,6 +70,12 @@ def parse_taiwan_date(text):
         summary = text.replace(en_match.group(0), "").strip()
         return f"{en_match.group(1)}-{int(en_match.group(2)):02d}-{int(en_match.group(3)):02d}", summary
 
+    zh_month_match = re.search(r'(\d{4})\s*(?:年)?\s*(\d{1,2})\s*月\s*(\d{1,2})\s*(?:日)?', text)
+    if zh_month_match:
+        year, month, day = zh_month_match.groups()
+        summary = text.replace(zh_month_match.group(0), "").strip()
+        return f"{year}-{int(month):02d}-{int(day):02d}", summary
+
     return "未知日期", text
 
 
@@ -361,11 +367,19 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
         seen_urls = set()
         
         for article in articles:
-            link_tag = article.select_one(scraper_config.get("title_link", ".blog-entry-title.entry-title a"))
+            title_selector = scraper_config.get("title")
+            title_tag = article.select_one(title_selector) if title_selector else None
             date_tag = article.select_one(scraper_config.get("date", ".meta-date"))
+            if title_tag and scraper_config.get("title_remove"):
+                for node in title_tag.select(scraper_config.get("title_remove")):
+                    node.extract()
+            link_selector = scraper_config.get("title_link", ".blog-entry-title.entry-title a")
+            link_tag = article.select_one(link_selector)
+            if (not link_tag or not link_tag.get("href")) and article.name == "a" and article.get("href"):
+                link_tag = article
             
             if link_tag and link_tag.get('href'):
-                link_text = normalize_whitespace(link_tag.get_text(" ", strip=True))
+                link_text = normalize_whitespace((title_tag or link_tag).get_text(" ", strip=True))
                 if not link_text:
                     continue
 
