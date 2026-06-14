@@ -3802,8 +3802,14 @@
     "holistic_news": {
       "label": "最新消息",
       "owner": "社會實踐中心",
-      "url": "https://holistic.sa.ntnu.edu.tw/category/news/",
-      "selectorPreset": "ultimate_post_grid"
+      "url": "https://holistic.sa.ntnu.edu.tw/news-2/",
+      "selectorPreset": "ultimate_post_grid",
+      "selectors": {
+        "parser": "row_date_link",
+        "article": "article.uagb-post__inner-wrap",
+        "title_link": "a[href]",
+        "date": "article"
+      }
     },
     "counselor_announce": {
       "label": "行政公告",
