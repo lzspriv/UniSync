@@ -3775,14 +3775,24 @@
     "assistance_admin": {
       "label": "行政公告",
       "owner": "生活輔導組",
-      "url": "https://assistance.sa.ntnu.edu.tw/category/new-1/",
-      "selectorPreset": "ultimate_post_grid"
+      "url": "https://assistance.sa.ntnu.edu.tw/new/",
+      "selectorPreset": "ultimate_post_grid",
+      "selectors": {
+        "article": ".ultp-block-item:has(a[href*=\"/category/new-1/\"])",
+        "title_link": ".ultp-block-title a[href]",
+        "date": ".ultp-block-date"
+      }
     },
     "assistance_publicity": {
       "label": "宣導事項",
       "owner": "生活輔導組",
-      "url": "https://assistance.sa.ntnu.edu.tw/category/new-2/",
-      "selectorPreset": "ultimate_post_grid"
+      "url": "https://assistance.sa.ntnu.edu.tw/new/",
+      "selectorPreset": "ultimate_post_grid",
+      "selectors": {
+        "article": ".ultp-block-item:has(a[href*=\"/category/new-2/\"])",
+        "title_link": ".ultp-block-title a[href]",
+        "date": ".ultp-block-date"
+      }
     },
     "activity_news": {
       "label": "最新消息",
@@ -3872,7 +3882,12 @@
       "label": "最新消息",
       "owner": "生活輔導組",
       "url": "https://assistance.sa.ntnu.edu.tw/new/",
-      "selectorPreset": "ultimate_post_grid"
+      "selectorPreset": "ultimate_post_grid",
+      "selectors": {
+        "article": ".ultp-block-item:has(a[href*=\"/category/new/\"])",
+        "title_link": ".ultp-block-title a[href]",
+        "date": ".ultp-block-date"
+      }
     }
   },
   "schema": [
