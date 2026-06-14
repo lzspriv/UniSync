@@ -194,6 +194,12 @@
       "title": "[data-hook=\"post-title\"]",
       "date": "span[data-hook=\"time-ago\"]",
       "summary": "[data-hook=\"post-description\"]"
+    },
+    "ga_legacy_table": {
+      "article": "tr:has(a[href*=\"item.aspx?line=\"])",
+      "title_link": "a[href*=\"item.aspx?line=\"]",
+      "date": "td:nth-of-type(2)",
+      "strip_title_suffix": ".....more"
     }
   },
   "categories": {
@@ -4078,6 +4084,60 @@
         "title_link": ".uagb-post__title a[href], a[href]",
         "date": "time.uagb-post__date"
       }
+    },
+    "general_affairs_director_news": {
+      "label": "最新消息",
+      "owner": "總務長室",
+      "url": "https://www.ga.ntnu.edu.tw/ga/main.aspx",
+      "selectorPreset": "ga_legacy_table"
+    },
+    "general_affairs_services_news": {
+      "label": "最新消息",
+      "owner": "事務組",
+      "url": "https://www.ga.ntnu.edu.tw/aff/main.aspx",
+      "selectorPreset": "ga_legacy_table"
+    },
+    "general_affairs_construction_news": {
+      "label": "最新消息",
+      "owner": "營繕組",
+      "url": "https://www.ga.ntnu.edu.tw/conn/main.aspx",
+      "selectorPreset": "ga_legacy_table"
+    },
+    "general_affairs_procurement_news": {
+      "label": "最新消息",
+      "owner": "採購組",
+      "url": "https://www.ga.ntnu.edu.tw/pro/main.aspx",
+      "selectorPreset": "ga_legacy_table"
+    },
+    "general_affairs_asset_management_news": {
+      "label": "最新消息",
+      "owner": "資產經營管理組",
+      "url": "https://www.ga.ntnu.edu.tw/man/main.aspx",
+      "selectorPreset": "ga_legacy_table"
+    },
+    "general_affairs_cashier_news": {
+      "label": "最新消息",
+      "owner": "出納組",
+      "url": "https://www.ga.ntnu.edu.tw/cas/main.aspx",
+      "selectorPreset": "ga_legacy_table"
+    },
+    "general_affairs_payment_news": {
+      "label": "最新消息",
+      "owner": "付款窗口",
+      "url": "https://www.ga.ntnu.edu.tw/Payment/main.aspx",
+      "selectorPreset": "ga_legacy_table"
+    },
+    "general_affairs_gongguan_news": {
+      "label": "最新消息",
+      "owner": "公館總務組",
+      "url": "https://www.ga.ntnu.edu.tw/sci/main.aspx",
+      "selectorPreset": "ga_legacy_table"
+    },
+    "general_affairs_linkou_news": {
+      "label": "最新消息",
+      "owner": "林口總務組",
+      "url": "https://www.ga.ntnu.edu.tw/lin/main.aspx",
+      "selectorPreset": "ga_legacy_table"
     }
   },
   "schema": [
@@ -4620,7 +4680,99 @@
         {
           "id": "l2-general-affairs",
           "name": "總務處",
-          "channels": []
+          "channels": [],
+          "subUnits": [
+            {
+              "id": "l3-general-affairs-director",
+              "name": "總務長室",
+              "channels": [
+                {
+                  "value": "general_affairs_director_news",
+                  "name": "最新消息"
+                }
+              ]
+            },
+            {
+              "id": "l3-general-affairs-services",
+              "name": "事務組",
+              "channels": [
+                {
+                  "value": "general_affairs_services_news",
+                  "name": "最新消息"
+                }
+              ]
+            },
+            {
+              "id": "l3-general-affairs-construction",
+              "name": "營繕組",
+              "channels": [
+                {
+                  "value": "general_affairs_construction_news",
+                  "name": "最新消息"
+                }
+              ]
+            },
+            {
+              "id": "l3-general-affairs-procurement",
+              "name": "採購組",
+              "channels": [
+                {
+                  "value": "general_affairs_procurement_news",
+                  "name": "最新消息"
+                }
+              ]
+            },
+            {
+              "id": "l3-general-affairs-asset-management",
+              "name": "資產經營管理組",
+              "channels": [
+                {
+                  "value": "general_affairs_asset_management_news",
+                  "name": "最新消息"
+                }
+              ]
+            },
+            {
+              "id": "l3-general-affairs-cashier",
+              "name": "出納組",
+              "channels": [
+                {
+                  "value": "general_affairs_cashier_news",
+                  "name": "最新消息"
+                }
+              ]
+            },
+            {
+              "id": "l3-general-affairs-payment",
+              "name": "付款窗口",
+              "channels": [
+                {
+                  "value": "general_affairs_payment_news",
+                  "name": "最新消息"
+                }
+              ]
+            },
+            {
+              "id": "l3-general-affairs-gongguan",
+              "name": "公館總務組",
+              "channels": [
+                {
+                  "value": "general_affairs_gongguan_news",
+                  "name": "最新消息"
+                }
+              ]
+            },
+            {
+              "id": "l3-general-affairs-linkou",
+              "name": "林口總務組",
+              "channels": [
+                {
+                  "value": "general_affairs_linkou_news",
+                  "name": "最新消息"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "l2-research-development",

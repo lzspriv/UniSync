@@ -484,6 +484,9 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
                 link_text = normalize_whitespace((title_tag or link_tag).get_text(" ", strip=True))
                 if not link_text:
                     continue
+                strip_title_suffix = scraper_config.get("strip_title_suffix")
+                if strip_title_suffix and link_text.endswith(strip_title_suffix):
+                    link_text = link_text[: -len(strip_title_suffix)].rstrip()
 
                 absolute_url = urljoin(url, link_tag.get('href'))
                 if absolute_url in seen_urls:

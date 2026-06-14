@@ -22552,5 +22552,365 @@
         "summary": ""
       }
     ]
+  },
+  "general_affairs_director_news": {
+    "label": "總務長室-最新消息",
+    "announcements": [
+      {
+        "title": "公告1150615起林口校區公文車收送公文時間調整",
+        "url": "https://www.ga.ntnu.edu.tw/ga/item.aspx?line=1540",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "大型廢棄物清運時間公告",
+        "url": "https://www.ga.ntnu.edu.tw/ga/item.aspx?line=1539",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【範本修訂】技術服務投標須知及契約書範本(含契約變更版本)已有最新版本（1150604版），敬請各單位使用。",
+        "url": "https://www.ga.ntnu.edu.tw/ga/item.aspx?line=1538",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【共同供應契約】臺銀共同供應契約禮券(提貨券)立約商及折數一覽表",
+        "url": "https://www.ga.ntnu.edu.tw/ga/item.aspx?line=1537",
+        "date": "2026-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學「林口校區學生餐廳」場地委外經營案評選結果公告。",
+        "url": "https://www.ga.ntnu.edu.tw/ga/item.aspx?line=1536",
+        "date": "2026-05-29",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "general_affairs_services_news": {
+    "label": "事務組-最新消息",
+    "announcements": [
+      {
+        "title": "大型廢棄物清運時間公告",
+        "url": "https://www.ga.ntnu.edu.tw/aff/item.aspx?line=1539",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第二學期學生申請和平校區I運動場地下停車場定期停車『額滿公告』",
+        "url": "https://www.ga.ntnu.edu.tw/aff/item.aspx?line=1495",
+        "date": "2026-03-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115年春節期間本校地下停車場停止開放時間公告",
+        "url": "https://www.ga.ntnu.edu.tw/aff/item.aspx?line=1489",
+        "date": "2026-01-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第二學期學生申請本校和平校區I運動場地下停車場定期停車公告",
+        "url": "https://www.ga.ntnu.edu.tw/aff/item.aspx?line=1474",
+        "date": "2026-01-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115年本校停車場開放校外人士申請定期停車事宜",
+        "url": "https://www.ga.ntnu.edu.tw/aff/item.aspx?line=1440",
+        "date": "2025-11-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "general_affairs_construction_news": {
+    "label": "營繕組-最新消息",
+    "announcements": [
+      {
+        "title": "【範本修訂】技術服務投標須知及契約書範本(含契約變更版本)已有最新版本（1150604版），敬請各單位使用。",
+        "url": "https://www.ga.ntnu.edu.tw/conn/item.aspx?line=1538",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】誠正勤樸大樓耐震補強暨外牆整修及博愛大樓耐震補強工程學生說明會",
+        "url": "https://www.ga.ntnu.edu.tw/conn/item.aspx?line=1532",
+        "date": "2026-05-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "有關公共工程技術服務採購之監造服務費，依工程進度請領者，其工程進度之計算不應以施工廠商估驗情形為之，以免影響監造單位之請款權益。",
+        "url": "https://www.ga.ntnu.edu.tw/conn/item.aspx?line=2842",
+        "date": "2025-01-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "​有關勞動部函為建築工地易發生墜落災害項目，請各機關持續配合加強盤點、列管及巡查，如內容及附件，請工程相關人員配合辦理。",
+        "url": "https://www.ga.ntnu.edu.tw/conn/item.aspx?line=2789",
+        "date": "2024-11-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "起造人應於建築工程委託辦理鑽探工作時，應同時委託建築師或專業技師辦理事項，詳如附件",
+        "url": "https://www.ga.ntnu.edu.tw/conn/item.aspx?line=2602",
+        "date": "2024-04-09",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "general_affairs_procurement_news": {
+    "label": "採購組-最新消息",
+    "announcements": [
+      {
+        "title": "【共同供應契約】臺銀共同供應契約禮券(提貨券)立約商及折數一覽表",
+        "url": "https://www.ga.ntnu.edu.tw/pro/item.aspx?line=1537",
+        "date": "2026-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【業務宣導】採購組於115年6月1日起，將自動發送履約通知電子郵件。",
+        "url": "https://www.ga.ntnu.edu.tw/pro/item.aspx?line=1535",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【宣導】教育部函知為避免利用共同供應契約辦理採購之價格高於市場行情或規格落後市場主流，致公帑支出之合理性受到質疑，請恪遵共同供應契約實施辦法並落實市價訪查。",
+        "url": "https://www.ga.ntnu.edu.tw/pro/item.aspx?line=1529",
+        "date": "2026-05-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【範本修訂】準用最有利標簽辦範例及採購線上申請參考簽已有最新版本（1150326版），採購申請表已有最新版本（1150330版），敬請各單位使用。",
+        "url": "https://www.ga.ntnu.edu.tw/pro/item.aspx?line=1518",
+        "date": "2026-03-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【採購法規】工程會修正「公共工程招標文件公開閱覽制度實施要點」，名稱並修正為「政府採購招標文件公開閱覽制度實施要點」，自115年7月1日起，機關辦理查核金額以上之採購，應於公告招標前辦理招標文件之公開閱覽。",
+        "url": "https://www.ga.ntnu.edu.tw/pro/item.aspx?line=1506",
+        "date": "2026-03-20",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "general_affairs_asset_management_news": {
+    "label": "資產經營管理組-最新消息",
+    "announcements": [
+      {
+        "title": "國立臺灣師範大學「林口校區學生餐廳」場地委外經營案評選結果公告。",
+        "url": "https://www.ga.ntnu.edu.tw/man/item.aspx?line=1536",
+        "date": "2026-05-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "辦理本校115年度「網際網路版財產管理系統講習」，敬請轉知同仁於115年6月19日(星期五)前上網報名。（詳財產系統公告說明）",
+        "url": "https://www.ga.ntnu.edu.tw/man/item.aspx?line=1533",
+        "date": "2026-05-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學「學一舍地下室美髮部」場地委外經營案評選結果公告。",
+        "url": "https://www.ga.ntnu.edu.tw/man/item.aspx?line=1530",
+        "date": "2026-05-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115年1-4月份已報廢財物標售案",
+        "url": "https://www.ga.ntnu.edu.tw/man/item.aspx?line=1521",
+        "date": "2026-04-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115年碩士服租借廠商--演色Colorweb-校園文創、國大製衣有限公司",
+        "url": "https://www.ga.ntnu.edu.tw/man/item.aspx?line=1520",
+        "date": "2026-04-13",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "general_affairs_cashier_news": {
+    "label": "出納組-最新消息",
+    "announcements": [
+      {
+        "title": "【暫停服務公告】 配合資訊中心115年5月27日(三)18:00至21：00校務行政資料庫稽核軟體升級作業，相關系統暫停服務事宜",
+        "url": "https://www.ga.ntnu.edu.tw/cas/item.aspx?line=1534",
+        "date": "2026-05-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度暑期高階管理碩士在職專班舊生與碩士在職專班學雜費繳費單已開放下載",
+        "url": "https://www.ga.ntnu.edu.tw/cas/item.aspx?line=1531",
+        "date": "2026-05-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【恢復服務公告】出納收付子系統及帳戶資料表維護恢復提供服務",
+        "url": "https://www.ga.ntnu.edu.tw/cas/item.aspx?line=1527",
+        "date": "2026-04-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度暑期「樂活產業高階經理人企業管理碩士在職專班(樂活EMBA)」、「藝術產業高階經理碩士在職專班(EMAM)」新生學雜費繳費單已開放下載",
+        "url": "https://www.ga.ntnu.edu.tw/cas/item.aspx?line=1526",
+        "date": "2026-04-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【暫停服務公告】出納收付子系統及帳戶資料表維護暫停服務事宜",
+        "url": "https://www.ga.ntnu.edu.tw/cas/item.aspx?line=1525",
+        "date": "2026-04-24",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "general_affairs_payment_news": {
+    "label": "付款窗口-最新消息",
+    "announcements": [
+      {
+        "title": "配合主計室115年4月23日(週四) 7：30-13：30請",
+        "url": "https://www.ga.ntnu.edu.tw/Payment/item.aspx?line=1524",
+        "date": "2026-04-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114年度核銷案送件期限及注意事項",
+        "url": "https://www.ga.ntnu.edu.tw/Payment/item.aspx?line=1449",
+        "date": "2025-11-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【暫停服務公告】本校「核銷案進度管控系統」配合資訊中心虛擬主",
+        "url": "https://www.ga.ntnu.edu.tw/Payment/item.aspx?line=1424",
+        "date": "2025-09-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "單位辦理逾新臺幣15萬元之採購案結案付款，請使用公文系統之採",
+        "url": "https://www.ga.ntnu.edu.tw/Payment/item.aspx?line=2800",
+        "date": "2024-11-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113年度核銷案送件期限及注意事項",
+        "url": "https://www.ga.ntnu.edu.tw/Payment/item.aspx?line=2790",
+        "date": "2024-11-15",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "general_affairs_gongguan_news": {
+    "label": "公館總務組-最新消息",
+    "announcements": [
+      {
+        "title": "「公館校區學二舍地下機車停車場」114學年度第二學期(2至6",
+        "url": "https://www.ga.ntnu.edu.tw/sci/item.aspx?line=1493",
+        "date": "2026-02-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "「公館校區學二舍地下機車停車場」114年度寒宿機車停車申請",
+        "url": "https://www.ga.ntnu.edu.tw/sci/item.aspx?line=1456",
+        "date": "2025-12-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "為辦理本校公館校區教職員工申請115年度定期停車申請及繳費事",
+        "url": "https://www.ga.ntnu.edu.tw/sci/item.aspx?line=1441",
+        "date": "2025-11-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "「公館校區學二舍地下機車停車場」114學年度第一學期(8至1",
+        "url": "https://www.ga.ntnu.edu.tw/sci/item.aspx?line=1409",
+        "date": "2025-08-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "公館校區創意行動餐車招商公告",
+        "url": "https://www.ga.ntnu.edu.tw/sci/item.aspx?line=1377",
+        "date": "2025-06-17",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
+  },
+  "general_affairs_linkou_news": {
+    "label": "林口總務組-最新消息",
+    "announcements": [
+      {
+        "title": "公告1150615起林口校區公文車收送公文時間調整",
+        "url": "https://www.ga.ntnu.edu.tw/lin/item.aspx?line=1540",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "公告林口校區往返和平校區公文車5月4日全天停開",
+        "url": "https://www.ga.ntnu.edu.tw/lin/item.aspx?line=1528",
+        "date": "2026-04-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "公告1150409起林口校區公文車收送公文時間調整",
+        "url": "https://www.ga.ntnu.edu.tw/lin/item.aspx?line=1519",
+        "date": "2026-04-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "公告1150330起林口校區公文車收送公文時間調整(0325更正)",
+        "url": "https://www.ga.ntnu.edu.tw/lin/item.aspx?line=1512",
+        "date": "2026-03-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "公告林口校區往返和平校區公文車3月18日全天停開",
+        "url": "https://www.ga.ntnu.edu.tw/lin/item.aspx?line=1501",
+        "date": "2026-03-16",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   }
 }
