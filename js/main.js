@@ -1104,12 +1104,47 @@ async function initializeLiveFeed() {
     }
 }
 
+function initializeMobileSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('overlay');
+    const openBtn = document.getElementById('menu-btn');
+    const closeBtn = document.getElementById('close-sidebar-btn');
+    if (!sidebar || !overlay || !openBtn) return;
+
+    const setSidebarOpen = (isOpen) => {
+        sidebar.classList.toggle('-translate-x-full', !isOpen);
+        sidebar.classList.toggle('translate-x-0', isOpen);
+        overlay.classList.toggle('hidden', !isOpen);
+        document.body.classList.toggle('overflow-hidden', isOpen);
+        openBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    };
+
+    openBtn.setAttribute('aria-controls', 'sidebar');
+    openBtn.setAttribute('aria-expanded', 'false');
+    openBtn.addEventListener('click', () => setSidebarOpen(true));
+    closeBtn?.addEventListener('click', () => setSidebarOpen(false));
+    overlay.addEventListener('click', () => setSidebarOpen(false));
+
+    window.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            setSidebarOpen(false);
+        }
+    });
+
+    window.addEventListener('resize', () => {
+        if (window.matchMedia('(min-width: 1024px)').matches) {
+            setSidebarOpen(false);
+        }
+    });
+}
+
 // 頁面初始化
 document.addEventListener('DOMContentLoaded', async () => {
     if (window.universitySchemaPromise) {
         await window.universitySchemaPromise;
     }
     loadPreviewData();
+    initializeMobileSidebar();
     renderMenu();
     initializePreviewModal();
 
