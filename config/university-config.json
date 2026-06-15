@@ -4815,8 +4815,7 @@
       "owner": "學習科學跨國頂尖研究中心",
       "url": "https://www.irels.ntnu.edu.tw/News",
       "selectors": {
-        "parser": "irels_news",
-        "script_url": "https://www.irels.ntnu.edu.tw/js/news.en.js"
+        "parser": "irels_news"
       }
     },
     "cag_seminars": {
@@ -4914,15 +4913,6 @@
         "title_link": "a[href]",
         "date": ".time",
         "verify_ssl": false
-      }
-    },
-    "east_asia_culture_news": {
-      "label": "最新消息",
-      "owner": "東亞文化與漢學研究中心",
-      "url": "https://iweb.ntnu.edu.tw/ghcrc/all-news.html",
-      "selectors": {
-        "article": "#wsite-content .paragraph li",
-        "title_link": "a[href$=\".html\"], a[href*=\"iweb.ntnu.edu.tw/ghcrc/\"][href$=\".html\"]"
       }
     },
     "swfs_news": {
@@ -6626,16 +6616,6 @@
                   "channels": [
                     {
                       "value": "mndirc_news",
-                      "name": "最新消息"
-                    }
-                  ]
-                },
-                {
-                  "id": "l4-east-asia-center",
-                  "name": "東亞文化與漢學研究中心",
-                  "channels": [
-                    {
-                      "value": "east_asia_culture_news",
                       "name": "最新消息"
                     }
                   ]

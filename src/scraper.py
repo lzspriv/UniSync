@@ -470,6 +470,24 @@ def fetch_atom_json_announcements(url, category_name, scraper_config):
 def fetch_irels_news_announcements(url, category_name, scraper_config):
     try:
         script_url = scraper_config.get("script_url", url)
+        if not scraper_config.get("script_url"):
+            page_response = create_request_session(url).get(
+                url,
+                headers=REQUEST_HEADERS,
+                timeout=10,
+            )
+            page_response.encoding = "utf-8"
+            if page_response.status_code != 200:
+                print(f"?蹎? ??????{category_name}: {page_response.status_code}")
+                return []
+
+            page_soup = BeautifulSoup(page_response.text, "html.parser")
+            news_script = page_soup.select_one('script[src*="news"]')
+            if not news_script or not news_script.get("src"):
+                print(f"?蹎? ?曄 {category_name} ?啣? news script")
+                return []
+            script_url = urljoin(url, news_script.get("src"))
+
         response = create_request_session(script_url).get(
             script_url,
             headers=REQUEST_HEADERS,
