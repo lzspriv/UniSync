@@ -4365,7 +4365,7 @@
     "spc_center_announcement": {
       "label": "中心公告",
       "owner": "特殊教育中心",
-      "url": "https://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=%E4%B8%AD%E5%BF%83%E5%85%AC%E5%91%8A",
+      "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=%E4%B8%AD%E5%BF%83%E5%85%AC%E5%91%8A",
       "selectors": {
         "parser": "table_row",
         "article": "table tbody tr",
@@ -4377,7 +4377,7 @@
     "spc_honor": {
       "label": "榮譽事蹟",
       "owner": "特殊教育中心",
-      "url": "https://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=%E6%A6%AE%E8%AD%BD%E4%BA%8B%E8%B9%9F",
+      "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=%E6%A6%AE%E8%AD%BD%E4%BA%8B%E8%B9%9F",
       "selectors": {
         "parser": "table_row",
         "article": "table tbody tr",
@@ -4389,7 +4389,7 @@
     "spc_regulations": {
       "label": "法令規章",
       "owner": "特殊教育中心",
-      "url": "https://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=%E6%B3%95%E4%BB%A4%E8%A6%8F%E7%AB%A0",
+      "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=%E6%B3%95%E4%BB%A4%E8%A6%8F%E7%AB%A0",
       "selectors": {
         "parser": "table_row",
         "article": "table tbody tr",
@@ -4401,7 +4401,7 @@
     "spc_training": {
       "label": "研習進修",
       "owner": "特殊教育中心",
-      "url": "https://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2-1",
+      "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2-1",
       "selectors": {
         "parser": "table_row",
         "article": "table tbody tr",
@@ -4413,7 +4413,7 @@
     "spc_recruitment": {
       "label": "人才招募",
       "owner": "特殊教育中心",
-      "url": "https://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=%E4%BA%BA%E6%89%8D%E6%8B%9B%E5%8B%9F",
+      "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=%E4%BA%BA%E6%89%8D%E6%8B%9B%E5%8B%9F",
       "selectors": {
         "parser": "table_row",
         "article": "table tbody tr",
