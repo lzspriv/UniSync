@@ -24907,96 +24907,16 @@
     "announcements": []
   },
   "cag_news": {
-    "label": "天文與重力中心-News",
-    "announcements": [
-      {
-        "title": "CAG-ES Special Lecture 15/05/2026 Prof. Sébastien Charnoz",
-        "url": "https://www.cag.ntnu.edu.tw/index.php/en/2026/05/12/cag-es-special-lecture-15-05-2026-prof-sebastien-charnoz/",
-        "date": "2026-05-12",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "Geospace and Solar System Exploration Workshop 2026/April/14-17",
-        "url": "https://www.cag.ntnu.edu.tw/index.php/en/2026/04/13/geospace-and-solar-system-exploration-workshop-2026-april-14-17-2/",
-        "date": "2026-04-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "Spring Popular Science Lecture Series 2026/March/27",
-        "url": "https://www.cag.ntnu.edu.tw/index.php/en/2026/03/24/https-www-cag-ntnu-edu-tw-index-php-2026-03-24-public-science-lecture-en-2026-march-27/",
-        "date": "2026-03-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "The 47th International School for Young Astronomers in Taipei, NTNU (Nov17-Dec 5, 2025)",
-        "url": "https://www.cag.ntnu.edu.tw/index.php/en/2025/11/24/the-47th-international-school-for-young-astronomers-in-taipei-ntnu-nov17-dec-5-2025/",
-        "date": "2025-11-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "International Leading Scholars Science Lecture Series: A Conversation about Science and Art 2025/August/12",
-        "url": "https://www.cag.ntnu.edu.tw/index.php/en/2025/07/10/international-leading-scholars-science-lecture-series-a-conversation-about-science-and-art-12-august-2025/",
-        "date": "2025-07-10",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "label": "所有公告",
+    "announcements": []
   },
   "icsdrc_news": {
-    "label": "智慧運算導向永續發展研究中心-News",
-    "announcements": [
-      {
-        "title": "2023-12-05 【News】",
-        "url": "https://www.icsdrc.ntnu.edu.tw/index.php/en/2023/11/29/news/",
-        "date": "2023-11-29",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "label": "最新消息",
+    "announcements": []
   },
   "itsc_news": {
-    "label": "國際臺灣學研究中心-News",
-    "announcements": [
-      {
-        "title": "Taiwan and Sinophone Studies across Disciplines Summer 2026 Lecture Series",
-        "url": "https://www.itsc.ntnu.edu.tw/index.php/en/2026/06/13/taiwan-and-sinophone-studies-across-disciplines-summer-2026-lecture-series/",
-        "date": "2026-06-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "Call For Papers: Multilingual Archives, New Perspectives",
-        "url": "https://www.itsc.ntnu.edu.tw/index.php/en/2026/05/28/call-for-papers-multilingual-archives-new-perspectives/",
-        "date": "2026-05-28",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "Gender as a Mediation of DialogueExchanges between the Taiwanese Experience and World Experiences: Interactions, Innovations, Reflections",
-        "url": "https://www.itsc.ntnu.edu.tw/index.php/en/2026/05/22/gender-as-a-mediation-of-dialogueexchanges-between-the-taiwanese-experience-and-world-experiences-interactions-innovations-reflections/",
-        "date": "2026-05-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "An Introduction to the Northern Institute of Taiwan Studies at the University of Lancashire",
-        "url": "https://www.itsc.ntnu.edu.tw/index.php/en/2026/04/26/an-introduction-to-the-northern-institute-of-taiwan-studies-at-the-university-of-lancashire/",
-        "date": "2026-04-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "New Voices in Taiwan Studies: Sanho Chung on Clientelism in Taiwan’s Local Elections",
-        "url": "https://www.itsc.ntnu.edu.tw/index.php/en/2026/04/26/new-voices-in-taiwan-studies-chung-sanho-on-clientelism-in-taiwans-local-elections/",
-        "date": "2026-04-26",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "label": "最新消息",
+    "announcements": []
   },
   "irdc_news": {
     "label": "原住民族研究發展中心-最新消息",
@@ -25934,5 +25854,65 @@
         "summary": ""
       }
     ]
+  },
+  "irels_news": {
+    "label": "最新消息",
+    "announcements": []
+  },
+  "cag_seminars": {
+    "label": "演講公告",
+    "announcements": []
+  },
+  "cag_epo_events": {
+    "label": "科普活動",
+    "announcements": []
+  },
+  "cag_other_resources": {
+    "label": "校外資源",
+    "announcements": []
+  },
+  "cag_credit_program": {
+    "label": "學分學程",
+    "announcements": []
+  },
+  "cag_job_offer": {
+    "label": "徵才訊息",
+    "announcements": []
+  },
+  "cag_epo_articles": {
+    "label": "科普文章",
+    "announcements": []
+  },
+  "gcwc_all": {
+    "label": "所有公告",
+    "announcements": []
+  },
+  "gcwc_activities": {
+    "label": "中心活動講座快訊",
+    "announcements": []
+  },
+  "gcwc_literary_award": {
+    "label": "文學獎專區",
+    "announcements": []
+  },
+  "gcwc_lsc_news": {
+    "label": "梁實秋文學大師獎-媒體報導",
+    "announcements": []
+  },
+  "gcwc_external_activities": {
+    "label": "相關活動分享",
+    "announcements": []
+  },
+  "itsc_activities": {
+    "label": "中心活動",
+    "announcements": []
+  },
+  "itsc_call_for_papers": {
+    "label": "徵件訊息",
+    "announcements": []
+  },
+  "itsc_related_info": {
+    "label": "相關訊息",
+    "announcements": []
   }
 }

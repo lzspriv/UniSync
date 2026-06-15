@@ -458,6 +458,69 @@ def fetch_atom_json_announcements(url, category_name, scraper_config):
         return []
 
 
+def fetch_irels_news_announcements(url, category_name, scraper_config):
+    try:
+        script_url = scraper_config.get("script_url", url)
+        response = create_request_session(script_url).get(
+            script_url,
+            headers=REQUEST_HEADERS,
+            timeout=10,
+        )
+        response.encoding = "utf-8"
+
+        if response.status_code != 200:
+            print(f"?? ?⊥?霈??{category_name}: {response.status_code}")
+            return []
+
+        all_news = []
+        recent_news = []
+        cutoff_date = datetime.now() - timedelta(days=10)
+        seen_urls = set()
+        date_label = scraper_config.get("date_label", "\u767c\u5e03\u65e5\u671f")
+
+        pattern = re.compile(
+            r"\{\s*date:\s*\"(?P<date>[^\"]+)\"\s*,\s*"
+            r"title:\s*\"(?P<title>(?:\\.|[^\"])*)\".*?"
+            r"description:\s*`(?P<description>.*?)`\s*,\s*"
+            r"content:\s*`(?P<content>.*?)`\s*,",
+            re.S,
+        )
+        for match in pattern.finditer(response.text):
+            title = normalize_whitespace(match.group("title").replace('\\"', '"'))
+            if not title:
+                continue
+            item_url = f"{url}#{quote(title[:80])}"
+            if item_url in seen_urls:
+                continue
+            seen_urls.add(item_url)
+
+            date_text, _ = parse_taiwan_date(match.group("date"))
+            summary_text = clean_html_text(match.group("description") or match.group("content"))
+
+            news_item = {
+                "title": title,
+                "url": item_url,
+                "date": date_text,
+                "date_label": date_label,
+                "summary": summary_text[:150] + "..." if len(summary_text) > 150 else summary_text,
+                "show_summary": bool(summary_text),
+                "category": category_name,
+            }
+            all_news.append(news_item)
+
+            if date_text != "?芰?交?":
+                try:
+                    if datetime.strptime(date_text, "%Y-%m-%d") >= cutoff_date:
+                        recent_news.append(news_item)
+                except ValueError:
+                    pass
+
+        return all_news[:5] if len(recent_news) < 5 else recent_news
+    except Exception as e:
+        print(f"???砍? {category_name} ??撣? {e}")
+        return []
+
+
 def fetch_wordpress_rest_announcements(url, category_name, scraper_config):
     try:
         api_url = scraper_config.get("api_url")
@@ -824,6 +887,8 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
         return fetch_json_announcements(url, category_name, scraper_config)
     if scraper_config.get("parser") == "atom_json":
         return fetch_atom_json_announcements(url, category_name, scraper_config)
+    if scraper_config.get("parser") == "irels_news":
+        return fetch_irels_news_announcements(url, category_name, scraper_config)
     if scraper_config.get("parser") == "wordpress_rest":
         return fetch_wordpress_rest_announcements(url, category_name, scraper_config)
     if scraper_config.get("parser") == "oia_next_data":

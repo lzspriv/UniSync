@@ -4589,21 +4589,21 @@
       }
     },
     "cag_news": {
-      "label": "News",
+      "label": "所有公告",
       "owner": "天文與重力中心",
-      "url": "https://www.cag.ntnu.edu.tw/index.php/en/category/uncategorized/",
+      "url": "https://www.cag.ntnu.edu.tw/index.php/category/uncategorized/",
       "selectorPreset": "wordpress_broad"
     },
     "icsdrc_news": {
-      "label": "News",
+      "label": "最新消息",
       "owner": "智慧運算導向永續發展研究中心",
-      "url": "https://www.icsdrc.ntnu.edu.tw/index.php/en/category/uncategorized-en/",
+      "url": "https://www.icsdrc.ntnu.edu.tw/index.php/2022-01-12/",
       "selectorPreset": "wordpress_broad"
     },
     "itsc_news": {
-      "label": "News",
+      "label": "最新消息",
       "owner": "國際臺灣學研究中心",
-      "url": "https://www.itsc.ntnu.edu.tw/index.php/en/news-2/",
+      "url": "https://www.itsc.ntnu.edu.tw/index.php/news/",
       "selectorPreset": "wordpress_broad"
     },
     "irdc_news": {
@@ -4808,6 +4808,99 @@
       "label": "學術交流",
       "owner": "數學教育中心",
       "url": "https://www.ime.ntnu.edu.tw/index.php/category/uncategorized/x/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "irels_news": {
+      "label": "最新消息",
+      "owner": "學習科學跨國頂尖研究中心",
+      "url": "https://www.irels.ntnu.edu.tw/News",
+      "selectors": {
+        "parser": "irels_news",
+        "script_url": "https://www.irels.ntnu.edu.tw/js/news.en.js"
+      }
+    },
+    "cag_seminars": {
+      "label": "演講公告",
+      "owner": "天文與重力中心",
+      "url": "https://www.cag.ntnu.edu.tw/index.php/category/uncategorized/seminars/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "cag_epo_events": {
+      "label": "科普活動",
+      "owner": "天文與重力中心",
+      "url": "https://www.cag.ntnu.edu.tw/index.php/category/uncategorized/epo_events/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "cag_other_resources": {
+      "label": "校外資源",
+      "owner": "天文與重力中心",
+      "url": "https://www.cag.ntnu.edu.tw/index.php/category/uncategorized/other_resources/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "cag_credit_program": {
+      "label": "學分學程",
+      "owner": "天文與重力中心",
+      "url": "https://www.cag.ntnu.edu.tw/index.php/category/uncategorized/credit_program/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "cag_job_offer": {
+      "label": "徵才訊息",
+      "owner": "天文與重力中心",
+      "url": "https://www.cag.ntnu.edu.tw/index.php/category/uncategorized/job_offer/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "cag_epo_articles": {
+      "label": "科普文章",
+      "owner": "天文與重力中心",
+      "url": "https://www.cag.ntnu.edu.tw/index.php/category/epo_articles/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "gcwc_all": {
+      "label": "所有公告",
+      "owner": "全球華文寫作中心",
+      "url": "https://www.gcwc.ntnu.edu.tw/index.php/category/1/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "gcwc_activities": {
+      "label": "中心活動講座快訊",
+      "owner": "全球華文寫作中心",
+      "url": "https://www.gcwc.ntnu.edu.tw/index.php/category/3/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "gcwc_literary_award": {
+      "label": "文學獎專區",
+      "owner": "全球華文寫作中心",
+      "url": "https://www.gcwc.ntnu.edu.tw/index.php/category/2/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "gcwc_lsc_news": {
+      "label": "梁實秋文學大師獎-媒體報導",
+      "owner": "全球華文寫作中心",
+      "url": "https://www.gcwc.ntnu.edu.tw/index.php/category/2/lsc-news/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "gcwc_external_activities": {
+      "label": "相關活動分享",
+      "owner": "全球華文寫作中心",
+      "url": "https://www.gcwc.ntnu.edu.tw/index.php/category/external-activities/",
+      "selectorPreset": "wordpress_broad"
+    },
+    "itsc_activities": {
+      "label": "中心活動",
+      "owner": "國際臺灣學研究中心",
+      "url": "https://www.itsc.ntnu.edu.tw/index.php/category/1",
+      "selectorPreset": "wordpress_broad"
+    },
+    "itsc_call_for_papers": {
+      "label": "徵件訊息",
+      "owner": "國際臺灣學研究中心",
+      "url": "https://www.itsc.ntnu.edu.tw/index.php/category/2",
+      "selectorPreset": "wordpress_broad"
+    },
+    "itsc_related_info": {
+      "label": "相關訊息",
+      "owner": "國際臺灣學研究中心",
+      "url": "https://www.itsc.ntnu.edu.tw/index.php/category/3",
       "selectorPreset": "wordpress_broad"
     }
   },
@@ -6163,7 +6256,12 @@
                 {
                   "id": "l4-irels",
                   "name": "學習科學跨國頂尖研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "irels_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-seedcenter",
@@ -6181,14 +6279,33 @@
                   "channels": [
                     {
                       "value": "cag_news",
-                      "name": "News"
+                      "name": "所有公告"
+                    },
+                    {
+                      "value": "cag_seminars",
+                      "name": "演講公告"
+                    },
+                    {
+                      "value": "cag_epo_events",
+                      "name": "科普活動"
+                    },
+                    {
+                      "value": "cag_other_resources",
+                      "name": "校外資源"
+                    },
+                    {
+                      "value": "cag_credit_program",
+                      "name": "學分學程"
+                    },
+                    {
+                      "value": "cag_job_offer",
+                      "name": "徵才訊息"
+                    },
+                    {
+                      "value": "cag_epo_articles",
+                      "name": "科普文章"
                     }
                   ]
-                },
-                {
-                  "id": "l4-green-energy-research-center",
-                  "name": "先進材料與綠能研究中心",
-                  "channels": []
                 },
                 {
                   "id": "l4-icsdrc",
@@ -6196,14 +6313,35 @@
                   "channels": [
                     {
                       "value": "icsdrc_news",
-                      "name": "News"
+                      "name": "最新消息"
                     }
                   ]
                 },
                 {
                   "id": "l4-gcwc",
                   "name": "全球華文寫作中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "gcwc_all",
+                      "name": "所有公告"
+                    },
+                    {
+                      "value": "gcwc_activities",
+                      "name": "中心活動講座快訊"
+                    },
+                    {
+                      "value": "gcwc_literary_award",
+                      "name": "文學獎專區"
+                    },
+                    {
+                      "value": "gcwc_lsc_news",
+                      "name": "梁實秋文學大師獎-媒體報導"
+                    },
+                    {
+                      "value": "gcwc_external_activities",
+                      "name": "相關活動分享"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-itsc",
@@ -6211,7 +6349,19 @@
                   "channels": [
                     {
                       "value": "itsc_news",
-                      "name": "News"
+                      "name": "最新消息"
+                    },
+                    {
+                      "value": "itsc_activities",
+                      "name": "中心活動"
+                    },
+                    {
+                      "value": "itsc_call_for_papers",
+                      "name": "徵件訊息"
+                    },
+                    {
+                      "value": "itsc_related_info",
+                      "name": "相關訊息"
                     }
                   ]
                 },
