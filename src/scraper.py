@@ -209,13 +209,22 @@ def parse_date_from_url(value):
     parsed_url = urlparse(value or "")
     match = re.search(r"/((?:19|20)\d{2})/(\d{1,2})/(\d{1,2})(?:/|$)", parsed_url.path)
     if not match:
-        return "未知日期"
+        match = re.search(r"(?:^|/)((?:19|20)\d{2})(\d{2})(\d{2})[_-]", parsed_url.path)
+        if not match:
+            return "未知日期"
 
     year, month, day = (int(part) for part in match.groups())
     try:
         return datetime(year, month, day).strftime("%Y-%m-%d")
     except ValueError:
         return "未知日期"
+
+
+def build_request_options(scraper_config=None):
+    options = {"headers": REQUEST_HEADERS, "timeout": 10}
+    if scraper_config and scraper_config.get("verify_ssl") is False:
+        options["verify"] = False
+    return options
 
 
 def parse_yearless_month_day(text):
@@ -763,7 +772,7 @@ def fetch_eshc_announcements(url, category_name, scraper_config):
 
 def fetch_table_row_announcements(url, category_name, scraper_config):
     try:
-        response = create_request_session(url).get(url, headers=REQUEST_HEADERS, timeout=10)
+        response = create_request_session(url).get(url, **build_request_options(scraper_config))
         response.encoding = "utf-8"
 
         if response.status_code != 200:
@@ -899,7 +908,7 @@ def fetch_university_announcements(url, category_name, scraper_config=None):
         return fetch_table_row_announcements(url, category_name, scraper_config)
 
     try:
-        response = create_request_session(url).get(url, headers=REQUEST_HEADERS, timeout=10)
+        response = create_request_session(url).get(url, **build_request_options(scraper_config))
         response.encoding = 'utf-8'
         
         if response.status_code != 200:

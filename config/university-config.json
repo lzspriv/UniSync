@@ -4649,9 +4649,9 @@
       "selectorPreset": "wordpress_broad"
     },
     "cks_news": {
-      "label": "News",
+      "label": "最新消息",
       "owner": "韓國學研究中心",
-      "url": "https://www.cks.ntnu.edu.tw/index.php/en/news/",
+      "url": "https://www.cks.ntnu.edu.tw/index.php/2022-01-12/",
       "selectorPreset": "wordpress_broad"
     },
     "ceri_center_announcement": {
@@ -4902,6 +4902,63 @@
       "owner": "國際臺灣學研究中心",
       "url": "https://www.itsc.ntnu.edu.tw/index.php/category/3",
       "selectorPreset": "wordpress_broad"
+    },
+    "mndirc_news": {
+      "label": "最新消息",
+      "owner": "微奈米元件檢測研究中心",
+      "url": "https://mndirc.cot.ntnu.edu.tw/news.php",
+      "selectors": {
+        "parser": "table_row",
+        "article": "#news_list .itembox a.item",
+        "title": "h6",
+        "title_link": "a[href]",
+        "date": ".time",
+        "verify_ssl": false
+      }
+    },
+    "east_asia_culture_news": {
+      "label": "最新消息",
+      "owner": "東亞文化與漢學研究中心",
+      "url": "https://iweb.ntnu.edu.tw/ghcrc/all-news.html",
+      "selectors": {
+        "article": "#wsite-content .paragraph li",
+        "title_link": "a[href$=\".html\"], a[href*=\"iweb.ntnu.edu.tw/ghcrc/\"][href$=\".html\"]"
+      }
+    },
+    "swfs_news": {
+      "label": "最新消息",
+      "owner": "社會工作與家庭研究中心",
+      "url": "https://swfs.ntnu.edu.tw/#tab-1",
+      "selectors": {
+        "parser": "table_row",
+        "article": "#tab-1 table tbody tr",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "date": "td:nth-of-type(1)"
+      }
+    },
+    "dacm_upcoming_events": {
+      "label": "活動預告",
+      "owner": "音樂數位典藏中心",
+      "url": "https://dacm.ntnu.edu.tw/web/news/news.jsp?dm_no=DM1575863207295",
+      "selectors": {
+        "parser": "table_row",
+        "article": ".news_listArea .news_list",
+        "title_link": ".nLR_tit a[href]",
+        "date": ".nLR_time",
+        "verify_ssl": false
+      }
+    },
+    "dacm_event_reports": {
+      "label": "活動報導",
+      "owner": "音樂數位典藏中心",
+      "url": "https://dacm.ntnu.edu.tw/web/news/news.jsp?dm_no=DM1575440141112",
+      "selectors": {
+        "parser": "table_row",
+        "article": ".news_listArea .news_list",
+        "title_link": ".nLR_tit a[href]",
+        "date": ".nLR_time",
+        "verify_ssl": false
+      }
     }
   },
   "schema": [
@@ -6407,24 +6464,38 @@
                   "channels": [
                     {
                       "value": "cks_news",
-                      "name": "News"
+                      "name": "最新消息"
                     }
                   ]
                 },
                 {
                   "id": "l4-mndirc",
                   "name": "微奈米元件檢測研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "mndirc_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-east-asia-center",
                   "name": "東亞文化與漢學研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "east_asia_culture_news",
+                      "name": "最新消息"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-swfs",
                   "name": "社會工作與家庭研究中心",
                   "channels": [
+                    {
+                      "value": "swfs_news",
+                      "name": "最新消息"
+                    },
                     {
                       "value": "swfs_announcement",
                       "name": "中心公告"
@@ -6446,25 +6517,14 @@
                 {
                   "id": "l4-dacm",
                   "name": "音樂數位典藏中心",
-                  "channels": []
-                },
-                {
-                  "id": "l4-mgt-research-center",
-                  "name": "產業與管理研究發展中心",
                   "channels": [
                     {
-                      "value": "mgt_news",
-                      "name": "最新消息"
-                    }
-                  ]
-                },
-                {
-                  "id": "l4-index-investment-center",
-                  "name": "智能與指數化投資研究中心",
-                  "channels": [
+                      "value": "dacm_upcoming_events",
+                      "name": "活動預告"
+                    },
                     {
-                      "value": "mgt_news",
-                      "name": "最新消息"
+                      "value": "dacm_event_reports",
+                      "name": "活動報導"
                     }
                   ]
                 }
