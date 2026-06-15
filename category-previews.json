@@ -25926,5 +25926,49 @@
   "dacm_event_reports": {
     "label": "活動報導",
     "announcements": []
+  },
+  "hakka_english_news": {
+    "label": "客語與客家文化教學研究中心-English News",
+    "announcements": []
+  },
+  "hakka_center_announcement": {
+    "label": "客語與客家文化教學研究中心-中心公告",
+    "announcements": []
+  },
+  "hakka_chinese_news": {
+    "label": "客語與客家文化教學研究中心-中文消息",
+    "announcements": []
+  },
+  "hakka_academic_events": {
+    "label": "客語與客家文化教學研究中心-學術活動",
+    "announcements": []
+  },
+  "hakka_village_info": {
+    "label": "客語與客家文化教學研究中心-客庄信息",
+    "announcements": []
+  },
+  "hakka_honor_roll": {
+    "label": "客語與客家文化教學研究中心-榮譽榜單",
+    "announcements": []
+  },
+  "hakka_activity_records": {
+    "label": "客語與客家文化教學研究中心-活動紀實",
+    "announcements": []
+  },
+  "hakka_feature_events": {
+    "label": "客語與客家文化教學研究中心-焦點活動",
+    "announcements": []
+  },
+  "hakka_scholarship": {
+    "label": "客語與客家文化教學研究中心-獎助學金",
+    "announcements": []
+  },
+  "hakka_competition": {
+    "label": "客語與客家文化教學研究中心-競賽公告",
+    "announcements": []
+  },
+  "hakka_course_info": {
+    "label": "客語與客家文化教學研究中心-課程資訊",
+    "announcements": []
   }
 }

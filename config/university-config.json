@@ -4959,6 +4959,72 @@
         "date": ".nLR_time",
         "verify_ssl": false
       }
+    },
+    "hakka_english_news": {
+      "label": "English News",
+      "owner": "客語與客家文化教學研究中心",
+      "url": "https://www.hakka.ntnu.edu.tw/?cat=24",
+      "selectorPreset": "wordpress_broad"
+    },
+    "hakka_center_announcement": {
+      "label": "中心公告",
+      "owner": "客語與客家文化教學研究中心",
+      "url": "https://www.hakka.ntnu.edu.tw/?cat=1",
+      "selectorPreset": "wordpress_broad"
+    },
+    "hakka_chinese_news": {
+      "label": "中文消息",
+      "owner": "客語與客家文化教學研究中心",
+      "url": "https://www.hakka.ntnu.edu.tw/?cat=23",
+      "selectorPreset": "wordpress_broad"
+    },
+    "hakka_academic_events": {
+      "label": "學術活動",
+      "owner": "客語與客家文化教學研究中心",
+      "url": "https://www.hakka.ntnu.edu.tw/?cat=26",
+      "selectorPreset": "wordpress_broad"
+    },
+    "hakka_village_info": {
+      "label": "客庄信息",
+      "owner": "客語與客家文化教學研究中心",
+      "url": "https://www.hakka.ntnu.edu.tw/?cat=21",
+      "selectorPreset": "wordpress_broad"
+    },
+    "hakka_honor_roll": {
+      "label": "榮譽榜單",
+      "owner": "客語與客家文化教學研究中心",
+      "url": "https://www.hakka.ntnu.edu.tw/?cat=12",
+      "selectorPreset": "wordpress_broad"
+    },
+    "hakka_activity_records": {
+      "label": "活動紀實",
+      "owner": "客語與客家文化教學研究中心",
+      "url": "https://www.hakka.ntnu.edu.tw/?cat=14",
+      "selectorPreset": "wordpress_broad"
+    },
+    "hakka_feature_events": {
+      "label": "焦點活動",
+      "owner": "客語與客家文化教學研究中心",
+      "url": "https://www.hakka.ntnu.edu.tw/?cat=11",
+      "selectorPreset": "wordpress_broad"
+    },
+    "hakka_scholarship": {
+      "label": "獎助學金",
+      "owner": "客語與客家文化教學研究中心",
+      "url": "https://www.hakka.ntnu.edu.tw/?cat=15",
+      "selectorPreset": "wordpress_broad"
+    },
+    "hakka_competition": {
+      "label": "競賽公告",
+      "owner": "客語與客家文化教學研究中心",
+      "url": "https://www.hakka.ntnu.edu.tw/?cat=13",
+      "selectorPreset": "wordpress_broad"
+    },
+    "hakka_course_info": {
+      "label": "課程資訊",
+      "owner": "客語與客家文化教學研究中心",
+      "url": "https://www.hakka.ntnu.edu.tw/?cat=6",
+      "selectorPreset": "wordpress_broad"
     }
   },
   "schema": [
@@ -6455,6 +6521,50 @@
                     {
                       "value": "hakka_news",
                       "name": "最新消息"
+                    },
+                    {
+                      "value": "hakka_english_news",
+                      "name": "English News"
+                    },
+                    {
+                      "value": "hakka_center_announcement",
+                      "name": "中心公告"
+                    },
+                    {
+                      "value": "hakka_chinese_news",
+                      "name": "中文消息"
+                    },
+                    {
+                      "value": "hakka_academic_events",
+                      "name": "學術活動"
+                    },
+                    {
+                      "value": "hakka_village_info",
+                      "name": "客庄信息"
+                    },
+                    {
+                      "value": "hakka_honor_roll",
+                      "name": "榮譽榜單"
+                    },
+                    {
+                      "value": "hakka_activity_records",
+                      "name": "活動紀實"
+                    },
+                    {
+                      "value": "hakka_feature_events",
+                      "name": "焦點活動"
+                    },
+                    {
+                      "value": "hakka_scholarship",
+                      "name": "獎助學金"
+                    },
+                    {
+                      "value": "hakka_competition",
+                      "name": "競賽公告"
+                    },
+                    {
+                      "value": "hakka_course_info",
+                      "name": "課程資訊"
                     }
                   ]
                 },
