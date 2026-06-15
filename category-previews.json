@@ -3148,7 +3148,7 @@
     "label": "公共事務中心-師大新聞",
     "announcements": [
       {
-        "title": "因數結緣八十載 數緣共締情綿延 數學系歡慶創系八十周年",
+        "title": "因數結緣八十載 數緣共締情綿延 數學系歡慶創系八十週年",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24664",
         "date": "2026-06-15",
         "date_label": "發布日期",
@@ -3157,13 +3157,6 @@
       {
         "title": "地理系夜間實察走讀北海岸 探索夜生活地理與城市運作樣貌",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24671",
-        "date": "2026-06-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "打造高彈性學習環境 臺師大開設97門課免費暑修 吸引逾2,300人次修課",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24672",
         "date": "2026-06-15",
         "date_label": "發布日期",
         "summary": ""
@@ -3178,6 +3171,13 @@
       {
         "title": "臺師大學生入選和泰公益夢想家競賽 發起微光教育行動與青銀所 推動青銀共學課程",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24667",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "影音》鳳頭蒼鷹現身臺師大人工濕地 展現永續校園新典範",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24666",
         "date": "2026-06-12",
         "date_label": "發布日期",
         "summary": ""
@@ -17699,13 +17699,6 @@
     "label": "社會工作學研究所-獎學金公告",
     "announcements": [
       {
-        "title": "2026/06/15（一）截止 社團法人台灣公益聯盟「優秀社福系所學生獎學金」",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Sholarship/News.aspx?id=7KShBTi6PLM=&Sn=894",
-        "date": "2026-05-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "114-2 碩士班優秀研究生獎學金",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Sholarship/News.aspx?id=7KShBTi6PLM=&Sn=592",
         "date": "2026-03-04",
@@ -17730,6 +17723,13 @@
         "title": "財團法人上海商業儲蓄銀行文教基金會獎學金",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Sholarship/News.aspx?id=7KShBTi6PLM=&Sn=586",
         "date": "2025-09-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學社會工作學研究所陸生獎學金",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Sholarship/News.aspx?id=7KShBTi6PLM=&Sn=565",
+        "date": "2025-08-04",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -17826,13 +17826,6 @@
         "summary": ""
       },
       {
-        "title": "新竹縣政府 社工師招募",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=901",
-        "date": "2026-06-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "新北市政府社會局 社工員招募",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=873",
         "date": "2026-06-08",
@@ -17847,9 +17840,16 @@
         "summary": ""
       },
       {
-        "title": "新竹縣學生輔導諮商中心 第三次甄選",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=897",
-        "date": "2026-06-01",
+        "title": "基隆市樂晨社會福利協會 社工徵才",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=890",
+        "date": "2026-05-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "嘉義縣學生輔導諮商中心 社工員徵才",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=882",
+        "date": "2026-05-22",
         "date_label": "發布日期",
         "summary": ""
       }
