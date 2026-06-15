@@ -411,7 +411,7 @@ def fetch_atom_json_announcements(url, category_name, scraper_config):
         response.encoding = "utf-8"
 
         if response.status_code != 200:
-            print(f"?? ?⊥?霈??{category_name}: {response.status_code}")
+            print(f"⚠️ 無法讀取 {category_name}: {response.status_code}")
             return []
 
         data = response.json()
@@ -469,8 +469,73 @@ def fetch_atom_json_announcements(url, category_name, scraper_config):
 
 def fetch_irels_news_announcements(url, category_name, scraper_config):
     try:
-        script_url = scraper_config.get("script_url", url)
-        if not scraper_config.get("script_url"):
+        date_label = scraper_config.get("date_label", "\u767c\u5e03\u65e5\u671f")
+        cutoff_date = datetime.now() - timedelta(days=10)
+        all_news = []
+        recent_news = []
+        seen_urls = set()
+
+        html_url = scraper_config.get("html_url") or urljoin(url, "News.zh.html")
+        html_response = create_request_session(html_url).get(
+            html_url,
+            headers=REQUEST_HEADERS,
+            timeout=10,
+        )
+        html_response.encoding = "utf-8"
+
+        if html_response.status_code == 200 and "<html" not in html_response.text[:200].lower():
+            soup = BeautifulSoup(html_response.text, "html.parser")
+            for article in soup.select(".content .news, .news"):
+                content = article.select_one(".news_content") or article
+                title_tag = content.select_one("h3")
+                if not title_tag:
+                    continue
+
+                title = normalize_whitespace(title_tag.get_text(" ", strip=True))
+                if not title:
+                    continue
+
+                raw_date = content.select_one("h5")
+                date_text, _ = parse_taiwan_date(raw_date.get_text(" ", strip=True) if raw_date else "")
+                summary_tag = content.select_one("p")
+                summary_text = clean_html_text(str(summary_tag)) if summary_tag else ""
+                source_link = next(
+                    (
+                        link
+                        for link in content.select("a[href]")
+                        if link.get("href", "").strip().startswith("http")
+                    ),
+                    None,
+                )
+                item_url = source_link.get("href").strip() if source_link else f"{url}#{quote(title[:80])}"
+                item_url = urljoin(url, item_url)
+                if item_url in seen_urls:
+                    continue
+                seen_urls.add(item_url)
+
+                news_item = {
+                    "title": title,
+                    "url": item_url,
+                    "date": date_text,
+                    "date_label": date_label,
+                    "summary": summary_text[:150] + "..." if len(summary_text) > 150 else summary_text,
+                    "show_summary": bool(summary_text),
+                    "category": category_name,
+                }
+                all_news.append(news_item)
+
+                if date_text != "\u672a\u77e5\u65e5\u671f":
+                    try:
+                        if datetime.strptime(date_text, "%Y-%m-%d") >= cutoff_date:
+                            recent_news.append(news_item)
+                    except ValueError:
+                        pass
+
+            if all_news:
+                return all_news[:5] if len(recent_news) < 5 else recent_news
+
+        script_url = scraper_config.get("script_url")
+        if not script_url:
             page_response = create_request_session(url).get(
                 url,
                 headers=REQUEST_HEADERS,
@@ -478,7 +543,7 @@ def fetch_irels_news_announcements(url, category_name, scraper_config):
             )
             page_response.encoding = "utf-8"
             if page_response.status_code != 200:
-                print(f"?蹎? ??????{category_name}: {page_response.status_code}")
+                print(f"⚠️ 無法讀取 {category_name}: {page_response.status_code}")
                 return []
 
             page_soup = BeautifulSoup(page_response.text, "html.parser")
@@ -498,12 +563,6 @@ def fetch_irels_news_announcements(url, category_name, scraper_config):
         if response.status_code != 200:
             print(f"?? ?⊥?霈??{category_name}: {response.status_code}")
             return []
-
-        all_news = []
-        recent_news = []
-        cutoff_date = datetime.now() - timedelta(days=10)
-        seen_urls = set()
-        date_label = scraper_config.get("date_label", "\u767c\u5e03\u65e5\u671f")
 
         pattern = re.compile(
             r"\{\s*date:\s*\"(?P<date>[^\"]+)\"\s*,\s*"

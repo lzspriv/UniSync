@@ -25793,41 +25793,43 @@
     "label": "學習科學跨國頂尖研究中心-最新消息",
     "announcements": [
       {
-        "title": "Congratulations to Prof. Wen-Yu Lee for Receiving the Outstanding Research Award for 2025 from the National Science and Technology Council, Taiwan",
-        "url": "https://www.irels.ntnu.edu.tw/News#Congratulations%20to%20Prof.%20Wen-Yu%20Lee%20for%20Receiving%20the%20Outstanding%20Research%20Award",
-        "date": "2025-03-17",
+        "title": "[得獎資訊] 開發AI學習平台育奧賽選手 張俊彥獲國家講座",
+        "url": "https://www.cna.com.tw/news/ahel/202603230239.aspx",
+        "date": "2026-03-26",
         "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "Congratulations to Prof. Yu-Kai Chang for Receiving the Outstanding Research Award for 2025 from the National Science and Technology Council, Taiwan",
-        "url": "https://www.irels.ntnu.edu.tw/News#Congratulations%20to%20Prof.%20Yu-Kai%20Chang%20for%20Receiving%20the%20Outstanding%20Research%20Awa",
-        "date": "2025-03-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[Research Highlight] NTNU's new Earthquake Response IVR system, in partnership with Education Department of New Taipei City Government, aims to enhance students’ escaping response",
-        "url": "https://www.irels.ntnu.edu.tw/News#%5BResearch%20Highlight%5D%20NTNU%27s%20new%20Earthquake%20Response%20IVR%20system%2C%20in%20partnership%20w",
-        "date": "2024-06-06",
-        "date_label": "發布日期",
-        "summary": "National Taiwan Normal University (NTNU) has developed an Immersive Virtual Reality (IVR) system aimed at improving earthquake preparedness among stud...",
+        "summary": "（中央社記者許秩維台北23日電）台師大講座教授張俊彥致力推動科教普及化，並帶領團隊開發雲端教室系統與AI學習平台，還曾多次帶領台灣選手在國際地球科學奧林匹亞競賽奪冠，獲選國家講座主持人。教育部今天舉行第29屆國家講座主持人、第8屆國家產學大師獎、第69屆學術獎頒獎典禮，由總統賴清德、行政院長卓榮泰擔...",
         "show_summary": true
       },
       {
-        "title": "[Research Highlight] Virtual Reality as a Tool for Investigating Instructional Design Principles",
-        "url": "https://www.irels.ntnu.edu.tw/News#%5BResearch%20Highlight%5D%20Virtual%20Reality%20as%20a%20Tool%20for%20Investigating%20Instructional%20D",
-        "date": "2024-05-24",
+        "title": "[研究成果] 跨界合作、樂齡無礙 科技系攜手金門啟動樂齡數位轉型新篇章",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=23475",
+        "date": "2025-05-08",
         "date_label": "發布日期",
-        "summary": "The challenge of investigating instructional design principles within classrooms arises from the complexities of manipulating variables and controllin...",
+        "summary": "面對臺灣邁入「超高齡社會」，高齡人口的健康促進與數位參與成為各界關注焦點。113年度行政院啟動「數位賦能科技計畫」，整合數位發展部、教育部、衛福部、經濟部與國科會等部會量能，盼透過數位科技導入日常生活，協助高齡者實現自主、健康、樂活的生活型態。 為回應此政策目標，國立臺灣師範大學科技應用與人力資源發...",
         "show_summary": true
       },
       {
-        "title": "[Research Highlight] DECODE for Digital Teaching and Teacher Education",
-        "url": "https://www.irels.ntnu.edu.tw/News#%5BResearch%20Highlight%5D%20DECODE%20for%20Digital%20Teaching%20and%20Teacher%20Education",
-        "date": "2024-05-02",
+        "title": "[得獎資訊] 賀！中心多位師長獲國科會學術研究獎項肯定",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=23419",
+        "date": "2025-05-08",
         "date_label": "發布日期",
-        "summary": "Dr. Chun-Yen Chang is a science education scholar in Taiwan. Currently, he serves as National Taiwan Normal University (NTNU) Chair Professor, Directo...",
+        "summary": "國科會於4月29日舉行「學術研究獎項頒獎典禮」，表揚113年度「傑出特約研究員」、「傑出研究獎」以及「吳大猷先生紀念獎」的獲獎者。本中心有6位師長亦在獲獎之列，其學術成就備受肯定。 在這些獲獎者中，教育心理與輔導學系宋曜廷教授與科學教育研究所許瑛玿教授榮獲「傑出特約研究員」；體育與運動科學系張育愷教...",
+        "show_summary": true
+      },
+      {
+        "title": "[研究成果] Influence of emotional states on incongruity-resolution and nonsense humor processing (不一致情緒處理無厘頭幽默的認知影響)",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ijop.13235",
+        "date": "2025-04-14",
+        "date_label": "發布日期",
+        "summary": "陳學志教授與研究團隊探討不同情緒狀態對幽默處理的影響，聚焦於「不協調－解決」（incongruity-resolution）與「無厘頭幽默」（nonsense humor）。受試者依誘發的正向、中性與負向情緒分組後，評估笑話的趣味性、理解度與驚訝程度。結果顯示，正向情緒能提升對無意義幽默的欣賞，而負...",
+        "show_summary": true
+      },
+      {
+        "title": "[活動] 臺師大攜手新北打造AI自主學習平台「AISI」領航智慧教育新未來",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=23355",
+        "date": "2025-04-09",
+        "date_label": "發布日期",
+        "summary": "自主學習有AISI！國立臺灣師範大學學習科學跨國頂尖研究中心攜手新北市政府教育局，4月9日正式推出「愛思（AISI）」自主學習AI平台。有別於一般生成式AI對話系統，AISI是專業團隊精心訓練的教育工具，能給予學習者個別化指導架構，不只是給答案，而是能進一步引導深度思考、覺察學習歷程，並提升數位素養...",
         "show_summary": true
       }
     ]
