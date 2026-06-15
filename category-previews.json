@@ -3162,8 +3162,15 @@
         "summary": ""
       },
       {
-        "title": "打造高彈性學習環境 臺師大開設97門課供免費暑修 吸引逾2,300人次修課",
+        "title": "打造高彈性學習環境 臺師大開設97門課免費暑修 吸引逾2,300人次修課",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24672",
+        "date": "2026-06-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大音樂系校友陳巍中勇奪土耳其國際指揮大賽首獎 躍上國際樂壇新舞台",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24673",
         "date": "2026-06-15",
         "date_label": "發布日期",
         "summary": ""
@@ -3171,13 +3178,6 @@
       {
         "title": "臺師大學生入選和泰公益夢想家競賽 發起微光教育行動與青銀所 推動青銀共學課程",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24667",
-        "date": "2026-06-12",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "影音》鳳頭蒼鷹現身臺師大人工濕地 展現永續校園新典範",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24666",
         "date": "2026-06-12",
         "date_label": "發布日期",
         "summary": ""
@@ -4529,6 +4529,20 @@
     "label": "教育心理與輔導學系-最新消息",
     "announcements": [
       {
+        "title": "公告本系114學年度第2學期碩士班研究生 孫怡冬、籃怡靜、施銘光、許侑倢 論文考試",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1318",
+        "date": "2026-06-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "公告本系114學年度第2學期博士班研究生 李孟寰 論文計畫考試",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1317",
+        "date": "2026-06-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "本校114學年度暑期「學生生活助學金」申請_115/06/22下午5時截止",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1316",
         "date": "2026-06-22",
@@ -4548,26 +4562,26 @@
         "date": "2026-06-10",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "公告本系114學年度第2學期碩士在職專班研究生 卓越 論文考試",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1313",
-        "date": "2026-06-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "公告本系114學年度第2學期博士班研究生 趙敏安 論文考試",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1312",
-        "date": "2026-06-03",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "epc_academic_events": {
     "label": "教育心理與輔導學系-學術活動",
     "announcements": [
+      {
+        "title": "公告本系114學年度第2學期碩士班研究生 孫怡冬、籃怡靜、施銘光、許侑倢 論文考試",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1318",
+        "date": "2026-06-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "公告本系114學年度第2學期博士班研究生 李孟寰 論文計畫考試",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1317",
+        "date": "2026-06-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "轉知 2026 資料價值創造與挑戰工作坊資訊",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1315",
@@ -4576,7 +4590,7 @@
         "summary": ""
       },
       {
-        "title": "公告本系114學年度第2學期碩士在職專班研究生 卓越 論文考試",
+        "title": "（更新地點）公告本系114學年度第2學期碩士在職專班研究生 卓越 論文考試",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1313",
         "date": "2026-06-03",
         "date_label": "發布日期",
@@ -4586,20 +4600,6 @@
         "title": "公告本系114學年度第2學期博士班研究生 趙敏安 論文考試",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1312",
         "date": "2026-06-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "公告本系114學年度第2學期碩士班研究生 蔡粲鴻、李佩潔、鄭詠潔 論文考試",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1311",
-        "date": "2026-06-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "公告本系114學年度第2學期碩士在職專班研究生 劉昱君、莊心和 論文考試",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1307",
-        "date": "2026-05-27",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -23318,7 +23318,36 @@
   },
   "hsin_tien_stress": {
     "label": "社區諮商中心-壓力調適",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "當內疚成為枷鎖：如何在自責中找到出口",
+        "url": "https://www.hsin-tien.com/post/當內疚成為枷鎖：如何在自責中找到出口",
+        "date": "2025-11-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "透過日記書寫面對壓力與焦慮（下）",
+        "url": "https://www.hsin-tien.com/post/透過日記書寫面對壓力與焦慮（下）",
+        "date": "2026-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "壓力看不見，卻一直都在—談壓力因應策略",
+        "url": "https://www.hsin-tien.com/post/壓力看不見，卻一直都在-談壓力因應策略",
+        "date": "2026-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "今天，我要善待我自己—自我疼惜練習",
+        "url": "https://www.hsin-tien.com/post/今天，我要善待我自己-自我疼惜練習",
+        "date": "2026-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "hsin_tien_reading": {
     "label": "社區諮商中心-心閱讀",
