@@ -24566,7 +24566,7 @@
     ]
   },
   "seed_news": {
-    "label": "社會情緒發展研究中心-消息公告",
+    "label": "社會情緒發展研究中心-全部消息",
     "announcements": [
       {
         "title": "第三屆 BEST ME 師資培訓成果分享會圓滿舉行：從教師先行到校園文化共好",
@@ -25969,6 +25969,18 @@
   },
   "hakka_course_info": {
     "label": "客語與客家文化教學研究中心-課程資訊",
+    "announcements": []
+  },
+  "seed_news_announcement": {
+    "label": "社會情緒發展研究中心-新聞公告",
+    "announcements": []
+  },
+  "seed_conference": {
+    "label": "社會情緒發展研究中心-講座活動",
+    "announcements": []
+  },
+  "seed_seminar": {
+    "label": "社會情緒發展研究中心-研討會議",
     "announcements": []
   }
 }

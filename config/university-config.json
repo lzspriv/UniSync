@@ -4448,7 +4448,7 @@
       }
     },
     "seed_news": {
-      "label": "消息公告",
+      "label": "全部消息",
       "owner": "社會情緒發展研究中心",
       "url": "https://seedcenter.tw/news/",
       "selectors": {
@@ -5025,6 +5025,36 @@
       "owner": "客語與客家文化教學研究中心",
       "url": "https://www.hakka.ntnu.edu.tw/?cat=6",
       "selectorPreset": "wordpress_broad"
+    },
+    "seed_news_announcement": {
+      "label": "新聞公告",
+      "owner": "社會情緒發展研究中心",
+      "url": "https://seedcenter.tw/category/news/",
+      "selectors": {
+        "parser": "wordpress_rest",
+        "api_url": "https://seedcenter.tw/wp-json/wp/v2/posts",
+        "categories": 7
+      }
+    },
+    "seed_conference": {
+      "label": "講座活動",
+      "owner": "社會情緒發展研究中心",
+      "url": "https://seedcenter.tw/category/conference/",
+      "selectors": {
+        "parser": "wordpress_rest",
+        "api_url": "https://seedcenter.tw/wp-json/wp/v2/posts",
+        "categories": 5
+      }
+    },
+    "seed_seminar": {
+      "label": "研討會議",
+      "owner": "社會情緒發展研究中心",
+      "url": "https://seedcenter.tw/category/seminar/",
+      "selectors": {
+        "parser": "wordpress_rest",
+        "api_url": "https://seedcenter.tw/wp-json/wp/v2/posts",
+        "categories": 6
+      }
     }
   },
   "schema": [
@@ -6392,7 +6422,19 @@
                   "channels": [
                     {
                       "value": "seed_news",
-                      "name": "消息公告"
+                      "name": "全部消息"
+                    },
+                    {
+                      "value": "seed_news_announcement",
+                      "name": "新聞公告"
+                    },
+                    {
+                      "value": "seed_conference",
+                      "name": "講座活動"
+                    },
+                    {
+                      "value": "seed_seminar",
+                      "name": "研討會議"
                     }
                   ]
                 },
