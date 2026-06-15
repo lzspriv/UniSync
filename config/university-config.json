@@ -4370,7 +4370,8 @@
         "parser": "table_row",
         "article": "table tbody tr",
         "title_link": "td:nth-of-type(3) a[href]",
-        "date": "td:nth-of-type(2)"
+        "date": "td:nth-of-type(2)",
+        "timeout": 3
       }
     },
     "spc_honor": {
@@ -4381,7 +4382,8 @@
         "parser": "table_row",
         "article": "table tbody tr",
         "title_link": "td:nth-of-type(3) a[href]",
-        "date": "td:nth-of-type(2)"
+        "date": "td:nth-of-type(2)",
+        "timeout": 3
       }
     },
     "spc_regulations": {
@@ -4392,7 +4394,8 @@
         "parser": "table_row",
         "article": "table tbody tr",
         "title_link": "td:nth-of-type(3) a[href]",
-        "date": "td:nth-of-type(2)"
+        "date": "td:nth-of-type(2)",
+        "timeout": 3
       }
     },
     "spc_training": {
@@ -4403,7 +4406,8 @@
         "parser": "table_row",
         "article": "table tbody tr",
         "title_link": "td:nth-of-type(3) a[href]",
-        "date": "td:nth-of-type(2)"
+        "date": "td:nth-of-type(2)",
+        "timeout": 3
       }
     },
     "spc_recruitment": {
@@ -4414,7 +4418,8 @@
         "parser": "table_row",
         "article": "table tbody tr",
         "title_link": "td:nth-of-type(3) a[href]",
-        "date": "td:nth-of-type(2)"
+        "date": "td:nth-of-type(2)",
+        "timeout": 3
       }
     },
     "rcpet_announcements": {

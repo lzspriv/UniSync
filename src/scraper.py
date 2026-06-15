@@ -1,5 +1,8 @@
 import requests
 from requests.adapters import HTTPAdapter
+import urllib3
+from urllib3.exceptions import InsecureRequestWarning
+from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import json
@@ -17,6 +20,18 @@ REQUEST_HEADERS = {
     "Pragma": "no-cache",
     "Upgrade-Insecure-Requests": "1",
 }
+
+urllib3.disable_warnings(InsecureRequestWarning)
+
+RETRY_POLICY = Retry(
+    total=1,
+    connect=0,
+    read=1,
+    status=1,
+    backoff_factor=0.5,
+    status_forcelist=[429, 500, 502, 503, 504],
+    allowed_methods=["GET"],
+)
 
 
 class LegacySSLAdapter(HTTPAdapter):
@@ -221,7 +236,7 @@ def parse_date_from_url(value):
 
 
 def build_request_options(scraper_config=None):
-    options = {"headers": REQUEST_HEADERS, "timeout": 10}
+    options = {"headers": REQUEST_HEADERS, "timeout": scraper_config.get("timeout", 10) if scraper_config else 10}
     if scraper_config and scraper_config.get("verify_ssl") is False:
         options["verify"] = False
     return options
@@ -316,7 +331,11 @@ class SafeFormatDict(dict):
 def create_request_session(url):
     session = requests.Session()
     if urlparse(url).netloc.lower() == "pr.ntnu.edu.tw":
-        session.mount("https://pr.ntnu.edu.tw", LegacySSLAdapter())
+        session.mount("https://pr.ntnu.edu.tw", LegacySSLAdapter(max_retries=RETRY_POLICY))
+    else:
+        adapter = HTTPAdapter(max_retries=RETRY_POLICY)
+        session.mount("https://", adapter)
+        session.mount("http://", adapter)
     return session
 
 
@@ -463,7 +482,7 @@ def fetch_atom_json_announcements(url, category_name, scraper_config):
 
         return all_news[:5] if len(recent_news) < 5 else recent_news
     except Exception as e:
-        print(f"???砍? {category_name} ??撣? {e}")
+        print(f"❌ 爬取 {category_name} 時發生異常: {e}")
         return []
 
 
@@ -549,7 +568,7 @@ def fetch_irels_news_announcements(url, category_name, scraper_config):
             page_soup = BeautifulSoup(page_response.text, "html.parser")
             news_script = page_soup.select_one('script[src*="news"]')
             if not news_script or not news_script.get("src"):
-                print(f"?蹎? ?曄 {category_name} ?啣? news script")
+                print(f"⚠️ 找不到 {category_name} 的 news script")
                 return []
             script_url = urljoin(url, news_script.get("src"))
 
@@ -561,7 +580,7 @@ def fetch_irels_news_announcements(url, category_name, scraper_config):
         response.encoding = "utf-8"
 
         if response.status_code != 200:
-            print(f"?? ?⊥?霈??{category_name}: {response.status_code}")
+            print(f"⚠️ 無法讀取 {category_name}: {response.status_code}")
             return []
 
         pattern = re.compile(
@@ -603,7 +622,7 @@ def fetch_irels_news_announcements(url, category_name, scraper_config):
 
         return all_news[:5] if len(recent_news) < 5 else recent_news
     except Exception as e:
-        print(f"???砍? {category_name} ??撣? {e}")
+        print(f"❌ 爬取 {category_name} 時發生異常: {e}")
         return []
 
 
@@ -853,7 +872,7 @@ def fetch_table_row_announcements(url, category_name, scraper_config):
         response.encoding = "utf-8"
 
         if response.status_code != 200:
-            print(f"?? ?⊥?霈??{category_name}: {response.status_code}")
+            print(f"⚠️ 無法讀取 {category_name}: {response.status_code}")
             return []
 
         soup = BeautifulSoup(response.text, "html.parser")
@@ -957,7 +976,7 @@ def fetch_table_row_announcements(url, category_name, scraper_config):
 
         return all_news[:5] if len(recent_news) < 5 else recent_news
     except Exception as e:
-        print(f"???砍? {category_name} ??撣? {e}")
+        print(f"❌ 爬取 {category_name} 時發生異常: {e}")
         return []
 
 
