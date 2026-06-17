@@ -3148,6 +3148,13 @@
     "label": "公共事務中心-師大新聞",
     "announcements": [
       {
+        "title": "《終身樹人》林玉体：以教育史見證師大百年風華",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24396",
+        "date": "2026-06-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "影音》重返台日美術交會的璀璨時代 師大美術館「共生之華」盛大開展",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24677",
         "date": "2026-06-17",
@@ -3174,13 +3181,6 @@
         "date": "2026-06-17",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "臺師大推動「高中生進階課程計畫（NTNU NEXT Program）」打造高中大學銜接新模式",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24674",
-        "date": "2026-06-16",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
@@ -3204,14 +3204,6 @@
         "show_summary": true
       },
       {
-        "title": "教育行政人才培育計畫演講活動",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10588",
-        "date": "2026-06-15",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-06-15 ~ 2026-06-18 15:37 / 地點：教育學院8樓802教室",
-        "show_summary": true
-      },
-      {
         "title": "環安衛中心-構築永續節能躍升節能推廣講座",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10587",
         "date": "2026-06-14",
@@ -3225,6 +3217,14 @@
         "date": "2026-06-12",
         "date_label": "新增日期",
         "summary": "活動時間：2026-06-22 16:47 ~ 2026-11-12 16:47 / 地點：圖書館校區進修推廣學院1樓演講堂",
+        "show_summary": true
+      },
+      {
+        "title": "掌握研究方法，讓研究更有效率! 歡迎報名",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10585",
+        "date": "2026-06-12",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-06-22 10:00 ~ 2026-08-28 21:00 / 地點：進修推廣學院",
         "show_summary": true
       }
     ]
@@ -25458,6 +25458,20 @@
     "label": "數學教育中心-教師培訓",
     "announcements": [
       {
+        "title": "2026/7/17(五) 第四期活動師培訓-臺北場(開放報名)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/06/18/2026-6-17-2/",
+        "date": "2026-06-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026/7/16(四) 第五期活動師培訓-臺北場(開放報名)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/06/18/2026-6-18-1/",
+        "date": "2026-06-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【工作坊報名】114學年度素養教學祕笈準講師培訓工作坊 – 國小組 6/5(五) 下午場",
         "url": "https://www.ime.ntnu.edu.tw/index.php/2026/05/05/2026-05-05-2/",
         "date": "2026-05-05",
@@ -25475,20 +25489,6 @@
         "title": "【工作坊報名】114學年度素養教學祕笈準講師培訓工作坊 – 國小組 5/18(一) 下午場",
         "url": "https://www.ime.ntnu.edu.tw/index.php/2026/04/23/2026-04-13-3/",
         "date": "2026-04-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【工作坊報名】114學年度素養教學秘笈準講師培訓工作坊 – 國中組第9場 5/23(六)9:00-12:00",
-        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/04/22/2026-04-22/",
-        "date": "2026-04-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【工作坊報名】114學年度素養教學祕笈準講師培訓工作坊 – 國小組 5/2(六)上午場",
-        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/03/26/2026-03-26/",
-        "date": "2026-03-26",
         "date_label": "發布日期",
         "summary": ""
       }
