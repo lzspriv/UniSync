@@ -15612,27 +15612,243 @@
   },
   "giem_news": {
     "label": "民族音樂研究所-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "Spring 2026: Sino-soundscape Lecture Series IV",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1601564054491&np_no=NP1779280447531",
+        "date": "2026-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Spring 2026: Visiting Scholar Lecture Series II",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1601564054491&np_no=NP1779281547341",
+        "date": "2026-05-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Spring 2026: Sino-soundscape Lecture Series III",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1601564054491&np_no=NP1779280580928",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "從清代到當代─國樂與中東異域的新「大同樂會」",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1601564054491&np_no=NP1779280109383",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Spring 2026: Visiting Scholar Lecture Series I",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1601564054491&np_no=NP1779281401175",
+        "date": "2026-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "giem_focus": {
     "label": "民族音樂研究所-焦點新聞",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "Spring 2026: Sino-soundscape Lecture Series IV",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1601564054491&np_no=NP1779280447531",
+        "date": "2026-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Spring 2026: Visiting Scholar Lecture Series II",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1601564054491&np_no=NP1779281547341",
+        "date": "2026-05-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Spring 2026: Sino-soundscape Lecture Series III",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1601564054491&np_no=NP1779280580928",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "從清代到當代─國樂與中東異域的新「大同樂會」",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1601564054491&np_no=NP1779280109383",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Spring 2026: Visiting Scholar Lecture Series I",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1601564054491&np_no=NP1779281401175",
+        "date": "2026-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "giem_affairs": {
     "label": "民族音樂研究所-系所公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "115學年度碩士班招生試程公告",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1592987531774&np_no=NP1770215077277",
+        "date": "2026-02-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度碩士班推薦甄選試程公告",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1592987531774&np_no=NP1699365610142",
+        "date": "2025-11-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "“Art Song Across Cultures,” recital of soprano Ena Maria R. Aldecoa",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1592987531774&np_no=NP1760330958208",
+        "date": "2025-10-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113學年度暑期、114學年度學年及寒假住宿申請時程表",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1592987531774&np_no=NP1742892646585",
+        "date": "2025-03-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113學年度暑期、114學年度學年進住及退宿時程表",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1592987531774&np_no=NP1742892412165",
+        "date": "2025-03-19",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "giem_scholarship": {
     "label": "民族音樂研究所-獎補助金",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【徵聘】114學年度第1學期學生課業輔導員獎勵申請",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1598324487672&np_no=NP1760442513811",
+        "date": "2025-10-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第1學期「還願助學金」申請公告",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1598324487672&np_no=NP1760421791328",
+        "date": "2025-10-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第1學期優秀研究生獎學金推薦",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1598324487672&np_no=NP1760434262798",
+        "date": "2025-09-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度學生「弱勢助學金」申請公告",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1598324487672&np_no=NP1760441501249",
+        "date": "2025-09-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "「2025客家研究優秀碩博士論文獎」申請",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1598324487672&np_no=NP1760439458215",
+        "date": "2025-09-18",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "giem_recruitment": {
     "label": "民族音樂研究所-徵才徵稿",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【徵稿】檔案管理數位治理與智慧服務國際研討會",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1598324473954&np_no=NP1761539835693",
+        "date": "2025-10-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵稿】《教育科學研究期刊》",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1598324473954&np_no=NP1760441932971",
+        "date": "2025-10-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114年度國民小學教育階段雙語教學教案設計競賽",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1598324473954&np_no=NP1760440618344",
+        "date": "2025-10-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115年度國立傳統藝術中心寒假短期實習受理申請",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1598324473954&np_no=NP1760346347576",
+        "date": "2025-10-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第二學期藝術行政實習計畫甄選",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1598324473954&np_no=NP1760442694738",
+        "date": "2025-09-25",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "giem_events": {
     "label": "民族音樂研究所-活動資訊",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "Spring 2026: Audiovisual Ethnomusicology Lecture Series III",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1607092588704&np_no=NP1779281254825",
+        "date": "2026-05-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Spring 2026: Sino-soundscape Lecture Series II",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1607092588704&np_no=NP1779280698361",
+        "date": "2026-05-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Spring 2026: Audiovisual Ethnomusicology Lecture Series II",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1607092588704&np_no=NP1779281107605",
+        "date": "2026-05-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Spring 2026: Audiovisual Ethnomusicology Lecture Series I",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1607092588704&np_no=NP1779280961523",
+        "date": "2026-04-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Spring 2026: Sino-soundscape Lecture Series I",
+        "url": "http://www.giem.ntnu.edu.tw/web/news/news_in.jsp?dm_no=DM1607092588704&np_no=NP1776428770270",
+        "date": "2026-04-01",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ciss_news": {
     "label": "國際與社會科學學院-最新消息",
