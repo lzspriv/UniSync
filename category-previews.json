@@ -17857,822 +17857,87 @@
   },
   "mgt_activities": {
     "label": "管理學院-焦點活動",
-    "announcements": [
-      {
-        "title": "臺師大EMBA海外管理實務研習赴日交流",
-        "url": "https://www.mgt.ntnu.edu.tw/臺師大emba海外管理實務研習赴日交流",
-        "date": "2026-05-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "華南銀行攜手臺師大管院共創智慧未來 啟動產學合作布局 Fintech 與全球人才庫",
-        "url": "https://www.mgt.ntnu.edu.tw/華南銀行攜手臺師大管院共創智慧未來-啟動產學合作布局-fintech-與全球人才庫",
-        "date": "2026-05-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "GF-EMBA校友柯淑玲捐贈臺北榮總巨幅畫作 管院師長與校友出席見證藝術與公益精神",
-        "url": "https://www.mgt.ntnu.edu.tw/gf-emba校友柯淑玲捐贈臺北榮總巨幅畫作-管院師長與校友出席見證藝術與公益精神",
-        "date": "2026-05-19",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "KPMG安侯建業蒞校分享職涯機會 吸引逾65名學生參與",
-        "url": "https://www.mgt.ntnu.edu.tw/師大管理學院舉辦企業實習招募說明會-kpmg安侯建業蒞校分享職涯機會-吸引逾65名學生參與",
-        "date": "2026-04-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大管理學院接待日本熊本大學共創學環代表團 深化社會創新與永續發展交流",
-        "url": "https://www.mgt.ntnu.edu.tw/臺師大管理學院接待日本熊本大學共創學環代表團深化社會創新與永續發展交流",
-        "date": "2026-03-12",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "mgt_news": {
     "label": "管理學院-最新消息",
-    "announcements": [
-      {
-        "title": "2026 年暑期雙語6月赴大阪進修錄取與備取名單暨資料填報公告",
-        "url": "https://www.mgt.ntnu.edu.tw/2026-summer-best-outbound-results",
-        "date": "2026-04-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026精誠集團AI創新競賽【競賽主題：AI Ready Data— 打造理解關聯的智慧大腦】",
-        "url": "https://www.mgt.ntnu.edu.tw/2026精誠集團ai創新競賽競賽主題ai-ready-data-打造理解關聯的智慧大腦",
-        "date": "2026-03-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【公告】2026年秋季學生赴外進修暨獎學金補助核定名單",
-        "url": "https://www.mgt.ntnu.edu.tw/公告2026年秋季學生赴外進修暨獎學金補助核定名單",
-        "date": "2026-02-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【講座活動】2026 臺師大冬季學院｜國際永續冬季課程 開放報名！",
-        "url": "https://www.mgt.ntnu.edu.tw/講座活動2026-臺師大冬季學院國際永續冬季課程-開放報名",
-        "date": "2025-12-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2025台灣統計方法學學會年會暨學術研討會",
-        "url": "https://www.mgt.ntnu.edu.tw/2025台灣統計方法學學會年會暨學術研討會",
-        "date": "2025-11-13",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "mgt_scholarship": {
     "label": "管理學院-學生獎助學金",
-    "announcements": [
-      {
-        "title": "【公告】114學年度管理學院弱勢學生助學金審查結果通知",
-        "url": "https://www.mgt.ntnu.edu.tw/公告114學年度管理學院弱勢學生助學金審查結果通知",
-        "date": "2026-05-27",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【公告】本院114學年度人文教育德順獎學金得獎名單",
-        "url": "https://www.mgt.ntnu.edu.tw/公告本院114學年度人文教育德順獎學金得獎名單",
-        "date": "2025-10-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【公告】本院114學年度優秀學生獎學金得獎名單",
-        "url": "https://www.mgt.ntnu.edu.tw/公告本院114學年度優秀學生獎學金得獎名單",
-        "date": "2025-10-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114-1本院優秀學生獎學金09月08日開始申請，歡迎本院學生申請。",
-        "url": "https://www.mgt.ntnu.edu.tw/本院優秀學生獎學金09月08日開始申請歡迎本院學生申請",
-        "date": "2025-09-02",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114-1本院人文教育德順獎學金09月08日開始申請，歡迎本院學生申請。",
-        "url": "https://www.mgt.ntnu.edu.tw/114-1本院人文教育德順獎學金開始申請歡迎本院學生申請",
-        "date": "2025-09-02",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "mgt_exchange": {
     "label": "管理學院-國際交流及赴外甄審",
-    "announcements": [
-      {
-        "title": "轉知｜日本九州大學商學院2025秋季赴外交換簡章",
-        "url": "https://www.mgt.ntnu.edu.tw/轉知日本九州大學商學院2025秋季赴外交換簡章",
-        "date": "2025-01-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "轉知｜美國新墨西哥大學 2025秋季院級交換提名資訊",
-        "url": "https://www.mgt.ntnu.edu.tw/university-of-new-mexico-student-exchange-information-sheet-academic-year-2025-2026",
-        "date": "2025-02-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大GF-EMBA與九州大學MBA跨文化交流圓滿落幕",
-        "url": "https://www.mgt.ntnu.edu.tw/臺師大gf-emba與九州大學mba跨文化交流圓滿落幕",
-        "date": "2025-09-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026春季院級申請赴外進修（交換）暨獎學金補助甄選－即日起至9/5（五）下午五時截止收件",
-        "url": "https://www.mgt.ntnu.edu.tw/2026春季院級申請赴外進修交換暨獎學金補助甄選即日起至95五下午五時截止收件",
-        "date": "2025-06-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2025秋季院級申請赴外進修（交換及雙聯）暨獎學金補助甄選－即日起至3/6 (四)下午五點止",
-        "url": "https://www.mgt.ntnu.edu.tw/2025秋季院級申請赴外進修交換及雙聯暨獎學金補助甄選-即日起至36-四下午五點止",
-        "date": "2024-12-25",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "mgt_competition_seminar": {
     "label": "管理學院-競賽及研討會",
-    "announcements": [
-      {
-        "title": "2023 Data Science Meeting and Workshops",
-        "url": "https://www.mgt.ntnu.edu.tw/2023-data-science-meeting-and-workshops",
-        "date": "2023-03-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "百年校慶─管理教育論壇 管理教育之機會與挑戰",
-        "url": "https://www.mgt.ntnu.edu.tw/百年校慶管理教育論壇-管理教育之機會與挑戰",
-        "date": "2022-06-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2021/12/3(五) 臺師大與九州大學線上論壇開放報名!",
-        "url": "https://www.mgt.ntnu.edu.tw/2021123五-臺師大與九州大學線上論壇開放報名",
-        "date": "2021-11-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "大賀！本院賴慧文教授、蔡蒔銓教授榮獲「2023臺灣財務金融學會年會暨國際研討會」富邦論文獎",
-        "url": "https://www.mgt.ntnu.edu.tw/大賀本院賴慧文教授蔡蒔銓教授榮獲2023臺灣財務金融學會年會暨國際研討會富邦論文獎",
-        "date": "2023-06-14",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "mgt_outstanding": {
     "label": "管理學院-傑出表現",
-    "announcements": [
-      {
-        "title": "恭賀！本院林舒柔教授榮獲113年度「教學優良獎」",
-        "url": "https://www.mgt.ntnu.edu.tw/恭賀本院林舒柔教授榮獲113年度教學優良獎",
-        "date": "2024-10-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭賀! 本院印永翔教授、邱皓政教授、蔡蒔銓教授、賴慧文教授、吳彥濬教授張佳榮副教授榮獲本校112 年度特殊優秀人才獎勵",
-        "url": "https://www.mgt.ntnu.edu.tw/恭賀-本院印永翔教授邱皓政教授蔡蒔銓教授賴慧文教授吳彥濬教授張佳榮副教授榮獲本校112-年度特殊優秀人才獎勵",
-        "date": "2023-11-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "大賀！本院王仕茹老師及陳慧玲老師榮獲112年度教師教學獎勵「教學優良獎」",
-        "url": "https://www.mgt.ntnu.edu.tw/大賀本院王仕茹老師及陳慧玲老師榮獲112年度教師教學獎勵教學優良獎",
-        "date": "2023-07-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭賀！109級管理所學生顏筠同學榮獲『2022臺灣銀行經濟金融論文獎』銀獎！",
-        "url": "https://www.mgt.ntnu.edu.tw/恭賀109級管理所學生顏筠同學榮獲2022臺灣銀行經濟金融論文獎銀獎",
-        "date": "2023-04-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭喜本院EMBA 109級劉桓毅學長及賴慧文指導教授榮獲第15屆崇越論文大賞佳作",
-        "url": "https://www.mgt.ntnu.edu.tw/恭喜本院emba-109級劉桓毅學長及賴慧文指導教授榮獲第15屆崇越論文大賞佳作",
-        "date": "2022-09-29",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "mgt_recruitment": {
     "label": "管理學院-學院徵才",
-    "announcements": [
-      {
-        "title": "經營管理領域 專任(案)教師徵聘公告",
-        "url": "https://www.mgt.ntnu.edu.tw/經營管理領域-專任案教師徵聘公告-2",
-        "date": "2025-11-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "一般財務管理領域 專任(案)教師徵聘公告",
-        "url": "https://www.mgt.ntnu.edu.tw/一般財務管理領域-專任案教師徵聘公告-2",
-        "date": "2025-11-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "國立臺灣師範大學管理學院高階經理人企業管理碩士在職專班EMBA 「約用行政人員(經理)」徵聘公告",
-        "url": "https://www.mgt.ntnu.edu.tw/管理學院-emba約用人員經理",
-        "date": "2026-01-21",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "ba_news": {
     "label": "企業管理學系-學系公告&活動",
-    "announcements": [
-      {
-        "title": "115學年度大學「申請入學」第二階段指定項目甄試口試時間表與注意事项",
-        "url": "https://www.ba.ntnu.edu.tw/115學年度大學申請入學第二階段指定項目甄試口試時間表與注意事项",
-        "date": "2026-05-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026師大企管之夜《BAck to the retro》",
-        "url": "https://www.ba.ntnu.edu.tw/2026師大企管之夜back-to-the-retro",
-        "date": "2026-05-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026師大企管週《重返198BA－企舞夜未央》",
-        "url": "https://www.ba.ntnu.edu.tw/2026師大企管週重返198ba企舞夜未央開跑囉",
-        "date": "2026-04-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "企業管理學系 115學年度大學甄選入學「申請入學」指定項目甄試通知單",
-        "url": "https://www.ba.ntnu.edu.tw/企業管理學系-115學年度大學甄選入學申請入學指定項目甄試通知單",
-        "date": "2026-04-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026秋季班企管系中文組外籍生申請入學線上口試公告-2026 Fall Semester Online Interview notice-For BA Group",
-        "url": "https://www.ba.ntnu.edu.tw/2026秋季班企管系中文組外籍生申請入學線上口試公告-2026-fall-semester-online-interview-notice-for-ba-group",
-        "date": "2026-03-11",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "ba_honor": {
     "label": "企業管理學系-師生榮譽榜",
-    "announcements": [
-      {
-        "title": "恭賀!本學系同學參加2026校園公關提案競賽表現亮眼，榮獲優勝與佳作",
-        "url": "https://www.ba.ntnu.edu.tw/恭賀本學系同學參加2026校園公關提案競賽表現亮眼榮獲優勝與佳作",
-        "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭賀! 本學系黃靜薇同學參加本校「畫出你的獅，百系百樣」吉祥物創意設計大賞，榮獲特優獎",
-        "url": "https://www.ba.ntnu.edu.tw/恭賀-本學系黃靜薇同學參加本校畫出你的獅百系百樣吉祥物創意設計大賞榮獲特優獎",
-        "date": "2026-04-28",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭賀!企管系111級蔡濬宇校友 授證「CFA Charterholder」(Chartered Financial Analyst （CFA®)，特許財務分析師）",
-        "url": "https://www.ba.ntnu.edu.tw/恭賀企管系111級蔡濬宇校友-授證cfa-charterholderchartered-financial-analyst-cfa特許財務分析師",
-        "date": "2025-10-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭賀!!本學系林芸安同學與陳韻如同學獲得國家科學委員會114年度「大專學生研究計畫」",
-        "url": "https://www.ba.ntnu.edu.tw/恭賀本學系林芸安同學與陳韻如同學獲得國家科學委員會114年度大專學生研究計畫",
-        "date": "2025-06-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭賀! 本學系楊嘉翔同學與全球經營與策略研究所同學跨域組隊參加交通部「公路新思維，數據創未來」的專案比賽-榮獲學生組第一名",
-        "url": "https://www.ba.ntnu.edu.tw/恭賀-本學系楊嘉翔同學與全球經營與策略研究所同學跨域組隊參加交通部公路新思維數據創未來的專案比賽-榮獲學生組第一名",
-        "date": "2025-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "ba_scholarship": {
     "label": "企業管理學系-獎學金公告",
-    "announcements": [
-      {
-        "title": "114學年STAR星辰獎學金已開放線上系統申請至3月23日止",
-        "url": "https://www.ba.ntnu.edu.tw/114學年star星辰獎學金已開放線上系統申請至3月23日止",
-        "date": "2026-03-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "管理學院114學年度學生優秀獎學金-114年9月8日開始申請至9月30日截止",
-        "url": "https://www.ba.ntnu.edu.tw/管理學院114學年度學生優秀獎學金-114年9月8日開始申請至9月30日截止",
-        "date": "2025-09-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "管理學院114學年度人文教育德順獎學金-114年9月8日開始申請至9月30日截止",
-        "url": "https://www.ba.ntnu.edu.tw/管理學院114學年度人文教育德順獎學金-114年9月8日開始申請至9月30日截止",
-        "date": "2025-09-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "管理學院 113學年度弱勢學生助學金114年4月1日開始申請，4月30日截止",
-        "url": "https://www.ba.ntnu.edu.tw/113學年度管理學院弱勢學生助學金114年4月1日開始申請4月30日截止",
-        "date": "2025-03-28",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "113學年STAR星辰獎學金已開放線上系統申請至3月24日止",
-        "url": "https://www.ba.ntnu.edu.tw/113學年star星辰獎學金已開放線上系統申請至3月24日止",
-        "date": "2025-03-05",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "ba_media": {
     "label": "企業管理學系-影片與文章",
-    "announcements": [
-      {
-        "title": "企管系邱皓政教授課程教學(二)-潛在類別分析 | 潛在移轉分析 | 方法介紹 | 分析實作 |",
-        "url": "https://www.ba.ntnu.edu.tw/企管系邱皓政教授課程教學2-潛在類別分析-潛在移轉分析-方法介紹-分析實作-",
-        "date": "2026-06-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "企管系邱皓政教授課程教學(一)-潛在類別分析 | 潛在移轉分析 | 方法介紹 | 分析實作 |",
-        "url": "https://www.ba.ntnu.edu.tw/企管系邱皓政教授課程教學-潛在類別分析-潛在移轉分析-方法介紹-分析實作-",
-        "date": "2026-06-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "從 MIT 到品牌力：臺師大企管系邀請產業專家 解析臺灣傳產升級關鍵路徑",
-        "url": "https://www.ba.ntnu.edu.tw/從-mit-到品牌力臺師大企管系邀請產業專家-解析臺灣傳產升級關鍵路徑",
-        "date": "2026-06-12",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "走進雲端服務第一線 臺師大企管系「顧客關係管理」課程參訪伊雲谷，從實務現場看見 CRM 的關鍵價值",
-        "url": "https://www.ba.ntnu.edu.tw/走進雲端服務第一線-臺師大企管系顧客關係管理課程參訪伊雲谷從實務現場看見-crm-的關鍵價值",
-        "date": "2026-05-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【赴外分享＿韓語組】企管系113級余若晴經驗分享",
-        "url": "https://www.ba.ntnu.edu.tw/赴外分享韓語組",
-        "date": "2026-03-06",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "mba_news": {
     "label": "管理研究所-系所公告",
-    "announcements": [
-      {
-        "title": "114學年度第2學期碩博學位考試口試申請及畢業離校說明",
-        "url": "https://www.mba.ntnu.edu.tw/114學年度第2學期碩博學位考試口試申請及畢業離校說明",
-        "date": "2026-04-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "The 2026 Fall Semester (Second Round) Interview",
-        "url": "https://www.mba.ntnu.edu.tw/the-2026-fall-semester-second-round-interview",
-        "date": "2026-03-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度管理研究所碩士班考試-口試注意事項及名單",
-        "url": "https://www.mba.ntnu.edu.tw/115學年度管理研究所碩士班考試-口試注意事項及名單",
-        "date": "2026-03-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "The 2026 Fall Semester (First Round) Interview",
-        "url": "https://www.mba.ntnu.edu.tw/the-2026-fall-semester-first-round-interview",
-        "date": "2025-12-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度管理研究所碩士班考試開始報名",
-        "url": "https://www.mba.ntnu.edu.tw/115學年度管理研究所碩士班考試開始報名",
-        "date": "2025-12-01",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "mba_scholarship": {
     "label": "管理研究所-獎學金",
-    "announcements": [
-      {
-        "title": "114學年度第2學期優秀研究生獎學金申請115年3月24日（二）截止",
-        "url": "https://www.mba.ntnu.edu.tw/114學年度第2學期優秀研究生獎學金申請115年3月24日二截止",
-        "date": "2026-03-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度第1學期優秀研究生獎學金申請114年10月15日（三）截止",
-        "url": "https://www.mba.ntnu.edu.tw/114學年度第1學期優秀研究生獎學金申請114年10月15日三截止",
-        "date": "2025-09-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度管理學院優秀學生獎學金申請至114年9月30日截止",
-        "url": "https://www.mba.ntnu.edu.tw/114學年度管理學院優秀學生獎學金申請至114年9月30日截止",
-        "date": "2025-09-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度管理學院人文教育德順獎學金申請至114年9月30日截止",
-        "url": "https://www.mba.ntnu.edu.tw/114學年度管理學院人文教育德順獎學金申請至114年9月30日截止",
-        "date": "2025-09-12",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "113學年度第2學期優秀研究生獎學金申請114年3月23日（日）截止",
-        "url": "https://www.mba.ntnu.edu.tw/113學年度第2學期優秀研究生獎學金申請114年3月23日日截止",
-        "date": "2025-03-10",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "mba_honor": {
     "label": "管理研究所-榮譽榜",
-    "announcements": [
-      {
-        "title": "恭喜管理所同學陳庭宇、陳楷閎、陳品欣、吳科慧與台科大同學參與2026永豐金控商業競賽榮獲優選！",
-        "url": "https://www.mba.ntnu.edu.tw/恭喜管理所同學陳庭宇陳楷閎陳品欣吳科慧與台科大同學參與2026永豐金控商業競賽榮獲優選",
-        "date": "2026-05-28",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭喜!!管研所陳庭宇、吳科慧「E.SUNrise」團隊於 2025 玉山銀行校園商業競賽奪冠！",
-        "url": "https://www.mba.ntnu.edu.tw/恭喜管研所陳庭宇吳科慧esunrise團隊於-2025-玉山銀行校園商業競賽奪冠",
-        "date": "2026-02-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭喜！管研所林葦情與全營所、電機所及車能系學生共同組隊，於「T.Select 第一屆電商創業競賽」勇奪 第二名 ！",
-        "url": "https://www.mba.ntnu.edu.tw/恭喜管研所林葦情與全營所電機所及車能系學生共同組隊於tselect-第一屆電商創業競賽勇奪-第二名-的佳績",
-        "date": "2026-01-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "賀！管研所吳科慧、陳建宇、陳楷閎、劉宏昱同學勇奪「彰化銀行e財寶微型黑客松」第一名！",
-        "url": "https://www.mba.ntnu.edu.tw/賀管研所吳科慧陳建宇陳楷閎劉宏昱同學勇奪彰化銀行e財寶微型黑客松第一名",
-        "date": "2026-01-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭喜！管研所王翔民、莊昀芯、江婕吟同學 參加「學生實習故事競賽」表現亮眼、獲得佳績！",
-        "url": "https://www.mba.ntnu.edu.tw/恭喜管研所王翔民莊昀芯江婕吟同學-參加學生實習故事競賽表現亮眼獲得佳績",
-        "date": "2026-01-06",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "mba_seminar": {
     "label": "管理研究所-專題演講",
-    "announcements": [
-      {
-        "title": "專題演講｜Brand Management Career Journey Sharing｜品牌管理職涯分享",
-        "url": "https://www.mba.ntnu.edu.tw/專題演講brand-management-career-journey-sharing品牌管理職涯分享",
-        "date": "2026-05-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "專題演講｜管院學院大師演講 DOLLAR COST AVERAGING",
-        "url": "https://www.mba.ntnu.edu.tw/專題演講管院學院大師演講-dollar-cost-averaging",
-        "date": "2026-05-19",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "專題演講｜學長姐回娘家✨管研所校友職涯分享講座",
-        "url": "https://www.mba.ntnu.edu.tw/學長姐回娘家管研所校友職涯分享講座",
-        "date": "2026-05-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "專題演講｜企業購併評價與財務分析 -Uber × foodpanda 併購案",
-        "url": "https://www.mba.ntnu.edu.tw/專題演講企業購併評價與財務分析-uber-foodpanda-併購案",
-        "date": "2026-04-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "專題演講｜2026 師大國際永續冬季課程",
-        "url": "https://www.mba.ntnu.edu.tw/專題演講2026-師大國際永續冬季課程",
-        "date": "2026-03-18",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "mba_internship": {
     "label": "管理研究所-學長姐實習經驗",
-    "announcements": [
-      {
-        "title": "【實習經驗談】無印良品-113級 江婕吟學姊",
-        "url": "https://www.mba.ntnu.edu.tw/實習經驗談無印良品",
-        "date": "2026-02-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【實習經驗談】精誠資訊-113級 賴禹儒學姊",
-        "url": "https://www.mba.ntnu.edu.tw/實習經驗談精誠資訊",
-        "date": "2026-01-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【實習經驗談】永豐期貨-113級 張元彥學長",
-        "url": "https://www.mba.ntnu.edu.tw/實習經驗談永豐期貨",
-        "date": "2026-01-27",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【實習經驗談】 BenQ-109級 陳祥筑學姊",
-        "url": "https://www.mba.ntnu.edu.tw/管理所學長姐實習經驗分享-benq",
-        "date": "2022-05-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【實習經驗談】面試經驗與技巧分享",
-        "url": "https://www.mba.ntnu.edu.tw/學長姐面試經驗與技巧分享",
-        "date": "2022-05-09",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "gbs_news": {
     "label": "全球經營與策略研究所-系所公告",
-    "announcements": [
-      {
-        "title": "2026年秋季班面試通知 2026 Fall Interview Notification",
-        "url": "https://www.gbs.ntnu.edu.tw/2026年秋季班面試通知-2026-fall-interview-notification",
-        "date": "2026-03-12",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度全球經營與策略研究所 面試公告",
-        "url": "https://www.gbs.ntnu.edu.tw/115學年度全球經營與策略研究所-面試公告",
-        "date": "2026-03-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115 學年度碩士班甄試口試注意事項及名單",
-        "url": "https://www.gbs.ntnu.edu.tw/115-學年度碩士班甄試口試注意事項及名單",
-        "date": "2025-10-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026年春季班面試通知 2026 Spring Interview Notification",
-        "url": "https://www.gbs.ntnu.edu.tw/2026年春季班面試通知-2026-spring-interview-notification",
-        "date": "2025-09-19",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2025年秋季班面試通知 2025 Fall Interview Notification",
-        "url": "https://www.gbs.ntnu.edu.tw/2025年秋季班面試通知-2025-fall-interview-notification",
-        "date": "2025-03-11",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "gbs_events": {
     "label": "全球經營與策略研究所-活動與演講",
-    "announcements": [
-      {
-        "title": "「從大阪的都市視角重新思考台北」海外參訪課程",
-        "url": "https://www.gbs.ntnu.edu.tw/從大阪的都市視角重新思考台北海外參訪課程",
-        "date": "2026-03-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2023 企業實習成果發表會",
-        "url": "https://www.gbs.ntnu.edu.tw/2023-企業實習成果發表會",
-        "date": "2023-10-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "從能源轉型到淨零排放 -電業的挑戰與展望",
-        "url": "https://www.gbs.ntnu.edu.tw/從能源轉型到淨零排放-電業的挑戰與展望",
-        "date": "2023-10-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "AI System Application & Data Fabric",
-        "url": "https://www.gbs.ntnu.edu.tw/ai-system-application-data-fabric",
-        "date": "2023-09-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "三世三生看今生-以金融市場為例",
-        "url": "https://www.gbs.ntnu.edu.tw/三世三生看今生-以金融市場為例",
-        "date": "2022-10-07",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "gbs_recruitment": {
     "label": "全球經營與策略研究所-徵才資訊",
-    "announcements": [
-      {
-        "title": "2024 「職引未來，夢想無涯」就業季",
-        "url": "https://www.gbs.ntnu.edu.tw/2024-職引未來夢想無涯就業季",
-        "date": "2024-03-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2024臺灣師大就業季徵才說明會-金融機構徵才說明會活動",
-        "url": "https://www.gbs.ntnu.edu.tw/2024臺灣師大就業季徵才說明會-金融機構徵才說明會活動",
-        "date": "2024-03-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "統一證券-113年上半年實習計劃」熱烈招募中！ 申請截止只到1/26！",
-        "url": "https://www.gbs.ntnu.edu.tw/統一證券-113年上半年實習計劃熱烈招募中-申請截止只到126",
-        "date": "2024-01-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2023年上海商業儲蓄銀行暑期實習",
-        "url": "https://www.gbs.ntnu.edu.tw/上海商業儲蓄銀行暑期實習-2",
-        "date": "2023-05-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2023就業季開跑了",
-        "url": "https://www.gbs.ntnu.edu.tw/2023就業季開跑了",
-        "date": "2023-03-09",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "gbs_honor": {
     "label": "全球經營與策略研究所-榮譽榜",
-    "announcements": [
-      {
-        "title": "印出新流程，打造新效率：臺師大全營所以分級×自動化 奪InnoConnect+銀獎",
-        "url": "https://www.gbs.ntnu.edu.tw/印出新流程打造新效率臺師大全營所以分級自動化-奪innoconnect銀獎",
-        "date": "2026-04-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "交通部「公路新思維，數據創未來」的專案比賽，本所與企管系共同組成的跨域團隊榮獲學生組第一名",
-        "url": "https://www.gbs.ntnu.edu.tw/交通部公路新思維數據創未來的專案比賽本所與企管系共同組成的跨域團隊榮獲學生組第一名",
-        "date": "2025-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2022第六屆CUTe企管盃全國大專校院暨高中職智慧科技應用與創新服務企劃競賽特優",
-        "url": "https://www.gbs.ntnu.edu.tw/2022第六屆cute企管盃全國大專校院暨高中職智慧科技應用與創新服務企劃競賽特優",
-        "date": "2022-05-31",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭賀學生黃毓雯、李巧因、林佳蓉、王思涵參加第五屆全國大專院校創新創業競賽組獲組第一名",
-        "url": "https://www.gbs.ntnu.edu.tw/恭賀學生黃毓雯李巧因林佳蓉王思涵參加第五屆全國大專院校創新創業競賽組獲組第一名",
-        "date": "2020-12-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "賀107-2學年優秀研究生獎學金-董瑩與劉津秀同學",
-        "url": "https://www.gbs.ntnu.edu.tw/賀107-2學年優秀研究生獎學金-董瑩與劉津秀同學",
-        "date": "2019-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "gbs_resources": {
     "label": "全球經營與策略研究所-學習資源",
-    "announcements": [
-      {
-        "title": "實習經驗談-花旗實習(李旻襄)",
-        "url": "https://www.gbs.ntnu.edu.tw/碩士實習經驗談-花旗實習李旻襄",
-        "date": "2019-01-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "實習經驗談-L'Oréal實習(何凡)",
-        "url": "https://www.gbs.ntnu.edu.tw/校友何凡-碩士實習經驗談",
-        "date": "2019-01-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "實習經驗談-海外越南實習(白佩錦)",
-        "url": "https://www.gbs.ntnu.edu.tw/海外實習經驗談-白佩錦同學",
-        "date": "2019-01-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "校友創業談-蘇建璋校友",
-        "url": "https://www.gbs.ntnu.edu.tw/校友創業-蘇建璋校友",
-        "date": "2019-01-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "108學年招生影片",
-        "url": "https://www.gbs.ntnu.edu.tw/108學年招生影片",
-        "date": "2019-01-08",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "emba_news": {
     "label": "高階經理人企業管理碩士在職專班(EMBA)-最新消息",
@@ -19521,7 +18786,43 @@
   },
   "health_announce": {
     "label": "健康中心-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "新生入學健康檢查注意事項",
+        "url": "https://health.sa.ntnu.edu.tw/%e6%96%b0%e7%94%9f%e5%85%a5%e5%ad%b8%e5%81%a5%e5%ba%b7%e6%aa%a2%e6%9f%a5%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a0%85/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026健康體位控制班活動得獎名單",
+        "url": "https://health.sa.ntnu.edu.tw/2026%e5%81%a5%e5%ba%b7%e9%ab%94%e4%bd%8d%e6%8e%a7%e5%88%b6%e7%8f%ad%e6%b4%bb%e5%8b%95%e5%be%97%e7%8d%8e%e5%90%8d%e5%96%ae/",
+        "date": "2026-05-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要訊息】「健康校園不痘留」-水痘防治措施",
+        "url": "https://health.sa.ntnu.edu.tw/%e3%80%90%e9%87%8d%e8%a6%81%e8%a8%8a%e6%81%af%e3%80%91%e3%80%8c%e5%81%a5%e5%ba%b7%e6%a0%a1%e5%9c%92%e4%b8%8d%e7%97%98%e7%95%99%e3%80%8d-%e6%b0%b4%e7%97%98%e9%98%b2%e6%b2%bb%e6%8e%aa%e6%96%bd/",
+        "date": "2026-05-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "樂活診所健康服務滿意度調查得獎名單",
+        "url": "https://health.sa.ntnu.edu.tw/%e6%a8%82%e6%b4%bb%e8%a8%ba%e6%89%80%e5%81%a5%e5%ba%b7%e6%9c%8d%e5%8b%99%e6%bb%bf%e6%84%8f%e5%ba%a6%e8%aa%bf%e6%9f%a5%e5%be%97%e7%8d%8e%e5%90%8d%e5%96%ae-4/",
+        "date": "2026-05-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "特約醫療院所",
+        "url": "https://health.sa.ntnu.edu.tw/%e7%89%b9%e7%b4%84%e9%86%ab%e7%99%82%e9%99%a2%e6%89%80/",
+        "date": "2026-04-20",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "health_infectious": {
     "label": "健康中心-傳染病防治",
@@ -22292,7 +21593,43 @@
   },
   "honorscollege_announce": {
     "label": "公館校區學務組-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "安全租屋123",
+        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/10/%e5%ae%89%e5%85%a8%e7%a7%9f%e5%b1%8b123-2/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度校外賃居生申請內政部租金補貼情形調查",
+        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/10/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%a0%a1%e5%a4%96%e8%b3%83%e5%b1%85%e7%94%9f%e7%94%b3%e8%ab%8b%e5%85%a7%e6%94%bf%e9%83%a8%e7%a7%9f%e9%87%91%e8%a3%9c%e8%b2%bc%e6%83%85%e5%bd%a2%e8%aa%bf%e6%9f%a5/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【租屋防詐5不驟】",
+        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/05/%e3%80%90%e7%a7%9f%e5%b1%8b%e9%98%b2%e8%a9%905%e4%b8%8d%e9%a9%9f%e3%80%91/",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度學生校外賃居房東座談會開始報名囉~",
+        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/05/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%94%9f%e6%a0%a1%e5%a4%96%e8%b3%83%e5%b1%85%e6%88%bf%e6%9d%b1%e5%ba%a7%e8%ab%87%e6%9c%83%e9%96%8b%e5%a7%8b%e5%a0%b1%e5%90%8d%e5%9b%89/",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "內政部公告 300 億元租金補貼自 115 年起不再接受無稅籍或未保存登記建物之新案申請",
+        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/04/16/%e5%85%a7%e6%94%bf%e9%83%a8%e5%85%ac%e5%91%8a-300-%e5%84%84%e5%85%83%e7%a7%9f%e9%87%91%e8%a3%9c%e8%b2%bc/",
+        "date": "2026-04-16",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "honorscollege_rent": {
     "label": "公館校區學務組-校外賃居",
