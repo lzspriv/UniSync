@@ -17567,13 +17567,6 @@
     "label": "社會工作學研究所-所務公告",
     "announcements": [
       {
-        "title": "115年暑假期間所辦時間調整公告",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=&Sn=903",
-        "date": "2026-06-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "恭賀 本所畢業校友 曾峻偉 同學錄取 115學年度臺灣大學社會工作學系博士班 榜首",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=&Sn=879",
         "date": "2026-05-21",
@@ -17598,6 +17591,13 @@
         "title": "【畢業與休學時程事項】",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=&Sn=333",
         "date": "2025-03-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2024年台師大社工所20週年介紹影片",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=&Sn=197",
+        "date": "2024-12-26",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -19521,43 +19521,7 @@
   },
   "health_announce": {
     "label": "健康中心-最新消息",
-    "announcements": [
-      {
-        "title": "新生入學健康檢查注意事項",
-        "url": "https://health.sa.ntnu.edu.tw/%e6%96%b0%e7%94%9f%e5%85%a5%e5%ad%b8%e5%81%a5%e5%ba%b7%e6%aa%a2%e6%9f%a5%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a0%85/",
-        "date": "2026-05-27",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026健康體位控制班活動得獎名單",
-        "url": "https://health.sa.ntnu.edu.tw/2026%e5%81%a5%e5%ba%b7%e9%ab%94%e4%bd%8d%e6%8e%a7%e5%88%b6%e7%8f%ad%e6%b4%bb%e5%8b%95%e5%be%97%e7%8d%8e%e5%90%8d%e5%96%ae/",
-        "date": "2026-05-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【重要訊息】「健康校園不痘留」-水痘防治措施",
-        "url": "https://health.sa.ntnu.edu.tw/%e3%80%90%e9%87%8d%e8%a6%81%e8%a8%8a%e6%81%af%e3%80%91%e3%80%8c%e5%81%a5%e5%ba%b7%e6%a0%a1%e5%9c%92%e4%b8%8d%e7%97%98%e7%95%99%e3%80%8d-%e6%b0%b4%e7%97%98%e9%98%b2%e6%b2%bb%e6%8e%aa%e6%96%bd/",
-        "date": "2026-05-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "樂活診所健康服務滿意度調查得獎名單",
-        "url": "https://health.sa.ntnu.edu.tw/%e6%a8%82%e6%b4%bb%e8%a8%ba%e6%89%80%e5%81%a5%e5%ba%b7%e6%9c%8d%e5%8b%99%e6%bb%bf%e6%84%8f%e5%ba%a6%e8%aa%bf%e6%9f%a5%e5%be%97%e7%8d%8e%e5%90%8d%e5%96%ae-4/",
-        "date": "2026-05-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "特約醫療院所",
-        "url": "https://health.sa.ntnu.edu.tw/%e7%89%b9%e7%b4%84%e9%86%ab%e7%99%82%e9%99%a2%e6%89%80/",
-        "date": "2026-04-20",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "health_infectious": {
     "label": "健康中心-傳染病防治",
@@ -22328,43 +22292,7 @@
   },
   "honorscollege_announce": {
     "label": "公館校區學務組-最新消息",
-    "announcements": [
-      {
-        "title": "安全租屋123",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/10/%e5%ae%89%e5%85%a8%e7%a7%9f%e5%b1%8b123-2/",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度校外賃居生申請內政部租金補貼情形調查",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/10/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%a0%a1%e5%a4%96%e8%b3%83%e5%b1%85%e7%94%9f%e7%94%b3%e8%ab%8b%e5%85%a7%e6%94%bf%e9%83%a8%e7%a7%9f%e9%87%91%e8%a3%9c%e8%b2%bc%e6%83%85%e5%bd%a2%e8%aa%bf%e6%9f%a5/",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【租屋防詐5不驟】",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/05/%e3%80%90%e7%a7%9f%e5%b1%8b%e9%98%b2%e8%a9%905%e4%b8%8d%e9%a9%9f%e3%80%91/",
-        "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度學生校外賃居房東座談會開始報名囉~",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/05/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%94%9f%e6%a0%a1%e5%a4%96%e8%b3%83%e5%b1%85%e6%88%bf%e6%9d%b1%e5%ba%a7%e8%ab%87%e6%9c%83%e9%96%8b%e5%a7%8b%e5%a0%b1%e5%90%8d%e5%9b%89/",
-        "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "內政部公告 300 億元租金補貼自 115 年起不再接受無稅籍或未保存登記建物之新案申請",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/04/16/%e5%85%a7%e6%94%bf%e9%83%a8%e5%85%ac%e5%91%8a-300-%e5%84%84%e5%85%83%e7%a7%9f%e9%87%91%e8%a3%9c%e8%b2%bc/",
-        "date": "2026-04-16",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "honorscollege_rent": {
     "label": "公館校區學務組-校外賃居",
@@ -23444,13 +23372,6 @@
     "label": "學生住宿服務中心-全部",
     "announcements": [
       {
-        "title": "115學年度舊生學生宿舍床位分配名單(正取生)115.06.09",
-        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e8%88%8a%e7%94%9f%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e5%ba%8a%e4%bd%8d%e5%88%86%e9%85%8d%e5%90%8d%e5%96%ae%e6%ad%a3%e5%8f%96%e7%94%9f115-06-09/",
-        "date": "2026-06-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "115學年度學生宿舍第6次已遞補上宿舍名單115.6.17",
         "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e7%ac%ac6%e6%ac%a1%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a%e5%ae%bf%e8%88%8d%e5%90%8d%e5%96%ae115-6-17/",
         "date": "2026-06-17",
@@ -23475,6 +23396,13 @@
         "title": "學生住宿服務中心赴輔仁大學參訪 交流宿舍管理與學生自治實務",
         "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=24642#new_tab",
         "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度學生宿舍第5次已遞補上宿舍名單115.6.10",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e7%ac%ac5%e6%ac%a1%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a%e5%ae%bf%e8%88%8d%e5%90%8d%e5%96%ae115-6-10/",
+        "date": "2026-06-10",
         "date_label": "發布日期",
         "summary": ""
       }
