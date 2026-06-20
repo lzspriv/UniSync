@@ -3473,13 +3473,6 @@
     "label": "教務處-最新消息",
     "announcements": [
       {
-        "title": "115學年度分科測驗監試工作調查至 6/23（二）23:59截止",
-        "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%88%86%E7%A7%91%E6%B8%AC%E9%A9%97%E7%9B%A3%E8%A9%A6%E5%B7%A5%E4%BD%9C%E8%AA%BF%E6%9F%A5%E8%87%B3-6-23%EF%BC%88%E4%BA%8C%EF%BC%8923-59%E6%88%AA%E6%AD%A2-63347795",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "114學年度轉系、雙主修、輔系、預修生及學分學程錄取結果已發布",
         "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/114%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%BD%89%E7%B3%BB-%E9%9B%99%E4%B8%BB%E4%BF%AE-%E8%BC%94%E7%B3%BB-%E9%A0%90%E4%BF%AE%E7%94%9F%E5%8F%8A%E5%AD%B8%E5%88%86%E5%AD%B8%E7%A8%8B%E9%8C%84%E5%8F%96%E7%B5%90%E6%9E%9C%E5%B7%B2%E7%99%BC%E5%B8%83-99846822",
         "date": "2026-05-29",
@@ -3504,6 +3497,13 @@
         "title": "歡迎 6月2日一起走進莎士比亞的世界、探索愛與權力、悲劇與喜劇的交織",
         "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/%E6%AD%A1%E8%BF%8E-6%E6%9C%882%E6%97%A5%E4%B8%80%E8%B5%B7%E8%B5%B0%E9%80%B2%E8%8E%8E%E5%A3%AB%E6%AF%94%E4%BA%9E%E7%9A%84%E4%B8%96%E7%95%8C-%E6%8E%A2%E7%B4%A2%E6%84%9B%E8%88%87%E6%AC%8A%E5%8A%9B-%E6%82%B2%E5%8A%87%E8%88%87%E5%96%9C%E5%8A%87%E7%9A%84%E4%BA%A4%E7%B9%94-54958879",
         "date": "2026-05-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度第1學期研究生註冊須知",
+        "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC1%E5%AD%B8%E6%9C%9F%E7%A0%94%E7%A9%B6%E7%94%9F%E8%A8%BB%E5%86%8A%E9%A0%88%E7%9F%A5%C2%A0-57155044",
+        "date": "2026-05-14",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -22709,6 +22709,27 @@
     "label": "學生住宿服務中心-全部",
     "announcements": [
       {
+        "title": "115學年度舊生學生宿舍床位分配名單(正取生)115.06.09",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e8%88%8a%e7%94%9f%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e5%ba%8a%e4%bd%8d%e5%88%86%e9%85%8d%e5%90%8d%e5%96%ae%e6%ad%a3%e5%8f%96%e7%94%9f115-06-09/",
+        "date": "2026-06-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "重要!115學年度起各棟宿舍住宿費皆有調整~",
+        "url": "https://dorm.sa.ntnu.edu.tw/%e9%87%8d%e8%a6%81115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e8%b5%b7%e5%90%84%e6%a3%9f%e5%ae%bf%e8%88%8d%e4%bd%8f%e5%ae%bf%e8%b2%bb%e7%9a%86%e6%9c%89%e8%aa%bf%e6%95%b4/",
+        "date": "2026-03-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Application for Deferred Check-out – 2nd Semester of the 114 Academic Year (Spring 2026)",
+        "url": "https://dorm.sa.ntnu.edu.tw/application-for-deferred-check-out-2nd-semester-of-the-114-academic-year-spring-2026/",
+        "date": "2026-03-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115學年度學生宿舍第6次已遞補上宿舍名單115.6.17",
         "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e7%ac%ac6%e6%ac%a1%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a%e5%ae%bf%e8%88%8d%e5%90%8d%e5%96%ae115-6-17/",
         "date": "2026-06-17",
@@ -22719,27 +22740,6 @@
         "title": "114學年度暑期學生宿舍第7次已遞補上宿舍名單115.6.17",
         "url": "https://dorm.sa.ntnu.edu.tw/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%9a%91%e6%9c%9f%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e7%ac%ac7%e6%ac%a1%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a%e5%ae%bf%e8%88%8d%e5%90%8d%e5%96%ae115-6-17/",
         "date": "2026-06-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度研究生準新生申請114學年暑期宿舍已遞補上宿舍名單115.6.14",
-        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e7%a0%94%e7%a9%b6%e7%94%9f%e6%ba%96%e6%96%b0%e7%94%9f%e7%94%b3%e8%ab%8b114%e5%ad%b8%e5%b9%b4%e6%9a%91%e6%9c%9f%e5%ae%bf%e8%88%8d%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a/",
-        "date": "2026-06-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "學生住宿服務中心赴輔仁大學參訪 交流宿舍管理與學生自治實務",
-        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=24642#new_tab",
-        "date": "2026-06-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度學生宿舍第5次已遞補上宿舍名單115.6.10",
-        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e7%ac%ac5%e6%ac%a1%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a%e5%ae%bf%e8%88%8d%e5%90%8d%e5%96%ae115-6-10/",
-        "date": "2026-06-10",
         "date_label": "發布日期",
         "summary": ""
       }
