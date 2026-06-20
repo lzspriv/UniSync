@@ -24371,15 +24371,123 @@
   },
   "cks_news": {
     "label": "韓國學研究中心-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【獲獎名單】114學年度韓國學專題競賽",
+        "url": "https://www.cks.ntnu.edu.tw/index.php/2026/05/18/2026-k-studies-comp_result/",
+        "date": "2026-05-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獲獎名單】114學年度韓語演講競賽",
+        "url": "https://www.cks.ntnu.edu.tw/index.php/2026/05/18/114_k-speech-result/",
+        "date": "2026-05-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【決賽通知】114學年度韓國學專題競賽",
+        "url": "https://www.cks.ntnu.edu.tw/index.php/2026/04/30/2026-k-studies-comp_list/",
+        "date": "2026-04-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【決賽通知】114學年度韓語演講競賽",
+        "url": "https://www.cks.ntnu.edu.tw/index.php/2026/04/17/114_k-speech-list/",
+        "date": "2026-04-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動公告】2026年韓國文化祭",
+        "url": "https://www.cks.ntnu.edu.tw/index.php/2026/03/23/2026koreafestival/",
+        "date": "2026-03-23",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ceri_center_announcement": {
     "label": "教育研究與創新中心-中心公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2024/11/15【教育新視界：政策、實務與研究的知識創新】國際學術論壇-開放報名中",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/11/16/1131116/",
+        "date": "2024-11-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2022/08/17「重新審視教育均等與品質：理論與實務的對話國際研討會」開放報名中！",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2022/08/17/1110817/",
+        "date": "2022-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021/10/12「未來教育：教育公平、卓越與效能國際學術研討會 」開放報名中！",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2021/10/12/20211012/",
+        "date": "2021-10-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021/08/13「未來教育：教育公平、卓越與效能國際學術研討會 」摘要審核結果",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2021/08/13/20210813/",
+        "date": "2021-08-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021/04/07「未來教育：教育公平、卓越與效能國際學術研討會 」報名及徵稿啟事",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2021/05/12/20210407/",
+        "date": "2021-05-12",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ceri_journal_announcement": {
     "label": "教育研究與創新中心-期刊公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "當代教育研究季刊-臺灣幼兒發展調查資料庫（Kids in Taiwan, KIT）十周年專刊",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2026/02/11/1150211/",
+        "date": "2026-02-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2024/10/07 當代教育研究季刊【社會情緒學習研究：政策制定、教育實踐、與成效評估】徵稿",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/10/07/20241007/",
+        "date": "2024-10-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2024/08/07 當代教育研究季刊【數位科技與人工智慧於教育中的運用與挑戰】徵稿延至114/09/30",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/08/07/2024080702/",
+        "date": "2024-08-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "《當代教育研究季刊》最新出刊 28-4",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2021/01/25/journal28-4/",
+        "date": "2021-01-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "《當代教育研究季刊》2021特刊2「臺灣幼兒發展調查資料庫之應用」特刊徵稿(截稿日110/6/30)",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2021/01/25/journal1/",
+        "date": "2021-01-25",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ceri_project_news": {
     "label": "教育研究與創新中心-計畫消息",
@@ -24387,19 +24495,93 @@
   },
   "ceri_tank_column": {
     "label": "教育研究與創新中心-專欄",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【偏鄉教育】師生共情共好:從臺灣偏鄉學校看見社會情緒學習的迫切需求與在地實踐",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/04/23/1130423/",
+        "date": "2024-04-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【數位學習】臺灣PISA 2022",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/02/22/1130222-6/",
+        "date": "2024-02-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【幼兒教育】臺灣幼兒發展調查資料庫(KIT)：發現與應用",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/02/22/1130222-5/",
+        "date": "2024-02-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【科學教育】科技引領，輔助課程、教師、學生來開啟新視界",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/02/22/1130222-4/",
+        "date": "2024-02-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【運動科學】運動越來越科技、人才越來越跨域",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/02/22/1130222-3/",
+        "date": "2024-02-22",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ceri_tank_language_culture": {
     "label": "教育研究與創新中心-語言文化教育",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "109年12月24日【新台風、新雙語】記者會",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2022/04/07/1091224/",
+        "date": "2022-04-07",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ceri_tank_special_education": {
     "label": "教育研究與創新中心-特殊教育",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【特殊教育】偏鄉特殊教育，錢多就好嗎?",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/02/22/1130222-1/",
+        "date": "2024-02-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "109年11月30日【智能障礙學生大學教育的再造方案】記者會",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2022/04/06/1091130/",
+        "date": "2022-04-06",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ceri_tank_science_education": {
     "label": "教育研究與創新中心-科學教育",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【科學教育】科技引領，輔助課程、教師、學生來開啟新視界",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/02/22/1130222-4/",
+        "date": "2024-02-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "109年12月08日【國際數學與科學教育成就趨勢調查2019】(TIMSS 2019) 結果發表記者會",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2022/04/06/1091208/",
+        "date": "2022-04-06",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ceri_tank_usr": {
     "label": "教育研究與創新中心-大學社會責任",
@@ -24407,19 +24589,107 @@
   },
   "ceri_tank_early_childhood": {
     "label": "教育研究與創新中心-幼兒教育",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026/03/31 陪孩子走向幸福：臺師大揭曉臺灣兒童幸福感調查",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2026/04/02/1150331/",
+        "date": "2026-04-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113年04月02日【睡好·睡飽·寶寶發展好】記者會",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/04/09/1130402/",
+        "date": "2024-04-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【幼兒教育】臺灣幼兒發展調查資料庫(KIT)：發現與應用",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/02/22/1130222-5/",
+        "date": "2024-02-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "111年03月31日【善用3C．陪伴第一：許孩子一個美好未來】記者會",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2022/04/08/1110331/",
+        "date": "2022-04-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "110年03月30日【《家．園》共育-許孩子一個美好未來】記者會",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2022/04/08/1100330/",
+        "date": "2022-04-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ceri_tank_sports_science": {
     "label": "教育研究與創新中心-運動科學",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【運動科學】運動越來越科技、人才越來越跨域",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/02/22/1130222-3/",
+        "date": "2024-02-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "110年08月27日【臺師大精準運動科學助攻 幫助頂尖運動員爭取佳績】記者會",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2022/04/08/1100827/",
+        "date": "2022-04-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ceri_tank_overseas_policy": {
     "label": "教育研究與創新中心-僑教政策",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【僑教政策】升學關鍵，專業引路–僑生先修部升學輔導制度與理念",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/02/22/1130222-2/",
+        "date": "2024-02-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "110年11月04日【僑生先修部 X 教育智庫-專書發表會】",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2022/04/08/1101104/",
+        "date": "2022-04-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ceri_tank_rural_education": {
     "label": "教育研究與創新中心-偏鄉教育",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【偏鄉教育】師生共情共好:從臺灣偏鄉學校看見社會情緒學習的迫切需求與在地實踐",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/04/23/1130423/",
+        "date": "2024-04-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "111年08月08日【臺師大 X 花蓮縣政府教育處 合作備忘錄簽約儀式】",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2022/08/11/1110808/",
+        "date": "2022-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "111年02月23日【臺師大 X 臺東縣政府教育處 合作備忘錄簽約儀式】記者會",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2022/04/08/1110223/",
+        "date": "2022-04-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ceri_tank_exam_education": {
     "label": "教育研究與創新中心-考試與教育",
@@ -24427,123 +24697,1040 @@
   },
   "ceri_tank_curriculum_teacher": {
     "label": "教育研究與創新中心-新課綱與師資培育",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "111年07月05日【臺師大打造教師效能支持樞紐(TEACHub)，陪伴教師強化心理效能，促進專業成長】記者會",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2022/07/07/1110705/",
+        "date": "2022-07-07",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ceri_tank_digital_learning": {
     "label": "教育研究與創新中心-數位學習",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【數位學習】臺灣PISA 2022",
+        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/02/22/1130222-6/",
+        "date": "2024-02-22",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ime_teacher_training": {
     "label": "數學教育中心-教師培訓",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026/7/17(五) 第四期活動師培訓-臺北場(開放報名)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/06/18/2026-6-17-2/",
+        "date": "2026-06-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026/7/16(四) 第五期活動師培訓-臺北場(開放報名)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/06/18/2026-6-18-1/",
+        "date": "2026-06-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【工作坊報名】114學年度素養教學祕笈準講師培訓工作坊 – 國小組 6/5(五) 下午場",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/05/05/2026-05-05-2/",
+        "date": "2026-05-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【工作坊報名】114學年度素養教學秘笈準講師培訓工作坊 – 國中組第10、11場",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/05/05/2026-05-05/",
+        "date": "2026-05-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【工作坊報名】114學年度素養教學祕笈準講師培訓工作坊 – 國小組 5/18(一) 下午場",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/04/23/2026-04-13-3/",
+        "date": "2026-04-23",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ime_student_learning": {
     "label": "數學教育中心-學生學習活動",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "114學年度第2學期「數學素養教學實作」申請通過名單",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/04/13/2026-04-13/",
+        "date": "2026-04-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第2學期數學素養教學實作-申請公告",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/03/06/2026-3-6/",
+        "date": "2026-03-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第1學期「數學素養教學實作」申請通過名單",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2025/10/23/114-10-23/",
+        "date": "2025-10-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第1學期數學素養教學實作-申請公告",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2025/10/17/2025-10-17/",
+        "date": "2025-10-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【申請通過名單】114年度「好好玩數學營」暑假班",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2025/05/13/2025-05-13/",
+        "date": "2025-05-13",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ime_easy_think": {
     "label": "數學教育中心-易思＋思易",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "112學年度數學領域分區交流聯盟申請通過名單",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2023/09/15/112-09-15/",
+        "date": "2023-09-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "112學年度上學期易思基地教師培訓與教學實作工作坊申請通過名單",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2023/09/13/2023-09-13/",
+        "date": "2023-09-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "活動訊息：5月5日（五）數學領域輔導群「南區座談會」@嘉義縣中埔國民中學",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2023/04/18/2023-04-18-3/",
+        "date": "2023-04-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "活動訊息：3月17日（五）數學領域輔導群「中區座談會」@臺中大甲靜思堂",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2023/03/01/2023-03-01/",
+        "date": "2023-03-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "111學年度上學期易思基地教師培訓與教學實作工作坊申請通過名單",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2022/09/16/111%e5%ad%b8%e5%b9%b4%e5%ba%a6%e4%b8%8a%e5%ad%b8%e6%9c%9f%e6%98%93%e6%80%9d%e5%9f%ba%e5%9c%b0%e6%95%99%e5%b8%ab%e5%9f%b9%e8%a8%93%e8%88%87%e6%95%99%e5%ad%b8%e5%af%a6%e4%bd%9c%e5%b7%a5%e4%bd%9c/",
+        "date": "2022-09-16",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ime_junior_adaptive_grouping": {
     "label": "數學教育中心-國中適性分組",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "「110學年度國民中學英語及數學領域適性分組教學試辦計畫」審查結果",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2021/07/07/2021-07-07/",
+        "date": "2021-07-07",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ime_adaptive_transition": {
     "label": "數學教育中心-適性轉銜輔導",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026數理資優教師研習─AI時代中的跨域、轉銜、思辨：新世代的資優風景",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/04/13/2026-04-13-2/",
+        "date": "2026-04-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026臺師大午間數學沙龍─4/29林學庸副教授、5/27程之寧教授",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/04/10/2026-04-10/",
+        "date": "2026-04-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "女數學人小組午間沙龍： 遇見同行的你",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/01/06/2026-01-06/",
+        "date": "2026-01-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "數據×決策：2026 跨域實戰工作坊─從資安攻防到疫情預測 (2026/1/12-13)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2025/12/15/2025-12-15/",
+        "date": "2025-12-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【共同培育產業所需 AI 與數據人才】凌羣電腦12/10（週三）10:20–12:10",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2025/11/10/2025-11-10/",
+        "date": "2025-11-10",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ime_cmsmaa": {
     "label": "數學教育中心-數學科學應用",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "[Conference Announcement] The Second Workshop on Geometric Variational Problems, Geometric Measure Theory, and Related Topics",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/05/25/2026-05-25/",
+        "date": "2026-05-25",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ime_girls_science": {
     "label": "數學教育中心-女學生科學",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "她們的傳奇人生​ 10部女性科學家與數學家系列影片",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2022/10/31/2022-10-31-4/",
+        "date": "2022-10-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "她們的奮鬥人生 教育部拍攝10部女性科學家與數學家影片",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2022/10/31/2022-10-31-3/",
+        "date": "2022-10-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "她27歲拿法國博士！ 國教署影片介紹理工領域女性標竿人物",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2022/10/31/2022-10-31-2/",
+        "date": "2022-10-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "27歲法國博士「台師大最年輕女教授」 教育部拍攝女性科學家影片",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2022/10/31/2022-10-31/",
+        "date": "2022-10-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "提升國民中小學女學生科學學習興趣｜教案研討會",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2022/05/24/2022-05-24/",
+        "date": "2022-05-24",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ime_yan_xiaomei": {
     "label": "數學教育中心-閻小妹",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "閻小妹大戰數學魔受邀參加(4/21)日本動畫展",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2022/04/18/2022-04-18/",
+        "date": "2022-04-18",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ime_icag": {
     "label": "數學教育中心-iCAG天文幾何",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "活動訊息：Geospace and Solar System Exploration Workshop(2025/02/10-02/12)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2024/12/23/2024-12-23-3/",
+        "date": "2024-12-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "活動訊息：12/26 (四) 12:00~14:00Towards Large-Scale NV Quantum Applications(Hao-Cheng Weng)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2024/12/23/2024-12-23-2/",
+        "date": "2024-12-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "活動訊息：12/25 (三) 12:00~14:00Quantum complementarity: A novel resource for exclusion tasks(謝忠耘Chung-Yun Hsieh)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2024/12/23/2024-12-23-1/",
+        "date": "2024-12-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "活動訊息：12/20(五)Scalability enhancement of quantum computing under limited connectivity through distributed quantum computing [1] (Jun-Yi Wu)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2024/12/16/2024-12-16/",
+        "date": "2024-12-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "活動訊息：12/17(二)12:00-14:00Magnetism in the Dilute Electron Gas of Rhombohedral Multilayer Graphene(Chunli Huang)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2024/12/09/2024-12-09/",
+        "date": "2024-12-09",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ime_media_share": {
     "label": "數學教育中心-傳媒分享",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "從教案到成片：挑戰與支持",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2025/08/13/2025-08-13-2/",
+        "date": "2025-08-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "原來15分鐘的教學影片得來不易",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2025/08/13/2025-08-13/",
+        "date": "2025-08-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "就是要學好數學(JDM) 數學教師支持系統與共備社群",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2025/08/05/2025-08-05-3/",
+        "date": "2025-08-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "「就是要學好數學」計畫 支持數學教師與共備社群",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2025/08/05/2025-08-05-2/",
+        "date": "2025-08-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "數學讓人頭痛 教育部攜手台師大提升老師教學力",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2025/08/05/2025-08-05/",
+        "date": "2025-08-05",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ime_academic_exchange": {
     "label": "數學教育中心-學術交流",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "美國Southern Illinois University Kathy Pericak-Spector 名譽教授、美國 Clackamas Community College 數學講師蕭弘玫，以及美國加州高中數學教師 Michele Yee 參訪(2026.01.27)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/01/29/2026-01-29-2/",
+        "date": "2026-01-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "韓國Sungkyunkwan University Natanael Karjanto副教授參訪(2026.01.15)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2026/01/29/2026-01-29/",
+        "date": "2026-01-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "日本廣島、鹿兒島、滋賀大學教授一行蒞訪，進行中小學幾何教育研究交流，並簽署雙邊合作研究計畫。(2025.09.22)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2025/09/26/2025-09-26/",
+        "date": "2025-09-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "美國德拉瓦大學蔡金法教授與澳洲墨爾本大學Lynda Ball講師蒞訪，共探數教中心計畫成果(2025.05.18)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2025/06/03/2025-06-03/",
+        "date": "2025-06-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "加拿大Simon Fraser University Chorney S. 副教授參訪(2024.12.03)",
+        "url": "https://www.ime.ntnu.edu.tw/index.php/2024/12/09/2024-12-09-2/",
+        "date": "2024-12-09",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "irels_news": {
     "label": "學習科學跨國頂尖研究中心-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "[得獎資訊] 開發AI學習平台育奧賽選手 張俊彥獲國家講座",
+        "url": "https://www.cna.com.tw/news/ahel/202603230239.aspx",
+        "date": "2026-03-26",
+        "date_label": "發布日期",
+        "summary": "（中央社記者許秩維台北23日電）台師大講座教授張俊彥致力推動科教普及化，並帶領團隊開發雲端教室系統與AI學習平台，還曾多次帶領台灣選手在國際地球科學奧林匹亞競賽奪冠，獲選國家講座主持人。教育部今天舉行第29屆國家講座主持人、第8屆國家產學大師獎、第69屆學術獎頒獎典禮，由總統賴清德、行政院長卓榮泰擔...",
+        "show_summary": true
+      },
+      {
+        "title": "[研究成果] 跨界合作、樂齡無礙 科技系攜手金門啟動樂齡數位轉型新篇章",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=23475",
+        "date": "2025-05-08",
+        "date_label": "發布日期",
+        "summary": "面對臺灣邁入「超高齡社會」，高齡人口的健康促進與數位參與成為各界關注焦點。113年度行政院啟動「數位賦能科技計畫」，整合數位發展部、教育部、衛福部、經濟部與國科會等部會量能，盼透過數位科技導入日常生活，協助高齡者實現自主、健康、樂活的生活型態。 為回應此政策目標，國立臺灣師範大學科技應用與人力資源發...",
+        "show_summary": true
+      },
+      {
+        "title": "[得獎資訊] 賀！中心多位師長獲國科會學術研究獎項肯定",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=23419",
+        "date": "2025-05-08",
+        "date_label": "發布日期",
+        "summary": "國科會於4月29日舉行「學術研究獎項頒獎典禮」，表揚113年度「傑出特約研究員」、「傑出研究獎」以及「吳大猷先生紀念獎」的獲獎者。本中心有6位師長亦在獲獎之列，其學術成就備受肯定。 在這些獲獎者中，教育心理與輔導學系宋曜廷教授與科學教育研究所許瑛玿教授榮獲「傑出特約研究員」；體育與運動科學系張育愷教...",
+        "show_summary": true
+      },
+      {
+        "title": "[研究成果] Influence of emotional states on incongruity-resolution and nonsense humor processing (不一致情緒處理無厘頭幽默的認知影響)",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ijop.13235",
+        "date": "2025-04-14",
+        "date_label": "發布日期",
+        "summary": "陳學志教授與研究團隊探討不同情緒狀態對幽默處理的影響，聚焦於「不協調－解決」（incongruity-resolution）與「無厘頭幽默」（nonsense humor）。受試者依誘發的正向、中性與負向情緒分組後，評估笑話的趣味性、理解度與驚訝程度。結果顯示，正向情緒能提升對無意義幽默的欣賞，而負...",
+        "show_summary": true
+      },
+      {
+        "title": "[活動] 臺師大攜手新北打造AI自主學習平台「AISI」領航智慧教育新未來",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=23355",
+        "date": "2025-04-09",
+        "date_label": "發布日期",
+        "summary": "自主學習有AISI！國立臺灣師範大學學習科學跨國頂尖研究中心攜手新北市政府教育局，4月9日正式推出「愛思（AISI）」自主學習AI平台。有別於一般生成式AI對話系統，AISI是專業團隊精心訓練的教育工具，能給予學習者個別化指導架構，不只是給答案，而是能進一步引導深度思考、覺察學習歷程，並提升數位素養...",
+        "show_summary": true
+      }
+    ]
   },
   "cag_seminars": {
     "label": "天文與重力中心-演講公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "Geospace and Solar System Exploration Workshop 2026/April/14-17",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2026/04/13/geospace-and-solar-system-exploration-workshop-2026-april-14-17/",
+        "date": "2026-04-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "科普演講 春季場 2026/March/27",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2026/03/24/public-science-lecture-2026-march-27/",
+        "date": "2026-03-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[疫情專區] 線上學術資源",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2021/06/06/covid-special/",
+        "date": "2021-06-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[專題演講] 109-2 每隔週四中午舉辦",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2021/02/15/regular-seminar-zh/",
+        "date": "2021-02-15",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "cag_epo_events": {
     "label": "天文與重力中心-科普活動",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "科普演講 春季場 2026/March/27",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2026/03/24/public-science-lecture-2026-march-27/",
+        "date": "2026-03-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "天文台語課程 111/03/09,16,23",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2022/02/23/1110309/",
+        "date": "2022-02-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[疫情專區] 線上學術資源",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2021/06/06/covid-special/",
+        "date": "2021-06-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[諾貝爾物理獎得主演講] Didier Queloz (2021/May/25 18:00)",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2021/05/11/didier-queloz-2021-may-25/",
+        "date": "2021-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "cag_other_resources": {
     "label": "天文與重力中心-校外資源",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2025 NCTS 計算天文物理暑期學生計畫",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2025/03/10/2025-ncts-tca-summer-student-program-2/",
+        "date": "2025-03-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "UNAM-TAOvA 2024 Seminar: Protoplanetary Disk Formation Regulated by Nonideal Magnetohydrodynamics",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2024/03/19/unam-taova-2024-seminar-protoplanetary-disk-formation-regulated-by-nonideal-magnetohydrodynamics/",
+        "date": "2024-03-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[Application Open] 2024 TAOvA Summer Student Program",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2024/03/15/application-open-2024-taova-summer-student-program/",
+        "date": "2024-03-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "NCTS-TCA Summer Student Program 2024 理論計算天文暑期學校",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2024/03/15/ncts-tca-summer-student-program-2024/",
+        "date": "2024-03-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "台師大天文與重力中心與金門高中簽訂策略聯盟",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2022/09/01/kmhs/",
+        "date": "2022-09-01",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "cag_credit_program": {
     "label": "天文與重力中心-學分學程",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "111-2天文與重力學分學程，即日起教務系統開放申請至4/24(一)下午5時止",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2023/04/10/111-2_ag_credit_program/",
+        "date": "2023-04-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[學分學程聊聊天] 2023/Mar/28 中午12:30 師大公館物理學系-文薈廳 !歡迎報名參加!",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2023/03/20/credit_program_2023-mar-28/",
+        "date": "2023-03-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[學分學程說明會] 2021/May/20 中午12:30 線上說明會（含連結）",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2021/05/19/info-credit-program/",
+        "date": "2021-05-19",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "cag_job_offer": {
     "label": "天文與重力中心-徵才訊息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "地球科學系曾瑋玲教授徵聘國科會計畫專任研究助理",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2024/01/16/job-offer_es-research-assistant/",
+        "date": "2024-01-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[徵才]地科系李悅寧老師＆葉孟宛老師實驗室徵求計畫專任助理",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2023/01/26/assistant-job/",
+        "date": "2023-01-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[徵才] 國立台灣師範大學天文與重力中心徵求專任助理一名（即日起至額滿為止）",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2022/11/02/assistant-job-offer/",
+        "date": "2022-11-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[徵才] 國立台灣師範大學天文與重力中心徵求專任助理一名（May/31前）",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2022/05/05/0531/",
+        "date": "2022-05-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[徵才] 國立台灣師範大學地科系徵求天文台專任助理一名（May/31前）",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2021/05/15/job-offer-assistant/",
+        "date": "2021-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "cag_epo_articles": {
     "label": "天文與重力中心-科普文章",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "滷肉飯？爌肉飯？傻傻分不清楚 Stellar Initial Mass Function",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2021/10/11/initial_mass_function_ynlee/",
+        "date": "2021-10-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "搜尋系外衛星的搖籃",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2021/08/04/yalin2/",
+        "date": "2021-08-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "黑洞: 大與小",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2021/07/02/hypu3/",
+        "date": "2021-07-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "重力比一比",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2021/04/23/b1b/",
+        "date": "2021-04-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "非『理』勿視 — 黑洞的裸奇點與弱宇宙監督原理 II",
+        "url": "https://www.cag.ntnu.edu.tw/index.php/2021/04/16/fllin2/",
+        "date": "2021-04-16",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "gcwc_all": {
     "label": "全球華文寫作中心-所有公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026-06-11 第25屆紅樓現代文學獎——現代小說組取消獲獎資格及遞補公告",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/06/10/elementor-14413/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-06-10 2026第39屆師大梁實秋文學大師獎 徵獎辦法",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/06/10/elementor-14402/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-25 第25屆紅樓現代文學獎得獎名單公告",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/05/27/elementor-14370/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-08 2026人文季 梁實秋文學大師駐校作家專題演講：鄧鴻樹老師",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/05/08/elementor-14326/",
+        "date": "2026-05-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-06 【紅樓現代文學獎】第25屆紅樓現代文學獎決審入圍名單 ⠀",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/05/06/elementor-14300/",
+        "date": "2026-05-06",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "gcwc_activities": {
     "label": "全球華文寫作中心-中心活動講座快訊",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2024-09-12 野夫先生臺師大駐校作家專題演講【民間修史——我的家族故事與華族命運】",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2024/09/12/elementor-12182/",
+        "date": "2024-09-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2024人文季｜師大梁實秋文學大師駐校作家專題講座 【紅樓夢獎：世界華文長篇小說獎 vs. 師大梁實秋文學大師獎 首獎得主座談會】活動資訊",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2024/04/21/elementor-11838/",
+        "date": "2024-04-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2024人文季｜師大梁實秋文學大師駐校作家專題演講 黃瀚嶢老師【由荒入野——書寫的生態想像 】活動資訊",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2024/04/05/elementor-11769/",
+        "date": "2024-04-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2024人文季｜師大梁實秋文學大師駐校作家專題演講【譯作之生成：以《美國佬》與《樹冠上》為例】活動資訊",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2024/03/20/elementor-11582/",
+        "date": "2024-03-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2024人文季｜張系國老師系列活動｜科幻小說寫作工作坊",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2024/03/13/elementor-11537/",
+        "date": "2024-03-13",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "gcwc_literary_award": {
     "label": "全球華文寫作中心-文學獎專區",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026-03-20 師大梁實秋文學大師獎揭曉：林禹瑄、鄧鴻樹榮獲首獎 梁孫傑教授獲翻譯特別貢獻獎（師大新聞）",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/03/25/elementor-14249/",
+        "date": "2026-03-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-03-02 東大鄧鴻樹教授獲師大梁實秋翻譯大師獎首獎​（更生新聞網）",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/03/25/elementor-14230/",
+        "date": "2026-03-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-03-19 「夢遊的犀牛」叩問生命 作家林禹瑄獲梁實秋文學獎（中央通訊社）​",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/03/25/elementor-14221/",
+        "date": "2026-03-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-03-19 師大梁實秋文學大師獎 林禹瑄、鄧鴻樹分獲散文大師、翻譯大師首獎（自由藝文）",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/03/25/elementor-14209/",
+        "date": "2026-03-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-03-19師大梁實秋文學大師獎揭曉 林禹瑄、鄧鴻樹榮獲首獎（中時）",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/03/25/elementor-14202/",
+        "date": "2026-03-25",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "gcwc_lsc_news": {
     "label": "全球華文寫作中心-梁實秋文學大師獎-媒體報導",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026-03-20 師大梁實秋文學大師獎揭曉：林禹瑄、鄧鴻樹榮獲首獎 梁孫傑教授獲翻譯特別貢獻獎（師大新聞）",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/03/25/elementor-14249/",
+        "date": "2026-03-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-03-02 東大鄧鴻樹教授獲師大梁實秋翻譯大師獎首獎​（更生新聞網）",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/03/25/elementor-14230/",
+        "date": "2026-03-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-03-19 「夢遊的犀牛」叩問生命 作家林禹瑄獲梁實秋文學獎（中央通訊社）​",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/03/25/elementor-14221/",
+        "date": "2026-03-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-03-19 師大梁實秋文學大師獎 林禹瑄、鄧鴻樹分獲散文大師、翻譯大師首獎（自由藝文）",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/03/25/elementor-14209/",
+        "date": "2026-03-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-03-19師大梁實秋文學大師獎揭曉 林禹瑄、鄧鴻樹榮獲首獎（中時）",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2026/03/25/elementor-14202/",
+        "date": "2026-03-25",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "gcwc_external_activities": {
     "label": "全球華文寫作中心-相關活動分享",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【活動分享】2022陪伴力量大-閱讀月線上講座 12/10【楊牧的山風海雨】",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2022/12/05/2022-12-05/",
+        "date": "2022-12-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021-12-6 【協助宣傳】Young文學—國文起手式",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2021/12/06/20211206/",
+        "date": "2021-12-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2021-12-3 【協助宣傳】尉天驄文學紀念會——「對遠方的追尋．讀劇活動」",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2021/12/03/20211203/",
+        "date": "2021-12-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2020-11-05【文學獎訊息分享】第23屆臺北文學獎",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2020/11/05/%e3%80%90%e6%96%87%e5%ad%b8%e7%8d%8e%e8%a8%8a%e6%81%af%e5%88%86%e4%ba%ab%e3%80%91%e7%ac%ac23%e5%b1%86%e8%87%ba%e5%8c%97%e6%96%87%e5%ad%b8%e7%8d%8e/",
+        "date": "2020-11-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2020-11-02【活動代宣】臺南文學季-臺南文學營",
+        "url": "https://www.gcwc.ntnu.edu.tw/index.php/2020/11/02/20201102/",
+        "date": "2020-11-02",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "itsc_activities": {
     "label": "國際臺灣學研究中心-中心活動",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "跨學科的台灣與華語語系研究 2026年夏天演講系列",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/06/13/20260613/",
+        "date": "2026-06-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "性別作為對話的中介 – 臺灣經驗與世界經驗的交流：連結、創新、實踐",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/05/20/20260520/",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動宣傳】臺、法、加三校跨國Winter School課程招生",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2025/12/17/20251217-winter-school/",
+        "date": "2025-12-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【歡迎報名｜Contextualising Taiwanese Language Cinema】",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2025/10/28/contextualising-taiwanese-language-cinema/",
+        "date": "2025-10-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【歡迎報名】跨學科的台灣與華語語系研究演講系列",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2025/10/27/sinophone-studies-across-disciplines/",
+        "date": "2025-10-27",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "itsc_call_for_papers": {
     "label": "國際臺灣學研究中心-徵件訊息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【徵稿啟事】2026「Global Taiwan 全球臺灣」國際研討會",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/03/09/2026global-taiwan/",
+        "date": "2026-03-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵稿啟事】「台灣理論關鍵詞III」工作坊",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2025/09/22/20250922/",
+        "date": "2025-09-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵稿啟事】「世界裡的臺灣」國際研討會",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2025/07/31/20250731-2/",
+        "date": "2025-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵稿啟事】轉易、轉異、轉憶在世界裡的臺灣文學與臺灣給世界的經驗 跨領域國際研討會",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2025/07/31/20250731-1/",
+        "date": "2025-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【摘要徵稿】2022年第四屆台灣研究世界大會（2021/10/20止）",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2021/10/13/call-for-abstracts-the-4th-world-congress-of-taiwan-studies-due-october-20-2021zh/",
+        "date": "2021-10-13",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "itsc_related_info": {
     "label": "國際臺灣學研究中心-相關訊息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "國立臺灣師範大學「國際台灣學研究中心計畫」徵聘博士後研究員",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2025/06/17/20250617/",
+        "date": "2025-06-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【台語科普】YouTube頻道正式上線",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2025/02/05/20250205abouttaiwanese/",
+        "date": "2025-02-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【NTNU-UCLA】Invitation: UCLA Queering Taiwan Studies Conference, April 28-29",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2022/04/26/20220426-2/",
+        "date": "2022-04-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "CCKF-ERCCT Short-Term Resident Fellow Programme 2022",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2021/12/01/cckf-ercct-short-term-resident-fellow-programme-2022-2/",
+        "date": "2021-12-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "CCKF-ERCCT Visiting Fellow Programme – Summer 2022",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2021/12/01/cckf-ercct-visiting-fellow-programme-summer-2022-2/",
+        "date": "2021-12-01",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "mndirc_news": {
     "label": "微奈米元件檢測研究中心-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "DSC停機公告",
+        "url": "https://mndirc.cot.ntnu.edu.tw/news_info.php?sn=17",
+        "date": "2025-03-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "彭博謙同學獲得Best Oral Presentation of 2024 The 12th ACMME",
+        "url": "https://mndirc.cot.ntnu.edu.tw/news_info.php?sn=18",
+        "date": "2025-03-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "本中心各項儀器收費標準調整公告",
+        "url": "https://mndirc.cot.ntnu.edu.tw/news_info.php?sn=15",
+        "date": "2024-01-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "本中心發表兆赫波頻段性能之微奈米高分子複材光學元件開發期刊論文",
+        "url": "https://mndirc.cot.ntnu.edu.tw/news_info.php?sn=13",
+        "date": "2023-02-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "本中心調整XRD儀器收費公告",
+        "url": "https://mndirc.cot.ntnu.edu.tw/news_info.php?sn=9",
+        "date": "2022-12-20",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "swfs_news": {
     "label": "社會工作與家庭研究中心-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "承辦衛生福利部111年度（111-112年）－以家庭為中心之督導培力計畫【案例分享研討會】",
+        "url": "https://swfs.ntnu.edu.tw/Front/Latest-News/Latest-News-Course-Training/News.aspx?id=PrPAeVbJgjo=&Sn=1",
+        "date": "2023-05-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "承辦衛生福利部110年度 （110年-111年）－保護性社工督導專業職能訓練計畫【課程規劃公告】",
+        "url": "https://swfs.ntnu.edu.tw/Front/Latest-News/Latest-News-Course-Training/News.aspx?id=PrPAeVbJgjo=&Sn=3",
+        "date": "2021-10-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "承辦衛生福利部109年度－保護性社工督導進階訓練課程【9-10月課程簡章】",
+        "url": "https://swfs.ntnu.edu.tw/Front/Latest-News/Latest-News-Course-Training/News.aspx?id=PrPAeVbJgjo=&Sn=4",
+        "date": "2020-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "109年下半年課程主題預告－保護性社工督導訓練課程",
+        "url": "https://swfs.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=&Sn=2",
+        "date": "2020-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "承辦衛生福利部109年度－保護性社工督導初階訓練課程【7月課程簡章】",
+        "url": "https://swfs.ntnu.edu.tw/Front/Latest-News/Latest-News-Course-Training/News.aspx?id=PrPAeVbJgjo=&Sn=5",
+        "date": "2020-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "dacm_upcoming_events": {
     "label": "音樂數位典藏中心-活動預告",
@@ -24555,47 +25742,373 @@
   },
   "hakka_english_news": {
     "label": "客語與客家文化教學研究中心-English News",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "CALL FOR PAPERS: “Multilingual Archives, New Perspectives: China and the Sinophone World at the End of the Cold War” Symposium",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3805",
+        "date": "2026-05-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Hakka Program Class Schedule, 2nd Semester, Academic Year 114",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3550",
+        "date": "2025-12-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Academic Year 114 NTNU Hakka Program & NTU Hakka Club Miaoli Cultural Tour",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3373",
+        "date": "2025-11-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "The 10th Ministry of Education Taiwan Holo and Taiwan Hakka Literary Awards Call for Submissions",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3371",
+        "date": "2025-11-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "Academic Year 114 Taiwan Hakka Language Writing Training Camp (Central Taiwan Session)",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3368",
+        "date": "2025-11-20",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "hakka_center_announcement": {
     "label": "客語與客家文化教學研究中心-中心公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "客家委員會客家文化發展中心數位典藏資料庫簡介",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3823",
+        "date": "2026-06-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "hakka_chinese_news": {
     "label": "客語與客家文化教學研究中心-中文消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "臺北市115年度語文競賽",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3899",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "客家委員會客家文化發展中心數位典藏資料庫簡介",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3823",
+        "date": "2026-06-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "徵稿啟事：「多語檔案與新視野：冷戰結束時的中國與華語語系世界」國際學術研討會",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3815",
+        "date": "2026-05-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026 第十六屆「客家文化傳承與發展」學術研討會實施計畫",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3794",
+        "date": "2026-05-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026後生行世界客家實習計畫",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3788",
+        "date": "2026-05-26",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "hakka_academic_events": {
     "label": "客語與客家文化教學研究中心-學術活動",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "徵稿啟事：「多語檔案與新視野：冷戰結束時的中國與華語語系世界」國際學術研討會",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3815",
+        "date": "2026-05-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026 第十六屆「客家文化傳承與發展」學術研討會實施計畫",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3794",
+        "date": "2026-05-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026後生行世界客家實習計畫",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3788",
+        "date": "2026-05-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026客家串流：南洋實踐人才培育計畫｜徵選啟動！",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3736",
+        "date": "2026-05-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-2學期 「客話打嘴鼓」 客語聊天室",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3715",
+        "date": "2026-04-10",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "hakka_village_info": {
     "label": "客語與客家文化教學研究中心-客庄信息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026「頭份四月八 靚燈好客節」活動主視覺創意徵件",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3643",
+        "date": "2026-03-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺南市「2026凝視與傾聽：多元族群影展」",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3627",
+        "date": "2026-03-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115年度客語能力各級認證日程表",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3375",
+        "date": "2025-11-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺北客家青年串流計畫",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=1560",
+        "date": "2025-06-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "伯公照護站青年志工招募",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=1491",
+        "date": "2025-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "hakka_honor_roll": {
     "label": "客語與客家文化教學研究中心-榮譽榜單",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "客語學程同學榮獲客委會第一屆客語短劇比賽佳作",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3638",
+        "date": "2026-03-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度客話朗讀比賽 得獎名單公告",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3204",
+        "date": "2025-10-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2024 桐花營短影片競賽 得獎名單",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=526",
+        "date": "2025-03-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113 學年度客語朗讀競賽 得獎名單",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=523",
+        "date": "2025-03-07",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "hakka_activity_records": {
     "label": "客語與客家文化教學研究中心-活動紀實",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2025年中小學客語教師教學精進工作坊",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3385",
+        "date": "2025-11-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "深耕本土、接軌國際 文學院成立客語中心與韓國學中心",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=493",
+        "date": "2025-03-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "「 來自田野的歌聲 」 跨界音樂會",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=476",
+        "date": "2025-03-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "客家傳統文化饗宴：新丁粄製作活動",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=445",
+        "date": "2025-03-07",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "hakka_feature_events": {
     "label": "客語與客家文化教學研究中心-焦點活動",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "文院獅蹤記：AR探索趣",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3618",
+        "date": "2026-03-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-1 師大客語學程暨台大客家社苗栗客家文化參訪",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3325",
+        "date": "2025-11-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-1 學期 客語學程課堂演講",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3312",
+        "date": "2025-10-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025 桐花營正式開放報名",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3282",
+        "date": "2025-10-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114 學年第 1 學期「客話打嘴鼓」活動時間表",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3252",
+        "date": "2025-10-15",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "hakka_scholarship": {
     "label": "客語與客家文化教學研究中心-獎助學金",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "114-2 學期臺師大桐花獎學金",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3637",
+        "date": "2026-03-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-1 學期臺師大桐花獎學金",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=2508",
+        "date": "2025-07-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113-2 學期臺師大桐花獎學金",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=334",
+        "date": "2025-02-20",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "hakka_competition": {
     "label": "客語與客家文化教學研究中心-競賽公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "臺北市115年度語文競賽",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3899",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026後生行世界客家實習計畫",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3788",
+        "date": "2026-05-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "「 客家影像故事 」 徵件活動",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3783",
+        "date": "2026-05-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "「 2026南投學研討會：南投客蹤新聲 」 徵件及徵稿公告",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3755",
+        "date": "2026-05-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115年教育部「臺灣客語朗讀文章」徵稿活動",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3752",
+        "date": "2026-05-26",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "hakka_course_info": {
     "label": "客語與客家文化教學研究中心-課程資訊",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "客語學程 114 學年度第 2 學期課表",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=3547",
+        "date": "2025-12-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-1 客語學程 課程說明會",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=2934",
+        "date": "2025-09-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "客語學程 114 學年度第 1 學期課表",
+        "url": "https://www.hakka.ntnu.edu.tw/?p=1684",
+        "date": "2025-07-22",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "seed_news_announcement": {
     "label": "社會情緒發展研究中心-新聞公告",
