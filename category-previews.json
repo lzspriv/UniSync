@@ -5658,6 +5658,13 @@
     "label": "特殊教育學系-最新消息",
     "announcements": [
       {
+        "title": "本系115學年度第2學期「生活助學金」（協助系辦事務）自即日起至115/7/15（星期三）受理申請",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/23/1150623/",
+        "date": "2026-06-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "🥳特殊教育研究學刊Podcast第五集來啦✨",
         "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/10/1150610-3/",
         "date": "2026-06-10",
@@ -5682,13 +5689,6 @@
         "title": "115學年度課表（2026.06.08公告）",
         "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/08/1150608/",
         "date": "2026-06-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "研究生（博、碩、暑碩）論文口試辦理時間表",
-        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/05/01/",
-        "date": "2026-06-05",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -5698,6 +5698,13 @@
     "label": "特殊教育學系-系所公告",
     "announcements": [
       {
+        "title": "本系115學年度第2學期「生活助學金」（協助系辦事務）自即日起至115/7/15（星期三）受理申請",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/23/1150623/",
+        "date": "2026-06-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "🥳特殊教育研究學刊Podcast第五集來啦✨",
         "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/10/1150610-3/",
         "date": "2026-06-10",
@@ -5722,13 +5729,6 @@
         "title": "115學年度課表（2026.06.08公告）",
         "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/08/1150608/",
         "date": "2026-06-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "113學年度特殊教育學系師資培育生遞補甄選申請名單公告",
-        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/04/1150604/",
-        "date": "2026-06-04",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -20713,135 +20713,19 @@
   },
   "tecs_all": {
     "label": "師資培育學院-訊息公告-全部列表",
-    "announcements": [
-      {
-        "title": "師資培育學院115學年度第1學期教學助理申請",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=582",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "(5/27更新) 2027美國、新加坡【師資生國外教育見習計畫】甄選簡章",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=641",
-        "date": "2026-05-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【公告】115學年度教育學程課表",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=579",
-        "date": "2026-05-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【公告】114學年度第2學期師資生教學實務能力檢測獲獎暨通過名單",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=577",
-        "date": "2026-05-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【重要公告】115學年度教程甄選正備取名單及選課說明會",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=518",
-        "date": "2026-05-14",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_college": {
     "label": "師資培育學院-訊息公告-師資培育學院",
-    "announcements": [
-      {
-        "title": "【賀！】葉怡芬老師自114學年度第1學期起榮升教授！",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=590",
-        "date": "2025-06-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【賀！】柯琦老師自114學年度第1學期起榮升副教授！",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=589",
-        "date": "2025-06-23",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_curriculum": {
     "label": "師資培育學院-訊息公告-師資培育課程組",
-    "announcements": [
-      {
-        "title": "師資培育學院115學年度第1學期教學助理申請",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=582",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【公告】115學年度教育學程課表",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=579",
-        "date": "2026-05-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【重要公告】115學年度教程甄選正備取名單及選課說明會",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=518",
-        "date": "2026-05-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【申請首張教師證】擬於115年7月申請首張教師證書說明",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=526",
-        "date": "2026-05-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【公告】114-3學期暑期開課及115學年度「職業教育與訓練暨生涯規劃」課程開課調整",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=640",
-        "date": "2026-05-11",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_practicum": {
     "label": "師資培育學院-訊息公告-實習與地方輔導組",
-    "announcements": [
-      {
-        "title": "【公告】114學年度第2學期師資生教學實務能力檢測獲獎暨通過名單",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=577",
-        "date": "2026-05-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【111年9月30日新發布】師資培育之大學及教育實習機構辦理教育實習辦法",
-        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=H0050018",
-        "date": "2022-09-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【公告教育部函文】有關本土語文教育實習機構與教學實習輔導教師擇選一案",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=354",
-        "date": "2022-04-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【重要公告】實習期間不得參加教檢考試",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=171",
-        "date": "2018-09-17",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_international": {
     "label": "師資培育學院-訊息公告-國際師培推動組",
@@ -20922,43 +20806,7 @@
   },
   "sce_news": {
     "label": "進修推廣學院-最新消息",
-    "announcements": [
-      {
-        "title": "臺師大115年國民中學雙語教學在職教師增能學分班招生簡章",
-        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260610-104705",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【第二階段不開放報名】115學年度幼兒園在職人員修習幼兒園教師師資職前教育課程專班(幼教專班)第二階段報名公告",
-        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260610-185718",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "本校辦理115學年度偏遠地區學校學士後教育學分班招生，115年6月29日起至115年7月10日止，詳情請詳閱招生簡章",
-        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260604-101609",
-        "date": "2026-06-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "本校辦理115學年度偏遠地區學校學士後教育學分班(國民中學綜合活動領域童軍專長)招生，115年6月12日起至115年6月21日止，詳情請詳閱招生簡章",
-        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260525-095202",
-        "date": "2026-05-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大115年度教師在職進修專長增能學分班-社會情緒學習(SEL)招生簡章(第二次公告)",
-        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260525-103813",
-        "date": "2026-05-25",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "mtc_news": {
     "label": "國語教學中心-最新消息",
@@ -21810,135 +21658,19 @@
   },
   "rcemi_event_latest": {
     "label": "EMI教學資源中心-最新活動",
-    "announcements": [
-      {
-        "title": "115-1 EMI 教師專業社群",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/1/185",
-        "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "rcemi_event_history": {
     "label": "EMI教學資源中心-歷史活動",
-    "announcements": [
-      {
-        "title": "Developing TA Training for EMI Speaking Support: Design, Implementation, and Reflection",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/2/159",
-        "date": "2026-06-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "AI Applications for Effective EMI Teaching: Conversations from Practice",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/2/155",
-        "date": "2026-05-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "ESAP Curriculum Development: Diverse Contextual",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/2/153",
-        "date": "2026-04-27",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "Cross-University Open EMI Classroom Observation, Roundtable Discussion & AI Lecture",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/2/161",
-        "date": "2026-04-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114-2 OUTA 跨校公開觀議課、雙語聯盟圓桌會議、雙語聯盟AI講座",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/2/173",
-        "date": "2026-04-13",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "rcemi_event_news": {
     "label": "EMI教學資源中心-新聞",
-    "announcements": [
-      {
-        "title": "臺師大RCEMI辦理114-2學期EMI教師專業發展系列講座 聚焦OUTA實踐、AI應用、ESAP課程與TA口說支持",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/3/183",
-        "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大RCEMI串聯7校辦理17場EMI公開觀議課 建構跨校教師共學網絡",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/3/181",
-        "date": "2026-06-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大攜手澳洲新南威爾斯大學 推動EMI教師國際增能培訓",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/3/175",
-        "date": "2026-02-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "美國在台協會與臺師大EMI教學資源中心交流 持續深化資源連結與合作夥伴關係",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/3/147",
-        "date": "2025-12-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大打造雙語教師生態圈 AI融入教學示範亮眼",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/3/139",
-        "date": "2025-10-31",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "rcemi_event_forward": {
     "label": "EMI教學資源中心-活動轉知",
-    "announcements": [
-      {
-        "title": "【CAL】AI時代的心靈韌性：研究者的啟發與反思",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/145",
-        "date": "2025-11-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【教學發展中心】英語授課知能工作坊",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/129",
-        "date": "2025-09-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【教學發展中心】EMI世界咖啡館",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/87",
-        "date": "2025-05-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【OBE x CAL Talks】邏輯思辨 × 職場發展",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/73",
-        "date": "2025-04-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【CAL】輔導員伴寫時間",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/75",
-        "date": "2025-03-19",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "artmuse_news": {
     "label": "美術館-最新消息",
