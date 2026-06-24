@@ -3233,6 +3233,20 @@
     "label": "校友中心-最新消息",
     "announcements": [
       {
+        "title": "臺師大永續發展成果獲國際肯定 THE世界大學影響力排名大躍升",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4359&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-06-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "《終身樹人》林玉体：以教育史見證師大百年風華",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4358&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-06-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "第27屆磺溪美展傳捷報 臺師大美術系勇奪3首獎 17件獲獎作品展現跨媒材創作實力",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4356&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
         "date": "2026-06-17",
@@ -3250,20 +3264,6 @@
         "title": "因數結緣八十載 數緣共締情綿延 數學系歡慶創系八十周年",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4353&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
         "date": "2026-06-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大特教系學生何睿修榮獲2026總統教育獎 期許成為照亮特殊兒的一道光",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4350&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大衍生新創「沛德永續科技」亮相InnoVEX 以AI驅動紡織循環經濟技術獲國內外肯定",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4348&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-06-09",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -13455,6 +13455,13 @@
     "label": "運動競技學系-最新消息",
     "announcements": [
       {
+        "title": "2026-06-24【公告】2026本校共同暑休日，如需辦理相關業務請避開或提早辦理",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/06/24/2026-06-24/",
+        "date": "2026-06-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2026-06-22恭賀本系學士班李讓同學榮獲2026年印度新德里亞洲擊劍錦標賽男子銳劍個人賽『銀牌』獲得2026名古屋亞運參賽資格，為我國擊劍運動寫下嶄新里程碑。",
         "url": "https://www.ap.ntnu.edu.tw/index.php/2026/06/22/2026-06-22/",
         "date": "2026-06-22",
@@ -13481,19 +13488,19 @@
         "date": "2026-05-06",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "2026-04-29恭賀本系學士班鍾欣儒同學榮獲2026日本大學田徑公開賽女子400公尺跨欄『金牌』57秒46佳績刷新個人生涯最佳成績再次達到2026名古屋亞運參賽標準",
-        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/04/30/2026-04-29/",
-        "date": "2026-04-30",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "ap_affairs": {
     "label": "運動競技學系-系所公告",
     "announcements": [
+      {
+        "title": "2026-06-24【公告】2026本校共同暑休日，如需辦理相關業務請避開或提早辦理",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/06/24/2026-06-24/",
+        "date": "2026-06-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "2026-06-22恭賀本系學士班李讓同學榮獲2026年印度新德里亞洲擊劍錦標賽男子銳劍個人賽『銀牌』獲得2026名古屋亞運參賽資格，為我國擊劍運動寫下嶄新里程碑。",
         "url": "https://www.ap.ntnu.edu.tw/index.php/2026/06/22/2026-06-22/",
@@ -13518,13 +13525,6 @@
       {
         "title": "2026-04-29恭賀本系學士班鍾欣儒同學榮獲2026日本大學田徑公開賽女子400公尺跨欄『金牌』57秒46佳績刷新個人生涯最佳成績再次達到2026名古屋亞運參賽標準",
         "url": "https://www.ap.ntnu.edu.tw/index.php/2026/04/30/2026-04-29/",
-        "date": "2026-04-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026-04-30恭賀本系網球代表隊榮獲115年全國大專校院運動會公開男生組團體賽『金牌』(五連霸)",
-        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/04/30/2026-04-30/",
         "date": "2026-04-30",
         "date_label": "發布日期",
         "summary": ""
@@ -17228,16 +17228,16 @@
         "summary": ""
       },
       {
-        "title": "【活動轉知】南海仲裁案十年後：國際法與海洋秩序的再建構？",
-        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=學界動態&news02=7699907076a30ff2b83472",
-        "date": "2026-06-16",
+        "title": "東亞系客座教授Scott老師急徵暑期EMI課程TA，歡迎有興趣的同學與老師聯絡！",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=17507556426a3baec5013e8",
+        "date": "2026-06-24",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "114學年度第2學期期末課程意見調查",
-        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=1541649806a2d30c278724",
-        "date": "2026-06-11",
+        "title": "【活動轉知】南海仲裁案十年後：國際法與海洋秩序的再建構？",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=學界動態&news02=7699907076a30ff2b83472",
+        "date": "2026-06-16",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -17250,6 +17250,13 @@
         "title": "2026年東亞系X漢學所X政治所 系友回娘家",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=7564339276a33b4962ae82",
         "date": "2026-06-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "東亞系客座教授Scott老師急徵暑期EMI課程TA，歡迎有興趣的同學與老師聯絡！",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=17507556426a3baec5013e8",
+        "date": "2026-06-24",
         "date_label": "發布日期",
         "summary": ""
       },
@@ -17271,13 +17278,6 @@
         "title": "【公告】文學院耐震補強暨外牆整修及博愛大樓耐震補強工程學生說明會",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=9354108036a0d4f4b0d475",
         "date": "2026-05-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "東亞系暑期課程─中國與東南亞的國際關係",
-        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=1081381296a0bc38552ac4",
-        "date": "2026-05-19",
         "date_label": "發布日期",
         "summary": ""
       }
