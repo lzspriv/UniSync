@@ -2434,7 +2434,43 @@
   },
   "sls_news": {
     "label": "生命科學專業學院-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【演講資訊】6/5生態演化組專討 講者:黃曜謀博士",
+        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/05/15/news-5/",
+        "date": "2026-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115學年度大學申請入學─生命科學系第二階段】面試公告(5/15、5/16)",
+        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/05/11/news/",
+        "date": "2026-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115-2 校級赴外交換甄選】系統操作暨獎學金說明會(5/18實體+線上同步)",
+        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/05/08/news-10/",
+        "date": "2026-05-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【演講資訊】5/31(日)@師大和平校區綜合大樓《從生物科學走向多元寬廣的文化領域》文化部長/臺師大生科63級系友 李遠(小野)",
+        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/04/20/news-8/",
+        "date": "2026-04-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115年教師資格考試】4/9起已開始報名 ~ 4/16下午截止！",
+        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/04/10/news-3/",
+        "date": "2026-04-10",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "sls_speeches": {
     "label": "生命科學專業學院-演講公告",
