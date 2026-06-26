@@ -3176,9 +3176,9 @@
         "summary": ""
       },
       {
-        "title": "《終身樹人》吳連賞：從金門小島走向大學校長的教育人生",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24410",
-        "date": "2026-06-25",
+        "title": "【藍鵲引航．職輔共構】學術與生涯導師專業知能研習營登場",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24704",
+        "date": "2026-06-26",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -3187,6 +3187,14 @@
   "pr_chirpy": {
     "label": "公共事務中心-活動預告",
     "announcements": [
+      {
+        "title": "當 QT 遇見 AI：教學品質的共創與實踐",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10599",
+        "date": "2026-06-26",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-07-03 10:00 ~ 2026-07-03 16:10 / 地點：政大公企中心3樓A301CB教室（臺北市金華街187號）",
+        "show_summary": true
+      },
       {
         "title": "本校行政人員修課培訓課程補助",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10598",
@@ -3217,14 +3225,6 @@
         "date": "2026-06-24",
         "date_label": "新增日期",
         "summary": "活動時間：2026-06-29 13:12 ~ 2026-08-11 12:00 / 地點：圖書館校區",
-        "show_summary": true
-      },
-      {
-        "title": "Main Library: Updates to Study",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10594",
-        "date": "2026-06-24",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-06-29 09:58 ~ 2026-08-28 10:39 / 地點：圖書館",
         "show_summary": true
       }
     ]
@@ -5776,7 +5776,43 @@
   },
   "spe_award": {
     "label": "特殊教育學系-榮譽獎項",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "狂賀！賴妤甄(96級) 於2026全國身心障礙運動-聽障網球女子單打榮獲銀牌！聽障女子籃球榮獲銀牌！！！",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/01/1150601/",
+        "date": "2026-06-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "狂賀！特教碩林立翔於全國身心障礙運動會-游泳100公尺榮獲金牌！！！",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/05/27/11505274/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "狂賀！117級楊天筆於全國身心障礙運動會-田徑800公尺榮獲金牌！跨欄400公尺、田徑1500公尺榮獲銀牌！！！",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/05/27/11505273/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "狂賀！117級周彥廷於全國身心障礙運動會-游泳100公尺自由式榮獲銀牌！！！",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/05/27/11505272/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "狂賀！118級劉宗翰於全國身心障礙運動會-游泳50公尺自由式項目榮獲金牌！！！",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/05/27/11505271/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "spe_events": {
     "label": "特殊教育學系-活動演講",
@@ -19565,6 +19601,13 @@
     "label": "研究發展處-計畫徵求",
     "announcements": [
       {
+        "title": "【徵件】「117年國防先進科技研究計畫」方向規劃",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1102/-%E5%BE%B5%E4%BB%B6-117%E5%B9%B4%E5%9C%8B%E9%98%B2%E5%85%88%E9%80%B2%E7%A7%91%E6%8A%80%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-%E6%96%B9%E5%90%91%E8%A6%8F%E5%8A%83-16273846",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【教育部UAAT】115年度UAAT人才培育國際合作深化計畫校內徵件",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1102/-%E6%95%99%E8%82%B2%E9%83%A8UAAT-115%E5%B9%B4%E5%BA%A6UAAT%E4%BA%BA%E6%89%8D%E5%9F%B9%E8%82%B2%E5%9C%8B%E9%9A%9B%E5%90%88%E4%BD%9C%E6%B7%B1%E5%8C%96%E8%A8%88%E7%95%AB%E6%A0%A1%E5%85%A7%E5%BE%B5%E4%BB%B6-34782368",
         "date": "2026-06-25",
@@ -19589,13 +19632,6 @@
         "title": "【國科會】「前瞻技術產學合作計畫」徵求，自公告日起受理申請，採隨到隨審，請查照。",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1102/-%E5%9C%8B%E7%A7%91%E6%9C%83-%E5%89%8D%E7%9E%BB%E6%8A%80%E8%A1%93%E7%94%A2%E5%AD%B8%E5%90%88%E4%BD%9C%E8%A8%88%E7%95%AB-%E5%BE%B5%E6%B1%82-%E8%87%AA%E5%85%AC%E5%91%8A%E6%97%A5%E8%B5%B7%E5%8F%97%E7%90%86%E7%94%B3%E8%AB%8B-%E6%8E%A1%E9%9A%A8%E5%88%B0%E9%9A%A8%E5%AF%A9-%E8%AB%8B%E6%9F%A5%E7%85%A7-84711289",
         "date": "2026-06-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【國科會】2027-2029年「臺日（NSTC-RIKEN）雙邊協議國際合作研究計畫」",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1102/-%E5%9C%8B%E7%A7%91%E6%9C%83-2027-2029%E5%B9%B4-%E8%87%BA%E6%97%A5%EF%BC%88NSTC-RIKEN%EF%BC%89%E9%9B%99%E9%82%8A%E5%8D%94%E8%AD%B0%E5%9C%8B%E9%9A%9B%E5%90%88%E4%BD%9C%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-40212077",
-        "date": "2026-06-23",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -19784,6 +19820,13 @@
     "label": "研究推動組-計畫徵求公告",
     "announcements": [
       {
+        "title": "【徵件】「117年國防先進科技研究計畫」方向規劃",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news2/-%E5%BE%B5%E4%BB%B6-117%E5%B9%B4%E5%9C%8B%E9%98%B2%E5%85%88%E9%80%B2%E7%A7%91%E6%8A%80%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-%E6%96%B9%E5%90%91%E8%A6%8F%E5%8A%83-16273846",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【國科會】2027-2029年「臺日（NSTC-RIKEN）雙邊協議國際合作研究計畫」",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news2/-%E5%9C%8B%E7%A7%91%E6%9C%83-2027-2029%E5%B9%B4-%E8%87%BA%E6%97%A5%EF%BC%88NSTC-RIKEN%EF%BC%89%E9%9B%99%E9%82%8A%E5%8D%94%E8%AD%B0%E5%9C%8B%E9%9A%9B%E5%90%88%E4%BD%9C%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-40212077",
         "date": "2026-06-23",
@@ -19808,13 +19851,6 @@
         "title": "【國科會】國科會與愛丁堡皇家學會（RSE）共同徵求2026年度雙邊研討會",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news2/-%E5%9C%8B%E7%A7%91%E6%9C%83-%E5%9C%8B%E7%A7%91%E6%9C%83%E8%88%87%E6%84%9B%E4%B8%81%E5%A0%A1%E7%9A%87%E5%AE%B6%E5%AD%B8%E6%9C%83%EF%BC%88RSE%EF%BC%89%E5%85%B1%E5%90%8C%E5%BE%B5%E6%B1%822026%E5%B9%B4%E5%BA%A6%E9%9B%99%E9%82%8A%E7%A0%94%E8%A8%8E%E6%9C%83-78202078",
         "date": "2026-06-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【國科會】116年度全國性學術團體辦理學術推廣業務計畫補助案",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news2/-%E5%9C%8B%E7%A7%91%E6%9C%83-116%E5%B9%B4%E5%BA%A6%E5%85%A8%E5%9C%8B%E6%80%A7%E5%AD%B8%E8%A1%93%E5%9C%98%E9%AB%94%E8%BE%A6%E7%90%86%E5%AD%B8%E8%A1%93%E6%8E%A8%E5%BB%A3%E6%A5%AD%E5%8B%99%E8%A8%88%E7%95%AB%E8%A3%9C%E5%8A%A9%E6%A1%88-40049439",
-        "date": "2026-06-03",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -19918,6 +19954,13 @@
         "summary": ""
       },
       {
+        "title": "【徵件】「117年國防先進科技研究計畫」方向規劃",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/showepaper/-%E5%BE%B5%E4%BB%B6-117%E5%B9%B4%E5%9C%8B%E9%98%B2%E5%85%88%E9%80%B2%E7%A7%91%E6%8A%80%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-%E6%96%B9%E5%90%91%E8%A6%8F%E5%8A%83-16273846",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【教育部UAAT】115年度UAAT人才培育國際合作深化計畫校內徵件",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/showepaper/-%E6%95%99%E8%82%B2%E9%83%A8UAAT-115%E5%B9%B4%E5%BA%A6UAAT%E4%BA%BA%E6%89%8D%E5%9F%B9%E8%82%B2%E5%9C%8B%E9%9A%9B%E5%90%88%E4%BD%9C%E6%B7%B1%E5%8C%96%E8%A8%88%E7%95%AB%E6%A0%A1%E5%85%A7%E5%BE%B5%E4%BB%B6-34782368",
         "date": "2026-06-25",
@@ -19928,13 +19971,6 @@
         "title": "【教育部UAAT】2026-2027美國德州農工大學系統（TAMUS）聯合研究計畫徵案公告",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/showepaper/-%E6%95%99%E8%82%B2%E9%83%A8UAAT-2026-2027%E7%BE%8E%E5%9C%8B%E5%BE%B7%E5%B7%9E%E8%BE%B2%E5%B7%A5%E5%A4%A7%E5%AD%B8%E7%B3%BB%E7%B5%B1%EF%BC%88TAMUS%EF%BC%89%E8%81%AF%E5%90%88%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB%E5%BE%B5%E6%A1%88%E5%85%AC%E5%91%8A-35329225",
         "date": "2026-06-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【國科會】國科會來函修正「前瞻技術產學合作計畫徵求公告」，請查照。",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/showepaper/-%E5%9C%8B%E7%A7%91%E6%9C%83-%E5%9C%8B%E7%A7%91%E6%9C%83%E4%BE%86%E5%87%BD%E4%BF%AE%E6%AD%A3-%E5%89%8D%E7%9E%BB%E6%8A%80%E8%A1%93%E7%94%A2%E5%AD%B8%E5%90%88%E4%BD%9C%E8%A8%88%E7%95%AB%E5%BE%B5%E6%B1%82%E5%85%AC%E5%91%8A-%E8%AB%8B%E6%9F%A5%E7%85%A7-66115661",
-        "date": "2026-06-24",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -22304,9 +22340,9 @@
         "summary": ""
       },
       {
-        "title": "內政部公告 300 億元租金補貼自 115 年起不再接受無稅籍或未保存登記建物之新案申請",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/04/16/%e5%85%a7%e6%94%bf%e9%83%a8%e5%85%ac%e5%91%8a-300-%e5%84%84%e5%85%83%e7%a7%9f%e9%87%91%e8%a3%9c%e8%b2%bc/",
-        "date": "2026-04-16",
+        "title": "115年度300億元中央擴大租金補貼專案",
+        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/05/05/115%e5%b9%b4%e5%ba%a6300%e5%84%84%e5%85%83%e4%b8%ad%e5%a4%ae%e6%93%b4%e5%a4%a7%e7%a7%9f%e9%87%91%e8%a3%9c%e8%b2%bc%e5%b0%88%e6%a1%88/",
+        "date": "2026-05-05",
         "date_label": "發布日期",
         "summary": ""
       }
