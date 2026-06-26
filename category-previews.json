@@ -3148,13 +3148,6 @@
     "label": "公共事務中心-師大新聞",
     "announcements": [
       {
-        "title": "資訊工程 × 地球科學 x 公共衛生 跨域合作 AI揭露臺灣心血管疾病高風險環境型態",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24694",
-        "date": "2026-06-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "臺師大永續發展成果獲國際肯定 THE世界大學影響力排名大躍升",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24696",
         "date": "2026-06-26",
@@ -3171,6 +3164,13 @@
       {
         "title": "印尼希望之光大學來訪臺師大教育學院 討論AI時代卓越教育之道",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24701",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "影音》臺師大深化日本高教交流 日籍學生來臺就讀逐年成長",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24702",
         "date": "2026-06-26",
         "date_label": "發布日期",
         "summary": ""
@@ -5658,6 +5658,13 @@
     "label": "特殊教育學系-最新消息",
     "announcements": [
       {
+        "title": "國立臺灣師範大學特殊教育學系徵聘專任(專案)教師公告(20260814截止)",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/26/1150626-2/",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "🤩特殊教育研究學刊Podcast第六集來啦✨",
         "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/26/1150626/",
         "date": "2026-06-26",
@@ -5681,13 +5688,6 @@
       {
         "title": "本系書卷獎同名次參酌順序",
         "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/10/1150610-2/",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "國立臺灣師範大學特殊教育學系甄選 115 學年度花蓮縣師資培育公費生甄試（口試）名單",
-        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/10/1150610/",
         "date": "2026-06-10",
         "date_label": "發布日期",
         "summary": ""
@@ -5776,43 +5776,7 @@
   },
   "spe_award": {
     "label": "特殊教育學系-榮譽獎項",
-    "announcements": [
-      {
-        "title": "狂賀！賴妤甄(96級) 於2026全國身心障礙運動-聽障網球女子單打榮獲銀牌！聽障女子籃球榮獲銀牌！！！",
-        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/01/1150601/",
-        "date": "2026-06-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "狂賀！特教碩林立翔於全國身心障礙運動會-游泳100公尺榮獲金牌！！！",
-        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/05/27/11505274/",
-        "date": "2026-05-27",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "狂賀！117級楊天筆於全國身心障礙運動會-田徑800公尺榮獲金牌！跨欄400公尺、田徑1500公尺榮獲銀牌！！！",
-        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/05/27/11505273/",
-        "date": "2026-05-27",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "狂賀！117級周彥廷於全國身心障礙運動會-游泳100公尺自由式榮獲銀牌！！！",
-        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/05/27/11505272/",
-        "date": "2026-05-27",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "狂賀！118級劉宗翰於全國身心障礙運動會-游泳50公尺自由式項目榮獲金牌！！！",
-        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/05/27/11505271/",
-        "date": "2026-05-27",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "spe_events": {
     "label": "特殊教育學系-活動演講",
@@ -5898,6 +5862,13 @@
     "label": "特殊教育學系-其他訊息",
     "announcements": [
       {
+        "title": "國立臺灣師範大學特殊教育學系徵聘專任(專案)教師公告(20260814截止)",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/26/1150626-2/",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "財團法人台灣設計研究院於10月1日至10月22日下午5時整，辦理「2025-2026第十二屆新一代設計產學合作 ─ 學生徵件」，歡迎同學報名！",
         "url": "https://spe-girc.ntnu.edu.tw/index.php/2025/09/15/1140915/",
         "date": "2025-09-15",
@@ -5922,13 +5893,6 @@
         "title": "【轉貼·分享】唐氏症基金會、唐氏症關愛者協會攜手國立臺灣師範大學特殊教育系合作辦理2025小唐夏令營",
         "url": "https://spe-girc.ntnu.edu.tw/index.php/2025/07/03/1140703/",
         "date": "2025-07-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【轉貼·分享】桃園市政府社會局委託辦理「特殊需求兒童及少年團體家庭」生活輔導員招募資訊",
-        "url": "https://spe-girc.ntnu.edu.tw/index.php/2023/07/31/1120731/",
-        "date": "2023-07-31",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -7044,7 +7008,7 @@
     "announcements": [
       {
         "title": "115學年度新生住宿申請時程表",
-        "url": "https://www.glis.ntnu.edu.tw/index.php/2026/05/18/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%96%b0%e7%94%9f%e4%bd%8f%e5%ae%bf%e7%94%b3%e8%ab%8b%e6%99%82%e7%a8%8b%e8%a1%a8/",
+        "url": "https://www.glis.ntnu.edu.tw/index.php/2026/05/18/001-208/",
         "date": "2026-05-18",
         "date_label": "發布日期",
         "summary": ""
@@ -9682,6 +9646,13 @@
     "label": "翻譯研究所-最新消息",
     "announcements": [
       {
+        "title": "【招生公告】115學年度翻譯研究所「軍事口譯碩士在職專班」複試公告延期",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/26/20260626-rha/",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【招生公告】翻譯研究所115學年度逕讀博士班招生簡章",
         "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/01/115-direct-pursuit-of-doctoral-degree/",
         "date": "2026-06-01",
@@ -9708,19 +9679,19 @@
         "date": "2026-05-06",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "[五周密集班]115年第1期【中英會議口譯基礎訓練】周六班 [未開班成功]",
-        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/04/15/115-1ci/",
-        "date": "2026-04-15",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "giti_dept": {
     "label": "翻譯研究所-系所公告",
     "announcements": [
+      {
+        "title": "【招生公告】115學年度翻譯研究所「軍事口譯碩士在職專班」複試公告延期",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/26/20260626-rha/",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "【招生公告】翻譯研究所115學年度逕讀博士班招生簡章",
         "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/01/115-direct-pursuit-of-doctoral-degree/",
@@ -9746,13 +9717,6 @@
         "title": "【重要公告】114-2碩士學位考-論文研究計畫書通過名單",
         "url": "https://www.giti.ntnu.edu.tw/index.php/2026/04/07/1142proposal/",
         "date": "2026-04-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115-1【筆譯二周基礎班】電玩翻譯(英-中) – 【未開班成功】",
-        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/03/12/115-1basic-translation-training-video-game-localization/",
-        "date": "2026-03-12",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -9802,6 +9766,13 @@
     "label": "翻譯研究所-招生公告",
     "announcements": [
       {
+        "title": "【招生公告】115學年度翻譯研究所「軍事口譯碩士在職專班」複試公告延期",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/26/20260626-rha/",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【招生公告】翻譯研究所115學年度逕讀博士班招生簡章",
         "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/01/115-direct-pursuit-of-doctoral-degree/",
         "date": "2026-06-01",
@@ -9826,13 +9797,6 @@
         "title": "【招生公告】2026年秋季班國際學生面試名單暨應考時間表",
         "url": "https://www.giti.ntnu.edu.tw/index.php/2026/03/10/fall_interview_2026/",
         "date": "2026-03-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【招生公告】115學年度翻譯研究所-碩士班招生《口試名單》與《相關資訊》",
-        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/03/05/115master/",
-        "date": "2026-03-05",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -9962,6 +9926,13 @@
     "label": "臺灣史研究所-最新消息",
     "announcements": [
       {
+        "title": "【活動轉知】2026 權利回復基金會系列講座",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/06/26/2026-06-26-01/",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "狂賀！本所研究生李秦、李維銘榮獲115學年清全獎學金",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/06/11/115qq/",
         "date": "2026-06-11",
@@ -9985,13 +9956,6 @@
       {
         "title": "狂賀！本所畢業生陳浥潔榮獲115年國家人權博物館研究徵件碩士學位論文出版",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/06/10/202606102/",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【獎助轉知】「2026年曹永和文教基金會臺灣史與海洋史博碩士論文出版獎助」",
-        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/06/10/2026-06-10-01/",
         "date": "2026-06-10",
         "date_label": "發布日期",
         "summary": ""
@@ -10202,6 +10166,13 @@
     "label": "臺灣史研究所-相關活動",
     "announcements": [
       {
+        "title": "【活動轉知】2026 權利回復基金會系列講座",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/06/26/2026-06-26-01/",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【獎助轉知】「2026年曹永和文教基金會臺灣史與海洋史博碩士論文出版獎助」",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/06/10/2026-06-10-01/",
         "date": "2026-06-10",
@@ -10226,13 +10197,6 @@
         "title": "【活動轉知】同行：轉型正義行動者培力工作坊",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/05/25/2026-05-25-01/",
         "date": "2026-05-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動轉知】從扶南到嶺南：東南亞的物質流動與區域連結國際研討會",
-        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/05/18/2026-05-18-01/",
-        "date": "2026-05-18",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -17221,6 +17185,13 @@
         "summary": ""
       },
       {
+        "title": "2026第十一屆青年儒學營報名",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=11457102796a3e170ae11ca",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "東亞系客座教授Scott老師急徵暑期EMI課程TA，歡迎有興趣的同學與老師聯絡！",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=17507556426a3baec5013e8",
         "date": "2026-06-24",
@@ -17233,13 +17204,6 @@
         "date": "2026-06-23",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "【活動轉知】南海仲裁案十年後：國際法與海洋秩序的再建構？",
-        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=學界動態&news02=7699907076a30ff2b83472",
-        "date": "2026-06-16",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
@@ -17250,6 +17214,13 @@
         "title": "2026年東亞系X漢學所X政治所 系友回娘家",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=7564339276a33b4962ae82",
         "date": "2026-06-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026第十一屆青年儒學營報名",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=11457102796a3e170ae11ca",
+        "date": "2026-06-26",
         "date_label": "發布日期",
         "summary": ""
       },
@@ -17271,13 +17242,6 @@
         "title": "“婆羅洲！婆羅洲！文學、歷史、風土”講座",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=14421276046a1fea4874174",
         "date": "2026-06-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【公告】文學院耐震補強暨外牆整修及博愛大樓耐震補強工程學生說明會",
-        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=9354108036a0d4f4b0d475",
-        "date": "2026-05-20",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -22272,6 +22236,13 @@
     "label": "公館校區學務組-最新消息",
     "announcements": [
       {
+        "title": "房東安心租屋⼩叮嚀",
+        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/26/%e6%88%bf%e6%9d%b1%e5%ae%89%e5%bf%83%e7%a7%9f%e5%b1%8b%e2%bc%a9%e5%8f%ae%e5%9a%80/",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "安全租屋123",
         "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/10/%e5%ae%89%e5%85%a8%e7%a7%9f%e5%b1%8b123-2/",
         "date": "2026-06-10",
@@ -22298,19 +22269,19 @@
         "date": "2026-06-05",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "內政部公告 300 億元租金補貼自 115 年起不再接受無稅籍或未保存登記建物之新案申請",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/04/16/%e5%85%a7%e6%94%bf%e9%83%a8%e5%85%ac%e5%91%8a-300-%e5%84%84%e5%85%83%e7%a7%9f%e9%87%91%e8%a3%9c%e8%b2%bc/",
-        "date": "2026-04-16",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "honorscollege_rent": {
     "label": "公館校區學務組-校外賃居",
     "announcements": [
+      {
+        "title": "房東安心租屋⼩叮嚀",
+        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/26/%e6%88%bf%e6%9d%b1%e5%ae%89%e5%bf%83%e7%a7%9f%e5%b1%8b%e2%bc%a9%e5%8f%ae%e5%9a%80/",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "安全租屋123",
         "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/10/%e5%ae%89%e5%85%a8%e7%a7%9f%e5%b1%8b123-2/",
@@ -22336,13 +22307,6 @@
         "title": "內政部公告 300 億元租金補貼自 115 年起不再接受無稅籍或未保存登記建物之新案申請",
         "url": "https://honorscollege.sa.ntnu.edu.tw/2026/04/16/%e5%85%a7%e6%94%bf%e9%83%a8%e5%85%ac%e5%91%8a-300-%e5%84%84%e5%85%83%e7%a7%9f%e9%87%91%e8%a3%9c%e8%b2%bc/",
         "date": "2026-04-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "校園安全公告-防範一氧化碳中毒",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2025/11/28/%e6%a0%a1%e5%9c%92%e5%ae%89%e5%85%a8%e5%85%ac%e5%91%8a-%e9%98%b2%e7%af%84%e4%b8%80%e6%b0%a7%e5%8c%96%e7%a2%b3%e4%b8%ad%e6%af%92/",
-        "date": "2025-11-28",
         "date_label": "發布日期",
         "summary": ""
       }
