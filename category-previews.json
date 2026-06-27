@@ -13453,47 +13453,443 @@
   },
   "ap_news": {
     "label": "運動競技學系-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026-06-24【公告】2026本校共同暑休日，如需辦理相關業務請避開或提早辦理",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/06/24/2026-06-24/",
+        "date": "2026-06-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-06-22恭賀本系學士班李讓同學榮獲2026年印度新德里亞洲擊劍錦標賽男子銳劍個人賽『銀牌』獲得2026名古屋亞運參賽資格，為我國擊劍運動寫下嶄新里程碑。",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/06/22/2026-06-22/",
+        "date": "2026-06-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-06-10國立臺灣師範大學運動競技學系學士班115 學年度二年級轉學生口試公告",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/06/10/2026-06-10/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-06-05國立臺灣師範大學運動競技學系114學年度第2學期「競技 Show Time! 英語短影音大賽 Speak Out to Win!」得獎名單公告",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/06/05/2026-05-05/",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-06 競技 Show Time! 英語短影音大賽Speak Out to Win !",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/05/06/2026-05-06/",
+        "date": "2026-05-06",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ap_affairs": {
     "label": "運動競技學系-系所公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026-06-24【公告】2026本校共同暑休日，如需辦理相關業務請避開或提早辦理",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/06/24/2026-06-24/",
+        "date": "2026-06-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-06-22恭賀本系學士班李讓同學榮獲2026年印度新德里亞洲擊劍錦標賽男子銳劍個人賽『銀牌』獲得2026名古屋亞運參賽資格，為我國擊劍運動寫下嶄新里程碑。",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/06/22/2026-06-22/",
+        "date": "2026-06-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-06-05國立臺灣師範大學運動競技學系114學年度第2學期「競技 Show Time! 英語短影音大賽 Speak Out to Win!」得獎名單公告",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/06/05/2026-05-05/",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-06 競技 Show Time! 英語短影音大賽Speak Out to Win !",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/05/06/2026-05-06/",
+        "date": "2026-05-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-04-29恭賀本系學士班鍾欣儒同學榮獲2026日本大學田徑公開賽女子400公尺跨欄『金牌』57秒46佳績刷新個人生涯最佳成績再次達到2026名古屋亞運參賽標準",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/04/30/2026-04-29/",
+        "date": "2026-04-30",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ap_admission": {
     "label": "運動競技學系-招生公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026-03-11115學年度國立臺灣師範大學運動競技學系單獨招生考試考生注意事項",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/03/11/2026-03-11/",
+        "date": "2026-03-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-02-04國立臺灣師範大學運動競技學系115 學年度碩士班 競技訓練與表現組考試招生口試公告",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/02/04/2026-02-04/",
+        "date": "2026-02-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-10-29國立臺灣師範大學運動競技學系115學年度碩士班 運動科學與技術組甄試口試公告",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2025/10/29/2025-10-29/",
+        "date": "2025-10-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-10-24國立臺灣師範大學運動競技學系115學年度碩士班甄試考試 複試階段視訊口試申請表",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2025/10/23/2025-10-24/",
+        "date": "2025-10-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-10-23國立臺灣師範大學運動競技學系115 學年度碩士班 競技訓練與表現組甄試口試公告",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2025/10/23/2025-10-23/",
+        "date": "2025-10-23",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ap_new_student": {
     "label": "運動競技學系-新生快訊",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2025-09-02運動競技系師生大集合揭開新學期序幕 臺師大宣布四大措施 助學生兼顧課業與運動",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2025/09/02/2025-09-02/",
+        "date": "2025-09-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-07-01運動競技學系學生申訴事宜",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2025/08/13/2025-07-01/",
+        "date": "2025-08-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2024-06-13 113學年度運動競技學系課表",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2024/06/13/2024-06-13/",
+        "date": "2024-06-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2024-05-30National Taiwan Normal University Outstanding International Students at Department of Sport and Kinesiology Undergraduate Program in English (UPE) Accepted List",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2024/05/30/2024-05-30/",
+        "date": "2024-05-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2023-09-21預祝本系參與杭州亞洲運動會(Hangzhou 2022 Asian Games)選手旗開得勝勇奪佳績",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2023/09/22/2023-09-21/",
+        "date": "2023-09-22",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ap_recruitment": {
     "label": "運動競技學系-徵人訊息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2025-08-28國立臺灣師範大學運動競技學系專任助理教授級以上專業技術人員甄選公告",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2025/09/02/2025-08-28/",
+        "date": "2025-09-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-08-29國立臺灣師範大學運動競技學系約聘教師甄選公告",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2025/09/02/2025-08-29/",
+        "date": "2025-09-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-05-23林口康橋國際高中114學年第一次教師甄選簡章(國文、體育)",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2025/05/23/2025-05-23/",
+        "date": "2025-05-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-03-21國立臺灣師範大學運動競技學系徵求第六任系主任候選人公告",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2025/03/21/2025-03-21/",
+        "date": "2025-03-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2024-05-10 國立臺灣師範大學運動競技學系約聘教師甄選公告",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2024/05/10/2024-05-10/",
+        "date": "2024-05-10",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ap_seminar": {
     "label": "運動競技學系-演講公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2025-09-02運動競技系師生大集合揭開新學期序幕 臺師大宣布四大措施 助學生兼顧課業與運動",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2025/09/02/2025-09-02/",
+        "date": "2025-09-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-09-01肌力體能訓練工作坊",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2025/09/02/2025-09-01/",
+        "date": "2025-09-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-03-12新北市立十三行博物館「運動競化論：古代生活與現代競技特展」3月份「運動競技與健康」講座",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2025/03/12/2025-03-12/",
+        "date": "2025-03-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2025-03-11大阪公立大學都市健康與運動研究中心學術交流會",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2025/03/11/2025-03-11/",
+        "date": "2025-03-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2023-05-09本系跨域學習演講『注重探索及適應能力的非線性教學法』",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2023/05/09/2023-05-09/",
+        "date": "2023-05-09",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ap_competition": {
     "label": "運動競技學系-競賽活動",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026-06-22恭賀本系學士班李讓同學榮獲2026年印度新德里亞洲擊劍錦標賽男子銳劍個人賽『銀牌』獲得2026名古屋亞運參賽資格，為我國擊劍運動寫下嶄新里程碑。",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/06/22/2026-06-22/",
+        "date": "2026-06-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-06-05國立臺灣師範大學運動競技學系114學年度第2學期「競技 Show Time! 英語短影音大賽 Speak Out to Win!」得獎名單公告",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/06/05/2026-05-05/",
+        "date": "2026-06-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-06 競技 Show Time! 英語短影音大賽Speak Out to Win !",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/05/06/2026-05-06/",
+        "date": "2026-05-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-04-29恭賀本系學士班鍾欣儒同學榮獲2026日本大學田徑公開賽女子400公尺跨欄『金牌』57秒46佳績刷新個人生涯最佳成績再次達到2026名古屋亞運參賽標準",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/04/30/2026-04-29/",
+        "date": "2026-04-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-04-30恭賀本系網球代表隊榮獲115年全國大專校院運動會公開男生組團體賽『金牌』(五連霸)",
+        "url": "https://www.ap.ntnu.edu.tw/index.php/2026/04/30/2026-04-30/",
+        "date": "2026-04-30",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "csremba_news": {
     "label": "樂活產業高階經理人企業管理碩士在職專班(LOHAS-EMBA)-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "樂活EMBA 講座-3",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2026/06/24/20260801lecture-3/",
+        "date": "2026-06-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "樂活EMBA 講座-2",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2026/06/24/20260712lecture-2/",
+        "date": "2026-06-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "台師大樂活EMBA熱門議題系列-1",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2026/06/24/20260614lecture-1/",
+        "date": "2026-06-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "🎉 【樂活 EMBA 第九屆開學啦！師大校園盡情探索！】 🎉",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2026/06/11/2027-06-11newbegin/",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "樂活EMBA第九屆榜單",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2026/02/26/1-5/",
+        "date": "2026-02-26",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "csremba_announcements": {
     "label": "樂活產業高階經理人企業管理碩士在職專班(LOHAS-EMBA)-最新公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "樂活EMBA第九屆榜單",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2026/02/26/1-5/",
+        "date": "2026-02-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度運動與休閒學院樂活產業高階經理人企業管理碩士EMBA複試(口試)名單",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2026/01/09/1-4/",
+        "date": "2026-01-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "全臺唯一樂活EMBA發威 臺師大學生於運動科技競賽連年奪獎",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2025/12/30/1-3/",
+        "date": "2025-12-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度暑期研究生辦理畢業離校流程注意事項",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2025/08/14/123-4/",
+        "date": "2025-08-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "🏅 世壯運 海浪救生 跑-游-跑：榮耀時刻！ 🏅",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2025/05/28/runswimrun/",
+        "date": "2025-05-28",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "csremba_honor": {
     "label": "樂活產業高階經理人企業管理碩士在職專班(LOHAS-EMBA)-師生榮耀",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "全臺唯一樂活EMBA發威 臺師大學生於運動科技競賽連年奪獎",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2025/12/30/1-3/",
+        "date": "2025-12-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "🏅 世壯運 海浪救生 跑-游-跑：榮耀時刻！ 🏅",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2025/05/28/runswimrun/",
+        "date": "2025-05-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "🏅 世壯運 龍舟比賽：榮耀時刻！ 🏅",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2025/05/27/dragonboatraces/",
+        "date": "2025-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "🎉賀！第六、七屆學長姊於水上運動會榮獲佳績！🏊‍♀️🏆",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2025/05/19/swim/",
+        "date": "2025-05-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "樂活EMBA于蓓蒂校友 獲頒2024臺灣100 MVP經理人",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2024/11/29/https-pr-ntnu-edu-tw-ntnunews-index-phpmodedataid23060/",
+        "date": "2024-11-29",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "csremba_events": {
     "label": "樂活產業高階經理人企業管理碩士在職專班(LOHAS-EMBA)-活動剪輯",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "cama café 為體現 IP藝術價值，用愛回饋社會，公益義賣活動敬請支持",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2024/09/09/https-www-csremba-ntnu-edu-tw-wp-admin-post-phppost11585actionedit/",
+        "date": "2024-09-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "樂活EMBA詹章誾學長徒步環島千里 募百萬助清寒學子圓夢",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2024/01/31/123-3/",
+        "date": "2024-01-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "樂活EMBA學生發起環島徒步募款 暖陽紓困助學金助清寒學子",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2024/01/02/https-pr-ntnu-edu-tw-ntnunews-index-phpmodedataid22186/",
+        "date": "2024-01-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "暢想樂活人生 第七屆樂活EMBA招募各界人才",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2023/12/04/https-pr-ntnu-edu-tw-ntnunews-index-phpmodedataid22103/",
+        "date": "2023-12-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "樂活EMBA海外管理實務課程 赴港澳深入了解國際趨勢",
+        "url": "https://www.csremba.ntnu.edu.tw/index.php/2023/10/24/https-pr-ntnu-edu-tw-ntnunews-index-phpmodedataid21982/",
+        "date": "2023-10-24",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "pe_news": {
     "label": "體育與運動科學系-最新消息",
