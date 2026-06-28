@@ -3146,43 +3146,7 @@
   },
   "pr_news": {
     "label": "公共事務中心-師大新聞",
-    "announcements": [
-      {
-        "title": "《終身樹人》邱美虹：深耕科學教育40載 引領臺灣科教邁向國際",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24411",
-        "date": "2026-06-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大永續發展成果獲國際肯定 THE世界大學影響力排名大躍升",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24696",
-        "date": "2026-06-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "幼家科學系赴首爾深化臺韓學術交流 雙語補助與系友捐款助力成行",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24697",
-        "date": "2026-06-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "印尼希望之光大學來訪臺師大教育學院 討論AI時代卓越教育之道",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24701",
-        "date": "2026-06-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "影音》臺師大深化日本高教交流 日籍學生來臺就讀逐年成長",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24702",
-        "date": "2026-06-26",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "pr_chirpy": {
     "label": "公共事務中心-活動預告",
