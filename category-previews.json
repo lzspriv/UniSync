@@ -3146,7 +3146,43 @@
   },
   "pr_news": {
     "label": "公共事務中心-師大新聞",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "《終身樹人》邱美虹：深耕科學教育40載 引領臺灣科教邁向國際",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24411",
+        "date": "2026-06-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "設計系長友大輔副教授勇奪2026 A' Design Award一銅二鐵獎 設計實力躍上國際舞臺",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24705",
+        "date": "2026-06-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【藍鵲引航．職輔共構】學術與生涯導師專業知能研習營登場",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24704",
+        "date": "2026-06-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "跨域美感深耕在地 共創教育新風景 114學年度桃竹苗區合作學校成果分享會圓滿落幕",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24706",
+        "date": "2026-06-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "金門校友會陳龍安理事長接任金門縣副縣長",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24707",
+        "date": "2026-06-29",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "pr_chirpy": {
     "label": "公共事務中心-活動預告",
