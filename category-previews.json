@@ -14627,6 +14627,13 @@
     "label": "音樂學系-最新消息",
     "announcements": [
       {
+        "title": "114學年度高級中等學校藝術才能音樂（含資賦優異）班國際交流計畫Podcast訪談系列－Kyohei Sorita 反田恭平",
+        "url": "https://www.music.ntnu.edu.tw/index.php/2026/06/30/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e9%ab%98%e7%b4%9a%e4%b8%ad%e7%ad%89%e5%ad%b8%e6%a0%a1%e8%97%9d%e8%a1%93%e6%89%8d%e8%83%bd%e9%9f%b3%e6%a8%82%ef%bc%88%e5%90%ab%e8%b3%87%e8%b3%a6%e5%84%aa%e7%95%b0/",
+        "date": "2026-06-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "114學年度高級中等學校藝術才能音樂（含資賦優異）班國際交流計畫Podcast訪談系列－William Youn 尹威廉",
         "url": "https://www.music.ntnu.edu.tw/index.php/2026/06/27/1140627/",
         "date": "2026-06-27",
@@ -14650,13 +14657,6 @@
       {
         "title": "國立臺灣師範大學音樂學系徵聘音樂專業領域EMI專任(案)教師公告（115年07月19日 週日截止收件）",
         "url": "https://www.music.ntnu.edu.tw/index.php/2026/06/16/emi_faculty_ch/",
-        "date": "2026-06-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "教師徵聘資料表Faculty position applicant information",
-        "url": "https://www.music.ntnu.edu.tw/index.php/2026/06/16/faculty-position-applicant-information-6/",
         "date": "2026-06-16",
         "date_label": "發布日期",
         "summary": ""
@@ -22808,11 +22808,83 @@
   },
   "health_body_checkup": {
     "label": "健康中心-體檢. 就醫",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "新生入學健康檢查注意事項",
+        "url": "https://health.sa.ntnu.edu.tw/%e6%96%b0%e7%94%9f%e5%85%a5%e5%ad%b8%e5%81%a5%e5%ba%b7%e6%aa%a2%e6%9f%a5%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a0%85/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "特約醫療院所",
+        "url": "https://health.sa.ntnu.edu.tw/%e7%89%b9%e7%b4%84%e9%86%ab%e7%99%82%e9%99%a2%e6%89%80/",
+        "date": "2026-04-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113年度特殊健康檢查",
+        "url": "https://health.sa.ntnu.edu.tw/113%e5%b9%b4%e5%ba%a6%e5%af%a6%e9%a9%97%e5%ae%a4%e4%ba%ba%e5%93%a1%e7%89%b9%e6%ae%8a%e5%81%a5%e5%ba%b7%e6%aa%a2%e6%9f%a5/",
+        "date": "2024-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "113年度在職勞工定期一般健康檢查公告說明",
+        "url": "https://health.sa.ntnu.edu.tw/112%e5%b9%b4%e5%ba%a6%e5%9c%a8%e8%81%b7%e5%8b%9e%e5%b7%a5%e5%ae%9a%e6%9c%9f%e4%b8%80%e8%88%ac%e5%81%a5%e5%ba%b7%e6%aa%a2%e6%9f%a5%e5%85%ac%e5%91%8a%e8%aa%aa%e6%98%8e/",
+        "date": "2024-08-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "校區附近就醫資訊",
+        "url": "https://health.sa.ntnu.edu.tw/%e6%a0%a1%e5%8d%80%e9%99%84%e8%bf%91%e5%b0%b1%e9%86%ab%e8%b3%87%e8%a8%8a/",
+        "date": "2024-04-10",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "health_dietary_hygiene": {
     "label": "健康中心-膳食衛生",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "營養與膳食衛生管理",
+        "url": "https://health.sa.ntnu.edu.tw/%e7%87%9f%e9%a4%8a%e8%88%87%e8%86%b3%e9%a3%9f%e8%a1%9b%e7%94%9f%e7%ae%a1%e7%90%86/",
+        "date": "2026-06-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "飲水機水質報告",
+        "url": "https://health.sa.ntnu.edu.tw/%e9%a3%b2%e6%b0%b4%e6%a9%9f%e6%b0%b4%e8%b3%aa%e5%a0%b1%e5%91%8a/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "學校餐廳蔬食地圖",
+        "url": "https://health.sa.ntnu.edu.tw/%e5%ad%b8%e6%a0%a1%e9%a4%90%e5%bb%b3%e8%94%ac%e9%a3%9f%e5%9c%b0%e5%9c%96/",
+        "date": "2025-12-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "食材檢驗報告",
+        "url": "https://health.sa.ntnu.edu.tw/%e9%a3%9f%e6%9d%90%e6%aa%a2%e9%a9%97%e5%a0%b1%e5%91%8a/",
+        "date": "2025-09-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "預防新型非洲豬瘟病毒，出國必看不買清單",
+        "url": "https://health.sa.ntnu.edu.tw/%e9%9d%9e%e6%b4%b2%e8%b1%ac%e7%98%9f%e7%a6%81%e5%85%a5%ef%bc%8c%e7%ab%af%e5%8d%88%e5%b0%87%e8%87%b3%e5%88%87%e5%8b%bf%e7%b6%b2%e8%b3%bc%e5%a2%83%e5%a4%96%e8%82%89%e8%a3%bd%e5%93%81%ef%bc%8c%e9%98%b2/",
+        "date": "2024-01-15",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "health_promotion": {
     "label": "健康中心-健康促進議題",
@@ -22896,7 +22968,36 @@
   },
   "health_education": {
     "label": "健康中心-衛生教育",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "衛教宣導影片",
+        "url": "https://health.sa.ntnu.edu.tw/%e8%a1%9b%e6%95%99%e5%ae%a3%e5%b0%8e%e5%bd%b1%e7%89%87/",
+        "date": "2023-03-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "衛教宣導手冊",
+        "url": "https://health.sa.ntnu.edu.tw/%e8%a1%9b%e6%95%99%e5%ae%a3%e5%b0%8e%e6%89%8b%e5%86%8a/",
+        "date": "2023-01-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "穴位按摩方法",
+        "url": "https://health.sa.ntnu.edu.tw/%e7%a9%b4%e4%bd%8d%e6%8c%89%e6%91%a9%e6%96%b9%e6%b3%95/",
+        "date": "2023-01-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "月經平權議題",
+        "url": "https://health.sa.ntnu.edu.tw/%e6%9c%88%e7%b6%93%e5%b9%b3%e6%ac%8a%e8%ad%b0%e9%a1%8c/",
+        "date": "2022-11-21",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "honorscollege_honorscollege": {
     "label": "公館校區學務組-全人書院",
