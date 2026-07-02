@@ -21614,83 +21614,11 @@
   },
   "obe_focus_news": {
     "label": "雙語教育推動辦公室-焦點新聞",
-    "announcements": [
-      {
-        "title": "【EMI新聞】「2025臺師大阿勃勒節」盛大開幕 展現雙語教育與跨域人才培育成果",
-        "url": "https://www.obe.ntnu.edu.tw/index.php/2025/03/06/ntnu-2025-emi-fair-news-3/",
-        "date": "2025-03-06",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【EMI新聞】雙語標竿EMI博覽會登場 學生探索全英語學習資源",
-        "url": "https://www.obe.ntnu.edu.tw/index.php/2025/03/06/ntnu-2025-emi-fair-news-2/",
-        "date": "2025-03-06",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動回顧】2025 雙語標竿EMI博覽會精彩展現師大雙語教育推動成果！",
-        "url": "https://www.obe.ntnu.edu.tw/index.php/2025/03/06/2025-ntnu-emi-fair-news-1/",
-        "date": "2025-03-06",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【EMI資訊】臺師大攜手AIT與德州大學 多元合作引領EMI教學國際化新局",
-        "url": "https://www.obe.ntnu.edu.tw/index.php/2024/12/26/ntnu-20241207-rcemi-pd/",
-        "date": "2024-12-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【EMI資訊】臺師大攜手九所大學推動跨校EMI觀議課 促進高教雙語教學的深度發展",
-        "url": "https://www.obe.ntnu.edu.tw/index.php/2024/11/19/ntnu-2024-emi-off-site-public-classroom-observation/",
-        "date": "2024-11-19",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "obe_forward_news": {
     "label": "雙語教育推動辦公室-轉知消息",
-    "announcements": [
-      {
-        "title": "【轉知】國立政治大學辦理「EMI線上課程」，歡迎教師踴躍報名參加！",
-        "url": "https://www.obe.ntnu.edu.tw/index.php/2025/07/04/nccu-2025-113-2-emi-workshop/",
-        "date": "2025-07-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【轉知】國立勤益科技大學辦理「EMI教學精進工作坊」，歡迎教師踴躍報名！",
-        "url": "https://www.obe.ntnu.edu.tw/index.php/2025/04/24/ncut-2025-113-2-emi-workshop/",
-        "date": "2025-04-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【轉知】學術交流基金會辦理「2025傅爾布萊特國際雙語論壇」，歡迎教師踴躍報名！",
-        "url": "https://www.obe.ntnu.edu.tw/index.php/2025/04/23/fulbright-202505-bilingual-forum/",
-        "date": "2025-04-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【轉知】文藻外語大學辦理「全英教學再探：專業溝通教育與全球移動力」論壇，歡迎教師踴躍報名！",
-        "url": "https://www.obe.ntnu.edu.tw/index.php/2025/04/23/wzu-2025061314-emi-forum/",
-        "date": "2025-04-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【轉知】國立臺北科技大學辦理「Lunch and Learn: Foundation of Effective Instruction」，歡迎教師踴躍報名！",
-        "url": "https://www.obe.ntnu.edu.tw/index.php/2025/04/23/ntut-20250521-emi-workshop/",
-        "date": "2025-04-23",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "rcemi_event_latest": {
     "label": "EMI教學資源中心-最新活動",
@@ -25465,43 +25393,7 @@
   },
   "ime_girls_science": {
     "label": "數學教育中心-女學生科學",
-    "announcements": [
-      {
-        "title": "她們的傳奇人生​ 10部女性科學家與數學家系列影片",
-        "url": "https://www.ime.ntnu.edu.tw/index.php/2022/10/31/2022-10-31-4/",
-        "date": "2022-10-31",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "她們的奮鬥人生 教育部拍攝10部女性科學家與數學家影片",
-        "url": "https://www.ime.ntnu.edu.tw/index.php/2022/10/31/2022-10-31-3/",
-        "date": "2022-10-31",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "她27歲拿法國博士！ 國教署影片介紹理工領域女性標竿人物",
-        "url": "https://www.ime.ntnu.edu.tw/index.php/2022/10/31/2022-10-31-2/",
-        "date": "2022-10-31",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "27歲法國博士「台師大最年輕女教授」 教育部拍攝女性科學家影片",
-        "url": "https://www.ime.ntnu.edu.tw/index.php/2022/10/31/2022-10-31/",
-        "date": "2022-10-31",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "提升國民中小學女學生科學學習興趣｜教案研討會",
-        "url": "https://www.ime.ntnu.edu.tw/index.php/2022/05/24/2022-05-24/",
-        "date": "2022-05-24",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "ime_yan_xiaomei": {
     "label": "數學教育中心-閻小妹",
