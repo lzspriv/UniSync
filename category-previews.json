@@ -20665,13 +20665,6 @@
     "label": "師資培育學院-訊息公告-全部列表",
     "announcements": [
       {
-        "title": "2027美國、新加坡【師資生國外教育見習計畫】甄選－複試（口試）名單暨複試時間",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=647",
-        "date": "2026-07-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "師資培育學院115學年度第1學期教學助理申請",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=582",
         "date": "2026-06-10",
@@ -20696,6 +20689,13 @@
         "title": "【重要公告】115學年度教程甄選正備取名單及選課說明會",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=518",
         "date": "2026-05-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【申請首張教師證】擬於115年7月申請首張教師證書說明",
+        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=526",
+        "date": "2026-05-11",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -20780,15 +20780,7 @@
   },
   "tecs_international": {
     "label": "師資培育學院-訊息公告-國際師培推動組",
-    "announcements": [
-      {
-        "title": "2027美國、新加坡【師資生國外教育見習計畫】甄選－複試（口試）名單暨複試時間",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=647",
-        "date": "2026-07-03",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_act_all": {
     "label": "師資培育學院-活動看板-全部列表",
