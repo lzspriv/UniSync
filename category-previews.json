@@ -22128,7 +22128,43 @@
   },
   "holistic_news": {
     "label": "社會實踐中心-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "課程報名｜臺師大銀齡樂活據點 115-3常規課程",
+        "url": "https://holistic.sa.ntnu.edu.tw/%e8%aa%b2%e7%a8%8b%e5%a0%b1%e5%90%8d%ef%bd%9c%e8%87%ba%e5%b8%ab%e5%a4%a7%e9%8a%80%e9%bd%a1%e6%a8%82%e6%b4%bb%e6%93%9a%e9%bb%9e-115-3%e5%b8%b8%e8%a6%8f%e8%aa%b2%e7%a8%8b/",
+        "date": "2026-06-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "活動宣傳｜外交部領事事務局「學生公共服務」暑期專案",
+        "url": "https://holistic.sa.ntnu.edu.tw/%e6%b4%bb%e5%8b%95%e5%ae%a3%e5%82%b3%ef%bd%9c%e5%a4%96%e4%ba%a4%e9%83%a8%e9%a0%98%e4%ba%8b%e4%ba%8b%e5%8b%99%e5%b1%80%e3%80%8c%e5%ad%b8%e7%94%9f%e5%85%ac%e5%85%b1%e6%9c%8d%e5%8b%99%e3%80%8d%e6%9a%91/",
+        "date": "2026-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "活動宣傳｜志願服務基礎訓練及志願服務特殊訓練－社會福利類",
+        "url": "https://holistic.sa.ntnu.edu.tw/%e6%b4%bb%e5%8b%95%e5%ae%a3%e5%82%b3%ef%bd%9c%e5%bf%97%e9%a1%98%e6%9c%8d%e5%8b%99%e5%9f%ba%e7%a4%8e%e8%a8%93%e7%b7%b4%e5%8f%8a%e5%bf%97%e9%a1%98%e6%9c%8d%e5%8b%99%e7%89%b9%e6%ae%8a%e8%a8%93%e7%b7%b4-2/",
+        "date": "2026-06-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "活動宣傳｜「聲音與記憶的延續：一場從《傳奇女伶 高菊花》出發的人權對話」北一區大專校院電影放映及映後座談📽️",
+        "url": "https://holistic.sa.ntnu.edu.tw/%e6%b4%bb%e5%8b%95%e5%ae%a3%e5%82%b3%ef%bd%9c%e3%80%8c%e8%81%b2%e9%9f%b3%e8%88%87%e8%a8%98%e6%86%b6%e7%9a%84%e5%bb%b6%e7%ba%8c%ef%bc%9a%e4%b8%80%e5%a0%b4%e5%be%9e%e3%80%8a%e5%82%b3%e5%a5%87%e5%a5%b3/",
+        "date": "2026-05-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "活動報名｜115年度「當知識遇見世界：社會實踐的可能與挑戰實務研討會」",
+        "url": "https://holistic.sa.ntnu.edu.tw/%e6%b4%bb%e5%8b%95%e5%a0%b1%e5%90%8d%ef%bd%9c115%e5%b9%b4%e5%ba%a6%e3%80%8c%e7%95%b6%e7%9f%a5%e8%ad%98%e9%81%87%e8%a6%8b%e4%b8%96%e7%95%8c%ef%bc%9a%e7%a4%be%e6%9c%83%e5%af%a6%e8%b8%90%e7%9a%84/",
+        "date": "2026-05-04",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "counselor_announce": {
     "label": "專責導師室-行政公告",
