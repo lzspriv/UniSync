@@ -24973,43 +24973,7 @@
   },
   "cks_news": {
     "label": "韓國學研究中心-最新消息",
-    "announcements": [
-      {
-        "title": "【獲獎名單】114學年度韓國學專題競賽",
-        "url": "https://www.cks.ntnu.edu.tw/index.php/2026/05/18/2026-k-studies-comp_result/",
-        "date": "2026-05-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【獲獎名單】114學年度韓語演講競賽",
-        "url": "https://www.cks.ntnu.edu.tw/index.php/2026/05/18/114_k-speech-result/",
-        "date": "2026-05-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【決賽通知】114學年度韓國學專題競賽",
-        "url": "https://www.cks.ntnu.edu.tw/index.php/2026/04/30/2026-k-studies-comp_list/",
-        "date": "2026-04-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【決賽通知】114學年度韓語演講競賽",
-        "url": "https://www.cks.ntnu.edu.tw/index.php/2026/04/17/114_k-speech-list/",
-        "date": "2026-04-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動公告】2026年韓國文化祭",
-        "url": "https://www.cks.ntnu.edu.tw/index.php/2026/03/23/2026koreafestival/",
-        "date": "2026-03-23",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "ceri_center_announcement": {
     "label": "教育研究與創新中心-中心公告",
