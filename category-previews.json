@@ -3200,7 +3200,7 @@
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10605",
         "date": "2026-07-03",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-07-06 ~ 2026-12-31 17:00 / 地點：三校校區",
+        "summary": "活動時間：2026-07-13 23:15 ~ 2026-12-31 17:00 / 地點：三校校區",
         "show_summary": true
       },
       {
@@ -3208,7 +3208,7 @@
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10601",
         "date": "2026-06-29",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-07-06 09:59 ~ 2026-09-15 09:59 / 地點：校園書店",
+        "summary": "活動時間：2026-07-13 09:59 ~ 2026-09-15 09:59 / 地點：校園書店",
         "show_summary": true
       },
       {
@@ -4623,13 +4623,6 @@
         "summary": ""
       },
       {
-        "title": "轉知 基隆市輔大聖心高級中學115學年度專任輔導教師甄選",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1326",
-        "date": "2026-06-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "公告 臺師大國語教學中心 2026年夏季中文三週班「臺灣學伴」招募",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1302",
         "date": "2026-05-21",
@@ -4640,6 +4633,13 @@
         "title": "轉知 桃園市學校專任輔導教師徵才資訊",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1241",
         "date": "2026-04-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "轉知 桃園市學校專任輔導教師徵才資訊",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1229",
+        "date": "2026-03-25",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -17591,15 +17591,7 @@
   },
   "sw_speech": {
     "label": "社會工作學研究所-本所活動演講",
-    "announcements": [
-      {
-        "title": "Flourishing in Later Life Conference",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Speech/News.aspx?id=jkgBr1zqgsk=&Sn=902",
-        "date": "2026-06-09",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "sw_admission": {
     "label": "社會工作學研究所-招生訊息",
@@ -20672,13 +20664,6 @@
     "label": "師資培育學院-訊息公告-全部列表",
     "announcements": [
       {
-        "title": "2027美國、新加坡【師資生國外教育見習計畫】甄選－複試（口試）名單暨複試時間",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=647",
-        "date": "2026-07-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "【教育實習】115學年度第1學期教育實習相關訊息",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=649",
         "date": "2026-07-01",
@@ -20703,6 +20688,13 @@
         "title": "【公告】114學年度第2學期師資生教學實務能力檢測獲獎暨通過名單",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=577",
         "date": "2026-05-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要公告】115學年度教程甄選正備取名單及選課說明會",
+        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=518",
+        "date": "2026-05-14",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -20794,15 +20786,7 @@
   },
   "tecs_international": {
     "label": "師資培育學院-訊息公告-國際師培推動組",
-    "announcements": [
-      {
-        "title": "2027美國、新加坡【師資生國外教育見習計畫】甄選－複試（口試）名單暨複試時間",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=647",
-        "date": "2026-07-03",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_act_all": {
     "label": "師資培育學院-活動看板-全部列表",
