@@ -443,6 +443,13 @@
     "label": "物理學系-最新公告",
     "announcements": [
       {
+        "title": "115預訂課表",
+        "url": "https://www2.phy.ntnu.edu.tw/index.php/2026/05/13/115-curriculum/",
+        "date": "2026-05-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "恭賀本系學士生 張紹詮 (指導教授:林文欽) 榮獲國家科學及技術委員會 114年度大專學生研究計畫研究創作獎",
         "url": "https://www2.phy.ntnu.edu.tw/index.php/2026/07/08/award-3/",
         "date": "2026-07-08",
@@ -467,13 +474,6 @@
         "title": "115物理系研究所新生報到時程",
         "url": "https://www2.phy.ntnu.edu.tw/index.php/2026/07/02/115new/",
         "date": "2026-07-02",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭賀本系博士生 簡士博 (指導教授:藍彥文) 榮獲2026 OCPA-APS Outstanding Poster Award",
-        "url": "https://www2.phy.ntnu.edu.tw/index.php/2026/06/30/2026-ocpa-aps-outstandi/",
-        "date": "2026-06-30",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -3148,6 +3148,27 @@
     "label": "公共事務中心-師大新聞",
     "announcements": [
       {
+        "title": "真正的護國神山在教室！臺師大啟動「理工教學碩士公費專班」 號召科技人才轉戰教育講台",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24740",
+        "date": "2026-07-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "僑委會攜手臺師大辦理華語教師研習 深化技高端僑生教學知能",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24741",
+        "date": "2026-07-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大原資中心返鄉服務 陪伴Fata’an長者深化文化連結",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24743",
+        "date": "2026-07-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "《終身樹人》楊永源：從兼任師資史料探尋臺師大美術教育的深厚底蘊",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24423",
         "date": "2026-07-09",
@@ -3157,27 +3178,6 @@
       {
         "title": "臺師大攜手 TANITA 產學合作 以相位角打造高齡健康新指標",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24736",
-        "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "真正的護國神山在教室！臺師大啟動「理工教學碩士公費專班」 號召科技人才轉戰教育講台",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24740",
-        "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大新創串聯運動科學、物理治療與藝術 打造跨域健康照護新模式",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24739",
-        "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "僑委會攜手臺師大辦理華語教師研習 深化技高端僑生教學知能",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24741",
         "date": "2026-07-09",
         "date_label": "發布日期",
         "summary": ""
@@ -22269,123 +22269,15 @@
   },
   "honorscollege_announce": {
     "label": "公館校區學務組-最新消息",
-    "announcements": [
-      {
-        "title": "房東安心租屋⼩叮嚀",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/26/%e6%88%bf%e6%9d%b1%e5%ae%89%e5%bf%83%e7%a7%9f%e5%b1%8b%e2%bc%a9%e5%8f%ae%e5%9a%80/",
-        "date": "2026-06-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "安全租屋123",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/10/%e5%ae%89%e5%85%a8%e7%a7%9f%e5%b1%8b123-2/",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度校外賃居生申請內政部租金補貼情形調查",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/10/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%a0%a1%e5%a4%96%e8%b3%83%e5%b1%85%e7%94%9f%e7%94%b3%e8%ab%8b%e5%85%a7%e6%94%bf%e9%83%a8%e7%a7%9f%e9%87%91%e8%a3%9c%e8%b2%bc%e6%83%85%e5%bd%a2%e8%aa%bf%e6%9f%a5/",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【租屋防詐5不驟】",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/05/%e3%80%90%e7%a7%9f%e5%b1%8b%e9%98%b2%e8%a9%905%e4%b8%8d%e9%a9%9f%e3%80%91/",
-        "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度學生校外賃居房東座談會開始報名囉~",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/05/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%94%9f%e6%a0%a1%e5%a4%96%e8%b3%83%e5%b1%85%e6%88%bf%e6%9d%b1%e5%ba%a7%e8%ab%87%e6%9c%83%e9%96%8b%e5%a7%8b%e5%a0%b1%e5%90%8d%e5%9b%89/",
-        "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "honorscollege_rent": {
     "label": "公館校區學務組-校外賃居",
-    "announcements": [
-      {
-        "title": "房東安心租屋⼩叮嚀",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/26/%e6%88%bf%e6%9d%b1%e5%ae%89%e5%bf%83%e7%a7%9f%e5%b1%8b%e2%bc%a9%e5%8f%ae%e5%9a%80/",
-        "date": "2026-06-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "安全租屋123",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/10/%e5%ae%89%e5%85%a8%e7%a7%9f%e5%b1%8b123-2/",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度校外賃居生申請內政部租金補貼情形調查",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/10/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%a0%a1%e5%a4%96%e8%b3%83%e5%b1%85%e7%94%9f%e7%94%b3%e8%ab%8b%e5%85%a7%e6%94%bf%e9%83%a8%e7%a7%9f%e9%87%91%e8%a3%9c%e8%b2%bc%e6%83%85%e5%bd%a2%e8%aa%bf%e6%9f%a5/",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【租屋防詐5不驟】",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/05/%e3%80%90%e7%a7%9f%e5%b1%8b%e9%98%b2%e8%a9%905%e4%b8%8d%e9%a9%9f%e3%80%91/",
-        "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115年度300億元中央擴大租金補貼專案",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/05/05/115%e5%b9%b4%e5%ba%a6300%e5%84%84%e5%85%83%e4%b8%ad%e5%a4%ae%e6%93%b4%e5%a4%a7%e7%a7%9f%e9%87%91%e8%a3%9c%e8%b2%bc%e5%b0%88%e6%a1%88/",
-        "date": "2026-05-05",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "honorscollege_activity": {
     "label": "公館校區學務組-活動訊息",
-    "announcements": [
-      {
-        "title": "114學年度校外賃居生申請內政部租金補貼情形調查",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/10/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%a0%a1%e5%a4%96%e8%b3%83%e5%b1%85%e7%94%9f%e7%94%b3%e8%ab%8b%e5%85%a7%e6%94%bf%e9%83%a8%e7%a7%9f%e9%87%91%e8%a3%9c%e8%b2%bc%e6%83%85%e5%bd%a2%e8%aa%bf%e6%9f%a5/",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度學生校外賃居房東座談會開始報名囉~",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/05/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%94%9f%e6%a0%a1%e5%a4%96%e8%b3%83%e5%b1%85%e6%88%bf%e6%9d%b1%e5%ba%a7%e8%ab%87%e6%9c%83%e9%96%8b%e5%a7%8b%e5%a0%b1%e5%90%8d%e5%9b%89/",
-        "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "全人書院112學年度第2學期活動補助申請",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2024/02/19/%e5%85%a8%e4%ba%ba%e6%9b%b8%e9%99%a2112%e5%ad%b8%e5%b9%b4%e5%ba%a6%e7%ac%ac2%e5%ad%b8%e6%9c%9f%e6%b4%bb%e5%8b%95%e8%a3%9c%e5%8a%a9%e7%94%b3%e8%ab%8b/",
-        "date": "2024-02-19",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "全人書院補助書院生報名學校國際事務處112學年寒假國外短期交流學習活動",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2023/12/06/%e5%85%a8%e4%ba%ba%e6%9b%b8%e9%99%a2%e8%a3%9c%e5%8a%a9%e6%9b%b8%e9%99%a2%e7%94%9f%e5%a0%b1%e5%90%8d%e5%ad%b8%e6%a0%a1%e5%9c%8b%e9%9a%9b%e4%ba%8b%e5%8b%99%e8%99%95112%e5%ad%b8%e5%b9%b4%e5%af%92/",
-        "date": "2023-12-06",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "第十一屆亞洲青年領袖遊學營（新加坡）全人書院推薦補助申請遴選結果公告",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2023/11/22/%e7%ac%ac%e5%8d%81%e4%b8%80%e5%b1%86%e4%ba%9e%e6%b4%b2%e9%9d%92%e5%b9%b4%e9%a0%98%e8%a2%96%e9%81%8a%e5%ad%b8%e7%87%9f%ef%bc%88%e6%96%b0%e5%8a%a0%e5%9d%a1%ef%bc%89%e5%85%a8%e4%ba%ba%e6%9b%b8%e9%99%a2/",
-        "date": "2023-11-22",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "isrc_announce": {
     "label": "原住民族學生資源中心-行政公告",
