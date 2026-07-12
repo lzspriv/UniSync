@@ -20849,7 +20849,43 @@
   },
   "sce_news": {
     "label": "進修推廣學院-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "臺師大115年度教師在職進修學分班-社會情緒學習專長增能學分班公告錄取名單",
+        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260709-144127",
+        "date": "2026-07-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "師大小大師巴威颱風停課退費公告",
+        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260709-213912",
+        "date": "2026-07-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "推廣班/ 師大小大師 颱風停課依據及補課辦法",
+        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260708-143906",
+        "date": "2026-07-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度偏遠地區學校學士後教育學分班(國民中學綜合活動領域童軍專長)公告事宜",
+        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260624-151515",
+        "date": "2026-06-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115年度中小學雙語教學在職教師增能學分班(國中班)錄取名單",
+        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260623-112655",
+        "date": "2026-06-23",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "mtc_news": {
     "label": "國語教學中心-最新消息",
@@ -22963,7 +22999,43 @@
   },
   "health_occupational_safety": {
     "label": "健康中心-職業安全衛生護理",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "更年期健康『泌』碼 5招向漏尿Say No",
+        "url": "https://health.sa.ntnu.edu.tw/%e6%9b%b4%e5%b9%b4%e6%9c%9f%e5%81%a5%e5%ba%b7%e3%80%8e%e6%b3%8c%e3%80%8f%e7%a2%bc-5%e6%8b%9b%e5%90%91%e6%bc%8f%e5%b0%bfsay-no/",
+        "date": "2024-11-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "響應職場護眼-世界視覺日（World Sight Day）",
+        "url": "https://health.sa.ntnu.edu.tw/%e9%9f%bf%e6%87%89%e8%81%b7%e5%a0%b4%e8%ad%b7%e7%9c%bc-%e4%b8%96%e7%95%8c%e8%a6%96%e8%a6%ba%e6%97%a5%ef%bc%88world-sight-day%ef%bc%89/",
+        "date": "2023-10-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "職場健康與衛生護理諮詢服務",
+        "url": "https://health.sa.ntnu.edu.tw/%e8%81%b7%e5%a0%b4%e5%81%a5%e5%ba%b7%e8%88%87%e8%a1%9b%e7%94%9f%e8%ad%b7%e7%90%86%e8%ab%ae%e8%a9%a2%e6%9c%8d%e5%8b%99/",
+        "date": "2023-09-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "人因性危害",
+        "url": "https://health.sa.ntnu.edu.tw/hello-world-2/",
+        "date": "2023-04-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "母性健康保護",
+        "url": "https://health.sa.ntnu.edu.tw/%e6%af%8d%e6%80%a7%e5%81%a5%e5%ba%b7%e4%bf%9d%e8%ad%b7/",
+        "date": "2023-03-30",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "health_education": {
     "label": "健康中心-衛生教育",
