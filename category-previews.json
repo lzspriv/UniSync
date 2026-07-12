@@ -22963,43 +22963,7 @@
   },
   "health_occupational_safety": {
     "label": "健康中心-職業安全衛生護理",
-    "announcements": [
-      {
-        "title": "更年期健康『泌』碼 5招向漏尿Say No",
-        "url": "https://health.sa.ntnu.edu.tw/%e6%9b%b4%e5%b9%b4%e6%9c%9f%e5%81%a5%e5%ba%b7%e3%80%8e%e6%b3%8c%e3%80%8f%e7%a2%bc-5%e6%8b%9b%e5%90%91%e6%bc%8f%e5%b0%bfsay-no/",
-        "date": "2024-11-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "響應職場護眼-世界視覺日（World Sight Day）",
-        "url": "https://health.sa.ntnu.edu.tw/%e9%9f%bf%e6%87%89%e8%81%b7%e5%a0%b4%e8%ad%b7%e7%9c%bc-%e4%b8%96%e7%95%8c%e8%a6%96%e8%a6%ba%e6%97%a5%ef%bc%88world-sight-day%ef%bc%89/",
-        "date": "2023-10-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "職場健康與衛生護理諮詢服務",
-        "url": "https://health.sa.ntnu.edu.tw/%e8%81%b7%e5%a0%b4%e5%81%a5%e5%ba%b7%e8%88%87%e8%a1%9b%e7%94%9f%e8%ad%b7%e7%90%86%e8%ab%ae%e8%a9%a2%e6%9c%8d%e5%8b%99/",
-        "date": "2023-09-12",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "人因性危害",
-        "url": "https://health.sa.ntnu.edu.tw/hello-world-2/",
-        "date": "2023-04-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "母性健康保護",
-        "url": "https://health.sa.ntnu.edu.tw/%e6%af%8d%e6%80%a7%e5%81%a5%e5%ba%b7%e4%bf%9d%e8%ad%b7/",
-        "date": "2023-03-30",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "health_education": {
     "label": "健康中心-衛生教育",
@@ -24325,7 +24289,43 @@
   },
   "rcitepc_news": {
     "label": "雲端測驗中心-首頁公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "網站停止服務公告(110/09/14~110/09/22)",
+        "url": "https://www.rcitepc.ntnu.edu.tw/news/%e7%b6%b2%e7%ab%99%e5%81%9c%e6%ad%a2%e6%9c%8d%e5%8b%99%e5%85%ac%e5%91%8a11009141100922/",
+        "date": "2021-09-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "賀本中心邵越洋榮獲最佳論文佳作獎",
+        "url": "https://www.rcitepc.ntnu.edu.tw/news/%e8%b3%80%e6%9c%ac%e4%b8%ad%e5%bf%83%e9%82%b5%e8%b6%8a%e6%b4%8b%e6%a6%ae%e7%8d%b22017%e5%b9%b4%e5%85%a8%e7%90%83%e8%8f%af%e4%ba%ba%e6%95%99%e8%82%b2%e8%b3%87%e8%a8%8a%e8%88%87%e8%a9%95%e4%bc%b0/",
+        "date": "2018-08-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "網站停止服務公告(107/7/22~107/07/23)",
+        "url": "https://www.rcitepc.ntnu.edu.tw/news/%e7%b6%b2%e7%ab%99%e5%81%9c%e6%ad%a2%e6%9c%8d%e5%8b%99%e5%85%ac%e5%91%8a1077221070723/",
+        "date": "2018-07-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "106-2大學生基本素養測驗中獎名單",
+        "url": "https://www.rcitepc.ntnu.edu.tw/news/106-2%e5%a4%a7%e5%ad%b8%e7%94%9f%e5%9f%ba%e6%9c%ac%e7%b4%a0%e9%a4%8a%e6%b8%ac%e9%a9%97%e4%b8%ad%e7%8d%8e%e5%90%8d%e5%96%ae/",
+        "date": "2018-02-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "跨國聯合會議",
+        "url": "https://www.rcitepc.ntnu.edu.tw/news/%e8%b7%a8%e5%9c%8b%e8%81%af%e5%90%88%e6%9c%83%e8%ad%b0/",
+        "date": "2017-10-18",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "nepac_news": {
     "label": "成人教育研究中心-最新消息",
