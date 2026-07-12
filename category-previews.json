@@ -3148,6 +3148,20 @@
     "label": "公共事務中心-師大新聞",
     "announcements": [
       {
+        "title": "AI影像辨識助攻英語學習，科技系許庭嘉為學生打造高效記憶方法",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24745",
+        "date": "2026-07-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "影音》化學系呂家榮藉分析化學連結產業與醫療，破解看不見的氣體分子",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24746",
+        "date": "2026-07-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "影音》真正的護國神山在教室！臺師大啟動「理工教學碩士公費專班」 號召科技人才轉戰教育講台",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24740",
         "date": "2026-07-10",
@@ -3165,20 +3179,6 @@
         "title": "臺師大原資中心返鄉服務 陪伴Fata’an長者深化文化連結",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24743",
         "date": "2026-07-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "《終身樹人》楊永源：從兼任師資史料探尋臺師大美術教育的深厚底蘊",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24423",
-        "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大攜手 TANITA 產學合作 以相位角打造高齡健康新指標",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24736",
-        "date": "2026-07-09",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -24325,43 +24325,7 @@
   },
   "rcitepc_news": {
     "label": "雲端測驗中心-首頁公告",
-    "announcements": [
-      {
-        "title": "網站停止服務公告(110/09/14~110/09/22)",
-        "url": "https://www.rcitepc.ntnu.edu.tw/news/%e7%b6%b2%e7%ab%99%e5%81%9c%e6%ad%a2%e6%9c%8d%e5%8b%99%e5%85%ac%e5%91%8a11009141100922/",
-        "date": "2021-09-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "賀本中心邵越洋榮獲最佳論文佳作獎",
-        "url": "https://www.rcitepc.ntnu.edu.tw/news/%e8%b3%80%e6%9c%ac%e4%b8%ad%e5%bf%83%e9%82%b5%e8%b6%8a%e6%b4%8b%e6%a6%ae%e7%8d%b22017%e5%b9%b4%e5%85%a8%e7%90%83%e8%8f%af%e4%ba%ba%e6%95%99%e8%82%b2%e8%b3%87%e8%a8%8a%e8%88%87%e8%a9%95%e4%bc%b0/",
-        "date": "2018-08-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "網站停止服務公告(107/7/22~107/07/23)",
-        "url": "https://www.rcitepc.ntnu.edu.tw/news/%e7%b6%b2%e7%ab%99%e5%81%9c%e6%ad%a2%e6%9c%8d%e5%8b%99%e5%85%ac%e5%91%8a1077221070723/",
-        "date": "2018-07-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "106-2大學生基本素養測驗中獎名單",
-        "url": "https://www.rcitepc.ntnu.edu.tw/news/106-2%e5%a4%a7%e5%ad%b8%e7%94%9f%e5%9f%ba%e6%9c%ac%e7%b4%a0%e9%a4%8a%e6%b8%ac%e9%a9%97%e4%b8%ad%e7%8d%8e%e5%90%8d%e5%96%ae/",
-        "date": "2018-02-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "跨國聯合會議",
-        "url": "https://www.rcitepc.ntnu.edu.tw/news/%e8%b7%a8%e5%9c%8b%e8%81%af%e5%90%88%e6%9c%83%e8%ad%b0/",
-        "date": "2017-10-18",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "nepac_news": {
     "label": "成人教育研究中心-最新消息",
