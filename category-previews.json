@@ -6897,13 +6897,6 @@
         "summary": ""
       },
       {
-        "title": "賀！本所「統計學」、「學術傳播與資訊服務」數位課程通過教育部115年度第1梯次數位學習課程認證",
-        "url": "https://www.glis.ntnu.edu.tw/index.php/2026/07/02/11501/",
-        "date": "2026-07-02",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "國家圖書館徵聘館藏組專案助理2名",
         "url": "https://www.glis.ntnu.edu.tw/index.php/2026/06/10/ncl/",
         "date": "2026-06-10",
@@ -6921,6 +6914,13 @@
         "title": "敬邀參加：碩博及在職專班新生座談會6/27(六）",
         "url": "https://www.glis.ntnu.edu.tw/index.php/2026/05/20/001-206/",
         "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "東海大學圖書暨資訊處書刊採編組誠徵編制內約聘人員1名",
+        "url": "https://www.glis.ntnu.edu.tw/index.php/2026/05/14/thulibrarian/",
+        "date": "2026-05-14",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -20849,43 +20849,7 @@
   },
   "sce_news": {
     "label": "進修推廣學院-最新消息",
-    "announcements": [
-      {
-        "title": "臺師大115年度教師在職進修學分班-社會情緒學習專長增能學分班公告錄取名單",
-        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260709-144127",
-        "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "師大小大師巴威颱風停課退費公告",
-        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260709-213912",
-        "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "推廣班/ 師大小大師 颱風停課依據及補課辦法",
-        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260708-143906",
-        "date": "2026-07-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度偏遠地區學校學士後教育學分班(國民中學綜合活動領域童軍專長)公告事宜",
-        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260624-151515",
-        "date": "2026-06-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115年度中小學雙語教學在職教師增能學分班(國中班)錄取名單",
-        "url": "https://www.sce.ntnu.edu.tw/home/news/detail.php?20260623-112655",
-        "date": "2026-06-23",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "mtc_news": {
     "label": "國語教學中心-最新消息",
@@ -23833,30 +23797,30 @@
         "summary": ""
       },
       {
-        "title": "【獎勵】115年度碩士、博士學位論文獎",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3page4/out/-%E7%8D%8E%E5%8B%B5-115%E5%B9%B4%E5%BA%A6%E7%A2%A9%E5%A3%AB-%E5%8D%9A%E5%A3%AB%E5%AD%B8%E4%BD%8D%E8%AB%96%E6%96%87%E7%8D%8E-23711706",
-        "date": "2026-07-07",
+        "title": "【校內補助】發布「國立臺灣師範大學115年度證據整合與後設分析研究團隊補助試行方案」，自即日起至115年7月15日(星期三)下午5時止受理申請。",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3page4/in/-%E6%A0%A1%E5%85%A7%E8%A3%9C%E5%8A%A9-%E7%99%BC%E5%B8%83-%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%B8%AB%E7%AF%84%E5%A4%A7%E5%AD%B8115%E5%B9%B4%E5%BA%A6%E8%AD%89%E6%93%9A%E6%95%B4%E5%90%88%E8%88%87%E5%BE%8C%E8%A8%AD%E5%88%86%E6%9E%90%E7%A0%94%E7%A9%B6%E5%9C%98%E9%9A%8A%E8%A3%9C%E5%8A%A9%E8%A9%A6%E8%A1%8C%E6%96%B9%E6%A1%88-%E8%87%AA%E5%8D%B3%E6%97%A5%E8%B5%B7%E8%87%B3115%E5%B9%B47%E6%9C%8815%E6%97%A5-%E6%98%9F%E6%9C%9F%E4%B8%89-%E4%B8%8B%E5%8D%885%E6%99%82%E6%AD%A2%E5%8F%97%E7%90%86%E7%94%B3%E8%AB%8B-74928348",
+        "date": "2026-06-18",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "【獎勵】2026多層次傳銷碩博士論文獎",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3page4/out/-%E7%8D%8E%E5%8B%B5-2026%E5%A4%9A%E5%B1%A4%E6%AC%A1%E5%82%B3%E9%8A%B7%E7%A2%A9%E5%8D%9A%E5%A3%AB%E8%AB%96%E6%96%87%E7%8D%8E-93296617",
-        "date": "2026-09-01",
+        "title": "本校115年度「補助博士生赴國外短期研究案」自即日起受理申請，隨到隨審，請查照轉知。",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3page4/in/%E6%9C%AC%E6%A0%A1115%E5%B9%B4%E5%BA%A6-%E8%A3%9C%E5%8A%A9%E5%8D%9A%E5%A3%AB%E7%94%9F%E8%B5%B4%E5%9C%8B%E5%A4%96%E7%9F%AD%E6%9C%9F%E7%A0%94%E7%A9%B6%E6%A1%88-%E8%87%AA%E5%8D%B3%E6%97%A5%E8%B5%B7%E5%8F%97%E7%90%86%E7%94%B3%E8%AB%8B-%E9%9A%A8%E5%88%B0%E9%9A%A8%E5%AF%A9-%E8%AB%8B%E6%9F%A5%E7%85%A7%E8%BD%89%E7%9F%A5-3610074",
+        "date": "2026-03-13",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "【獎勵】「認識佛法及藏傳佛教」心得寫作及論文徵文",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3page4/out/-%E7%8D%8E%E5%8B%B5-%E8%AA%8D%E8%AD%98%E4%BD%9B%E6%B3%95%E5%8F%8A%E8%97%8F%E5%82%B3%E4%BD%9B%E6%95%99-%E5%BF%83%E5%BE%97%E5%AF%AB%E4%BD%9C%E5%8F%8A%E8%AB%96%E6%96%87%E5%BE%B5%E6%96%87-32038787",
-        "date": "2026-07-03",
+        "title": "【校內獎助】「學術論文暨專書獎助」自114/10/1至114/10/31受理申請，申請論文獎助者需一併上傳該研究中文簡介，務請盡早準備",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3page4/in/-%E6%A0%A1%E5%85%A7%E7%8D%8E%E5%8A%A9-%E5%AD%B8%E8%A1%93%E8%AB%96%E6%96%87%E6%9A%A8%E5%B0%88%E6%9B%B8%E7%8D%8E%E5%8A%A9-%E8%87%AA114-10-1%E8%87%B3114-10-31%E5%8F%97%E7%90%86%E7%94%B3%E8%AB%8B-%E7%94%B3%E8%AB%8B%E8%AB%96%E6%96%87%E7%8D%8E%E5%8A%A9%E8%80%85%E9%9C%80%E4%B8%80%E4%BD%B5%E4%B8%8A%E5%82%B3%E8%A9%B2%E7%A0%94%E7%A9%B6%E4%B8%AD%E6%96%87%E7%B0%A1%E4%BB%8B-%E5%8B%99%E8%AB%8B%E7%9B%A1%E6%97%A9%E6%BA%96%E5%82%99-55418148",
+        "date": "2025-09-26",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "【獎勵】台灣社會網絡學會碩博士論文獎",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3page4/out/-%E7%8D%8E%E5%8B%B5-%E5%8F%B0%E7%81%A3%E7%A4%BE%E6%9C%83%E7%B6%B2%E7%B5%A1%E5%AD%B8%E6%9C%83%E7%A2%A9%E5%8D%9A%E5%A3%AB%E8%AB%96%E6%96%87%E7%8D%8E-83661785",
-        "date": "2026-07-02",
+        "title": "【校內補助】114-1學術活動補助9/1~9/30受理線上申請",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3page4/in/-%E6%A0%A1%E5%85%A7%E8%A3%9C%E5%8A%A9-114-1%E5%AD%B8%E8%A1%93%E6%B4%BB%E5%8B%95%E8%A3%9C%E5%8A%A99-1-9-30%E5%8F%97%E7%90%86%E7%B7%9A%E4%B8%8A%E7%94%B3%E8%AB%8B-84593303",
+        "date": "2025-08-27",
         "date_label": "發布日期",
         "summary": ""
       }
