@@ -3,6 +3,13 @@
     "label": "數學系-最新消息",
     "announcements": [
       {
+        "title": "【7月22日】2026年幾何分析會議",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/15/20260722workshap/",
+        "date": "2026-07-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "[工作坊] 【7月15日】One-Day Workshop on Applied Mathematics: 慶祝臺師大數學系成立80週年",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/08/0715workshop/",
         "date": "2026-07-08",
@@ -27,13 +34,6 @@
         "title": "[徵才訊息] 臺南大學應用數學系新聘教師甄選（收件至9/30止）",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/29/recruit_nutn/",
         "date": "2026-06-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[系所公告] 115學年度數學系碩士生座位登記調查（至 7/31 截止）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/24/6-84/",
-        "date": "2026-06-24",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -83,6 +83,13 @@
     "label": "數學系-演講公告",
     "announcements": [
       {
+        "title": "【7月22日】2026年幾何分析會議",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/15/20260722workshap/",
+        "date": "2026-07-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "[應用數學研討會] 【7月9日】The Applied Mathematics Symposium",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/30/2026ams/",
         "date": "2026-06-30",
@@ -107,13 +114,6 @@
         "title": "[專題演講] 【6月15日】Sven Leyffer／Solving Massive Combinatorial Optimization Problems",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/21/lecture20260615/",
         "date": "2026-05-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[專題演講] 【6月10日】陳冠維 / Bifurcation of Phase-Locked Solutions under Symmetric and Asymmetric Coupling",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/11/talk20260610/",
-        "date": "2026-05-11",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -8602,6 +8602,13 @@
     "label": "歷史學系-最新消息",
     "announcements": [
       {
+        "title": "本系學士班葉怡珊同學榮獲科技部115年度「大專學生參與專題研究計畫」獎助",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/15/1150715/",
+        "date": "2026-07-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "賀！本系教師甄試金榜題名！(第12報)",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/14/1150714-2/",
         "date": "2026-07-14",
@@ -8628,19 +8635,19 @@
         "date": "2026-07-13",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "賀！本系教師甄試金榜題名！(第8報)",
-        "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/13/1150713-2/",
-        "date": "2026-07-13",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "his_honor": {
     "label": "歷史學系-榮譽公告",
     "announcements": [
+      {
+        "title": "本系學士班葉怡珊同學榮獲科技部115年度「大專學生參與專題研究計畫」獎助",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/15/1150715/",
+        "date": "2026-07-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "賀！本系118級陳苡方同學參加115年全國大專校院運動會柔道賽事，勇奪女子第四級金牌",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/06/09/20260609/",
@@ -8666,13 +8673,6 @@
         "title": "本系吳翎君教授榮獲114年度國科會傑出研究獎",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/02/15/1150215/",
         "date": "2026-02-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "李宗翰教授榮任本系第二十任系主任",
-        "url": "https://www.his.ntnu.edu.tw/index.php/2026/02/01/1150201/",
-        "date": "2026-02-01",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -11643,7 +11643,7 @@
         "summary": ""
       },
       {
-        "title": "恭賀本系陳瑄易教授指導專題生黃柏皓、林國龍與研究生蕭龍山、田博均榮獲中鼎集團2026年第六屆永續生活實驗室獎第二名 電機系全體同賀",
+        "title": "恭賀本系陳瑄易教授指導專題生黃柏皓、林國龍與研究生蕭隆山、田博均榮獲中鼎集團2026年第六屆永續生活實驗室獎第二名 電機系全體同賀",
         "url": "https://www.ee.ntnu.edu.tw/index.php/2026/06/29/002-197/",
         "date": "2026-06-29",
         "date_label": "發布日期",
@@ -11796,7 +11796,7 @@
         "summary": ""
       },
       {
-        "title": "恭賀本系陳瑄易教授指導專題生黃柏皓、林國龍與研究生蕭龍山、田博均榮獲中鼎集團2026年第六屆永續生活實驗室獎第二名 電機系全體同賀",
+        "title": "恭賀本系陳瑄易教授指導專題生黃柏皓、林國龍與研究生蕭隆山、田博均榮獲中鼎集團2026年第六屆永續生活實驗室獎第二名 電機系全體同賀",
         "url": "https://www.ee.ntnu.edu.tw/index.php/2026/06/29/002-197/",
         "date": "2026-06-29",
         "date_label": "發布日期",
@@ -19167,6 +19167,13 @@
     "label": "職涯發展中心-海外留學與打工度假",
     "announcements": [
       {
+        "title": "​115年第2回「日本留學試驗（EJU）」",
+        "url": "https://careercenter.ntnu.edu.tw/news-detail.php?type=&sid=15652",
+        "date": "2026-07-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115年公費留學考試2類簡章",
         "url": "https://careercenter.ntnu.edu.tw/news-detail.php?type=&sid=15628",
         "date": "2026-07-07",
@@ -19190,13 +19197,6 @@
       {
         "title": "TYRA 2026海外研究所申請指導計畫",
         "url": "https://careercenter.ntnu.edu.tw/news-detail.php?type=&sid=14931",
-        "date": "2026-04-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "華東台商子女學校115學年度教師甄選簡章",
-        "url": "https://careercenter.ntnu.edu.tw/news-detail.php?type=&sid=14921",
         "date": "2026-04-09",
         "date_label": "發布日期",
         "summary": ""
@@ -20657,6 +20657,13 @@
         "summary": ""
       },
       {
+        "title": "【招生公告】115年師資生提升英語口說能力計畫－秋季班",
+        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=652",
+        "date": "2026-07-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2027美國【師資生國外教育見習計畫】甄選－複試2（線上口試）名單暨複試時間",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=650",
         "date": "2026-07-10",
@@ -20674,13 +20681,6 @@
         "title": "115學年度雙語教學師資培育課程錄取名單暨選課注意事項",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=594",
         "date": "2026-07-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【教育實習】115學年度第1學期教育實習相關訊息",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=649",
-        "date": "2026-07-01",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -20776,6 +20776,13 @@
       {
         "title": "【公告】2026新加坡「師資生國外教育見習計畫」甄選－錄取名單（詳附件）",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=651",
+        "date": "2026-07-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【招生公告】115年師資生提升英語口說能力計畫－秋季班",
+        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=652",
         "date": "2026-07-15",
         "date_label": "發布日期",
         "summary": ""
