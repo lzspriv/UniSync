@@ -2434,7 +2434,43 @@
   },
   "sls_news": {
     "label": "生命科學專業學院-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【演講資訊】6/5生態演化組專討 講者:黃曜謀博士",
+        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/05/15/news-5/",
+        "date": "2026-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115學年度大學申請入學─生命科學系第二階段】面試公告(5/15、5/16)",
+        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/05/11/news/",
+        "date": "2026-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115-2 校級赴外交換甄選】系統操作暨獎學金說明會(5/18實體+線上同步)",
+        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/05/08/news-10/",
+        "date": "2026-05-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【演講資訊】5/31(日)@師大和平校區綜合大樓《從生物科學走向多元寬廣的文化領域》文化部長/臺師大生科63級系友 李遠(小野)",
+        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/04/20/news-8/",
+        "date": "2026-04-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115年教師資格考試】4/9起已開始報名 ~ 4/16下午截止！",
+        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/04/10/news-3/",
+        "date": "2026-04-10",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "sls_speeches": {
     "label": "生命科學專業學院-演講公告",
@@ -3110,11 +3146,88 @@
   },
   "pr_news": {
     "label": "公共事務中心-師大新聞",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "大傳所媒體素養營前進三星國中 聚焦網路霸凌、詐騙與演算法 提升三星學子數位素養",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24753",
+        "date": "2026-07-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大物理團隊登上《Nature》首度直接量測二維半導體電子轉移長度 突破次世代電晶體微縮關鍵技術",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24759",
+        "date": "2026-07-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "跨越海峽與時代：臺師大離島同鄉校友會「渡．落番之道」啟發臺東青年探索自我與文化",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24761",
+        "date": "2026-07-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大HR-AI實驗室獲選AMD-ITRI高速運算平台團隊 Kairos AI首度亮相 高階GPU加速人才評鑑、智慧教練與世界模型研發",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24762",
+        "date": "2026-07-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "《終身樹人》許義雄：以臺師大人為榮，一生奉獻臺灣體育教育",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24424",
+        "date": "2026-07-16",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "pr_chirpy": {
     "label": "公共事務中心-活動預告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026年華語師資教學實務專班第21期(平日晚間班) 報名中",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10616",
+        "date": "2026-07-16",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-07-20 08:00 ~ 2026-08-03 11:24 / 地點：進修推廣學院",
+        "show_summary": true
+      },
+      {
+        "title": "都柏林大學學院化學系馮寬文博士線上講座 報名中",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10615",
+        "date": "2026-07-16",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-07-20 15:00 ~ 2026-07-29 16:30 / 地點：Google Meet",
+        "show_summary": true
+      },
+      {
+        "title": "【2026 NTNU 和 JOGUMAN 一起】",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10614",
+        "date": "2026-07-14",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-07-20 09:06 ~ 2026-09-30 09:06 / 地點：校園書店",
+        "show_summary": true
+      },
+      {
+        "title": "Microsoft 365 Copilot校園服務推廣說明會",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10613",
+        "date": "2026-07-14",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-07-21 10:00 ~ 2026-07-21 10:30 / 地點：教育大樓401教室(線上同步)",
+        "show_summary": true
+      },
+      {
+        "title": "歡迎報名【專題講座】115年「從英語文科會考試題看課室評量」",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10612",
+        "date": "2026-07-07",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-07-20 13:30 ~ 2026-09-09 15:30 / 地點：線上課程的連結將於報名截止後，隨行前通知電子郵件一併提供，於前七個工作天以email知會，敬請報名者密切留意個人信箱。",
+        "show_summary": true
+      }
+    ]
   },
   "alumni_news": {
     "label": "校友中心-最新消息",
@@ -4374,43 +4487,7 @@
   },
   "ed_news": {
     "label": "教育學系-最新消息",
-    "announcements": [
-      {
-        "title": "115年度「田培林教授獎學金優良學位論文獎」申請相關",
-        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/115%E5%B9%B4%E5%BA%A6-%E7%94%B0%E5%9F%B9%E6%9E%97%E6%95%99%E6%8E%88%E7%8D%8E%E5%AD%B8%E9%87%91%E5%84%AA%E8%89%AF%E5%AD%B8%E4%BD%8D%E8%AB%96%E6%96%87%E7%8D%8E-%E7%94%B3%E8%AB%8B%E7%9B%B8%E9%97%9C-51791936",
-        "date": "2026-07-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度日間暨在職專班研究生新生座談訂於8月15日，歡迎研究生新生報名參加。",
-        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E6%97%A5%E9%96%93%E6%9A%A8%E5%9C%A8%E8%81%B7%E5%B0%88%E7%8F%AD%E7%A0%94%E7%A9%B6%E7%94%9F%E6%96%B0%E7%94%9F%E5%BA%A7%E8%AB%87%E8%A8%82%E6%96%BC8%E6%9C%8815%E6%97%A5-%E6%AD%A1%E8%BF%8E%E7%A0%94%E7%A9%B6%E7%94%9F%E6%96%B0%E7%94%9F%E5%A0%B1%E5%90%8D%E5%8F%83%E5%8A%A0-16286266",
-        "date": "2026-07-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度第2學期暑期暑休日公告-7月10日、7月17日、7月24日、8月7日、8月14日、8月21日",
-        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/114%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC2%E5%AD%B8%E6%9C%9F%E6%9A%91%E6%9C%9F%E6%9A%91%E4%BC%91%E6%97%A5%E5%85%AC%E5%91%8A-7%E6%9C%8810%E6%97%A5-7%E6%9C%8817%E6%97%A5-7%E6%9C%8824%E6%97%A5-8%E6%9C%887%E6%97%A5-8%E6%9C%8814%E6%97%A5-8%E6%9C%8821%E6%97%A5-32444380",
-        "date": "2026-07-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭賀本系學生榮獲國科會115年度大專學生專題研究計畫",
-        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/%E6%81%AD%E8%B3%80%E6%9C%AC%E7%B3%BB%E5%AD%B8%E7%94%9F%E6%A6%AE%E7%8D%B2%E5%9C%8B%E7%A7%91%E6%9C%83115%E5%B9%B4%E5%BA%A6%E5%A4%A7%E5%B0%88%E5%AD%B8%E7%94%9F%E5%B0%88%E9%A1%8C%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB%0D%0A%C2%A0-63652370",
-        "date": "2026-06-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[研究生事務]114學年度第2學期研究生申請指導教授，自即日起開始受理收件（至8月31日截止）。",
-        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/%5B%E7%A0%94%E7%A9%B6%E7%94%9F%E4%BA%8B%E5%8B%99%5D114%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC2%E5%AD%B8%E6%9C%9F%E7%A0%94%E7%A9%B6%E7%94%9F%E7%94%B3%E8%AB%8B%E6%8C%87%E5%B0%8E%E6%95%99%E6%8E%88-%E8%87%AA%E5%8D%B3%E6%97%A5%E8%B5%B7%E9%96%8B%E5%A7%8B%E5%8F%97%E7%90%86%E6%94%B6%E4%BB%B6%EF%BC%88%E8%87%B38%E6%9C%8831%E6%97%A5%E6%88%AA%E6%AD%A2%EF%BC%89-76391060",
-        "date": "2026-06-23",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "epc_news": {
     "label": "教育心理與輔導學系-最新消息",
