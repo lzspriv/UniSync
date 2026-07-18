@@ -1,443 +1,47 @@
 {
   "math_news": {
     "label": "數學系-最新消息",
-    "announcements": [
-      {
-        "title": "[榮譽] 恭賀本系「謝承廷 、 楊奕安 」同學通過申請獲得115學年度大專學生研究計畫補助",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/17/6-86/",
-        "date": "2026-07-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【7月22日】2026年幾何分析會議",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/15/20260722workshap/",
-        "date": "2026-07-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[工作坊] 【7月15日】One-Day Workshop on Applied Mathematics: 慶祝臺師大數學系成立80週年",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/08/0715workshop/",
-        "date": "2026-07-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[系所公告] 115學年度第1學期數學系教學助理志願調查（至 7/17 截止）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/30/6-85/",
-        "date": "2026-06-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[應用數學研討會] 【7月9日】The Applied Mathematics Symposium",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/30/2026ams/",
-        "date": "2026-06-30",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "math_announcement": {
     "label": "數學系-系所公告",
-    "announcements": [
-      {
-        "title": "[系所公告] 115學年度第1學期數學系教學助理志願調查（至 7/17 截止）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/30/6-85/",
-        "date": "2026-06-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[系所公告] 115學年度數學系碩士生座位登記調查（至 7/31 截止）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/24/6-84/",
-        "date": "2026-06-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[活動公告] 【6月12日】2026科學計算學生研討會",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/10/0612-2026/",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[系所公告] 數學系書卷獎同名次參酌獲獎順序",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/08/aea_rank/",
-        "date": "2026-06-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[課程資訊] 本校114學年度第2學期期末課程意見調查",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/01/course-evaluation-survey-25/",
-        "date": "2026-06-01",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "math_speeches": {
     "label": "數學系-演講公告",
-    "announcements": [
-      {
-        "title": "【7月22日】2026年幾何分析會議",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/15/20260722workshap/",
-        "date": "2026-07-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[應用數學研討會] 【7月9日】The Applied Mathematics Symposium",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/30/2026ams/",
-        "date": "2026-06-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[活動公告] 【6月12日】2026科學計算學生研討會",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/10/0612-2026/",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[活動公告] 【9月29日-10月01日】GVP & GMT Workshop 2026",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/09/gvp-gmt-workshop-2026/",
-        "date": "2026-06-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[專題演講] 【6月15日】Sven Leyffer／Solving Massive Combinatorial Optimization Problems",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/21/lecture20260615/",
-        "date": "2026-05-21",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "math_course": {
     "label": "數學系-課程資訊",
-    "announcements": [
-      {
-        "title": "[活動公告] 【6月12日】2026科學計算學生研討會",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/10/0612-2026/",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[課程資訊] 本校114學年度第2學期期末課程意見調查",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/01/course-evaluation-survey-25/",
-        "date": "2026-06-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[課程資訊] 115學年度預排課表公告（0709更新）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/07/115-course-announcement/",
-        "date": "2026-05-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[課程資訊] 114學年度暑期課程公告暨選課日程說明（0612更新）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/04/14/114-3-course-announcement/",
-        "date": "2026-04-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[課程資訊] 本校114學年度第2學期期中課程意見調查",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/04/13/course-evaluation-survey-24/",
-        "date": "2026-04-13",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "math_graduate": {
     "label": "數學系-研究生公告",
-    "announcements": [
-      {
-        "title": "[系所公告] 115學年度第1學期數學系教學助理志願調查（至 7/17 截止）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/30/6-85/",
-        "date": "2026-06-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[系所公告] 115學年度數學系碩士生座位登記調查（至 7/31 截止）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/24/6-84/",
-        "date": "2026-06-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[研究生公告] 數學系114-2學期6月研究生畢業口試申請至4/20截止",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/03/16/6-81/",
-        "date": "2026-03-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[研究生公告] 數學系114-2學期逐月畢業(3~5月)研究生畢業口試申請",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/03/16/6-80/",
-        "date": "2026-03-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[系所公告] 114學年度第2學期教學助理名單(2/24更新)",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/02/24/6-78/",
-        "date": "2026-02-24",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "math_smtpp": {
     "label": "數學系-師培資訊",
-    "announcements": [
-      {
-        "title": "[師培資訊] 115學年度第2學期半年教育實習申請（115/9/30截止）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/23/115-2-edu-practice-reg/",
-        "date": "2026-06-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[榮譽] 恭喜本系學生於114-2師資生教學實務能力檢測獲獎",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/20/114-2-edu-practice-list/",
-        "date": "2026-05-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[師培資訊] 本系甄選114-2師資培育公費生(二招)（05/29星期五報名截止）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/18/114-2-public-expense-reg-2nd/",
-        "date": "2026-05-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[師培資訊] 本系中學數學 114師資培育一階生甄選（申請至 4/30 截止）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/03/31/114-teacher-edu-reg1/",
-        "date": "2026-03-31",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[師培資訊] 115學年度國際教師學分（IB）學程暨先修課程甄選（申請至 05/11）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/03/25/115-ib-reg/",
-        "date": "2026-03-25",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "math_admission_news": {
     "label": "數學系-招生訊息",
-    "announcements": [
-      {
-        "title": "[招生訊息] 115學年度 國立臺灣師範大學申請入學 錄取名單公告",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/28/115admission/",
-        "date": "2026-05-28",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[招生訊息] 115學年度博士班考試入學錄取名單",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/21/115phd/",
-        "date": "2026-05-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[招生訊息] 115學年度數學系博士班招生入學口試公告",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/04/22/115phd_admission/",
-        "date": "2026-04-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[招生訊息] 115學年度學士班二年級轉學生招生簡章暨附件",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/04/16/115transfertest/",
-        "date": "2026-04-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[招生訊息] 115學年度大學「申請入學」第一階段篩選結果及第二階段指定項目甄選報名注意事項",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/04/05/115apply__bachelor/",
-        "date": "2026-04-05",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "math_off_campus_recruitment": {
     "label": "數學系-校外徵才",
-    "announcements": [
-      {
-        "title": "[徵才訊息] 臺南大學應用數學系新聘教師甄選（收件至9/30止）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/29/recruit_nutn/",
-        "date": "2026-06-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[徵才訊息]【5月21日】 宏泰人壽-精算&商品徵才說明會",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2025/05/08/1140521recruit/",
-        "date": "2025-05-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[徵才訊息] 清華⼤學數理教育所 徵聘專任教師（收件至12/22止）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2024/10/29/recruit_nthu/",
-        "date": "2024-10-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[徵才訊息] 中央研究院數學研究所 2025年度徵才公告",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2024/09/13/recruit2025sinica/",
-        "date": "2024-09-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[徵才訊息] 華測會-碩士級研究助理(統計分析)",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2024/09/03/recruit1130903/",
-        "date": "2024-09-03",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "math_recruiting_teaching_staff": {
     "label": "數學系-徵聘教職員",
-    "announcements": [
-      {
-        "title": "[徵才訊息] 國立臺灣師範大學數學系徵聘專任教師2名",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/01/06/recruitment1150106/",
-        "date": "2026-01-06",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[徵才訊息] 國立臺灣師範大學數學系徵聘專任教師1名",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2025/02/26/recruitment11402/",
-        "date": "2025-02-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[徵才訊息] 數學系誠徵約用人員一名",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2024/07/26/recruitstaff20221221-2/",
-        "date": "2024-07-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[徵才訊息] 數學系誠徵專任助理1～2名",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2024/07/10/recruit20230627-2/",
-        "date": "2024-07-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[徵才訊息] 數學系誠徵專任助理1～2名",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2023/06/27/recruit20230627/",
-        "date": "2023-06-27",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "math_scholarship": {
     "label": "數學系-獎助學金",
-    "announcements": [
-      {
-        "title": "[獎助學金] 公告本系114學年度第2學期系獎學金得獎名單",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/10/114-2_math_scholarship_list/",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[獎助學金] 公告本系114學年度第2學期STAR星辰獎學金得獎名單",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/21/11402_star_list/",
-        "date": "2026-05-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[獎助學金] 公告本系114-1書卷獎得獎名單（領獎登錄期限至 04/24）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/04/09/114-1-aea/",
-        "date": "2026-04-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[獎助學金] 114-2 數學系獎學金申請至 03/20（五）17:00 截止收件",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/03/04/114-2_math_scholarship/",
-        "date": "2026-03-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[獎助學金] 114-2 STAR星辰獎學金申請至03/20截止",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/03/04/11402-star-reg/",
-        "date": "2026-03-04",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "math_honor": {
     "label": "數學系-榮譽榜",
-    "announcements": [
-      {
-        "title": "[榮譽] 恭賀本系「謝承廷 、 楊奕安 」同學通過申請獲得115學年度大專學生研究計畫補助",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/17/6-86/",
-        "date": "2026-07-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[榮譽] 恭喜本系學生於114-2師資生教學實務能力檢測獲獎",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/20/114-2-edu-practice-list/",
-        "date": "2026-05-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[獎助學金] 公告本系114-1書卷獎得獎名單（領獎登錄期限至 04/24）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/04/09/114-1-aea/",
-        "date": "2026-04-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[榮譽] 恭賀本系博士生劉書詠參與第十六屆台日研討會獲得Excellent Presentation Award",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/03/17/16th_taiwan-japan_honor/",
-        "date": "2026-03-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[獎助學金] 公告本系114學年度第1學期系獎學金得獎名單",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2025/12/10/114-1_math_scholarship_list/",
-        "date": "2025-12-10",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "phy_news": {
     "label": "物理學系-最新公告",
