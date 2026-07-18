@@ -2434,43 +2434,7 @@
   },
   "sls_news": {
     "label": "生命科學專業學院-最新消息",
-    "announcements": [
-      {
-        "title": "【演講資訊】6/5生態演化組專討 講者:黃曜謀博士",
-        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/05/15/news-5/",
-        "date": "2026-05-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【115學年度大學申請入學─生命科學系第二階段】面試公告(5/15、5/16)",
-        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/05/11/news/",
-        "date": "2026-05-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【115-2 校級赴外交換甄選】系統操作暨獎學金說明會(5/18實體+線上同步)",
-        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/05/08/news-10/",
-        "date": "2026-05-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【演講資訊】5/31(日)@師大和平校區綜合大樓《從生物科學走向多元寬廣的文化領域》文化部長/臺師大生科63級系友 李遠(小野)",
-        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/04/20/news-8/",
-        "date": "2026-04-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【115年教師資格考試】4/9起已開始報名 ~ 4/16下午截止！",
-        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/04/10/news-3/",
-        "date": "2026-04-10",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "sls_speeches": {
     "label": "生命科學專業學院-演講公告",
@@ -3146,88 +3110,11 @@
   },
   "pr_news": {
     "label": "公共事務中心-師大新聞",
-    "announcements": [
-      {
-        "title": "大傳所媒體素養營前進三星國中 聚焦網路霸凌、詐騙與演算法 提升三星學子數位素養",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24753",
-        "date": "2026-07-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大物理團隊登上《Nature》首度直接量測二維半導體電子轉移長度 突破次世代電晶體微縮關鍵技術",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24759",
-        "date": "2026-07-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "跨越海峽與時代：臺師大離島同鄉校友會「渡．落番之道」啟發臺東青年探索自我與文化",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24761",
-        "date": "2026-07-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大HR-AI實驗室獲選AMD-ITRI高速運算平台團隊 Kairos AI首度亮相 高階GPU加速人才評鑑、智慧教練與世界模型研發",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24762",
-        "date": "2026-07-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "《終身樹人》許義雄：以臺師大人為榮，一生奉獻臺灣體育教育",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24424",
-        "date": "2026-07-16",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "pr_chirpy": {
     "label": "公共事務中心-活動預告",
-    "announcements": [
-      {
-        "title": "2026年華語師資教學實務專班第21期(平日晚間班) 報名中",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10616",
-        "date": "2026-07-16",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-07-20 08:00 ~ 2026-08-03 11:24 / 地點：進修推廣學院",
-        "show_summary": true
-      },
-      {
-        "title": "都柏林大學學院化學系馮寬文博士線上講座 報名中",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10615",
-        "date": "2026-07-16",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-07-20 15:00 ~ 2026-07-29 16:30 / 地點：Google Meet",
-        "show_summary": true
-      },
-      {
-        "title": "【2026 NTNU 和 JOGUMAN 一起】",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10614",
-        "date": "2026-07-14",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-07-20 09:06 ~ 2026-09-30 09:06 / 地點：校園書店",
-        "show_summary": true
-      },
-      {
-        "title": "Microsoft 365 Copilot校園服務推廣說明會",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10613",
-        "date": "2026-07-14",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-07-21 10:00 ~ 2026-07-21 10:30 / 地點：教育大樓401教室(線上同步)",
-        "show_summary": true
-      },
-      {
-        "title": "歡迎報名【專題講座】115年「從英語文科會考試題看課室評量」",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10612",
-        "date": "2026-07-07",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-07-20 13:30 ~ 2026-09-09 15:30 / 地點：線上課程的連結將於報名截止後，隨行前通知電子郵件一併提供，於前七個工作天以email知會，敬請報名者密切留意個人信箱。",
-        "show_summary": true
-      }
-    ]
+    "announcements": []
   },
   "alumni_news": {
     "label": "校友中心-最新消息",
