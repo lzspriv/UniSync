@@ -3150,14 +3150,21 @@
       {
         "title": "臺師大舉辦校園毒品危害防制講習 共築安全環境 捍衛師生健康",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24764",
-        "date": "2026-07-19",
+        "date": "2026-07-20",
         "date_label": "發布日期",
         "summary": ""
       },
       {
         "title": "光電所楊承山教授攜手筑波醫電 以看不見的光照亮AI醫療",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24765",
-        "date": "2026-07-19",
+        "date": "2026-07-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "教育學院行政讀書會第二場飄香登場 同仁齊聚咖啡香 共享放鬆時光",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24768",
+        "date": "2026-07-20",
         "date_label": "發布日期",
         "summary": ""
       },
@@ -3171,13 +3178,6 @@
       {
         "title": "化學系培訓國際化奧選手 臺灣獲3金1銀排世界第三",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24767",
-        "date": "2026-07-19",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "教育學院行政讀書會第二場飄香登場 同仁齊聚咖啡香 共享放鬆時光",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24768",
         "date": "2026-07-19",
         "date_label": "發布日期",
         "summary": ""
@@ -17755,13 +17755,6 @@
     "label": "社會工作學研究所-徵才資訊",
     "announcements": [
       {
-        "title": "清華大學 行政組員/公務人員徵才",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=939",
-        "date": "2026-07-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "新北市政府家庭暴力暨性侵害防治中心 社工助理徵才",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=920",
         "date": "2026-07-13",
@@ -17785,6 +17778,13 @@
       {
         "title": "臺北市家庭照顧者共融據點 社工員徵才",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=924",
+        "date": "2026-06-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "苗栗縣政府115年度青少年生涯探索號計畫 專任輔導員徵才",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=921",
         "date": "2026-06-29",
         "date_label": "發布日期",
         "summary": ""
@@ -19664,13 +19664,6 @@
     "label": "研究發展處-活動與演講",
     "announcements": [
       {
-        "title": "【轉知】農業部邀請Helion Biosystems創辦人Dr. Rudi Pauwels蒞臨進行「下一次豐收：為韌性、健康與長壽重建人類最古老之產業」專題演講",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/actnews/-%E8%BD%89%E7%9F%A5-%E8%BE%B2%E6%A5%AD%E9%83%A8%E9%82%80%E8%AB%8BHelion-Biosystems%E5%89%B5%E8%BE%A6%E4%BA%BADr-Rudi-Pauwels%E8%92%9E%E8%87%A8%E9%80%B2%E8%A1%8C-%E4%B8%8B%E4%B8%80%E6%AC%A1%E8%B1%90%E6%94%B6-%E7%82%BA%E9%9F%8C%E6%80%A7-%E5%81%A5%E5%BA%B7%E8%88%87%E9%95%B7%E5%A3%BD%E9%87%8D%E5%BB%BA%E4%BA%BA%E9%A1%9E%E6%9C%80%E5%8F%A4%E8%80%81%E4%B9%8B%E7%94%A2%E6%A5%AD-%E5%B0%88%E9%A1%8C%E6%BC%94%E8%AC%9B-22055973",
-        "date": "2026-07-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "【教育部UAAT】115年度UAAT人才培育國際合作深化計畫校內徵件說明會",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/actnews/-%E6%95%99%E8%82%B2%E9%83%A8UAAT-115%E5%B9%B4%E5%BA%A6UAAT%E4%BA%BA%E6%89%8D%E5%9F%B9%E8%82%B2%E5%9C%8B%E9%9A%9B%E5%90%88%E4%BD%9C%E6%B7%B1%E5%8C%96%E8%A8%88%E7%95%AB%E6%A0%A1%E5%85%A7%E5%BE%B5%E4%BB%B6%E8%AA%AA%E6%98%8E%E6%9C%83-15575161",
         "date": "2026-06-08",
@@ -19695,6 +19688,13 @@
         "title": "【創業家分享】青年創業不只是開公司：如何善用政府資源，打造有溫度的社會價值與品牌影響力",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/actnews/-%E5%89%B5%E6%A5%AD%E5%AE%B6%E5%88%86%E4%BA%AB-%E9%9D%92%E5%B9%B4%E5%89%B5%E6%A5%AD%E4%B8%8D%E5%8F%AA%E6%98%AF%E9%96%8B%E5%85%AC%E5%8F%B8-%E5%A6%82%E4%BD%95%E5%96%84%E7%94%A8%E6%94%BF%E5%BA%9C%E8%B3%87%E6%BA%90-%E6%89%93%E9%80%A0%E6%9C%89%E6%BA%AB%E5%BA%A6%E7%9A%84%E7%A4%BE%E6%9C%83%E5%83%B9%E5%80%BC%E8%88%87%E5%93%81%E7%89%8C%E5%BD%B1%E9%9F%BF%E5%8A%9B-24828158",
         "date": "2026-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【轉知】10/1(三) 臺灣學術倫理教育中心_學術倫理專題講座「學術倫理發展趨勢與實務運作注意事項」",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/actnews/-%E8%BD%89%E7%9F%A5-10-1-%E4%B8%89-%E8%87%BA%E7%81%A3%E5%AD%B8%E8%A1%93%E5%80%AB%E7%90%86%E6%95%99%E8%82%B2%E4%B8%AD%E5%BF%83-%E5%AD%B8%E8%A1%93%E5%80%AB%E7%90%86%E5%B0%88%E9%A1%8C%E8%AC%9B%E5%BA%A7-%E5%AD%B8%E8%A1%93%E5%80%AB%E7%90%86%E7%99%BC%E5%B1%95%E8%B6%A8%E5%8B%A2%E8%88%87%E5%AF%A6%E5%8B%99%E9%81%8B%E4%BD%9C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85-8333552",
+        "date": "2025-10-01",
         "date_label": "發布日期",
         "summary": ""
       }
