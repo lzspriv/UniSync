@@ -6869,13 +6869,6 @@
     "label": "圖書資訊學研究所-最新消息",
     "announcements": [
       {
-        "title": "國際學術交流: Natalia Bolfarini Tognoli教授蒞臨本所交流",
-        "url": "https://www.glis.ntnu.edu.tw/index.php/2026/07/09/natalia/",
-        "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "國家圖書館徵聘館藏組專案助理2名",
         "url": "https://www.glis.ntnu.edu.tw/index.php/2026/06/10/ncl/",
         "date": "2026-06-10",
@@ -20772,13 +20765,6 @@
     "label": "師資培育學院-活動看板-全部列表",
     "announcements": [
       {
-        "title": "臺師大理工STEM碩士公費專班招生資訊",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=648",
-        "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "【轉知】「教育部國教署教育人才庫媒合平臺」推廣",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=act&id=227",
         "date": "2026-04-13",
@@ -20796,15 +20782,7 @@
   },
   "tecs_act_college": {
     "label": "師資培育學院-活動看板-師資培育學院",
-    "announcements": [
-      {
-        "title": "臺師大理工STEM碩士公費專班招生資訊",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=648",
-        "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_act_curriculum": {
     "label": "師資培育學院-活動看板-師資培育課程組",
