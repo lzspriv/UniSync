@@ -3148,37 +3148,37 @@
     "label": "公共事務中心-師大新聞",
     "announcements": [
       {
-        "title": "臺師大舉辦校園毒品危害防制講習 共築安全環境 捍衛師生健康",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24764",
-        "date": "2026-07-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "光電所楊承山教授攜手筑波醫電 以看不見的光照亮AI醫療",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24765",
-        "date": "2026-07-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大研究發展處率校內研發團隊參展2026亞洲生技大展 展現智慧醫療感測與AI診斷跨域創新成果",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24766",
-        "date": "2026-07-20",
+        "date": "2026-07-21",
         "date_label": "發布日期",
         "summary": ""
       },
       {
         "title": "化學系培訓國際化奧選手 臺灣獲3金1銀排世界第三",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24767",
-        "date": "2026-07-20",
+        "date": "2026-07-21",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "教育學院行政讀書會第二場飄香登場 同仁齊聚咖啡香 共享放鬆時光",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24768",
-        "date": "2026-07-20",
+        "title": "臺師大美術系第31屆大墩美展勇奪22項大獎 跨世代創作能量展現藝術教育深厚底蘊",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24769",
+        "date": "2026-07-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "永續所方偉達教授《臺灣濕地誌》勇奪華人科普大獎 以濕地智慧守護臺灣韌性",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24770",
+        "date": "2026-07-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "數學系培訓選手參加國際數奧 臺灣榮獲獲1金3銀2銅",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24771",
+        "date": "2026-07-21",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -22683,7 +22683,43 @@
   },
   "activity_competition": {
     "label": "課外活動指導組-競賽資訊",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026高雄國際偶戲節－雕光見影全國皮影戲及創意影戲創作比賽暨表演比賽",
+        "url": "https://activity.sa.ntnu.edu.tw/2026%e9%ab%98%e9%9b%84%e5%9c%8b%e9%9a%9b%e5%81%b6%e6%88%b2%e7%af%80%ef%bc%8d%e9%9b%95%e5%85%89%e8%a6%8b%e5%bd%b1%e5%85%a8%e5%9c%8b%e7%9a%ae%e5%bd%b1%e6%88%b2%e5%8f%8a%e5%89%b5%e6%84%8f%e5%bd%b1/",
+        "date": "2026-07-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺東縣政府辦理「臺東百拍．鏡入座標」照片徵選活動",
+        "url": "https://activity.sa.ntnu.edu.tw/%e8%87%ba%e6%9d%b1%e7%b8%a3%e6%94%bf%e5%ba%9c%e8%be%a6%e7%90%86%e3%80%8c%e8%87%ba%e6%9d%b1%e7%99%be%e6%8b%8d%ef%bc%8e%e9%8f%a1%e5%85%a5%e5%ba%a7%e6%a8%99%e3%80%8d%e7%85%a7%e7%89%87%e5%be%b5%e9%81%b8/",
+        "date": "2026-07-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "運動部「2026全民運動賽事—總統盃街舞大賽」",
+        "url": "https://activity.sa.ntnu.edu.tw/%e9%81%8b%e5%8b%95%e9%83%a8%e3%80%8c2026%e5%85%a8%e6%b0%91%e9%81%8b%e5%8b%95%e8%b3%bd%e4%ba%8b-%e7%b8%bd%e7%b5%b1%e7%9b%83%e8%a1%97%e8%88%9e%e5%a4%a7%e8%b3%bd%e3%80%8d/",
+        "date": "2026-07-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "轉知：法務部檢送辦理「炎夏『漫』活，創意說『畫』」115年全國學生犯罪預防漫畫與創意短片徵件活動",
+        "url": "https://activity.sa.ntnu.edu.tw/%e8%bd%89%e7%9f%a5%ef%bc%9a%e6%b3%95%e5%8b%99%e9%83%a8%e6%aa%a2%e9%80%81%e8%be%a6%e7%90%86%e3%80%8c%e7%82%8e%e5%a4%8f%e3%80%8e%e6%bc%ab%e3%80%8f%e6%b4%bb%ef%bc%8c%e5%89%b5%e6%84%8f%e8%aa%aa%e3%80%8e/",
+        "date": "2026-07-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【競賽資訊】第二十四屆「人間有情-關懷癲癇徵文比賽」",
+        "url": "https://activity.sa.ntnu.edu.tw/%e3%80%90%e7%ab%b6%e8%b3%bd%e8%b3%87%e8%a8%8a%e3%80%91%e7%ac%ac%e4%ba%8c%e5%8d%81%e5%9b%9b%e5%b1%86%e3%80%8c%e4%ba%ba%e9%96%93%e6%9c%89%e6%83%85-%e9%97%9c%e6%87%b7%e7%99%b2%e7%99%87%e5%be%b5%e6%96%87/",
+        "date": "2026-07-03",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "activity_subsidy": {
     "label": "課外活動指導組-社團補助",
