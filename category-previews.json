@@ -4291,6 +4291,13 @@
     "label": "教育學院-最新消息",
     "announcements": [
       {
+        "title": "【賀榜】幼家科學學系林如萍教授榮獲115年師鐸獎",
+        "url": "https://www.coe.ntnu.edu.tw/index.php/2026/07/20/2026-national-excellent-teacher-award/",
+        "date": "2026-07-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動紀實】教育學院行政讀書會「放鬆身心：喝咖啡聊事非」",
         "url": "https://www.coe.ntnu.edu.tw/index.php/2026/07/20/event-0716/",
         "date": "2026-07-20",
@@ -4315,13 +4322,6 @@
         "title": "【公告】教育學院大樓陽台消防逃生梯油漆粉刷工程施工通知",
         "url": "https://www.coe.ntnu.edu.tw/index.php/2026/07/08/exit-painting/",
         "date": "2026-07-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動公告】行政人員讀書會與強化行政效能系列活動",
-        "url": "https://www.coe.ntnu.edu.tw/index.php/2026/07/06/empowerment-workshop/",
-        "date": "2026-07-06",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4410,6 +4410,13 @@
   "coe_honor": {
     "label": "教育學院-師生榮耀",
     "announcements": [
+      {
+        "title": "【賀榜】幼家科學學系林如萍教授榮獲115年師鐸獎",
+        "url": "https://www.coe.ntnu.edu.tw/index.php/2026/07/20/2026-national-excellent-teacher-award/",
+        "date": "2026-07-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "114-12-12 【賀榜】第九屆師大運動文青獎",
         "url": "https://www.coe.ntnu.edu.tw/index.php/2025/12/12/114-12-12-01/",
@@ -17616,13 +17623,6 @@
         "summary": ""
       },
       {
-        "title": "許佩琪 學位論文口試：成年初顯期青年知覺孝道文化與生涯抉擇之相關：探討家庭教養型態的中介效果",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-PaperExam/News.aspx?id=RbtCbgqudXM=&Sn=891",
-        "date": "2026-05-28",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "顏郁方 學位論文口試：對青少年自我決定權的詮釋與運用:某少年服務組織之社工經驗",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-PaperExam/News.aspx?id=RbtCbgqudXM=&Sn=878",
         "date": "2026-05-19",
@@ -17769,13 +17769,6 @@
         "summary": ""
       },
       {
-        "title": "新北市政府家庭暴力暨性侵害防治中心 社工助理徵才",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=920",
-        "date": "2026-07-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "天使心家族社會福利基金會 社工員徵才",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=933",
         "date": "2026-07-08",
@@ -17786,6 +17779,13 @@
         "title": "苗栗縣政府 輔導員徵才",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=929",
         "date": "2026-07-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺北市家庭照顧者共融據點 社工員徵才",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=924",
+        "date": "2026-06-29",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -22683,43 +22683,7 @@
   },
   "activity_competition": {
     "label": "課外活動指導組-競賽資訊",
-    "announcements": [
-      {
-        "title": "2026高雄國際偶戲節－雕光見影全國皮影戲及創意影戲創作比賽暨表演比賽",
-        "url": "https://activity.sa.ntnu.edu.tw/2026%e9%ab%98%e9%9b%84%e5%9c%8b%e9%9a%9b%e5%81%b6%e6%88%b2%e7%af%80%ef%bc%8d%e9%9b%95%e5%85%89%e8%a6%8b%e5%bd%b1%e5%85%a8%e5%9c%8b%e7%9a%ae%e5%bd%b1%e6%88%b2%e5%8f%8a%e5%89%b5%e6%84%8f%e5%bd%b1/",
-        "date": "2026-07-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺東縣政府辦理「臺東百拍．鏡入座標」照片徵選活動",
-        "url": "https://activity.sa.ntnu.edu.tw/%e8%87%ba%e6%9d%b1%e7%b8%a3%e6%94%bf%e5%ba%9c%e8%be%a6%e7%90%86%e3%80%8c%e8%87%ba%e6%9d%b1%e7%99%be%e6%8b%8d%ef%bc%8e%e9%8f%a1%e5%85%a5%e5%ba%a7%e6%a8%99%e3%80%8d%e7%85%a7%e7%89%87%e5%be%b5%e9%81%b8/",
-        "date": "2026-07-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "運動部「2026全民運動賽事—總統盃街舞大賽」",
-        "url": "https://activity.sa.ntnu.edu.tw/%e9%81%8b%e5%8b%95%e9%83%a8%e3%80%8c2026%e5%85%a8%e6%b0%91%e9%81%8b%e5%8b%95%e8%b3%bd%e4%ba%8b-%e7%b8%bd%e7%b5%b1%e7%9b%83%e8%a1%97%e8%88%9e%e5%a4%a7%e8%b3%bd%e3%80%8d/",
-        "date": "2026-07-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "轉知：法務部檢送辦理「炎夏『漫』活，創意說『畫』」115年全國學生犯罪預防漫畫與創意短片徵件活動",
-        "url": "https://activity.sa.ntnu.edu.tw/%e8%bd%89%e7%9f%a5%ef%bc%9a%e6%b3%95%e5%8b%99%e9%83%a8%e6%aa%a2%e9%80%81%e8%be%a6%e7%90%86%e3%80%8c%e7%82%8e%e5%a4%8f%e3%80%8e%e6%bc%ab%e3%80%8f%e6%b4%bb%ef%bc%8c%e5%89%b5%e6%84%8f%e8%aa%aa%e3%80%8e/",
-        "date": "2026-07-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【競賽資訊】第二十四屆「人間有情-關懷癲癇徵文比賽」",
-        "url": "https://activity.sa.ntnu.edu.tw/%e3%80%90%e7%ab%b6%e8%b3%bd%e8%b3%87%e8%a8%8a%e3%80%91%e7%ac%ac%e4%ba%8c%e5%8d%81%e5%9b%9b%e5%b1%86%e3%80%8c%e4%ba%ba%e9%96%93%e6%9c%89%e6%83%85-%e9%97%9c%e6%87%b7%e7%99%b2%e7%99%87%e5%be%b5%e6%96%87/",
-        "date": "2026-07-03",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "activity_subsidy": {
     "label": "課外活動指導組-社團補助",
