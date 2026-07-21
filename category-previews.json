@@ -20620,43 +20620,7 @@
   },
   "tecs_all": {
     "label": "師資培育學院-訊息公告-全部列表",
-    "announcements": [
-      {
-        "title": "【公告】2026新加坡「師資生國外教育見習計畫」甄選－錄取名單（詳附件）",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=651",
-        "date": "2026-07-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【招生公告】115年師資生提升英語口說能力計畫－秋季班",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=652",
-        "date": "2026-07-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度乙案師資培育公費生甄選正備取名單",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=567",
-        "date": "2026-07-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度雙語教學師資培育課程錄取名單暨選課注意事項",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=594",
-        "date": "2026-07-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "教育學程修習資格移轉之辦理方式及注意事項",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=605",
-        "date": "2026-07-01",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_college": {
     "label": "師資培育學院-訊息公告-師資培育學院",
@@ -20664,121 +20628,19 @@
   },
   "tecs_curriculum": {
     "label": "師資培育學院-訊息公告-師資培育課程組",
-    "announcements": [
-      {
-        "title": "115學年度乙案師資培育公費生甄選正備取名單",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=567",
-        "date": "2026-07-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度雙語教學師資培育課程錄取名單暨選課注意事項",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=594",
-        "date": "2026-07-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "教育學程修習資格移轉之辦理方式及注意事項",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=605",
-        "date": "2026-07-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "師資培育學院115學年度第1學期教學助理申請",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=582",
-        "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【公告】115學年度教育學程課表",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=579",
-        "date": "2026-05-20",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_practicum": {
     "label": "師資培育學院-訊息公告-實習與地方輔導組",
-    "announcements": [
-      {
-        "title": "【教育實習】115學年度第1學期教育實習相關訊息",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=649",
-        "date": "2026-07-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【公告】114學年度第2學期師資生教學實務能力檢測獲獎暨通過名單",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=577",
-        "date": "2026-05-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【111年9月30日新發布】師資培育之大學及教育實習機構辦理教育實習辦法",
-        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=H0050018",
-        "date": "2022-09-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【公告教育部函文】有關本土語文教育實習機構與教學實習輔導教師擇選一案",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=354",
-        "date": "2022-04-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【重要公告】實習期間不得參加教檢考試",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=171",
-        "date": "2018-09-17",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_international": {
     "label": "師資培育學院-訊息公告-國際師培推動組",
-    "announcements": [
-      {
-        "title": "【公告】2026新加坡「師資生國外教育見習計畫」甄選－錄取名單（詳附件）",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=651",
-        "date": "2026-07-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【招生公告】115年師資生提升英語口說能力計畫－秋季班",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=652",
-        "date": "2026-07-15",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_act_all": {
     "label": "師資培育學院-活動看板-全部列表",
-    "announcements": [
-      {
-        "title": "【轉知】「教育部國教署教育人才庫媒合平臺」推廣",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=act&id=227",
-        "date": "2026-04-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114-2 AI世代教學創新與實踐支持補助案—現正開放申請！",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=act&id=213",
-        "date": "2025-11-18",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_act_college": {
     "label": "師資培育學院-活動看板-師資培育學院",
@@ -20786,27 +20648,11 @@
   },
   "tecs_act_curriculum": {
     "label": "師資培育學院-活動看板-師資培育課程組",
-    "announcements": [
-      {
-        "title": "114-2 AI世代教學創新與實踐支持補助案—現正開放申請！",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=act&id=213",
-        "date": "2025-11-18",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_act_practicum": {
     "label": "師資培育學院-活動看板-實習與地方輔導組",
-    "announcements": [
-      {
-        "title": "【轉知】「教育部國教署教育人才庫媒合平臺」推廣",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=act&id=227",
-        "date": "2026-04-13",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_act_international": {
     "label": "師資培育學院-活動看板-國際師培推動組",
