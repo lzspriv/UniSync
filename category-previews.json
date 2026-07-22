@@ -3155,36 +3155,36 @@
     "label": "公共事務中心-師大新聞",
     "announcements": [
       {
-        "title": "美術系學生及校友勇奪大墩美展22項大獎 跨世代創作能量展現藝術教育底蘊",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24769",
-        "date": "2026-07-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "永續所方偉達教授《臺灣濕地誌》勇奪華人科普大獎 以濕地智慧守護臺灣韌性",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24770",
-        "date": "2026-07-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "跨越百年音樂時光 臺師大青銀共學走進威剛黑膠音樂博物館 共譜文化記憶與未來想像新篇章",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24775",
-        "date": "2026-07-22",
+        "date": "2026-07-23",
         "date_label": "發布日期",
         "summary": ""
       },
       {
         "title": "民音所攜手傳藝中心主辦 ICTMD MEA 雙年會 二十週年論壇匯聚國際學者 共探東亞音樂文化研究新趨勢",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24772",
-        "date": "2026-07-22",
+        "date": "2026-07-23",
         "date_label": "發布日期",
         "summary": ""
       },
       {
         "title": "地科系橫越日本九州地質調查之移地教學 深化國際合作與地質實作能力",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24773",
+        "date": "2026-07-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "研究發展處率領研發團隊參展亞洲生技大展 展現智慧醫療感測與AI診斷跨域創新成果",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24766",
+        "date": "2026-07-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "美術系學生及校友勇奪大墩美展22項大獎 跨世代創作能量展現藝術教育底蘊",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24769",
         "date": "2026-07-22",
         "date_label": "發布日期",
         "summary": ""
@@ -20999,7 +20999,43 @@
   },
   "eshc_news": {
     "label": "環境安全衛生中心-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "[置頂公告] 本校職業安全衛生教育訓練說明 Education Trai……",
+        "url": "https://www.eshc.ntnu.edu.tw/item.aspx?line=2065",
+        "date": "未知日期",
+        "date_label": "置頂公告",
+        "summary": ""
+      },
+      {
+        "title": "歡迎報名環安衛中心－構築永續節能躍升節能推廣講座……",
+        "url": "https://www.eshc.ntnu.edu.tw/item.aspx?line=2076",
+        "date": "2026-06-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "有關教育部「大專校院電費分級補助方案」……",
+        "url": "https://www.eshc.ntnu.edu.tw/item.aspx?line=2073",
+        "date": "2026-03-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "本中心補助各單位節能風扇清洗費用……",
+        "url": "https://www.eshc.ntnu.edu.tw/item.aspx?line=2071",
+        "date": "2026-03-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "本中心補助各單位冷氣機清洗費用……",
+        "url": "https://www.eshc.ntnu.edu.tw/item.aspx?line=2070",
+        "date": "2026-03-06",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "sdgs_news": {
     "label": "永續發展中心-最新消息",
