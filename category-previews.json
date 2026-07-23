@@ -3155,6 +3155,27 @@
     "label": "公共事務中心-師大新聞",
     "announcements": [
       {
+        "title": "地科系橫越日本九州地質調查之移地教學 深化國際合作與地質實作能力",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24773",
+        "date": "2026-07-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "歷史系謝仕淵校友 接任臺灣歷史博物館館長",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24774",
+        "date": "2026-07-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "ISX如何改寫腫瘤微環境？ 臺師大與高醫大團隊揭開肝癌免疫逃脫機制",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24777",
+        "date": "2026-07-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "永續所方偉達教授《臺灣濕地誌》勇奪華人科普大獎 以濕地智慧守護臺灣韌性",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24770",
         "date": "2026-07-23",
@@ -3164,27 +3185,6 @@
       {
         "title": "民音所攜手傳藝中心主辦 ICTMD MEA 雙年會 二十週年論壇匯聚國際學者 共探東亞音樂文化研究新趨勢",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24772",
-        "date": "2026-07-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "地科系橫越日本九州地質調查之移地教學 深化國際合作與地質實作能力",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24773",
-        "date": "2026-07-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "歷史系謝仕淵校友 接任臺灣歷史博物館館長",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24774",
-        "date": "2026-07-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "ISX如何改寫腫瘤微環境？ 臺師大與高醫大團隊揭開肝癌免疫逃脫機制",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24777",
         "date": "2026-07-23",
         "date_label": "發布日期",
         "summary": ""
@@ -3278,43 +3278,7 @@
   },
   "alumni_development": {
     "label": "校友中心-學校發展",
-    "announcements": [
-      {
-        "title": "地科系橫越日本九州地質調查之移地教學 深化國際合作與地質實作能力",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4433&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-07-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "光電所楊承山教授攜手筑波醫電 以看不見的光照亮AI醫療",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4430&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-07-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大研究發展處率校內研發團隊參展2026亞洲生技大展 展現智慧醫療感測與AI診斷跨域創新成果",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4429&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-07-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大HR-AI實驗室獲選AMD-ITRI高速運算平台團隊　Kairos AI首度亮相　高階GPU加速人才評鑑、智慧教練與世界模型研發",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4423&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-07-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大物理系培訓國手揚威瑞士！臺灣勇奪國際青年物理辯論賽銀牌",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4422&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-07-15",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "alumni_activities": {
     "label": "校友中心-校友活動",
@@ -15775,13 +15739,6 @@
     "label": "社會工作學研究所-其他活動演講",
     "announcements": [
       {
-        "title": "2026/08/07（五） 一主責多協力、全齡服務",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-OtherSpeech/News.aspx?id=uiHdRYIUPjE=&Sn=949",
-        "date": "2026-07-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "2026/08/29（六）截止 第27屆台日韓三國民間社會福利會議",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-OtherSpeech/News.aspx?id=uiHdRYIUPjE=&Sn=948",
         "date": "2026-07-22",
@@ -15805,6 +15762,13 @@
       {
         "title": "2026/08/31（一）截止 Call for Abstracts – Climate Justice Now: Social Work at the Frontlines of Climate Change, Disasters, and Environmental Justice",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-OtherSpeech/News.aspx?id=uiHdRYIUPjE=&Sn=945",
+        "date": "2026-07-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026/08/16（日）截止 「跨時光．限時信」照片、短文徵件活動",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-OtherSpeech/News.aspx?id=uiHdRYIUPjE=&Sn=943",
         "date": "2026-07-20",
         "date_label": "發布日期",
         "summary": ""
