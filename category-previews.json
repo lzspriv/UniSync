@@ -3278,7 +3278,43 @@
   },
   "alumni_development": {
     "label": "校友中心-學校發展",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "地科系橫越日本九州地質調查之移地教學 深化國際合作與地質實作能力",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4433&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-07-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "光電所楊承山教授攜手筑波醫電 以看不見的光照亮AI醫療",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4430&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-07-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大研究發展處率校內研發團隊參展2026亞洲生技大展 展現智慧醫療感測與AI診斷跨域創新成果",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4429&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-07-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大HR-AI實驗室獲選AMD-ITRI高速運算平台團隊　Kairos AI首度亮相　高階GPU加速人才評鑑、智慧教練與世界模型研發",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4423&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-07-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大物理系培訓國手揚威瑞士！臺灣勇奪國際青年物理辯論賽銀牌",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4422&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-07-15",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "alumni_activities": {
     "label": "校友中心-校友活動",
