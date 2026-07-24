@@ -15605,47 +15605,47 @@
   },
   "sw_affairs": {
     "label": "社會工作學研究所-所務公告",
+    "announcements": []
+  },
+  "sw_speech": {
+    "label": "社會工作學研究所-本所活動演講",
     "announcements": [
       {
-        "title": "恭賀 本所畢業校友 曾峻偉 同學錄取 115學年度臺灣大學社會工作學系博士班 榜首",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=&Sn=879",
-        "date": "2026-05-21",
+        "title": "115年暑假期間所辦時間調整公告",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=&Sn=903",
+        "date": "未知日期",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "「守護社會安全網，拒絕讓社工成為體制缺漏下之承擔者」社會工作/福利系（所）教師聯合聲明",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=&Sn=796",
-        "date": "2026-04-02",
+        "title": "本所張瑋庭同學榮獲「2026年第22屆社會工作相關學門博碩士傑出論文獎 」；林稟鈞、曾宣儒、黃女軒同學榮獲「2026年第22屆社會工作相關學門博碩士優秀論文獎 」",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=&Sn=807",
+        "date": "未知日期",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "恭賀本所畢業生李立聖同學當選臺北市社會福利委員會第14屆委員",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=&Sn=529",
-        "date": "2025-06-17",
+        "title": "國立臺灣師範大學社會工作學研究所 社會工作實習課程的理念主張",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=&Sn=639",
+        "date": "未知日期",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "【畢業與休學時程事項】",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=&Sn=333",
-        "date": "2025-03-20",
+        "title": "2026/08/29（六）截止 第27屆台日韓三國民間社會福利會議",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-OtherSpeech/News.aspx?id=uiHdRYIUPjE=&Sn=948",
+        "date": "未知日期",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "2024年台師大社工所20週年介紹影片",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Announcement/News.aspx?id=nczTcFIYBNg=&Sn=197",
-        "date": "2024-12-26",
+        "title": "2026/09/03（四） 2026 司法社工區域網絡發展計畫",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-OtherSpeech/News.aspx?id=uiHdRYIUPjE=&Sn=947",
+        "date": "未知日期",
         "date_label": "發布日期",
         "summary": ""
       }
     ]
-  },
-  "sw_speech": {
-    "label": "社會工作學研究所-本所活動演講",
-    "announcements": []
   },
   "sw_admission": {
     "label": "社會工作學研究所-招生訊息",
@@ -19222,6 +19222,20 @@
     "label": "人事室-活動訊息",
     "announcements": [
       {
+        "title": "公務人員保障暨培訓委員會製作之公務人員行政中立「宣導海報」及「說明告示」影本各1份",
+        "url": "https://hrs.ntnu.edu.tw/GoWeb2/include/index.php?Page=A-2-4&news02=18001816426a6345ffa6e07",
+        "date": "2026-07-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "教育部國民及學前教育署委請法務部廉政署派員錄製公益揭弊者保護法宣講影片",
+        "url": "https://hrs.ntnu.edu.tw/GoWeb2/include/index.php?Page=A-2-4&news02=8295864866a63456944e75",
+        "date": "2026-07-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "(轉知)第27屆十大傑出女青年選拔(114年11月1日~12月31日)",
         "url": "https://hrs.ntnu.edu.tw/GoWeb2/include/index.php?Page=A-2-4&news02=576734144690453c9905a8",
         "date": "2025-10-31",
@@ -19239,13 +19253,6 @@
         "title": "【轉知】中華民國全國退休教師聯盟招募會員資訊",
         "url": "https://hrs.ntnu.edu.tw/GoWeb2/include/index.php?Page=A-2-4&news02=1637544547684048e2b38d4",
         "date": "2025-06-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "法務部辦理113年線上人權影展「兩公約夏日電影院─人權敲敲門」",
-        "url": "https://hrs.ntnu.edu.tw/GoWeb2/include/index.php?Page=A-2-4&news02=123973904668f33b85ab62",
-        "date": "2024-07-11",
         "date_label": "發布日期",
         "summary": ""
       }
