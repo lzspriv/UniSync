@@ -3480,6 +3480,13 @@
     "label": "教務處-最新消息",
     "announcements": [
       {
+        "title": "通識課程-自主學習：專題探究申請至115年10月31日止 (115-2學期執行)",
+        "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/%E9%80%9A%E8%AD%98%E8%AA%B2%E7%A8%8B-%E8%87%AA%E4%B8%BB%E5%AD%B8%E7%BF%92-%E5%B0%88%E9%A1%8C%E6%8E%A2%E7%A9%B6%E7%94%B3%E8%AB%8B%E8%87%B3115%E5%B9%B410%E6%9C%8831%E6%97%A5%E6%AD%A2-115-2%E5%AD%B8%E6%9C%9F%E5%9F%B7%E8%A1%8C-28238294",
+        "date": "2026-10-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115-1學期通識課程-自主學習：自主探究(課程代碼 0SUG542)歡迎選課",
         "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/115-1%E5%AD%B8%E6%9C%9F%E9%80%9A%E8%AD%98%E8%AA%B2%E7%A8%8B-%E8%87%AA%E4%B8%BB%E5%AD%B8%E7%BF%92-%E8%87%AA%E4%B8%BB%E6%8E%A2%E7%A9%B6-%E8%AA%B2%E7%A8%8B%E4%BB%A3%E7%A2%BC-0SUG542-%E6%AD%A1%E8%BF%8E%E9%81%B8%E8%AA%B2-88047935",
         "date": "2026-07-27",
@@ -3504,13 +3511,6 @@
         "title": "115學年度研究生轉系所錄取名單公告",
         "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%A0%94%E7%A9%B6%E7%94%9F%E8%BD%89%E7%B3%BB%E6%89%80%E9%8C%84%E5%8F%96%E5%90%8D%E5%96%AE%E5%85%AC%E5%91%8A-12370514",
         "date": "2026-05-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115 年全國夏季學院 5/18 開始第二階段報名，暑假跨校通識抵學分！Summer College Phase 2 registration starts May 18 — cross-university credit opportunities this summer",
-        "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/115-%E5%B9%B4%E5%85%A8%E5%9C%8B%E5%A4%8F%E5%AD%A3%E5%AD%B8%E9%99%A2-5-18-%E9%96%8B%E5%A7%8B%E7%AC%AC%E4%BA%8C%E9%9A%8E%E6%AE%B5%E5%A0%B1%E5%90%8D-%E6%9A%91%E5%81%87%E8%B7%A8%E6%A0%A1%E9%80%9A%E8%AD%98%E6%8A%B5%E5%AD%B8%E5%88%86-Summer-College-Phase-2-registration-starts-May-18-%E2%80%94-cross-university-credit-opportunities-this-summer-84627120",
-        "date": "2026-05-20",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4543,16 +4543,16 @@
     "label": "教育心理與輔導學系-最新消息",
     "announcements": [
       {
-        "title": "轉知 桃園市政府教育局115年度第三次約聘專任專業輔導人員甄選",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1361&title=轉知 桃園市政府教育局115年度第三次約聘專任專業輔導人員甄選",
+        "title": "公告本系115學年度第1學期博士班研究生 楊為泓 論文計畫考試",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1362&title=公告本系115學年度第1學期博士班研究生 楊為泓 論文計畫考試",
         "date": "2026-07-27",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "公告 李俊仁老師「實驗心理學」課程誠徵教學助理",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1360&title=公告 李俊仁老師「實驗心理學」課程誠徵教學助理",
-        "date": "2026-07-22",
+        "title": "轉知 桃園市政府教育局115年度第三次約聘專任專業輔導人員甄選",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1361&title=轉知 桃園市政府教育局115年度第三次約聘專任專業輔導人員甄選",
+        "date": "2026-07-27",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4561,6 +4561,13 @@
   "epc_academic_events": {
     "label": "教育心理與輔導學系-學術活動",
     "announcements": [
+      {
+        "title": "公告本系115學年度第1學期博士班研究生 楊為泓 論文計畫考試",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1362&title=公告本系115學年度第1學期博士班研究生 楊為泓 論文計畫考試",
+        "date": "2026-07-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "公告本系114學年度第2學期碩士在職專班研究生 黃柏瑄 論文考試",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1356&title=公告本系114學年度第2學期碩士在職專班研究生 黃柏瑄 論文考試",
@@ -4585,13 +4592,6 @@
       {
         "title": "公告本系114學年度第2學期碩士班研究生 蔡妮諪 論文考試",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1349&title=公告本系114學年度第2學期碩士班研究生 蔡妮諪 論文考試",
-        "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "公告本系114學年度第2學期碩士在職專班研究生 葉羿妏 論文考試",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1348&title=公告本系114學年度第2學期碩士在職專班研究生 葉羿妏 論文考試",
         "date": "2026-07-09",
         "date_label": "發布日期",
         "summary": ""
@@ -5367,6 +5367,13 @@
     "label": "公民教育與活動領導學系-所有消息",
     "announcements": [
       {
+        "title": "政大附中代理教師甄選高中公民與社會科、國中童軍科(兼授家政)均為懸缺1名",
+        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=徵聘訊息&news02=5962726576a671df30e2ed",
+        "date": "2026-07-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115學年度臺中市立四張犁國民中學代理(代課)教師第一次甄選續辦第10次招考事宜",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=徵聘訊息&news02=20215647856a66e3191f130",
         "date": "2026-07-27",
@@ -5391,13 +5398,6 @@
         "title": "本校學士班新生入學成績優異獎學金實施要點及相關附件",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=系所公告&news02=19801882666a61453c65bdf",
         "date": "2026-07-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度學士班二年級轉學生招生考試錄取名單",
-        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=招生公告&news02=8231994246a58310daa2e3",
-        "date": "2026-07-16",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -5527,6 +5527,13 @@
     "label": "公民教育與活動領導學系-徵聘訊息",
     "announcements": [
       {
+        "title": "政大附中代理教師甄選高中公民與社會科、國中童軍科(兼授家政)均為懸缺1名",
+        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=徵聘訊息&news02=5962726576a671df30e2ed",
+        "date": "2026-07-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115學年度臺中市立四張犁國民中學代理(代課)教師第一次甄選續辦第10次招考事宜",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=徵聘訊息&news02=20215647856a66e3191f130",
         "date": "2026-07-27",
@@ -5550,13 +5557,6 @@
       {
         "title": "新北林口國小徵童軍社團老師",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=徵聘訊息&news02=20457431436a3cca6f1522d",
-        "date": "2026-06-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "新北市板橋重慶國中徵求公民科代理老師一名",
-        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=徵聘訊息&news02=15456622126a3c75482011e",
         "date": "2026-06-25",
         "date_label": "發布日期",
         "summary": ""
@@ -8574,6 +8574,13 @@
     "label": "歷史學系-最新消息",
     "announcements": [
       {
+        "title": "本系講座教授黑田明伸先生獲教育部玉山學者榮譽",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/27/1150727-2/",
+        "date": "2026-07-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【課務】115-1韓曉明老師所開課程因故停開",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/27/1150727/",
         "date": "2026-07-27",
@@ -8600,19 +8607,19 @@
         "date": "2026-07-14",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "賀！本系教師甄試金榜題名！(第11報)",
-        "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/14/1150714/",
-        "date": "2026-07-14",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "his_honor": {
     "label": "歷史學系-榮譽公告",
     "announcements": [
+      {
+        "title": "本系講座教授黑田明伸先生獲教育部玉山學者榮譽",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/27/1150727-2/",
+        "date": "2026-07-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "本系學士班葉怡珊同學及魏以恩同學榮獲科技部115年度「大專學生參與專題研究計畫」獎助",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/15/1150715/",
@@ -8638,13 +8645,6 @@
         "title": "「在經典中尋找未來的光：本院蟬聯 QS 世界學科排名肯定」",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/04/14/20260414/",
         "date": "2026-04-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "本系吳翎君教授榮獲114年度國科會傑出研究獎",
-        "url": "https://www.his.ntnu.edu.tw/index.php/2026/02/15/1150215/",
-        "date": "2026-02-15",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -19088,6 +19088,13 @@
     "label": "永續發展中心-最新消息",
     "announcements": [
       {
+        "title": "臺師大召開永續發展與大學社會責任推動委員會議 揭示校方永續發展行動策略與持續推動決心",
+        "url": "https://www.sdgs.ntnu.edu.tw/%e8%87%ba%e5%b8%ab%e5%a4%a7%e5%8f%ac%e9%96%8b%e6%b0%b8%e7%ba%8c%e7%99%bc%e5%b1%95%e8%88%87%e5%a4%a7%e5%ad%b8%e7%a4%be%e6%9c%83%e8%b2%ac%e4%bb%bb%e6%8e%a8%e5%8b%95%e5%a7%94%e5%93%a1%e6%9c%83%e8%ad%b0/",
+        "date": "2026-07-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "臺師大舉辦校園毒品危害防制講習 共築安全環境 捍衛師生健康",
         "url": "https://www.sdgs.ntnu.edu.tw/%e8%87%ba%e5%b8%ab%e5%a4%a7%e8%88%89%e8%be%a6%e6%a0%a1%e5%9c%92%e6%af%92%e5%93%81%e5%8d%b1%e5%ae%b3%e9%98%b2%e5%88%b6%e8%ac%9b%e7%bf%92-%e5%85%b1%e7%af%89%e5%ae%89%e5%85%a8%e7%92%b0%e5%a2%83-%e6%8d%8d/",
         "date": "2026-07-20",
@@ -19112,13 +19119,6 @@
         "title": "臺師大永續發展成果獲國際肯定 THE世界大學影響力排名大躍升",
         "url": "https://www.sdgs.ntnu.edu.tw/%e8%87%ba%e5%b8%ab%e5%a4%a7%e6%b0%b8%e7%ba%8c%e7%99%bc%e5%b1%95%e6%88%90%e6%9e%9c%e7%8d%b2%e5%9c%8b%e9%9a%9b%e8%82%af%e5%ae%9a-the%e4%b8%96%e7%95%8c%e5%a4%a7%e5%ad%b8%e5%bd%b1%e9%9f%bf%e5%8a%9b/",
         "date": "2026-06-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "師大美術館特展《共生之華》重返近代臺日美術交會的璀璨時代",
-        "url": "https://www.sdgs.ntnu.edu.tw/%e5%b8%ab%e5%a4%a7%e7%be%8e%e8%a1%93%e9%a4%a8%e7%89%b9%e5%b1%95%e3%80%8a%e5%85%b1%e7%94%9f%e4%b9%8b%e8%8f%af%e3%80%8b%e9%87%8d%e8%bf%94%e8%bf%91%e4%bb%a3%e8%87%ba%e6%97%a5%e7%be%8e%e8%a1%93%e4%ba%a4/",
-        "date": "2026-06-13",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -20547,13 +20547,6 @@
         "title": "教育部大專校院校園安全參考彙編 College Campus Safety Handbook",
         "url": "https://counselor.sa.ntnu.edu.tw/2026/05/29/post3-2-2-3-4-2-2-2-2-2-3-3-2-2-2-3-2-3-2-2-4-3-3-2-2-2-2/",
         "date": "2026-05-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "新生入學健康檢查注意事項",
-        "url": "https://health.sa.ntnu.edu.tw/%e6%96%b0%e7%94%9f%e5%85%a5%e5%ad%b8%e5%81%a5%e5%ba%b7%e6%aa%a2%e6%9f%a5%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a0%85/",
-        "date": "2026-05-27",
         "date_label": "發布日期",
         "summary": ""
       },
