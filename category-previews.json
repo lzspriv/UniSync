@@ -3176,15 +3176,15 @@
         "summary": ""
       },
       {
-        "title": "科學之眼下的日本明治工藝：師大美術館《共生之華》特展",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24763",
-        "date": "2026-07-28",
+        "title": "臺師大男籃赴日本早稻田大學移地訓練 實戰溝通深化台日體育交流",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24782",
+        "date": "2026-07-27",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "臺師大男籃赴日本早稻田大學移地訓練 實戰溝通深化台日體育交流",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24782",
+        "title": "把所學帶回家鄉！臺灣師大緬甸同學會返鄉教學 點亮華校孩童學習路",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24781",
         "date": "2026-07-27",
         "date_label": "發布日期",
         "summary": ""
@@ -3194,6 +3194,14 @@
   "pr_chirpy": {
     "label": "公共事務中心-活動預告",
     "announcements": [
+      {
+        "title": "8月份將進行電話禮貌抽測！",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10621",
+        "date": "2026-07-28",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-08-03 17:26 ~ 2026-08-31 23:59 / 地點：三校區",
+        "show_summary": true
+      },
       {
         "title": "2026年華語師資教學實務專班第21期(平日晚間班) 報名中",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10616",
@@ -3224,14 +3232,6 @@
         "date": "2026-07-03",
         "date_label": "新增日期",
         "summary": "活動時間：2026-07-13 09:15 ~ 2026-12-31 17:00 / 地點：三校校區",
-        "show_summary": true
-      },
-      {
-        "title": "【暑假校園書店限定扭蛋機＿繽紛一夏】",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10601",
-        "date": "2026-06-29",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-07-20 09:59 ~ 2026-08-21 09:59 / 地點：校園書店",
         "show_summary": true
       }
     ]
@@ -19321,6 +19321,13 @@
     "label": "體育室-最新消息",
     "announcements": [
       {
+        "title": "性平參考資料-校園性別事件防治實務手冊-身體活動指導篇",
+        "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/%E6%80%A7%E5%B9%B3%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99-%E6%A0%A1%E5%9C%92%E6%80%A7%E5%88%A5%E4%BA%8B%E4%BB%B6%E9%98%B2%E6%B2%BB%E5%AF%A6%E5%8B%99%E6%89%8B%E5%86%8A-%E8%BA%AB%E9%AB%94%E6%B4%BB%E5%8B%95%E6%8C%87%E5%B0%8E%E7%AF%87-93360244",
+        "date": "2026-07-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "114學年度體育委員會會議紀錄",
         "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/114%E5%AD%B8%E5%B9%B4%E5%BA%A6%E9%AB%94%E8%82%B2%E5%A7%94%E5%93%A1%E6%9C%83%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84-93680938",
         "date": "2025-09-30",
@@ -19332,6 +19339,13 @@
   "phr_proclamation": {
     "label": "體育室-體育室公告",
     "announcements": [
+      {
+        "title": "性平參考資料-校園性別事件防治實務手冊-身體活動指導篇",
+        "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/proclamation/%E6%80%A7%E5%B9%B3%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99-%E6%A0%A1%E5%9C%92%E6%80%A7%E5%88%A5%E4%BA%8B%E4%BB%B6%E9%98%B2%E6%B2%BB%E5%AF%A6%E5%8B%99%E6%89%8B%E5%86%8A-%E8%BA%AB%E9%AB%94%E6%B4%BB%E5%8B%95%E6%8C%87%E5%B0%8E%E7%AF%87-93360244",
+        "date": "2026-07-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "114學年度體育委員會會議紀錄",
         "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/proclamation/114%E5%AD%B8%E5%B9%B4%E5%BA%A6%E9%AB%94%E8%82%B2%E5%A7%94%E5%93%A1%E6%9C%83%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84-93680938",
@@ -19357,13 +19371,6 @@
         "title": "113-2 公館校區教職員工運動班開班囉!",
         "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/proclamation/113-2-%E5%85%AC%E9%A4%A8%E6%A0%A1%E5%8D%80%E6%95%99%E8%81%B7%E5%93%A1%E5%B7%A5%E9%81%8B%E5%8B%95%E7%8F%AD%E9%96%8B%E7%8F%AD%E5%9B%89-24336358",
         "date": "2025-02-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114年高爾夫選手服替代役之意願調查",
-        "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/proclamation/114%E5%B9%B4%E9%AB%98%E7%88%BE%E5%A4%AB%E9%81%B8%E6%89%8B%E6%9C%8D%E6%9B%BF%E4%BB%A3%E5%BD%B9%E4%B9%8B%E6%84%8F%E9%A1%98%E8%AA%BF%E6%9F%A5-34209465",
-        "date": "2024-12-21",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -20543,6 +20550,13 @@
   "student_affairs_home_latest": {
     "label": "學生事務處-首頁最新消息",
     "announcements": [
+      {
+        "title": "新生入學健康檢查注意事項",
+        "url": "https://health.sa.ntnu.edu.tw/%e6%96%b0%e7%94%9f%e5%85%a5%e5%ad%b8%e5%81%a5%e5%ba%b7%e6%aa%a2%e6%9f%a5%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a0%85/",
+        "date": "2026-07-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "不利處境學生生理用品補助",
         "url": "https://assistance.sa.ntnu.edu.tw/ministry-edu-7/",
@@ -22586,6 +22600,13 @@
     "label": "國際臺灣學研究中心-最新消息",
     "announcements": [
       {
+        "title": "Workshop Report: “Taiwanese Literature as Planetary Literature: Reframing World Literature” at the University of Bern",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/07/28/workshop-report-taiwanese-literature-as-planetary-literature-reframing-world-literature-at-the-university-of-bern/",
+        "date": "2026-07-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2026 UCLA-NTNU Taiwan Studies Initiative Conference Explores “Culture and Identity between Language and Empires”",
         "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/06/22/2026-ucla-ntnu-taiwan-studies-initiative-conference-explores-culture-and-identity-between-language-and-empires/",
         "date": "2026-06-22",
@@ -22610,13 +22631,6 @@
         "title": "透過台灣倡議計畫為台灣發聲",
         "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/06/16/20260616/",
         "date": "2026-06-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "跨學科的台灣與華語語系研究 2026年夏天演講系列",
-        "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/06/13/20260613/",
-        "date": "2026-06-13",
         "date_label": "發布日期",
         "summary": ""
       }
