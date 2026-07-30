@@ -10450,7 +10450,43 @@
   },
   "ie_news": {
     "label": "工業教育學系 (含公費專班)-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "中國工業職業教育學會115年度「傑出人員金鐸獎」與「研究生暨大學生論文獎」遴選事宜",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/07/29/20260726-1/",
+        "date": "2026-07-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度碩博士班暨碩士在職專班聯合新生座談會簡報",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/07/23/20260723001/",
+        "date": "2026-07-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度碩博士班暨碩士在職專班線上新生座談會@7/22",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/07/07/20260707001/",
+        "date": "2026-07-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "教育家訪談~技職準老師的修煉之路：政策支持下的「匠心」傳承",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/07/01/1150701/",
+        "date": "2026-07-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度工業教育學系學士班公費專班單獨招生考試錄取名單",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/06/25/1150625/",
+        "date": "2026-06-25",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "ie_pinned": {
     "label": "工業教育學系 (含公費專班)-重要置頂",
@@ -11203,7 +11239,43 @@
   },
   "me_news": {
     "label": "機電工程學系-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "2026-07-21 機電系書卷獎同名次參酌獲獎順序(第二次公告)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/07/21/2026-07-21/",
+        "date": "2026-07-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-07-20 本校「學士班新生入學成績優異獎學金實施要點」、學生申請表及學系推薦表",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/07/20/2026-07-20/",
+        "date": "2026-07-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-06-26 賀！本系榮獲4件115年度國科會補助大專學生研究計畫",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/26/20260629/",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-06-12 115學年度四技二專推薦甄選入學面試時程表",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/12/2026-06-12/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-05-09 賀! 本系張天立教授2026年指導學生林妤倢、張戎狄、蘇品睿、陳源濬，獲得115度台灣機電工程國際學會最佳論文奬 (名稱:以飛秒雷射製程製備整合微加熱可撓性 PI 基材之 NO 氣體感測器 Flexible PI-Based NO Gas Sensor with IntegratedMicroheater Fabricated by Femtosecond Laser Processing)",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/12/2026-05-09-4/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "me_affairs": {
     "label": "機電工程學系-系所公告",
@@ -12066,7 +12138,22 @@
   },
   "stem_news": {
     "label": "科學-科技-工程-數學整合教育國際博士學位學程-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "賀! 本學程林坤誼合聘教授獲美國CTETE協會頒發推動STEM教育獎項",
+        "url": "https://www.stem.ntnu.edu.tw/index.php/2023/05/01/20230501/",
+        "date": "2023-05-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2023春季招生中",
+        "url": "https://www.stem.ntnu.edu.tw/index.php/2023/01/08/20230108a0/",
+        "date": "2023-01-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "stem_affairs": {
     "label": "科學-科技-工程-數學整合教育國際博士學位學程-系所公告",
@@ -21652,36 +21739,7 @@
   },
   "spc_honor": {
     "label": "特殊教育中心-榮譽事蹟",
-    "announcements": [
-      {
-        "title": "狂賀！本中心林寶貴前主任榮獲公益信託星雲大師教育基金主辦的「2021星雲教育獎」之終身教育典範獎！",
-        "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=榮譽事蹟&news02=1639691402621305bc3104c",
-        "date": "2022-02-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "狂賀！！恭喜本中心吳亭芳組長於111年2月1日升等為教授！",
-        "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=榮譽事蹟&news02=2163720506212f238936f4",
-        "date": "2022-02-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "狂賀！！恭喜本中心潘正宸助理研究員於110年8月1日升等為副研究員！",
-        "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=榮譽事蹟&news02=101376133160e41e4a597a8",
-        "date": "2021-07-06",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "狂賀！！恭喜本中心資源教室蘇宗翔輔導員考上諮商師！！",
-        "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=榮譽事蹟&news02=1375174595621ed421b98d0",
-        "date": "2019-10-01",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "spc_regulations": {
     "label": "特殊教育中心-法令規章",
