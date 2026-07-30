@@ -3155,20 +3155,6 @@
     "label": "公共事務中心-師大新聞",
     "announcements": [
       {
-        "title": "《終身樹人》鄭志富：臺師大開啟臺灣首度征戰世大運歷史",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24425",
-        "date": "2026-07-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "影音》臺師大科教中心攜手金門縣政府辦科學營 藉多元課程扎根探究能力",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24795",
-        "date": "2026-07-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "深耕部落與多元共融：臺師大校園團契服務社攜手跨校青年 舉辦「小小Followers出國去」營隊 陪伴教會學童成長",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24791",
         "date": "2026-07-30",
@@ -3185,6 +3171,20 @@
       {
         "title": "北區七縣市齊聚交流 展現科技教育多元成果 攜手深化科技教育發展",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24796",
+        "date": "2026-07-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大攜手雲林縣政府打造公立教育新典範 共設「雲林縣立臺灣師大高級中等學校」",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24797",
+        "date": "2026-07-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "《Formosa Viva》2026愛丁堡藝穗節演出行前公開彩排 全新青年卡司舞動臺灣五百年島嶼記憶",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24799",
         "date": "2026-07-30",
         "date_label": "發布日期",
         "summary": ""
@@ -14294,6 +14294,13 @@
     "label": "表演藝術學士學位學程-最新消息",
     "announcements": [
       {
+        "title": "【課程宣介】 115-1 「藝企合作」 走進產業、實地協作、當場創造。",
+        "url": "https://www.bdppa.ntnu.edu.tw/index.php/2026/07/30/nijed/",
+        "date": "2026-07-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【公告】表演藝術學系學士班書卷獎同名次參酌獲獎順序",
         "url": "https://www.bdppa.ntnu.edu.tw/index.php/2026/06/17/1-10/",
         "date": "2026-06-17",
@@ -14318,13 +14325,6 @@
         "title": "【師培】公告本校115學年度乙案師資培育公費生甄選錄取名單",
         "url": "https://www.bdppa.ntnu.edu.tw/index.php/2026/03/25/1-7/",
         "date": "2026-03-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【招生】115學年度表演藝術學系「申請入學」第二階段指定項目「演唱、朗讀及肢體呈現」測驗內容",
-        "url": "https://www.bdppa.ntnu.edu.tw/index.php/2026/03/06/1-6/",
-        "date": "2026-03-06",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -14574,6 +14574,13 @@
     "label": "表演藝術研究所-最新消息",
     "announcements": [
       {
+        "title": "【課程宣介】 115-1 「藝企合作」 走進產業、實地協作、當場創造。",
+        "url": "https://www.gipa.ntnu.edu.tw/index.php/2026/07/30/115-1njdo/",
+        "date": "2026-07-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【師培】公告本校115學年度乙案師資培育公費生甄選錄取名單",
         "url": "https://www.gipa.ntnu.edu.tw/index.php/2026/03/25/1-6/",
         "date": "2026-03-25",
@@ -14598,13 +14605,6 @@
         "title": "114-2 「藝術創業與財務管理」 業師、校友講座暨工作坊",
         "url": "https://www.gipa.ntnu.edu.tw/index.php/2026/01/29/1-4/",
         "date": "2026-01-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【課程公告】 114-2 「教育劇場」 課程 & 業師系列工作坊",
-        "url": "https://www.gipa.ntnu.edu.tw/index.php/2026/01/26/1-3/",
-        "date": "2026-01-26",
         "date_label": "發布日期",
         "summary": ""
       }
