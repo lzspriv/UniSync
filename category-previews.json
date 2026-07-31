@@ -3153,7 +3153,43 @@
   },
   "pr_news": {
     "label": "公共事務中心-師大新聞",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "臺師大攜手雲林縣政府打造公立教育新典範 共設「雲林縣立臺灣師大高級中等學校」",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24797",
+        "date": "2026-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "解鎖東方神話新視野！《山海經 Mountains and Seas: A Rock Musical》彩排圓滿落幕 即將出征愛丁堡藝穗節",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24800",
+        "date": "2026-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "打破資源夾縫與限制 臺師大同心服務隊「追光航線」攜手橫山國小 陪伴學童探索未來",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24801",
+        "date": "2026-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "師培學院帶領師資生赴美國先鋒中英雙語學校 深度探索多元文化與共融教育",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24802",
+        "date": "2026-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大圖傳系與溫博館推動館校合作 深度挖掘文化元素 打造創意泡湯浴巾",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24803",
+        "date": "2026-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "pr_chirpy": {
     "label": "公共事務中心-活動預告",
