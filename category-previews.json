@@ -3195,6 +3195,14 @@
     "label": "公共事務中心-活動預告",
     "announcements": [
       {
+        "title": "115-1「大師創業學分學程」選課囉!",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10627",
+        "date": "2026-07-31",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-07-31 10:18 ~ 2026-08-19 23:55 / 地點：選課系統",
+        "show_summary": true
+      },
+      {
         "title": "2026臺師大原住民族學生夢想營 〈Sinsbilan．傳承",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10626",
         "date": "2026-07-30",
@@ -3224,14 +3232,6 @@
         "date": "2026-07-29",
         "date_label": "新增日期",
         "summary": "活動時間：2026-07-29 ~ 2026-09-01 00:00 / 地點：線上",
-        "show_summary": true
-      },
-      {
-        "title": "8月份將進行電話禮貌抽測！",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10621",
-        "date": "2026-07-28",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-08-03 17:26 ~ 2026-08-31 23:59 / 地點：三校區",
         "show_summary": true
       }
     ]
@@ -3494,13 +3494,6 @@
         "summary": ""
       },
       {
-        "title": "115學年度第1學期高中生進階課程（NTNU NEXT Program）報名暨課程資訊",
-        "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC1%E5%AD%B8%E6%9C%9F%E9%AB%98%E4%B8%AD%E7%94%9F%E9%80%B2%E9%9A%8E%E8%AA%B2%E7%A8%8B%EF%BC%88NTNU-NEXT-Program%EF%BC%89%E5%A0%B1%E5%90%8D%E6%9A%A8%E8%AA%B2%E7%A8%8B%E8%B3%87%E8%A8%8A-12326455",
-        "date": "2026-07-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "114學年度轉系、雙主修、輔系、預修生及學分學程錄取結果已發布",
         "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/114%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%BD%89%E7%B3%BB-%E9%9B%99%E4%B8%BB%E4%BF%AE-%E8%BC%94%E7%B3%BB-%E9%A0%90%E4%BF%AE%E7%94%9F%E5%8F%8A%E5%AD%B8%E5%88%86%E5%AD%B8%E7%A8%8B%E9%8C%84%E5%8F%96%E7%B5%90%E6%9E%9C%E5%B7%B2%E7%99%BC%E5%B8%83-99846822",
         "date": "2026-05-29",
@@ -3513,12 +3506,33 @@
         "date": "2026-05-25",
         "date_label": "發布日期",
         "summary": ""
+      },
+      {
+        "title": "115 年全國夏季學院 5/18 開始第二階段報名，暑假跨校通識抵學分！Summer College Phase 2 registration starts May 18 — cross-university credit opportunities this summer",
+        "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/115-%E5%B9%B4%E5%85%A8%E5%9C%8B%E5%A4%8F%E5%AD%A3%E5%AD%B8%E9%99%A2-5-18-%E9%96%8B%E5%A7%8B%E7%AC%AC%E4%BA%8C%E9%9A%8E%E6%AE%B5%E5%A0%B1%E5%90%8D-%E6%9A%91%E5%81%87%E8%B7%A8%E6%A0%A1%E9%80%9A%E8%AD%98%E6%8A%B5%E5%AD%B8%E5%88%86-Summer-College-Phase-2-registration-starts-May-18-%E2%80%94-cross-university-credit-opportunities-this-summer-84627120",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
       }
     ]
   },
   "aa_admission": {
     "label": "教務處-招生公告",
     "announcements": [
+      {
+        "title": "115學年度運動競技學系單獨招生第7梯次遞補名單",
+        "url": "https://www.aa.ntnu.edu.tw/zh_tw/admission/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E9%81%8B%E5%8B%95%E7%AB%B6%E6%8A%80%E5%AD%B8%E7%B3%BB%E5%96%AE%E7%8D%A8%E6%8B%9B%E7%94%9F%E7%AC%AC7%E6%A2%AF%E6%AC%A1%E9%81%9E%E8%A3%9C%E5%90%8D%E5%96%AE-46288007",
+        "date": "2026-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度碩士班招生考試第17梯次遞補名單",
+        "url": "https://www.aa.ntnu.edu.tw/zh_tw/admission/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%A2%A9%E5%A3%AB%E7%8F%AD%E6%8B%9B%E7%94%9F%E8%80%83%E8%A9%A6%E7%AC%AC17%E6%A2%AF%E6%AC%A1%E9%81%9E%E8%A3%9C%E5%90%8D%E5%96%AE-78147526",
+        "date": "2026-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "115學年度學士班二年級轉學生招生考試第1梯次遞補名單",
         "url": "https://www.aa.ntnu.edu.tw/zh_tw/admission/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%AD%B8%E5%A3%AB%E7%8F%AD%E4%BA%8C%E5%B9%B4%E7%B4%9A%E8%BD%89%E5%AD%B8%E7%94%9F%E6%8B%9B%E7%94%9F%E8%80%83%E8%A9%A6%E7%AC%AC1%E6%A2%AF%E6%AC%A1%E9%81%9E%E8%A3%9C%E5%90%8D%E5%96%AE-80150056",
@@ -3537,20 +3551,6 @@
         "title": "115學年度工業教育學系公費專班單獨招生第3次遞補名單",
         "url": "https://www.aa.ntnu.edu.tw/zh_tw/admission/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%B7%A5%E6%A5%AD%E6%95%99%E8%82%B2%E5%AD%B8%E7%B3%BB%E5%85%AC%E8%B2%BB%E5%B0%88%E7%8F%AD%E5%96%AE%E7%8D%A8%E6%8B%9B%E7%94%9F%E7%AC%AC3%E6%AC%A1%E9%81%9E%E8%A3%9C%E5%90%8D%E5%96%AE-83042925",
         "date": "2026-07-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度碩士班招生考試第16梯次遞補名單",
-        "url": "https://www.aa.ntnu.edu.tw/zh_tw/admission/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%A2%A9%E5%A3%AB%E7%8F%AD%E6%8B%9B%E7%94%9F%E8%80%83%E8%A9%A6%E7%AC%AC16%E6%A2%AF%E6%AC%A1%E9%81%9E%E8%A3%9C%E5%90%8D%E5%96%AE-86351312",
-        "date": "2026-07-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度碩士班招生考試第15梯次遞補名單",
-        "url": "https://www.aa.ntnu.edu.tw/zh_tw/admission/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%A2%A9%E5%A3%AB%E7%8F%AD%E6%8B%9B%E7%94%9F%E8%80%83%E8%A9%A6%E7%AC%AC15%E6%A2%AF%E6%AC%A1%E9%81%9E%E8%A3%9C%E5%90%8D%E5%96%AE-7351911",
-        "date": "2026-07-16",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -7922,6 +7922,13 @@
     "label": "國文學系-最新消息",
     "announcements": [
       {
+        "title": "公告本系115學年度第1學期導師名單及導師時間表",
+        "url": "https://www.ch.ntnu.edu.tw/index.php/2026/07/31/yu-p115073101/",
+        "date": "2026-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【公告】國文學系114暑期第二期課程教室地點通知",
         "url": "https://www.ch.ntnu.edu.tw/index.php/2026/07/23/a-e71001-20260723/",
         "date": "2026-07-23",
@@ -7948,19 +7955,19 @@
         "date": "2026-07-11",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "115學年度本學系（所）8/20教學碩士及碩士專班論文發表會徵稿辦法",
-        "url": "https://www.ch.ntnu.edu.tw/index.php/2026/07/09/gothic-d1150709-1/",
-        "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "ch_admin": {
     "label": "國文學系-行政公告",
     "announcements": [
+      {
+        "title": "公告本系115學年度第1學期導師名單及導師時間表",
+        "url": "https://www.ch.ntnu.edu.tw/index.php/2026/07/31/yu-p115073101/",
+        "date": "2026-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "因應勤大樓耐震補強工程施工，自即日起至8月31日止，請借用通勤學生置物櫃之同學全部辦理退櫃!",
         "url": "https://www.ch.ntnu.edu.tw/index.php/2026/06/22/linyc017-s31-2/",
@@ -7986,13 +7993,6 @@
         "title": "公告本系6/12(五)大五返校座談時間及地點",
         "url": "https://www.ch.ntnu.edu.tw/index.php/2026/06/05/yu-p115060501/",
         "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "文學院辦理115-2院級赴外交換甄選暨研究生參與NTNU-UCLA國際臺灣學研究計畫獎助之甄選公告",
-        "url": "https://www.ch.ntnu.edu.tw/index.php/2026/06/03/yu-p115060301/",
-        "date": "2026-06-03",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -18297,6 +18297,13 @@
     "label": "國際事務處-獎助計畫",
     "announcements": [
       {
+        "title": "【114-2鼓勵赴境外進修補助】結案注意事項及相關說明，務請依照規定辦理。",
+        "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-subsidy/2026052101",
+        "date": "2026-05-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【115-1鼓勵赴境外進修補助】核定通知，務請依照規定辦理。",
         "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-subsidy/2026072301",
         "date": "2026-07-25",
@@ -18307,13 +18314,6 @@
         "title": "115年教育部學海飛颺/惜珠獎學金核定通知及報到須知，務請依照相關規定辦理。",
         "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-subsidy/2026070803",
         "date": "2026-07-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【114-2鼓勵赴境外進修補助】結案注意事項及相關說明，務請依照規定辦理。",
-        "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-subsidy/2026052101",
-        "date": "2026-05-21",
         "date_label": "發布日期",
         "summary": ""
       },
@@ -18729,6 +18729,13 @@
     "label": "國語教學中心-最新消息",
     "announcements": [
       {
+        "title": "2026年秋季班學生宿舍申請",
+        "url": "https://mtc.ntnu.edu.tw/news/ndetail-4-422.html",
+        "date": "2026-07-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "國立臺灣師範大學115年臺灣優華語計畫華語教師赴國外學校任教甄選公告-美國關島大學",
         "url": "https://mtc.ntnu.edu.tw/upload_files/news/20260729_UOG-1150729.pdf",
         "date": "2026-07-29",
@@ -18750,13 +18757,6 @@
         "summary": ""
       },
       {
-        "title": "2026年秋季班學生宿舍申請",
-        "url": "https://mtc.ntnu.edu.tw/news/ndetail-4-422.html",
-        "date": "2026-07-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "2026年專職華語教師第二次徵選(延長至8/14)",
         "url": "https://mtc.ntnu.edu.tw/news/20260702.html",
         "date": "2026-07-02",
@@ -18768,6 +18768,13 @@
   "mtc_admin": {
     "label": "國語教學中心-行政公布",
     "announcements": [
+      {
+        "title": "2026年秋季班學生宿舍申請",
+        "url": "https://mtc.ntnu.edu.tw/news/ndetail-4-422.html",
+        "date": "2026-07-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "國立臺灣師範大學115年臺灣優華語計畫華語教師赴國外學校任教甄選公告-美國關島大學",
         "url": "https://mtc.ntnu.edu.tw/upload_files/news/20260729_UOG-1150729.pdf",
@@ -18786,13 +18793,6 @@
         "title": "台師大國語教學中心總務組 誠徵工讀生1名",
         "url": "https://mtc.ntnu.edu.tw/news/20260512.html",
         "date": "2026-07-28",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026年秋季班學生宿舍申請",
-        "url": "https://mtc.ntnu.edu.tw/news/ndetail-4-422.html",
-        "date": "2026-07-16",
         "date_label": "發布日期",
         "summary": ""
       },
