@@ -1,7 +1,43 @@
 {
   "math_news": {
     "label": "數學系-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "[系所公告] 恭賀本系碩士生丘偉辰(指導教授:游森棚)及碩士生黃志翔(指導教授:林延輯)榮獲組合數學新苗研討會碩士論文獎",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/30/6-87/",
+        "date": "2026-07-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[專題演講] 【8月17日】侯一釗 / Discussion with Academician: Applied Mathematics",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/30/seminar20260817/",
+        "date": "2026-07-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[徵才訊息] 國立臺灣師範大學數學系徵聘專任教師1名",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/30/recruitment1150730/",
+        "date": "2026-07-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[課程資訊] 114學年度暑期(114-3)期末課程意見調查",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/21/course-evaluation-survey-26/",
+        "date": "2026-07-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[課程資訊] 「114日間暑期課程」期中停修重要提醒",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/21/withdraw-15/",
+        "date": "2026-07-21",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "math_announcement": {
     "label": "數學系-系所公告",
@@ -45,11 +81,83 @@
   },
   "math_speeches": {
     "label": "數學系-演講公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【7月22日】2026年幾何分析會議",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/15/20260722workshap/",
+        "date": "2026-07-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[應用數學研討會] 【7月9日】The Applied Mathematics Symposium",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/30/2026ams/",
+        "date": "2026-06-30",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[活動公告] 【6月12日】2026科學計算學生研討會",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/10/0612-2026/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[活動公告] 【9月29日-10月01日】GVP & GMT Workshop 2026",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/09/gvp-gmt-workshop-2026/",
+        "date": "2026-06-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[專題演講] 【6月15日】Sven Leyffer／Solving Massive Combinatorial Optimization Problems",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/21/lecture20260615/",
+        "date": "2026-05-21",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "math_course": {
     "label": "數學系-課程資訊",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "[課程資訊] 114學年度暑期(114-3)期末課程意見調查",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/21/course-evaluation-survey-26/",
+        "date": "2026-07-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[課程資訊] 「114日間暑期課程」期中停修重要提醒",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/21/withdraw-15/",
+        "date": "2026-07-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[活動公告] 【6月12日】2026科學計算學生研討會",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/10/0612-2026/",
+        "date": "2026-06-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[課程資訊] 本校114學年度第2學期期末課程意見調查",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/01/course-evaluation-survey-25/",
+        "date": "2026-06-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "[課程資訊] 115學年度預排課表公告（0716更新）",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/07/115-course-announcement/",
+        "date": "2026-05-07",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "math_graduate": {
     "label": "數學系-研究生公告",
