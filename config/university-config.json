@@ -156,11 +156,6 @@
       "title": ".article h3",
       "date": ".date-row"
     },
-    "rcccr_content_item": {
-      "parser": "link_date_text",
-      "article": "a.content-item[href]",
-      "title_link": "a[href]"
-    },
     "goweb_news": {
       "parser": "row_date_link",
       "article": ".ntnu-news li.list-group-item",
@@ -3968,12 +3963,6 @@
       "url": "https://www.artmuse.ntnu.edu.tw/index.php/category/events/",
       "selectorPreset": "wordpress_broad"
     },
-    "rcccr_news": {
-      "label": "最新消息",
-      "owner": "文物保存維護研究發展中心",
-      "url": "https://rcccr.ntnu.edu.tw/news/",
-      "selectorPreset": "rcccr_content_item"
-    },
     "assistance_admin": {
       "label": "行政公告",
       "owner": "生活輔導組",
@@ -4893,30 +4882,6 @@
         "article": "#tab-1 table tbody tr",
         "title_link": "td:nth-of-type(2) a[href]",
         "date": "td:nth-of-type(1)"
-      }
-    },
-    "dacm_upcoming_events": {
-      "label": "活動預告",
-      "owner": "音樂數位典藏中心",
-      "url": "https://dacm.ntnu.edu.tw/web/news/news.jsp?dm_no=DM1575863207295",
-      "selectors": {
-        "parser": "table_row",
-        "article": ".news_listArea .news_list",
-        "title_link": ".nLR_tit a[href]",
-        "date": ".nLR_time",
-        "verify_ssl": false
-      }
-    },
-    "dacm_event_reports": {
-      "label": "活動報導",
-      "owner": "音樂數位典藏中心",
-      "url": "https://dacm.ntnu.edu.tw/web/news/news.jsp?dm_no=DM1575440141112",
-      "selectors": {
-        "parser": "table_row",
-        "article": ".news_listArea .news_list",
-        "title_link": ".nLR_tit a[href]",
-        "date": ".nLR_time",
-        "verify_ssl": false
       }
     },
     "hakka_english_news": {
@@ -6104,12 +6069,7 @@
             {
               "id": "l3-cultural-relics-conservation-center",
               "name": "文物保存維護研究發展中心",
-              "channels": [
-                {
-                  "value": "rcccr_news",
-                  "name": "最新消息"
-                }
-              ]
+              "channels": []
             }
           ],
           "channels": [
@@ -6594,16 +6554,7 @@
                 {
                   "id": "l4-dacm",
                   "name": "音樂數位典藏中心",
-                  "channels": [
-                    {
-                      "value": "dacm_upcoming_events",
-                      "name": "活動預告"
-                    },
-                    {
-                      "value": "dacm_event_reports",
-                      "name": "活動報導"
-                    }
-                  ]
+                  "channels": []
                 }
               ]
             },
