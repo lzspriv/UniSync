@@ -3573,12 +3573,6 @@
       "url": "https://www.acad.ntnu.edu.tw/zh_tw/ic/5news/5news1",
       "selectorPreset": "oen_annc_table"
     },
-    "acad_instrument_activities": {
-      "label": "活動與演講",
-      "owner": "貴重儀器中心",
-      "url": "https://www.acad.ntnu.edu.tw/zh_tw/ic/5news/act5101",
-      "selectorPreset": "oen_seminar_table"
-    },
     "acad_innovation_latest": {
       "label": "最新公告",
       "owner": "創新育成中心",
@@ -5649,10 +5643,6 @@
                 {
                   "value": "acad_instrument_latest",
                   "name": "最新公告"
-                },
-                {
-                  "value": "acad_instrument_activities",
-                  "name": "活動與演講"
                 }
               ]
             },
