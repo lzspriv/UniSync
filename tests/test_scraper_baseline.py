@@ -96,6 +96,18 @@ class ScraperHttpBaselineTests(unittest.TestCase):
             scraper_http.LegacySSLAdapter,
         )
 
+    def test_create_request_session_can_pin_a_site_certificate(self):
+        fingerprint = "ab" * 32
+
+        session = scraper_http.create_request_session(
+            "https://example.edu.tw/news",
+            {"tls_certificate_sha256": fingerprint},
+        )
+
+        adapter = session.adapters["https://example.edu.tw"]
+        self.assertIsInstance(adapter, scraper_http.FingerprintSSLAdapter)
+        self.assertEqual(adapter.certificate_sha256, fingerprint)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -38,6 +38,16 @@ class LegacySSLAdapter(HTTPAdapter):
         return super().init_poolmanager(*args, **kwargs)
 
 
+class FingerprintSSLAdapter(HTTPAdapter):
+    def __init__(self, certificate_sha256, *args, **kwargs):
+        self.certificate_sha256 = certificate_sha256
+        super().__init__(*args, **kwargs)
+
+    def cert_verify(self, conn, url, verify, cert):
+        super().cert_verify(conn, url, False, cert)
+        conn.assert_fingerprint = self.certificate_sha256
+
+
 def build_request_options(scraper_config=None):
     options = {
         "headers": REQUEST_HEADERS,
@@ -48,9 +58,20 @@ def build_request_options(scraper_config=None):
     return options
 
 
-def create_request_session(url):
+def create_request_session(url, scraper_config=None):
     session = requests.Session()
-    if urlparse(url).netloc.lower() == "pr.ntnu.edu.tw":
+    parsed_url = urlparse(url)
+    origin = f"{parsed_url.scheme}://{parsed_url.netloc}"
+    certificate_sha256 = (scraper_config or {}).get("tls_certificate_sha256")
+    if certificate_sha256:
+        session.mount(
+            origin,
+            FingerprintSSLAdapter(
+                certificate_sha256,
+                max_retries=RETRY_POLICY,
+            ),
+        )
+    elif parsed_url.netloc.lower() == "pr.ntnu.edu.tw":
         session.mount(
             "https://pr.ntnu.edu.tw",
             LegacySSLAdapter(max_retries=RETRY_POLICY),

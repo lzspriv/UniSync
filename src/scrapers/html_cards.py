@@ -18,7 +18,9 @@ from scrapers.card_strategies import (
 
 def fetch_html_announcements(url, category_name, scraper_config):
     try:
-        response = create_request_session(url).get(url, **build_request_options(scraper_config))
+        response = create_request_session(url, scraper_config).get(
+            url, **build_request_options(scraper_config)
+        )
         response.encoding = "utf-8"
 
         if response.status_code != 200:

@@ -15,7 +15,9 @@ from scraper_parsing import (
 
 def fetch_table_row_announcements(url, category_name, scraper_config):
     try:
-        response = create_request_session(url).get(url, **build_request_options(scraper_config))
+        response = create_request_session(url, scraper_config).get(
+            url, **build_request_options(scraper_config)
+        )
         response.encoding = "utf-8"
 
         if response.status_code != 200:

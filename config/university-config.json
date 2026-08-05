@@ -211,7 +211,8 @@
     "ilo_news_list": {
       "article": ".list li",
       "title_link": "a[href]",
-      "date": ".date"
+      "date": ".date",
+      "tls_certificate_sha256": "07834ff4037dbf14730b7eacb5508f1234430f93b5e047b890ae08cee35fadc2"
     },
     "oia_next_data": {
       "parser": "oia_next_data"
