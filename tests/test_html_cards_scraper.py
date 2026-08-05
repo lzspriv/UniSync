@@ -14,6 +14,32 @@ from scrapers.html_cards import fetch_html_announcements
 
 
 class HtmlCardsScraperTests(unittest.TestCase):
+    @patch("builtins.print")
+    @patch("scrapers.html_cards.create_request_session")
+    def test_logs_response_diagnostics_when_selector_matches_nothing(self, create_session, print_mock):
+        response = Mock(
+            status_code=200,
+            text="<html><head><title>Access page</title></head><body>Empty</body></html>",
+            url="https://example.edu.tw/login",
+            headers={"content-type": "text/html; charset=utf-8"},
+        )
+        session = Mock()
+        session.get.return_value = response
+        create_session.return_value = session
+
+        result = fetch_html_announcements(
+            "https://example.edu.tw/news/",
+            "測試單位-最新消息",
+            {"article": ".news-card"},
+        )
+
+        self.assertEqual(result, [])
+        message = print_mock.call_args.args[0]
+        self.assertIn("selector='.news-card'", message)
+        self.assertIn("url=https://example.edu.tw/login", message)
+        self.assertIn("title='Access page'", message)
+        self.assertIn("html-length=70", message)
+
     @patch("scrapers.html_cards.create_request_session")
     def test_default_parser_cleans_suffix_deduplicates_and_skips_old_pin(self, create_session):
         recent_date = datetime.now().strftime("%Y-%m-%d")

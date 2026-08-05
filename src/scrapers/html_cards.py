@@ -33,7 +33,21 @@ def fetch_html_announcements(url, category_name, scraper_config):
         cutoff_date = datetime.now() - timedelta(days=10)
         old_articles_count = 0
 
-        articles = soup.select(scraper_config.get("article", "#blog-entries article"))
+        article_selector = scraper_config.get("article", "#blog-entries article")
+        articles = soup.select(article_selector)
+        if not articles:
+            page_title = normalize_whitespace(
+                soup.title.get_text(" ", strip=True) if soup.title else "(no title)"
+            )
+            final_url = response.url if isinstance(getattr(response, "url", None), str) else url
+            content_type = ""
+            if hasattr(response, "headers") and hasattr(response.headers, "get"):
+                content_type = response.headers.get("content-type", "")
+            print(
+                f"⚠️ {category_name} 找不到公告元素：selector={article_selector!r}，"
+                f"url={final_url}，title={page_title!r}，"
+                f"content-type={content_type!r}，html-length={len(response.text)}"
+            )
         pinned_selector = scraper_config.get("pinned")
         include_summary = scraper_config.get("include_summary", False)
         date_label = scraper_config.get("date_label", "發布日期")
