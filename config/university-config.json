@@ -6801,7 +6801,10 @@
                 {
                   "id": "l4-dacm",
                   "name": "音樂數位典藏中心",
-                  "channels": []
+                  "channels": [],
+                  "announcementStatus": "unavailable",
+                  "announcementStatusLabel": "無公開公告",
+                  "announcementStatusReason": "官方網站目前停止服務，沒有可公開抓取的公告來源。"
                 }
               ]
             },
@@ -6822,7 +6825,10 @@
                 {
                   "id": "l4-paulo-freire-center",
                   "name": "臺灣保羅‧弗萊瑞學術交流中心",
-                  "channels": []
+                  "channels": [],
+                  "announcementStatus": "unavailable",
+                  "announcementStatusLabel": "無公開公告",
+                  "announcementStatusReason": "官方僅提供 Facebook 頁面，沒有穩定且含發布日期的公開公告來源。"
                 },
                 {
                   "id": "l4-cloud-testing-center",
@@ -6857,12 +6863,18 @@
                 {
                   "id": "l4-plastic-reduction-center",
                   "name": "減塑促進中心",
-                  "channels": []
+                  "channels": [],
+                  "announcementStatus": "unavailable",
+                  "announcementStatusLabel": "無公開公告",
+                  "announcementStatusReason": "官方僅提供 Facebook 頁面，沒有穩定且含發布日期的公開公告來源。"
                 },
                 {
                   "id": "l4-experiential-education-leadership-center",
                   "name": "體驗教育與領導力中心",
-                  "channels": []
+                  "channels": [],
+                  "announcementStatus": "unavailable",
+                  "announcementStatusLabel": "無公開公告",
+                  "announcementStatusReason": "校方提供的官方連結導向 Facebook，沒有穩定且含發布日期的公開公告來源。"
                 },
                 {
                   "id": "l4-performing-arts-musical-center",
@@ -6895,12 +6907,18 @@
                 {
                   "id": "l4-overseas-tvet-center",
                   "name": "海外技職教育研究中心",
-                  "channels": []
+                  "channels": [],
+                  "announcementStatus": "unavailable",
+                  "announcementStatusLabel": "無公開公告",
+                  "announcementStatusReason": "校方組織名錄未提供獨立網站或公告頁。"
                 },
                 {
                   "id": "l4-education-robotics-center",
                   "name": "教育機器人研究中心",
-                  "channels": []
+                  "channels": [],
+                  "announcementStatus": "unavailable",
+                  "announcementStatusLabel": "無公開公告",
+                  "announcementStatusReason": "網站僅提供中心介紹與成果內容，沒有含發布日期的公告列表。"
                 },
                 {
                   "id": "l4-china-studies-center",
@@ -7025,7 +7043,10 @@
             {
               "id": "l3-student-appeals-committee",
               "name": "學生申訴評議委員會",
-              "channels": []
+              "channels": [],
+              "announcementStatus": "unavailable",
+              "announcementStatusLabel": "無公開公告",
+              "announcementStatusReason": "官方頁面僅提供申訴制度、流程與表單，沒有公告列表。"
             },
             {
               "id": "l3-special-education-committee",
