@@ -1,45 +1,17 @@
-import requests
-from requests.adapters import HTTPAdapter
-import urllib3
-from urllib3.exceptions import InsecureRequestWarning
-from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import json
 import re
-import ssl
 from urllib.parse import quote, urlencode, urljoin, urlparse
 from html import unescape
 
-
-REQUEST_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
-    "Cache-Control": "no-cache",
-    "Pragma": "no-cache",
-    "Upgrade-Insecure-Requests": "1",
-}
-
-urllib3.disable_warnings(InsecureRequestWarning)
-
-RETRY_POLICY = Retry(
-    total=1,
-    connect=0,
-    read=1,
-    status=1,
-    backoff_factor=0.5,
-    status_forcelist=[429, 500, 502, 503, 504],
-    allowed_methods=["GET"],
+from scraper_http import (
+    REQUEST_HEADERS,
+    RETRY_POLICY,
+    LegacySSLAdapter,
+    build_request_options,
+    create_request_session,
 )
-
-
-class LegacySSLAdapter(HTTPAdapter):
-    def init_poolmanager(self, *args, **kwargs):
-        context = ssl.create_default_context()
-        context.set_ciphers("DEFAULT@SECLEVEL=1")
-        kwargs["ssl_context"] = context
-        return super().init_poolmanager(*args, **kwargs)
 
 
 def article_matches_selector(article, selector):
@@ -235,13 +207,6 @@ def parse_date_from_url(value):
         return "未知日期"
 
 
-def build_request_options(scraper_config=None):
-    options = {"headers": REQUEST_HEADERS, "timeout": scraper_config.get("timeout", 10) if scraper_config else 10}
-    if scraper_config and scraper_config.get("verify_ssl") is False:
-        options["verify"] = False
-    return options
-
-
 def parse_yearless_month_day(text):
     match = re.search(r"(\d{1,2})\s*月\s*(\d{1,2})\s*日", text or "")
     if not match:
@@ -326,17 +291,6 @@ def parse_cal_date(date_tag):
 class SafeFormatDict(dict):
     def __missing__(self, key):
         return ""
-
-
-def create_request_session(url):
-    session = requests.Session()
-    if urlparse(url).netloc.lower() == "pr.ntnu.edu.tw":
-        session.mount("https://pr.ntnu.edu.tw", LegacySSLAdapter(max_retries=RETRY_POLICY))
-    else:
-        adapter = HTTPAdapter(max_retries=RETRY_POLICY)
-        session.mount("https://", adapter)
-        session.mount("http://", adapter)
-    return session
 
 
 def fetch_json_announcements(url, category_name, scraper_config):
