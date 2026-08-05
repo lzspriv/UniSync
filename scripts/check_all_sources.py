@@ -51,6 +51,14 @@ def validate_items(items):
     return problems
 
 
+def classify_status(items, problems, allow_empty):
+    if problems:
+        return "invalid"
+    if items:
+        return "ok"
+    return "expected_empty" if allow_empty else "unexpected_empty"
+
+
 def check_category(category_id, labels, categories, preview_counts):
     meta = categories[category_id]
     url = meta.get("url", "")
@@ -62,7 +70,7 @@ def check_category(category_id, labels, categories, preview_counts):
             meta.get("selectors"),
         )
         problems = validate_items(items)
-        status = "invalid" if problems else ("ok" if items else "empty")
+        status = classify_status(items, problems, meta.get("allowEmpty", False))
         sample = None
         if items:
             first = items[0]
@@ -146,7 +154,11 @@ def main():
     results = run_checks(category_ids, labels, categories, preview_counts, args.workers)
 
     for _ in range(max(0, args.retry_empty)):
-        retry_ids = [result["category_id"] for result in results if result["status"] == "empty"]
+        retry_ids = [
+            result["category_id"]
+            for result in results
+            if result["status"] in {"expected_empty", "unexpected_empty"}
+        ]
         if not retry_ids:
             break
         print(f"Retrying {len(retry_ids)} empty categories...")
@@ -159,7 +171,10 @@ def main():
         counts[result["status"]] += 1
     print(
         "Summary: "
-        + ", ".join(f"{status}={counts[status]}" for status in ("ok", "empty", "invalid", "error"))
+        + ", ".join(
+            f"{status}={counts[status]}"
+            for status in ("ok", "expected_empty", "unexpected_empty", "invalid", "error")
+        )
     )
 
     if args.output:
@@ -171,7 +186,7 @@ def main():
         args.output.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"Report written to {args.output}")
 
-    return 1 if counts["invalid"] or counts["error"] else 0
+    return 1 if counts["unexpected_empty"] or counts["invalid"] or counts["error"] else 0
 
 
 if __name__ == "__main__":

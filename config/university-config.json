@@ -168,11 +168,6 @@
       "title_link": "a[href]",
       "date": "td:nth-of-type(1)"
     },
-    "sa_home_latest": {
-      "article": ".ultp-block-eaca03 .ultp-block-item",
-      "title_link": ".ultp-block-title a[href]",
-      "date": ".ultp-block-date"
-    },
     "sa_home_announcements": {
       "article": ".wp-block-ultimate-post-post-list-3 .ultp-block-item",
       "title_link": ".ultp-block-title a[href]",
@@ -497,21 +492,25 @@
       "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/1/"
     },
     "mest_speeches": {
+      "allowEmpty": true,
       "label": "學術演講",
       "owner": "海洋環境科技研究所",
       "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/2/"
     },
     "mest_recruitment": {
+      "allowEmpty": true,
       "label": "徵才公告",
       "owner": "海洋環境科技研究所",
       "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/3/"
     },
     "mest_admission": {
+      "allowEmpty": true,
       "label": "招生公告",
       "owner": "海洋環境科技研究所",
       "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/4/"
     },
     "mest_scholarship": {
+      "allowEmpty": true,
       "label": "獎學金",
       "owner": "海洋環境科技研究所",
       "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/5/"
@@ -585,6 +584,7 @@
       "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/2/"
     },
     "sls_courses": {
+      "allowEmpty": true,
       "label": "課程公告",
       "owner": "生命科學專業學院",
       "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/4/"
@@ -595,6 +595,7 @@
       "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/we-want-you/"
     },
     "sls_scholarship": {
+      "allowEmpty": true,
       "label": "獎學金公告",
       "owner": "生命科學專業學院",
       "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/5-1/"
@@ -615,6 +616,7 @@
       "url": "https://www.biol.ntnu.edu.tw/index.php/category/uncategorized/2/"
     },
     "biol_courses": {
+      "allowEmpty": true,
       "label": "課程公告",
       "owner": "生命科學系",
       "url": "https://www.biol.ntnu.edu.tw/index.php/category/uncategorized/4/"
@@ -1179,6 +1181,7 @@
       "selectorPreset": "cve_table_row_date"
     },
     "cve_competition": {
+      "allowEmpty": true,
       "label": "競賽活動",
       "owner": "公民教育與活動領導學系",
       "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E7%AB%B6%E8%B3%BD%E6%B4%BB%E5%8B%95",
@@ -1524,6 +1527,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "ice_recruitment": {
+      "allowEmpty": true,
       "label": "徵才訊息",
       "owner": "資訊教育研究所",
       "url": "https://www.ice.ntnu.edu.tw/index.php/category/latestnews/4/",
@@ -1626,6 +1630,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "cla_intei": {
+      "allowEmpty": true,
       "label": "INTEI",
       "owner": "文學院",
       "url": "https://www.cla.ntnu.edu.tw/index.php/category/intei-esd/",
@@ -2298,6 +2303,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "stem_affairs": {
+      "allowEmpty": true,
       "label": "系所公告",
       "owner": "科學-科技-工程-數學整合教育國際博士學位學程",
       "url": "https://www.stem.ntnu.edu.tw/index.php/category/uncategorized/1/",
@@ -2310,12 +2316,14 @@
       "selectorPreset": "wordpress_broad"
     },
     "stem_seminar": {
+      "allowEmpty": true,
       "label": "演講公告",
       "owner": "科學-科技-工程-數學整合教育國際博士學位學程",
       "url": "https://www.stem.ntnu.edu.tw/index.php/category/uncategorized/3/",
       "selectorPreset": "wordpress_broad"
     },
     "stem_new_student": {
+      "allowEmpty": true,
       "label": "新生快訊",
       "owner": "科學-科技-工程-數學整合教育國際博士學位學程",
       "url": "https://www.stem.ntnu.edu.tw/index.php/category/uncategorized/4/",
@@ -2424,6 +2432,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "arthistory_jobs": {
+      "allowEmpty": true,
       "label": "徵才",
       "owner": "藝術史研究所",
       "url": "https://arthistory.ntnu.edu.tw/index.php/zh/category/news/jobs/",
@@ -2606,12 +2615,14 @@
       "selectorPreset": "article_list_row_date"
     },
     "pe_honor": {
+      "allowEmpty": true,
       "label": "師生榮耀",
       "owner": "體育與運動科學系",
       "url": "https://www.pe.ntnu.edu.tw/news/Congratulations.htm",
       "selectorPreset": "article_list_row_date"
     },
     "pe_other": {
+      "allowEmpty": true,
       "label": "其他公告",
       "owner": "體育與運動科學系",
       "url": "https://www.pe.ntnu.edu.tw/news/Others.htm",
@@ -2924,6 +2935,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "ciss_honor": {
+      "allowEmpty": true,
       "label": "師生榮譽",
       "owner": "國際與社會科學學院",
       "url": "https://www.ciss.ntnu.edu.tw/index.php/category/uncategorized/4/",
@@ -3182,6 +3194,7 @@
       "selectorPreset": "sw_table"
     },
     "sw_speech": {
+      "allowEmpty": true,
       "label": "本所活動演講",
       "owner": "社會工作學研究所",
       "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Speech/News.aspx?id=jkgBr1zqgsk=",
@@ -3194,6 +3207,7 @@
       "selectorPreset": "sw_table"
     },
     "sw_paper_exam": {
+      "allowEmpty": true,
       "label": "論文考試資訊",
       "owner": "社會工作學研究所",
       "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-PaperExam/News.aspx?id=RbtCbgqudXM=",
@@ -3700,6 +3714,7 @@
       "selectorPreset": "tecs_rwd_table"
     },
     "tecs_college": {
+      "allowEmpty": true,
       "label": "師資培育學院",
       "owner": "師資培育學院-訊息公告",
       "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&g=1006",
@@ -3730,6 +3745,7 @@
       "selectorPreset": "tecs_rwd_table"
     },
     "tecs_act_college": {
+      "allowEmpty": true,
       "label": "師資培育學院",
       "owner": "師資培育學院-活動看板",
       "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=act&g=1006",
@@ -3748,6 +3764,7 @@
       "selectorPreset": "tecs_rwd_table"
     },
     "tecs_act_international": {
+      "allowEmpty": true,
       "label": "國際師培推動組",
       "owner": "師資培育學院-活動看板",
       "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=act&g=185",
@@ -3772,18 +3789,21 @@
       "selectorPreset": "mtc_article_list"
     },
     "mtc_activity": {
+      "allowEmpty": true,
       "label": "學生活動",
       "owner": "國語教學中心",
       "url": "https://mtc.ntnu.edu.tw/news/%E5%AD%B8%E7%94%9F%E6%B4%BB%E5%8B%95.htm",
       "selectorPreset": "mtc_article_list"
     },
     "mtc_course": {
+      "allowEmpty": true,
       "label": "課程訊息",
       "owner": "國語教學中心",
       "url": "https://mtc.ntnu.edu.tw/news/%E8%AA%B2%E7%A8%8B%E8%A8%8A%E6%81%AF.htm",
       "selectorPreset": "mtc_article_list"
     },
     "mtc_short_term": {
+      "allowEmpty": true,
       "label": "短期班相關訊息",
       "owner": "國語教學中心",
       "url": "https://mtc.ntnu.edu.tw/news/%E7%9F%AD%E6%9C%9F%E7%8F%AD%E7%9B%B8%E9%97%9C%E8%A8%8A%E6%81%AF.htm",
@@ -4062,12 +4082,6 @@
       "url": "https://isrc.sa.ntnu.edu.tw/category/item4/",
       "selectorPreset": "ultimate_post_grid"
     },
-    "student_affairs_home_latest": {
-      "label": "首頁最新消息",
-      "owner": "學生事務處",
-      "url": "https://www.sa.ntnu.edu.tw/",
-      "selectorPreset": "sa_home_latest"
-    },
     "student_affairs_announcements": {
       "label": "訊息公告",
       "owner": "學生事務處",
@@ -4158,6 +4172,7 @@
       "selectorPreset": "ultimate_post_grid"
     },
     "hsin_tien_blog": {
+      "allowEmpty": true,
       "label": "最新消息",
       "owner": "社區諮商中心",
       "url": "https://www.hsin-tien.com/blogs/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
@@ -4298,6 +4313,7 @@
       "selectorPreset": "oen_annc_table"
     },
     "oia_link": {
+      "allowEmpty": true,
       "label": "相關連結",
       "owner": "國際事務處",
       "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-link",
@@ -4431,6 +4447,7 @@
       }
     },
     "swfs_seminar": {
+      "allowEmpty": true,
       "label": "專題演講",
       "owner": "社會工作與家庭研究中心",
       "url": "https://swfs.ntnu.edu.tw/Front/Latest-News/Latest-News-Seminar/News.aspx?id=jkgBr1zqgsk=",
@@ -4442,6 +4459,7 @@
       }
     },
     "swfs_research": {
+      "allowEmpty": true,
       "label": "研究調查",
       "owner": "社會工作與家庭研究中心",
       "url": "https://swfs.ntnu.edu.tw/Front/Latest-News/Latest-News-Research/News.aspx?id=RbtCbgqudXM=",
@@ -4487,6 +4505,7 @@
       }
     },
     "tvc_plan_news": {
+      "allowEmpty": true,
       "label": "計畫消息",
       "owner": "技術職業教育研究中心",
       "url": "https://www.tvc.ntnu.edu.tw/GoWeb2/include/index.php?Page=0-2",
@@ -4619,6 +4638,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "ceri_project_news": {
+      "allowEmpty": true,
       "label": "計畫消息",
       "owner": "教育研究與創新中心",
       "url": "https://www.ceri.ntnu.edu.tw/index.php/category/uncategorized/3/",
@@ -4649,6 +4669,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "ceri_tank_usr": {
+      "allowEmpty": true,
       "label": "大學社會責任",
       "owner": "教育研究與創新中心",
       "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-5",
@@ -4679,6 +4700,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "ceri_tank_exam_education": {
+      "allowEmpty": true,
       "label": "考試與教育",
       "owner": "教育研究與創新中心",
       "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-10",
@@ -5478,10 +5500,6 @@
             }
           ],
           "channels": [
-            {
-              "value": "student_affairs_home_latest",
-              "name": "首頁最新消息"
-            },
             {
               "value": "student_affairs_announcements",
               "name": "訊息公告"

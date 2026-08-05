@@ -1,6 +1,6 @@
 import unittest
 
-from scripts.check_all_sources import group_categories, validate_items
+from scripts.check_all_sources import classify_status, group_categories, validate_items
 
 
 class CheckAllSourcesTests(unittest.TestCase):
@@ -23,6 +23,11 @@ class CheckAllSourcesTests(unittest.TestCase):
             problems,
             ["item 1: missing title", "item 1: invalid URL", "item 1: missing date"],
         )
+
+    def test_distinguishes_expected_and_unexpected_empty_sources(self):
+        self.assertEqual(classify_status([], [], True), "expected_empty")
+        self.assertEqual(classify_status([], [], False), "unexpected_empty")
+        self.assertEqual(classify_status([{"title": "News"}], [], False), "ok")
 
 
 if __name__ == "__main__":

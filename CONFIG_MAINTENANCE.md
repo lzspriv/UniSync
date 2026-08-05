@@ -60,11 +60,25 @@ C:\Users\lzspr\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\p
 
 GitHub Actions 在執行爬蟲前也會先跑這個驗證。
 
+## 實站來源檢查
+
+需要確認所有來源仍能讀取時，可執行不連接 Supabase、不發通知、也不改預覽的健康檢查：
+
+```powershell
+C:\Users\lzspr\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe scripts\check_all_sources.py --workers 4 --retry-empty 1 --output source-health-report.json
+```
+
+同網域的分類會循序爬取，不同網域最多同時檢查四個，以降低對校網的請求壓力。報告會列出每個分類的筆數、耗時與第一筆公告樣本。
+
+已人工確認「頁面存在，但目前沒有公告」的分類可設定 `"allowEmpty": true`。健康檢查會將它列為 `expected_empty`；沒有這項設定卻突然回傳零筆的來源會列為 `unexpected_empty` 並讓指令失敗。請勿用 `allowEmpty` 掩蓋逾時、網站錯誤或 selector 失效。
+
 ## 預覽快取
 
 `category-previews.json` 是產生出來的快取檔，不建議手動編輯。
 
 如果只是調整 config 結構，請避免把無關的 `category-previews.json` 大量 diff 混進同一個 commit。若真的需要更新預覽，請透過爬蟲流程或針對特定分類的預覽產生腳本來更新。
+
+只增刪分類而需要同步預覽項目時，可執行 `scripts/sync_category_previews.py`。它會保留仍存在分類的快取內容、移除多餘項目，並替新分類建立空清單。
 
 ## 建議維護流程
 
