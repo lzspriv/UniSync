@@ -29,11 +29,26 @@ RETRY_POLICY = Retry(
     allowed_methods=["GET"],
 )
 
+TLS12_ONLY_HOSTS = {
+    "www.hakka.ntnu.edu.tw",
+    "www.iaao.ntnu.edu.tw",
+    "www.ohsp.ntnu.edu.tw",
+}
+
 
 class LegacySSLAdapter(HTTPAdapter):
     def init_poolmanager(self, *args, **kwargs):
         context = ssl.create_default_context()
         context.set_ciphers("DEFAULT@SECLEVEL=1")
+        kwargs["ssl_context"] = context
+        return super().init_poolmanager(*args, **kwargs)
+
+
+class TLS12Adapter(HTTPAdapter):
+    def init_poolmanager(self, *args, **kwargs):
+        context = ssl.create_default_context()
+        context.minimum_version = ssl.TLSVersion.TLSv1_2
+        context.maximum_version = ssl.TLSVersion.TLSv1_2
         kwargs["ssl_context"] = context
         return super().init_poolmanager(*args, **kwargs)
 
@@ -70,6 +85,11 @@ def create_request_session(url, scraper_config=None):
                 certificate_sha256,
                 max_retries=RETRY_POLICY,
             ),
+        )
+    elif parsed_url.netloc.lower() in TLS12_ONLY_HOSTS:
+        session.mount(
+            origin,
+            TLS12Adapter(max_retries=RETRY_POLICY),
         )
     elif parsed_url.netloc.lower() == "pr.ntnu.edu.tw":
         session.mount(

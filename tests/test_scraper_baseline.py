@@ -108,6 +108,15 @@ class ScraperHttpBaselineTests(unittest.TestCase):
         self.assertIsInstance(adapter, scraper_http.FingerprintSSLAdapter)
         self.assertEqual(adapter.certificate_sha256, fingerprint)
 
+    def test_create_request_session_limits_incompatible_sites_to_tls12(self):
+        for host in scraper_http.TLS12_ONLY_HOSTS:
+            with self.subTest(host=host):
+                session = scraper_http.create_request_session(f"https://{host}/news")
+                self.assertIsInstance(
+                    session.adapters[f"https://{host}"],
+                    scraper_http.TLS12Adapter,
+                )
+
 
 if __name__ == "__main__":
     unittest.main()
