@@ -26,6 +26,7 @@ class ScraperRegistryTests(unittest.TestCase):
                 "oddi_lazy_news",
                 "eshc_table",
                 "table_row",
+                "vocus_profile",
             },
         )
         for parser_name in SCRAPER_REGISTRY:

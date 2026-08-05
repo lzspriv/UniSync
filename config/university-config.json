@@ -5148,6 +5148,29 @@
       "selectors": {
         "tab_index": 6
       }
+    },
+    "china_studies_updates": {
+      "label": "中心動態",
+      "owner": "中國大陸研究中心",
+      "url": "https://vocus.cc/user/66878b86fd8978000199fb7e",
+      "selectors": {
+        "parser": "vocus_profile"
+      }
+    },
+    "general_education_foreign_news": {
+      "label": "外文教育組-最新消息",
+      "owner": "共同教育委員會",
+      "url": "https://www.aa.ntnu.edu.tw/zh_tw/EducationCommittee/ForeignLEducation/NewsSpotlights",
+      "selectors": {
+        "parser": "table_row",
+        "article": "#ntnu-board .pin-card, #ntnu-board .ann-table tbody tr",
+        "title": ".pin-hot, .col-title .title-lbl",
+        "title_remove": "span[style*='font-size:12px']",
+        "title_link": ".col-title a[href]",
+        "date": ".pin-hot span[style*='font-size:12px']:last-child, .col-date",
+        "pinned": ".pin-card",
+        "allow_row_without_link": true
+      }
     }
   },
   "schema": [
@@ -6853,7 +6876,12 @@
                 {
                   "id": "l4-china-studies-center",
                   "name": "中國大陸研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "china_studies_updates",
+                      "name": "中心動態"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-overseas-chinese-research-center",
@@ -6978,7 +7006,12 @@
             {
               "id": "l3-general-education-committee",
               "name": "共同教育委員會",
-              "channels": []
+              "channels": [
+                {
+                  "value": "general_education_foreign_news",
+                  "name": "外文教育組-最新消息"
+                }
+              ]
             },
             {
               "id": "l3-research-ethics-review-committee",

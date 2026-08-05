@@ -36,10 +36,15 @@ def fetch_table_row_announcements(url, category_name, scraper_config):
         date_label = scraper_config.get("date_label", "發布日期")
 
         for article in soup.select(scraper_config.get("article", "tr")):
+            date_selector = scraper_config.get("date")
+            date_tag = article.select_one(date_selector) if date_selector else None
             title_tag = None
             title_selector = scraper_config.get("title")
             if title_selector:
                 title_tag = article.select_one(title_selector)
+                if title_tag and scraper_config.get("title_remove"):
+                    for node in title_tag.select(scraper_config["title_remove"]):
+                        node.extract()
 
             link_selector = scraper_config.get("title_link", "a[href]")
             link_tag = article.select_one(link_selector)
@@ -73,8 +78,6 @@ def fetch_table_row_announcements(url, category_name, scraper_config):
                 continue
             seen_urls.add(absolute_url)
 
-            date_selector = scraper_config.get("date")
-            date_tag = article.select_one(date_selector) if date_selector else None
             raw_date_text = (
                 date_tag.get_text(" ", strip=True)
                 if date_tag

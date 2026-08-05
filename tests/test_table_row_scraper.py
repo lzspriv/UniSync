@@ -61,8 +61,7 @@ class TableRowScraperTests(unittest.TestCase):
     def test_can_generate_fragment_url_for_rows_without_links(self, create_session):
         html = """
         <div class="item">
-          <span class="headline">沒有連結的公告</span>
-          <span class="date">2026-07-31</span>
+          <span class="headline">沒有連結的公告<span class="metadata">發布單位</span><span class="metadata published">2026-07-31</span></span>
         </div>
         """
         response = Mock(status_code=200, text=html)
@@ -76,7 +75,8 @@ class TableRowScraperTests(unittest.TestCase):
             {
                 "article": ".item",
                 "title": ".headline",
-                "date": ".date",
+                "title_remove": ".metadata",
+                "date": ".published",
                 "allow_row_without_link": True,
             },
         )
