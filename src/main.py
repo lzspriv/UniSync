@@ -129,7 +129,16 @@ def run_sync():
         category_labels,
     )
 
-    preview_path = write_category_previews(category_previews, category_labels)
+    allow_empty_category_ids = {
+        category_id
+        for category_id, meta in full_categories.items()
+        if meta.get("allowEmpty", False)
+    }
+    preview_path = write_category_previews(
+        category_previews,
+        category_labels,
+        allow_empty_category_ids=allow_empty_category_ids,
+    )
     sync_elapsed_seconds = perf_counter() - sync_started_at
     print(f"📄 預覽資料已寫入：{preview_path}")
     print(f"✅ 同步完成，共觸發 {total_dispatched} 次推播，總耗時 {sync_elapsed_seconds:.2f}s。")
