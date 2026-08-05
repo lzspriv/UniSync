@@ -161,6 +161,16 @@ def parse_wix_blog_card(article, link_text, date_tag, scraper_config):
     return date_text, title_text, summary_text
 
 
+def parse_shopify_blog_card(article, link_text, date_tag, scraper_config):
+    raw_date_text = ""
+    if date_tag:
+        raw_date_text = date_tag.get("datetime") or date_tag.get_text(" ", strip=True)
+    date_text, _ = parse_taiwan_date(raw_date_text)
+    summary_tag = article.select_one(scraper_config.get("summary", ".blog-post-card__content-text"))
+    summary_text = summary_tag.get_text(" ", strip=True) if summary_tag else ""
+    return date_text, link_text, summary_text
+
+
 CARD_STRATEGIES = {
     "dated_link_list": parse_dated_link,
     "spaced_date_link": parse_spaced_date_link,
@@ -174,6 +184,7 @@ CARD_STRATEGIES = {
     "rcemi_article_box": parse_rcemi_card,
     "sdgs_elementskit_card": parse_sdgs_card,
     "wix_blog_card": parse_wix_blog_card,
+    "shopify_blog_card": parse_shopify_blog_card,
 }
 
 

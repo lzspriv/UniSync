@@ -209,7 +209,7 @@ class HtmlCardFormatTests(unittest.TestCase):
                 self.assertEqual(result[0]["title"], expected_title)
                 self.assertEqual(result[0]["summary"], expected_summary)
 
-    def test_sdgs_and_wix_cards(self):
+    def test_sdgs_wix_and_shopify_cards(self):
         sdgs_html = f"""
         <article class="item">
           <h2 class="entry-title"><a href="/sdgs">永續活動</a></h2>
@@ -222,6 +222,13 @@ class HtmlCardFormatTests(unittest.TestCase):
           <a href="/wix"><span data-hook="post-title">心理文章</span></a>
           <span data-hook="post-date">{self.month}月{self.day}日</span>
           <p data-hook="post-description">心理文章摘要</p>
+        </article>
+        """
+        shopify_html = f"""
+        <article class="item">
+          <a data-testid="blog-post-link" href="/blogs/news/article">心理新文章</a>
+          <time datetime="{self.date_text}T10:00:00Z">日期</time>
+          <div class="blog-post-card__content-text">心理新文章摘要</div>
         </article>
         """
         cases = [
@@ -247,6 +254,18 @@ class HtmlCardFormatTests(unittest.TestCase):
                 },
                 "心理文章",
                 "心理文章摘要",
+            ),
+            (
+                shopify_html,
+                {
+                    "parser": "shopify_blog_card",
+                    "article": ".item",
+                    "title_link": "[data-testid='blog-post-link']",
+                    "date": "time[datetime]",
+                    "summary": ".blog-post-card__content-text",
+                },
+                "心理新文章",
+                "心理新文章摘要",
             ),
         ]
 

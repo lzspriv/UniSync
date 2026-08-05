@@ -28,6 +28,7 @@ class CardStrategyRegistryTests(unittest.TestCase):
                 "rcemi_article_box",
                 "sdgs_elementskit_card",
                 "wix_blog_card",
+                "shopify_blog_card",
             },
         )
 
