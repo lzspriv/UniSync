@@ -79,6 +79,38 @@ class AtomJsonScraperTests(unittest.TestCase):
 
         self.assertEqual(result, [])
 
+    @patch("scrapers.atom_json.create_request_session")
+    def test_derives_missing_title_from_first_content_block(self, create_session):
+        response = Mock(status_code=200)
+        response.json.return_value = {
+            "feed": {
+                "entry": [
+                    {
+                        "title": {"$t": ""},
+                        "link": [
+                            {"rel": "alternate", "href": "https://blog.example/post/1"},
+                        ],
+                        "published": {"$t": "2026-07-31T09:00:00+08:00"},
+                        "content": {
+                            "$t": "<p>&nbsp;</p><p>日本留學資訊</p><p>文章內容</p>",
+                        },
+                    }
+                ]
+            }
+        }
+        session = Mock()
+        session.get.return_value = response
+        create_session.return_value = session
+
+        result = fetch_atom_json_announcements(
+            "https://blog.example/",
+            "測試中心-最新消息",
+            {"api_url": "https://api.example/feed.json"},
+        )
+
+        self.assertEqual(result[0]["title"], "日本留學資訊")
+        self.assertEqual(result[0]["summary"], "日本留學資訊 文章內容")
+
 
 if __name__ == "__main__":
     unittest.main()

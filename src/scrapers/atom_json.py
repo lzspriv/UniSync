@@ -1,9 +1,21 @@
 from datetime import datetime, timedelta
 from urllib.parse import urljoin
 
+from bs4 import BeautifulSoup
+
 from date_utils import UNKNOWN_DATE
 from scraper_http import REQUEST_HEADERS, create_request_session
 from scraper_parsing import clean_html_text, normalize_whitespace, parse_taiwan_date
+
+
+def derive_title_from_html(html, max_length=100):
+    soup = BeautifulSoup(html or "", "html.parser")
+    for tag in soup.find_all(["h1", "h2", "h3", "h4", "p", "li"]):
+        text = normalize_whitespace(tag.get_text(" ", strip=True))
+        if text:
+            return text[:max_length].rstrip()
+
+    return normalize_whitespace(soup.get_text(" ", strip=True))[:max_length].rstrip()
 
 
 def fetch_atom_json_announcements(url, category_name, scraper_config):
@@ -31,6 +43,12 @@ def fetch_atom_json_announcements(url, category_name, scraper_config):
 
         for entry in entries:
             title = normalize_whitespace(entry.get("title", {}).get("$t", ""))
+            summary_source = entry.get("summary", {}).get("$t") or entry.get("content", {}).get("$t", "")
+            if not title:
+                title = derive_title_from_html(
+                    summary_source,
+                    scraper_config.get("fallback_title_max_length", 100),
+                )
             item_url = ""
             for link in entry.get("link", []):
                 if link.get("rel") == "alternate" and link.get("href"):
@@ -46,7 +64,6 @@ def fetch_atom_json_announcements(url, category_name, scraper_config):
 
             raw_date = entry.get("published", {}).get("$t") or entry.get("updated", {}).get("$t", "")
             date_text, _ = parse_taiwan_date(raw_date)
-            summary_source = entry.get("summary", {}).get("$t") or entry.get("content", {}).get("$t", "")
             summary_text = clean_html_text(summary_source)
 
             news_item = {
