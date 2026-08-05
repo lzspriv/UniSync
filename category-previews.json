@@ -26947,5 +26947,33 @@
   "research_ethics_review_news": {
     "label": "研究倫理審查委員會-最新消息",
     "announcements": []
+  },
+  "hsnu_honor": {
+    "label": "附屬高級中學-榮譽榜",
+    "announcements": []
+  },
+  "hsnu_important": {
+    "label": "附屬高級中學-重要公告",
+    "announcements": []
+  },
+  "hsnu_training": {
+    "label": "附屬高級中學-研習資訊",
+    "announcements": []
+  },
+  "hsnu_incoming": {
+    "label": "附屬高級中學-來文公告",
+    "announcements": []
+  },
+  "hsnu_students": {
+    "label": "附屬高級中學-學生",
+    "announcements": []
+  },
+  "hsnu_calendar": {
+    "label": "附屬高級中學-行事曆",
+    "announcements": []
+  },
+  "hsnu_new_students": {
+    "label": "附屬高級中學-新生專區",
+    "announcements": []
   }
 }

@@ -93,6 +93,10 @@
       "title_link": ".i-annc__title",
       "date": ".i-annc__postdate"
     },
+    "hsnu_latest_news": {
+      "parser": "oddi_lazy_news",
+      "block_selector": "div[role='announceblock'][aria-label^='最新消息']"
+    },
     "epc_table_row_date": {
       "parser": "row_date_link",
       "article": "tr",
@@ -5080,6 +5084,70 @@
       "owner": "研究倫理審查委員會",
       "url": "https://ntnurec.ntnu.edu.tw/zh_tw/News",
       "selectorPreset": "research_ethics_news_list"
+    },
+    "hsnu_honor": {
+      "label": "榮譽榜",
+      "owner": "附屬高級中學",
+      "url": "https://www.hs.ntnu.edu.tw/",
+      "selectors": {
+        "parser": "oddi_lazy_news",
+        "block_selector": "div[role='announceblock'][aria-label^='榮譽榜']",
+        "tab_index": 0
+      }
+    },
+    "hsnu_important": {
+      "label": "重要公告",
+      "owner": "附屬高級中學",
+      "url": "https://www.hs.ntnu.edu.tw/",
+      "selectorPreset": "hsnu_latest_news",
+      "selectors": {
+        "tab_index": 0
+      }
+    },
+    "hsnu_training": {
+      "label": "研習資訊",
+      "owner": "附屬高級中學",
+      "url": "https://www.hs.ntnu.edu.tw/",
+      "selectorPreset": "hsnu_latest_news",
+      "selectors": {
+        "tab_index": 1
+      }
+    },
+    "hsnu_incoming": {
+      "label": "來文公告",
+      "owner": "附屬高級中學",
+      "url": "https://www.hs.ntnu.edu.tw/",
+      "selectorPreset": "hsnu_latest_news",
+      "selectors": {
+        "tab_index": 2
+      }
+    },
+    "hsnu_students": {
+      "label": "學生",
+      "owner": "附屬高級中學",
+      "url": "https://www.hs.ntnu.edu.tw/",
+      "selectorPreset": "hsnu_latest_news",
+      "selectors": {
+        "tab_index": 3
+      }
+    },
+    "hsnu_calendar": {
+      "label": "行事曆",
+      "owner": "附屬高級中學",
+      "url": "https://www.hs.ntnu.edu.tw/",
+      "selectorPreset": "hsnu_latest_news",
+      "selectors": {
+        "tab_index": 5
+      }
+    },
+    "hsnu_new_students": {
+      "label": "新生專區",
+      "owner": "附屬高級中學",
+      "url": "https://www.hs.ntnu.edu.tw/",
+      "selectorPreset": "hsnu_latest_news",
+      "selectors": {
+        "tab_index": 6
+      }
     }
   },
   "schema": [
@@ -6188,7 +6256,36 @@
         {
           "id": "l2-affiliated-senior-high-school",
           "name": "附屬高級中學",
-          "channels": []
+          "channels": [
+            {
+              "value": "hsnu_honor",
+              "name": "榮譽榜"
+            },
+            {
+              "value": "hsnu_important",
+              "name": "重要公告"
+            },
+            {
+              "value": "hsnu_training",
+              "name": "研習資訊"
+            },
+            {
+              "value": "hsnu_incoming",
+              "name": "來文公告"
+            },
+            {
+              "value": "hsnu_students",
+              "name": "學生"
+            },
+            {
+              "value": "hsnu_calendar",
+              "name": "行事曆"
+            },
+            {
+              "value": "hsnu_new_students",
+              "name": "新生專區"
+            }
+          ]
         },
         {
           "id": "l2-research-teaching-centers",

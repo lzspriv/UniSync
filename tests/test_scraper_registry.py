@@ -23,6 +23,7 @@ class ScraperRegistryTests(unittest.TestCase):
                 "irels_news",
                 "wordpress_rest",
                 "oia_next_data",
+                "oddi_lazy_news",
                 "eshc_table",
                 "table_row",
             },
