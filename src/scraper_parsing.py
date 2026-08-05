@@ -1,6 +1,9 @@
 import re
 from datetime import datetime, timedelta
+from html import unescape
 from urllib.parse import urlparse
+
+from bs4 import BeautifulSoup
 
 
 def article_matches_selector(article, selector):
@@ -76,6 +79,11 @@ def parse_taiwan_date(text):
 
 def normalize_whitespace(text):
     return re.sub(r"\s+", " ", text or "").strip()
+
+
+def clean_html_text(value):
+    text = BeautifulSoup(value or "", "html.parser").get_text(" ", strip=True)
+    return normalize_whitespace(unescape(text))
 
 
 def parse_dated_link_text(text):
