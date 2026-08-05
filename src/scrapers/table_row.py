@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from urllib.parse import quote, urljoin
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 
 from scraper_http import build_request_options, create_request_session
 from scraper_parsing import (
@@ -11,6 +11,21 @@ from scraper_parsing import (
     parse_leading_date,
     parse_taiwan_date,
 )
+
+
+def extract_title_text(title_tag, before_break=False):
+    if not title_tag:
+        return ""
+    if not before_break:
+        return normalize_whitespace(title_tag.get_text(" ", strip=True))
+
+    fragments = []
+    for descendant in title_tag.descendants:
+        if getattr(descendant, "name", None) == "br":
+            break
+        if isinstance(descendant, NavigableString):
+            fragments.append(str(descendant))
+    return normalize_whitespace(" ".join(fragments))
 
 
 def fetch_table_row_announcements(url, category_name, scraper_config):
@@ -53,8 +68,9 @@ def fetch_table_row_announcements(url, category_name, scraper_config):
             if not title_tag:
                 title_tag = link_tag
 
-            title_text = normalize_whitespace(
-                title_tag.get_text(" ", strip=True) if title_tag else ""
+            title_text = extract_title_text(
+                title_tag,
+                scraper_config.get("title_before_break", False),
             )
             if (
                 link_tag

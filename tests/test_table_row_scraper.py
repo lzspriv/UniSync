@@ -88,6 +88,36 @@ class TableRowScraperTests(unittest.TestCase):
         )
 
     @patch("scrapers.table_row.create_request_session")
+    def test_can_limit_title_to_text_before_first_break(self, create_session):
+        html = """
+        <table>
+          <tr class="item">
+            <td class="date">115.08.01</td>
+            <td class="headline">公告主旨<br>第一段說明<br><a href="/guide.pdf">操作說明</a></td>
+          </tr>
+        </table>
+        """
+        response = Mock(status_code=200, text=html)
+        session = Mock()
+        session.get.return_value = response
+        create_session.return_value = session
+
+        result = fetch_table_row_announcements(
+            "https://example.edu.tw/news/",
+            "測試單位-公告",
+            {
+                "article": "tr.item",
+                "title": ".headline",
+                "title_link": "a[href]",
+                "date": ".date",
+                "title_before_break": True,
+            },
+        )
+
+        self.assertEqual(result[0]["title"], "公告主旨")
+        self.assertEqual(result[0]["url"], "https://example.edu.tw/guide.pdf")
+
+    @patch("scrapers.table_row.create_request_session")
     def test_passes_timeout_and_ssl_options_to_request(self, create_session):
         response = Mock(status_code=200, text="<table></table>")
         session = Mock()
