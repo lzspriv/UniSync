@@ -5182,10 +5182,7 @@
         "title": "h4:not(.b_desktop)",
         "title_link": "a.content-item",
         "date": "h4.b_desktop",
-        "tls_certificate_sha256": [
-          "a06694f7290fabadd4d4020ebbe7ceaba1d40c52a92e66691318cdbb97ec55ed",
-          "2b2e59e8f097f99153e723e51ec0536e31ca89198409894a30c64d1a821d5aff"
-        ]
+        "tls_certificate_sha256": "a06694f7290fabadd4d4020ebbe7ceaba1d40c52a92e66691318cdbb97ec55ed"
       }
     },
     "special_education_committee_minutes": {
