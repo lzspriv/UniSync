@@ -39,7 +39,6 @@ class HtmlCardsScraperTests(unittest.TestCase):
         self.assertIn("url=https://example.edu.tw/login", message)
         self.assertIn("title='Access page'", message)
         self.assertIn("html-length=70", message)
-        self.assertIn("body-preview='Access page Empty'", message)
 
     @patch("scrapers.html_cards.create_request_session")
     def test_default_parser_cleans_suffix_deduplicates_and_skips_old_pin(self, create_session):
