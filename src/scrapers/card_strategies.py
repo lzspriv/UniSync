@@ -135,6 +135,43 @@ def parse_cal_news_card(article, link_text, date_tag, scraper_config):
     return date_text, link_text, summary_text
 
 
+def parse_tocfl_split_date(article, link_text, _date_tag, scraper_config):
+    month_map = {
+        "jan": 1,
+        "feb": 2,
+        "mar": 3,
+        "apr": 4,
+        "may": 5,
+        "jun": 6,
+        "jul": 7,
+        "aug": 8,
+        "sep": 9,
+        "oct": 10,
+        "nov": 11,
+        "dec": 12,
+    }
+    day_tag = article.select_one(scraper_config.get("date_day", ".date .day"))
+    month_tag = article.select_one(scraper_config.get("date_month", ".date .month"))
+    year_tag = article.select_one(scraper_config.get("date_year", ".date .year"))
+    day_match = re.search(r"\d{1,2}", day_tag.get_text(" ", strip=True) if day_tag else "")
+    year_match = re.search(r"\d{4}", year_tag.get_text(" ", strip=True) if year_tag else "")
+    month_key = (month_tag.get_text(" ", strip=True) if month_tag else "")[:3].lower()
+    unknown_date, _ = parse_taiwan_date("")
+
+    if not day_match or not year_match or month_key not in month_map:
+        return unknown_date, link_text, ""
+
+    try:
+        parsed_date = datetime(
+            int(year_match.group(0)),
+            month_map[month_key],
+            int(day_match.group(0)),
+        ).strftime("%Y-%m-%d")
+    except ValueError:
+        parsed_date = unknown_date
+    return parsed_date, link_text, ""
+
+
 def parse_rcemi_card(article, link_text, _date_tag, _scraper_config):
     date_text, title_text, summary_text = parse_rcemi_article(article, link_text)
     if date_text == "未知日期" or not title_text:
@@ -181,6 +218,7 @@ CARD_STRATEGIES = {
     "split_date_card": parse_split_date_card,
     "ctld_media": parse_ctld_media,
     "cal_news_card": parse_cal_news_card,
+    "tocfl_split_date": parse_tocfl_split_date,
     "rcemi_article_box": parse_rcemi_card,
     "sdgs_elementskit_card": parse_sdgs_card,
     "wix_blog_card": parse_wix_blog_card,

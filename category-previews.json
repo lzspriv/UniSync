@@ -26911,5 +26911,41 @@
         "summary": ""
       }
     ]
+  },
+  "press_center_news": {
+    "label": "出版中心-最新消息",
+    "announcements": []
+  },
+  "tocfl_announcements": {
+    "label": "教育部國家華語測驗推動工作委員會-公告",
+    "announcements": []
+  },
+  "tocfl_news": {
+    "label": "教育部國家華語測驗推動工作委員會-華測新聞",
+    "announcements": []
+  },
+  "tocfl_jobs": {
+    "label": "教育部國家華語測驗推動工作委員會-考生找工作",
+    "announcements": []
+  },
+  "cap_announcements": {
+    "label": "國中教育會考全國試務會-最新公告",
+    "announcements": []
+  },
+  "gender_equity_news": {
+    "label": "性別平等教育委員會-最新消息",
+    "announcements": []
+  },
+  "gender_equity_events": {
+    "label": "性別平等教育委員會-最新活動",
+    "announcements": []
+  },
+  "gender_equity_interpretations": {
+    "label": "性別平等教育委員會-教育部最新函釋",
+    "announcements": []
+  },
+  "research_ethics_review_news": {
+    "label": "研究倫理審查委員會-最新消息",
+    "announcements": []
   }
 }

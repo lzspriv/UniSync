@@ -25,6 +25,7 @@ class CardStrategyRegistryTests(unittest.TestCase):
                 "split_date_card",
                 "ctld_media",
                 "cal_news_card",
+                "tocfl_split_date",
                 "rcemi_article_box",
                 "sdgs_elementskit_card",
                 "wix_blog_card",

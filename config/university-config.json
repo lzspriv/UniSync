@@ -69,6 +69,30 @@
       "title_link": ".image-box a[title]",
       "date": ".date"
     },
+    "press_news_cards": {
+      "article": "div.news ul > li",
+      "title_link": "a[href*='news_view.jsp']",
+      "title": "h3",
+      "date": ".post-date"
+    },
+    "tocfl_news_cards": {
+      "parser": "tocfl_split_date",
+      "article": "div.news-box div.col-lg-12.list-box",
+      "title_link": ".article a[href]",
+      "date_day": ".date .day",
+      "date_month": ".date .month",
+      "date_year": ".date .year"
+    },
+    "gender_news_list": {
+      "article": ".nlist > .list",
+      "title_link": ".t2 a[href]",
+      "date": ".t1"
+    },
+    "research_ethics_news_list": {
+      "article": "li.i-annc__item.row",
+      "title_link": ".i-annc__title",
+      "date": ".i-annc__postdate"
+    },
     "epc_table_row_date": {
       "parser": "row_date_link",
       "article": "tr",
@@ -4995,6 +5019,67 @@
         "api_url": "https://seedcenter.tw/wp-json/wp/v2/posts",
         "categories": 6
       }
+    },
+    "press_center_news": {
+      "label": "最新消息",
+      "owner": "出版中心",
+      "url": "https://press.lib.ntnu.edu.tw/news.jsp",
+      "selectorPreset": "press_news_cards"
+    },
+    "tocfl_announcements": {
+      "label": "公告",
+      "owner": "教育部國家華語測驗推動工作委員會",
+      "url": "https://tocfl.edu.tw/tocfl/index.php/news/activity",
+      "selectorPreset": "tocfl_news_cards"
+    },
+    "tocfl_news": {
+      "label": "華測新聞",
+      "owner": "教育部國家華語測驗推動工作委員會",
+      "url": "https://tocfl.edu.tw/tocfl/index.php/news/sc_top",
+      "selectorPreset": "tocfl_news_cards"
+    },
+    "tocfl_jobs": {
+      "label": "考生找工作",
+      "owner": "教育部國家華語測驗推動工作委員會",
+      "url": "https://tocfl.edu.tw/tocfl/index.php/news/job",
+      "selectorPreset": "tocfl_news_cards"
+    },
+    "cap_announcements": {
+      "label": "最新公告",
+      "owner": "國中教育會考全國試務會",
+      "url": "https://cap.rcpet.edu.tw/",
+      "selectors": {
+        "parser": "table_row",
+        "article": "table.table5 tr",
+        "title": "td:nth-of-type(2)",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "date": "td:nth-of-type(1)",
+        "allow_row_without_link": true
+      }
+    },
+    "gender_equity_news": {
+      "label": "最新消息",
+      "owner": "性別平等教育委員會",
+      "url": "https://genderequity.ntnu.edu.tw/news_list.php",
+      "selectorPreset": "gender_news_list"
+    },
+    "gender_equity_events": {
+      "label": "最新活動",
+      "owner": "性別平等教育委員會",
+      "url": "https://genderequity.ntnu.edu.tw/news_list.php?news_type=2",
+      "selectorPreset": "gender_news_list"
+    },
+    "gender_equity_interpretations": {
+      "label": "教育部最新函釋",
+      "owner": "性別平等教育委員會",
+      "url": "https://genderequity.ntnu.edu.tw/news_list.php?news_type=4",
+      "selectorPreset": "gender_news_list"
+    },
+    "research_ethics_review_news": {
+      "label": "最新消息",
+      "owner": "研究倫理審查委員會",
+      "url": "https://ntnurec.ntnu.edu.tw/zh_tw/News",
+      "selectorPreset": "research_ethics_news_list"
     }
   },
   "schema": [
@@ -5763,7 +5848,12 @@
             {
               "id": "l3-press-center",
               "name": "出版中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "press_center_news",
+                  "name": "最新消息"
+                }
+              ]
             }
           ]
         },
@@ -6729,12 +6819,30 @@
             {
               "id": "l3-tocfl",
               "name": "教育部國家華語測驗推動工作委員會",
-              "channels": []
+              "channels": [
+                {
+                  "value": "tocfl_announcements",
+                  "name": "公告"
+                },
+                {
+                  "value": "tocfl_news",
+                  "name": "華測新聞"
+                },
+                {
+                  "value": "tocfl_jobs",
+                  "name": "考生找工作"
+                }
+              ]
             },
             {
               "id": "l3-cap-national-test-affairs",
               "name": "國中教育會考全國試務會",
-              "channels": []
+              "channels": [
+                {
+                  "value": "cap_announcements",
+                  "name": "最新公告"
+                }
+              ]
             }
           ]
         },
@@ -6745,7 +6853,20 @@
             {
               "id": "l3-gender-equity-committee",
               "name": "性別平等教育委員會",
-              "channels": []
+              "channels": [
+                {
+                  "value": "gender_equity_news",
+                  "name": "最新消息"
+                },
+                {
+                  "value": "gender_equity_events",
+                  "name": "最新活動"
+                },
+                {
+                  "value": "gender_equity_interpretations",
+                  "name": "教育部最新函釋"
+                }
+              ]
             },
             {
               "id": "l3-student-appeals-committee",
@@ -6765,7 +6886,12 @@
             {
               "id": "l3-research-ethics-review-committee",
               "name": "研究倫理審查委員會",
-              "channels": []
+              "channels": [
+                {
+                  "value": "research_ethics_review_news",
+                  "name": "最新消息"
+                }
+              ]
             }
           ]
         }

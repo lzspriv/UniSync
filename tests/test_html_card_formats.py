@@ -209,6 +209,34 @@ class HtmlCardFormatTests(unittest.TestCase):
                 self.assertEqual(result[0]["title"], expected_title)
                 self.assertEqual(result[0]["summary"], expected_summary)
 
+    def test_tocfl_split_date_uses_the_explicit_year(self):
+        html = """
+        <div class="list-box">
+          <div class="date">
+            <span class="day">13</span>
+            <span class="month">Jul</span>
+            <span class="year">2026</span>
+          </div>
+          <div class="article"><a href="/news/42">TOCFL announcement</a></div>
+        </div>
+        """
+
+        result = self.scrape(
+            html,
+            {
+                "parser": "tocfl_split_date",
+                "article": ".list-box",
+                "title_link": ".article a",
+                "date_day": ".date .day",
+                "date_month": ".date .month",
+                "date_year": ".date .year",
+            },
+        )
+
+        self.assertEqual(len(result), 1)
+        self.assertEqual(result[0]["date"], "2026-07-13")
+        self.assertEqual(result[0]["title"], "TOCFL announcement")
+
     def test_sdgs_wix_and_shopify_cards(self):
         sdgs_html = f"""
         <article class="item">
