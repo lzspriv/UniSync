@@ -27,6 +27,7 @@ from scraper_parsing import (
     parse_yearless_month_day,
 )
 from scrapers.atom_json import fetch_atom_json_announcements
+from scrapers.eshc_table import fetch_eshc_announcements
 from scrapers.irels_news import fetch_irels_news_announcements
 from scrapers.json_events import fetch_json_announcements
 from scrapers.oia_next_data import fetch_oia_next_data_announcements
@@ -80,68 +81,6 @@ def parse_sdgs_card_article(article, fallback_title):
     summary_tag = article.select_one(".elementskit-post-body p")
     summary_text = normalize_whitespace(summary_tag.get_text(" ", strip=True) if summary_tag else "")
     return date_text, title_text, summary_text
-
-
-def fetch_eshc_announcements(url, category_name, scraper_config):
-    try:
-        response = create_request_session(url).get(url, headers=REQUEST_HEADERS, timeout=10)
-        response.encoding = "utf-8"
-
-        if response.status_code != 200:
-            print(f"\u26a0\ufe0f \u7121\u6cd5\u8b80\u53d6 {category_name}: {response.status_code}")
-            return []
-
-        soup = BeautifulSoup(response.text, "html.parser")
-        all_news = []
-        recent_news = []
-        cutoff_date = datetime.now() - timedelta(days=10)
-        seen_urls = set()
-
-        for row in soup.select(scraper_config.get("article", "#GridView1 tr")):
-            link_tag = row.select_one(scraper_config.get("title_link", "a[href*='item.aspx']"))
-            if not link_tag or not link_tag.get("href"):
-                continue
-
-            title_text = normalize_whitespace(link_tag.get_text(" ", strip=True))
-            if not title_text:
-                continue
-
-            absolute_url = urljoin(url, link_tag.get("href"))
-            if absolute_url in seen_urls:
-                continue
-            seen_urls.add(absolute_url)
-
-            cells = row.select("td")
-            raw_date = normalize_whitespace(cells[-1].get_text(" ", strip=True) if cells else "")
-            date_text, _ = parse_taiwan_date(raw_date)
-            is_fake_pinned_date = bool(re.match(r"^2100[-/]12[-/]31$", raw_date))
-            is_pinned = title_text.startswith("[\u7f6e\u9802\u516c\u544a]") or is_fake_pinned_date
-            date_label = "\u7f6e\u9802\u516c\u544a" if is_pinned else scraper_config.get("date_label", "\u767c\u5e03\u65e5\u671f")
-            if is_fake_pinned_date:
-                date_text = "\u672a\u77e5\u65e5\u671f"
-
-            news_item = {
-                "title": title_text,
-                "url": absolute_url,
-                "date": date_text,
-                "date_label": date_label,
-                "summary": "",
-                "show_summary": False,
-                "category": category_name,
-            }
-            all_news.append(news_item)
-
-            if date_text != "\u672a\u77e5\u65e5\u671f":
-                try:
-                    if datetime.strptime(date_text, "%Y-%m-%d") >= cutoff_date:
-                        recent_news.append(news_item)
-                except ValueError:
-                    pass
-
-        return all_news[:5] if len(recent_news) < 5 else recent_news
-    except Exception as e:
-        print(f"\u274c \u722c\u53d6 {category_name} \u6642\u767c\u751f\u932f\u8aa4: {e}")
-        return []
 
 
 def fetch_table_row_announcements(url, category_name, scraper_config):
