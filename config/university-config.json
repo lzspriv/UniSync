@@ -179,12 +179,12 @@
       "date": ".ultp-block-date"
     },
     "sa_home_announcements": {
-      "article": ".ultp-block-37c113 .ultp-block-item",
+      "article": ".wp-block-ultimate-post-post-list-3 .ultp-block-item",
       "title_link": ".ultp-block-title a[href]",
       "date": ".ultp-block-date"
     },
     "activity_home_latest": {
-      "article": ".ultp-block-c6bf62 .ultp-block-item",
+      "article": ".wp-block-ultimate-post-post-list-3 .ultp-block-item",
       "title_link": ".ultp-block-title a[href]",
       "date": ".ultp-block-date"
     },

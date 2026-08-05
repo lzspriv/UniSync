@@ -60,6 +60,8 @@ def fetch_html_announcements(url, category_name, scraper_config):
 
             if link_tag and link_tag.get("href"):
                 link_text = normalize_whitespace((title_tag or link_tag).get_text(" ", strip=True))
+                if not link_text and link_tag.get("title"):
+                    link_text = normalize_whitespace(link_tag.get("title"))
                 if not link_text:
                     continue
                 strip_title_suffix = scraper_config.get("strip_title_suffix")

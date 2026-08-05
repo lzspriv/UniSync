@@ -80,6 +80,32 @@ class HtmlCardsScraperTests(unittest.TestCase):
         self.assertEqual(result[0]["date"], "2026-07-30")
 
     @patch("scrapers.html_cards.create_request_session")
+    def test_uses_link_title_when_image_link_has_no_visible_text(self, create_session):
+        html = """
+        <article class="card">
+          <a class="image" href="/news/1" title="圖片公告標題"><img src="cover.png"></a>
+          <span class="date">2026-07-31</span>
+        </article>
+        """
+        response = Mock(status_code=200, text=html)
+        session = Mock()
+        session.get.return_value = response
+        create_session.return_value = session
+
+        result = fetch_html_announcements(
+            "https://example.edu.tw/",
+            "測試單位-最新消息",
+            {
+                "article": "article.card",
+                "title_link": "a.image[title]",
+                "date": ".date",
+            },
+        )
+
+        self.assertEqual(result[0]["title"], "圖片公告標題")
+        self.assertEqual(result[0]["url"], "https://example.edu.tw/news/1")
+
+    @patch("scrapers.html_cards.create_request_session")
     def test_dated_link_parser_separates_date_and_title(self, create_session):
         html = '<a class="item" href="/item/1">【2026/07/31】 專題演講</a>'
         response = Mock(status_code=200, text=html)
