@@ -5171,6 +5171,30 @@
         "pinned": ".pin-card",
         "allow_row_without_link": true
       }
+    },
+    "rcccr_news": {
+      "label": "最新消息",
+      "owner": "文物保存維護研究發展中心",
+      "url": "https://rcccr.ntnu.edu.tw/news/",
+      "selectors": {
+        "article": "#news-list a.content-item[href*='?id=']",
+        "title": "h4:not(.b_desktop)",
+        "title_link": "a.content-item",
+        "date": "h4.b_desktop"
+      }
+    },
+    "special_education_committee_minutes": {
+      "label": "會議資料",
+      "owner": "特殊教育推行委員會",
+      "url": "https://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=A-4",
+      "selectors": {
+        "parser": "table_row",
+        "article": "table tr:not(.tr_th)",
+        "title": "td:nth-of-type(2)",
+        "title_link": "td:nth-of-type(3) a[href*='GetDBfile.php']",
+        "date": "td:nth-of-type(3)",
+        "date_label": "會議日期"
+      }
     }
   },
   "schema": [
@@ -6258,7 +6282,12 @@
             {
               "id": "l3-cultural-relics-conservation-center",
               "name": "文物保存維護研究發展中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "rcccr_news",
+                  "name": "最新消息"
+                }
+              ]
             }
           ],
           "channels": [
@@ -7001,7 +7030,12 @@
             {
               "id": "l3-special-education-committee",
               "name": "特殊教育推行委員會",
-              "channels": []
+              "channels": [
+                {
+                  "value": "special_education_committee_minutes",
+                  "name": "會議資料"
+                }
+              ]
             },
             {
               "id": "l3-general-education-committee",
