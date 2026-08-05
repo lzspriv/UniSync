@@ -5173,18 +5173,6 @@
         "allow_row_without_link": true
       }
     },
-    "rcccr_news": {
-      "label": "最新消息",
-      "owner": "文物保存維護研究發展中心",
-      "url": "https://rcccr.ntnu.edu.tw/news/",
-      "selectors": {
-        "article": "#news-list a.content-item[href*='?id=']",
-        "title": "h4:not(.b_desktop)",
-        "title_link": "a.content-item",
-        "date": "h4.b_desktop",
-        "tls_certificate_sha256": "a06694f7290fabadd4d4020ebbe7ceaba1d40c52a92e66691318cdbb97ec55ed"
-      }
-    },
     "special_education_committee_minutes": {
       "label": "會議資料",
       "owner": "特殊教育推行委員會",
@@ -6284,12 +6272,9 @@
             {
               "id": "l3-cultural-relics-conservation-center",
               "name": "文物保存維護研究發展中心",
-              "channels": [
-                {
-                  "value": "rcccr_news",
-                  "name": "最新消息"
-                }
-              ]
+              "announcementStatus": "unavailable",
+              "announcementStatusLabel": "自動更新受限",
+              "announcementStatusReason": "官方網站會將 GitHub 執行環境導向校方防火牆驗證頁，無法穩定偵測新公告。"
             }
           ],
           "channels": [
