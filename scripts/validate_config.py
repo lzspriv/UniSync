@@ -11,6 +11,11 @@ PREVIEW_PATH = ROOT / "category-previews.json"
 sys.path.insert(0, str(SRC_DIR))
 
 from config_loader import load_category_config  # noqa: E402
+from scrapers.card_strategies import CARD_STRATEGIES  # noqa: E402
+from scrapers.registry import SCRAPER_REGISTRY  # noqa: E402
+
+
+SUPPORTED_PARSERS = set(SCRAPER_REGISTRY) | set(CARD_STRATEGIES)
 
 
 def load_json(path: Path):
@@ -81,6 +86,10 @@ def validate_config():
         resolved_selectors = resolved_categories.get(category_id, {}).get("selectors")
         if preset_name and not resolved_selectors:
             errors.append(f"{category_id}: selectorPreset '{preset_name}' did not resolve selectors.")
+
+        parser_name = (resolved_selectors or {}).get("parser")
+        if parser_name and parser_name not in SUPPORTED_PARSERS:
+            errors.append(f"{category_id}: unsupported parser '{parser_name}'.")
 
     channel_refs = []
     collect_channel_refs(schema, channel_refs)

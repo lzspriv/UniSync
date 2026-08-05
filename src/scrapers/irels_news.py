@@ -4,6 +4,7 @@ from urllib.parse import quote, urljoin
 
 from bs4 import BeautifulSoup
 
+from date_utils import UNKNOWN_DATE
 from scraper_http import REQUEST_HEADERS, create_request_session
 from scraper_parsing import clean_html_text, normalize_whitespace, parse_taiwan_date
 
@@ -135,7 +136,7 @@ def fetch_irels_news_announcements(url, category_name, scraper_config):
             }
             all_news.append(news_item)
 
-            if date_text != "?芰?交?":
+            if date_text != UNKNOWN_DATE:
                 try:
                     if datetime.strptime(date_text, "%Y-%m-%d") >= cutoff_date:
                         recent_news.append(news_item)

@@ -144,7 +144,7 @@ def parse_rcemi_card(article, link_text, _date_tag, _scraper_config):
 
 def parse_sdgs_card(article, link_text, _date_tag, _scraper_config):
     date_text, title_text, summary_text = parse_sdgs_card_article(article, link_text)
-    if date_text == "?芰?交?" or not title_text:
+    if not title_text:
         return None
     return date_text, title_text, summary_text
 
