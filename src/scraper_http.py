@@ -63,6 +63,56 @@ class FingerprintSSLAdapter(HTTPAdapter):
         conn.assert_fingerprint = self.certificate_sha256
 
 
+class MultiFingerprintSession(requests.Session):
+    def __init__(self, origin, certificate_sha256s):
+        super().__init__()
+        self.origin = origin
+        self.certificate_sha256s = list(certificate_sha256s)
+        self.preferred_fingerprint_index = 0
+
+    def mount_fingerprint(self, fingerprint):
+        previous_adapter = self.adapters.get(self.origin)
+        if previous_adapter:
+            previous_adapter.close()
+        self.mount(
+            self.origin,
+            FingerprintSSLAdapter(
+                fingerprint,
+                max_retries=RETRY_POLICY,
+            ),
+        )
+
+    def request(self, method, url, **kwargs):
+        preferred_index = self.preferred_fingerprint_index
+        fingerprint_indexes = [preferred_index] + [
+            index
+            for index in range(len(self.certificate_sha256s))
+            if index != preferred_index
+        ]
+        last_error = None
+
+        for index in fingerprint_indexes:
+            self.mount_fingerprint(self.certificate_sha256s[index])
+            try:
+                response = super().request(method, url, **kwargs)
+                self.preferred_fingerprint_index = index
+                return response
+            except requests.exceptions.SSLError as error:
+                last_error = error
+                if "Fingerprints did not match" not in str(error):
+                    raise
+
+        raise last_error
+
+
+def normalize_certificate_fingerprints(value):
+    if isinstance(value, str):
+        return [value]
+    if isinstance(value, (list, tuple)):
+        return [str(fingerprint) for fingerprint in value if fingerprint]
+    return []
+
+
 def build_request_options(scraper_config=None):
     options = {
         "headers": REQUEST_HEADERS,
@@ -74,29 +124,36 @@ def build_request_options(scraper_config=None):
 
 
 def create_request_session(url, scraper_config=None):
-    session = requests.Session()
     parsed_url = urlparse(url)
     origin = f"{parsed_url.scheme}://{parsed_url.netloc}"
-    certificate_sha256 = (scraper_config or {}).get("tls_certificate_sha256")
-    if certificate_sha256:
+    certificate_sha256s = normalize_certificate_fingerprints(
+        (scraper_config or {}).get("tls_certificate_sha256")
+    )
+    if len(certificate_sha256s) > 1:
+        session = MultiFingerprintSession(origin, certificate_sha256s)
+        session.mount_fingerprint(certificate_sha256s[0])
+    else:
+        session = requests.Session()
+
+    if len(certificate_sha256s) == 1:
         session.mount(
             origin,
             FingerprintSSLAdapter(
-                certificate_sha256,
+                certificate_sha256s[0],
                 max_retries=RETRY_POLICY,
             ),
         )
-    elif parsed_url.netloc.lower() in TLS12_ONLY_HOSTS:
+    elif not certificate_sha256s and parsed_url.netloc.lower() in TLS12_ONLY_HOSTS:
         session.mount(
             origin,
             TLS12Adapter(max_retries=RETRY_POLICY),
         )
-    elif parsed_url.netloc.lower() == "pr.ntnu.edu.tw":
+    elif not certificate_sha256s and parsed_url.netloc.lower() == "pr.ntnu.edu.tw":
         session.mount(
             "https://pr.ntnu.edu.tw",
             LegacySSLAdapter(max_retries=RETRY_POLICY),
         )
-    else:
+    elif not certificate_sha256s:
         adapter = HTTPAdapter(max_retries=RETRY_POLICY)
         session.mount("https://", adapter)
         session.mount("http://", adapter)

@@ -1,8 +1,10 @@
 import sys
 import unittest
 from pathlib import Path
+from unittest.mock import Mock, patch
 
 from bs4 import BeautifulSoup
+from requests.exceptions import SSLError
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -107,6 +109,43 @@ class ScraperHttpBaselineTests(unittest.TestCase):
         adapter = session.adapters["https://example.edu.tw"]
         self.assertIsInstance(adapter, scraper_http.FingerprintSSLAdapter)
         self.assertEqual(adapter.certificate_sha256, fingerprint)
+
+    @patch.object(scraper_http.requests.Session, "request")
+    def test_multi_fingerprint_session_retries_only_fingerprint_mismatch(self, request):
+        first_fingerprint = "ab" * 32
+        second_fingerprint = "cd" * 32
+        response = Mock(status_code=200)
+        request.side_effect = [
+            SSLError("Fingerprints did not match"),
+            response,
+        ]
+        session = scraper_http.create_request_session(
+            "https://example.edu.tw/news",
+            {"tls_certificate_sha256": [first_fingerprint, second_fingerprint]},
+        )
+
+        result = session.get("https://example.edu.tw/news")
+
+        self.assertIs(result, response)
+        self.assertEqual(request.call_count, 2)
+        self.assertEqual(session.preferred_fingerprint_index, 1)
+        self.assertEqual(
+            session.adapters["https://example.edu.tw"].certificate_sha256,
+            second_fingerprint,
+        )
+
+    @patch.object(scraper_http.requests.Session, "request")
+    def test_multi_fingerprint_session_does_not_hide_other_ssl_errors(self, request):
+        request.side_effect = SSLError("certificate hostname mismatch")
+        session = scraper_http.create_request_session(
+            "https://example.edu.tw/news",
+            {"tls_certificate_sha256": ["ab" * 32, "cd" * 32]},
+        )
+
+        with self.assertRaisesRegex(SSLError, "hostname mismatch"):
+            session.get("https://example.edu.tw/news")
+
+        self.assertEqual(request.call_count, 1)
 
     def test_create_request_session_limits_incompatible_sites_to_tls12(self):
         for host in scraper_http.TLS12_ONLY_HOSTS:
