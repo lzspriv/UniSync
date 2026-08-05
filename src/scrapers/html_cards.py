@@ -43,10 +43,14 @@ def fetch_html_announcements(url, category_name, scraper_config):
             content_type = ""
             if hasattr(response, "headers") and hasattr(response.headers, "get"):
                 content_type = response.headers.get("content-type", "")
+            body_preview = normalize_whitespace(soup.get_text(" ", strip=True))[:300]
+            if not body_preview and len(response.text) <= 500:
+                body_preview = normalize_whitespace(response.text)[:300]
             print(
                 f"⚠️ {category_name} 找不到公告元素：selector={article_selector!r}，"
                 f"url={final_url}，title={page_title!r}，"
-                f"content-type={content_type!r}，html-length={len(response.text)}"
+                f"content-type={content_type!r}，html-length={len(response.text)}，"
+                f"body-preview={body_preview!r}"
             )
         pinned_selector = scraper_config.get("pinned")
         include_summary = scraper_config.get("include_summary", False)
