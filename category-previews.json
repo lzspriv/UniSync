@@ -5367,6 +5367,13 @@
     "label": "公民教育與活動領導學系-所有消息",
     "announcements": [
       {
+        "title": "桃園市立振聲高級中學徵求公民科兼課老師",
+        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=徵聘訊息&news02=19696433316a7449822e306",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【國際交流】歡迎美國密西西比大學（University of Mississippi）李克凡教授（Prof. Kofan Lee）蒞臨本系交流！",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=系所公告&news02=12413265736a73dfc39af36",
         "date": "2026-08-06",
@@ -5391,13 +5398,6 @@
         "title": "恭賀本系學生榮獲國科會115年度大專學生專題研究計畫",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=榮譽榜&news02=15684881186a69a23f72cb0",
         "date": "2026-07-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "政大附中代理教師甄選高中公民與社會科、國中童軍科(兼授家政)均為懸缺1名",
-        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=徵聘訊息&news02=5962726576a671df30e2ed",
-        "date": "2026-07-27",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -5527,6 +5527,13 @@
     "label": "公民教育與活動領導學系-徵聘訊息",
     "announcements": [
       {
+        "title": "桃園市立振聲高級中學徵求公民科兼課老師",
+        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=徵聘訊息&news02=19696433316a7449822e306",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "政大附中代理教師甄選高中公民與社會科、國中童軍科(兼授家政)均為懸缺1名",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=徵聘訊息&news02=5962726576a671df30e2ed",
         "date": "2026-07-27",
@@ -5551,13 +5558,6 @@
         "title": "新北市各校職缺",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=徵聘訊息&news02=7236267526a6153d6153ea",
         "date": "2026-07-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "新北林口國小徵童軍社團老師",
-        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=徵聘訊息&news02=20457431436a3cca6f1522d",
-        "date": "2026-06-25",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -9675,6 +9675,13 @@
     "label": "翻譯研究所-最新消息",
     "announcements": [
       {
+        "title": "本所推廣班 115-1【筆譯6小時工作坊】文學翻譯入門 + AI科技翻譯入門 (英→中)",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/08/06/115-1_t-6hr/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【重要公告】2026年中英口譯聯合專業考試通過名單",
         "url": "https://www.giti.ntnu.edu.tw/index.php/2026/07/28/conference-interpretation-in-2026/",
         "date": "2026-07-28",
@@ -9701,19 +9708,19 @@
         "date": "2026-06-26",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "【招生公告】翻譯研究所115學年度逕讀博士班招生簡章",
-        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/01/115-direct-pursuit-of-doctoral-degree/",
-        "date": "2026-06-01",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "giti_dept": {
     "label": "翻譯研究所-系所公告",
     "announcements": [
+      {
+        "title": "本所推廣班 115-1【筆譯6小時工作坊】文學翻譯入門 + AI科技翻譯入門 (英→中)",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/08/06/115-1_t-6hr/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "115-1學期《EMI教學增能課程》-在學博士生適用",
         "url": "https://www.giti.ntnu.edu.tw/index.php/2026/07/28/2026-emi-professional-development-course/",
@@ -9739,13 +9746,6 @@
         "title": "【招生公告】115學年度翻譯研究所「軍事口譯碩士在職專班」複試公告延期",
         "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/26/20260626-rha/",
         "date": "2026-06-26",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【招生公告】翻譯研究所115學年度逕讀博士班招生簡章",
-        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/01/115-direct-pursuit-of-doctoral-degree/",
-        "date": "2026-06-01",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -9915,6 +9915,13 @@
     "label": "翻譯研究所-其他訊息",
     "announcements": [
       {
+        "title": "本所推廣班 115-1【筆譯6小時工作坊】文學翻譯入門 + AI科技翻譯入門 (英→中)",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/08/06/115-1_t-6hr/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "「2026獎勵大專院校日本研究論文比賽」_台日文化經濟協會",
         "url": "https://www.giti.ntnu.edu.tw/index.php/2026/08/06/office-tjcea/",
         "date": "2026-08-06",
@@ -9941,19 +9948,19 @@
         "date": "2026-07-13",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "CALL FOR APPLICATION FOR AN INTERNATIONALTRAINING WORKSHOP/SYMPOSIUM",
-        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/15/call-for-application-for-an-internationaltraining-workshop-symposium/",
-        "date": "2026-06-15",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "taih_news": {
     "label": "臺灣史研究所-最新消息",
     "announcements": [
+      {
+        "title": "台日文化經濟協會舉辦「2026獎勵大專院校日本研究論文比賽」",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/06/2026080603/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "教育部「116年度人文社會科學學術人才跨國培育計畫」",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/06/2026080602/",
@@ -9979,13 +9986,6 @@
         "title": "【獎助消息】中央研究院民族學研究所115學年度碩士班研究生論文寫作獎助",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/03/202608031/",
         "date": "2026-08-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "狂賀本所研究生何仁傑獲中研院臺史所115年度獎補助訪問學員",
-        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/07/20/2026-07-20-2/",
-        "date": "2026-07-20",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -10195,6 +10195,13 @@
     "label": "臺灣史研究所-相關活動",
     "announcements": [
       {
+        "title": "台日文化經濟協會舉辦「2026獎勵大專院校日本研究論文比賽」",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/06/2026080603/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動轉知】115年8月12日舉辦「眾神降臨特展 敬天惜地的客家人特展」展前講座",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/05/2026-08-05-01/",
         "date": "2026-08-05",
@@ -10219,13 +10226,6 @@
         "title": "【活動轉知】《風吹Breaking The Wall》放映會",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/07/07/2026-07-07-01/",
         "date": "2026-07-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動轉知】2026 權利回復基金會系列講座",
-        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/06/26/2026-06-26-01/",
-        "date": "2026-06-26",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -19459,6 +19459,13 @@
     "label": "健康中心-最新消息",
     "announcements": [
       {
+        "title": "115-1適應體育課程申請公告",
+        "url": "https://health.sa.ntnu.edu.tw/115-1%e9%81%a9%e6%87%89%e9%ab%94%e8%82%b2%e8%aa%b2%e7%a8%8b%e7%94%b3%e8%ab%8b%e5%85%ac%e5%91%8a/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "新生入學健康檢查注意事項",
         "url": "https://health.sa.ntnu.edu.tw/%e6%96%b0%e7%94%9f%e5%85%a5%e5%ad%b8%e5%81%a5%e5%ba%b7%e6%aa%a2%e6%9f%a5%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a0%85/",
         "date": "2026-07-23",
@@ -19483,13 +19490,6 @@
         "title": "樂活診所健康服務滿意度調查得獎名單",
         "url": "https://health.sa.ntnu.edu.tw/%e6%a8%82%e6%b4%bb%e8%a8%ba%e6%89%80%e5%81%a5%e5%ba%b7%e6%9c%8d%e5%8b%99%e6%bb%bf%e6%84%8f%e5%ba%a6%e8%aa%bf%e6%9f%a5%e5%be%97%e7%8d%8e%e5%90%8d%e5%96%ae-4/",
         "date": "2026-05-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "特約醫療院所",
-        "url": "https://health.sa.ntnu.edu.tw/%e7%89%b9%e7%b4%84%e9%86%ab%e7%99%82%e9%99%a2%e6%89%80/",
-        "date": "2026-04-20",
         "date_label": "發布日期",
         "summary": ""
       }
