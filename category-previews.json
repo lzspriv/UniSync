@@ -3520,6 +3520,13 @@
     "label": "教務處-招生公告",
     "announcements": [
       {
+        "title": "115學年度運動競技學系單獨招生第8梯次遞補名單",
+        "url": "https://www.aa.ntnu.edu.tw/zh_tw/admission/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E9%81%8B%E5%8B%95%E7%AB%B6%E6%8A%80%E5%AD%B8%E7%B3%BB%E5%96%AE%E7%8D%A8%E6%8B%9B%E7%94%9F%E7%AC%AC8%E6%A2%AF%E6%AC%A1%E9%81%9E%E8%A3%9C%E5%90%8D%E5%96%AE-90923952",
+        "date": "2026-08-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115學年度學士班二年級轉學生招生考試第2梯次遞補名單",
         "url": "https://www.aa.ntnu.edu.tw/zh_tw/admission/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%AD%B8%E5%A3%AB%E7%8F%AD%E4%BA%8C%E5%B9%B4%E7%B4%9A%E8%BD%89%E5%AD%B8%E7%94%9F%E6%8B%9B%E7%94%9F%E8%80%83%E8%A9%A6%E7%AC%AC2%E6%A2%AF%E6%AC%A1%E9%81%9E%E8%A3%9C%E5%90%8D%E5%96%AE-54197306",
         "date": "2026-08-06",
@@ -3543,13 +3550,6 @@
       {
         "title": "115學年度運動競技學系單獨招生第7梯次遞補名單",
         "url": "https://www.aa.ntnu.edu.tw/zh_tw/admission/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E9%81%8B%E5%8B%95%E7%AB%B6%E6%8A%80%E5%AD%B8%E7%B3%BB%E5%96%AE%E7%8D%A8%E6%8B%9B%E7%94%9F%E7%AC%AC7%E6%A2%AF%E6%AC%A1%E9%81%9E%E8%A3%9C%E5%90%8D%E5%96%AE-46288007",
-        "date": "2026-07-31",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度碩士班招生考試第17梯次遞補名單",
-        "url": "https://www.aa.ntnu.edu.tw/zh_tw/admission/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%A2%A9%E5%A3%AB%E7%8F%AD%E6%8B%9B%E7%94%9F%E8%80%83%E8%A9%A6%E7%AC%AC17%E6%A2%AF%E6%AC%A1%E9%81%9E%E8%A3%9C%E5%90%8D%E5%96%AE-78147526",
         "date": "2026-07-31",
         "date_label": "發布日期",
         "summary": ""
@@ -4550,9 +4550,9 @@
         "summary": ""
       },
       {
-        "title": "轉知 教育部「人文社會科學學術人才跨國培育計畫」",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1367&title=轉知 教育部「人文社會科學學術人才跨國培育計畫」",
-        "date": "2026-08-06",
+        "title": "公告 系辦公室誠徵工讀生",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1369&title=公告 系辦公室誠徵工讀生",
+        "date": "2026-08-07",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4561,6 +4561,13 @@
   "epc_academic_events": {
     "label": "教育心理與輔導學系-學術活動",
     "announcements": [
+      {
+        "title": "公告 台灣大學系統 台科大捷克海外研習團報名暨補助申請",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1368&title=公告 台灣大學系統 台科大捷克海外研習團報名暨補助申請",
+        "date": "2026-08-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "轉知 教育部「人文社會科學學術人才跨國培育計畫」",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1367&title=轉知 教育部「人文社會科學學術人才跨國培育計畫」",
@@ -4588,19 +4595,19 @@
         "date": "2026-07-17",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "公告本系114學年度第2學期碩士班研究生 林庚申 論文考試",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1354&title=公告本系114學年度第2學期碩士班研究生 林庚申 論文考試",
-        "date": "2026-07-16",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "epc_internship": {
     "label": "教育心理與輔導學系-徵才實習訊息",
     "announcements": [
+      {
+        "title": "公告 系辦公室誠徵工讀生",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1369&title=公告 系辦公室誠徵工讀生",
+        "date": "2026-08-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "轉知 桃園市桃馨社會福利發展協會「保育生輔員」徵才",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1365&title=轉知 桃園市桃馨社會福利發展協會「保育生輔員」徵才",
@@ -4626,13 +4633,6 @@
         "title": "轉知 桃園市政府教育局115年度第三次約聘專任專業輔導人員甄選",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1361&title=轉知 桃園市政府教育局115年度第三次約聘專任專業輔導人員甄選",
         "date": "2026-07-27",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "轉知 「幼兒發展調查資料庫建置計畫」誠徵專任研究助理",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1352&title=轉知 「幼兒發展調查資料庫建置計畫」誠徵專任研究助理",
-        "date": "2026-07-14",
         "date_label": "發布日期",
         "summary": ""
       }
