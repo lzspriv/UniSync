@@ -3157,14 +3157,21 @@
       {
         "title": "28位大學教師赴美「重新當學生」 臺師大攜手德州大學奧斯汀分校讓 EMI 課堂更優化",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24811",
-        "date": "2026-08-06",
+        "date": "2026-08-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大攜手教育部培育原民地球科學人才 五天沉浸式探索從實作到野外考察 點燃科學夢想",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24812",
+        "date": "2026-08-07",
         "date_label": "發布日期",
         "summary": ""
       },
       {
         "title": "推動食農與家庭教育法制化 幼家科學系林如萍教授榮獲115年教育部師鐸獎",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24816",
-        "date": "2026-08-06",
+        "date": "2026-08-07",
         "date_label": "發布日期",
         "summary": ""
       },
@@ -3178,13 +3185,6 @@
       {
         "title": "從AI給出答案到培養高階思維 重塑第一堂課的學習新視野",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24819",
-        "date": "2026-08-06",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大大規模、多類科培育守住品質 應屆生教檢通過率90.72％",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24820",
         "date": "2026-08-06",
         "date_label": "發布日期",
         "summary": ""
@@ -17769,16 +17769,16 @@
         "summary": ""
       },
       {
-        "title": "嘉義縣學生輔導諮商中心 輔導人員徵才",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=959",
+        "title": "新北市政府社會局 社工員徵才",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=931",
         "date": "2026-08-04",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "新北市政府社會局 社工員徵才",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=931",
-        "date": "2026-08-04",
+        "title": "桃園市政府原住民族行政局 社工助理徵才",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=958",
+        "date": "2026-08-03",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -19954,9 +19954,9 @@
         "summary": ""
       },
       {
-        "title": "【轉知】2026第31屆大專校院資訊應用服務創新競賽「資料隱私保護-創新應用組」",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/iic/6news/-%E8%BD%89%E7%9F%A5-2026%E7%AC%AC31%E5%B1%86%E5%A4%A7%E5%B0%88%E6%A0%A1%E9%99%A2%E8%B3%87%E8%A8%8A%E6%87%89%E7%94%A8%E6%9C%8D%E5%8B%99%E5%89%B5%E6%96%B0%E7%AB%B6%E8%B3%BD-%E8%B3%87%E6%96%99%E9%9A%B1%E7%A7%81%E4%BF%9D%E8%AD%B7-%E5%89%B5%E6%96%B0%E6%87%89%E7%94%A8%E7%B5%84-91506214",
-        "date": "2026-07-28",
+        "title": "【轉知】農業部訂於本(115)年7月下旬起辦理3場次「2026總統盃黑客松」徵件說明會暨資料應用講座",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/iic/6news/-%E8%BD%89%E7%9F%A5-%E8%BE%B2%E6%A5%AD%E9%83%A8%E8%A8%82%E6%96%BC%E6%9C%AC-115-%E5%B9%B47%E6%9C%88%E4%B8%8B%E6%97%AC%E8%B5%B7%E8%BE%A6%E7%90%863%E5%A0%B4%E6%AC%A1-2026%E7%B8%BD%E7%B5%B1%E7%9B%83%E9%BB%91%E5%AE%A2%E6%9D%BE-%E5%BE%B5%E4%BB%B6%E8%AA%AA%E6%98%8E%E6%9C%83%E6%9A%A8%E8%B3%87%E6%96%99%E6%87%89%E7%94%A8%E8%AC%9B%E5%BA%A7-15028146",
+        "date": "2026-08-03",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -21073,13 +21073,6 @@
     "label": "體育室-最新消息",
     "announcements": [
       {
-        "title": "性平參考資料-校園性別事件防治實務手冊-身體活動指導篇",
-        "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/%E6%80%A7%E5%B9%B3%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99-%E6%A0%A1%E5%9C%92%E6%80%A7%E5%88%A5%E4%BA%8B%E4%BB%B6%E9%98%B2%E6%B2%BB%E5%AF%A6%E5%8B%99%E6%89%8B%E5%86%8A-%E8%BA%AB%E9%AB%94%E6%B4%BB%E5%8B%95%E6%8C%87%E5%B0%8E%E7%AF%87-93360244",
-        "date": "2026-07-28",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "114學年度體育委員會會議紀錄",
         "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/114%E5%AD%B8%E5%B9%B4%E5%BA%A6%E9%AB%94%E8%82%B2%E5%A7%94%E5%93%A1%E6%9C%83%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84-93680938",
         "date": "2025-09-30",
@@ -21091,13 +21084,6 @@
   "phr_proclamation": {
     "label": "體育室-體育室公告",
     "announcements": [
-      {
-        "title": "性平參考資料-校園性別事件防治實務手冊-身體活動指導篇",
-        "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/proclamation/%E6%80%A7%E5%B9%B3%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99-%E6%A0%A1%E5%9C%92%E6%80%A7%E5%88%A5%E4%BA%8B%E4%BB%B6%E9%98%B2%E6%B2%BB%E5%AF%A6%E5%8B%99%E6%89%8B%E5%86%8A-%E8%BA%AB%E9%AB%94%E6%B4%BB%E5%8B%95%E6%8C%87%E5%B0%8E%E7%AF%87-93360244",
-        "date": "2026-07-28",
-        "date_label": "發布日期",
-        "summary": ""
-      },
       {
         "title": "114學年度體育委員會會議紀錄",
         "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/proclamation/114%E5%AD%B8%E5%B9%B4%E5%BA%A6%E9%AB%94%E8%82%B2%E5%A7%94%E5%93%A1%E6%9C%83%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84-93680938",
@@ -21123,6 +21109,13 @@
         "title": "113-2 公館校區教職員工運動班開班囉!",
         "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/proclamation/113-2-%E5%85%AC%E9%A4%A8%E6%A0%A1%E5%8D%80%E6%95%99%E8%81%B7%E5%93%A1%E5%B7%A5%E9%81%8B%E5%8B%95%E7%8F%AD%E9%96%8B%E7%8F%AD%E5%9B%89-24336358",
         "date": "2025-02-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114年高爾夫選手服替代役之意願調查",
+        "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/proclamation/114%E5%B9%B4%E9%AB%98%E7%88%BE%E5%A4%AB%E9%81%B8%E6%89%8B%E6%9C%8D%E6%9B%BF%E4%BB%A3%E5%BD%B9%E4%B9%8B%E6%84%8F%E9%A1%98%E8%AA%BF%E6%9F%A5-34209465",
+        "date": "2024-12-21",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -22414,6 +22407,20 @@
     "label": "課外活動指導組-活動資訊",
     "announcements": [
       {
+        "title": "財團法人伊甸社會福利基金會『2026第三期雲志工』線上志工服務招募",
+        "url": "https://activity.sa.ntnu.edu.tw/%e8%b2%a1%e5%9c%98%e6%b3%95%e4%ba%ba%e4%bc%8a%e7%94%b8%e7%a4%be%e6%9c%83%e7%a6%8f%e5%88%a9%e5%9f%ba%e9%87%91%e6%9c%83%e3%80%8e2026%e7%ac%ac%e4%b8%89%e6%9c%9f%e9%9b%b2%e5%bf%97%e5%b7%a5%e3%80%8f/",
+        "date": "2026-08-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115年育達廣亞盃暨台健盃全國健美健體公開賽",
+        "url": "https://activity.sa.ntnu.edu.tw/115%e5%b9%b4%e8%82%b2%e9%81%94%e5%bb%a3%e4%ba%9e%e7%9b%83%e6%9a%a8%e5%8f%b0%e5%81%a5%e7%9b%83%e5%85%a8%e5%9c%8b%e5%81%a5%e7%be%8e%e5%81%a5%e9%ab%94%e5%85%ac%e9%96%8b%e8%b3%bd/",
+        "date": "2026-08-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "國家語言推廣活動─「臺灣台語人權電影放映–相招來去看電影．學台語2.0」",
         "url": "https://activity.sa.ntnu.edu.tw/%e5%9c%8b%e5%ae%b6%e8%aa%9e%e8%a8%80%e6%8e%a8%e5%bb%a3%e6%b4%bb%e5%8b%95%e2%94%80%e3%80%8c%e8%87%ba%e7%81%a3%e5%8f%b0%e8%aa%9e%e4%ba%ba%e6%ac%8a%e9%9b%bb%e5%bd%b1%e6%94%be%e6%98%a0-%e7%9b%b8/",
         "date": "2026-08-04",
@@ -22431,20 +22438,6 @@
         "title": "臺北市政府青年局「2026臺北青年外交學堂」",
         "url": "https://activity.sa.ntnu.edu.tw/%e8%87%ba%e5%8c%97%e5%b8%82%e6%94%bf%e5%ba%9c%e9%9d%92%e5%b9%b4%e5%b1%80%e3%80%8c2026%e8%87%ba%e5%8c%97%e9%9d%92%e5%b9%b4%e5%a4%96%e4%ba%a4%e5%ad%b8%e5%a0%82%e3%80%8d/",
         "date": "2026-07-31",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動日期更新】財政部臺北國稅局辦理2026年稅務倫理漫談『稅廉共好 誠信同行』",
-        "url": "https://activity.sa.ntnu.edu.tw/%e8%b2%a1%e6%94%bf%e9%83%a8%e8%87%ba%e5%8c%97%e5%9c%8b%e7%a8%85%e5%b1%80%e8%be%a6%e7%90%862026%e5%b9%b4%e7%a8%85%e5%8b%99%e5%80%ab%e7%90%86%e6%bc%ab%e8%ab%87%e3%80%8e%e7%a8%85%e5%bb%89%e5%85%b1/",
-        "date": "2026-07-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【競賽資訊】外交部 #FindingTAIWAN_2.0全球徵片競賽",
-        "url": "https://activity.sa.ntnu.edu.tw/%e3%80%90%e7%ab%b6%e8%b3%bd%e8%b3%87%e8%a8%8a%e3%80%91%e5%a4%96%e4%ba%a4%e9%83%a8-findingtaiwan_2-0%e5%85%a8%e7%90%83%e5%be%b5%e7%89%87%e7%ab%b6%e8%b3%bd/",
-        "date": "2026-07-21",
         "date_label": "發布日期",
         "summary": ""
       }
