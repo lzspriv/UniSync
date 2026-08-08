@@ -2532,7 +2532,43 @@
   },
   "biol_news": {
     "label": "生命科學系-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【徵聘資訊】新北市多所國中徵聘代理/代課教師資訊",
+        "url": "https://www.biol.ntnu.edu.tw/index.php/2026/07/22/news-9/",
+        "date": "2026-07-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115學年度學士班二年級轉學生招生考試】錄取名單",
+        "url": "https://www.biol.ntnu.edu.tw/index.php/2026/07/16/news-2/",
+        "date": "2026-07-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【碩士班先修生甄選】7/6(一)~7/17(五)，採線上申請",
+        "url": "https://www.biol.ntnu.edu.tw/index.php/2026/06/22/news/",
+        "date": "2026-06-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115學年度臺師大生命科學系學士班轉學考招生】筆試座位及須知公告",
+        "url": "https://www.biol.ntnu.edu.tw/index.php/2026/06/12/news-17/",
+        "date": "2026-06-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度國立臺灣師範大學申請入學錄取名單公告",
+        "url": "https://www.biol.ntnu.edu.tw/index.php/2026/05/28/news-16/",
+        "date": "2026-05-28",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "biol_speeches": {
     "label": "生命科學系-演講公告",
