@@ -4501,7 +4501,43 @@
   },
   "ed_news": {
     "label": "教育學系-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "（研究生事務）114學年度第二學期資格考考試結果公告",
+        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/%C2%A0%EF%BC%88%E7%A0%94%E7%A9%B6%E7%94%9F%E4%BA%8B%E5%8B%99%EF%BC%89114%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC%E4%BA%8C%E5%AD%B8%E6%9C%9F%E8%B3%87%E6%A0%BC%E8%80%83%E8%80%83%E8%A9%A6%E7%B5%90%E6%9E%9C%E5%85%AC%E5%91%8A-22737780",
+        "date": "2026-07-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度第1學期日間學制學生選課日程表公告",
+        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC1%E5%AD%B8%E6%9C%9F%E6%97%A5%E9%96%93%E5%AD%B8%E5%88%B6%E5%AD%B8%E7%94%9F%E9%81%B8%E8%AA%B2%E6%97%A5%E7%A8%8B%E8%A1%A8%E5%85%AC%E5%91%8A-90763382",
+        "date": "2026-07-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "「 115 暑期 博、碩士班暨在職進修碩士學位班優秀研究生獎學金」 推薦事宜",
+        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/-115%E6%9A%91%E6%9C%9F%E5%8D%9A-%E7%A2%A9%E5%A3%AB%E7%8F%AD%E6%9A%A8%E5%9C%A8%E8%81%B7%E9%80%B2%E4%BF%AE%E7%A2%A9%E5%A3%AB%E5%AD%B8%E4%BD%8D%E7%8F%AD%E5%84%AA%E7%A7%80%E7%A0%94%E7%A9%B6%E7%94%9F%E7%8D%8E%E5%AD%B8%E9%87%91-%E6%8E%A8%E8%96%A6%E4%BA%8B%E5%AE%9C-60183494",
+        "date": "2026-07-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度日間暨在職專班研究生新生座談訂於8月15日，歡迎研究生新生報名參加。",
+        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E6%97%A5%E9%96%93%E6%9A%A8%E5%9C%A8%E8%81%B7%E5%B0%88%E7%8F%AD%E7%A0%94%E7%A9%B6%E7%94%9F%E6%96%B0%E7%94%9F%E5%BA%A7%E8%AB%87%E8%A8%82%E6%96%BC8%E6%9C%8815%E6%97%A5-%E6%AD%A1%E8%BF%8E%E7%A0%94%E7%A9%B6%E7%94%9F%E6%96%B0%E7%94%9F%E5%A0%B1%E5%90%8D%E5%8F%83%E5%8A%A0-16286266",
+        "date": "2026-07-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度第2學期暑期暑休日公告-7月10日、7月17日、7月24日、8月7日、8月14日、8月21日",
+        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/114%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC2%E5%AD%B8%E6%9C%9F%E6%9A%91%E6%9C%9F%E6%9A%91%E4%BC%91%E6%97%A5%E5%85%AC%E5%91%8A-7%E6%9C%8810%E6%97%A5-7%E6%9C%8817%E6%97%A5-7%E6%9C%8824%E6%97%A5-8%E6%9C%887%E6%97%A5-8%E6%9C%8814%E6%97%A5-8%E6%9C%8821%E6%97%A5-32444380",
+        "date": "2026-07-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "epc_news": {
     "label": "教育心理與輔導學系-最新消息",
@@ -7886,6 +7922,13 @@
     "label": "國文學系-最新消息",
     "announcements": [
       {
+        "title": "115學年度本學系（所）8/20教學碩士及碩士專班論文發表會議程",
+        "url": "https://www.ch.ntnu.edu.tw/index.php/2026/08/09/gothic-d1150809/",
+        "date": "2026-08-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "台日文化經濟協會舉辦「2026獎勵大專院校日本研究論文比賽」，歡迎報名參加",
         "url": "https://www.ch.ntnu.edu.tw/index.php/2026/08/06/yu-a115080601/",
         "date": "2026-08-06",
@@ -7910,13 +7953,6 @@
         "title": "115學年度本學系（所）8/20教學碩士及碩士專班論文發表會投稿名單",
         "url": "https://www.ch.ntnu.edu.tw/index.php/2026/08/02/gothic-d1150802/",
         "date": "2026-08-02",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "公告本系115學年度第1學期導師名單及導師時間表",
-        "url": "https://www.ch.ntnu.edu.tw/index.php/2026/07/31/yu-p115073101/",
-        "date": "2026-07-31",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -8086,6 +8122,13 @@
     "label": "國文學系-碩博班",
     "announcements": [
       {
+        "title": "115學年度本學系（所）8/20教學碩士及碩士專班論文發表會議程",
+        "url": "https://www.ch.ntnu.edu.tw/index.php/2026/08/09/gothic-d1150809/",
+        "date": "2026-08-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115學年度本學系（所）8/20教學碩士及碩士專班論文發表會投稿名單",
         "url": "https://www.ch.ntnu.edu.tw/index.php/2026/08/02/gothic-d1150802/",
         "date": "2026-08-02",
@@ -8109,13 +8152,6 @@
       {
         "title": "115暑教學碩士學位論文研究計畫審查申請",
         "url": "https://www.ch.ntnu.edu.tw/index.php/2026/06/14/gothic-d1160614-2/",
-        "date": "2026-06-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115暑期教學碩士班指導教授申請",
-        "url": "https://www.ch.ntnu.edu.tw/index.php/2026/06/14/gothic-d1160614-1/",
         "date": "2026-06-14",
         "date_label": "發布日期",
         "summary": ""
@@ -21100,13 +21136,6 @@
   "phr_facilities": {
     "label": "體育室-場地管理",
     "announcements": [
-      {
-        "title": "今日(7/30)晚上- 和平校區「教職員工生運動班」正常上課!",
-        "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/FacilitiesManagement/%0D%0A%E4%BB%8A%E6%97%A5-7-30-%E6%99%9A%E4%B8%8A-%E5%92%8C%E5%B9%B3%E6%A0%A1%E5%8D%80-%E6%95%99%E8%81%B7%E5%93%A1%E5%B7%A5%E7%94%9F%E9%81%8B%E5%8B%95%E7%8F%AD-%E6%AD%A3%E5%B8%B8%E4%B8%8A%E8%AA%B2-20214566",
-        "date": "2026-07-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
       {
         "title": "3/27（五）中午12點後，因應體表活動，重訓室暫停開放。 The weight room will be temporarily closed after 12:00 noon on Friday, March 27, due to the Sports Performance Show.",
         "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/FacilitiesManagement/3-27%EF%BC%88%E4%BA%94%EF%BC%89%E4%B8%AD%E5%8D%8812%E9%BB%9E%E5%BE%8C-%E5%9B%A0%E6%87%89%E9%AB%94%E8%A1%A8%E6%B4%BB%E5%8B%95-%E9%87%8D%E8%A8%93%E5%AE%A4%E6%9A%AB%E5%81%9C%E9%96%8B%E6%94%BE-%0D%0AThe-weight-room-will-be-temporarily-closed-after-12-00-noon-on-Friday-March-27-due-to-the-Sports-Performance-Show-42910761",
