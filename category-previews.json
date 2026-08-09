@@ -8932,131 +8932,1283 @@
   },
   "his_teacher": {
     "label": "歷史學系-師資培育",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "賀！本系教師甄試金榜題名！(第12報)",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/14/1150714-2/",
+        "date": "2026-07-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "賀！本系教師甄試金榜題名！(第11報)",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/14/1150714/",
+        "date": "2026-07-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "賀！本系教師甄試金榜題名！(第10報)",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/13/1150713-4/",
+        "date": "2026-07-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "賀！本系教師甄試金榜題名！(第9報)",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/13/1150713-3/",
+        "date": "2026-07-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "賀！本系教師甄試金榜題名！(第8報)",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/13/1150713-2/",
+        "date": "2026-07-13",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "his_events": {
     "label": "歷史學系-學術活動",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "研究生論文【口試】114學年度第2學期第4場：蔡忠霖(視訊口試)",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/06/11/1150521/",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "研究生論文【口試】114學年度第2學期第5場：廖平剴(視訊口試)",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/06/11/1150521-1/",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "研究生論文【口試】114學年度第2學期第6場：劉冠宏",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/06/11/1150522/",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "研究生論文【口試】114學年度第2學期第7場：李菡容",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/06/11/1150522-1/",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026.06.06 「臺灣史研究的國際連結」國際學術交流工作坊",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/05/22/20260606/",
+        "date": "2026-05-22",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "his_oral": {
     "label": "歷史學系-研究生口試",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "研究生論文【口試】114學年度第2學期第7場：李菡容",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/06/11/1150522-1/",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "研究生論文【口試】114學年度第2學期第6場：劉冠宏",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/06/11/1150522/",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "研究生論文【口試】114學年度第2學期第5場：廖平剴(視訊口試)",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/06/11/1150521-1/",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "研究生論文【口試】114學年度第2學期第4場：蔡忠霖(視訊口試)",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/06/11/1150521/",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "研究生論文【口試】114學年度第1學期第3場：陳柏棕",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/05/04/1150504-2/",
+        "date": "2026-05-04",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "geo_news": {
     "label": "地理學系-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【徵人】桃園福豐國中徵求地理代理老師訊息",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/08/06/m20260806-1/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【榮譽榜】本系115年教檢成績亮眼！應屆通過率100%",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/08/03/m20260803-1/",
+        "date": "2026-08-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【系級交換】德國漢堡大學數學、資訊與自然科學學院交換學生申請(系115/09/15截止)",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/07/29/j01-522/",
+        "date": "2026-07-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵人】新北市立錦和高中115學年度高中地理代理/兼課教師甄選",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/07/27/j01-521/",
+        "date": "2026-07-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵人】新北市海山高中國中部招募地理代理教師",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/07/27/j01-520/",
+        "date": "2026-07-27",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "geo_academic": {
     "label": "地理學系-學術活動",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【徵稿啟事】第31屆臺灣地理國際學術研討會第一次徵稿(115/09/13截止)",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/06/08/j01-505/",
+        "date": "2026-06-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【轉知】IAMCER 2026研討會議程 / IAMCER 2026 Program",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/03/02/j01-470/",
+        "date": "2026-03-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【學術】114(2)本系學術活動",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/01/15/j01-461/",
+        "date": "2026-01-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【學術】114(2)本系空間資訊碩士在職專班學術活動",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/01/15/j01-460/",
+        "date": "2026-01-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【學術】114(1)本系學術活動",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2025/09/02/j01-404/",
+        "date": "2025-09-02",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "geo_internship": {
     "label": "地理學系-實習機會",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【實習】轉知客家委員會辦理「2026後生行世界客家實習計畫」",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/05/29/m20260529-1/",
+        "date": "2026-05-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【實習】115 年中央氣象署暑期實習(115/5/31止)",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/05/25/m20260525-1/",
+        "date": "2026-05-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【實習】115年臺北市都市更新處暑期實習(系115/5/10止)",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/04/23/m20260423-1/",
+        "date": "2026-04-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【實習】2026 暑期實習生招募｜經典工程顧問 × 原典創思】(115/04/20，中午12點止)",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/04/16/m20260416-4/",
+        "date": "2026-04-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【實習】 國立海洋生物博物館暑假實習申請(校115/04/24止)",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/04/16/m20260416-3/",
+        "date": "2026-04-16",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "geo_recruitment": {
     "label": "地理學系-徵人資訊",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【徵人】新北市立錦和高中115學年度高中地理代理/兼課教師甄選",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/07/27/j01-521/",
+        "date": "2026-07-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵人】新北市海山高中國中部招募地理代理教師",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/07/27/j01-520/",
+        "date": "2026-07-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵人】新北市各國中職缺",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/07/21/j01-518/",
+        "date": "2026-07-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵人】誠徵環境工程師",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/07/21/j01-517/",
+        "date": "2026-07-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵人】臺北市立成淵高中115學年度第1學期國中地理兼任/代課教師甄選",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/07/21/j01-516/",
+        "date": "2026-07-21",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "geo_honor": {
     "label": "地理學系-榮譽榜",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【傑出校友】馬來西亞星洲日報首位女記者 師大傑出校友57級地理系梁景蘭",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/06/11/j01-506/",
+        "date": "2026-06-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【榮譽榜】本系系友教甄榜單",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/04/23/570828/",
+        "date": "2026-04-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【競賽-獲獎名單】2026年國立臺灣師範大學地理學相關學程小論文競賽",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/04/02/j01-484/",
+        "date": "2026-04-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【榮譽榜】學士班91級張加佩系友獲114年「杏壇芬芳獎」",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2025/08/04/j01-389/",
+        "date": "2025-08-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【榮譽榜】114年國科會大專生計畫",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2025/07/08/j01-377/",
+        "date": "2025-07-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "geo_scholarship": {
     "label": "地理學系-獎助學金",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【獎助金-校外】中華民國都市計劃學會115「學生論文獎」競賽與「日台都市計畫及其相關研究獎勵金」",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/07/09/j01-515/",
+        "date": "2026-07-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獎學金-校外】歐盟計畫及教育部相關獎學金座談會",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/07/09/j01-513/",
+        "date": "2026-07-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獎助金-校外】中華民國區域科學學會「115年度學生（碩博士）論文獎」",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/07/09/j01-512/",
+        "date": "2026-07-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獎學金】地理學系115學年度師資培育獎學金申請(115/08/24系截止)",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/07/01/j01-435/",
+        "date": "2026-07-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獎學金-校外】貝里斯大學「區域語文中心」提供英語課程獎學金（115/07/31截止）",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/06/01/j01-503/",
+        "date": "2026-06-01",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "geo_emi": {
     "label": "地理學系-雙語計畫",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【EMI】EMI走讀臺北活動，歡迎報名參加",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2023/10/02/m20231002-1/",
+        "date": "2023-10-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【EMI】112學年度第1學期《EMI課程教學助理專業知能培力計畫》，鼓勵同學踴躍報名參與",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2023/08/31/m20230831-2/",
+        "date": "2023-08-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【演講】如何申請美國研究生課程 (How to Apply US Grad Programs)",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2023/03/20/j01-52/",
+        "date": "2023-03-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【EMI】本校111-2「EMI TA Training Workshop」系列活動",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2023/03/13/j01-44/",
+        "date": "2023-03-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【EMI】文學院EMI計畫- 全民外交研習營 CLA EMI program – International Diplomacy Camp",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2022/10/20/j-03-16/",
+        "date": "2022-10-20",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "tcll_news": {
     "label": "臺灣語文學系-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【重要公告】115年國科會博士生研究獎學金申請",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/08/05/115eds/",
+        "date": "2026-08-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要公告】115學年度臺灣語文學系師資培育獎學金甄審簡章，敬請把握時間提出申請",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/08/05/1150805tea/",
+        "date": "2026-08-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【恭賀】劉承賢老師榮獲本校115年度教學傑出獎！",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/07/31/20260731/",
+        "date": "2026-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【恭賀】本系教師榮獲國科會115年度專題研究計畫補助！",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/07/19/20260719/",
+        "date": "2026-07-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獎助】 校內外獎助學金公告",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/06/25/20210704/",
+        "date": "2026-06-25",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "tcll_dept": {
     "label": "臺灣語文學系-系務公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【公告】本校及本系2026年暑假期間辦公時間調整",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/06/15/20260615/",
+        "date": "2026-06-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】114-2博士、碩士論文計畫與學位論文口試時間公告，歡迎蒞臨旁聽！",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/05/12/20260511/",
+        "date": "2026-05-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】114學年度第2學期博士班資格考試時間地點及注意事項",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/04/14/20260413/",
+        "date": "2026-04-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】本校及本系2026年寒假期間辦公時間調整 (2/12、2/13為寒休日)",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2025/12/31/20251231/",
+        "date": "2025-12-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】2026/1/8(四)及1/9(五)因辦理博士班資格考，故本系301學生閱覽室全面暫停開放使用及借用",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2025/12/29/20251229/",
+        "date": "2025-12-29",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "tcll_honor": {
     "label": "臺灣語文學系-榮譽公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【恭賀】劉承賢老師榮獲本校115年度教學傑出獎！",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/07/31/20260731/",
+        "date": "2026-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【恭賀】本系教師榮獲國科會115年度專題研究計畫補助！",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/07/19/20260719/",
+        "date": "2026-07-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【恭賀】本系特色發展獎助學金114學年度第2學期獲獎公告！",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/03/29/20260327/",
+        "date": "2026-03-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【恭賀】本系林淑慧老師出版新書《織編世界：台灣當代旅遊敘事》！",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/01/19/20260119-1/",
+        "date": "2026-01-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【恭賀】本系博士生榮獲中研院與國科會相關獎補助",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2025/11/05/20251105/",
+        "date": "2025-11-05",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "tcll_academic": {
     "label": "臺灣語文學系-學術活動",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【講座】跨學科的台灣與華語語系研究 2026年夏天演講系列",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/06/18/20260618/",
+        "date": "2026-06-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【師大新聞】臺師大詩樂工作坊 串聯臺灣與比利時跨國藝術對話",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/05/15/20260708/",
+        "date": "2026-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【歡迎報名】「去法國教台語？！」 青年百億海外計畫經驗分享會，歡迎有興趣的同學報名參加！",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/04/24/202604241/",
+        "date": "2026-04-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【講座與模擬教甄】4/25「師資精進計劃活動｜教師甄試模擬｜盧叔欣、許芸萱 老師：台語教甄惠成宮 2.0」",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/04/21/20260421/",
+        "date": "2026-04-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【講座】本系114學年度第2學期系列講座，歡迎參與！Lectures within the Department",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/03/28/20260328/",
+        "date": "2026-03-28",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "tcll_admission": {
     "label": "臺灣語文學系-招生資訊",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【招生】115學年度大學「申請入學」招生口試時間表及地點公告",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/05/12/20260512/",
+        "date": "2026-05-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【招生】115學年度博士班招生考試入學第二階段複試（口試日期2026/4/18）時間及地點公告",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/04/16/20260416/",
+        "date": "2026-04-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【招生】國立臺灣師範大學臺灣語文學系115學年度大學「申請入學」第二階段指定項目甄試通知",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/04/14/20260410/",
+        "date": "2026-04-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【招生】115學年度碩士班招生考試入學第二階段複試（口試日期2026/2/7）時間及地點公告",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/02/05/20260205/",
+        "date": "2026-02-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【招生-新增鳳凰颱風應變公告】115學年度特殊選才招生第二階段複試（口試）時間及地點公告",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2025/11/06/115special-selection-for-undergraduate-programs/",
+        "date": "2025-11-06",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "tcll_scholarship": {
     "label": "臺灣語文學系-獎助學金",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【重要公告】115年國科會博士生研究獎學金申請",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/08/05/115eds/",
+        "date": "2026-08-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要公告】115學年度臺灣語文學系師資培育獎學金甄審簡章，敬請把握時間提出申請",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/08/05/1150805tea/",
+        "date": "2026-08-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獎助】 校內外獎助學金公告",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/06/25/20210704/",
+        "date": "2026-06-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要】114學年度師資培育獎學金面試名單公告",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2025/08/22/20250822te/",
+        "date": "2025-08-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【代轉】台灣圖書館台灣學研究中心／114年台灣學博碩士論文研究獎助申請（4/1～5/31）",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2025/03/04/202503041/",
+        "date": "2025-03-04",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "tcll_related": {
     "label": "臺灣語文學系-相關訊息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【代轉】國立台灣文學館「數位遊戲腳本徵選比賽」",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/06/01/202606011/",
+        "date": "2026-06-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【代轉】文化部 115/6/13-6/14舉辦「2026第三屆國家語言發展會議」，鼓勵師生報名參加",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/06/01/20260601/",
+        "date": "2026-06-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵稿】國立臺灣文學館 / 第23屆全國臺灣文學研究生學術研討會「流域與疆界——臺灣類型文學的多元視野」徵稿啟事(6/26止)",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/05/19/20260519/",
+        "date": "2026-05-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【代轉】文學院辦理115-2院級赴外交換宣導說明會暨交換生分享系列講座(5/6、5/14)",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/04/28/20260428/",
+        "date": "2026-04-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【代轉】國立台灣文學館「2026台灣文學獎」徵件資訊",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/04/24/20260424/",
+        "date": "2026-04-24",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "tcll_longterm": {
     "label": "臺灣語文學系-長期公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【獎助】 校內外獎助學金公告",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2026/06/25/20210704/",
+        "date": "2026-06-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺灣師範大學臺灣語文學系聲明",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2025/07/31/20250731-2/",
+        "date": "2025-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "有關本系台灣白話字文獻館資料庫的聲明",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2025/05/19/20250519/",
+        "date": "2025-05-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】臺灣語文學系書卷獎同名次參酌獲獎順序",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2025/05/13/20250513/",
+        "date": "2025-05-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要】敬請修習本土語文閩南語文專長教程同學，請把握「臺語教材教法」及「臺語教學實習」開課時程，考量先行修課。非常感謝您！",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/2023/09/01/20230901/",
+        "date": "2023-09-01",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "giti_news": {
     "label": "翻譯研究所-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "本所推廣班 115-1【筆譯6小時工作坊】文學翻譯入門 + AI科技翻譯入門 (英→中)",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/08/06/115-1_t-6hr/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要公告】2026年中英口譯聯合專業考試通過名單",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/07/28/conference-interpretation-in-2026/",
+        "date": "2026-07-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "恭賀李奭學教授榮膺中央研究院第35屆院士(人文及社會科學組)",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/07/13/congrats/",
+        "date": "2026-07-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【招生公告】115學年度翻譯研究所「軍事口譯碩士在職專班」複試-口試名單",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/29/2026-07-01-rha/",
+        "date": "2026-06-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【招生公告】115學年度翻譯研究所「軍事口譯碩士在職專班」複試公告延期",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/26/20260626-rha/",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "giti_dept": {
     "label": "翻譯研究所-系所公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "本所推廣班 115-1【筆譯6小時工作坊】文學翻譯入門 + AI科技翻譯入門 (英→中)",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/08/06/115-1_t-6hr/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115-1學期《EMI教學增能課程》-在學博士生適用",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/07/28/2026-emi-professional-development-course/",
+        "date": "2026-07-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【重要公告】2026年中英口譯聯合專業考試通過名單",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/07/28/conference-interpretation-in-2026/",
+        "date": "2026-07-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【招生公告】115學年度翻譯研究所「軍事口譯碩士在職專班」複試-口試名單",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/29/2026-07-01-rha/",
+        "date": "2026-06-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【招生公告】115學年度翻譯研究所「軍事口譯碩士在職專班」複試公告延期",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/26/20260626-rha/",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "giti_speeches": {
     "label": "翻譯研究所-演講公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【徵選公告】「言嶼交響：2026臺灣文學英譯工作坊」徵選正式開跑",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/05/29/nmtl20260529/",
+        "date": "2026-05-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【講座資訊】從口譯到心理諮商-我的專業歷程│張睿耘學姊",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/05/27/lecture-0602/",
+        "date": "2026-05-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【講座資訊】本所三十周年慶系列講座-6│與談學姊：施彥如、黃致潔、陳珮馨",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/05/25/giti30-6/",
+        "date": "2026-05-25",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【講座資訊】本所三十周年慶系列講座-5│李雨衡",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/05/15/giti30-5/",
+        "date": "2026-05-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【講座資訊】2026人文季 梁實秋文學大師駐校作家專題演講：鄧鴻樹老師",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/05/08/2026_lecture_teng/",
+        "date": "2026-05-08",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "giti_admission": {
     "label": "翻譯研究所-招生公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【招生公告】115學年度翻譯研究所「軍事口譯碩士在職專班」複試-口試名單",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/29/2026-07-01-rha/",
+        "date": "2026-06-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【招生公告】115學年度翻譯研究所「軍事口譯碩士在職專班」複試公告延期",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/26/20260626-rha/",
+        "date": "2026-06-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【招生公告】翻譯研究所115學年度逕讀博士班招生簡章",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/01/115-direct-pursuit-of-doctoral-degree/",
+        "date": "2026-06-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【講座資訊】本所三十周年慶系列講座-4│吳孟儒 Gôo Bīng-jû",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/04/15/giti30-4/",
+        "date": "2026-04-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【招生公告】115學年度翻譯研究所-博士班招生《口試名單》與《相關資訊》",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/04/15/115phd/",
+        "date": "2026-04-15",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "giti_scholarship": {
     "label": "翻譯研究所-獎學金",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【獎學金】114學年度第2學期「優秀學生獎學金」即日起申請至3/29止",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/03/04/2026scholarship_114-2/",
+        "date": "2026-03-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獎學金】114學年度第1學期「優秀學生獎學金」即日起申請至10/27止",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2025/09/22/2025scholarship_114-1/",
+        "date": "2025-09-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獎學金】113學年度第2學期「優秀學生獎學金」即日起申請至4/14止",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2025/03/28/2025scholarship_113-2/",
+        "date": "2025-03-28",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【甄選公告】臺英聯盟獎學金—赴英交換計畫~熱烈報名中！",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2025/03/11/oia20250311/",
+        "date": "2025-03-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獎學金】113學年度第1學期「優秀學生獎學金」即日起申請至10/28止",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2024/09/11/2024scholarship_113-1/",
+        "date": "2024-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "giti_recruitment": {
     "label": "翻譯研究所-徵才訊息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "[相關徵才]聯合報新聞部國際中心徵求新聞編譯",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/18/udn/",
+        "date": "2026-06-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【實習機會】酷澎火箭物流暑期口譯實習生計劃 召募中",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/06/16/coupang-rfc-interpreter-summer-internship/",
+        "date": "2026-06-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵才資訊】2026 唐獎暑期工讀生招募",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/05/19/20260701tangprize/",
+        "date": "2026-05-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵才資訊】大陸委員會誠徵1名聘用副研究員",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2025/10/21/mac20251013/",
+        "date": "2025-10-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵才資訊】本校英語學術素養中心 誠徵學術英語輔導員",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2025/08/11/cal20250811/",
+        "date": "2025-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "giti_other": {
     "label": "翻譯研究所-其他訊息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "本所推廣班 115-1【筆譯6小時工作坊】文學翻譯入門 + AI科技翻譯入門 (英→中)",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/08/06/115-1_t-6hr/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "「2026獎勵大專院校日本研究論文比賽」_台日文化經濟協會",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/08/06/office-tjcea/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【116年度教育部人文社會科學學術人才跨國培育計畫 (自行報名: 115年10月20日截止) 】",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/08/05/youconf-at/",
+        "date": "2026-08-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵稿啟事】第26期《台灣學誌》期限至2026/07/31",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/07/14/monumenta-taiwanica/",
+        "date": "2026-07-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵稿活動】「翻譯擂台」詩歌翻譯競賽_國立臺灣文學館",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/07/13/taiwan-ireland-poetry-translation-competition/",
+        "date": "2026-07-13",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "taih_news": {
     "label": "臺灣史研究所-最新消息",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "台日文化經濟協會舉辦「2026獎勵大專院校日本研究論文比賽」",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/06/2026080603/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "教育部「116年度人文社會科學學術人才跨國培育計畫」",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/06/2026080602/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度第1學期抵免學分作業提醒",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/06/2026080601/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動轉知】115年8月12日舉辦「眾神降臨特展 敬天惜地的客家人特展」展前講座",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/05/2026-08-05-01/",
+        "date": "2026-08-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獎助消息】中央研究院民族學研究所115學年度碩士班研究生論文寫作獎助",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/03/202608031/",
+        "date": "2026-08-03",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "taih_dept": {
     "label": "臺灣史研究所-本所公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【課務】115學年度預定開設課程一覽表(20260804更)",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/05/29/2026-05-29/",
+        "date": "2026-05-29",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【臺史所專題演講】畢業後要去哪？找到你的職涯方向！",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/05/07/2026-05-07/",
+        "date": "2026-05-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【停課通知】本周四(4/23)「臺灣總督府公文類纂專題研究（一）」因故停課一次。",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/04/22/2026-04-22-02/",
+        "date": "2026-04-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "恭賀本所 顏新恩 獲114-2學期本所范燕秋獎學金",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/03/26/20260326/",
+        "date": "2026-03-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【課務】「知識轉譯與文化創生學分學程」：停招及後續申請修習證明",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/03/12/260312/",
+        "date": "2026-03-12",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "taih_academic": {
     "label": "臺灣史研究所-學術活動",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【演講公告】從基層到全民：臺灣全民健保的新歷史",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/07/01/20260701kianpo/",
+        "date": "2026-07-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【演講公告】一九八四：小教授與麥金塔",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/07/01/202607011984/",
+        "date": "2026-07-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【學術活動】臺灣史研究的國際連結­­­_國際學術交流工作坊",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/05/22/2026052201/",
+        "date": "2026-05-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【演講公告】男孩女孩的白色恐怖",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/05/14/2026-05-14-1/",
+        "date": "2026-05-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【臺史所專題演講】畢業後要去哪？找到你的職涯方向！",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/05/07/2026-05-07/",
+        "date": "2026-05-07",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "taih_scholarship": {
     "label": "臺灣史研究所-獎助學金",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【獎助消息】中央研究院民族學研究所115學年度碩士班研究生論文寫作獎助",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/03/202608031/",
+        "date": "2026-08-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026臺灣醫學史學會與財團法人杜聰明博士獎學基金會合作辦理「臺灣醫學史研究論文獎」徵文活動",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/07/01/20260701doctor/",
+        "date": "2026-07-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "恭賀本所 曾郁喬 獲114-2學期優秀研究生獎學金",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/05/20/2026-05-20-02/",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "恭賀本所 徐承則 獲114-2學期優秀研究生獎學金",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/05/20/2026-05-20-01/",
+        "date": "2026-05-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獎助學金】115年度國立臺灣圖書館「獎助國內訪問學人（員）」申請開跑！歡迎有志於從事臺灣學與東南亞研究的學人、學員踴躍申請！",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/03/30/2026-03-30-02/",
+        "date": "2026-03-30",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "taih_admission": {
     "label": "臺灣史研究所-招生資訊",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "115學年度碩士班甄試入學錄取名單公告",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2025/11/20/2025-11-20-001/",
+        "date": "2025-11-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度碩士班推薦甄選應試順序公告",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2025/10/24/2025-10-24/",
+        "date": "2025-10-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度碩士班甄試入學招生簡章公告",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2025/10/01/2025-10-01-001/",
+        "date": "2025-10-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度碩士班招生考試錄取公告",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2025/02/27/2025-02-27-01/",
+        "date": "2025-02-27",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114學年度碩士班甄試入學錄取名單公告",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2024/11/21/2024-11-21-02/",
+        "date": "2024-11-21",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "taih_honor": {
     "label": "臺灣史研究所-榮譽事項",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "狂賀本所研究生何仁傑獲中研院臺史所115年度獎補助訪問學員",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/07/20/2026-07-20-2/",
+        "date": "2026-07-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "狂賀本所研究生顏新恩獲中研院臺史所115年度獎補助訪問學員",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/07/20/2026-07-20-1/",
+        "date": "2026-07-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "狂賀本所研究生李維銘錄取【國立政治大學歷史學系博士班】",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/05/11/2026-05-11-01/",
+        "date": "2026-05-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "狂賀本所研究生蔣宗翰錄取【中研院臺灣國際研究生學程博士班】",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/05/06/2026-05-06-02/",
+        "date": "2026-05-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "狂賀本所畢業生劉怡伶考取【國立鳳新高級中學 歷史科正式教師】",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/05/06/2026-05-06-01/",
+        "date": "2026-05-06",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "taih_events": {
     "label": "臺灣史研究所-相關活動",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "台日文化經濟協會舉辦「2026獎勵大專院校日本研究論文比賽」",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/06/2026080603/",
+        "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動轉知】115年8月12日舉辦「眾神降臨特展 敬天惜地的客家人特展」展前講座",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/05/2026-08-05-01/",
+        "date": "2026-08-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【徵稿轉知】第26期《台灣學誌》徵稿啟事 本期徵稿期限至2026/07/31，歡迎師生來稿！",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/07/16/2026-07-16-01/",
+        "date": "2026-07-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獎助轉知】2026台灣觀光協會獎學金，強力徵件中！收件至10月5日止",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/07/08/2026-07-08-01/",
+        "date": "2026-07-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動轉知】《風吹Breaking The Wall》放映會",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/07/07/2026-07-07-01/",
+        "date": "2026-07-07",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "taih_recruitment": {
     "label": "臺灣史研究所-徵才啟事",
