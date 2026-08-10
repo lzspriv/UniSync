@@ -2394,43 +2394,7 @@
   },
   "gismee_admission": {
     "label": "永續管理與環境教育研究所-招生資訊",
-    "announcements": [
-      {
-        "title": "本校115學年度博士班考試入學錄取名單",
-        "url": "https://www.gismee.ntnu.edu.tw/zh_tw/menu2_1/%E6%9C%AC%E6%A0%A1115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%8D%9A%E5%A3%AB%E7%8F%AD%E8%80%83%E8%A9%A6%E5%85%A5%E5%AD%B8%E9%8C%84%E5%8F%96%E5%90%8D%E5%96%AE-82555820",
-        "date": "2026-05-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "永續管理與環境教育研究所115學年度博士班考試入學招生口試名單",
-        "url": "https://www.gismee.ntnu.edu.tw/zh_tw/menu2_1/%E6%B0%B8%E7%BA%8C%E7%AE%A1%E7%90%86%E8%88%87%E7%92%B0%E5%A2%83%E6%95%99%E8%82%B2%E7%A0%94%E7%A9%B6%E6%89%80115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%8D%9A%E5%A3%AB%E7%8F%AD%E8%80%83%E8%A9%A6%E5%85%A5%E5%AD%B8%E6%8B%9B%E7%94%9F%E5%8F%A3%E8%A9%A6%E5%90%8D%E5%96%AE-23367587",
-        "date": "2026-04-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "永續管理與環境教育研究所115學年度碩士班考試入學招生口試名單",
-        "url": "https://www.gismee.ntnu.edu.tw/zh_tw/menu2_1/%E6%B0%B8%E7%BA%8C%E7%AE%A1%E7%90%86%E8%88%87%E7%92%B0%E5%A2%83%E6%95%99%E8%82%B2%E7%A0%94%E7%A9%B6%E6%89%80115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%A2%A9%E5%A3%AB%E7%8F%AD%E8%80%83%E8%A9%A6%E5%85%A5%E5%AD%B8%E6%8B%9B%E7%94%9F%E5%8F%A3%E8%A9%A6%E5%90%8D%E5%96%AE-83646397",
-        "date": "2026-02-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "本校115學年度博士班考試招生簡章暨附件",
-        "url": "https://www.gismee.ntnu.edu.tw/zh_tw/menu2_1/%E6%9C%AC%E6%A0%A1115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%8D%9A%E5%A3%AB%E7%8F%AD%E8%80%83%E8%A9%A6%E6%8B%9B%E7%94%9F%E7%B0%A1%E7%AB%A0%E6%9A%A8%E9%99%84%E4%BB%B6-96033222",
-        "date": "2026-01-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "本校115學年度碩士班甄試入學錄取名單",
-        "url": "https://www.gismee.ntnu.edu.tw/zh_tw/menu2_1/%E6%9C%AC%E6%A0%A1115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%A2%A9%E5%A3%AB%E7%8F%AD%E7%94%84%E8%A9%A6%E5%85%A5%E5%AD%B8%E9%8C%84%E5%8F%96%E5%90%8D%E5%96%AE-60083603",
-        "date": "2025-11-20",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "sls_news": {
     "label": "生命科學專業學院-最新消息",
