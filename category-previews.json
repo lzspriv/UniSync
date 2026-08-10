@@ -24691,43 +24691,7 @@
   },
   "ceri_center_announcement": {
     "label": "教育研究與創新中心-中心公告",
-    "announcements": [
-      {
-        "title": "2024/11/15【教育新視界：政策、實務與研究的知識創新】國際學術論壇-開放報名中",
-        "url": "https://www.ceri.ntnu.edu.tw/index.php/2024/11/16/1131116/",
-        "date": "2024-11-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2022/08/17「重新審視教育均等與品質：理論與實務的對話國際研討會」開放報名中！",
-        "url": "https://www.ceri.ntnu.edu.tw/index.php/2022/08/17/1110817/",
-        "date": "2022-08-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2021/10/12「未來教育：教育公平、卓越與效能國際學術研討會 」開放報名中！",
-        "url": "https://www.ceri.ntnu.edu.tw/index.php/2021/10/12/20211012/",
-        "date": "2021-10-12",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2021/08/13「未來教育：教育公平、卓越與效能國際學術研討會 」摘要審核結果",
-        "url": "https://www.ceri.ntnu.edu.tw/index.php/2021/08/13/20210813/",
-        "date": "2021-08-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2021/04/07「未來教育：教育公平、卓越與效能國際學術研討會 」報名及徵稿啟事",
-        "url": "https://www.ceri.ntnu.edu.tw/index.php/2021/05/12/20210407/",
-        "date": "2021-05-12",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "ceri_journal_announcement": {
     "label": "教育研究與創新中心-期刊公告",
