@@ -603,6 +603,27 @@
     "label": "化學系-最新公告",
     "announcements": [
       {
+        "title": "2026-08-11【國立臺灣師範大學外國學生獎學金實施要點修正】公告",
+        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/08/11/2026-08-112/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-08-11【115年度第二次教育部「學海惜珠」獎學金申請】9/2截止",
+        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/08/11/2026-08-11115/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-08-11【財團法人台聚教育基金會115年度獎學金申請】9/21截止",
+        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/08/11/2026-08-11/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2026-08-06【第5屆大專校院綠色化學創意競賽】10/30下午6時截止",
         "url": "https://www.chem.ntnu.edu.tw/index.php/2026/08/06/01-7/",
         "date": "2026-08-06",
@@ -611,29 +632,8 @@
       },
       {
         "title": "2026-08-04【中技社境外生留台就業獎助金申請】8/05截止2026 CTCI Foundation Overseas Student Employment in Taiwan Grant",
-        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/08/04/2026-08-04%e3%80%90%e4%b8%ad%e6%8a%80%e7%a4%be%e5%a2%83%e5%a4%96%e7%94%9f%e7%95%99%e5%8f%b0%e5%b0%b1%e6%a5%ad%e7%8d%8e%e5%8a%a9%e9%87%91%e7%94%b3%e8%ab%8b%e3%80%918-05%e6%88%aa%e6%ad%a22026-ctci-found/",
+        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/08/04/2026-08-04/",
         "date": "2026-08-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026-07-29 【115學年度大學基礎課程(化學科)免修認證考試申請 (申請時間115.8.17~115.8.27) 】",
-        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/07/29/2026-07-29-1/",
-        "date": "2026-07-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026-07-28 【115學年度化學系碩士先修生甄選面試公告】",
-        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/07/28/2026-07-28-1/",
-        "date": "2026-07-28",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026-07-27【台北市私立延平高中誠徵實驗室管理員】",
-        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/07/27/2026-07-27-01/",
-        "date": "2026-07-27",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -3156,9 +3156,9 @@
         "summary": ""
       },
       {
-        "title": "《終身樹人》劉欣怡：從師大華語系走向世界，讓華語成為跨文化橋梁",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24428",
-        "date": "2026-08-10",
+        "title": "理學院國際學生夏日實習啟航 24名青年齊聚師大探索科研與臺灣文化",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24827",
+        "date": "2026-08-11",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4409,6 +4409,20 @@
     "label": "教育學院-最新消息",
     "announcements": [
       {
+        "title": "【活動紀實】教育學院行政讀書會「健康之道：食補」",
+        "url": "https://www.coe.ntnu.edu.tw/index.php/2026/08/11/event_0810/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【賀榜】115年度教師教學獎勵",
+        "url": "https://www.coe.ntnu.edu.tw/index.php/2026/08/11/2026-08-11-congrats_01/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【賀榜】幼家科學學系林如萍教授榮獲115年師鐸獎",
         "url": "https://www.coe.ntnu.edu.tw/index.php/2026/07/20/2026-national-excellent-teacher-award/",
         "date": "2026-07-20",
@@ -4426,20 +4440,6 @@
         "title": "【活動紀實】教育學院行政讀書會「放鬆身心：芳療」",
         "url": "https://www.coe.ntnu.edu.tw/index.php/2026/07/09/aromatherapy0709/",
         "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動公告】全球教育與心理健康跨國跨學科學術研究計畫(GEMH Research Fellowship)",
-        "url": "https://www.coe.ntnu.edu.tw/index.php/2026/07/09/gemh/",
-        "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【公告】教育學院大樓陽台消防逃生梯油漆粉刷工程施工通知",
-        "url": "https://www.coe.ntnu.edu.tw/index.php/2026/07/08/exit-painting/",
-        "date": "2026-07-08",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4489,6 +4489,13 @@
     "label": "教育學院-活動資訊",
     "announcements": [
       {
+        "title": "【活動紀實】教育學院行政讀書會「健康之道：食補」",
+        "url": "https://www.coe.ntnu.edu.tw/index.php/2026/08/11/event_0810/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動公告】全球教育與心理健康跨國跨學科學術研究計畫(GEMH Research Fellowship)",
         "url": "https://www.coe.ntnu.edu.tw/index.php/2026/07/09/gemh/",
         "date": "2026-07-09",
@@ -4515,19 +4522,19 @@
         "date": "2026-05-07",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "115-04-30 【活動資訊】統合分析系列工作坊第二場次（實作演練）",
-        "url": "https://www.coe.ntnu.edu.tw/index.php/2026/04/30/115-04-30-01/",
-        "date": "2026-04-30",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "coe_honor": {
     "label": "教育學院-師生榮耀",
     "announcements": [
+      {
+        "title": "【賀榜】115年度教師教學獎勵",
+        "url": "https://www.coe.ntnu.edu.tw/index.php/2026/08/11/2026-08-11-congrats_01/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "【賀榜】幼家科學學系林如萍教授榮獲115年師鐸獎",
         "url": "https://www.coe.ntnu.edu.tw/index.php/2026/07/20/2026-national-excellent-teacher-award/",
@@ -4661,15 +4668,15 @@
         "summary": ""
       },
       {
-        "title": "轉知 新加玻國際香精香料公司 (IFF)招聘實驗室助理",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1372&title=轉知 新加玻國際香精香料公司 (IFF)招聘實驗室助理",
+        "title": "恭賀本系博士候選人楊里祥同學榮獲美國心理學會第 49 分會（團體心理學與團體心理治療學會）2026 年學生海報獎第一名",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1373&title=恭賀本系博士候選人楊里祥同學榮獲美國心理學會第 49 分會（團體心理學與團體心理治療學會）2026 年學生海報獎第一名",
         "date": "2026-08-11",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "轉知 2026多元文化能力與諮商輔導實務國際研討會 論文壁報徵稿",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1371&title=轉知 2026多元文化能力與諮商輔導實務國際研討會 論文壁報徵稿",
+        "title": "轉知 新加玻國際香精香料公司 (IFF)招聘實驗室助理",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1372&title=轉知 新加玻國際香精香料公司 (IFF)招聘實驗室助理",
         "date": "2026-08-11",
         "date_label": "發布日期",
         "summary": ""
@@ -4800,6 +4807,13 @@
     "label": "教育心理與輔導學系-傑出表現",
     "announcements": [
       {
+        "title": "恭賀本系博士候選人楊里祥同學榮獲美國心理學會第 49 分會（團體心理學與團體心理治療學會）2026 年學生海報獎第一名",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Honor_Roll/News.aspx?id=RbtCbgqudXM=&Sn=1373&title=恭賀本系博士候選人楊里祥同學榮獲美國心理學會第 49 分會（團體心理學與團體心理治療學會）2026 年學生海報獎第一名",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "恭賀本系鄧淑瑩（學士班84級）系友於2025年新接任大馬國立台灣師範大學校友會會長！",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Honor_Roll/News.aspx?id=RbtCbgqudXM=&Sn=1063&title=恭賀本系鄧淑瑩（學士班84級）系友於2025年新接任大馬國立台灣師範大學校友會會長！",
         "date": "2025-10-18",
@@ -4823,13 +4837,6 @@
       {
         "title": "恭賀本系李俊仁副教授榮獲本校114年「20年資深優良教師」獎 ; 恭賀本系簡郁芩、許禕芳二位教授榮獲本校114年「10年資深優良教師」獎。",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Honor_Roll/News.aspx?id=RbtCbgqudXM=&Sn=1025&title=恭賀本系李俊仁副教授榮獲本校114年「20年資深優良教師」獎  ;  恭賀本系簡郁芩、許禕芳二位教授榮獲本校114年「10年資深優良教師」獎。",
-        "date": "2025-09-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭賀本系莊智鈞(學士班87級)系友（現任臺北市立建國中學校長）榮獲台北市114學年度特殊優良教師。",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Honor_Roll/News.aspx?id=RbtCbgqudXM=&Sn=1024&title=恭賀本系莊智鈞(學士班87級)系友（現任臺北市立建國中學校長）榮獲台北市114學年度特殊優良教師。",
         "date": "2025-09-22",
         "date_label": "發布日期",
         "summary": ""
@@ -14760,6 +14767,13 @@
     "label": "音樂學系-最新消息",
     "announcements": [
       {
+        "title": "徵聘行政組員( 115/08/19 週三截止 )",
+        "url": "https://www.music.ntnu.edu.tw/index.php/2026/08/11/1150819/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【更新】國立臺灣師範大學音樂學系115學年度第一學期行事曆",
         "url": "https://www.music.ntnu.edu.tw/index.php/2026/08/10/1150810/",
         "date": "2026-08-10",
@@ -14786,19 +14800,19 @@
         "date": "2026-07-23",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "115學年度臺灣大學系統申請國立臺灣師範大學跨校輔系、雙主修音樂學系面試公告",
-        "url": "https://www.music.ntnu.edu.tw/index.php/2026/07/02/yuchen0702/",
-        "date": "2026-07-02",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "music_affairs": {
     "label": "音樂學系-系所公告",
     "announcements": [
+      {
+        "title": "徵聘行政組員( 115/08/19 週三截止 )",
+        "url": "https://www.music.ntnu.edu.tw/index.php/2026/08/11/1150819/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "【更新】國立臺灣師範大學音樂學系115學年度第一學期行事曆",
         "url": "https://www.music.ntnu.edu.tw/index.php/2026/08/10/1150810/",
@@ -14823,13 +14837,6 @@
       {
         "title": "115年6月11日（四）08:20-10:00 羅琬臻 校友返校講座 (歡迎實體或視訊參與)－羽化成蝶 一位中途學校教師職涯發展及創新歷程之自我敘說",
         "url": "https://www.music.ntnu.edu.tw/index.php/2026/06/05/1150611/",
-        "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度絃樂組協奏曲比賽曲目",
-        "url": "https://www.music.ntnu.edu.tw/index.php/2026/06/05/115-4/",
         "date": "2026-06-05",
         "date_label": "發布日期",
         "summary": ""
@@ -15040,6 +15047,13 @@
     "label": "音樂學系-徵才訊息",
     "announcements": [
       {
+        "title": "徵聘行政組員( 115/08/19 週三截止 )",
+        "url": "https://www.music.ntnu.edu.tw/index.php/2026/08/11/1150819/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "教師徵聘資料表Faculty position applicant information",
         "url": "https://www.music.ntnu.edu.tw/index.php/2026/06/16/faculty-position-applicant-information-6/",
         "date": "2026-06-16",
@@ -15064,13 +15078,6 @@
         "title": "國立臺灣師範大學音樂學系徵聘兼任音樂教育教師公告（115/5/3 週日截止收件）",
         "url": "https://www.music.ntnu.edu.tw/index.php/2026/04/17/music_education_faculty_0503/",
         "date": "2026-04-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "徵聘行政專員( 115/01/08 週四截止 )",
-        "url": "https://www.music.ntnu.edu.tw/index.php/2025/12/29/recruitment_contract/",
-        "date": "2025-12-29",
         "date_label": "發布日期",
         "summary": ""
       }
