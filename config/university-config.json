@@ -69,6 +69,34 @@
       "title_link": ".image-box a[title]",
       "date": ".date"
     },
+    "press_news_cards": {
+      "article": "div.news ul > li",
+      "title_link": "a[href*='news_view.jsp']",
+      "title": "h3",
+      "date": ".post-date"
+    },
+    "tocfl_news_cards": {
+      "parser": "tocfl_split_date",
+      "article": "div.news-box div.col-lg-12.list-box",
+      "title_link": ".article a[href]",
+      "date_day": ".date .day",
+      "date_month": ".date .month",
+      "date_year": ".date .year"
+    },
+    "gender_news_list": {
+      "article": ".nlist > .list",
+      "title_link": ".t2 a[href]",
+      "date": ".t1"
+    },
+    "research_ethics_news_list": {
+      "article": "li.i-annc__item.row",
+      "title_link": ".i-annc__title",
+      "date": ".i-annc__postdate"
+    },
+    "hsnu_latest_news": {
+      "parser": "oddi_lazy_news",
+      "block_selector": "div[role='announceblock'][aria-label^='最新消息']"
+    },
     "epc_table_row_date": {
       "parser": "row_date_link",
       "article": "tr",
@@ -156,11 +184,6 @@
       "title": ".article h3",
       "date": ".date-row"
     },
-    "rcccr_content_item": {
-      "parser": "link_date_text",
-      "article": "a.content-item[href]",
-      "title_link": "a[href]"
-    },
     "goweb_news": {
       "parser": "row_date_link",
       "article": ".ntnu-news li.list-group-item",
@@ -173,28 +196,22 @@
       "title_link": "a[href]",
       "date": "td:nth-of-type(1)"
     },
-    "sa_home_latest": {
-      "article": ".ultp-block-eaca03 .ultp-block-item",
-      "title_link": ".ultp-block-title a[href]",
-      "date": ".ultp-block-date"
-    },
     "sa_home_announcements": {
-      "article": ".ultp-block-37c113 .ultp-block-item",
+      "article": ".wp-block-ultimate-post-post-list-3 .ultp-block-item",
       "title_link": ".ultp-block-title a[href]",
       "date": ".ultp-block-date"
     },
     "activity_home_latest": {
-      "article": ".ultp-block-c6bf62 .ultp-block-item",
+      "article": ".wp-block-ultimate-post-post-list-3 .ultp-block-item",
       "title_link": ".ultp-block-title a[href]",
       "date": ".ultp-block-date"
     },
-    "wix_blog_card": {
-      "parser": "wix_blog_card",
-      "article": "[data-hook=\"post-list-item\"]",
-      "title_link": "a[href*=\"/post/\"]",
-      "title": "[data-hook=\"post-title\"]",
-      "date": "span[data-hook=\"time-ago\"]",
-      "summary": "[data-hook=\"post-description\"]"
+    "shopify_blog_card": {
+      "parser": "shopify_blog_card",
+      "article": ".blog-post-card",
+      "title_link": "[data-testid=\"blog-post-link\"]",
+      "date": "time[datetime]",
+      "summary": ".blog-post-card__content-text"
     },
     "ga_legacy_table": {
       "article": "#GridView1 > tr:has(a[href*=\"item.aspx?line=\"])",
@@ -211,7 +228,8 @@
     "ilo_news_list": {
       "article": ".list li",
       "title_link": "a[href]",
-      "date": ".date"
+      "date": ".date",
+      "tls_certificate_sha256": "07834ff4037dbf14730b7eacb5508f1234430f93b5e047b890ae08cee35fadc2"
     },
     "oia_next_data": {
       "parser": "oia_next_data"
@@ -502,21 +520,25 @@
       "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/1/"
     },
     "mest_speeches": {
+      "allowEmpty": true,
       "label": "學術演講",
       "owner": "海洋環境科技研究所",
       "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/2/"
     },
     "mest_recruitment": {
+      "allowEmpty": true,
       "label": "徵才公告",
       "owner": "海洋環境科技研究所",
       "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/3/"
     },
     "mest_admission": {
+      "allowEmpty": true,
       "label": "招生公告",
       "owner": "海洋環境科技研究所",
       "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/4/"
     },
     "mest_scholarship": {
+      "allowEmpty": true,
       "label": "獎學金",
       "owner": "海洋環境科技研究所",
       "url": "https://www.mest.ntnu.edu.tw/index.php/category/uncategorized/5/"
@@ -590,6 +612,7 @@
       "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/2/"
     },
     "sls_courses": {
+      "allowEmpty": true,
       "label": "課程公告",
       "owner": "生命科學專業學院",
       "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/4/"
@@ -600,6 +623,7 @@
       "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/we-want-you/"
     },
     "sls_scholarship": {
+      "allowEmpty": true,
       "label": "獎學金公告",
       "owner": "生命科學專業學院",
       "url": "https://www.sls.ntnu.edu.tw/index.php/category/uncategorized/5-1/"
@@ -620,6 +644,7 @@
       "url": "https://www.biol.ntnu.edu.tw/index.php/category/uncategorized/2/"
     },
     "biol_courses": {
+      "allowEmpty": true,
       "label": "課程公告",
       "owner": "生命科學系",
       "url": "https://www.biol.ntnu.edu.tw/index.php/category/uncategorized/4/"
@@ -1184,6 +1209,7 @@
       "selectorPreset": "cve_table_row_date"
     },
     "cve_competition": {
+      "allowEmpty": true,
       "label": "競賽活動",
       "owner": "公民教育與活動領導學系",
       "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=%E7%AB%B6%E8%B3%BD%E6%B4%BB%E5%8B%95",
@@ -1529,6 +1555,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "ice_recruitment": {
+      "allowEmpty": true,
       "label": "徵才訊息",
       "owner": "資訊教育研究所",
       "url": "https://www.ice.ntnu.edu.tw/index.php/category/latestnews/4/",
@@ -1631,6 +1658,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "cla_intei": {
+      "allowEmpty": true,
       "label": "INTEI",
       "owner": "文學院",
       "url": "https://www.cla.ntnu.edu.tw/index.php/category/intei-esd/",
@@ -2303,6 +2331,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "stem_affairs": {
+      "allowEmpty": true,
       "label": "系所公告",
       "owner": "科學-科技-工程-數學整合教育國際博士學位學程",
       "url": "https://www.stem.ntnu.edu.tw/index.php/category/uncategorized/1/",
@@ -2315,12 +2344,14 @@
       "selectorPreset": "wordpress_broad"
     },
     "stem_seminar": {
+      "allowEmpty": true,
       "label": "演講公告",
       "owner": "科學-科技-工程-數學整合教育國際博士學位學程",
       "url": "https://www.stem.ntnu.edu.tw/index.php/category/uncategorized/3/",
       "selectorPreset": "wordpress_broad"
     },
     "stem_new_student": {
+      "allowEmpty": true,
       "label": "新生快訊",
       "owner": "科學-科技-工程-數學整合教育國際博士學位學程",
       "url": "https://www.stem.ntnu.edu.tw/index.php/category/uncategorized/4/",
@@ -2429,6 +2460,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "arthistory_jobs": {
+      "allowEmpty": true,
       "label": "徵才",
       "owner": "藝術史研究所",
       "url": "https://arthistory.ntnu.edu.tw/index.php/zh/category/news/jobs/",
@@ -2611,12 +2643,14 @@
       "selectorPreset": "article_list_row_date"
     },
     "pe_honor": {
+      "allowEmpty": true,
       "label": "師生榮耀",
       "owner": "體育與運動科學系",
       "url": "https://www.pe.ntnu.edu.tw/news/Congratulations.htm",
       "selectorPreset": "article_list_row_date"
     },
     "pe_other": {
+      "allowEmpty": true,
       "label": "其他公告",
       "owner": "體育與運動科學系",
       "url": "https://www.pe.ntnu.edu.tw/news/Others.htm",
@@ -2929,6 +2963,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "ciss_honor": {
+      "allowEmpty": true,
       "label": "師生榮譽",
       "owner": "國際與社會科學學院",
       "url": "https://www.ciss.ntnu.edu.tw/index.php/category/uncategorized/4/",
@@ -3187,6 +3222,7 @@
       "selectorPreset": "sw_table"
     },
     "sw_speech": {
+      "allowEmpty": true,
       "label": "本所活動演講",
       "owner": "社會工作學研究所",
       "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Speech/News.aspx?id=jkgBr1zqgsk=",
@@ -3199,6 +3235,7 @@
       "selectorPreset": "sw_table"
     },
     "sw_paper_exam": {
+      "allowEmpty": true,
       "label": "論文考試資訊",
       "owner": "社會工作學研究所",
       "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-PaperExam/News.aspx?id=RbtCbgqudXM=",
@@ -3578,12 +3615,6 @@
       "url": "https://www.acad.ntnu.edu.tw/zh_tw/ic/5news/5news1",
       "selectorPreset": "oen_annc_table"
     },
-    "acad_instrument_activities": {
-      "label": "活動與演講",
-      "owner": "貴重儀器中心",
-      "url": "https://www.acad.ntnu.edu.tw/zh_tw/ic/5news/act5101",
-      "selectorPreset": "oen_seminar_table"
-    },
     "acad_innovation_latest": {
       "label": "最新公告",
       "owner": "創新育成中心",
@@ -3711,6 +3742,7 @@
       "selectorPreset": "tecs_rwd_table"
     },
     "tecs_college": {
+      "allowEmpty": true,
       "label": "師資培育學院",
       "owner": "師資培育學院-訊息公告",
       "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&g=1006",
@@ -3741,6 +3773,7 @@
       "selectorPreset": "tecs_rwd_table"
     },
     "tecs_act_college": {
+      "allowEmpty": true,
       "label": "師資培育學院",
       "owner": "師資培育學院-活動看板",
       "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=act&g=1006",
@@ -3759,6 +3792,7 @@
       "selectorPreset": "tecs_rwd_table"
     },
     "tecs_act_international": {
+      "allowEmpty": true,
       "label": "國際師培推動組",
       "owner": "師資培育學院-活動看板",
       "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=act&g=185",
@@ -3783,18 +3817,21 @@
       "selectorPreset": "mtc_article_list"
     },
     "mtc_activity": {
+      "allowEmpty": true,
       "label": "學生活動",
       "owner": "國語教學中心",
       "url": "https://mtc.ntnu.edu.tw/news/%E5%AD%B8%E7%94%9F%E6%B4%BB%E5%8B%95.htm",
       "selectorPreset": "mtc_article_list"
     },
     "mtc_course": {
+      "allowEmpty": true,
       "label": "課程訊息",
       "owner": "國語教學中心",
       "url": "https://mtc.ntnu.edu.tw/news/%E8%AA%B2%E7%A8%8B%E8%A8%8A%E6%81%AF.htm",
       "selectorPreset": "mtc_article_list"
     },
     "mtc_short_term": {
+      "allowEmpty": true,
       "label": "短期班相關訊息",
       "owner": "國語教學中心",
       "url": "https://mtc.ntnu.edu.tw/news/%E7%9F%AD%E6%9C%9F%E7%8F%AD%E7%9B%B8%E9%97%9C%E8%A8%8A%E6%81%AF.htm",
@@ -3968,12 +4005,6 @@
       "url": "https://www.artmuse.ntnu.edu.tw/index.php/category/events/",
       "selectorPreset": "wordpress_broad"
     },
-    "rcccr_news": {
-      "label": "最新消息",
-      "owner": "文物保存維護研究發展中心",
-      "url": "https://rcccr.ntnu.edu.tw/news/",
-      "selectorPreset": "rcccr_content_item"
-    },
     "assistance_admin": {
       "label": "行政公告",
       "owner": "生活輔導組",
@@ -4079,12 +4110,6 @@
       "url": "https://isrc.sa.ntnu.edu.tw/category/item4/",
       "selectorPreset": "ultimate_post_grid"
     },
-    "student_affairs_home_latest": {
-      "label": "首頁最新消息",
-      "owner": "學生事務處",
-      "url": "https://www.sa.ntnu.edu.tw/",
-      "selectorPreset": "sa_home_latest"
-    },
     "student_affairs_announcements": {
       "label": "訊息公告",
       "owner": "學生事務處",
@@ -4175,52 +4200,17 @@
       "selectorPreset": "ultimate_post_grid"
     },
     "hsin_tien_blog": {
-      "label": "好心文",
+      "allowEmpty": true,
+      "label": "最新消息",
       "owner": "社區諮商中心",
-      "url": "https://www.hsin-tien.com/blog",
-      "selectorPreset": "wix_blog_card"
+      "url": "https://www.hsin-tien.com/blogs/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
+      "selectorPreset": "shopify_blog_card"
     },
     "hsin_tien_hot_premiere": {
       "label": "熱門首播",
       "owner": "社區諮商中心",
-      "url": "https://www.hsin-tien.com/blog/categories/%E7%86%B1%E9%96%80%E9%A6%96%E6%92%AD",
-      "selectorPreset": "wix_blog_card"
-    },
-    "hsin_tien_relationship": {
-      "label": "情感關係",
-      "owner": "社區諮商中心",
-      "url": "https://www.hsin-tien.com/blog/categories/%E5%85%A9%E6%80%A7%E6%83%85%E6%84%9F",
-      "selectorPreset": "wix_blog_card"
-    },
-    "hsin_tien_family": {
-      "label": "親子家庭",
-      "owner": "社區諮商中心",
-      "url": "https://www.hsin-tien.com/blog/categories/%E8%A6%AA%E5%AD%90%E5%AE%B6%E5%BA%AD",
-      "selectorPreset": "wix_blog_card"
-    },
-    "hsin_tien_stress": {
-      "label": "壓力調適",
-      "owner": "社區諮商中心",
-      "url": "https://www.hsin-tien.com/blog/categories/%E5%A3%93%E5%8A%9B%E8%AA%BF%E9%81%A9",
-      "selectorPreset": "wix_blog_card"
-    },
-    "hsin_tien_reading": {
-      "label": "心閱讀",
-      "owner": "社區諮商中心",
-      "url": "https://www.hsin-tien.com/blog/categories/%E5%BF%83%E9%96%B1%E8%AE%80",
-      "selectorPreset": "wix_blog_card"
-    },
-    "hsin_tien_knowledge": {
-      "label": "心知識",
-      "owner": "社區諮商中心",
-      "url": "https://www.hsin-tien.com/blog/categories/%E5%BF%83%E7%9F%A5%E8%AD%98",
-      "selectorPreset": "wix_blog_card"
-    },
-    "hsin_tien_sexual_trauma": {
-      "label": "性創傷相關",
-      "owner": "社區諮商中心",
-      "url": "https://www.hsin-tien.com/blog/categories/%E6%80%A7%E5%89%B5%E5%82%B7%E7%9B%B8%E9%97%9C",
-      "selectorPreset": "wix_blog_card"
+      "url": "https://www.hsin-tien.com/blogs/%E7%86%B1%E9%96%80%E9%A6%96%E6%92%AD",
+      "selectorPreset": "shopify_blog_card"
     },
     "dorm_all": {
       "label": "全部",
@@ -4351,6 +4341,7 @@
       "selectorPreset": "oen_annc_table"
     },
     "oia_link": {
+      "allowEmpty": true,
       "label": "相關連結",
       "owner": "國際事務處",
       "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-link",
@@ -4484,6 +4475,7 @@
       }
     },
     "swfs_seminar": {
+      "allowEmpty": true,
       "label": "專題演講",
       "owner": "社會工作與家庭研究中心",
       "url": "https://swfs.ntnu.edu.tw/Front/Latest-News/Latest-News-Seminar/News.aspx?id=jkgBr1zqgsk=",
@@ -4495,6 +4487,7 @@
       }
     },
     "swfs_research": {
+      "allowEmpty": true,
       "label": "研究調查",
       "owner": "社會工作與家庭研究中心",
       "url": "https://swfs.ntnu.edu.tw/Front/Latest-News/Latest-News-Research/News.aspx?id=RbtCbgqudXM=",
@@ -4540,6 +4533,7 @@
       }
     },
     "tvc_plan_news": {
+      "allowEmpty": true,
       "label": "計畫消息",
       "owner": "技術職業教育研究中心",
       "url": "https://www.tvc.ntnu.edu.tw/GoWeb2/include/index.php?Page=0-2",
@@ -4672,6 +4666,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "ceri_project_news": {
+      "allowEmpty": true,
       "label": "計畫消息",
       "owner": "教育研究與創新中心",
       "url": "https://www.ceri.ntnu.edu.tw/index.php/category/uncategorized/3/",
@@ -4702,6 +4697,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "ceri_tank_usr": {
+      "allowEmpty": true,
       "label": "大學社會責任",
       "owner": "教育研究與創新中心",
       "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-5",
@@ -4732,6 +4728,7 @@
       "selectorPreset": "wordpress_broad"
     },
     "ceri_tank_exam_education": {
+      "allowEmpty": true,
       "label": "考試與教育",
       "owner": "教育研究與創新中心",
       "url": "https://www.ceri.ntnu.edu.tw/index.php/category/1-10",
@@ -4931,30 +4928,6 @@
         "date": "td:nth-of-type(1)"
       }
     },
-    "dacm_upcoming_events": {
-      "label": "活動預告",
-      "owner": "音樂數位典藏中心",
-      "url": "https://dacm.ntnu.edu.tw/web/news/news.jsp?dm_no=DM1575863207295",
-      "selectors": {
-        "parser": "table_row",
-        "article": ".news_listArea .news_list",
-        "title_link": ".nLR_tit a[href]",
-        "date": ".nLR_time",
-        "verify_ssl": false
-      }
-    },
-    "dacm_event_reports": {
-      "label": "活動報導",
-      "owner": "音樂數位典藏中心",
-      "url": "https://dacm.ntnu.edu.tw/web/news/news.jsp?dm_no=DM1575440141112",
-      "selectors": {
-        "parser": "table_row",
-        "article": ".news_listArea .news_list",
-        "title_link": ".nLR_tit a[href]",
-        "date": ".nLR_time",
-        "verify_ssl": false
-      }
-    },
     "hakka_english_news": {
       "label": "English News",
       "owner": "客語與客家文化教學研究中心",
@@ -5049,6 +5022,168 @@
         "parser": "wordpress_rest",
         "api_url": "https://seedcenter.tw/wp-json/wp/v2/posts",
         "categories": 6
+      }
+    },
+    "press_center_news": {
+      "label": "最新消息",
+      "owner": "出版中心",
+      "url": "https://press.lib.ntnu.edu.tw/news.jsp",
+      "selectorPreset": "press_news_cards"
+    },
+    "tocfl_announcements": {
+      "label": "公告",
+      "owner": "教育部國家華語測驗推動工作委員會",
+      "url": "https://tocfl.edu.tw/tocfl/index.php/news/activity",
+      "selectorPreset": "tocfl_news_cards"
+    },
+    "tocfl_news": {
+      "label": "華測新聞",
+      "owner": "教育部國家華語測驗推動工作委員會",
+      "url": "https://tocfl.edu.tw/tocfl/index.php/news/sc_top",
+      "selectorPreset": "tocfl_news_cards"
+    },
+    "tocfl_jobs": {
+      "label": "考生找工作",
+      "owner": "教育部國家華語測驗推動工作委員會",
+      "url": "https://tocfl.edu.tw/tocfl/index.php/news/job",
+      "selectorPreset": "tocfl_news_cards"
+    },
+    "cap_announcements": {
+      "label": "最新公告",
+      "owner": "國中教育會考全國試務會",
+      "url": "https://cap.rcpet.edu.tw/",
+      "selectors": {
+        "parser": "table_row",
+        "article": "table.table5 tr",
+        "title": "td:nth-of-type(2)",
+        "title_link": "td:nth-of-type(2) a[href]",
+        "title_before_break": true,
+        "date": "td:nth-of-type(1)",
+        "allow_row_without_link": true
+      }
+    },
+    "gender_equity_news": {
+      "label": "最新消息",
+      "owner": "性別平等教育委員會",
+      "url": "https://genderequity.ntnu.edu.tw/news_list.php",
+      "selectorPreset": "gender_news_list"
+    },
+    "gender_equity_events": {
+      "label": "最新活動",
+      "owner": "性別平等教育委員會",
+      "url": "https://genderequity.ntnu.edu.tw/news_list.php?news_type=2",
+      "selectorPreset": "gender_news_list"
+    },
+    "gender_equity_interpretations": {
+      "label": "教育部最新函釋",
+      "owner": "性別平等教育委員會",
+      "url": "https://genderequity.ntnu.edu.tw/news_list.php?news_type=4",
+      "selectorPreset": "gender_news_list"
+    },
+    "research_ethics_review_news": {
+      "label": "最新消息",
+      "owner": "研究倫理審查委員會",
+      "url": "https://ntnurec.ntnu.edu.tw/zh_tw/News",
+      "selectorPreset": "research_ethics_news_list"
+    },
+    "hsnu_honor": {
+      "label": "榮譽榜",
+      "owner": "附屬高級中學",
+      "url": "https://www.hs.ntnu.edu.tw/",
+      "selectors": {
+        "parser": "oddi_lazy_news",
+        "block_selector": "div[role='announceblock'][aria-label^='榮譽榜']",
+        "tab_index": 0
+      }
+    },
+    "hsnu_important": {
+      "label": "重要公告",
+      "owner": "附屬高級中學",
+      "url": "https://www.hs.ntnu.edu.tw/",
+      "selectorPreset": "hsnu_latest_news",
+      "selectors": {
+        "tab_index": 0
+      }
+    },
+    "hsnu_training": {
+      "label": "研習資訊",
+      "owner": "附屬高級中學",
+      "url": "https://www.hs.ntnu.edu.tw/",
+      "selectorPreset": "hsnu_latest_news",
+      "selectors": {
+        "tab_index": 1
+      }
+    },
+    "hsnu_incoming": {
+      "label": "來文公告",
+      "owner": "附屬高級中學",
+      "url": "https://www.hs.ntnu.edu.tw/",
+      "selectorPreset": "hsnu_latest_news",
+      "selectors": {
+        "tab_index": 2
+      }
+    },
+    "hsnu_students": {
+      "label": "學生",
+      "owner": "附屬高級中學",
+      "url": "https://www.hs.ntnu.edu.tw/",
+      "selectorPreset": "hsnu_latest_news",
+      "selectors": {
+        "tab_index": 3
+      }
+    },
+    "hsnu_calendar": {
+      "label": "行事曆",
+      "owner": "附屬高級中學",
+      "url": "https://www.hs.ntnu.edu.tw/",
+      "selectorPreset": "hsnu_latest_news",
+      "selectors": {
+        "tab_index": 5
+      }
+    },
+    "hsnu_new_students": {
+      "label": "新生專區",
+      "owner": "附屬高級中學",
+      "url": "https://www.hs.ntnu.edu.tw/",
+      "selectorPreset": "hsnu_latest_news",
+      "selectors": {
+        "tab_index": 6
+      }
+    },
+    "china_studies_updates": {
+      "label": "中心動態",
+      "owner": "中國大陸研究中心",
+      "url": "https://vocus.cc/user/66878b86fd8978000199fb7e",
+      "selectors": {
+        "parser": "vocus_profile"
+      }
+    },
+    "general_education_foreign_news": {
+      "label": "外文教育組-最新消息",
+      "owner": "共同教育委員會",
+      "url": "https://www.aa.ntnu.edu.tw/zh_tw/EducationCommittee/ForeignLEducation/NewsSpotlights",
+      "selectors": {
+        "parser": "table_row",
+        "article": "#ntnu-board .pin-card, #ntnu-board .ann-table tbody tr",
+        "title": ".pin-hot, .col-title .title-lbl",
+        "title_remove": "span[style*='font-size:12px']",
+        "title_link": ".col-title a[href]",
+        "date": ".pin-hot span[style*='font-size:12px']:last-child, .col-date",
+        "pinned": ".pin-card",
+        "allow_row_without_link": true
+      }
+    },
+    "special_education_committee_minutes": {
+      "label": "會議資料",
+      "owner": "特殊教育推行委員會",
+      "url": "https://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=A-4",
+      "selectors": {
+        "parser": "table_row",
+        "article": "table tr:not(.tr_th)",
+        "title": "td:nth-of-type(2)",
+        "title_link": "td:nth-of-type(3) a[href*='GetDBfile.php']",
+        "date": "td:nth-of-type(3)",
+        "date_label": "會議日期"
       }
     }
   },
@@ -5481,35 +5616,11 @@
               "channels": [
                 {
                   "value": "hsin_tien_blog",
-                  "name": "好心文"
+                  "name": "最新消息"
                 },
                 {
                   "value": "hsin_tien_hot_premiere",
                   "name": "熱門首播"
-                },
-                {
-                  "value": "hsin_tien_relationship",
-                  "name": "情感關係"
-                },
-                {
-                  "value": "hsin_tien_family",
-                  "name": "親子家庭"
-                },
-                {
-                  "value": "hsin_tien_stress",
-                  "name": "壓力調適"
-                },
-                {
-                  "value": "hsin_tien_reading",
-                  "name": "心閱讀"
-                },
-                {
-                  "value": "hsin_tien_knowledge",
-                  "name": "心知識"
-                },
-                {
-                  "value": "hsin_tien_sexual_trauma",
-                  "name": "性創傷相關"
                 }
               ]
             },
@@ -5579,10 +5690,6 @@
             }
           ],
           "channels": [
-            {
-              "value": "student_affairs_home_latest",
-              "name": "首頁最新消息"
-            },
             {
               "value": "student_affairs_announcements",
               "name": "訊息公告"
@@ -5744,10 +5851,6 @@
                 {
                   "value": "acad_instrument_latest",
                   "name": "最新公告"
-                },
-                {
-                  "value": "acad_instrument_activities",
-                  "name": "活動與演講"
                 }
               ]
             },
@@ -5850,7 +5953,12 @@
             {
               "id": "l3-press-center",
               "name": "出版中心",
-              "channels": []
+              "channels": [
+                {
+                  "value": "press_center_news",
+                  "name": "最新消息"
+                }
+              ]
             }
           ]
         },
@@ -6164,12 +6272,9 @@
             {
               "id": "l3-cultural-relics-conservation-center",
               "name": "文物保存維護研究發展中心",
-              "channels": [
-                {
-                  "value": "rcccr_news",
-                  "name": "最新消息"
-                }
-              ]
+              "announcementStatus": "unavailable",
+              "announcementStatusLabel": "自動更新受限",
+              "announcementStatusReason": "官方網站會將 GitHub 執行環境導向校方防火牆驗證頁，無法穩定偵測新公告。"
             }
           ],
           "channels": [
@@ -6190,7 +6295,36 @@
         {
           "id": "l2-affiliated-senior-high-school",
           "name": "附屬高級中學",
-          "channels": []
+          "channels": [
+            {
+              "value": "hsnu_honor",
+              "name": "榮譽榜"
+            },
+            {
+              "value": "hsnu_important",
+              "name": "重要公告"
+            },
+            {
+              "value": "hsnu_training",
+              "name": "研習資訊"
+            },
+            {
+              "value": "hsnu_incoming",
+              "name": "來文公告"
+            },
+            {
+              "value": "hsnu_students",
+              "name": "學生"
+            },
+            {
+              "value": "hsnu_calendar",
+              "name": "行事曆"
+            },
+            {
+              "value": "hsnu_new_students",
+              "name": "新生專區"
+            }
+          ]
         },
         {
           "id": "l2-research-teaching-centers",
@@ -6654,16 +6788,10 @@
                 {
                   "id": "l4-dacm",
                   "name": "音樂數位典藏中心",
-                  "channels": [
-                    {
-                      "value": "dacm_upcoming_events",
-                      "name": "活動預告"
-                    },
-                    {
-                      "value": "dacm_event_reports",
-                      "name": "活動報導"
-                    }
-                  ]
+                  "channels": [],
+                  "announcementStatus": "unavailable",
+                  "announcementStatusLabel": "無公開公告",
+                  "announcementStatusReason": "官方網站目前停止服務，沒有可公開抓取的公告來源。"
                 }
               ]
             },
@@ -6684,7 +6812,10 @@
                 {
                   "id": "l4-paulo-freire-center",
                   "name": "臺灣保羅‧弗萊瑞學術交流中心",
-                  "channels": []
+                  "channels": [],
+                  "announcementStatus": "unavailable",
+                  "announcementStatusLabel": "無公開公告",
+                  "announcementStatusReason": "官方僅提供 Facebook 頁面，沒有穩定且含發布日期的公開公告來源。"
                 },
                 {
                   "id": "l4-cloud-testing-center",
@@ -6719,12 +6850,18 @@
                 {
                   "id": "l4-plastic-reduction-center",
                   "name": "減塑促進中心",
-                  "channels": []
+                  "channels": [],
+                  "announcementStatus": "unavailable",
+                  "announcementStatusLabel": "無公開公告",
+                  "announcementStatusReason": "官方僅提供 Facebook 頁面，沒有穩定且含發布日期的公開公告來源。"
                 },
                 {
                   "id": "l4-experiential-education-leadership-center",
                   "name": "體驗教育與領導力中心",
-                  "channels": []
+                  "channels": [],
+                  "announcementStatus": "unavailable",
+                  "announcementStatusLabel": "無公開公告",
+                  "announcementStatusReason": "校方提供的官方連結導向 Facebook，沒有穩定且含發布日期的公開公告來源。"
                 },
                 {
                   "id": "l4-performing-arts-musical-center",
@@ -6757,17 +6894,28 @@
                 {
                   "id": "l4-overseas-tvet-center",
                   "name": "海外技職教育研究中心",
-                  "channels": []
+                  "channels": [],
+                  "announcementStatus": "unavailable",
+                  "announcementStatusLabel": "無公開公告",
+                  "announcementStatusReason": "校方組織名錄未提供獨立網站或公告頁。"
                 },
                 {
                   "id": "l4-education-robotics-center",
                   "name": "教育機器人研究中心",
-                  "channels": []
+                  "channels": [],
+                  "announcementStatus": "unavailable",
+                  "announcementStatusLabel": "無公開公告",
+                  "announcementStatusReason": "網站僅提供中心介紹與成果內容，沒有含發布日期的公告列表。"
                 },
                 {
                   "id": "l4-china-studies-center",
                   "name": "中國大陸研究中心",
-                  "channels": []
+                  "channels": [
+                    {
+                      "value": "china_studies_updates",
+                      "name": "中心動態"
+                    }
+                  ]
                 },
                 {
                   "id": "l4-overseas-chinese-research-center",
@@ -6830,12 +6978,30 @@
             {
               "id": "l3-tocfl",
               "name": "教育部國家華語測驗推動工作委員會",
-              "channels": []
+              "channels": [
+                {
+                  "value": "tocfl_announcements",
+                  "name": "公告"
+                },
+                {
+                  "value": "tocfl_news",
+                  "name": "華測新聞"
+                },
+                {
+                  "value": "tocfl_jobs",
+                  "name": "考生找工作"
+                }
+              ]
             },
             {
               "id": "l3-cap-national-test-affairs",
               "name": "國中教育會考全國試務會",
-              "channels": []
+              "channels": [
+                {
+                  "value": "cap_announcements",
+                  "name": "最新公告"
+                }
+              ]
             }
           ]
         },
@@ -6846,27 +7012,58 @@
             {
               "id": "l3-gender-equity-committee",
               "name": "性別平等教育委員會",
-              "channels": []
+              "channels": [
+                {
+                  "value": "gender_equity_news",
+                  "name": "最新消息"
+                },
+                {
+                  "value": "gender_equity_events",
+                  "name": "最新活動"
+                },
+                {
+                  "value": "gender_equity_interpretations",
+                  "name": "教育部最新函釋"
+                }
+              ]
             },
             {
               "id": "l3-student-appeals-committee",
               "name": "學生申訴評議委員會",
-              "channels": []
+              "channels": [],
+              "announcementStatus": "unavailable",
+              "announcementStatusLabel": "無公開公告",
+              "announcementStatusReason": "官方頁面僅提供申訴制度、流程與表單，沒有公告列表。"
             },
             {
               "id": "l3-special-education-committee",
               "name": "特殊教育推行委員會",
-              "channels": []
+              "channels": [
+                {
+                  "value": "special_education_committee_minutes",
+                  "name": "會議資料"
+                }
+              ]
             },
             {
               "id": "l3-general-education-committee",
               "name": "共同教育委員會",
-              "channels": []
+              "channels": [
+                {
+                  "value": "general_education_foreign_news",
+                  "name": "外文教育組-最新消息"
+                }
+              ]
             },
             {
               "id": "l3-research-ethics-review-committee",
               "name": "研究倫理審查委員會",
-              "channels": []
+              "channels": [
+                {
+                  "value": "research_ethics_review_news",
+                  "name": "最新消息"
+                }
+              ]
             }
           ]
         }

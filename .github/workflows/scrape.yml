@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 * * * *'
   workflow_dispatch:
+    inputs:
+      category_id:
+        description: 'Optional category ID for a read-only source health check'
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -18,16 +23,15 @@ jobs:
     timeout-minutes: 45
 
     env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       PYTHONUTF8: "1"
       PYTHONIOENCODING: utf-8
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
           cache: 'pip'
@@ -41,13 +45,21 @@ jobs:
       - name: Validate Config
         run: python scripts/validate_config.py
 
+      - name: Check Selected Source
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.category_id != '' }}
+        env:
+          CATEGORY_ID: ${{ inputs.category_id }}
+        run: python scripts/check_all_sources.py --category-id "$CATEGORY_ID" --workers 1 --retry-empty 1
+
       - name: Run UniSync Engine
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.category_id == '' }}
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python src/main.py
 
       - name: Commit Category Preview Updates
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.category_id == '' }}
         run: |
           if git diff --quiet -- category-previews.json; then
             echo "category-previews.json has no changes."

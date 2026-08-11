@@ -61,6 +61,14 @@ function renderMenu() {
         (node.units || []).reduce((sum, child) => sum + countSubscribableChannels(child), 0) +
         (node.subUnits || []).reduce((sum, child) => sum + countSubscribableChannels(child), 0);
 
+    const renderAnnouncementStatus = (node) => {
+        const isUnavailable = node.announcementStatus === 'unavailable';
+        const label = node.announcementStatusLabel || (isUnavailable ? '無公開公告' : '待接公告');
+        const reason = node.announcementStatusReason || label;
+        const statusClass = isUnavailable ? 'menu-unavailable-badge' : 'menu-pending-badge';
+        return `<span class="menu-status-badge ${statusClass}" title="${escapeAttribute(reason)}">${escapeHtml(label)}</span>`;
+    };
+
     const renderSubUnit = (sub, parentPath = []) => {
         const hasChildren = hasMenuChildren(sub);
         const subscribableCount = countSubscribableChannels(sub);
@@ -79,7 +87,7 @@ function renderMenu() {
                     ${hasSubscribable ? `
                         <input type="checkbox" class="menu-checkbox menu-checkbox-sub parent-checkbox"
                                data-parent-target="${escapeAttribute(sub.id)}">
-                    ` : '<span class="menu-pending-badge">待接公告</span>'}
+                    ` : renderAnnouncementStatus(sub)}
                 </div>
                 ${hasChildren ? `
                     <div id="${sub.id}" class="collapsible-content menu-children menu-children-channel">
@@ -109,7 +117,7 @@ function renderMenu() {
                     ${hasSubscribable ? `
                         <input type="checkbox" class="menu-checkbox menu-checkbox-unit parent-checkbox"
                                data-parent-target="${escapeAttribute(unit.id)}">
-                    ` : '<span class="menu-pending-badge">待接公告</span>'}
+                    ` : renderAnnouncementStatus(unit)}
                 </div>
                 ${hasChildren ? `
                     <div id="${unit.id}" class="collapsible-content menu-children menu-children-unit">
@@ -136,7 +144,7 @@ function renderMenu() {
                 <div class="menu-row-left" data-menu-toggle="${escapeAttribute(category.id)}" role="button" tabindex="0">
                     <i id="icon-${category.id}" class="fas fa-chevron-right menu-icon menu-icon-category"></i>
                     <span class="menu-label menu-label-category">${category.name}</span>
-                    ${subscribableCount > 0 ? `<span class="menu-count">${subscribableCount}</span>` : '<span class="menu-pending-badge">待接公告</span>'}
+                    ${subscribableCount > 0 ? `<span class="menu-count">${subscribableCount}</span>` : renderAnnouncementStatus(category)}
                 </div>
                 ${subscribableCount > 0 ? `<input type="checkbox" class="menu-checkbox menu-checkbox-category parent-checkbox"
                        data-parent-target="${escapeAttribute(category.id)}">

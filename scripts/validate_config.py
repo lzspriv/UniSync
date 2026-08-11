@@ -11,6 +11,12 @@ PREVIEW_PATH = ROOT / "category-previews.json"
 sys.path.insert(0, str(SRC_DIR))
 
 from config_loader import load_category_config  # noqa: E402
+from scrapers.card_strategies import CARD_STRATEGIES  # noqa: E402
+from scrapers.registry import SCRAPER_REGISTRY  # noqa: E402
+
+
+SUPPORTED_PARSERS = set(SCRAPER_REGISTRY) | set(CARD_STRATEGIES)
+SUPPORTED_ANNOUNCEMENT_STATUSES = {"unavailable"}
 
 
 def load_json(path: Path):
@@ -32,6 +38,29 @@ def collect_channel_refs(units, refs):
             children = unit.get(child_key)
             if isinstance(children, list):
                 collect_channel_refs(children, refs)
+
+
+def validate_schema_statuses(units, errors):
+    for unit in units:
+        channels = unit.get("channels", [])
+        status = unit.get("announcementStatus")
+        children = []
+        for child_key in ("units", "subUnits", "children"):
+            child_nodes = unit.get(child_key)
+            if isinstance(child_nodes, list):
+                children.extend(child_nodes)
+
+        if status and status not in SUPPORTED_ANNOUNCEMENT_STATUSES:
+            errors.append(f"{unit.get('id', '')}: unsupported announcementStatus '{status}'.")
+        if status and channels:
+            errors.append(f"{unit.get('id', '')}: cannot have channels and announcementStatus together.")
+        if status == "unavailable" and not unit.get("announcementStatusReason"):
+            errors.append(f"{unit.get('id', '')}: unavailable status requires announcementStatusReason.")
+        if not children and not channels and not status:
+            errors.append(f"{unit.get('id', '')}: leaf unit has neither channels nor announcementStatus.")
+
+        if children:
+            validate_schema_statuses(children, errors)
 
 
 def find_text_marker(path: Path, marker: str):
@@ -82,8 +111,13 @@ def validate_config():
         if preset_name and not resolved_selectors:
             errors.append(f"{category_id}: selectorPreset '{preset_name}' did not resolve selectors.")
 
+        parser_name = (resolved_selectors or {}).get("parser")
+        if parser_name and parser_name not in SUPPORTED_PARSERS:
+            errors.append(f"{category_id}: unsupported parser '{parser_name}'.")
+
     channel_refs = []
     collect_channel_refs(schema, channel_refs)
+    validate_schema_statuses(schema, errors)
 
     for ref in channel_refs:
         value = ref["value"]

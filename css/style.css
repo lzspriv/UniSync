@@ -496,7 +496,7 @@
 	color: #2563eb;
 }
 
-.menu-pending-badge {
+.menu-status-badge {
 	flex: 0 0 auto;
 	border: 1px solid #e2e8f0;
 	border-radius: 999px;
@@ -505,6 +505,11 @@
 	font-size: 0.72rem;
 	font-weight: 900;
 	color: #94a3b8;
+}
+
+.menu-unavailable-badge {
+	background: #f1f3f4;
+	color: #5f6368;
 }
 
 .menu-checkbox-category {
@@ -680,6 +685,7 @@
 .menu-icon-category,
 .menu-icon-sub,
 .menu-pending-badge,
+.menu-unavailable-badge,
 .preview-btn {
 	color: var(--app-muted-2);
 }
@@ -697,7 +703,8 @@
 
 .menu-filter-toggle,
 .menu-tool-btn,
-.menu-pending-badge {
+.menu-pending-badge,
+.menu-unavailable-badge {
 	border-color: var(--app-border);
 }
 
