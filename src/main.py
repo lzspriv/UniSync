@@ -1,5 +1,6 @@
 import os
 import sys
+from datetime import date, datetime, timedelta, timezone
 from time import perf_counter
 
 from dotenv import load_dotenv
@@ -11,6 +12,10 @@ from config_loader import load_category_config
 from notifier import notify_announcement_once
 from preview_writer import write_category_previews
 from scraper import fetch_university_announcements
+
+
+NOTIFICATION_MAX_AGE_DAYS = 10
+TAIPEI_TIMEZONE = timezone(timedelta(hours=8))
 
 
 def configure_output_encoding():
@@ -79,10 +84,26 @@ def print_scrape_summary(category_timings: list):
         print(f"   - {display_name} ({category_id})：{elapsed_seconds:.2f}s，{item_count} 筆")
 
 
+def should_notify_announcement(item: dict, today: date = None) -> bool:
+    raw_date = str(item.get("date") or "").strip()
+    if raw_date in {"", "未知日期", "N/A"}:
+        return True
+
+    try:
+        published_date = datetime.strptime(raw_date, "%Y-%m-%d").date()
+    except ValueError:
+        return True
+
+    reference_date = today or datetime.now(TAIPEI_TIMEZONE).date()
+    cutoff_date = reference_date - timedelta(days=NOTIFICATION_MAX_AGE_DAYS)
+    return published_date >= cutoff_date
+
+
 def process_pending_announcements(supabase_client, pending_by_url: dict, category_labels: dict):
     total_dispatched = 0
     existing_count = 0
     new_count = 0
+    backfilled_old_count = 0
     announcement_exists_cache = {}
 
     for data in pending_by_url.values():
@@ -96,6 +117,11 @@ def process_pending_announcements(supabase_client, pending_by_url: dict, categor
             continue
 
         upsert_announcement_for_categories(supabase_client, item, categories, category_labels)
+        if not should_notify_announcement(item):
+            backfilled_old_count += 1
+            print(f"🗃️ [補登舊公告] {item['title']} ({', '.join(category_names)})")
+            continue
+
         new_count += 1
         print(f"✨ [新公告] {item['title']} ({', '.join(category_names)})")
 
@@ -104,7 +130,8 @@ def process_pending_announcements(supabase_client, pending_by_url: dict, categor
 
     print(
         f"📬 公告處理摘要：{len(pending_by_url)} 筆唯一公告，"
-        f"{existing_count} 筆已存在，{new_count} 筆新公告。"
+        f"{existing_count} 筆已存在，{new_count} 筆近期新公告，"
+        f"{backfilled_old_count} 筆舊公告靜默補登。"
     )
     return total_dispatched
 
