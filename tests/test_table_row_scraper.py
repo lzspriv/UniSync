@@ -1,5 +1,6 @@
 import sys
 import unittest
+from datetime import datetime, timedelta
 from pathlib import Path
 from unittest.mock import Mock, patch
 from urllib.parse import quote
@@ -16,19 +17,22 @@ from scrapers.table_row import fetch_table_row_announcements
 class TableRowScraperTests(unittest.TestCase):
     @patch("scrapers.table_row.create_request_session")
     def test_keeps_recent_pin_skips_old_pin_and_reads_onclick_url(self, create_session):
-        html = """
+        recent_date = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+        old_date = (datetime.now() - timedelta(days=365)).strftime("%Y-%m-%d")
+        regular_date = (datetime.now() - timedelta(days=2)).strftime("%Y-%m-%d")
+        html = f"""
         <table>
           <tr class="item pinned">
             <td class="headline"><a href="/recent" title="完整置頂標題">標題: 短標題</a></td>
-            <td class="date">2026-07-31</td>
+            <td class="date">{recent_date}</td>
           </tr>
           <tr class="item pinned">
             <td class="headline"><a href="/old">舊置頂</a></td>
-            <td class="date">2025-01-01</td>
+            <td class="date">{old_date}</td>
           </tr>
           <tr class="item" onclick="window.location.href='/onclick'">
             <td class="headline">Onclick 公告</td>
-            <td class="date">2026-07-30</td>
+            <td class="date">{regular_date}</td>
           </tr>
         </table>
         """
