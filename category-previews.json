@@ -3,6 +3,13 @@
     "label": "數學系-最新消息",
     "announcements": [
       {
+        "title": "[獎助學金] 115學年度「青藤學程獎學金」8/30截止申請",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/08/11/115_voyage4tw/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "[師培資訊] 恭賀本系系友115學年度考取正式教師",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/08/11/115-middle-teacher/",
         "date": "2026-08-11",
@@ -26,13 +33,6 @@
       {
         "title": "[系所公告] 恭賀本系碩士生丘偉辰(指導教授:游森棚)及碩士生黃志翔(指導教授:林延輯)榮獲組合數學新苗研討會碩士論文獎",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/30/6-87/",
-        "date": "2026-07-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[專題演講] 【8月17日】侯一釗 / Discussion with Academician: Applied Mathematics",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/30/seminar20260817/",
         "date": "2026-07-30",
         "date_label": "發布日期",
         "summary": ""
@@ -363,6 +363,13 @@
     "label": "數學系-獎助學金",
     "announcements": [
       {
+        "title": "[獎助學金] 115學年度「青藤學程獎學金」8/30截止申請",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/08/11/115_voyage4tw/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "[獎助學金] 公告本系114學年度第2學期系獎學金得獎名單",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/06/10/114-2_math_scholarship_list/",
         "date": "2026-06-10",
@@ -386,13 +393,6 @@
       {
         "title": "[獎助學金] 114-2 數學系獎學金申請至 03/20（五）17:00 截止收件",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/03/04/114-2_math_scholarship/",
-        "date": "2026-03-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[獎助學金] 114-2 STAR星辰獎學金申請至03/20截止",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/03/04/11402-star-reg/",
         "date": "2026-03-04",
         "date_label": "發布日期",
         "summary": ""
@@ -3149,15 +3149,15 @@
         "summary": ""
       },
       {
-        "title": "《終身樹人》劉欣怡：從師大華語系走向世界，讓華語成為跨文化橋梁",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24428",
-        "date": "2026-08-10",
+        "title": "臺師大深化臺韓交流 駐台北韓國代表部新任代表率團來訪",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24826",
+        "date": "2026-08-11",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "「成為真正的人」：臺師大研究團隊攜手宜蘭原鄉，開創知識主權與教育實踐新篇章",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24821",
+        "title": "《終身樹人》劉欣怡：從師大華語系走向世界，讓華語成為跨文化橋梁",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24428",
         "date": "2026-08-10",
         "date_label": "發布日期",
         "summary": ""
@@ -4661,9 +4661,16 @@
         "summary": ""
       },
       {
-        "title": "轉知 臺北市立大直高中誠徵特教懸缺代理一名",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1370&title=轉知 臺北市立大直高中誠徵特教懸缺代理一名",
-        "date": "2026-08-10",
+        "title": "轉知 新加玻國際香精香料公司 (IFF)招聘實驗室助理",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1372&title=轉知 新加玻國際香精香料公司 (IFF)招聘實驗室助理",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "轉知 2026多元文化能力與諮商輔導實務國際研討會 論文壁報徵稿",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1371&title=轉知 2026多元文化能力與諮商輔導實務國際研討會 論文壁報徵稿",
+        "date": "2026-08-11",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4672,6 +4679,13 @@
   "epc_academic_events": {
     "label": "教育心理與輔導學系-學術活動",
     "announcements": [
+      {
+        "title": "轉知 2026多元文化能力與諮商輔導實務國際研討會 論文壁報徵稿",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1371&title=轉知 2026多元文化能力與諮商輔導實務國際研討會 論文壁報徵稿",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "公告 台灣大學系統 台科大捷克海外研習團報名暨補助申請",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1368&title=公告 台灣大學系統 台科大捷克海外研習團報名暨補助申請",
@@ -4699,19 +4713,19 @@
         "date": "2026-07-20",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "轉知 中華團體心理治療學會辦理「2026台灣迷你團體關係研習會《權威的陰影：歷史與當代領導關係中的潛意識動力》」",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1355&title=轉知 中華團體心理治療學會辦理「2026台灣迷你團體關係研習會《權威的陰影：歷史與當代領導關係中的潛意識動力》」",
-        "date": "2026-07-17",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "epc_internship": {
     "label": "教育心理與輔導學系-徵才實習訊息",
     "announcements": [
+      {
+        "title": "轉知 新加玻國際香精香料公司 (IFF)招聘實驗室助理",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1372&title=轉知 新加玻國際香精香料公司 (IFF)招聘實驗室助理",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "轉知 臺北市立大直高中誠徵特教懸缺代理一名",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1370&title=轉知 臺北市立大直高中誠徵特教懸缺代理一名",
@@ -4737,13 +4751,6 @@
         "title": "公告 葉芸芝老師「團體諮商理論與技術」課程誠徵教學助理",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1364&title=公告 葉芸芝老師「團體諮商理論與技術」課程誠徵教學助理",
         "date": "2026-07-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "轉知 桃園市政府教育局115年度第三次約聘專任專業輔導人員甄選",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1361&title=轉知 桃園市政府教育局115年度第三次約聘專任專業輔導人員甄選",
-        "date": "2026-07-27",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -13185,6 +13192,13 @@
     "label": "運動與休閒學院-最新消息",
     "announcements": [
       {
+        "title": "【活動花絮】院級姊妹校泰國詩納卡寧威洛大學來訪",
+        "url": "https://www.csr.ntnu.edu.tw/index.php/2026/08/11/2026-08-11-01-2/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【公告】115-1 金牌書院輔導員徵選書函 (9/9截止)",
         "url": "https://www.csr.ntnu.edu.tw/index.php/2026/08/11/2026-08-11-02/",
         "date": "2026-08-11",
@@ -13209,13 +13223,6 @@
         "title": "【活動轉知】台加雙邊人才研習計劃2027 GRI申請流程詳解說明會",
         "url": "https://www.csr.ntnu.edu.tw/index.php/2026/08/10/2026-08-10-01/",
         "date": "2026-08-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "《終身樹人》方進隆：30年奉獻臺師大 「以身作則」培育無數體育人才",
-        "url": "https://www.csr.ntnu.edu.tw/index.php/2026/08/06/03-17/",
-        "date": "2026-08-06",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -13305,6 +13312,13 @@
     "label": "運動與休閒學院-活動資訊",
     "announcements": [
       {
+        "title": "【活動花絮】院級姊妹校泰國詩納卡寧威洛大學來訪",
+        "url": "https://www.csr.ntnu.edu.tw/index.php/2026/08/11/2026-08-11-01-2/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動花絮】第十一屆臺師大體育學系校友盃重返高雄 352人以球會友敘情誼",
         "url": "https://www.csr.ntnu.edu.tw/index.php/2026/08/11/01-92/",
         "date": "2026-08-11",
@@ -13329,13 +13343,6 @@
         "title": "【活動轉知】《哈伯造星》全球人才培育計畫",
         "url": "https://www.csr.ntnu.edu.tw/index.php/2026/08/05/01-91/",
         "date": "2026-08-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動轉知】115年度學海計畫記者會",
-        "url": "https://www.csr.ntnu.edu.tw/index.php/2026/07/29/2026-07-29-01/",
-        "date": "2026-07-29",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -20375,6 +20382,13 @@
   "oia_intcoop": {
     "label": "國際事務處-國際交流",
     "announcements": [
+      {
+        "title": "臺師大深化臺韓交流 駐台北韓國代表部新任代表率團來訪",
+        "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-intcoop/2026081102",
+        "date": "2026-08-07",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "法國國立東方語言與文化學院(INALCO)校長來訪臺師大 推動雙邊語言教育與臺灣研究交流",
         "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-intcoop/2026021301",
