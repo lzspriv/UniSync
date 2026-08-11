@@ -1,0 +1,56 @@
+name: UniSync CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: unisync-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      PYTHONUTF8: "1"
+      PYTHONIOENCODING: utf-8
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-dev.txt
+
+      - name: Validate Config
+        run: python scripts/validate_config.py
+
+      - name: Run Tests
+        run: python -m pytest -p no:cacheprovider tests
+
+      - name: Compile Core Modules
+        run: >-
+          python -m py_compile
+          src/main.py
+          src/scraper.py
+          src/notifier.py
+          src/preview_writer.py
+          src/scraper_http.py
+          src/scraper_parsing.py
