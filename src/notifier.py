@@ -1,5 +1,6 @@
 import logging
 from html import escape as escape_html
+from urllib.parse import quote
 
 import requests
 from supabase import Client
@@ -13,6 +14,13 @@ def _clean_value(value):
     if value is None:
         return ""
     return str(value).strip()
+
+
+def normalize_notification_url(value):
+    url = _clean_value(value)
+    if not url:
+        return ""
+    return quote(url, safe=":/?#@!$&'*+,;=%")
 
 
 def _merge_keyword_matches(target_map: dict, target, matched_keywords: list):
@@ -129,7 +137,7 @@ def build_discord_embed(category_label: str, announcement: dict, matched_keyword
     因此只把「開啟公告」放成連結，分類與關鍵字放在 fields 中保持純資訊呈現。
     """
     matched_keywords = matched_keywords or []
-    announcement_url = announcement.get("url", "")
+    announcement_url = normalize_notification_url(announcement.get("url", ""))
     date_label = announcement.get("date_label", "發布日期")
     description_lines = [
         announcement.get("title", "(無標題)"),
@@ -207,7 +215,7 @@ def truncate_text(value: str, limit: int = 600):
 def build_telegram_message(category_label: str, announcement: dict, matched_keywords: list = None):
     matched_keywords = matched_keywords or []
     title = truncate_text(announcement.get("title", "(無標題)"), 300)
-    url = _clean_value(announcement.get("url", ""))
+    url = normalize_notification_url(announcement.get("url", ""))
     date_label = announcement.get("date_label", "發布日期")
     summary = announcement.get("summary") if announcement.get("show_summary") else ""
 
