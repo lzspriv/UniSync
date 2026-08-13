@@ -3168,6 +3168,14 @@
     "label": "公共事務中心-活動預告",
     "announcements": [
       {
+        "title": "臺師大理工STEM碩士公費專班 招生中！",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10643",
+        "date": "2026-08-14",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-08-17 08:00 ~ 2026-10-07 23:00 / 地點：線上報名",
+        "show_summary": true
+      },
+      {
         "title": "【115-1】圖書館自主讀書會開放申請",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10641",
         "date": "2026-08-12",
@@ -3196,15 +3204,7 @@
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10637",
         "date": "2026-08-07",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-08-10 07:00 ~ 2026-12-13 14:16 / 地點：進修推廣學院",
-        "show_summary": true
-      },
-      {
-        "title": "「產學合作研發成果歸屬之法律實務」線上講座 歡迎報名",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10636",
-        "date": "2026-08-06",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-08-10 09:30 ~ 2026-09-01 12:00 / 地點：線上講座",
+        "summary": "活動時間：2026-08-17 07:00 ~ 2026-12-13 14:16 / 地點：進修推廣學院",
         "show_summary": true
       }
     ]
