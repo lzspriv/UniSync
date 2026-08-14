@@ -3176,11 +3176,19 @@
         "show_summary": true
       },
       {
+        "title": "2026年研究倫理工作坊(3)，歡迎師生報名參加。",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10642",
+        "date": "2026-08-12",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-08-17 12:30 ~ 2026-09-15 14:30 / 地點：線上活動",
+        "show_summary": true
+      },
+      {
         "title": "【115-1】圖書館自主讀書會開放申請",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10641",
         "date": "2026-08-12",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-08-12 ~ 2026-09-18 23:59 / 地點：圖書館",
+        "summary": "活動時間：2026-08-17 08:00 ~ 2026-09-15 23:59 / 地點：圖書館",
         "show_summary": true
       },
       {
@@ -3189,14 +3197,6 @@
         "date": "2026-08-12",
         "date_label": "新增日期",
         "summary": "活動時間：2026-08-12 ~ 2026-09-04 09:05 / 地點：和平校區II",
-        "show_summary": true
-      },
-      {
-        "title": "115-1班級講座申請",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10639",
-        "date": "2026-08-12",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-08-12 ~ 2026-11-27 08:28 / 地點：校園",
         "show_summary": true
       },
       {
@@ -19515,6 +19515,13 @@
     "label": "學生住宿服務中心-最新消息",
     "announcements": [
       {
+        "title": "115學年度碩博班新生暨復學後就讀1年級學生宿舍寢室床位公告115.08.14",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e7%a2%a9%e5%8d%9a%e7%8f%ad%e6%96%b0%e7%94%9f%e6%9a%a8%e5%be%a9%e5%ad%b8%e5%be%8c%e5%b0%b1%e8%ae%801%e5%b9%b4%e7%b4%9a%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e5%af%a2/",
+        "date": "2026-08-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115-1學二舍新生進住流程及動線圖",
         "url": "https://dorm.sa.ntnu.edu.tw/115-1%e5%ad%b8%e4%ba%8c%e8%88%8d%e6%96%b0%e7%94%9f%e9%80%b2%e4%bd%8f%e6%b5%81%e7%a8%8b%e5%8f%8a%e5%8b%95%e7%b7%9a%e5%9c%96/",
         "date": "2026-08-13",
@@ -19539,13 +19546,6 @@
         "title": "男一舍暨女一分舍舉辦「粽夏慶端午」 發送應景粽子與飲品溫暖住宿生",
         "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=24703#new_tab",
         "date": "2026-06-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度學生宿舍第6次已遞補上宿舍名單115.6.17",
-        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e7%ac%ac6%e6%ac%a1%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a%e5%ae%bf%e8%88%8d%e5%90%8d%e5%96%ae115-6-17/",
-        "date": "2026-06-17",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -23135,6 +23135,13 @@
     "label": "學生住宿服務中心-全部",
     "announcements": [
       {
+        "title": "115學年度碩博班新生暨復學後就讀1年級學生宿舍寢室床位公告115.08.14",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e7%a2%a9%e5%8d%9a%e7%8f%ad%e6%96%b0%e7%94%9f%e6%9a%a8%e5%be%a9%e5%ad%b8%e5%be%8c%e5%b0%b1%e8%ae%801%e5%b9%b4%e7%b4%9a%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e5%af%a2/",
+        "date": "2026-08-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115學年度碩博班新生未依規定時間繳住宿費註銷床位名單(115.08.13)",
         "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e7%ac%ac1%e5%ad%b8%e6%9c%9f%e7%a2%a9%e5%8d%9a%e7%8f%ad%e6%96%b0%e7%94%9f%e6%9c%aa%e4%be%9d%e8%a6%8f%e5%ae%9a%e6%99%82%e9%96%93%e7%b9%b3%e4%bd%8f%e5%ae%bf%e8%b2%bb%e8%a8%bb/",
         "date": "2026-08-13",
@@ -23161,19 +23168,19 @@
         "date": "2026-08-10",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "Student Dormitory Application Schedule of 115 Academic Year (Fall 2026 & Spring 2027) for New an…",
-        "url": "https://dorm.sa.ntnu.edu.tw/student-dormitory-application-schedule-of-115-academic-year-fall-2026-spring-2027-for-new-and-resuming-students-2/",
-        "date": "2026-08-06",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "dorm_admin": {
     "label": "學生住宿服務中心-行政公告",
     "announcements": [
+      {
+        "title": "115學年度碩博班新生暨復學後就讀1年級學生宿舍寢室床位公告115.08.14",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e7%a2%a9%e5%8d%9a%e7%8f%ad%e6%96%b0%e7%94%9f%e6%9a%a8%e5%be%a9%e5%ad%b8%e5%be%8c%e5%b0%b1%e8%ae%801%e5%b9%b4%e7%b4%9a%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e5%af%a2/",
+        "date": "2026-08-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "115-1學二舍新生進住流程及動線圖",
         "url": "https://dorm.sa.ntnu.edu.tw/115-1%e5%ad%b8%e4%ba%8c%e8%88%8d%e6%96%b0%e7%94%9f%e9%80%b2%e4%bd%8f%e6%b5%81%e7%a8%8b%e5%8f%8a%e5%8b%95%e7%b7%9a%e5%9c%96/",
@@ -23201,19 +23208,19 @@
         "date": "2026-04-24",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "114學年防災演練參與狀況公告Participation Status of the 2025–2026 Academic Year Student Dormitory Disaster Drill",
-        "url": "https://dorm.sa.ntnu.edu.tw/114%e5%ad%b8%e5%b9%b4%e9%98%b2%e7%81%bd%e6%bc%94%e7%b7%b4%e5%8f%83%e8%88%87%e7%8b%80%e6%b3%81%e5%85%ac%e5%91%8aparticipation-status-of-the-2025-2026-academic-year-student-dormitory-disaster-dr/",
-        "date": "2026-04-08",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "dorm_housing_application": {
     "label": "學生住宿服務中心-宿舍申請",
     "announcements": [
+      {
+        "title": "115學年度碩博班新生暨復學後就讀1年級學生宿舍寢室床位公告115.08.14",
+        "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e7%a2%a9%e5%8d%9a%e7%8f%ad%e6%96%b0%e7%94%9f%e6%9a%a8%e5%be%a9%e5%ad%b8%e5%be%8c%e5%b0%b1%e8%ae%801%e5%b9%b4%e7%b4%9a%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e5%af%a2/",
+        "date": "2026-08-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "115學年度學生宿舍第6次已遞補上宿舍名單115.6.17",
         "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e7%ac%ac6%e6%ac%a1%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a%e5%ae%bf%e8%88%8d%e5%90%8d%e5%96%ae115-6-17/",
@@ -23239,13 +23246,6 @@
         "title": "115學年度暑期在職進修碩士班床位公告115.06.05",
         "url": "https://dorm.sa.ntnu.edu.tw/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%9a%91%e6%9c%9f%e5%9c%a8%e8%81%b7%e9%80%b2%e4%bf%ae%e7%a2%a9%e5%a3%ab%e7%8f%ad%e5%ba%8a%e4%bd%8d%e5%85%ac%e5%91%8a115-06-05/",
         "date": "2026-06-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度暑期學生宿舍第5次已遞補上宿舍名單115.6.3",
-        "url": "https://dorm.sa.ntnu.edu.tw/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%9a%91%e6%9c%9f%e5%ad%b8%e7%94%9f%e5%ae%bf%e8%88%8d%e7%ac%ac5%e6%ac%a1%e5%b7%b2%e9%81%9e%e8%a3%9c%e4%b8%8a%e5%ae%bf%e8%88%8d%e5%90%8d%e5%96%ae115-6-3/",
-        "date": "2026-06-03",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -27362,6 +27362,13 @@
         "summary": ""
       },
       {
+        "title": "轉知函轉內政部移民署設置「外來人士在臺生活諮詢服務熱線1990」之多語宣導摺頁圖稿，",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9EVTJNalV3TWpNPTVnak4yZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
+        "date": "2026-08-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "國立臺灣海洋大學社會責任實踐與永續發展中心謹訂於115年9月1日（星期二） 舉辦115年教育部大學社會責任「跨海共學：臺日地方創生SIG跨 校國際論壇」",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9EUXhNVFl5TnpZPTJZak4yZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
         "date": "2026-08-14",
@@ -27372,13 +27379,6 @@
         "title": "函轉「教育部115年氣候變遷講習活動」簡章1份",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU56UTROalF5TkRNPTJZak4yZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
         "date": "2026-08-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "文藻學校財團法人文藻外語大學謹訂於115年10月7日（三）舉辦「李元欣紀念講座─文藻外語大學60週年校慶教育論壇暨產學成果展」",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU5UTTRNelkwTnpJPTRrVE4yZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
-        "date": "2026-08-13",
         "date_label": "發布日期",
         "summary": ""
       }
