@@ -3213,6 +3213,27 @@
     "label": "校友中心-最新消息",
     "announcements": [
       {
+        "title": "跨越感官與資源限制海外圓夢 12特教偏鄉青年勇闖西班牙「無礙征途」",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4477&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-08-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "前臺師大副校長陳瓊花教授獲頒總統褒揚令",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4476&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-08-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "以歌為橋、以語為根 文學院人文季串起世代文化記憶",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4475&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-08-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "臺師大攜手北市府資訊局辦理銀齡樂活體驗日 智慧防詐助長者解鎖科技新生活",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4474&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
         "date": "2026-08-17",
@@ -3225,33 +3246,19 @@
         "date": "2026-08-12",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "第十一屆臺師大體育學系校友盃重返高雄 352人以球會友敘情誼",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4469&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-08-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大深化臺韓交流 駐台北韓國代表部新任代表率團來訪",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4468&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-08-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大建置AI水色監控平台助攻新北智慧治水 攜手地方打造科技執法新典範 落實ESG永續治理",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4464&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-08-10",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "alumni_development": {
     "label": "校友中心-學校發展",
     "announcements": [
+      {
+        "title": "臺師大EMBA攜手關島大學舉辦永續飲食工作坊 深化國際交流",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4478&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-08-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "44位新進教師加入臺師大 12位海外學者跨國來臺 為校園注入國際學術能量",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4473&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
@@ -3276,13 +3283,6 @@
       {
         "title": "教育學院行政讀書會第三場開講 「食補即藥補」開啟同仁正念飲食新思維",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4467&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-08-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "「成為真正的人」：臺師大研究團隊攜手宜蘭原鄉，開創知識主權與教育實踐新篇章",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4465&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
         "date": "2026-08-10",
         "date_label": "發布日期",
         "summary": ""
@@ -22615,20 +22615,6 @@
     "label": "學生事務處-訊息公告",
     "announcements": [
       {
-        "title": "教育部大專校院校園安全參考彙編 College Campus Safety Handbook",
-        "url": "https://counselor.sa.ntnu.edu.tw/2026/08/04/post3-2-2-3-4-2-2-2-2-2-3-3-2-2-2-3-2-3-2-2-4-3-3-2-2-2-2/",
-        "date": "2026-08-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "新生入學健康檢查注意事項",
-        "url": "https://health.sa.ntnu.edu.tw/%e6%96%b0%e7%94%9f%e5%85%a5%e5%ad%b8%e5%81%a5%e5%ba%b7%e6%aa%a2%e6%9f%a5%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a0%85/",
-        "date": "2026-07-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "國立臺灣師範大學學生參與學生事務研究發展獎勵計畫",
         "url": "https://www.sa.ntnu.edu.tw/2026/08/03/incentive-program/",
         "date": "2026-08-03",
@@ -22646,6 +22632,13 @@
         "title": "學生事務處聲明",
         "url": "https://www.sa.ntnu.edu.tw/2023/05/24/osastatement/",
         "date": "2023-05-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "宣導師生自我防護觀念",
+        "url": "https://www.sa.ntnu.edu.tw/2020/11/01/promoting-safety-awareness/",
+        "date": "2020-11-01",
         "date_label": "發布日期",
         "summary": ""
       }
