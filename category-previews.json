@@ -1342,6 +1342,13 @@
     "label": "理學院-最新消息",
     "announcements": [
       {
+        "title": "歡迎踴躍參加︱115年理學院跨領域交流座談會",
+        "url": "https://www.cos.ntnu.edu.tw/index.php/2026/08/17/interdisciplinary-learning-2/",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "本校物理系打造國際科研人才培育基地",
         "url": "https://www.cos.ntnu.edu.tw/index.php/2026/08/13/0813/",
         "date": "2026-08-13",
@@ -1368,19 +1375,19 @@
         "date": "2026-08-05",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "台日文化經濟協會 2026 年「獎勵大專院校日本研究論文比賽」徵稿公告",
-        "url": "https://www.cos.ntnu.edu.tw/index.php/2026/08/05/japanpaper2026/",
-        "date": "2026-08-05",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "cos_announcement": {
     "label": "理學院-學院公告",
     "announcements": [
+      {
+        "title": "歡迎踴躍參加︱115年理學院跨領域交流座談會",
+        "url": "https://www.cos.ntnu.edu.tw/index.php/2026/08/17/interdisciplinary-learning-2/",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "瑪麗居禮科學營邁入第16屆 聚焦韌性台灣與前瞻科技 蕭美琴副總統勉青年培養解決問題能力",
         "url": "https://www.cos.ntnu.edu.tw/index.php/2026/07/21/20260721/",
@@ -1406,13 +1413,6 @@
         "title": "國際學術高峰：阿貝爾獎遴選主席蒞臨本院，開啟NTNU²戰略合作新頁",
         "url": "https://www.cos.ntnu.edu.tw/index.php/2026/04/16/20260416/",
         "date": "2026-04-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "國泰金控李長庚總經理：談永續金融！",
-        "url": "https://www.cos.ntnu.edu.tw/index.php/2026/04/08/20260408/",
-        "date": "2026-04-08",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -1422,6 +1422,13 @@
     "label": "理學院-焦點活動",
     "announcements": [
       {
+        "title": "歡迎踴躍參加︱115年理學院跨領域交流座談會",
+        "url": "https://www.cos.ntnu.edu.tw/index.php/2026/08/17/interdisciplinary-learning-2/",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "瑪麗居禮科學營邁入第16屆 聚焦韌性台灣與前瞻科技 蕭美琴副總統勉青年培養解決問題能力",
         "url": "https://www.cos.ntnu.edu.tw/index.php/2026/07/21/20260721/",
         "date": "2026-07-21",
@@ -1446,13 +1453,6 @@
         "title": "國際學術高峰：阿貝爾獎遴選主席蒞臨本院，開啟NTNU²戰略合作新頁",
         "url": "https://www.cos.ntnu.edu.tw/index.php/2026/04/16/20260416/",
         "date": "2026-04-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "國泰金控李長庚總經理：談永續金融！",
-        "url": "https://www.cos.ntnu.edu.tw/index.php/2026/04/08/20260408/",
-        "date": "2026-04-08",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -1822,6 +1822,20 @@
     "label": "資訊工程學系-獎學金",
     "announcements": [
       {
+        "title": "【獎學金】2026耀登炳南創新研究獎",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/17/20260817-2/",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獎學金】2026耀登炳南大專院校優秀人才獎學金",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/17/20260817/",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【獎學金】115年度第二次教育部「學海惜珠」獎學金",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/13/20260813-3/",
         "date": "2026-08-13",
@@ -1839,20 +1853,6 @@
         "title": "【獎學金】115年師培獎學金（申請至9月4日止）",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/10/20260810/",
         "date": "2026-08-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【獎學金】本校115學年度學士班新生入學成績優異獎學金",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/04/20260804/",
-        "date": "2026-08-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【獎學金】國科會博士生研究獎學金",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/07/02/20260702/",
-        "date": "2026-07-02",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -3149,15 +3149,15 @@
         "summary": ""
       },
       {
-        "title": "理學院國際學生夏日實習啟航 24名青年齊聚師大探索科研與臺灣文化",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24827",
-        "date": "2026-08-14",
+        "title": "泰國詩納卡琳威洛大學體育學院更名首訪 與臺師大運休學院深化交流",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24840",
+        "date": "2026-08-17",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "產學強強聯手！臺師大與遠雄巨蛋公司簽署產業研究合作備忘錄",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24831",
+        "title": "理學院國際學生夏日實習啟航 24名青年齊聚師大探索科研與臺灣文化",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24827",
         "date": "2026-08-14",
         "date_label": "發布日期",
         "summary": ""
@@ -3213,6 +3213,13 @@
     "label": "校友中心-最新消息",
     "announcements": [
       {
+        "title": "臺師大攜手北市府資訊局辦理銀齡樂活體驗日 智慧防詐助長者解鎖科技新生活",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4474&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "影音》美術系校友黃詩硯光雕作品點亮瓜地馬拉世界遺產 25萬人次見證臺灣藝術之美",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4470&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
         "date": "2026-08-12",
@@ -3239,19 +3246,19 @@
         "date": "2026-08-10",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "科學之眼下的日本明治工藝：師大美術館《共生之華》特展",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4463&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-07-24",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "alumni_development": {
     "label": "校友中心-學校發展",
     "announcements": [
+      {
+        "title": "44位新進教師加入臺師大 12位海外學者跨國來臺 為校園注入國際學術能量",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4473&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-08-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "物理系國際班招生亮眼 研究導向全英語學習 鏈結全球科研舞臺",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4472&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
@@ -3277,13 +3284,6 @@
         "title": "「成為真正的人」：臺師大研究團隊攜手宜蘭原鄉，開創知識主權與教育實踐新篇章",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4465&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
         "date": "2026-08-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "ISX基因如何改寫腫瘤微環境？ 臺師大與高醫大團隊揭開肝癌免疫逃脫機制",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4461&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-07-24",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4678,6 +4678,13 @@
         "title": "轉知 苗栗縣政府「115學年度國民中小學代理專任輔導教師甄選」",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1379&title=轉知 苗栗縣政府「115學年度國民中小學代理專任輔導教師甄選」",
         "date": "2026-08-13",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "恭賀本系博士候選人張淳熙同學榮獲「2026 臺灣經驗實證調查資料論文獎」臺灣幼兒發展調查資料庫首獎、跨資料庫評選第二名",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1378&title=恭賀本系博士候選人張淳熙同學榮獲「2026 臺灣經驗實證調查資料論文獎」臺灣幼兒發展調查資料庫首獎、跨資料庫評選第二名",
+        "date": "2026-08-12",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -9186,6 +9193,13 @@
     "label": "地理學系-最新消息",
     "announcements": [
       {
+        "title": "【轉知】鼓勵博士生、博士後研究員參加「東亞儒學研究生與青年學者論壇」",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/08/17/m20260817-5/",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【獎學金】本校1151「學生生活助學金」申請(115/8/17-115/9/14下午17:00截止)",
         "url": "https://www.geo.ntnu.edu.tw/index.php/2026/08/17/m20260817-4/",
         "date": "2026-08-17",
@@ -9210,13 +9224,6 @@
         "title": "【徵人】臺北市立大直高級中學徵國中地理代理或兼課師資",
         "url": "https://www.geo.ntnu.edu.tw/index.php/2026/08/17/m20260817-1/",
         "date": "2026-08-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【轉知】2027 GRI 申請流程詳解說明會（8/12 線上舉辦）",
-        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/08/12/1150812wish01/",
-        "date": "2026-08-12",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -19953,6 +19960,13 @@
     "label": "產學合作組-最新公告",
     "announcements": [
       {
+        "title": "【轉知】財團法人弘道老人福利基金會辦理「2026全國共生論壇｜共生進行式」活動，敬請踴躍報名參加。",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/dril/4downs1/dnews1/-%E8%BD%89%E7%9F%A5-%E8%B2%A1%E5%9C%98%E6%B3%95%E4%BA%BA%E5%BC%98%E9%81%93%E8%80%81%E4%BA%BA%E7%A6%8F%E5%88%A9%E5%9F%BA%E9%87%91%E6%9C%83%E8%BE%A6%E7%90%86-2026%E5%85%A8%E5%9C%8B%E5%85%B1%E7%94%9F%E8%AB%96%E5%A3%87%EF%BD%9C%E5%85%B1%E7%94%9F%E9%80%B2%E8%A1%8C%E5%BC%8F-%E6%B4%BB%E5%8B%95-%E6%95%AC%E8%AB%8B%E8%B8%B4%E8%BA%8D%E5%A0%B1%E5%90%8D%E5%8F%83%E5%8A%A0-1518287",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【轉知】中華民國全國商業總會辦理「臺日老店國際論壇」，敬請踴躍報名參加。",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/dril/4downs1/dnews1/-%E8%BD%89%E7%9F%A5-%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E5%85%A8%E5%9C%8B%E5%95%86%E6%A5%AD%E7%B8%BD%E6%9C%83%E8%BE%A6%E7%90%86-%E8%87%BA%E6%97%A5%E8%80%81%E5%BA%97%E5%9C%8B%E9%9A%9B%E8%AB%96%E5%A3%87-%E6%95%AC%E8%AB%8B%E8%B8%B4%E8%BA%8D%E5%A0%B1%E5%90%8D%E5%8F%83%E5%8A%A0-90038457",
         "date": "2026-08-13",
@@ -19976,13 +19990,6 @@
       {
         "title": "【轉知】國科會研發成果運用法規與實務工作坊",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/dril/4downs1/dnews1/-%E8%BD%89%E7%9F%A5-%E5%9C%8B%E7%A7%91%E6%9C%83%E7%A0%94%E7%99%BC%E6%88%90%E6%9E%9C%E9%81%8B%E7%94%A8%E6%B3%95%E8%A6%8F%E8%88%87%E5%AF%A6%E5%8B%99%E5%B7%A5%E4%BD%9C%E5%9D%8A-14414677",
-        "date": "2026-08-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【轉知】新加坡商蝦皮娛樂電商有限公司台灣分公司辦理「2026 Sea X OpenAI Regional Codex Hackathon」黑客松亞太區賽事活動，敬請踴躍報名參加。",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/dril/4downs1/dnews1/-%E8%BD%89%E7%9F%A5-%E6%96%B0%E5%8A%A0%E5%9D%A1%E5%95%86%E8%9D%A6%E7%9A%AE%E5%A8%9B%E6%A8%82%E9%9B%BB%E5%95%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%8F%B0%E7%81%A3%E5%88%86%E5%85%AC%E5%8F%B8%E8%BE%A6%E7%90%86-2026-Sea-X-OpenAI-Regional-Codex-Hackathon-%E9%BB%91%E5%AE%A2%E6%9D%BE%E4%BA%9E%E5%A4%AA%E5%8D%80%E8%B3%BD%E4%BA%8B%E6%B4%BB%E5%8B%95-%E6%95%AC%E8%AB%8B%E8%B8%B4%E8%BA%8D%E5%A0%B1%E5%90%8D%E5%8F%83%E5%8A%A0-11474414",
         "date": "2026-08-10",
         "date_label": "發布日期",
         "summary": ""
