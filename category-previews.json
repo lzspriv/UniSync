@@ -3213,6 +3213,20 @@
     "label": "校友中心-最新消息",
     "announcements": [
       {
+        "title": "影音》美術系校友黃詩硯光雕作品點亮瓜地馬拉世界遺產 25萬人次見證臺灣藝術之美",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4470&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-08-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "第十一屆臺師大體育學系校友盃重返高雄 352人以球會友敘情誼",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4469&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "臺師大深化臺韓交流 駐台北韓國代表部新任代表率團來訪",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4468&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
         "date": "2026-08-11",
@@ -3230,20 +3244,6 @@
         "title": "科學之眼下的日本明治工藝：師大美術館《共生之華》特展",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4463&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
         "date": "2026-07-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大大規模、多類科培育守住品質 應屆生教檢通過率90.72％",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4458&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-08-06",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "推動食農與家庭教育法制化 幼家科學系林如萍教授榮獲115年教育部師鐸獎",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4457&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-08-07",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4847,6 +4847,13 @@
     "label": "社會教育學系-最新消息",
     "announcements": [
       {
+        "title": "【學士班限定】社會教育學系書卷獎同名次參酌獲獎順序-115.5更新",
+        "url": "https://www.ace.ntnu.edu.tw/index.php/2026/07/31/1140611/",
+        "date": "2026-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115上學期 專題演講主題：AI與社會教育",
         "url": "https://www.ace.ntnu.edu.tw/index.php/2026/07/30/1150730/",
         "date": "2026-07-30",
@@ -4873,19 +4880,19 @@
         "date": "2026-07-07",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "賀！本系系友監事丁秋子榮獲農業部第八屆百大青農",
-        "url": "https://www.ace.ntnu.edu.tw/index.php/2026/07/02/elementor-16370/",
-        "date": "2026-07-02",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "ace_dept": {
     "label": "社會教育學系-系所公告",
     "announcements": [
+      {
+        "title": "【學士班限定】社會教育學系書卷獎同名次參酌獲獎順序-115.5更新",
+        "url": "https://www.ace.ntnu.edu.tw/index.php/2026/07/31/1140611/",
+        "date": "2026-07-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "本系115學年度第一學期博士班排課",
         "url": "https://www.ace.ntnu.edu.tw/index.php/2026/06/08/20260608-3/",
@@ -4911,13 +4918,6 @@
         "title": "國立臺灣師範大學社會教育學系 博士班招生（115學年度）筆試、口試順序表及注意事項",
         "url": "https://www.ace.ntnu.edu.tw/index.php/2026/04/15/1150415-2/",
         "date": "2026-04-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "社教系114-2學期誠徵論文學習型助理及系辦工讀生",
-        "url": "https://www.ace.ntnu.edu.tw/index.php/2026/01/21/11501211/",
-        "date": "2026-01-21",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -10066,6 +10066,13 @@
     "label": "臺灣史研究所-最新消息",
     "announcements": [
       {
+        "title": "【活動轉知】8/19紀州庵免費講座「外來者眼中的臺灣原住民族」",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/17/2026-08-17-01/",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動轉知】「第六屆族群、歷史與地域社會」國際學術研討會",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/10/2026081001/",
         "date": "2026-08-10",
@@ -10090,13 +10097,6 @@
         "title": "115學年度第1學期抵免學分作業提醒",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/06/2026080601/",
         "date": "2026-08-06",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動轉知】115年8月12日舉辦「眾神降臨特展 敬天惜地的客家人特展」展前講座",
-        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/05/2026-08-05-01/",
-        "date": "2026-08-05",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -10306,6 +10306,13 @@
     "label": "臺灣史研究所-相關活動",
     "announcements": [
       {
+        "title": "【活動轉知】8/19紀州庵免費講座「外來者眼中的臺灣原住民族」",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/17/2026-08-17-01/",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動轉知】「第六屆族群、歷史與地域社會」國際學術研討會",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/10/2026081001/",
         "date": "2026-08-10",
@@ -10330,13 +10337,6 @@
         "title": "【徵稿轉知】第26期《台灣學誌》徵稿啟事 本期徵稿期限至2026/07/31，歡迎師生來稿！",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/07/16/2026-07-16-01/",
         "date": "2026-07-16",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【獎助轉知】2026台灣觀光協會獎學金，強力徵件中！收件至10月5日止",
-        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/07/08/2026-07-08-01/",
-        "date": "2026-07-08",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -17324,16 +17324,16 @@
         "summary": ""
       },
       {
-        "title": "駐台韓國代表部「2026年韓國－台灣影片徵件大賽」",
-        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=學界動態&news02=13413973576a7a87f6c9777",
-        "date": "2026-08-11",
+        "title": "[2026秋季]東亞儒學研究生與青年學者論壇（成均館大學－臺灣師大）博士生徵選公告:115.08.21收件截止",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=學界動態&news02=13809155106a82a3f8ebd1c",
+        "date": "2026-08-17",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "【實習機會】臺師大ｘ雄獅《哈伯造星》全球人才培育計畫",
-        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=職涯訊息&news02=19901999876a72cc408b163",
-        "date": "2026-08-05",
+        "title": "駐台韓國代表部「2026年韓國－台灣影片徵件大賽」",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=學界動態&news02=13413973576a7a87f6c9777",
+        "date": "2026-08-11",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -17569,6 +17569,13 @@
     "label": "東亞學系 (含政治所)-學界動態",
     "announcements": [
       {
+        "title": "[2026秋季]東亞儒學研究生與青年學者論壇（成均館大學－臺灣師大）博士生徵選公告:115.08.21收件截止",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=學界動態&news02=13809155106a82a3f8ebd1c",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "駐台韓國代表部「2026年韓國－台灣影片徵件大賽」",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=學界動態&news02=13413973576a7a87f6c9777",
         "date": "2026-08-11",
@@ -17593,13 +17600,6 @@
         "title": "2026 Trans-East Asia 研究生國際學術研討會",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=學界動態&news02=7915214446a4dc61a99e1f",
         "date": "2026-07-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "中華民國國際關係學會2026年會暨國際學術研討會徵稿啟事",
-        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=學界動態&news02=20529578056a45d10eb0879",
-        "date": "2026-07-02",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -17717,7 +17717,15 @@
   },
   "sw_paper_exam": {
     "label": "社會工作學研究所-論文考試資訊",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "賴佳靖 計畫書口試：成為照顧者的一路上：特殊需求兒少非母職女性照顧者的照顧經驗探究",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-PaperExam/News.aspx?id=RbtCbgqudXM=&Sn=951",
+        "date": "2026-08-03",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "sw_scholarship": {
     "label": "社會工作學研究所-獎學金公告",
