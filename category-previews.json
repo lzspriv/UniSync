@@ -3128,8 +3128,22 @@
     "label": "公共事務中心-師大新聞",
     "announcements": [
       {
+        "title": "《終身樹人》陳嘉凌：從古文字到華語、僑教 師大培育跨域教育專業",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24416",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "攜手打造安全堅固永續校園 臺師大啟動誠正勤樸大樓耐震補強工程",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24838",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "深化姊妹校夥伴關係 拉曼大學學者訪臺師大科工學院共拓國際合作",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24839",
         "date": "2026-08-17",
         "date_label": "發布日期",
         "summary": ""
@@ -3144,20 +3158,6 @@
       {
         "title": "產學強強聯手！臺師大與遠雄巨蛋公司簽署產業研究合作備忘錄",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24831",
-        "date": "2026-08-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "44位新進教師加入臺師大 12位海外學者跨國來臺 為校園注入國際學術能量",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24833",
-        "date": "2026-08-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "跨越感官與資源限制海外圓夢 12特教弱勢青年勇闖西班牙「無礙征途」",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24834",
         "date": "2026-08-14",
         "date_label": "發布日期",
         "summary": ""
@@ -3253,6 +3253,20 @@
     "label": "校友中心-學校發展",
     "announcements": [
       {
+        "title": "物理系國際班招生亮眼 研究導向全英語學習 鏈結全球科研舞臺",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4472&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-08-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "理學院國際學生夏日實習啟航 24名青年齊聚師大探索科研與臺灣文化",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4471&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-08-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "教育學院行政讀書會第三場開講 「食補即藥補」開啟同仁正念飲食新思維",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4467&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
         "date": "2026-08-10",
@@ -3270,20 +3284,6 @@
         "title": "ISX基因如何改寫腫瘤微環境？ 臺師大與高醫大團隊揭開肝癌免疫逃脫機制",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4461&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
         "date": "2026-07-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "《Formosa Viva》2026愛丁堡藝穗節演出行前公開彩排 全新青年卡司舞動臺灣五百年島嶼記憶",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4455&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-07-30",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大圖傳系與溫博館推動館校合作 深度挖掘文化元素 打造創意泡湯浴巾",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4454&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-07-30",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -19833,6 +19833,13 @@
     "label": "研究推動組-最新公告",
     "announcements": [
       {
+        "title": "【國科會】「2027年博士生與博士後研究人員赴中歐國際維謝格勒基金會(IVF)成員國研究進修計畫」，校內自即日起至 2026年9月22日(星期二)止 受理線上申請。",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news1/%0D%0A-%E5%9C%8B%E7%A7%91%E6%9C%83-2027%E5%B9%B4%E5%8D%9A%E5%A3%AB%E7%94%9F%E8%88%87%E5%8D%9A%E5%A3%AB%E5%BE%8C%E7%A0%94%E7%A9%B6%E4%BA%BA%E5%93%A1%E8%B5%B4%E4%B8%AD%E6%AD%90%E5%9C%8B%E9%9A%9B%E7%B6%AD%E8%AC%9D%E6%A0%BC%E5%8B%92%E5%9F%BA%E9%87%91%E6%9C%83-IVF-%E6%88%90%E5%93%A1%E5%9C%8B%E7%A0%94%E7%A9%B6%E9%80%B2%E4%BF%AE%E8%A8%88%E7%95%AB-%E6%A0%A1%E5%85%A7%E8%87%AA%E5%8D%B3%E6%97%A5%E8%B5%B7%E8%87%B32026%E5%B9%B49%E6%9C%8822%E6%97%A5-%E6%98%9F%E6%9C%9F%E4%BA%8C-%E6%AD%A2%E5%8F%97%E7%90%86%E7%B7%9A%E4%B8%8A%E7%94%B3%E8%AB%8B-99253072",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【轉知】國科會人文社會科學研究中心補助「學術期刊開放取用暨數位傳播」於8月1日起受理申請！",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news1/-%E8%BD%89%E7%9F%A5-%E5%9C%8B%E7%A7%91%E6%9C%83%E4%BA%BA%E6%96%87%E7%A4%BE%E6%9C%83%E7%A7%91%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83%E8%A3%9C%E5%8A%A9-%E5%AD%B8%E8%A1%93%E6%9C%9F%E5%88%8A%E9%96%8B%E6%94%BE%E5%8F%96%E7%94%A8%E6%9A%A8%E6%95%B8%E4%BD%8D%E5%82%B3%E6%92%AD-%E6%96%BC8%E6%9C%881%E6%97%A5%E8%B5%B7%E5%8F%97%E7%90%86%E7%94%B3%E8%AB%8B-%C2%A0%C2%A0-%C2%A0-47721852",
         "date": "2026-07-22",
@@ -19857,13 +19864,6 @@
         "title": "【轉知】國立傳統藝術中心「獎助博碩士論文作業要點」修正發布",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news1/-%E8%BD%89%E7%9F%A5-%E5%9C%8B%E7%AB%8B%E5%82%B3%E7%B5%B1%E8%97%9D%E8%A1%93%E4%B8%AD%E5%BF%83-%E7%8D%8E%E5%8A%A9%E5%8D%9A%E7%A2%A9%E5%A3%AB%E8%AB%96%E6%96%87%E4%BD%9C%E6%A5%AD%E8%A6%81%E9%BB%9E-%E4%BF%AE%E6%AD%A3%E7%99%BC%E5%B8%83-47919916",
         "date": "2026-05-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【轉知】「國立臺灣大學系統」年輕學者創新性合作計畫第二屆優良成果評選及學術交流會",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news1/-%E8%BD%89%E7%9F%A5-%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%B3%BB%E7%B5%B1-%E5%B9%B4%E8%BC%95%E5%AD%B8%E8%80%85%E5%89%B5%E6%96%B0%E6%80%A7%E5%90%88%E4%BD%9C%E8%A8%88%E7%95%AB%E7%AC%AC%E4%BA%8C%E5%B1%86%E5%84%AA%E8%89%AF%E6%88%90%E6%9E%9C%E8%A9%95%E9%81%B8%E5%8F%8A%E5%AD%B8%E8%A1%93%E4%BA%A4%E6%B5%81%E6%9C%83-60807803",
-        "date": "2026-04-10",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -22302,6 +22302,13 @@
     "label": "公館校區學務組-最新消息",
     "announcements": [
       {
+        "title": "邀請各系所專責導師一起認識校外賃居管理系統專導端新功能~!!",
+        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/08/17/%e9%82%80%e8%ab%8b%e5%90%84%e7%b3%bb%e6%89%80%e5%b0%88%e8%b2%ac%e5%b0%8e%e5%b8%ab%e4%b8%80%e8%b5%b7%e8%aa%8d%e8%ad%98%e6%a0%a1%e5%a4%96%e8%b3%83%e5%b1%85%e7%ae%a1%e7%90%86%e7%b3%bb%e7%b5%b1%e5%b0%88/",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115學年度第1學期校外賃居學生填寫學生安全自主檢核表時程及登錄路徑",
         "url": "https://honorscollege.sa.ntnu.edu.tw/2026/08/05/115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e7%ac%ac1%e5%ad%b8%e6%9c%9f%e6%a0%a1%e5%a4%96%e8%b3%83%e5%b1%85%e5%ad%b8%e7%94%9f%e5%a1%ab%e5%af%ab%e5%ad%b8%e7%94%9f%e5%ae%89%e5%85%a8%e8%87%aa%e4%b8%bb%e6%aa%a2/",
         "date": "2026-08-05",
@@ -22326,13 +22333,6 @@
         "title": "114學年度校外賃居生申請內政部租金補貼情形調查",
         "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/10/114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e6%a0%a1%e5%a4%96%e8%b3%83%e5%b1%85%e7%94%9f%e7%94%b3%e8%ab%8b%e5%85%a7%e6%94%bf%e9%83%a8%e7%a7%9f%e9%87%91%e8%a3%9c%e8%b2%bc%e6%83%85%e5%bd%a2%e8%aa%bf%e6%9f%a5/",
         "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【租屋防詐5不驟】",
-        "url": "https://honorscollege.sa.ntnu.edu.tw/2026/06/05/%e3%80%90%e7%a7%9f%e5%b1%8b%e9%98%b2%e8%a9%905%e4%b8%8d%e9%a9%9f%e3%80%91/",
-        "date": "2026-06-05",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -24935,9 +24935,23 @@
     "label": "家庭研究與發展中心-最新消息",
     "announcements": [
       {
+        "title": "跨領域連結食農教育與環境教育─來自土地的味覺教育",
+        "url": "https://www.frdc.ntnu.edu.tw/index.php/2026/08/17/20260811/",
+        "date": "2026-08-17",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "賀！ 本中心主任 林如萍教授 榮獲 教育部115年師鐸獎",
         "url": "https://www.frdc.ntnu.edu.tw/index.php/2026/08/05/20260805/",
         "date": "2026-08-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "串聯全臺家禽產業組織，發展食農教育方案設計",
+        "url": "https://www.frdc.ntnu.edu.tw/index.php/2026/06/17/20260617/",
+        "date": "2026-06-17",
         "date_label": "發布日期",
         "summary": ""
       },
@@ -24952,20 +24966,6 @@
         "title": "專題工作坊「家庭研究與AI 」",
         "url": "https://www.frdc.ntnu.edu.tw/index.php/2026/06/02/202605272/",
         "date": "2026-06-02",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺灣老人學會與本中心共同舉行學術論壇:「增進單身高齡者健康與福祉」",
-        "url": "https://www.frdc.ntnu.edu.tw/index.php/2026/06/01/20260527/",
-        "date": "2026-06-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "學校午餐輔導團中央-地方協力，強化學校午餐健康飲食基地學校聯盟運作量能",
-        "url": "https://www.frdc.ntnu.edu.tw/index.php/2026/05/31/20260526/",
-        "date": "2026-05-31",
         "date_label": "發布日期",
         "summary": ""
       }
