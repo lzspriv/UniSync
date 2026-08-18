@@ -3168,6 +3168,14 @@
     "label": "公共事務中心-活動預告",
     "announcements": [
       {
+        "title": "【青年百億海外圓夢基金計畫- GJ-4-1奔向永續的旅程-成",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10646",
+        "date": "2026-08-18",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-08-18 ~ 2026-08-28 14:00 / 地點：綜合大樓5樓國際會議廳",
+        "show_summary": true
+      },
+      {
         "title": "歡迎選修 115-1 通識課程：社區方案規劃與實踐",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10645",
         "date": "2026-08-18",
@@ -3197,14 +3205,6 @@
         "date": "2026-08-12",
         "date_label": "新增日期",
         "summary": "活動時間：2026-08-17 12:30 ~ 2026-09-15 14:30 / 地點：線上活動",
-        "show_summary": true
-      },
-      {
-        "title": "【115-1】圖書館自主讀書會開放申請",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10641",
-        "date": "2026-08-12",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-08-17 08:00 ~ 2026-09-15 23:59 / 地點：圖書館",
         "show_summary": true
       }
     ]
