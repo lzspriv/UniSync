@@ -3260,6 +3260,13 @@
     "label": "校友中心-學校發展",
     "announcements": [
       {
+        "title": "教育部AI人才方舟跨計畫交流登場 共構科技領域AI學伴與知識結構星空圖 推動因材網學習夥伴功能升級",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4491&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "攜手培育國際半導體與AI人才 臺師大暑期密集課程打造跨國共學平台",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4490&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
         "date": "2026-08-19",
@@ -3284,13 +3291,6 @@
         "title": "臺師大EMBA攜手關島大學舉辦永續飲食工作坊 深化國際交流",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4478&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
         "date": "2026-08-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "44位新進教師加入臺師大 12位海外學者跨國來臺 為校園注入國際學術能量",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4473&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-08-14",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -18138,20 +18138,6 @@
     "label": "管理學院-學院徵才",
     "announcements": [
       {
-        "title": "國立臺灣師範大學管理學院 人力資源管理與組織行為 專任(案)教師徵聘公告",
-        "url": "https://www.mgt.ntnu.edu.tw/obhrfacultyrecruitment1152",
-        "date": "2026-07-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "國立臺灣師範大學管理學院 財務管理領域 專任(案)教師徵聘公告",
-        "url": "https://www.mgt.ntnu.edu.tw/financefacultyrecruitment115-2-3",
-        "date": "2026-07-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "國立臺灣師範大學管理學院 經營管理領域 專任(案)教師徵聘公告",
         "url": "https://www.mgt.ntnu.edu.tw/mgtfacultyrecruitment115-2-2",
         "date": "2026-07-20",
@@ -20584,6 +20570,13 @@
     "label": "國際事務處-學生活動",
     "announcements": [
       {
+        "title": "教育部115年「海外人才經驗分享及國際連 結(TaiwanGPS)計畫」留遊學宣導說明會",
+        "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-activity/2026081902",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【2026境外生畢業晚會開放報名】✯畢業生限定✯",
         "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-activity/2026051201",
         "date": "2026-05-12",
@@ -20601,13 +20594,6 @@
         "title": "🎄2025臺師大耶誕聯歡報名開跑囉！",
         "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-activity/2025102101",
         "date": "2025-10-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動補助】114學年度_校內社團、各系學會及各學位學程辦理國際學生交流活動補助計畫",
-        "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-activity/2025090306",
-        "date": "2025-09-03",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -23953,6 +23939,20 @@
     "label": "特殊教育中心-中心公告",
     "announcements": [
       {
+        "title": "115-1鑑定工作手冊及說明會手冊",
+        "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=中心公告&news02=9566950916a8566292b7ec",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115-1大專鑑定工作手冊及說明會手冊",
+        "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=中心公告&news02=5711243136a856467d054b",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動轉知】115年臺中市第十六屆身心障礙全市運動大會",
         "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=中心公告&news02=15788008196a841b91cb209",
         "date": "2026-08-18",
@@ -23970,20 +23970,6 @@
         "title": "師大特教中心承辦北區「Super Summer Camp」 66名資優生解鎖臺北四大密碼",
         "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=中心公告&news02=3388988296a66f2e77d80e",
         "date": "2026-07-27",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115年度國立臺灣師範大學心智障礙者特殊教育創新方案—中學後轉銜方案 招生中！",
-        "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=中心公告&news02=118379138269e18061edae8",
-        "date": "2026-04-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度第2學期大專校院身心障礙學生鑑定－臺灣師大北金鑑輔分組鑑定書面審查意見公告",
-        "url": "http://web.spc.ntnu.edu.tw/GoWeb2/include/index.php?Page=2&Cate01=中心公告&news02=171615109669cb7abe2996f",
-        "date": "2026-03-31",
         "date_label": "發布日期",
         "summary": ""
       }
