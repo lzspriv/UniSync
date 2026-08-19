@@ -8720,6 +8720,13 @@
     "label": "歷史學系-最新消息",
     "announcements": [
       {
+        "title": "115學年度師資培育獎學金申請自即日起至 8/31(一)止",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/08/19/1150819/",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "配合本校暑休日調整 圖書暨期刊室 8/28（五）休館一日",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/08/13/20260813/",
         "date": "2026-08-13",
@@ -8744,13 +8751,6 @@
         "title": "《臺師大歷史系電子報》第 169 期上線囉！",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/31/20260731/",
         "date": "2026-07-31",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【教務】研究生新生座談會",
-        "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/28/1150728/",
-        "date": "2026-07-28",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -8960,6 +8960,13 @@
     "label": "歷史學系-獎助學金公告",
     "announcements": [
       {
+        "title": "115學年度師資培育獎學金申請自即日起至 8/31(一)止",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/08/19/1150819/",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "114學年度本系「研究生論文發表獎助」獲獎公告",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/06/02/1150602-1/",
         "date": "2026-06-02",
@@ -8984,13 +8991,6 @@
         "title": "114學年度沈明璋教授獎學金、朱雲影教授獎學金獲獎公告",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/05/04/1150504-4/",
         "date": "2026-05-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度年度本系研究生學術論文發表獎助申請，即日起至5月18日(一)止",
-        "url": "https://www.his.ntnu.edu.tw/index.php/2026/04/28/1150428/",
-        "date": "2026-04-28",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -18139,8 +18139,22 @@
     "announcements": [
       {
         "title": "國立臺灣師範大學管理學院 經營管理領域 專任(案)教師徵聘公告",
-        "url": "https://www.mgt.ntnu.edu.tw/mgtfacultyrecruitment115-2-2",
-        "date": "2026-07-20",
+        "url": "https://www.mgt.ntnu.edu.tw/businessmagt115-2-0930",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學管理學院 人力資源管理與組織行為領域 專任(案)教師徵聘公告",
+        "url": "https://www.mgt.ntnu.edu.tw/hrob115-2-0930",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "國立臺灣師範大學管理學院 一般財務管理領域 專任(案)教師徵聘公告",
+        "url": "https://www.mgt.ntnu.edu.tw/finance115-2-0930",
+        "date": "2026-08-19",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -24716,6 +24730,27 @@
     "label": "國際臺灣學研究中心-最新消息",
     "announcements": [
       {
+        "title": "NATSA 2026 in Bloomington: Dissonance and Resonance in Taiwan Studies",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/08/19/natsa-2026-in-bloomington-dissonance-and-resonance-in-taiwan-studies/",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "The Berbera Pivot: Taiwan’s Emerging Footprint in East Africa",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/08/19/the-berbera-pivot-taiwans-emerging-footprint-in-east-africa/",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "The Double Gateway: How Somaliland and Taiwan Turned Diplomatic Isolation into Strategic Partnership",
+        "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/08/19/the-double-gateway-how-somaliland-and-taiwan-turned-diplomatic-isolation-into-strategic-partnership/",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "Workshop Report: “Taiwanese Literature as Planetary Literature: Reframing World Literature” at the University of Bern",
         "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/07/28/workshop-report-taiwanese-literature-as-planetary-literature-reframing-world-literature-at-the-university-of-bern/",
         "date": "2026-07-28",
@@ -24726,27 +24761,6 @@
         "title": "2026 UCLA-NTNU Taiwan Studies Initiative Conference Explores “Culture and Identity between Language and Empires”",
         "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/06/22/2026-ucla-ntnu-taiwan-studies-initiative-conference-explores-culture-and-identity-between-language-and-empires/",
         "date": "2026-06-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "New Voices in Taiwan Studies: Wendy Wan-ting Wang On Indigenous Agency, Technological Engagement, and Teaching Taiwan’s History",
-        "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/06/22/new-voices-in-taiwan-studies-wendy-wan-ting-wang-on-indigenous-agency-technological-engagement-and-teaching-taiwans-history/",
-        "date": "2026-06-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "Indiana University Bloomington’s Taiwan Studies Initiative: Building Bridges Across Campus and Beyond",
-        "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/06/22/indiana-university-bloomingtons-taiwan-studies-initiative-building-bridges-across-campus-and-beyond-2/",
-        "date": "2026-06-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "透過台灣倡議計畫為台灣發聲",
-        "url": "https://www.itsc.ntnu.edu.tw/index.php/2026/06/16/20260616/",
-        "date": "2026-06-16",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -27362,22 +27376,22 @@
         "summary": ""
       },
       {
-        "title": "轉知：本市115年「國軍守護．榮耀同行」敬軍活動各項優惠內容宣傳一案",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU5qYzJORGN4TlRRPTBJVE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
+        "title": "有關中華民國全國公務人員協會與華南產物保險股份有限公司所簽並委由晨陽保險經紀人股份有限公司負責推廣及服務之自費團體保險福利方案，轉請查照。",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU1UTTNNVFkxTmpRPXpNVE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
         "date": "2026-08-19",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "轉知教育部補助國立臺南大學及靜宜大學開設115年教師在職進修「人權、法治與轉型正義教育（含消費者保護）」專長增能學分班資訊",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU5ERTRPVFUzTmpnPXdFVE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
+        "title": "轉知國家住宅及都市更新中心函送該中心2026年第三季中央社會住宅招租資訊及相關宣傳海報一案，請查照。",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9EZ3pORFUwTlRrPXlNVE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
         "date": "2026-08-19",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "檢送逢甲大學辦理「共築全球韌性同盟：綠色實踐、城鄉續航與社會影響之跨域共融」SIG跨校共培活動",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU1qa3dOalkxTlRnPXdFVE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
+        "title": "送國立臺北大學辦理同步遠距韓語課程--「韓語會話基礎一級班」簡章暨報名表1份，請查照。",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU1UUTNOREV4TURFPXlNVE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
         "date": "2026-08-19",
         "date_label": "發布日期",
         "summary": ""
