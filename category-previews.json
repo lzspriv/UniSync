@@ -1822,6 +1822,20 @@
     "label": "資訊工程學系-獎學金",
     "announcements": [
       {
+        "title": "【助學金】115學年度第1學期「還願助學金」（申請自115年9月1日起至9月22日止）",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/19/20260819-2/",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【獎助學金】115學年度第1學期「學生生活助學金」（申請時間115年8月17日至9月14日下午5時前）",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/19/20260819/",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【獎學金】2026耀登炳南創新研究獎",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/17/20260817-2/",
         "date": "2026-08-17",
@@ -1839,20 +1853,6 @@
         "title": "【獎學金】115年度第二次教育部「學海惜珠」獎學金",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/13/20260813-3/",
         "date": "2026-08-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【獎學金】青藤學程獎學金",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/12/20260812/",
-        "date": "2026-08-12",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【獎學金】115年師培獎學金（申請至9月4日止）",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/10/20260810/",
-        "date": "2026-08-10",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4157,6 +4157,13 @@
     "label": "跨領域學習規劃辦公室-最新消息",
     "announcements": [
       {
+        "title": "【重要公告】跨領域學習推動補助要點實施",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3572",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動紀實】臺師大首屆校學士畢業生 跨域探索開創專屬學習藍圖",
         "url": "https://www.iaao.ntnu.edu.tw/?p=3398",
         "date": "2026-06-05",
@@ -4181,13 +4188,6 @@
         "title": "第一屆校學士成果發表暨小畢典",
         "url": "https://www.iaao.ntnu.edu.tw/?p=3362",
         "date": "2026-05-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動分享】從聲音創作切入科技跨域應用",
-        "url": "https://www.iaao.ntnu.edu.tw/?p=3353",
-        "date": "2026-05-20",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4209,6 +4209,13 @@
     "label": "跨領域學習規劃辦公室-全部類別",
     "announcements": [
       {
+        "title": "【重要公告】跨領域學習推動補助要點實施",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3572",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動紀實】臺師大首屆校學士畢業生 跨域探索開創專屬學習藍圖",
         "url": "https://www.iaao.ntnu.edu.tw/?p=3398",
         "date": "2026-06-05",
@@ -4233,13 +4240,6 @@
         "title": "第一屆校學士成果發表暨小畢典",
         "url": "https://www.iaao.ntnu.edu.tw/?p=3362",
         "date": "2026-05-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動分享】從聲音創作切入科技跨域應用",
-        "url": "https://www.iaao.ntnu.edu.tw/?p=3353",
-        "date": "2026-05-20",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4369,6 +4369,13 @@
     "label": "跨領域學習規劃辦公室-重要公告",
     "announcements": [
       {
+        "title": "【重要公告】跨領域學習推動補助要點實施",
+        "url": "https://www.iaao.ntnu.edu.tw/?p=3572",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【重要公告】115學年度校學士線上說明會",
         "url": "https://www.iaao.ntnu.edu.tw/?p=2972",
         "date": "2026-02-25",
@@ -4393,13 +4400,6 @@
         "title": "【重要資訊】114學年度第2學期「跨領域人才培育活動補助」申請資訊",
         "url": "https://www.iaao.ntnu.edu.tw/?p=2516",
         "date": "2025-11-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【重要公告】114學年度第1學期「跨領域人才培育活動補助」第二階段申請通過名單",
-        "url": "https://www.iaao.ntnu.edu.tw/?p=2225",
-        "date": "2025-10-08",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4668,6 +4668,13 @@
         "summary": ""
       },
       {
+        "title": "轉知 「兒童發展早期療育論文發表大會暨以家庭為中心工作坊」延長徵稿",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1381&title=轉知 「兒童發展早期療育論文發表大會暨以家庭為中心工作坊」延長徵稿",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "轉知 亞洲大學辦理「2026第65屆台灣心理學會年會」資訊",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1380&title=轉知 亞洲大學辦理「2026第65屆台灣心理學會年會」資訊",
         "date": "2026-08-14",
@@ -4678,13 +4685,6 @@
         "title": "轉知 苗栗縣政府「115學年度國民中小學代理專任輔導教師甄選」",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1379&title=轉知 苗栗縣政府「115學年度國民中小學代理專任輔導教師甄選」",
         "date": "2026-08-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭賀本系博士候選人張淳熙同學榮獲「2026 臺灣經驗實證調查資料論文獎」臺灣幼兒發展調查資料庫首獎、跨資料庫評選第二名",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1378&title=恭賀本系博士候選人張淳熙同學榮獲「2026 臺灣經驗實證調查資料論文獎」臺灣幼兒發展調查資料庫首獎、跨資料庫評選第二名",
-        "date": "2026-08-12",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4734,6 +4734,13 @@
     "label": "教育心理與輔導學系-徵才實習訊息",
     "announcements": [
       {
+        "title": "轉知 「兒童發展早期療育論文發表大會暨以家庭為中心工作坊」延長徵稿",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1381&title=轉知 「兒童發展早期療育論文發表大會暨以家庭為中心工作坊」延長徵稿",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "轉知 苗栗縣政府「115學年度國民中小學代理專任輔導教師甄選」",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1379&title=轉知 苗栗縣政府「115學年度國民中小學代理專任輔導教師甄選」",
         "date": "2026-08-13",
@@ -4758,13 +4765,6 @@
         "title": "公告 系辦公室誠徵工讀生",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1369&title=公告 系辦公室誠徵工讀生",
         "date": "2026-08-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "轉知 桃園市桃馨社會福利發展協會「保育生輔員」徵才",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1365&title=轉知 桃園市桃馨社會福利發展協會「保育生輔員」徵才",
-        "date": "2026-07-30",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -9193,6 +9193,13 @@
     "label": "地理學系-最新消息",
     "announcements": [
       {
+        "title": "【新生】新生營-伯樂大學堂、新生家長座談會",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/08/19/1150819wish01/",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【系辦】地理資料中心報廢圖書，歡迎同學登記索取",
         "url": "https://www.geo.ntnu.edu.tw/index.php/2026/08/18/m20260818-1/",
         "date": "2026-08-18",
@@ -9216,13 +9223,6 @@
       {
         "title": "【轉知】教育部開發「青年百億海外圓夢基金計畫」116年度海外翱翔組計畫補充說明",
         "url": "https://www.geo.ntnu.edu.tw/index.php/2026/08/17/m20260817-3/",
-        "date": "2026-08-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【獎學金】115年度第二次教育部「學海惜珠」獎學金（115/09/02 17:00截止）",
-        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/08/17/m20260817-2/",
         "date": "2026-08-17",
         "date_label": "發布日期",
         "summary": ""
@@ -22615,6 +22615,20 @@
     "label": "學生事務處-訊息公告",
     "announcements": [
       {
+        "title": "教育部大專校院校園安全參考彙編 College Campus Safety Handbook",
+        "url": "https://counselor.sa.ntnu.edu.tw/2026/08/04/post3-2-2-3-4-2-2-2-2-2-3-3-2-2-2-3-2-3-2-2-4-3-3-2-2-2-2/",
+        "date": "2026-08-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "新生入學健康檢查注意事項",
+        "url": "https://health.sa.ntnu.edu.tw/%e6%96%b0%e7%94%9f%e5%85%a5%e5%ad%b8%e5%81%a5%e5%ba%b7%e6%aa%a2%e6%9f%a5%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a0%85/",
+        "date": "2026-07-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "國立臺灣師範大學學生參與學生事務研究發展獎勵計畫",
         "url": "https://www.sa.ntnu.edu.tw/2026/08/03/incentive-program/",
         "date": "2026-08-03",
@@ -22632,13 +22646,6 @@
         "title": "學生事務處聲明",
         "url": "https://www.sa.ntnu.edu.tw/2023/05/24/osastatement/",
         "date": "2023-05-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "宣導師生自我防護觀念",
-        "url": "https://www.sa.ntnu.edu.tw/2020/11/01/promoting-safety-awareness/",
-        "date": "2020-11-01",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -27308,6 +27315,13 @@
     "label": "附屬高級中學-研習資訊",
     "announcements": [
       {
+        "title": "財團法人金車文教基金會辦理「2026永續教育線上教師研習」",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU16Y3lORGN5TlRnPTNBVE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5NTQ3NzYxODk2MjI2MVRDaW50ZWx5",
+        "date": "2026-08-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "教育部國民及學前教育署為推動高級中等學校創新教學工作計畫，提供全國高級中等學校辦理「創新教學宣導列車研習」",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU5qRXdOVEUyTURjPXpJRE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5NTQ3NzYxODk2MjI2MVRDaW50ZWx5",
         "date": "2026-08-18",
@@ -27334,13 +27348,6 @@
         "date": "2026-08-06",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "檢送教育部教師諮商輔導支持中心115年度教師節系列「雲支持線上講座」實施計畫1份，請查照。",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9USTNOelkzTURBPTRRek4xZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5NTQ3NzYxODk2MjI2MVRDaW50ZWx5",
-        "date": "2026-08-03",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
@@ -27362,23 +27369,23 @@
         "summary": ""
       },
       {
-        "title": "教育部國民及學前教育署為推動高級中等學校創新教學工作計畫，提供全國高級中等學校辦理「創新教學宣導列車研習」",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU5qRXdOVEUyTURjPXpJRE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
-        "date": "2026-08-18",
+        "title": "檢送「數位學習教師增能研習工作坊」課程資訊",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU1qTTNNak00T1RFPTRBVE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
+        "date": "2026-08-19",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "有關國立雲林科技大學推動教育部育才平臺計畫，協助辦理南臺科技大 學「生成式AI技術應用於能源管理與ISO 50001能源管理 系統研習活動」",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU5EUTVOakl4TVRZPXpJRE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
-        "date": "2026-08-18",
+        "title": "檢送國立臺灣師範大學辦理「2026幸福共融的教育未來：社會情緒學習的理論、政策與實踐整合」國際學術研討會實施計畫暨議程表1份",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9EazNPREE0TnpRPTNBVE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
+        "date": "2026-08-19",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "財團法人二二八事件紀念基金會辦理「2026連翹自由節」校園宣講活動",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9EZ3hOamd5T0RNPXhJRE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
-        "date": "2026-08-18",
+        "title": "財團法人金車文教基金會辦理「2026永續教育線上教師研習」",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU16Y3lORGN5TlRnPTNBVE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
+        "date": "2026-08-19",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -27489,7 +27496,7 @@
         "summary": ""
       },
       {
-        "title": "(更新午餐菜單)公告115學年新生始業輔導注意事項、課程表及午餐等相關事項",
+        "title": "(更新課程表及午餐菜單)公告115學年新生始業輔導注意事項、課程表及午餐等相關事項",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU56azJOems0TmpBPXpnVE4yZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTU0ODI1MzQ1MTU2NjI2MVRDaW50ZWx5",
         "date": "2026-08-19",
         "date_label": "發布日期",
