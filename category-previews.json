@@ -3175,6 +3175,14 @@
     "label": "公共事務中心-活動預告",
     "announcements": [
       {
+        "title": "2026親子天下教育創新國際年會 歡迎報名",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10648",
+        "date": "2026-08-20",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-08-20 20:26 ~ 2026-09-23 17:00 / 地點：台北文創",
+        "show_summary": true
+      },
+      {
         "title": "【青年百億海外圓夢基金計畫- GJ-4-1奔向永續的旅程-成",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10646",
         "date": "2026-08-18",
@@ -3204,14 +3212,6 @@
         "date": "2026-08-14",
         "date_label": "新增日期",
         "summary": "活動時間：2026-08-17 08:00 ~ 2026-10-07 23:00 / 地點：線上報名",
-        "show_summary": true
-      },
-      {
-        "title": "2026年研究倫理工作坊(3)，歡迎師生報名參加。",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10642",
-        "date": "2026-08-12",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-08-17 12:30 ~ 2026-09-15 14:30 / 地點：線上活動",
         "show_summary": true
       }
     ]
@@ -3740,6 +3740,13 @@
     "label": "教學發展中心-轉知活動",
     "announcements": [
       {
+        "title": "​[轉知]國立東華大學-教學實踐研究計畫東區基地115年9月11日「教學實踐研究計畫主題座談 ~ 教學現場不可忽視的研究倫理」",
+        "url": "https://ctld.ntnu.edu.tw/%e8%bd%89%e7%9f%a5%e6%b4%bb%e5%8b%95/30099",
+        "date": "2026-08-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "[轉知]國立陽明交通大學-115年9月4日(五)教學實踐研究計畫北區基地「教學實踐研究論文寫作工作坊」",
         "url": "https://ctld.ntnu.edu.tw/%e8%bd%89%e7%9f%a5%e6%b4%bb%e5%8b%95/30094",
         "date": "2026-08-13",
@@ -3764,13 +3771,6 @@
         "title": "​[轉知]靜宜大學-教學實踐研究計畫中部區域基地115年6月15日「轉型正義」教育的教學實踐與規劃研習活動",
         "url": "https://ctld.ntnu.edu.tw/%e8%bd%89%e7%9f%a5%e6%b4%bb%e5%8b%95/29914",
         "date": "2026-06-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "​[轉知]國立陽明交通大學-教學實踐研究區域基地計畫115年6月22、23日「讓教學問題變成研究：教學實踐研究計畫的起點與方法」工作坊",
-        "url": "https://ctld.ntnu.edu.tw/%e8%bd%89%e7%9f%a5%e6%b4%bb%e5%8b%95/29872",
-        "date": "2026-06-08",
         "date_label": "發布日期",
         "summary": ""
       }
