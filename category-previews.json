@@ -2521,15 +2521,7 @@
   },
   "sls_scholarship": {
     "label": "生命科學專業學院-獎學金公告",
-    "announcements": [
-      {
-        "title": "【115學年度師資培育獎學金】開放申請中！9/7(一)12:00止",
-        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/08/11/news-7/",
-        "date": "2026-08-11",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "biol_news": {
     "label": "生命科學系-最新消息",
@@ -17879,9 +17871,9 @@
         "summary": ""
       },
       {
-        "title": "臺灣社會工作專業人員協會 工讀助理徵才",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=957",
-        "date": "2026-08-03",
+        "title": "桃園市政府教育局 專業輔導人員徵才",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=944",
+        "date": "2026-07-20",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -24537,16 +24529,16 @@
         "summary": ""
       },
       {
-        "title": "一般訊息 【課程訊息】近期課程一覽表",
-        "url": "https://www.frcenter.ntnu.edu.tw/News/Detail/c84af539-c0a6-4af8-8ad9-d9fdd3e91c87",
-        "date": "2025-03-10",
+        "title": "重要公告 【平日法語】9月平日班分級測驗時間表",
+        "url": "https://www.frcenter.ntnu.edu.tw/News/Detail/a156eea3-fd61-4f3b-b23e-f22d72b7c1b5",
+        "date": "2026-08-21",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "一般訊息 【課程公告】 中心不排課日期一覽",
-        "url": "https://www.frcenter.ntnu.edu.tw/News/Detail/109b80f3-0b87-43f7-89f0-cd6f5027f913",
-        "date": "2026-01-26",
+        "title": "一般訊息 【課程訊息】近期課程一覽表",
+        "url": "https://www.frcenter.ntnu.edu.tw/News/Detail/c84af539-c0a6-4af8-8ad9-d9fdd3e91c87",
+        "date": "2025-03-10",
         "date_label": "發布日期",
         "summary": ""
       }
