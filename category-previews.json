@@ -2521,7 +2521,15 @@
   },
   "sls_scholarship": {
     "label": "生命科學專業學院-獎學金公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【115學年度師資培育獎學金】開放申請中！9/7(一)12:00止",
+        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/08/11/news-7/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "biol_news": {
     "label": "生命科學系-最新消息",
