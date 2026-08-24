@@ -4416,6 +4416,13 @@
     "label": "教育學院-最新消息",
     "announcements": [
       {
+        "title": "【賀榜】114學年度優良導師",
+        "url": "https://www.coe.ntnu.edu.tw/index.php/2026/08/24/2026_excellent_advisor/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【賀榜】115年度本校績優職員",
         "url": "https://www.coe.ntnu.edu.tw/index.php/2026/08/17/2026_excellent_staff/",
         "date": "2026-08-17",
@@ -4439,13 +4446,6 @@
       {
         "title": "【賀榜】幼家科學學系林如萍教授榮獲115年師鐸獎",
         "url": "https://www.coe.ntnu.edu.tw/index.php/2026/07/20/2026-national-excellent-teacher-award/",
-        "date": "2026-07-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動紀實】教育學院行政讀書會「放鬆身心：喝咖啡聊事非」",
-        "url": "https://www.coe.ntnu.edu.tw/index.php/2026/07/20/event-0716/",
         "date": "2026-07-20",
         "date_label": "發布日期",
         "summary": ""
@@ -4675,6 +4675,13 @@
         "summary": ""
       },
       {
+        "title": "轉知 104人力銀行2026第二屆「實習打工故事競賽」",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1386&title=轉知 104人力銀行2026第二屆「實習打工故事競賽」",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "轉知 苗栗縣政府過渡性教育措施甄輔導專案約用人員甄選",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1385&title=轉知 苗栗縣政府過渡性教育措施甄輔導專案約用人員甄選",
         "date": "2026-08-24",
@@ -4687,19 +4694,19 @@
         "date": "2026-08-24",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "公告 藤原健老師「社會心理學」EMI課程誠徵教學助理",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1383&title=公告 藤原健老師「社會心理學」EMI課程誠徵教學助理",
-        "date": "2026-08-21",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "epc_academic_events": {
     "label": "教育心理與輔導學系-學術活動",
     "announcements": [
+      {
+        "title": "轉知 104人力銀行2026第二屆「實習打工故事競賽」",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1386&title=轉知 104人力銀行2026第二屆「實習打工故事競賽」",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "轉知 亞洲大學辦理「2026第65屆台灣心理學會年會」資訊",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1380&title=轉知 亞洲大學辦理「2026第65屆台灣心理學會年會」資訊",
@@ -4725,13 +4732,6 @@
         "title": "轉知 2026多元文化能力與諮商輔導實務國際研討會 論文壁報徵稿",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1371&title=轉知 2026多元文化能力與諮商輔導實務國際研討會 論文壁報徵稿",
         "date": "2026-08-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "轉知 教育部「人文社會科學學術人才跨國培育計畫」",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1367&title=轉知 教育部「人文社會科學學術人才跨國培育計畫」",
-        "date": "2026-08-06",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -10577,6 +10577,13 @@
     "label": "工業教育學系 (含公費專班)-最新消息",
     "announcements": [
       {
+        "title": "115學年度工教系碩士班師資培育生甄選—錄取公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/08/24/1150824/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "中國工業職業教育學會115年度「傑出人員金鐸獎」與「研究生暨大學生論文獎」遴選事宜",
         "url": "https://www.ie.ntnu.edu.tw/index.php/2026/07/29/20260726-1/",
         "date": "2026-07-29",
@@ -10601,13 +10608,6 @@
         "title": "教育家訪談~技職準老師的修煉之路：政策支持下的「匠心」傳承",
         "url": "https://www.ie.ntnu.edu.tw/index.php/2026/07/01/1150701/",
         "date": "2026-07-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度工業教育學系學士班公費專班單獨招生考試錄取名單",
-        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/06/25/1150625/",
-        "date": "2026-06-25",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -10617,6 +10617,13 @@
     "label": "工業教育學系 (含公費專班)-重要置頂",
     "announcements": [
       {
+        "title": "115學年度工教系碩士班師資培育生甄選—錄取公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/08/24/1150824/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "中國工業職業教育學會115年度「傑出人員金鐸獎」與「研究生暨大學生論文獎」遴選事宜",
         "url": "https://www.ie.ntnu.edu.tw/index.php/2026/07/29/20260726-1/",
         "date": "2026-07-29",
@@ -10641,13 +10648,6 @@
         "title": "教育家訪談~技職準老師的修煉之路：政策支持下的「匠心」傳承",
         "url": "https://www.ie.ntnu.edu.tw/index.php/2026/07/01/1150701/",
         "date": "2026-07-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度工業教育學系學士班公費專班單獨招生考試錄取名單",
-        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/06/25/1150625/",
-        "date": "2026-06-25",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -10657,6 +10657,13 @@
     "label": "工業教育學系 (含公費專班)-系所公告",
     "announcements": [
       {
+        "title": "115學年度工教系碩士班師資培育生甄選—錄取公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/08/24/1150824/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "中國工業職業教育學會115年度「傑出人員金鐸獎」與「研究生暨大學生論文獎」遴選事宜",
         "url": "https://www.ie.ntnu.edu.tw/index.php/2026/07/29/20260726-1/",
         "date": "2026-07-29",
@@ -10681,13 +10688,6 @@
         "title": "教育家訪談~技職準老師的修煉之路：政策支持下的「匠心」傳承",
         "url": "https://www.ie.ntnu.edu.tw/index.php/2026/07/01/1150701/",
         "date": "2026-07-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度工業教育學系學士班公費專班單獨招生考試錄取名單",
-        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/06/25/1150625/",
-        "date": "2026-06-25",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -10737,6 +10737,13 @@
     "label": "工業教育學系 (含公費專班)-師資培育",
     "announcements": [
       {
+        "title": "115學年度工教系碩士班師資培育生甄選—錄取公告",
+        "url": "https://www.ie.ntnu.edu.tw/index.php/2026/08/24/1150824/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "教育家訪談~技職準老師的修煉之路：政策支持下的「匠心」傳承",
         "url": "https://www.ie.ntnu.edu.tw/index.php/2026/07/01/1150701/",
         "date": "2026-07-01",
@@ -10761,13 +10768,6 @@
         "title": "教育部115學年度核定乙案公費生申請公告",
         "url": "https://www.ie.ntnu.edu.tw/index.php/2026/01/14/1150114/",
         "date": "2026-01-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "113學年度學士班師資培育生第二階段甄選公告 (11/20收件截止)",
-        "url": "https://www.ie.ntnu.edu.tw/index.php/2025/11/04/1141104/",
-        "date": "2025-11-04",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -21419,13 +21419,6 @@
         "summary": ""
       },
       {
-        "title": "「轉知訊息」115年高雄市原住民族運動會暨16年全國原住民族運動會選拔賽",
-        "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/activities/-%E8%BD%89%E7%9F%A5%E8%A8%8A%E6%81%AF-115%E5%B9%B4%E9%AB%98%E9%9B%84%E5%B8%82%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F%E9%81%8B%E5%8B%95%E6%9C%83%E6%9A%A816%E5%B9%B4%E5%85%A8%E5%9C%8B%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F%E9%81%8B%E5%8B%95%E6%9C%83%E9%81%B8%E6%8B%94%E8%B3%BD-8855584",
-        "date": "2026-08-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "[轉知訊息]「115年全國北區B游泳錦標賽(2)報名",
         "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/activities/%5B%E8%BD%89%E7%9F%A5%E8%A8%8A%E6%81%AF%5D-115%E5%B9%B4%E5%85%A8%E5%9C%8B%E5%8C%97%E5%8D%80B%E6%B8%B8%E6%B3%B3%E9%8C%A6%E6%A8%99%E8%B3%BD-2-%E5%A0%B1%E5%90%8D-74247527",
         "date": "2026-08-13",
@@ -21436,6 +21429,13 @@
         "title": "[轉知訊息]「2026臺北馬拉松」活動志工及啦啦隊招募活動",
         "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/activities/%5B%E8%BD%89%E7%9F%A5%E8%A8%8A%E6%81%AF%5D-2026%E8%87%BA%E5%8C%97%E9%A6%AC%E6%8B%89%E6%9D%BE-%E6%B4%BB%E5%8B%95%E5%BF%97%E5%B7%A5%E5%8F%8A%E5%95%A6%E5%95%A6%E9%9A%8A%E6%8B%9B%E5%8B%9F%E6%B4%BB%E5%8B%95%0D%0A%C2%A0-22489705",
         "date": "2026-08-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【轉知訊息】2026第二屆元智盃全國分齡短水道游泳錦標賽-競賽章程",
+        "url": "https://yzu.swim.com.tw/",
+        "date": "2026-06-15",
         "date_label": "發布日期",
         "summary": ""
       }
