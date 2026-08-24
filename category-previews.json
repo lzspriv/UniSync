@@ -3,6 +3,13 @@
     "label": "數學系-最新消息",
     "announcements": [
       {
+        "title": "[課程資訊] 數學系115學年度第1學期學分抵免、採認辦理注意事項",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/08/24/credit-transfer-115-1/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "[獎助學金] 數學系115學年度師資培育獎學金（申請至 09/09 12:00 止）",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/08/20/115-tt-scholarship-announcement/",
         "date": "2026-08-20",
@@ -29,19 +36,19 @@
         "date": "2026-08-18",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "[系所公告] 115學年度第1學期碩士班轉組申請(115/9/11截止)",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/08/18/6-90/",
-        "date": "2026-08-18",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "math_announcement": {
     "label": "數學系-系所公告",
     "announcements": [
+      {
+        "title": "[課程資訊] 數學系115學年度第1學期學分抵免、採認辦理注意事項",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/08/24/credit-transfer-115-1/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "[系所公告] 本系115學年度大學部新生選課說明會",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/08/18/115-course-meet/",
@@ -67,13 +74,6 @@
         "title": "[系所公告] 115學年度第1學期博士班資格考試申請(115/9/18截止)",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/08/18/6-89/",
         "date": "2026-08-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[課程資訊] 115學年度基礎課程免修測驗公告",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/08/14/115-calculus/",
-        "date": "2026-08-14",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -123,6 +123,13 @@
     "label": "數學系-課程資訊",
     "announcements": [
       {
+        "title": "[課程資訊] 數學系115學年度第1學期學分抵免、採認辦理注意事項",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/08/24/credit-transfer-115-1/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "[系所公告] 本系115學年度大學部新生選課說明會",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/08/18/115-course-meet/",
         "date": "2026-08-18",
@@ -146,13 +153,6 @@
       {
         "title": "[課程資訊] 114學年度暑期(114-3)期末課程意見調查",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/21/course-evaluation-survey-26/",
-        "date": "2026-07-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[課程資訊] 「114日間暑期課程」期中停修重要提醒",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/07/21/withdraw-15/",
         "date": "2026-07-21",
         "date_label": "發布日期",
         "summary": ""
@@ -3163,9 +3163,9 @@
         "summary": ""
       },
       {
-        "title": "攜手培育國際半導體與AI人才 臺師大暑期密集課程打造跨國共學平台",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24843",
-        "date": "2026-08-23",
+        "title": "從語音到戲曲與工藝 臺師大客語工作坊打造多元教學新視野",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24854",
+        "date": "2026-08-24",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -11229,6 +11229,20 @@
     "label": "圖文傳播學系-最新消息",
     "announcements": [
       {
+        "title": "115學年度碩士班(一般生)新生座談會通知",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/08/24/note2/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度碩士在職專班新生座談會通知",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/08/24/note1/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "來師大圖傳系，打造影響未來的你！",
         "url": "https://www.gac.ntnu.edu.tw/index.php/2026/08/11/future/",
         "date": "2026-08-11",
@@ -11246,20 +11260,6 @@
         "title": "圖傳系碩士班修業暨學位考試全攻略懶人包",
         "url": "https://www.gac.ntnu.edu.tw/index.php/2026/07/09/master_guide/",
         "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度四技二專「甄選入學」第二階段口試時間表與注意事項",
-        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/06/15/gac-22/",
-        "date": "2026-06-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "本系115學年度大學申請入學面試時間表",
-        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/05/13/gac-21/",
-        "date": "2026-05-13",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -11269,6 +11269,20 @@
     "label": "圖文傳播學系-系所公告",
     "announcements": [
       {
+        "title": "115學年度碩士班(一般生)新生座談會通知",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/08/24/note2/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度碩士在職專班新生座談會通知",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/08/24/note1/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "來師大圖傳系，打造影響未來的你！",
         "url": "https://www.gac.ntnu.edu.tw/index.php/2026/08/11/future/",
         "date": "2026-08-11",
@@ -11286,20 +11300,6 @@
         "title": "圖傳系碩士班修業暨學位考試全攻略懶人包",
         "url": "https://www.gac.ntnu.edu.tw/index.php/2026/07/09/master_guide/",
         "date": "2026-07-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度四技二專「甄選入學」第二階段口試時間表與注意事項",
-        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/06/15/gac-22/",
-        "date": "2026-06-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114-2圖傳系碩士班暨碩士在職專班計畫口試/學位考試申請通知",
-        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/04/02/20260402/",
-        "date": "2026-04-02",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -18896,6 +18896,13 @@
     "label": "跨域科技產業創新研究學院-最新消息",
     "announcements": [
       {
+        "title": "攻克本土語言辨識瓶頸！臺師大 AI 所李鴻欣老師與資工系陳柏琳老師團隊 榮獲頂級國際會議 EMNLP 2026 長論文錄取",
+        "url": "https://www.ciai.ntnu.edu.tw/index.php/2026/08/24/https-www-ciai-ntnu-edu-tw-index-php-2026-08-24/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動轉知】擴充國際視野！歡迎報名參與「國際學伴計畫」",
         "url": "https://www.ciai.ntnu.edu.tw/index.php/2026/08/11/https-www-ciai-ntnu-edu-tw-index-php-2026-08-11/",
         "date": "2026-08-11",
@@ -18920,13 +18927,6 @@
         "title": "恭賀郭大維榮譽講座教授榮獲第35屆中央研究院院士",
         "url": "https://www.ciai.ntnu.edu.tw/index.php/2026/07/13/https-www-ciai-ntnu-edu-tw-index-php-2026-07-13-e887bae5b8abe5a4a7e794a2e589b5e5adb8e999a2e681ade8b380e983ade5a4a7e7b6ade6a6aee8adbde8ac9be5baa7e69599e68e88e6a6aee78db2e7acac35e5b186/",
         "date": "2026-07-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大產創學院第二屆監督委員會及管理委員會學生代表當選公告 Election Results for the 2nd Supervisory Committee and Management Committee Student Representatives",
-        "url": "https://www.ciai.ntnu.edu.tw/index.php/2026/07/01/2026-07-01-1/",
-        "date": "2026-07-01",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -20955,6 +20955,13 @@
     "label": "國語教學中心-最新消息",
     "announcements": [
       {
+        "title": "華語文線上自學課程影片編製計畫專任助理徵選公告",
+        "url": "https://mtc.ntnu.edu.tw/upload_files/news/20260819.pdf",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "台師大國語教學中心總務組 誠徵工讀生1名",
         "url": "https://mtc.ntnu.edu.tw/news/20260512.html",
         "date": "2026-07-28",
@@ -20979,13 +20986,6 @@
         "title": "夏季班/暑期班 課程教室安排通知",
         "url": "https://mtc.ntnu.edu.tw/news/20260525.html",
         "date": "2026-05-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "國立臺灣師範大學國語教學中心 計畫專任助理徵選公告",
-        "url": "https://mtc.ntnu.edu.tw/news/20260520.html",
-        "date": "2026-05-21",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -20995,6 +20995,13 @@
     "label": "國語教學中心-行政公布",
     "announcements": [
       {
+        "title": "華語文線上自學課程影片編製計畫專任助理徵選公告",
+        "url": "https://mtc.ntnu.edu.tw/upload_files/news/20260819.pdf",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "台師大國語教學中心總務組 誠徵工讀生1名",
         "url": "https://mtc.ntnu.edu.tw/news/20260512.html",
         "date": "2026-07-28",
@@ -21019,13 +21026,6 @@
         "title": "夏季班/暑期班 課程教室安排通知",
         "url": "https://mtc.ntnu.edu.tw/news/20260525.html",
         "date": "2026-05-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "國立臺灣師範大學國語教學中心 計畫專任助理徵選公告",
-        "url": "https://mtc.ntnu.edu.tw/news/20260520.html",
-        "date": "2026-05-21",
         "date_label": "發布日期",
         "summary": ""
       }
