@@ -1742,6 +1742,13 @@
     "label": "資訊工程學系-競賽活動",
     "announcements": [
       {
+        "title": "【活動資訊】2026第二屆「實習打工故事競賽」",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/24/20260824/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【競賽活動】APICTA Awards 2026 臺灣代表隊選拔－學生組",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/07/01/20260701/",
         "date": "2026-07-01",
@@ -1765,13 +1772,6 @@
       {
         "title": "【競賽活動】HiPAC 2026 第五屆國網盃應用程式效能優化競賽",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/05/21/20260521-3/",
-        "date": "2026-05-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動訊息】財團法人開放文化基金會「SITCON 夏令營 2026」",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/05/21/20260521-2/",
         "date": "2026-05-21",
         "date_label": "發布日期",
         "summary": ""
@@ -1822,6 +1822,13 @@
     "label": "資訊工程學系-獎學金",
     "announcements": [
       {
+        "title": "【獎學金】門諾醫院「建教合作就學獎助計畫」",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/24/20260824-2/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【助學金】115學年度第1學期「還願助學金」（申請自115年9月1日起至9月22日止）",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/19/20260819-2/",
         "date": "2026-08-19",
@@ -1846,13 +1853,6 @@
         "title": "【獎學金】2026耀登炳南大專院校優秀人才獎學金",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/17/20260817/",
         "date": "2026-08-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【獎學金】115年度第二次教育部「學海惜珠」獎學金",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/13/20260813-3/",
-        "date": "2026-08-13",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -10019,6 +10019,13 @@
     "label": "翻譯研究所-其他訊息",
     "announcements": [
       {
+        "title": "【實習活動】104人力銀行2026第二屆「實習打工故事競賽」",
+        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/08/24/2026_104_2nd/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "[開放徵選]NCW 2026／27年度「新銳文學譯者培訓計畫」（Emerging Translator Mentorships Programme）增設「Literature from Taiwan」組別",
         "url": "https://www.giti.ntnu.edu.tw/index.php/2026/08/18/emerging-translator-mentorships-programme_literature-from-taiwan/",
         "date": "2026-08-18",
@@ -10043,13 +10050,6 @@
         "title": "「2026獎勵大專院校日本研究論文比賽」_台日文化經濟協會",
         "url": "https://www.giti.ntnu.edu.tw/index.php/2026/08/06/office-tjcea/",
         "date": "2026-08-06",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【116年度教育部人文社會科學學術人才跨國培育計畫 (自行報名: 115年10月20日截止) 】",
-        "url": "https://www.giti.ntnu.edu.tw/index.php/2026/08/05/youconf-at/",
-        "date": "2026-08-05",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -15950,8 +15950,8 @@
     "label": "國際與社會科學學院-最新消息",
     "announcements": [
       {
-        "title": "【轉知】104人力銀行2026第二屆「實習打工故事競賽」",
-        "url": "https://www.ciss.ntnu.edu.tw/index.php/2026/08/24/%e3%80%90%e8%bd%89%e7%9f%a5%e3%80%91104%e4%ba%ba%e5%8a%9b%e9%8a%80%e8%a1%8c2026%e7%ac%ac%e4%ba%8c%e5%b1%86%e3%80%8c%e5%af%a6%e7%bf%92%e6%89%93%e5%b7%a5%e6%95%85%e4%ba%8b%e7%ab%b6%e8%b3%bd%e3%80%8d/",
+        "title": "【轉知】104人力銀行2026第二屆「實習打工故事競賽」(徵件期間：8/10~9/28)",
+        "url": "https://www.ciss.ntnu.edu.tw/index.php/2026/08/24/2026-104-2nd-intern-part-time-story-competition/",
         "date": "2026-08-24",
         "date_label": "發布日期",
         "summary": ""
@@ -16070,8 +16070,8 @@
     "label": "國際與社會科學學院-活動公告",
     "announcements": [
       {
-        "title": "【轉知】104人力銀行2026第二屆「實習打工故事競賽」",
-        "url": "https://www.ciss.ntnu.edu.tw/index.php/2026/08/24/%e3%80%90%e8%bd%89%e7%9f%a5%e3%80%91104%e4%ba%ba%e5%8a%9b%e9%8a%80%e8%a1%8c2026%e7%ac%ac%e4%ba%8c%e5%b1%86%e3%80%8c%e5%af%a6%e7%bf%92%e6%89%93%e5%b7%a5%e6%95%85%e4%ba%8b%e7%ab%b6%e8%b3%bd%e3%80%8d/",
+        "title": "【轉知】104人力銀行2026第二屆「實習打工故事競賽」(徵件期間：8/10~9/28)",
+        "url": "https://www.ciss.ntnu.edu.tw/index.php/2026/08/24/2026-104-2nd-intern-part-time-story-competition/",
         "date": "2026-08-24",
         "date_label": "發布日期",
         "summary": ""
@@ -19847,16 +19847,16 @@
         "summary": ""
       },
       {
-        "title": "【轉知】國科會人文社會科學研究中心補助「學術期刊開放取用暨數位傳播」於8月1日起受理申請！",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news1/-%E8%BD%89%E7%9F%A5-%E5%9C%8B%E7%A7%91%E6%9C%83%E4%BA%BA%E6%96%87%E7%A4%BE%E6%9C%83%E7%A7%91%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83%E8%A3%9C%E5%8A%A9-%E5%AD%B8%E8%A1%93%E6%9C%9F%E5%88%8A%E9%96%8B%E6%94%BE%E5%8F%96%E7%94%A8%E6%9A%A8%E6%95%B8%E4%BD%8D%E5%82%B3%E6%92%AD-%E6%96%BC8%E6%9C%881%E6%97%A5%E8%B5%B7%E5%8F%97%E7%90%86%E7%94%B3%E8%AB%8B-%C2%A0%C2%A0-%C2%A0-47721852",
-        "date": "2026-07-22",
+        "title": "【轉知】國科會自115年8月1日起調整補助「優秀年輕學者研究計畫」核給之研究主持費",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news1/-%E8%BD%89%E7%9F%A5-%E5%9C%8B%E7%A7%91%E6%9C%83%E8%87%AA115%E5%B9%B48%E6%9C%881%E6%97%A5%E8%B5%B7%E8%AA%BF%E6%95%B4%E8%A3%9C%E5%8A%A9-%E5%84%AA%E7%A7%80%E5%B9%B4%E8%BC%95%E5%AD%B8%E8%80%85%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-%E6%A0%B8%E7%B5%A6%E4%B9%8B%E7%A0%94%E7%A9%B6%E4%B8%BB%E6%8C%81%E8%B2%BB%C2%A0%C2%A0-%C2%A0-1747400",
+        "date": "2026-07-13",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "【轉知】國科會自115年8月1日起調整補助「優秀年輕學者研究計畫」核給之研究主持費",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news1/-%E8%BD%89%E7%9F%A5-%E5%9C%8B%E7%A7%91%E6%9C%83%E8%87%AA115%E5%B9%B48%E6%9C%881%E6%97%A5%E8%B5%B7%E8%AA%BF%E6%95%B4%E8%A3%9C%E5%8A%A9-%E5%84%AA%E7%A7%80%E5%B9%B4%E8%BC%95%E5%AD%B8%E8%80%85%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-%E6%A0%B8%E7%B5%A6%E4%B9%8B%E7%A0%94%E7%A9%B6%E4%B8%BB%E6%8C%81%E8%B2%BB%C2%A0%C2%A0-%C2%A0-1747400",
-        "date": "2026-07-13",
+        "title": "【學術倫理 】國科會第64期及第65期研究誠信電子報",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news1/-%E5%AD%B8%E8%A1%93%E5%80%AB%E7%90%86-%E5%9C%8B%E7%A7%91%E6%9C%83%E7%AC%AC64%E6%9C%9F%E5%8F%8A%E7%AC%AC65%E6%9C%9F%E7%A0%94%E7%A9%B6%E8%AA%A0%E4%BF%A1%E9%9B%BB%E5%AD%90%E5%A0%B1-1070788",
+        "date": "2026-06-02",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -27428,6 +27428,13 @@
         "summary": ""
       },
       {
+        "title": "115學年度第1學期圖書館行事曆",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU1qazFPRGMxT1RRPXpVVE4zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTQ2OTMxMDQ5MzQ4ODM2MVRDaW50ZWx5",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115學年度暑假行事曆",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU1UazVORE0yT0RNPXhBRE95Z3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTQ2OTMxMDQ5MzQ4ODM2MVRDaW50ZWx5",
         "date": "2026-07-13",
@@ -27444,13 +27451,6 @@
       {
         "title": "114學年第二學期團體活動課程表",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9UTXlOVGcxTURNPTFJVE94Y3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTQ2OTMxMDQ5MzQ4ODM2MVRDaW50ZWx5",
-        "date": "2026-02-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度第2學期行事曆",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU1EVTFPRGMwTURVPTBnek40WXpOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTQ2OTMxMDQ5MzQ4ODM2MVRDaW50ZWx5",
         "date": "2026-02-24",
         "date_label": "發布日期",
         "summary": ""
