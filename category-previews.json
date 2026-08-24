@@ -3175,6 +3175,14 @@
     "label": "公共事務中心-活動預告",
     "announcements": [
       {
+        "title": "115學年度英語學伴招募",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10649",
+        "date": "2026-08-24",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-08-24 15:12 ~ 2026-08-31 18:13 / 地點：英語系",
+        "show_summary": true
+      },
+      {
         "title": "2026親子天下教育創新國際年會 歡迎報名",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10648",
         "date": "2026-08-20",
@@ -3204,14 +3212,6 @@
         "date": "2026-08-17",
         "date_label": "新增日期",
         "summary": "活動時間：2026-09-01 09:30 ~ 2026-09-01 12:00 / 地點：線上講座",
-        "show_summary": true
-      },
-      {
-        "title": "臺師大理工STEM碩士公費專班 招生簡章公告",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10643",
-        "date": "2026-08-14",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-09-03 08:00 ~ 2026-10-07 23:00 / 地點：線上報名",
         "show_summary": true
       }
     ]
@@ -5790,6 +5790,13 @@
     "label": "特殊教育學系-最新消息",
     "announcements": [
       {
+        "title": "115學年度第一學期博士班學科考試申請事宜",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/08/24/1150824/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "賀！！恭喜 陳怡妏系友(大學95級)榮獲【桃園115年度優良教育專業人員(國中組)】，拍拍手~~",
         "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/08/18/1150818/",
         "date": "2026-08-18",
@@ -5816,19 +5823,19 @@
         "date": "2026-08-05",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "國立臺灣師範大學特殊教育學系徵聘專任(專案)教師公告(20260814截止)",
-        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/08/04/1150626-2/",
-        "date": "2026-08-04",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "spe_dept": {
     "label": "特殊教育學系-系所公告",
     "announcements": [
+      {
+        "title": "115學年度第一學期博士班學科考試申請事宜",
+        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/08/24/1150824/",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "國立臺灣師範大學特殊教育學系115學年度「郭陳碧霜女士清寒獎學金」申請至115/9/10（星期一）中午12時截止",
         "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/08/17/1150817/",
@@ -5854,13 +5861,6 @@
         "title": "本系辦理乙案師資培育公費生甄選正備取名單公告",
         "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/07/13/1150713/",
         "date": "2026-07-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "🤩特殊教育研究學刊Podcast第六集來啦✨",
-        "url": "https://spe-girc.ntnu.edu.tw/index.php/2026/06/26/1150626/",
-        "date": "2026-06-26",
         "date_label": "發布日期",
         "summary": ""
       }
