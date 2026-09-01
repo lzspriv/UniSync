@@ -20815,43 +20815,7 @@
   },
   "tecs_college": {
     "label": "師資培育學院-訊息公告-師資培育學院",
-    "announcements": [
-      {
-        "title": "Keith M. Graham 柯琦副教授",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=505",
-        "date": "2023-08-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "陳信亨助理教授",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=504",
-        "date": "2023-08-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "葉明芬助理教授",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=502",
-        "date": "2023-08-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "高松景助理教授",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=503",
-        "date": "2023-08-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "葉怡芬教授",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=499",
-        "date": "2023-08-01",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_curriculum": {
     "label": "師資培育學院-訊息公告-師資培育課程組",
