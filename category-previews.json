@@ -3135,15 +3135,15 @@
     "label": "公共事務中心-師大新聞",
     "announcements": [
       {
-        "title": "《終身樹人》陳金雄：一日師大人，一世師大人，終身以奉獻教育志業為榮",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24429",
-        "date": "2026-09-01",
+        "title": "臺師大永續行動再獲肯定 2026 TSAA榮獲一金一銅",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24868",
+        "date": "2026-09-02",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "資工系賀耀華用無人機找出空氣中的「罪魁禍首」—PM2.5污染源智慧搜尋技術",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24837",
+        "title": "《終身樹人》陳金雄：一日師大人，一世師大人，終身以奉獻教育志業為榮",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24429",
         "date": "2026-09-01",
         "date_label": "發布日期",
         "summary": ""
@@ -3156,15 +3156,15 @@
         "summary": ""
       },
       {
-        "title": "日本奈良大學地理學系師生來訪臺師大 深化臺日地理教育交流與實察合作",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24866",
+        "title": "臺師大新生家長座談會 共築多元學習藍圖",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24864",
         "date": "2026-09-01",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "臺師大永續行動再獲肯定 2026 TSAA榮獲一金一銅",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24868",
+        "title": "日本奈良大學地理學系師生來訪臺師大 深化臺日地理教育交流與實察合作",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24866",
         "date": "2026-09-01",
         "date_label": "發布日期",
         "summary": ""
@@ -3174,6 +3174,14 @@
   "pr_chirpy": {
     "label": "公共事務中心-活動預告",
     "announcements": [
+      {
+        "title": "115學年度學生參與學生事務研究發展獎勵計畫 歡迎踴躍參與!",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10671",
+        "date": "2026-09-01",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-09-01 08:00 ~ 2026-10-30 17:00 / 地點：線上及實體申請",
+        "show_summary": true
+      },
       {
         "title": "【我們在師大進修-秋季課程】本校在職員工及眷屬、學生學費8折",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10668",
@@ -3204,14 +3212,6 @@
         "date": "2026-09-01",
         "date_label": "新增日期",
         "summary": "活動時間：2026-09-15 17:50 ~ 2026-09-23 15:00 / 地點：北中南場次(詳見內文)",
-        "show_summary": true
-      },
-      {
-        "title": "外語檢定補助申請",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10664",
-        "date": "2026-09-01",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-09-01 08:00 ~ 2026-12-31 17:00 / 地點：三校校區",
         "show_summary": true
       }
     ]
@@ -17914,13 +17914,6 @@
         "summary": ""
       },
       {
-        "title": "新北市政府社會局 社工員徵才",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=931",
-        "date": "2026-08-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "桃園市政府教育局 輔導人員徵才",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=960",
         "date": "2026-08-04",
@@ -17931,6 +17924,13 @@
         "title": "桃園市政府教育局 專業輔導人員徵才",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=944",
         "date": "2026-07-20",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "1957福利諮詢專線社工徵才",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Recruitment/News.aspx?id=zWsaYNn1P20=&Sn=919",
+        "date": "2026-06-24",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -24609,16 +24609,16 @@
     "label": "法語教學中心-最新消息",
     "announcements": [
       {
-        "title": "重要公告 【報名活動】平日法語班09/09起陸續開課，08/20前報名可抽免費課程兌換券！",
-        "url": "https://www.frcenter.ntnu.edu.tw/News/Detail/8493452b-5c96-4209-9c82-b0c09ea94741",
-        "date": "2026-08-01",
+        "title": "重要公告 【中心公告】9/4晚上不排課及辦公時間異動",
+        "url": "https://www.frcenter.ntnu.edu.tw/News/Detail/0c9a1586-b210-4c22-810a-c0ac6988cafe",
+        "date": "2026-09-02",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "重要公告 【平日法語】9月平日班分級測驗時間表",
-        "url": "https://www.frcenter.ntnu.edu.tw/News/Detail/a156eea3-fd61-4f3b-b23e-f22d72b7c1b5",
-        "date": "2026-08-21",
+        "title": "重要公告 【報名活動】平日法語班09/09起陸續開課，08/20前報名可抽免費課程兌換券！",
+        "url": "https://www.frcenter.ntnu.edu.tw/News/Detail/8493452b-5c96-4209-9c82-b0c09ea94741",
+        "date": "2026-08-01",
         "date_label": "發布日期",
         "summary": ""
       },
