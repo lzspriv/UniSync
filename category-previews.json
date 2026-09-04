@@ -3161,11 +3161,27 @@
     "label": "公共事務中心-活動預告",
     "announcements": [
       {
+        "title": "【童子賢董事長專題演講】產業發展與世界局勢，熱烈報名中",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10686",
+        "date": "2026-09-05",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-09-07 10:20 ~ 2026-09-30 12:10 / 地點：禮堂",
+        "show_summary": true
+      },
+      {
+        "title": "115-1學期【臺師大客語學程課程說明會】",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10685",
+        "date": "2026-09-05",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-09-10 12:20 ~ 2026-09-10 13:20 / 地點：英語系雲201教室",
+        "show_summary": true
+      },
+      {
         "title": "116學年度博士班甄試入學招生，歡迎踴躍報考。",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10684",
         "date": "2026-09-04",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-09-04 ~ 2026-10-09 16:55 / 地點：和平校區I",
+        "summary": "活動時間：2026-09-07 09:00 ~ 2026-10-08 16:55 / 地點：和平校區I",
         "show_summary": true
       },
       {
@@ -3173,7 +3189,7 @@
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10683",
         "date": "2026-09-04",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-09-04 ~ 2026-10-09 16:53 / 地點：和平校區I",
+        "summary": "活動時間：2026-09-07 09:00 ~ 2026-10-08 17:00 / 地點：和平校區I",
         "show_summary": true
       },
       {
@@ -3182,22 +3198,6 @@
         "date": "2026-09-04",
         "date_label": "新增日期",
         "summary": "活動時間：2026-09-07 09:00 ~ 2026-09-30 12:00 / 地點：總圖",
-        "show_summary": true
-      },
-      {
-        "title": "115-1通識教育講座 重磅登場",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10681",
-        "date": "2026-09-04",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-09-04 11:14 ~ 2026-12-23 11:14 / 地點：禮堂、綜202",
-        "show_summary": true
-      },
-      {
-        "title": "115-1職涯講座開始報名囉!",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10680",
-        "date": "2026-09-04",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-09-04 ~ 2026-12-25 11:04 / 地點：職涯發展中心",
         "show_summary": true
       }
     ]
@@ -9214,14 +9214,14 @@
         "summary": ""
       },
       {
-        "title": "【課程異動】日間學制研究所115-1課程異動告告(隨時更新)",
+        "title": "【課程異動】日間學制研究所115-1課程異動公告(隨時更新)",
         "url": "https://www.geo.ntnu.edu.tw/index.php/2026/09/04/1150904wish02/",
         "date": "2026-09-04",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "【課程異動】日間學制學士班115-1課程異動告告(隨時更新)",
+        "title": "【課程異動】日間學制學士班115-1課程異動公告(隨時更新)",
         "url": "https://www.geo.ntnu.edu.tw/index.php/2026/09/04/1150904wish01/",
         "date": "2026-09-04",
         "date_label": "發布日期",
@@ -24630,13 +24630,6 @@
         "summary": ""
       },
       {
-        "title": "重要公告 【中心公告】9/4晚上不排課及辦公時間異動",
-        "url": "https://www.frcenter.ntnu.edu.tw/News/Detail/0c9a1586-b210-4c22-810a-c0ac6988cafe",
-        "date": "2026-09-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "一般訊息 【課程訊息】近期課程一覽表",
         "url": "https://www.frcenter.ntnu.edu.tw/News/Detail/c84af539-c0a6-4af8-8ad9-d9fdd3e91c87",
         "date": "2025-03-10",
@@ -24647,6 +24640,13 @@
         "title": "一般訊息 【課程公告】 中心不排課日期一覽",
         "url": "https://www.frcenter.ntnu.edu.tw/News/Detail/109b80f3-0b87-43f7-89f0-cd6f5027f913",
         "date": "2026-01-26",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "重要公告 【平日法語】 2026年度開課計畫表",
+        "url": "https://www.frcenter.ntnu.edu.tw/News/Detail/841e03b5-cd3c-414a-9c42-4a4d3e92da32",
+        "date": "2025-01-01",
         "date_label": "發布日期",
         "summary": ""
       }
