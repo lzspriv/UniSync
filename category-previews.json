@@ -5506,6 +5506,13 @@
     "label": "公民教育與活動領導學系-所有消息",
     "announcements": [
       {
+        "title": "115學年度本系師培獎學金甄選面試名單",
+        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=系所公告&news02=5874146566aa160631fb5c",
+        "date": "2026-09-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【恭賀】本系蔡居澤副教授115學年度持續辦理安全教育計畫",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=榮譽榜&news02=6504782876aa0b6fd74411",
         "date": "2026-09-09",
@@ -5532,19 +5539,19 @@
         "date": "2026-09-08",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "【歡迎踴躍報考】本系116學年度「博士班」推甄考試報名期間為115年9月29日至10月7日",
-        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=招生公告&news02=11922846296a9e54210ca6d",
-        "date": "2026-09-29",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "cve_dept": {
     "label": "公民教育與活動領導學系-系所公告",
     "announcements": [
+      {
+        "title": "115學年度本系師培獎學金甄選面試名單",
+        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=系所公告&news02=5874146566aa160631fb5c",
+        "date": "2026-09-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "【歡迎踴躍報考】116學年度學士班特殊選才招生簡章",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=系所公告&news02=3507550086a9fcdb165f9e",
@@ -5570,13 +5577,6 @@
         "title": "【國際研討會｜研究分享 × 國際交流】",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=系所公告&news02=13315067776a8b920de3dbc",
         "date": "2026-08-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115年公領系系友及本系輔導之校友參加國高中教師甄試風雲榜",
-        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=系所公告&news02=742545836a82e2cfb1155",
-        "date": "2026-08-17",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -19804,13 +19804,6 @@
         "summary": ""
       },
       {
-        "title": "【轉知】玄奘大學聯合舉辦之「第 37 屆全國佛學論文聯合發表會」",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1104/-%E8%BD%89%E7%9F%A5-%E7%8E%84%E5%A5%98%E5%A4%A7%E5%AD%B8%E8%81%AF%E5%90%88%E8%88%89%E8%BE%A6%E4%B9%8B-%E7%AC%AC-37-%E5%B1%86%E5%85%A8%E5%9C%8B%E4%BD%9B%E5%AD%B8%E8%AB%96%E6%96%87%E8%81%AF%E5%90%88%E7%99%BC%E8%A1%A8%E6%9C%83-12612130",
-        "date": "2026-08-27",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "【轉知】國立中正大學辦理CSME2026徵稿資訊",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1104/-%E8%BD%89%E7%9F%A5-%E5%9C%8B%E7%AB%8B%E4%B8%AD%E6%AD%A3%E5%A4%A7%E5%AD%B8%E8%BE%A6%E7%90%86CSME2026%E5%BE%B5%E7%A8%BF%E8%B3%87%E8%A8%8A-29468839",
         "date": "2026-08-27",
@@ -19820,6 +19813,13 @@
       {
         "title": "【轉知】社團法人臺灣災害管理學會舉辦「2026臺灣災害管理研討會」暨「115年國家科學及技術委員會自然科學及永續研究發展處防災科技學門計畫成果發表會」徵稿啟事",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1104/-%E8%BD%89%E7%9F%A5-%E7%A4%BE%E5%9C%98%E6%B3%95%E4%BA%BA%E8%87%BA%E7%81%A3%E7%81%BD%E5%AE%B3%E7%AE%A1%E7%90%86%E5%AD%B8%E6%9C%83%E8%88%89%E8%BE%A6-2026%E8%87%BA%E7%81%A3%E7%81%BD%E5%AE%B3%E7%AE%A1%E7%90%86%E7%A0%94%E8%A8%8E%E6%9C%83-%E6%9A%A8-115%E5%B9%B4%E5%9C%8B%E5%AE%B6%E7%A7%91%E5%AD%B8%E5%8F%8A%E6%8A%80%E8%A1%93%E5%A7%94%E5%93%A1%E6%9C%83%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%B8%E5%8F%8A%E6%B0%B8%E7%BA%8C%E7%A0%94%E7%A9%B6%E7%99%BC%E5%B1%95%E8%99%95%E9%98%B2%E7%81%BD%E7%A7%91%E6%8A%80%E5%AD%B8%E9%96%80%E8%A8%88%E7%95%AB%E6%88%90%E6%9E%9C%E7%99%BC%E8%A1%A8%E6%9C%83-%E5%BE%B5%E7%A8%BF%E5%95%9F%E4%BA%8B-18406936",
+        "date": "2026-08-21",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【轉知】中國醫藥大學附設醫院舉辦「第十六屆身心介面國際研討會暨2026年國際營養精神醫學研究學會區域會議」",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1104/-%E8%BD%89%E7%9F%A5-%E4%B8%AD%E5%9C%8B%E9%86%AB%E8%97%A5%E5%A4%A7%E5%AD%B8%E9%99%84%E8%A8%AD%E9%86%AB%E9%99%A2%E8%88%89%E8%BE%A6-%E7%AC%AC%E5%8D%81%E5%85%AD%E5%B1%86%E8%BA%AB%E5%BF%83%E4%BB%8B%E9%9D%A2%E5%9C%8B%E9%9A%9B%E7%A0%94%E8%A8%8E%E6%9C%83%E6%9A%A82026%E5%B9%B4%E5%9C%8B%E9%9A%9B%E7%87%9F%E9%A4%8A%E7%B2%BE%E7%A5%9E%E9%86%AB%E5%AD%B8%E7%A0%94%E7%A9%B6%E5%AD%B8%E6%9C%83%E5%8D%80%E5%9F%9F%E6%9C%83%E8%AD%B0-3180791",
         "date": "2026-08-21",
         "date_label": "發布日期",
         "summary": ""
@@ -20791,13 +20791,6 @@
     "label": "師資培育學院-訊息公告-全部列表",
     "announcements": [
       {
-        "title": "2027美國、新加坡【師資生國外教育見習計畫】甄選－複試（口試）名單暨複試時間",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=657",
-        "date": "2026-09-02",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "【公告】本校115學年度第1學期教甄備考團錄取名單",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=600",
         "date": "2026-08-24",
@@ -20822,6 +20815,13 @@
         "title": "115學年度第1學期師資培育學院教學助理審查通過名單",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=595",
         "date": "2026-08-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度乙案師資培育公費生甄選正式錄取名單",
+        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=632",
+        "date": "2026-07-22",
         "date_label": "發布日期",
         "summary": ""
       }
