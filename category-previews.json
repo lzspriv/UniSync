@@ -3,6 +3,13 @@
     "label": "數學系-最新消息",
     "announcements": [
       {
+        "title": "[師培資訊] 115年度教育實習申請說明會，請於115年9月21日前報名",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/09/10/115edu_practicum/",
+        "date": "2026-09-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "[課程資訊] 【教務處公告】免學分費！跨校修讀「北區 AI 資源中心」共享優質AI課程",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/09/10/ai/",
         "date": "2026-09-10",
@@ -26,13 +33,6 @@
       {
         "title": "[招生訊息] 116學年度學士班特殊選才招生簡章公告",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/09/04/116superentry/",
-        "date": "2026-09-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[招生訊息] 116學年度碩士班甄試入學招生簡章公告",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/09/04/master116/",
         "date": "2026-09-04",
         "date_label": "發布日期",
         "summary": ""
@@ -203,6 +203,13 @@
     "label": "數學系-師培資訊",
     "announcements": [
       {
+        "title": "[師培資訊] 115年度教育實習申請說明會，請於115年9月21日前報名",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/09/10/115edu_practicum/",
+        "date": "2026-09-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "[獎助學金] 數學系115學年度師資培育獎學金（申請至 09/09 12:00 止）",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/08/20/115-tt-scholarship-announcement/",
         "date": "2026-08-20",
@@ -227,13 +234,6 @@
         "title": "[師培資訊] 本系甄選114-2師資培育公費生(二招)（05/29星期五報名截止）",
         "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/05/18/114-2-public-expense-reg-2nd/",
         "date": "2026-05-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "[師培資訊] 本系中學數學 114師資培育一階生甄選（申請至 4/30 截止）",
-        "url": "https://cantor.math.ntnu.edu.tw/index.php/2026/03/31/114-teacher-edu-reg1/",
-        "date": "2026-03-31",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -603,6 +603,20 @@
     "label": "化學系-最新公告",
     "announcements": [
       {
+        "title": "2026-09-10【115學年度「許定烽余惠順獎學金」】申請09/30截止",
+        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/10/2026-09-1011/",
+        "date": "2026-09-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-09-10【115學年度學士班「優秀學生選拔」】10/14截止",
+        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/10/2026-09-10115/",
+        "date": "2026-09-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2026-09-10【TOEFL ITP測驗－高等教育學術研究獎學金】10/08截止",
         "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/10/2026-09-10/",
         "date": "2026-09-10",
@@ -620,20 +634,6 @@
         "title": "2026-09-07【化學系博士班獎助學金申請】09/18截止",
         "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/07/2026-09-07/",
         "date": "2026-09-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026-09-04【國立臺灣師範大學 x 台積電「半導體學程」說明會】",
-        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/04/2026-09-04-01/",
-        "date": "2026-09-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026-09-03【化學系各項獎助學金申請】10/14截止",
-        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/03/2026-09-0310-14/",
-        "date": "2026-09-03",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -763,6 +763,20 @@
     "label": "化學系-獎助學金",
     "announcements": [
       {
+        "title": "2026-09-10【115學年度「許定烽余惠順獎學金」】申請09/30截止",
+        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/10/2026-09-1011/",
+        "date": "2026-09-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-09-10【115學年度學士班「優秀學生選拔」】10/14截止",
+        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/10/2026-09-10115/",
+        "date": "2026-09-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2026-09-10【TOEFL ITP測驗－高等教育學術研究獎學金】10/08截止",
         "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/10/2026-09-10/",
         "date": "2026-09-10",
@@ -780,20 +794,6 @@
         "title": "2026-09-07【化學系博士班獎助學金申請】09/18截止",
         "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/07/2026-09-07/",
         "date": "2026-09-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026-09-03【化學系各項獎助學金申請】10/14截止",
-        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/03/2026-09-0310-14/",
-        "date": "2026-09-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026-09-03【第十三屆日月光環保學術碩博士論文獎助申請】11/30截止",
-        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/03/2026-09-03/",
-        "date": "2026-09-03",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -3135,6 +3135,20 @@
         "summary": ""
       },
       {
+        "title": "男二舍「當我們同住在一起」 打造友善共居新生活",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24887",
+        "date": "2026-09-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大科技系赴美國交流科技教育與教育科技 重新思考AI 與機械手臂的教育應用",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24888",
+        "date": "2026-09-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "誠正勤樸大樓耐震補強工程正式啟動 攜手打造安全安心校園環境",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24884",
         "date": "2026-09-09",
@@ -3147,26 +3161,28 @@
         "date": "2026-09-09",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "從特教走進藝術現場 特教系107級校友黃紹綸策展「無限感應」",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24886",
-        "date": "2026-09-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大攜手國科會迎戰AI時代 SmartReading適性閱讀跨國競賽 帶動2萬人次自主閱讀",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24879",
-        "date": "2026-09-08",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "pr_chirpy": {
     "label": "公共事務中心-活動預告",
     "announcements": [
+      {
+        "title": "如何從文組走向媒體圈？台文人的廣闊世界",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10729",
+        "date": "2026-09-10",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-09-16 18:30 ~ 2026-09-16 20:00 / 地點：雲和教學大樓三樓306室 (雲和街1號3樓，請準時抵達按對講機)",
+        "show_summary": true
+      },
+      {
+        "title": "115年國家防災日–地震避難疏散演練",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10728",
+        "date": "2026-09-10",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-09-10 ~ 2026-09-22 17:23 / 地點：體育館",
+        "show_summary": true
+      },
       {
         "title": "115年度「教育家講座系列活動—教育大師講座」",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10727",
@@ -3189,22 +3205,6 @@
         "date": "2026-09-09",
         "date_label": "新增日期",
         "summary": "活動時間：2026-09-09 11:52 ~ 2026-11-24 13:20 / 地點：雲和教學大樓201",
-        "show_summary": true
-      },
-      {
-        "title": "11/17客話打嘴鼓！115-1學期客語學程客語聊天室",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10714",
-        "date": "2026-09-09",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-09-09 11:49 ~ 2026-11-17 13:20 / 地點：雲和教學大樓201",
-        "show_summary": true
-      },
-      {
-        "title": "11/10客話打嘴鼓！115-1學期客語學程客語聊天室",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10713",
-        "date": "2026-09-09",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-09-09 11:49 ~ 2026-11-10 13:20 / 地點：雲和教學大樓201",
         "show_summary": true
       }
     ]
@@ -12637,6 +12637,13 @@
     "label": "美術學系-最新消息",
     "announcements": [
       {
+        "title": "國立臺灣師範大學美術學系「第九屆德鄰師大美術系獎助計畫—人才培育計畫獎」簡章",
+        "url": "https://www.art.ntnu.edu.tw/index.php/2026/09/10/20260910302601/",
+        "date": "2026-09-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115-1博、碩士班、在職碩士班 優秀研究生獎學金 開放申請至10月20日截止",
         "url": "https://www.art.ntnu.edu.tw/index.php/2026/09/10/115-1outstanding-graduate-scholarship/",
         "date": "2026-09-10",
@@ -12660,13 +12667,6 @@
       {
         "title": "115學年度大、碩、博新生座談簡報",
         "url": "https://www.art.ntnu.edu.tw/index.php/2026/09/07/115news0907/",
-        "date": "2026-09-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115-1本系「德成文化藝術獎學金」實施辦法",
-        "url": "https://www.art.ntnu.edu.tw/index.php/2026/09/07/1151-decheng-cultural-and-arts-scholarship/",
         "date": "2026-09-07",
         "date_label": "發布日期",
         "summary": ""
@@ -12917,6 +12917,13 @@
     "label": "美術學系-獎助學金",
     "announcements": [
       {
+        "title": "國立臺灣師範大學美術學系「第九屆德鄰師大美術系獎助計畫—人才培育計畫獎」簡章",
+        "url": "https://www.art.ntnu.edu.tw/index.php/2026/09/10/20260910302601/",
+        "date": "2026-09-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115-1博、碩士班、在職碩士班 優秀研究生獎學金 開放申請至10月20日截止",
         "url": "https://www.art.ntnu.edu.tw/index.php/2026/09/10/115-1outstanding-graduate-scholarship/",
         "date": "2026-09-10",
@@ -12940,13 +12947,6 @@
       {
         "title": "115學年度「陳瓊花教授藝術教育獎學金」申請公告",
         "url": "https://www.art.ntnu.edu.tw/index.php/2026/08/11/115-chen-chiung-hua-art-education-scholarship/",
-        "date": "2026-08-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度師資培育獎學金甄審公告",
-        "url": "https://www.art.ntnu.edu.tw/index.php/2026/08/11/115-teacher-training-scholarship/",
         "date": "2026-08-11",
         "date_label": "發布日期",
         "summary": ""
