@@ -443,9 +443,9 @@
     "label": "物理學系-最新公告",
     "announcements": [
       {
-        "title": "115預訂課表",
-        "url": "https://www2.phy.ntnu.edu.tw/index.php/2026/05/13/115-curriculum/",
-        "date": "2026-05-13",
+        "title": "116學年度學士班特殊選才招生",
+        "url": "https://www2.phy.ntnu.edu.tw/index.php/2026/09/11/116lion/",
+        "date": "2026-09-11",
         "date_label": "發布日期",
         "summary": ""
       },
@@ -603,6 +603,13 @@
     "label": "化學系-最新公告",
     "announcements": [
       {
+        "title": "2026-09-11【半導體學分學程及獎學金說明會】申請說明會09/21",
+        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/11/2026-09-11/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2026-09-10【115學年度「許定烽余惠順獎學金」】申請09/30截止",
         "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/10/2026-09-1011/",
         "date": "2026-09-10",
@@ -627,13 +634,6 @@
         "title": "2026-09-09【南亞科技【2026年未來之星獎學金申請】10/02截止",
         "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/09/2026-09-09/",
         "date": "2026-09-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026-09-07【化學系博士班獎助學金申請】09/18截止",
-        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/07/2026-09-07/",
-        "date": "2026-09-07",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -763,6 +763,13 @@
     "label": "化學系-獎助學金",
     "announcements": [
       {
+        "title": "2026-09-11【半導體學分學程及獎學金說明會】申請說明會09/21",
+        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/11/2026-09-11/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2026-09-10【115學年度「許定烽余惠順獎學金」】申請09/30截止",
         "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/10/2026-09-1011/",
         "date": "2026-09-10",
@@ -787,13 +794,6 @@
         "title": "2026-09-09【南亞科技【2026年未來之星獎學金申請】10/02截止",
         "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/09/2026-09-09/",
         "date": "2026-09-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026-09-07【化學系博士班獎助學金申請】09/18截止",
-        "url": "https://www.chem.ntnu.edu.tw/index.php/2026/09/07/2026-09-07/",
-        "date": "2026-09-07",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -3142,7 +3142,7 @@
         "summary": ""
       },
       {
-        "title": "臺師大科技系赴美國交流科技教育與教育科技 重新思考AI 與機械手臂的教育應用",
+        "title": "科技系赴美國交流科技教育與教育科技 重新思考AI 與機械手臂的教育應用",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24888",
         "date": "2026-09-10",
         "date_label": "發布日期",
@@ -3213,6 +3213,13 @@
     "label": "校友中心-最新消息",
     "announcements": [
       {
+        "title": "新生營》伯樂大學堂圓滿落幕 119級新生啟程「Be the Star」",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4526&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-09-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "第十屆「幸福熟齡臺日論壇」盛大登場 宋曜廷校長分享超高齡社會的研究洞察",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4520&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
         "date": "2026-09-03",
@@ -3239,19 +3246,26 @@
         "date": "2026-09-02",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "睽違13年再度承辦 2026 ISHPES國際體育運動史大會於臺師大圓滿落幕 全球逾20國學者開拓體育運動史新視野",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4499&mid=8&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-09-01",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "alumni_development": {
     "label": "校友中心-學校發展",
     "announcements": [
+      {
+        "title": "PISA 2025成績亮眼 臺師大團隊揭臺灣學生科學全球第4、閱讀第3",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4528&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-09-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大攜手國科會迎戰AI時代 SmartReading適性閱讀跨國競賽 帶動2萬人次自主閱讀",
+        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4527&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-09-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "光電所「開光神醫」團隊《智檢牙況口水棒》勇奪教育部競賽全國冠軍",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4523&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
@@ -3270,20 +3284,6 @@
         "title": "臺師大物理系攜手捷克查理大學 培育半導體與量子材料國際人才",
         "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4521&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
         "date": "2026-09-02",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "日本奈良大學地理學系師生來訪臺師大 深化臺日地理教育交流與實察合作",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4508&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-09-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "緬甸華文教師研習圓滿落幕 共同攜手推動華文教育發展",
-        "url": "https://alumni.ntnu.edu.tw/ActiveMessage/MessageView?itemid=4507&mid=9&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-09-01",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -3314,16 +3314,16 @@
         "summary": ""
       },
       {
-        "title": "【我們在師大進修-2026秋季班課程】臺師大校友享學費8折！",
-        "url": "https://alumni.ntnu.edu.tw/Message/MessageView?itemid=4505&mid=10&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-09-01",
+        "title": "臺灣師範大學美東校友會【2026師大大師藝術節】",
+        "url": "https://alumni.ntnu.edu.tw/Message/MessageView?itemid=4466&mid=10&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-09-27",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "臺灣師範大學美東校友會【2026師大大師藝術節】",
-        "url": "https://alumni.ntnu.edu.tw/Message/MessageView?itemid=4466&mid=10&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
-        "date": "2026-09-27",
+        "title": "臺師大科教所40週年慶 歡迎報名",
+        "url": "https://alumni.ntnu.edu.tw/Message/MessageView?itemid=4456&mid=10&page=0&GroupName=%E7%84%A1%E5%88%86%E9%A1%9E",
+        "date": "2026-12-06",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4682,16 +4682,16 @@
         "summary": ""
       },
       {
-        "title": "轉知 本校跨校修讀「北區 AI 資源中心」共享優質AI課程（免學分費）",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1404&title=轉知 本校跨校修讀「北區 AI 資源中心」共享優質AI課程（免學分費）",
-        "date": "2026-09-09",
+        "title": "公告 本系葉芸芝老師誠徵國科會計畫「兼任研究助理」",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1406&title=公告 本系葉芸芝老師誠徵國科會計畫「兼任研究助理」",
+        "date": "2026-09-11",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "116學年度本系博士班「逕讀入學」第一次招生簡章",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1401&title=116學年度本系博士班「逕讀入學」第一次招生簡章",
-        "date": "2026-09-08",
+        "title": "轉知 本校跨校修讀「北區 AI 資源中心」共享優質AI課程（免學分費）",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1404&title=轉知 本校跨校修讀「北區 AI 資源中心」共享優質AI課程（免學分費）",
+        "date": "2026-09-09",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4748,6 +4748,13 @@
         "summary": ""
       },
       {
+        "title": "公告 本系葉芸芝老師誠徵國科會計畫「兼任研究助理」",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1406&title=公告 本系葉芸芝老師誠徵國科會計畫「兼任研究助理」",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "轉知 新北市立竹圍高中115學年度代理教師甄選",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1395&title=轉知 新北市立竹圍高中115學年度代理教師甄選",
         "date": "2026-08-28",
@@ -4765,13 +4772,6 @@
         "title": "轉知 苗栗縣政府過渡性教育措施甄輔導專案約用人員甄選",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1385&title=轉知 苗栗縣政府過渡性教育措施甄輔導專案約用人員甄選",
         "date": "2026-08-24",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "轉知 新加玻國際香精香料公司 (IFF)招聘實驗室助理",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Internship/News.aspx?id=jkgBr1zqgsk=&Sn=1372&title=轉知 新加玻國際香精香料公司 (IFF)招聘實驗室助理",
-        "date": "2026-08-11",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -5506,6 +5506,13 @@
     "label": "公民教育與活動領導學系-所有消息",
     "announcements": [
       {
+        "title": "115學年度第1學期「論文研究型助理獎助學金」申請事宜",
+        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=獎勵補助&news02=10997446616aa36dc6341ff",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115-1 期初系務會議開會通知",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=系所公告&news02=4640041256aa2184c88583",
         "date": "2026-09-10",
@@ -5530,13 +5537,6 @@
         "title": "【恭賀】本系蔡居澤副教授115學年度持續辦理安全教育計畫",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=榮譽榜&news02=6504782876aa0b6fd74411",
         "date": "2026-09-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【歡迎踴躍報考】116學年度學士班特殊選才招生簡章",
-        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=系所公告&news02=3507550086a9fcdb165f9e",
-        "date": "2026-09-08",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -5710,6 +5710,13 @@
     "label": "公民教育與活動領導學系-獎勵補助",
     "announcements": [
       {
+        "title": "115學年度第1學期「論文研究型助理獎助學金」申請事宜",
+        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=獎勵補助&news02=10997446616aa36dc6341ff",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "臺北市公民教育基金會2026年度「雷飛龍教授獎學金」申請至8月31日止！",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=獎勵補助&news02=5960270666a28dd480341b",
         "date": "2026-06-10",
@@ -5734,13 +5741,6 @@
         "title": "114-1論文型研究助理獎助學金，即日起開放申請",
         "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=獎勵補助&news02=123895812968be2b4a97082",
         "date": "2025-09-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度師資培育獎學金甄審面試名單",
-        "url": "https://cve.ntnu.edu.tw/cve/include/index.php?Page=A-2&Cate01=獎勵補助&news02=14713620168b7aebe45743",
-        "date": "2025-09-03",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -7043,13 +7043,6 @@
         "summary": ""
       },
       {
-        "title": "外交換生甄選說明會@學院(2027 Fall)",
-        "url": "https://www.glis.ntnu.edu.tw/index.php/2026/09/01/001-214/",
-        "date": "2026-09-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "元智大學圖書資訊服務處 誠徵圖書館專任職員一名",
         "url": "https://www.glis.ntnu.edu.tw/index.php/2026/08/25/yzulib/",
         "date": "2026-08-25",
@@ -7532,6 +7525,13 @@
     "label": "文學院-學院公告",
     "announcements": [
       {
+        "title": "2026年東亞儒學研究生與青年學者論壇甄選結果",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2026/09/11/2026-list-of-eacs/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【代公告】~115年11/30申請截止_祐生研究基金會2026年度碩士學位論文獎學金申請公告說明",
         "url": "https://www.cla.ntnu.edu.tw/index.php/2026/09/09/2026-09-09/",
         "date": "2026-09-09",
@@ -7555,13 +7555,6 @@
       {
         "title": "9/30 報名截止~「2026 臺南學——朱玖瑩書法學術論壇與走讀」",
         "url": "https://www.cla.ntnu.edu.tw/index.php/2026/09/01/2026-09-01-5/",
-        "date": "2026-09-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "9/18 報名截止~「文藻盃西語競賽」",
-        "url": "https://www.cla.ntnu.edu.tw/index.php/2026/09/01/2026-09-01-3/",
         "date": "2026-09-01",
         "date_label": "發布日期",
         "summary": ""
@@ -7652,6 +7645,13 @@
     "label": "文學院-赴外資訊",
     "announcements": [
       {
+        "title": "2026年東亞儒學研究生與青年學者論壇甄選結果",
+        "url": "https://www.cla.ntnu.edu.tw/index.php/2026/09/11/2026-list-of-eacs/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115學年度第2學期文學院赴境外姊妹校交換學生名單",
         "url": "https://www.cla.ntnu.edu.tw/index.php/2026/07/09/spr-2027-outbound-exchange/",
         "date": "2026-07-09",
@@ -7676,13 +7676,6 @@
         "title": "3/26週四中午12：10-13：00歡迎踴躍參加 「海外實習」［線上說明會］《保證海外實習～東京、上海、廣州、曼谷、溫哥華》",
         "url": "https://www.cla.ntnu.edu.tw/index.php/2026/03/20/2026-03-20/",
         "date": "2026-03-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "文學院辦理114學年度第2學期院級學生赴海外姊妹校交換研習甄選公告",
-        "url": "https://www.cla.ntnu.edu.tw/index.php/2025/03/25/2026-spr-outbound-exchange-recruitment/",
-        "date": "2025-03-25",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -8089,6 +8082,20 @@
     "label": "國文學系-最新消息",
     "announcements": [
       {
+        "title": "畢業生問卷調查(113學年度畢業滿一年、111學年度畢業滿三年及109學年度畢業滿五年)",
+        "url": "https://www.ch.ntnu.edu.tw/index.php/2026/09/11/e71001-p102/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026年東亞儒學研究生與年學者論壇甄選結果",
+        "url": "https://www.ch.ntnu.edu.tw/index.php/2026/09/11/gothic-d1150911/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2026臺大劇場國際學術研討會「參與報名」",
         "url": "https://www.ch.ntnu.edu.tw/index.php/2026/09/09/2026090903/",
         "date": "2026-09-09",
@@ -8106,20 +8113,6 @@
         "title": "台灣ACG研究學會2027動漫遊台灣研討會論文摘要「徵稿啟事」",
         "url": "https://www.ch.ntnu.edu.tw/index.php/2026/09/09/2026090901/",
         "date": "2026-09-09",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115-1學士班超修及學分不足申請",
-        "url": "https://www.ch.ntnu.edu.tw/index.php/2026/09/08/a-e71001-20260908/",
-        "date": "2026-09-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "國文系圖書室閉館並停止借閱服務",
-        "url": "https://www.ch.ntnu.edu.tw/index.php/2026/09/08/t21025-1150908/",
-        "date": "2026-09-08",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -8289,6 +8282,13 @@
     "label": "國文學系-碩博班",
     "announcements": [
       {
+        "title": "2026年東亞儒學研究生與年學者論壇甄選結果",
+        "url": "https://www.ch.ntnu.edu.tw/index.php/2026/09/11/gothic-d1150911/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2026臺大劇場國際學術研討會「參與報名」",
         "url": "https://www.ch.ntnu.edu.tw/index.php/2026/09/09/2026090903/",
         "date": "2026-09-09",
@@ -8313,13 +8313,6 @@
         "title": "【重要】本系115學年度「傑出學生選拔」（本系9/29截止）",
         "url": "https://www.ch.ntnu.edu.tw/index.php/2026/09/07/exstuchoose/",
         "date": "2026-09-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "1151國文學系(所)特色發展獎助學金申請",
-        "url": "https://www.ch.ntnu.edu.tw/index.php/2026/09/05/gothic-d1150905-3/",
-        "date": "2026-09-05",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -8409,6 +8402,13 @@
     "label": "英語學系-最新消息",
     "announcements": [
       {
+        "title": "【代公告】大葉大學檢送該校英語學系辦理「2026英語文教學暨翻譯實務國際研討會」徵稿資訊，敬請踴躍投稿。",
+        "url": "https://www.eng.ntnu.edu.tw/index.php/2026/09/11/elementor-30327/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【115年9月29日開始報名!!】116學年度英語學系碩/博士班甄試入學",
         "url": "https://www.eng.ntnu.edu.tw/index.php/2026/09/09/maphd1130906/",
         "date": "2026-09-09",
@@ -8435,19 +8435,19 @@
         "date": "2026-09-01",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "【115-1語言組】師大英語系演講：9月8日陶紅印教授演講",
-        "url": "https://www.eng.ntnu.edu.tw/index.php/2026/09/01/lingtalk20260908/",
-        "date": "2026-09-01",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "eng_academic": {
     "label": "英語學系-學術動態",
     "announcements": [
+      {
+        "title": "【代公告】大葉大學檢送該校英語學系辦理「2026英語文教學暨翻譯實務國際研討會」徵稿資訊，敬請踴躍投稿。",
+        "url": "https://www.eng.ntnu.edu.tw/index.php/2026/09/11/elementor-30327/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "【115-1文學組】師大英語系演講：9月24日 Dr. Yu-Hung Tien 田宇宏演講",
         "url": "https://www.eng.ntnu.edu.tw/index.php/2026/09/09/20260924littalk/",
@@ -8473,13 +8473,6 @@
         "title": "CFP–Concentric: Literary and Cultural Studies Vol. 53 No. 2 “Critical Agrarian Humanities: Farming and World-Making in the Anthropocene”",
         "url": "https://www.eng.ntnu.edu.tw/index.php/2026/06/10/elementor-29509/",
         "date": "2026-06-10",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【代公告】財團法人語言訓練測驗中心檢送該中心115年6月22日「2026英語教學與評量研習講座」報名連結，敬請報名參加。",
-        "url": "https://www.eng.ntnu.edu.tw/index.php/2026/05/29/elementor-29443/",
-        "date": "2026-05-29",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -10101,6 +10094,13 @@
     "label": "臺灣史研究所-最新消息",
     "announcements": [
       {
+        "title": "【活動轉知】聽見記憶．看見歷史：臺日口述歷史研究工作坊",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/09/11/202609111/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【獎助消息】第三屆黃光國國家講座教授論文獎學金",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/09/08/2026090802/",
         "date": "2026-09-08",
@@ -10124,13 +10124,6 @@
       {
         "title": "【獎助消息】中研院民族所「2027年臺灣原住民訪問研究者獎助」",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/09/07/2026-09-07-04-2/",
-        "date": "2026-09-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動轉知】9/12 台大日本研究中心第13屆全國研究生研習營",
-        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/09/07/2026-09-07-04/",
         "date": "2026-09-07",
         "date_label": "發布日期",
         "summary": ""
@@ -10341,6 +10334,13 @@
     "label": "臺灣史研究所-相關活動",
     "announcements": [
       {
+        "title": "【活動轉知】聽見記憶．看見歷史：臺日口述歷史研究工作坊",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/09/11/202609111/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動轉知】文學院赴外交換生甄選說明會",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/09/07/2026-09-07-05/",
         "date": "2026-09-07",
@@ -10365,13 +10365,6 @@
         "title": "【活動轉知】9/10免費講座「尋覓山林古道：3條文化資產的踏查路線・隘勇線巡禮」",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/09/07/2026-09-07-01-2/",
         "date": "2026-09-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動轉知】8/19紀州庵免費講座「外來者眼中的臺灣原住民族」",
-        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/08/17/2026-09-07-01/",
-        "date": "2026-08-17",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -11271,6 +11264,13 @@
     "label": "圖文傳播學系-最新消息",
     "announcements": [
       {
+        "title": "本系115學年度師資培育獎學金甄審 面試時間",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/09/11/gac-23/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "116學年度圖文傳播學系碩士班甄試入學招生簡章公告",
         "url": "https://www.gac.ntnu.edu.tw/index.php/2026/09/04/1150904/",
         "date": "2026-09-04",
@@ -11295,13 +11295,6 @@
         "title": "圖傳系與溫博館推動館校合作，深度挖掘文化元素，打造創意泡湯浴巾",
         "url": "https://www.gac.ntnu.edu.tw/index.php/2026/08/25/hotspring/",
         "date": "2026-08-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度碩士班(一般生)新生座談會通知",
-        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/08/24/note2/",
-        "date": "2026-08-24",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -11311,6 +11304,13 @@
     "label": "圖文傳播學系-系所公告",
     "announcements": [
       {
+        "title": "本系115學年度師資培育獎學金甄審 面試時間",
+        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/09/11/gac-23/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "116學年度圖文傳播學系碩士班甄試入學招生簡章公告",
         "url": "https://www.gac.ntnu.edu.tw/index.php/2026/09/04/1150904/",
         "date": "2026-09-04",
@@ -11335,13 +11335,6 @@
         "title": "圖傳系與溫博館推動館校合作，深度挖掘文化元素，打造創意泡湯浴巾",
         "url": "https://www.gac.ntnu.edu.tw/index.php/2026/08/25/hotspring/",
         "date": "2026-08-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度碩士班(一般生)新生座談會通知",
-        "url": "https://www.gac.ntnu.edu.tw/index.php/2026/08/24/note2/",
-        "date": "2026-08-24",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -11429,6 +11422,13 @@
     "label": "機電工程學系-最新消息",
     "announcements": [
       {
+        "title": "2026-09-11 轉知：學術專題演講【AI的基礎與知識發展的未來】",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/09/11/2026-09-11/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2026-09-09 崇友實業獎學金",
         "url": "https://www.me.ntnu.edu.tw/index.php/2026/09/09/2026-09-09/",
         "date": "2026-09-09",
@@ -11453,13 +11453,6 @@
         "title": "2026-07-21 機電系書卷獎同名次參酌獲獎順序(第二次公告)",
         "url": "https://www.me.ntnu.edu.tw/index.php/2026/07/21/2026-07-21/",
         "date": "2026-07-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026-07-20 本校「學士班新生入學成績優異獎學金實施要點」、學生申請表及學系推薦表",
-        "url": "https://www.me.ntnu.edu.tw/index.php/2026/07/20/2026-07-20/",
-        "date": "2026-07-20",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -11589,6 +11582,13 @@
     "label": "機電工程學系-演講公告",
     "announcements": [
       {
+        "title": "2026-09-11 轉知：學術專題演講【AI的基礎與知識發展的未來】",
+        "url": "https://www.me.ntnu.edu.tw/index.php/2026/09/11/2026-09-11/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2026-06-02 轉知：科工學院演講，主題：半導體技術發展與國際人才培育策略，講者：傅昭銘教授 中原大學半導體產業學院院長，時間：115/06/03，地點：科工學院3樓會議室",
         "url": "https://www.me.ntnu.edu.tw/index.php/2026/06/02/2026-06-02/",
         "date": "2026-06-02",
@@ -11613,13 +11613,6 @@
         "title": "2022台灣磨粒加工學會年會暨精密加工技術研討會《2022年12月16日(五)_國立臺灣師範大學》",
         "url": "https://www.me.ntnu.edu.tw/index.php/2022/10/31/2022-10-31/",
         "date": "2022-10-31",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2021-08-31 110學年度第1學期 機電系書報討論上課及專題演講時程",
-        "url": "https://www.me.ntnu.edu.tw/index.php/2021/08/31/2021-08-31/",
-        "date": "2021-08-31",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -13182,6 +13175,13 @@
     "label": "設計學系-最新消息",
     "announcements": [
       {
+        "title": "<展覽預告>時間x空間x人間：日本田中一郎與台灣當代藝術家郵遞藝術展",
+        "url": "https://www.design.ntnu.edu.tw/?p=18718",
+        "date": "2026-08-22",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "以身體記憶留下歷史的回聲設計系黃心健教授三獲林茲電子藝術節榮譽獎",
         "url": "https://www.design.ntnu.edu.tw/?p=18537",
         "date": "2026-07-07",
@@ -13206,13 +13206,6 @@
         "title": "115學年度國立臺灣師範大學申請入學錄取名單公告",
         "url": "https://www.design.ntnu.edu.tw/?p=18429",
         "date": "2026-05-28",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "國立臺灣師範大學設計學系特聘教授黃心健受邀擔任2026「金點新秀設計獎」數位互動設計類評審團召集人",
-        "url": "https://www.design.ntnu.edu.tw/?p=18464",
-        "date": "2026-05-27",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -13262,6 +13255,13 @@
     "label": "運動與休閒學院-最新消息",
     "announcements": [
       {
+        "title": "【公告】115年「追光運動績優學生獎助學金」（115年9月30日截止）",
+        "url": "https://www.csr.ntnu.edu.tw/index.php/2026/09/08/01-96/",
+        "date": "2026-09-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動轉知】姊妹校立陶宛體育大學The 10th LSU International Week",
         "url": "https://www.csr.ntnu.edu.tw/index.php/2026/09/08/2026-09-08-02/",
         "date": "2026-09-08",
@@ -13286,13 +13286,6 @@
         "title": "【轉知】教育部人社學術人才跨國培育計畫-甄選說明暨成果發表會資訊",
         "url": "https://www.csr.ntnu.edu.tw/index.php/2026/09/01/2026-09-01-01/",
         "date": "2026-09-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【活動花絮】睽違13年再度承辦 2026 ISHPES國際體育運動史大會於臺師大圓滿落幕 全球逾20國學者開拓體育運動史新視野",
-        "url": "https://www.csr.ntnu.edu.tw/index.php/2026/08/31/01-95/",
-        "date": "2026-08-31",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -13462,6 +13455,13 @@
     "label": "運動與休閒學院-獎助學金",
     "announcements": [
       {
+        "title": "【公告】115年「追光運動績優學生獎助學金」（115年9月30日截止）",
+        "url": "https://www.csr.ntnu.edu.tw/index.php/2026/09/08/01-96/",
+        "date": "2026-09-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動花絮】于蓓蒂校友捐百萬獎學金 支持運動績優學子逐夢",
         "url": "https://www.csr.ntnu.edu.tw/index.php/2026/05/19/02-33/",
         "date": "2026-05-19",
@@ -13486,13 +13486,6 @@
         "title": "【公告】運休學院115年度短期赴外交流補助即日起開放申請（115/11/02截止）",
         "url": "https://www.csr.ntnu.edu.tw/index.php/2026/04/07/2026-04-07-01-2/",
         "date": "2026-04-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "［活動花絮］52級校友呂聯宗夫婦打造百萬美金永續基金 勉勵體育與運動科學系學子飲水思源、勇敢逐夢、傳承感恩精神",
-        "url": "https://www.csr.ntnu.edu.tw/index.php/2025/12/31/01-38/",
-        "date": "2025-12-31",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -14830,6 +14823,13 @@
     "label": "音樂學系-最新消息",
     "announcements": [
       {
+        "title": "【115年音樂學院－學生赴外獎學金補助】申請期間115年9月21日至115年10月12日",
+        "url": "https://www.music.ntnu.edu.tw/index.php/2026/09/11/yuchen0911/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115學年音樂基礎訓練分班公告",
         "url": "https://www.music.ntnu.edu.tw/index.php/2026/09/10/yu20260910/",
         "date": "2026-09-10",
@@ -14856,19 +14856,19 @@
         "date": "2026-09-01",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "115-1學期個別課教師安排及選課公告",
-        "url": "https://www.music.ntnu.edu.tw/index.php/2026/09/01/yutingkao1110216/",
-        "date": "2026-09-01",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "music_affairs": {
     "label": "音樂學系-系所公告",
     "announcements": [
+      {
+        "title": "【115年音樂學院－學生赴外獎學金補助】申請期間115年9月21日至115年10月12日",
+        "url": "https://www.music.ntnu.edu.tw/index.php/2026/09/11/yuchen0911/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "115學年和聲學分班公告",
         "url": "https://www.music.ntnu.edu.tw/index.php/2026/09/09/yu20260909/",
@@ -14894,13 +14894,6 @@
         "title": "徵聘行政組員( 115/08/19 週三截止 )",
         "url": "https://www.music.ntnu.edu.tw/index.php/2026/08/11/1150819/",
         "date": "2026-08-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【更新】國立臺灣師範大學音樂學系115學年度第一學期行事曆",
-        "url": "https://www.music.ntnu.edu.tw/index.php/2026/08/10/1150810/",
-        "date": "2026-08-10",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -15070,6 +15063,13 @@
     "label": "音樂學系-獎學金",
     "announcements": [
       {
+        "title": "【115年音樂學院－學生赴外獎學金補助】申請期間115年9月21日至115年10月12日",
+        "url": "https://www.music.ntnu.edu.tw/index.php/2026/09/11/yuchen0911/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115學士班新生入學成績優異獎學金",
         "url": "https://www.music.ntnu.edu.tw/index.php/2026/07/27/2018-06-04/",
         "date": "2026-07-27",
@@ -15094,13 +15094,6 @@
         "title": "113學年度「舒音獎學金_閩南語歌曲聲樂獎」甄選公告",
         "url": "https://www.music.ntnu.edu.tw/index.php/2024/09/25/113sch/",
         "date": "2024-09-25",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "112學年度「舒音獎學金＿聖樂詠唱調聲樂獎」甄選公告",
-        "url": "https://www.music.ntnu.edu.tw/index.php/2024/02/21/2024022101/",
-        "date": "2024-02-21",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -17373,6 +17366,13 @@
     "label": "東亞學系 (含政治所)-所有消息",
     "announcements": [
       {
+        "title": "【碩專班】115-1調課安排-原則上連假調課至其他日補課",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=碩博士班&news02=12033720416aa3555d38324",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2026 TOEFL ITP 高等教育學術研究獎學金（最高12,000元）",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=獎勵補助&news02=19274123926aa10f9eb220f",
         "date": "2026-09-09",
@@ -17390,13 +17390,6 @@
         "title": "115學年度學士班「優秀學生選拔」申請公告-系辦收件至115.10.19",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=獎勵補助&news02=13343672316a9fd104d1f36",
         "date": "2026-09-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【碩士班】115學年度研究所新生「入學者心理健康與生活適應量表」線上施測",
-        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=碩博士班&news02=17851123546a98c90c6152f",
-        "date": "2026-09-03",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -17559,6 +17552,13 @@
     "label": "東亞學系 (含政治所)-碩博士班",
     "announcements": [
       {
+        "title": "【碩專班】115-1調課安排-原則上連假調課至其他日補課",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=碩博士班&news02=12033720416aa3555d38324",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【碩士班】115學年度研究所新生「入學者心理健康與生活適應量表」線上施測",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=碩博士班&news02=17851123546a98c90c6152f",
         "date": "2026-09-03",
@@ -17583,13 +17583,6 @@
         "title": "114-2碩專班論文成果發表即日起至115年4月15日(三)17:00止受理申請",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=碩博士班&news02=112697197369a520d04dc85",
         "date": "2026-03-02",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114-2 碩（含碩專）博士生學位論文口試 即日起至115年4月10日（五）17:00止受理申請",
-        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=碩博士班&news02=1918216393698c16e6ea8bf",
-        "date": "2026-02-11",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -17816,6 +17809,13 @@
     "label": "社會工作學研究所-獎學金公告",
     "announcements": [
       {
+        "title": "第一屆社工督導論文獎徵稿",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Sholarship/News.aspx?id=7KShBTi6PLM=&Sn=1001",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115年傑出學生獎學金",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Sholarship/News.aspx?id=7KShBTi6PLM=&Sn=995",
         "date": "2026-09-07",
@@ -17839,13 +17839,6 @@
       {
         "title": "114-2 碩士班優秀研究生獎學金",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Sholarship/News.aspx?id=7KShBTi6PLM=&Sn=592",
-        "date": "2026-03-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "國立臺灣師範大學謝碧桃女士助學金",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Sholarship/News.aspx?id=7KShBTi6PLM=&Sn=563",
         "date": "2026-03-04",
         "date_label": "發布日期",
         "summary": ""
@@ -17896,6 +17889,20 @@
     "label": "社會工作學研究所-其他活動演講",
     "announcements": [
       {
+        "title": "2026/10/20（二）截止 115學年度第一學期英語說故事比賽",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-OtherSpeech/News.aspx?id=uiHdRYIUPjE=&Sn=1003",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026/09/19（六）、09/20（日）「地球另一端的冒險」巴拉圭主題展覽",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-OtherSpeech/News.aspx?id=uiHdRYIUPjE=&Sn=1002",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2026/09/16（三）、10/13（二） 心棲性創傷復原中心性創傷系列講座",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-OtherSpeech/News.aspx?id=uiHdRYIUPjE=&Sn=999",
         "date": "2026-09-10",
@@ -17913,20 +17920,6 @@
         "title": "2026/9/17（四） 臺師大圖書館 英語讀書會帶領人現正招募中",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-OtherSpeech/News.aspx?id=uiHdRYIUPjE=&Sn=990",
         "date": "2026-09-07",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026/09/17（四） 開源基金會 【AI 開源新勢力人才培育計畫】學生招募暨說明會",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-OtherSpeech/News.aspx?id=uiHdRYIUPjE=&Sn=988",
-        "date": "2026-09-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "2026/09/15（二）教育部人文及社會科學學術人才跨國培育計畫「116年度甄選說明暨返國學生成果發表會」",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-OtherSpeech/News.aspx?id=uiHdRYIUPjE=&Sn=985",
-        "date": "2026-09-02",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -18995,6 +18988,20 @@
     "label": "跨域科技產業創新研究學院-最新消息",
     "announcements": [
       {
+        "title": "【活動轉知】聽故事、找資源、談創業 – 9/30 (三) 育成創業小聚",
+        "url": "https://www.ciai.ntnu.edu.tw/index.php/2026/09/11/https-www-ciai-ntnu-edu-tw-index-php-2026-09-11-2/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【活動轉知】2026 NXT Fresh人才培育計畫 – 9/17(四) 臺師大校園說明會",
+        "url": "https://www.ciai.ntnu.edu.tw/index.php/2026/09/11/https-www-ciai-ntnu-edu-tw-index-php-2026-09-11/",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動轉知】科技化教學產業學分學程-科技化教學平台運用與課程設計熱烈招生中",
         "url": "https://www.ciai.ntnu.edu.tw/index.php/2026/09/09/https-www-ciai-ntnu-edu-tw-index-php-2026-09-09/",
         "date": "2026-09-09",
@@ -19012,20 +19019,6 @@
         "title": "115-1學期起配合為校園耐震補強工程，本院部分樓層空間將提供課程使用",
         "url": "https://www.ciai.ntnu.edu.tw/index.php/2026/09/03/https-www-ciai-ntnu-edu-tw-index-php-2026-09-03/",
         "date": "2026-09-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "（舊生）產創學院學生獎學金自9月7日至9月21日開放申請囉！Scholarship applications for the 115-1 semester from Sep 7 to Sep 21, 2026.",
-        "url": "https://www.ciai.ntnu.edu.tw/index.php/2026/09/01/20260901-1/",
-        "date": "2026-09-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "（新生）產創學院學生獎學金自9月7日至9月21日開放申請囉！(New Students) Scholarship Applications are now open!",
-        "url": "https://www.ciai.ntnu.edu.tw/index.php/2026/09/01/20260901/",
-        "date": "2026-09-01",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -19732,6 +19725,13 @@
     "label": "研究發展處-計畫徵求",
     "announcements": [
       {
+        "title": "【國科會】116年度卓越領航研究計畫",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1102/-%E5%9C%8B%E7%A7%91%E6%9C%83-116%E5%B9%B4%E5%BA%A6%E5%8D%93%E8%B6%8A%E9%A0%98%E8%88%AA%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-92799570",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【國科會】國科會與英國國家學術院（BA）共同徵求2027年雙邊合作人員交流計畫",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1102/-%E5%9C%8B%E7%A7%91%E6%9C%83-%E5%9C%8B%E7%A7%91%E6%9C%83%E8%88%87%E8%8B%B1%E5%9C%8B%E5%9C%8B%E5%AE%B6%E5%AD%B8%E8%A1%93%E9%99%A2%EF%BC%88BA%EF%BC%89%E5%85%B1%E5%90%8C%E5%BE%B5%E6%B1%822027%E5%B9%B4%E9%9B%99%E9%82%8A%E5%90%88%E4%BD%9C%E4%BA%BA%E5%93%A1%E4%BA%A4%E6%B5%81%E8%A8%88%E7%95%AB-9557215",
         "date": "2026-09-10",
@@ -19755,13 +19755,6 @@
       {
         "title": "【國科會】116年度「學術攻頂研究計畫」構想書",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1102/-%E5%9C%8B%E7%A7%91%E6%9C%83-116%E5%B9%B4%E5%BA%A6-%E5%AD%B8%E8%A1%93%E6%94%BB%E9%A0%82%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-%E6%A7%8B%E6%83%B3%E6%9B%B8-77432532",
-        "date": "2026-08-31",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【國科會】116年度「晶創人文跨域前瞻研究計畫」",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1102/-%E5%9C%8B%E7%A7%91%E6%9C%83-116%E5%B9%B4%E5%BA%A6-%E6%99%B6%E5%89%B5%E4%BA%BA%E6%96%87%E8%B7%A8%E5%9F%9F%E5%89%8D%E7%9E%BB%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-35016152",
         "date": "2026-08-31",
         "date_label": "發布日期",
         "summary": ""
@@ -19812,6 +19805,13 @@
     "label": "研究發展處-研討會及徵稿",
     "announcements": [
       {
+        "title": "【轉知】社團法人台灣農業資訊科技發展協會辦理「2026年亞太農業資訊科技國際研討會」論文延長徵稿啟事",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1104/-%E8%BD%89%E7%9F%A5-%E7%A4%BE%E5%9C%98%E6%B3%95%E4%BA%BA%E5%8F%B0%E7%81%A3%E8%BE%B2%E6%A5%AD%E8%B3%87%E8%A8%8A%E7%A7%91%E6%8A%80%E7%99%BC%E5%B1%95%E5%8D%94%E6%9C%83%E8%BE%A6%E7%90%86-2026%E5%B9%B4%E4%BA%9E%E5%A4%AA%E8%BE%B2%E6%A5%AD%E8%B3%87%E8%A8%8A%E7%A7%91%E6%8A%80%E5%9C%8B%E9%9A%9B%E7%A0%94%E8%A8%8E%E6%9C%83-%E8%AB%96%E6%96%87%E5%BB%B6%E9%95%B7%E5%BE%B5%E7%A8%BF%E5%95%9F%E4%BA%8B-45691999",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【轉知】衛生福利部舉辦「第十五屆全人醫療整合服務暨健康台灣深耕計畫國際研討會」",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1104/-%E8%BD%89%E7%9F%A5-%E8%A1%9B%E7%94%9F%E7%A6%8F%E5%88%A9%E9%83%A8%E8%88%89%E8%BE%A6-%E7%AC%AC%E5%8D%81%E4%BA%94%E5%B1%86%E5%85%A8%E4%BA%BA%E9%86%AB%E7%99%82%E6%95%B4%E5%90%88%E6%9C%8D%E5%8B%99%E6%9A%A8%E5%81%A5%E5%BA%B7%E5%8F%B0%E7%81%A3%E6%B7%B1%E8%80%95%E8%A8%88%E7%95%AB%E5%9C%8B%E9%9A%9B%E7%A0%94%E8%A8%8E%E6%9C%83-53885171",
         "date": "2026-09-10",
@@ -19836,13 +19836,6 @@
         "title": "【轉知】國立臺灣大學辦理「臺大椰林講座 - 創智系列」",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1104/-%E8%BD%89%E7%9F%A5-%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E8%BE%A6%E7%90%86-%E8%87%BA%E5%A4%A7%E6%A4%B0%E6%9E%97%E8%AC%9B%E5%BA%A7-%E5%89%B5%E6%99%BA%E7%B3%BB%E5%88%97-22689417",
         "date": "2026-09-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【轉知】國立中正大學辦理CSME2026徵稿資訊",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1104/-%E8%BD%89%E7%9F%A5-%E5%9C%8B%E7%AB%8B%E4%B8%AD%E6%AD%A3%E5%A4%A7%E5%AD%B8%E8%BE%A6%E7%90%86CSME2026%E5%BE%B5%E7%A8%BF%E8%B3%87%E8%A8%8A-29468839",
-        "date": "2026-08-27",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -19958,6 +19951,13 @@
     "label": "研究推動組-計畫徵求公告",
     "announcements": [
       {
+        "title": "【國科會】116年度卓越領航研究計畫",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news2/-%E5%9C%8B%E7%A7%91%E6%9C%83-116%E5%B9%B4%E5%BA%A6%E5%8D%93%E8%B6%8A%E9%A0%98%E8%88%AA%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-92799570",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【國科會】國科會與英國國家學術院（BA）共同徵求2027年雙邊合作人員交流計畫",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news2/-%E5%9C%8B%E7%A7%91%E6%9C%83-%E5%9C%8B%E7%A7%91%E6%9C%83%E8%88%87%E8%8B%B1%E5%9C%8B%E5%9C%8B%E5%AE%B6%E5%AD%B8%E8%A1%93%E9%99%A2%EF%BC%88BA%EF%BC%89%E5%85%B1%E5%90%8C%E5%BE%B5%E6%B1%822027%E5%B9%B4%E9%9B%99%E9%82%8A%E5%90%88%E4%BD%9C%E4%BA%BA%E5%93%A1%E4%BA%A4%E6%B5%81%E8%A8%88%E7%95%AB-9557215",
         "date": "2026-09-10",
@@ -19981,13 +19981,6 @@
       {
         "title": "【國科會】116年度「學術攻頂研究計畫」構想書",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news2/-%E5%9C%8B%E7%A7%91%E6%9C%83-116%E5%B9%B4%E5%BA%A6-%E5%AD%B8%E8%A1%93%E6%94%BB%E9%A0%82%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-%E6%A7%8B%E6%83%B3%E6%9B%B8-77432532",
-        "date": "2026-08-31",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【國科會】116年度「晶創人文跨域前瞻研究計畫」",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/drc/3downs1/3news2/-%E5%9C%8B%E7%A7%91%E6%9C%83-116%E5%B9%B4%E5%BA%A6-%E6%99%B6%E5%89%B5%E4%BA%BA%E6%96%87%E8%B7%A8%E5%9F%9F%E5%89%8D%E7%9E%BB%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-35016152",
         "date": "2026-08-31",
         "date_label": "發布日期",
         "summary": ""
@@ -20038,6 +20031,13 @@
     "label": "產學合作組-最新公告",
     "announcements": [
       {
+        "title": "【轉知】中華創新發明學會舉辦『2026第二十二屆IIP國際傑出發明家獎』頒獎典禮，敬請踴躍報名參加。",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/dril/4downs1/dnews1/-%E8%BD%89%E7%9F%A5-%E4%B8%AD%E8%8F%AF%E5%89%B5%E6%96%B0%E7%99%BC%E6%98%8E%E5%AD%B8%E6%9C%83%E8%88%89%E8%BE%A6%E3%80%8E2026%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%8C%E5%B1%86IIP%E5%9C%8B%E9%9A%9B%E5%82%91%E5%87%BA%E7%99%BC%E6%98%8E%E5%AE%B6%E7%8D%8E%E3%80%8F%E9%A0%92%E7%8D%8E%E5%85%B8%E7%A6%AE-%E6%95%AC%E8%AB%8B%E8%B8%B4%E8%BA%8D%E5%A0%B1%E5%90%8D%E5%8F%83%E5%8A%A0-47006028",
+        "date": "2026-09-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【轉知】文藻外語大學舉辦「李元欣紀念講座─文藻外語大學60週年校慶教育論壇暨產學成果展」，敬請踴躍報名參加。",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/dril/4downs1/dnews1/-%E8%BD%89%E7%9F%A5-%E6%96%87%E8%97%BB%E5%A4%96%E8%AA%9E%E5%A4%A7%E5%AD%B8%E8%88%89%E8%BE%A6-%E6%9D%8E%E5%85%83%E6%AC%A3%E7%B4%80%E5%BF%B5%E8%AC%9B%E5%BA%A7%E2%94%80%E6%96%87%E8%97%BB%E5%A4%96%E8%AA%9E%E5%A4%A7%E5%AD%B860%E9%80%B1%E5%B9%B4%E6%A0%A1%E6%85%B6%E6%95%99%E8%82%B2%E8%AB%96%E5%A3%87%E6%9A%A8%E7%94%A2%E5%AD%B8%E6%88%90%E6%9E%9C%E5%B1%95-%E6%95%AC%E8%AB%8B%E8%B8%B4%E8%BA%8D%E5%A0%B1%E5%90%8D%E5%8F%83%E5%8A%A0-33623323",
         "date": "2026-09-09",
@@ -20064,13 +20064,6 @@
         "date": "2026-09-03",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "【發明展】台灣發明商品促進協會辦理「2027曼谷國際發明展」，歡迎踴躍報名參加。",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/dril/4downs1/dnews1/-%E7%99%BC%E6%98%8E%E5%B1%95-%E5%8F%B0%E7%81%A3%E7%99%BC%E6%98%8E%E5%95%86%E5%93%81%E4%BF%83%E9%80%B2%E5%8D%94%E6%9C%83%E8%BE%A6%E7%90%86-2027%E6%9B%BC%E8%B0%B7%E5%9C%8B%E9%9A%9B%E7%99%BC%E6%98%8E%E5%B1%95-%E6%AD%A1%E8%BF%8E%E8%B8%B4%E8%BA%8D%E5%A0%B1%E5%90%8D%E5%8F%83%E5%8A%A0-47823455",
-        "date": "2026-08-27",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
@@ -20081,6 +20074,13 @@
         "title": "配合文學院耐震補強工程，研究倫理審查費補助申請送件請改送至研發處公文登記桌(普通大樓2樓)或電洽陳小姐。",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/1102/%E9%85%8D%E5%90%88%E6%96%87%E5%AD%B8%E9%99%A2%E8%80%90%E9%9C%87%E8%A3%9C%E5%BC%B7%E5%B7%A5%E7%A8%8B-%E7%A0%94%E7%A9%B6%E5%80%AB%E7%90%86%E5%AF%A9%E6%9F%A5%E8%B2%BB%E8%A3%9C%E5%8A%A9%E7%94%B3%E8%AB%8B%E9%80%81%E4%BB%B6%E8%AB%8B%E6%94%B9%E9%80%81%E8%87%B3%E7%A0%94%E7%99%BC%E8%99%95%E5%85%AC%E6%96%87%E7%99%BB%E8%A8%98%E6%A1%8C-%E6%99%AE%E9%80%9A%E5%A4%A7%E6%A8%932%E6%A8%93-%E6%88%96%E9%9B%BB%E6%B4%BD%E9%99%B3%E5%B0%8F%E5%A7%90-10358577",
         "date": "2026-09-09",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【國科會】116年度卓越領航研究計畫",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/showepaper/-%E5%9C%8B%E7%A7%91%E6%9C%83-116%E5%B9%B4%E5%BA%A6%E5%8D%93%E8%B6%8A%E9%A0%98%E8%88%AA%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-92799570",
+        "date": "2026-09-11",
         "date_label": "發布日期",
         "summary": ""
       },
@@ -20102,13 +20102,6 @@
         "title": "【徵件】「116年委託科技研究計畫」公開徵求研究計畫書",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/showepaper/-%E5%BE%B5%E4%BB%B6-116%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A7%91%E6%8A%80%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-%E5%85%AC%E9%96%8B%E5%BE%B5%E6%B1%82%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB%E6%9B%B8-43399873",
         "date": "2026-09-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【國科會】116年度「學術攻頂研究計畫」構想書",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/showepaper/-%E5%9C%8B%E7%A7%91%E6%9C%83-116%E5%B9%B4%E5%BA%A6-%E5%AD%B8%E8%A1%93%E6%94%BB%E9%A0%82%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB-%E6%A7%8B%E6%83%B3%E6%9B%B8-77432532",
-        "date": "2026-08-31",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -20813,7 +20806,7 @@
     "label": "師資培育學院-訊息公告-全部列表",
     "announcements": [
       {
-        "title": "教師資格考試特殊教育學校（班）師資類科－「課程教學與評量—特殊教育學校（班）身心障礙組」說明",
+        "title": "教師資格考試－課程教學與評量（特教身障組）」考科分卷（特中小、特幼）說明",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=658",
         "date": "2026-09-10",
         "date_label": "發布日期",
@@ -20893,7 +20886,7 @@
     "label": "師資培育學院-訊息公告-師資培育課程組",
     "announcements": [
       {
-        "title": "教師資格考試特殊教育學校（班）師資類科－「課程教學與評量—特殊教育學校（班）身心障礙組」說明",
+        "title": "教師資格考試－課程教學與評量（特教身障組）」考科分卷（特中小、特幼）說明",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=658",
         "date": "2026-09-10",
         "date_label": "發布日期",
@@ -21547,13 +21540,6 @@
   "phr_activities": {
     "label": "體育室-活動競賽訊息",
     "announcements": [
-      {
-        "title": "游泳館3樓智能健身中心｜ 體能訓練課程 開放預約登記！",
-        "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/activities/%E6%B8%B8%E6%B3%B3%E9%A4%A83%E6%A8%93%E6%99%BA%E8%83%BD%E5%81%A5%E8%BA%AB%E4%B8%AD%E5%BF%83%EF%BD%9C%E9%AB%94%E8%83%BD%E8%A8%93%E7%B7%B4%E8%AA%B2%E7%A8%8B%C2%A0%E9%96%8B%E6%94%BE%E9%A0%90%E7%B4%84%E7%99%BB%E8%A8%98-84444432",
-        "date": "2026-09-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
       {
         "title": "<轉知比賽訊息>國立成功大學舉辦「第22屆成功盃全國大專院校田徑錦標賽」",
         "url": "https://www.phr.ntnu.edu.tw/zh_tw/news/activities/-%E8%BD%89%E7%9F%A5%E6%AF%94%E8%B3%BD%E8%A8%8A%E6%81%AF-%E5%9C%8B%E7%AB%8B%E6%88%90%E5%8A%9F%E5%A4%A7%E5%AD%B8%E8%88%89%E8%BE%A6-%E7%AC%AC22%E5%B1%86%E6%88%90%E5%8A%9F%E7%9B%83%E5%85%A8%E5%9C%8B%E5%A4%A7%E5%B0%88%E9%99%A2%E6%A0%A1%E7%94%B0%E5%BE%91%E9%8C%A6%E6%A8%99%E8%B3%BD-%0D%0A%0D%0A%C2%A0-64782863",
@@ -22306,37 +22292,37 @@
     "label": "課外活動指導組-最新消息",
     "announcements": [
       {
-        "title": "臺中市政府文化局「2026第8屆中山堂青春競藝LIVE秀」",
-        "url": "https://activity.sa.ntnu.edu.tw/%e8%87%ba%e4%b8%ad%e5%b8%82%e6%94%bf%e5%ba%9c%e6%96%87%e5%8c%96%e5%b1%80%e3%80%8c2026%e7%ac%ac8%e5%b1%86%e4%b8%ad%e5%b1%b1%e5%a0%82%e9%9d%92%e6%98%a5%e7%ab%b6%e8%97%9dlive%e7%a7%80%e3%80%8d/",
-        "date": "2026-09-10",
+        "title": "第十一屆台積電青年築夢計畫",
+        "url": "https://activity.sa.ntnu.edu.tw/%e7%ac%ac%e5%8d%81%e4%b8%80%e5%b1%86%e5%8f%b0%e7%a9%8d%e9%9b%bb%e9%9d%92%e5%b9%b4%e7%af%89%e5%a4%a2%e8%a8%88%e7%95%ab/",
+        "date": "2026-09-11",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "數位發展部資通安全署-115年度第21屆資安技能金盾獎競賽",
-        "url": "https://activity.sa.ntnu.edu.tw/%e6%95%b8%e4%bd%8d%e7%99%bc%e5%b1%95%e9%83%a8%e8%b3%87%e9%80%9a%e5%ae%89%e5%85%a8%e7%bd%b2-115%e5%b9%b4%e5%ba%a6%e7%ac%ac21%e5%b1%86%e8%b3%87%e5%ae%89%e6%8a%80%e8%83%bd%e9%87%91%e7%9b%be%e7%8d%8e/",
-        "date": "2026-09-09",
+        "title": "115年中秋節暨教師節、國慶日連續假期公共運輸優惠措施",
+        "url": "https://activity.sa.ntnu.edu.tw/115%e5%b9%b4%e4%b8%ad%e7%a7%8b%e7%af%80%e6%9a%a8%e6%95%99%e5%b8%ab%e7%af%80%e3%80%81%e5%9c%8b%e6%85%b6%e6%97%a5%e9%80%a3%e7%ba%8c%e5%81%87%e6%9c%9f%e5%85%ac%e5%85%b1%e9%81%8b%e8%bc%b8%e5%84%aa/",
+        "date": "2026-09-11",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "2026神盾盃國際邀請賽暨國防AI競賽",
-        "url": "https://activity.sa.ntnu.edu.tw/2026%e7%a5%9e%e7%9b%be%e7%9b%83%e5%9c%8b%e9%9a%9b%e9%82%80%e8%ab%8b%e8%b3%bd%e6%9a%a8%e5%9c%8b%e9%98%b2ai%e7%ab%b6%e8%b3%bd/",
-        "date": "2026-09-08",
+        "title": "「民國116年陸軍形象桌曆」甄選活動",
+        "url": "https://activity.sa.ntnu.edu.tw/%e3%80%8c%e6%b0%91%e5%9c%8b116%e5%b9%b4%e9%99%b8%e8%bb%8d%e5%bd%a2%e8%b1%a1%e6%a1%8c%e6%9b%86%e3%80%8d%e7%94%84%e9%81%b8%e6%b4%bb%e5%8b%95/",
+        "date": "2026-09-11",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "2026消除種族歧視短影音競賽",
-        "url": "https://activity.sa.ntnu.edu.tw/2026%e6%b6%88%e9%99%a4%e7%a8%ae%e6%97%8f%e6%ad%a7%e8%a6%96%e7%9f%ad%e5%bd%b1%e9%9f%b3%e7%ab%b6%e8%b3%bd/",
-        "date": "2026-09-03",
+        "title": "國立政治大學 2026秋冬藝術計畫「癮」",
+        "url": "https://activity.sa.ntnu.edu.tw/%e5%9c%8b%e7%ab%8b%e6%94%bf%e6%b2%bb%e5%a4%a7%e5%ad%b8-2026%e7%a7%8b%e5%86%ac%e8%97%9d%e8%a1%93%e8%a8%88%e7%95%ab%e3%80%8c%e7%99%ae%e3%80%8d/",
+        "date": "2026-09-11",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "2026CCCE全國科藝電競大賽",
-        "url": "https://activity.sa.ntnu.edu.tw/2026ccce%e5%85%a8%e5%9c%8b%e7%a7%91%e8%97%9d%e9%9b%bb%e7%ab%b6%e5%a4%a7%e8%b3%bd/",
-        "date": "2026-09-02",
+        "title": "國立臺灣戲曲學院「2026湖光山色藝術季─秋季公演」",
+        "url": "https://activity.sa.ntnu.edu.tw/%e5%9c%8b%e7%ab%8b%e8%87%ba%e7%81%a3%e6%88%b2%e6%9b%b2%e5%ad%b8%e9%99%a2%e3%80%8c2026%e6%b9%96%e5%85%89%e5%b1%b1%e8%89%b2%e8%97%9d%e8%a1%93%e5%ad%a3%e2%94%80%e7%a7%8b%e5%ad%a3%e5%85%ac%e6%bc%94/",
+        "date": "2026-09-11",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -22843,37 +22829,37 @@
     "label": "課外活動指導組-活動資訊",
     "announcements": [
       {
-        "title": "數位發展部資通安全署-115年度第21屆資安技能金盾獎競賽",
-        "url": "https://activity.sa.ntnu.edu.tw/%e6%95%b8%e4%bd%8d%e7%99%bc%e5%b1%95%e9%83%a8%e8%b3%87%e9%80%9a%e5%ae%89%e5%85%a8%e7%bd%b2-115%e5%b9%b4%e5%ba%a6%e7%ac%ac21%e5%b1%86%e8%b3%87%e5%ae%89%e6%8a%80%e8%83%bd%e9%87%91%e7%9b%be%e7%8d%8e/",
-        "date": "2026-09-09",
+        "title": "第十一屆台積電青年築夢計畫",
+        "url": "https://activity.sa.ntnu.edu.tw/%e7%ac%ac%e5%8d%81%e4%b8%80%e5%b1%86%e5%8f%b0%e7%a9%8d%e9%9b%bb%e9%9d%92%e5%b9%b4%e7%af%89%e5%a4%a2%e8%a8%88%e7%95%ab/",
+        "date": "2026-09-11",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "2026神盾盃國際邀請賽暨國防AI競賽",
-        "url": "https://activity.sa.ntnu.edu.tw/2026%e7%a5%9e%e7%9b%be%e7%9b%83%e5%9c%8b%e9%9a%9b%e9%82%80%e8%ab%8b%e8%b3%bd%e6%9a%a8%e5%9c%8b%e9%98%b2ai%e7%ab%b6%e8%b3%bd/",
-        "date": "2026-09-08",
+        "title": "115年中秋節暨教師節、國慶日連續假期公共運輸優惠措施",
+        "url": "https://activity.sa.ntnu.edu.tw/115%e5%b9%b4%e4%b8%ad%e7%a7%8b%e7%af%80%e6%9a%a8%e6%95%99%e5%b8%ab%e7%af%80%e3%80%81%e5%9c%8b%e6%85%b6%e6%97%a5%e9%80%a3%e7%ba%8c%e5%81%87%e6%9c%9f%e5%85%ac%e5%85%b1%e9%81%8b%e8%bc%b8%e5%84%aa/",
+        "date": "2026-09-11",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "2026消除種族歧視短影音競賽",
-        "url": "https://activity.sa.ntnu.edu.tw/2026%e6%b6%88%e9%99%a4%e7%a8%ae%e6%97%8f%e6%ad%a7%e8%a6%96%e7%9f%ad%e5%bd%b1%e9%9f%b3%e7%ab%b6%e8%b3%bd/",
-        "date": "2026-09-03",
+        "title": "「民國116年陸軍形象桌曆」甄選活動",
+        "url": "https://activity.sa.ntnu.edu.tw/%e3%80%8c%e6%b0%91%e5%9c%8b116%e5%b9%b4%e9%99%b8%e8%bb%8d%e5%bd%a2%e8%b1%a1%e6%a1%8c%e6%9b%86%e3%80%8d%e7%94%84%e9%81%b8%e6%b4%bb%e5%8b%95/",
+        "date": "2026-09-11",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "2026CCCE全國科藝電競大賽",
-        "url": "https://activity.sa.ntnu.edu.tw/2026ccce%e5%85%a8%e5%9c%8b%e7%a7%91%e8%97%9d%e9%9b%bb%e7%ab%b6%e5%a4%a7%e8%b3%bd/",
-        "date": "2026-09-02",
+        "title": "國立政治大學 2026秋冬藝術計畫「癮」",
+        "url": "https://activity.sa.ntnu.edu.tw/%e5%9c%8b%e7%ab%8b%e6%94%bf%e6%b2%bb%e5%a4%a7%e5%ad%b8-2026%e7%a7%8b%e5%86%ac%e8%97%9d%e8%a1%93%e8%a8%88%e7%95%ab%e3%80%8c%e7%99%ae%e3%80%8d/",
+        "date": "2026-09-11",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "2026當大人高校祭－巡迴工作坊",
-        "url": "https://activity.sa.ntnu.edu.tw/2026%e7%95%b6%e5%a4%a7%e4%ba%ba%e9%ab%98%e6%a0%a1%e7%a5%ad%ef%bc%8d%e5%b7%a1%e8%bf%b4%e5%b7%a5%e4%bd%9c%e5%9d%8a/",
-        "date": "2026-09-02",
+        "title": "國立臺灣戲曲學院「2026湖光山色藝術季─秋季公演」",
+        "url": "https://activity.sa.ntnu.edu.tw/%e5%9c%8b%e7%ab%8b%e8%87%ba%e7%81%a3%e6%88%b2%e6%9b%b2%e5%ad%b8%e9%99%a2%e3%80%8c2026%e6%b9%96%e5%85%89%e5%b1%b1%e8%89%b2%e8%97%9d%e8%a1%93%e5%ad%a3%e2%94%80%e7%a7%8b%e5%ad%a3%e5%85%ac%e6%bc%94/",
+        "date": "2026-09-11",
         "date_label": "發布日期",
         "summary": ""
       }
