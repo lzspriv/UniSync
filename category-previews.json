@@ -3176,6 +3176,14 @@
         "show_summary": true
       },
       {
+        "title": "[演講訊息]10/01 Jimmy de la Torre",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10752",
+        "date": "2026-09-16",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-10-01 10:00 ~ 2026-10-01 11:30 / 地點：圖書館校區進修推廣學院大樓2樓視聽教室",
+        "show_summary": true
+      },
+      {
         "title": "115學年度 BLS認證急救訓練",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10751",
         "date": "2026-09-16",
@@ -3197,14 +3205,6 @@
         "date": "2026-09-16",
         "date_label": "新增日期",
         "summary": "活動時間：2026-09-16 10:00 ~ 2026-10-13 12:00 / 地點：線上講座",
-        "show_summary": true
-      },
-      {
-        "title": "GVP & GMT Workshop 2026",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10746",
-        "date": "2026-09-16",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-09-29 09:00 ~ 2026-10-01 17:00 / 地點：數學館",
         "show_summary": true
       }
     ]
