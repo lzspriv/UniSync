@@ -1582,6 +1582,13 @@
     "label": "資訊工程學系-最新消息",
     "announcements": [
       {
+        "title": "【115年9月23日演講公告】Secure Distributed Ledger Technologies for Decentralized Ad-hoc Networks & Efficient IoT Off-Chain Storage",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/09/19/226-09-19/",
+        "date": "2026-09-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【115學年度第1學期申請論文考試作業流程】碩士班同學請依各階段所需文件依限提出申請，博士班同學另案辦理，如說明。",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/09/18/20260727/",
         "date": "2026-09-18",
@@ -1608,19 +1615,19 @@
         "date": "2026-09-08",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "【115-1學分數超修及學分不足申請至9/22止】",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/09/07/20260907-2/",
-        "date": "2026-09-07",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "csie_announcement": {
     "label": "資訊工程學系-系所公告",
     "announcements": [
+      {
+        "title": "【115年9月23日演講公告】Secure Distributed Ledger Technologies for Decentralized Ad-hoc Networks & Efficient IoT Off-Chain Storage",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/09/19/226-09-19/",
+        "date": "2026-09-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "【系內徵選】2026 國際大學生人工智慧競賽（ICAIC 2026）系內代表隊，歡迎有意參賽同學報名",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/09/18/20260918-01/",
@@ -1648,19 +1655,19 @@
         "date": "2026-09-08",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "【115-1學分數超修及學分不足申請至9/22止】",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/09/07/20260907-2/",
-        "date": "2026-09-07",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "csie_seminar": {
     "label": "資訊工程學系-演講公告",
     "announcements": [
+      {
+        "title": "【115年9月23日演講公告】Secure Distributed Ledger Technologies for Decentralized Ad-hoc Networks & Efficient IoT Off-Chain Storage",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/09/19/226-09-19/",
+        "date": "2026-09-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "【115年9月14日演講公告】WHERE AI MEETS INDUSTRY — Lessons from Canadian applied research",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/09/10/2026-09-10/",
@@ -1686,13 +1693,6 @@
         "title": "【115年9月9日演講公告】Online Decision Optimization for Green Mobility Systems in Smart Cities(智慧城市綠能移動系統之線上決策最佳化)",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/09/04/2026-09-04/",
         "date": "2026-09-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【115學年度第1學期碩博班專題討論修課注意事項】",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/08/12/2026-08-12/",
-        "date": "2026-08-12",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4689,16 +4689,16 @@
         "summary": ""
       },
       {
-        "title": "本校115-1學期「李符桐、錢蘋教授紀念獎學金」於115年10月18日（日）截止申請",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1414&title=本校115-1學期「李符桐、錢蘋教授紀念獎學金」於115年10月18日（日）截止申請",
-        "date": "2026-10-18",
+        "title": "本系115學年度國科會博士生研究獎學金_於115年10月2日（五）17:00截止申請",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1415&title=本系115學年度國科會博士生研究獎學金_於115年10月2日（五）17:00截止申請",
+        "date": "2026-10-02",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "本校115學年度「許定烽余惠順獎學金」於115年9月30日（三）截止申請",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1413&title=本校115學年度「許定烽余惠順獎學金」於115年9月30日（三）截止申請",
-        "date": "2026-09-30",
+        "title": "本校115-1學期「李符桐、錢蘋教授紀念獎學金」於115年10月18日（日）截止申請",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1414&title=本校115-1學期「李符桐、錢蘋教授紀念獎學金」於115年10月18日（日）截止申請",
+        "date": "2026-10-18",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4795,6 +4795,13 @@
         "summary": ""
       },
       {
+        "title": "本系115學年度國科會博士生研究獎學金_於115年10月2日（五）17:00截止申請",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Incentive/News.aspx?id=PrPAeVbJgjo=&Sn=1415&title=本系115學年度國科會博士生研究獎學金_於115年10月2日（五）17:00截止申請",
+        "date": "2026-10-02",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "本校115-1學期「李符桐、錢蘋教授紀念獎學金」於115年10月18日（日）截止申請",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Incentive/News.aspx?id=PrPAeVbJgjo=&Sn=1414&title=本校115-1學期「李符桐、錢蘋教授紀念獎學金」於115年10月18日（日）截止申請",
         "date": "2026-10-18",
@@ -4812,13 +4819,6 @@
         "title": "本校115-1學期「還願助學金」申請表（參見附檔）_於115年9月22日（二）截止申請",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Incentive/News.aspx?id=PrPAeVbJgjo=&Sn=1412&title= 本校115-1學期「還願助學金」申請表（參見附檔）_於115年9月22日（二）截止申請",
         "date": "2026-09-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "轉知 衛生福利部社會及家庭署辦理「115年單親培力計畫」申請",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Incentive/News.aspx?id=PrPAeVbJgjo=&Sn=1387&title=轉知 衛生福利部社會及家庭署辦理「115年單親培力計畫」申請",
-        "date": "2026-08-25",
         "date_label": "發布日期",
         "summary": ""
       }
