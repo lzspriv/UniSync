@@ -3210,7 +3210,7 @@
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10787",
         "date": "2026-10-02",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-10-05 16:29 ~ 2026-11-29 12:46 / 地點：臺師大進修推廣學院",
+        "summary": "活動時間：2026-10-12 16:29 ~ 2026-11-29 12:46 / 地點：臺師大進修推廣學院",
         "show_summary": true
       },
       {
@@ -3218,7 +3218,7 @@
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10786",
         "date": "2026-10-02",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-10-05 08:00 ~ 2026-12-31 17:00 / 地點：三校校區",
+        "summary": "活動時間：2026-10-12 08:00 ~ 2026-12-31 17:00 / 地點：三校校區",
         "show_summary": true
       }
     ]
@@ -21252,13 +21252,6 @@
         "summary": ""
       },
       {
-        "title": "2026-09-21【資訊中心公告】115年中秋暨教師節連假自由上機教室開放時間調整",
-        "url": "https://www.itc.ntnu.edu.tw/index.php/2026/09/21/115092101/",
-        "date": "2026-09-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "2026-09-17 歡迎使用Google AI服務 — Gemini",
         "url": "https://www.itc.ntnu.edu.tw/index.php/2026/09/17/2026-09-17-gemini/",
         "date": "2026-09-17",
@@ -21276,6 +21269,13 @@
         "title": "2026-09-14【網路維護公告】文學院校園網路服務中斷作業公告 [Network Maintenance Notice] Campus Network Service Suspension Notice for College of Liberal Arts",
         "url": "https://www.itc.ntnu.edu.tw/index.php/2026/09/14/2026-09-14/",
         "date": "2026-09-14",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "2026-09-07【資訊中心公告】系統維護作業通知",
+        "url": "https://www.itc.ntnu.edu.tw/index.php/2026/09/07/2026-09-07/",
+        "date": "2026-09-07",
         "date_label": "發布日期",
         "summary": ""
       }
