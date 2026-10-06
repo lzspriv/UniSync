@@ -9249,6 +9249,13 @@
     "label": "地理學系-最新消息",
     "announcements": [
       {
+        "title": "【境外教學】日本東京移地教學視訊說明會(115/10/08)",
+        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/10/06/m20261006-1/",
+        "date": "2026-10-06",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【師培】115學年度特殊績優表現師資生甄選(115/11/16系止)",
         "url": "https://www.geo.ntnu.edu.tw/index.php/2026/10/01/1151001wish01/",
         "date": "2026-10-01",
@@ -9272,13 +9279,6 @@
       {
         "title": "【招生】115 學年度第2學期逕修讀博士學位招生(申請115/09/29-115/10/07止)",
         "url": "https://www.geo.ntnu.edu.tw/index.php/2026/09/29/1150929wish01/",
-        "date": "2026-09-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【獎學金-本校】115「不利處境學生助學金｣申請(115/10/20截止)",
-        "url": "https://www.geo.ntnu.edu.tw/index.php/2026/09/29/m20260929-1/",
         "date": "2026-09-29",
         "date_label": "發布日期",
         "summary": ""
@@ -17427,19 +17427,26 @@
         "date": "2026-09-29",
         "date_label": "發布日期",
         "summary": ""
+      },
+      {
+        "title": "【職涯訊息】轉知本校職涯中心職涯星苗計畫_企業實習活動週",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=職涯訊息&news02=11977281506ab49f646af9e",
+        "date": "2026-09-24",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115.09.30口試-台師大學東亞系2027年春季班國際學生視訊口試公告",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=招生公告&news02=3953330446ab3a46660566",
+        "date": "2026-09-23",
+        "date_label": "發布日期",
+        "summary": ""
       }
     ]
   },
   "deas_affairs": {
     "label": "東亞學系 (含政治所)-系所公告",
     "announcements": [
-      {
-        "title": "115.09.30口試-台師大學東亞系2027年春季班國際學生視訊口試公告",
-        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=3953330446ab3a46660566",
-        "date": "2026-09-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
       {
         "title": "「人文社會科學學術人才跨國培育計畫」115/9/24校內線上宣傳說明會",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=17066365836ab1deaa508fb",
@@ -17467,12 +17474,26 @@
         "date": "2026-08-31",
         "date_label": "發布日期",
         "summary": ""
+      },
+      {
+        "title": "8/17(一)~8/18(二)東亞系辦公室搬遷至綜大7樓",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=系所公告&news02=6779394196a7948134b802",
+        "date": "2026-08-10",
+        "date_label": "發布日期",
+        "summary": ""
       }
     ]
   },
   "deas_admission": {
     "label": "東亞學系 (含政治所)-招生公告",
     "announcements": [
+      {
+        "title": "115.09.30口試-台師大學東亞系2027年春季班國際學生視訊口試公告",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=招生公告&news02=3953330446ab3a46660566",
+        "date": "2026-09-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "國立臺灣師範大學東亞學系115學年度學士班二年級轉學考試口試時間表",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=招生公告&news02=11132720006a39d760c6ef9",
@@ -17498,13 +17519,6 @@
         "title": "[重要] 東亞學系學士班115學年度大學甄選入學-申請入學-面試時間調整申請表",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=招生公告&news02=57321434269e58b6c1e90f",
         "date": "2026-04-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "國立臺灣師範大學東亞學系115學年度碩士班研究生逕修讀博士學位口試時間表",
-        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=招生公告&news02=66747317669e02fcabe445",
-        "date": "2026-04-16",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -17553,6 +17567,13 @@
   "deas_bachelor": {
     "label": "東亞學系 (含政治所)-學士班",
     "announcements": [
+      {
+        "title": "【學士班】115-1超修或學分不足申請---9/24(四)17:00前",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=學士班&news02=16418485076a9534b879069",
+        "date": "2026-08-31",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "114學年度第2學期學士班畢業生辦理畢業離校與學位證書領取注意事項",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=學士班&news02=196466084269e6cd5aa052a",
@@ -17634,6 +17655,13 @@
         "summary": ""
       },
       {
+        "title": "115-1「優秀研究生獎學金」─系辦收件至115年10月19日(一) 17:00",
+        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=獎勵補助&news02=20733071356aac8ee509beb",
+        "date": "2026-09-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115-1本系所學生論文及學術研究獎勵即日起至115年10月底受理申請",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=獎勵補助&news02=3605580546aaa124a0ae13",
         "date": "2026-09-16",
@@ -17650,13 +17678,6 @@
       {
         "title": "115學年第1學期王烈先生獎學金~115.10.18",
         "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=獎勵補助&news02=17902859916aa8c2c1b4d1d",
-        "date": "2026-09-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115年度潘陳粉女士獎助學金（系辦收件至115.10.19截止）",
-        "url": "https://www.deas.ntnu.edu.tw/deas/include/index.php?Page=A-2&Cate01=獎勵補助&news02=9995979056aa89e8bc2533",
         "date": "2026-09-15",
         "date_label": "發布日期",
         "summary": ""
