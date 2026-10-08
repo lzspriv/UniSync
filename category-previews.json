@@ -3667,6 +3667,20 @@
     "label": "教學發展中心-行政公告",
     "announcements": [
       {
+        "title": "115-1【課業輔導學習社群】審核結果公告",
+        "url": "https://ctld.ntnu.edu.tw/%e8%a1%8c%e6%94%bf%e5%85%ac%e5%91%8a/30417",
+        "date": "2026-10-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115-1【學生課業輔導員學習獎勵方案】第1階段審核結果公告",
+        "url": "https://ctld.ntnu.edu.tw/%e8%a1%8c%e6%94%bf%e5%85%ac%e5%91%8a/30408",
+        "date": "2026-10-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "116學年度高中英語聽力測驗第一次考試監試工作調查",
         "url": "https://ctld.ntnu.edu.tw/%e8%a1%8c%e6%94%bf%e5%85%ac%e5%91%8a/30118",
         "date": "2026-08-25",
@@ -3684,20 +3698,6 @@
         "title": "115學年度第1學期「補助教學精進創新與專業社群計畫」補助名單公告",
         "url": "https://ctld.ntnu.edu.tw/%e8%a1%8c%e6%94%bf%e5%85%ac%e5%91%8a/30035",
         "date": "2026-07-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度第1學期「補助生成式人工智慧融入專業教學計畫」名單公告",
-        "url": "https://ctld.ntnu.edu.tw/%e8%a1%8c%e6%94%bf%e5%85%ac%e5%91%8a/30028",
-        "date": "2026-07-23",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114-2【學生課業輔導員學習獎勵方案】第2階段審核結果公告",
-        "url": "https://ctld.ntnu.edu.tw/%e8%a1%8c%e6%94%bf%e5%85%ac%e5%91%8a/29644",
-        "date": "2026-05-13",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -7071,7 +7071,7 @@
         "summary": ""
       },
       {
-        "title": "12/16(三)專題演講：與AI 共同生活與工作：人智協作中的治理挑戰",
+        "title": "12/16(三)專題演講：與AI共同生活與工作：人智協作中的治理挑戰",
         "url": "https://www.glis.ntnu.edu.tw/index.php/2026/10/06/12-16ai/",
         "date": "2026-10-06",
         "date_label": "發布日期",
@@ -7177,7 +7177,7 @@
     "label": "圖書資訊學研究所-學術訊息",
     "announcements": [
       {
-        "title": "12/16(三)專題演講：與AI 共同生活與工作：人智協作中的治理挑戰",
+        "title": "12/16(三)專題演講：與AI共同生活與工作：人智協作中的治理挑戰",
         "url": "https://www.glis.ntnu.edu.tw/index.php/2026/10/06/12-16ai/",
         "date": "2026-10-06",
         "date_label": "發布日期",
@@ -19064,6 +19064,13 @@
     "label": "跨域科技產業創新研究學院-最新消息",
     "announcements": [
       {
+        "title": "【活動轉知】學術生涯導航與國際流動Topic：Navigating Academic Careers and International Mobility",
+        "url": "https://www.ciai.ntnu.edu.tw/index.php/2026/10/08/https-www-ciai-ntnu-edu-tw-index-php-2026-10-08/",
+        "date": "2026-10-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【活動轉知】歡迎踴躍報名參加10月7日「如何建構AI教育及推動AI轉型」講座",
         "url": "https://www.ciai.ntnu.edu.tw/index.php/2026/10/05/https-www-ciai-ntnu-edu-tw-index-php-2026-10-05/",
         "date": "2026-10-05",
@@ -19088,13 +19095,6 @@
         "title": "116碩博甄招生開跑!取得翻盤上頂大頂尖學院的入場券",
         "url": "https://www.ciai.ntnu.edu.tw/index.php/2026/09/17/https-www-ciai-ntnu-edu-tw-index-php-2026-09-17/",
         "date": "2026-09-17",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "免學分費！跨校修讀「北區 AI 資源中心」共享優質AI課程",
-        "url": "https://www.ciai.ntnu.edu.tw/index.php/2026/09/16/https-www-ciai-ntnu-edu-tw-index-php-2026-09-16/",
-        "date": "2026-09-16",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -19928,6 +19928,13 @@
         "summary": ""
       },
       {
+        "title": "【轉知】諾貝爾和平獎受獎人何塞．曼努埃爾．巴羅佐（José-Manuel Barroso）閣下蒞院發表專題演講",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/actnews/-%E8%BD%89%E7%9F%A5-%E8%AB%BE%E8%B2%9D%E7%88%BE%E5%92%8C%E5%B9%B3%E7%8D%8E%E5%8F%97%E7%8D%8E%E4%BA%BA%E4%BD%95%E5%A1%9E%EF%BC%8E%E6%9B%BC%E5%8A%AA%E5%9F%83%E7%88%BE%EF%BC%8E%E5%B7%B4%E7%BE%85%E4%BD%90%EF%BC%88Jos%C3%A9-Manuel-Barroso%EF%BC%89%E9%96%A3%E4%B8%8B%E8%92%9E%E9%99%A2%E7%99%BC%E8%A1%A8%E5%B0%88%E9%A1%8C%E6%BC%94%E8%AC%9B-70885398",
+        "date": "2026-10-08",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【轉知】2026製造業AI診斷分析與預防性維護實務研習",
         "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/actnews/-%E8%BD%89%E7%9F%A5-2026%E8%A3%BD%E9%80%A0%E6%A5%ADAI%E8%A8%BA%E6%96%B7%E5%88%86%E6%9E%90%E8%88%87%E9%A0%90%E9%98%B2%E6%80%A7%E7%B6%AD%E8%AD%B7%E5%AF%A6%E5%8B%99%E7%A0%94%E7%BF%92-32501125",
         "date": "2026-10-07",
@@ -19942,16 +19949,9 @@
         "summary": ""
       },
       {
-        "title": "115年 研究參與者保護宣導講座 ，歡迎師生報名參加。(2026/10/6)",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/actnews/115%E5%B9%B4%E7%A0%94%E7%A9%B6%E5%8F%83%E8%88%87%E8%80%85%E4%BF%9D%E8%AD%B7%E5%AE%A3%E5%B0%8E%E8%AC%9B%E5%BA%A7-%E6%AD%A1%E8%BF%8E%E5%B8%AB%E7%94%9F%E5%A0%B1%E5%90%8D%E5%8F%83%E5%8A%A0-2026-10-6-21190988",
-        "date": "2026-08-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【轉知】生成式AI技術應用於能源管理與ISO 50001能源管理系統研習活動",
-        "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/actnews/-%E8%BD%89%E7%9F%A5-%E7%94%9F%E6%88%90%E5%BC%8FAI%E6%8A%80%E8%A1%93%E6%87%89%E7%94%A8%E6%96%BC%E8%83%BD%E6%BA%90%E7%AE%A1%E7%90%86%E8%88%87ISO-50001%E8%83%BD%E6%BA%90%E7%AE%A1%E7%90%86%E7%B3%BB%E7%B5%B1%E7%A0%94%E7%BF%92%E6%B4%BB%E5%8B%95-66828331",
-        "date": "2026-08-18",
+        "title": "【轉知】2026年九州臺灣師生交流暨人才交流活動",
+        "url": "https://www.acad.ntnu.edu.tw/zh_tw/ord/1news/actnews/-%E8%BD%89%E7%9F%A5-2026%E5%B9%B4%E4%B9%9D%E5%B7%9E%E8%87%BA%E7%81%A3%E5%B8%AB%E7%94%9F%E4%BA%A4%E6%B5%81%E6%9A%A8%E4%BA%BA%E6%89%8D%E4%BA%A4%E6%B5%81%E6%B4%BB%E5%8B%95-62120638",
+        "date": "2026-10-23",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -24426,37 +24426,37 @@
     "label": "體育研究與發展中心-最新消息",
     "announcements": [
       {
-        "title": "「116年全民i運動計畫」地方政府申辦作業原則說明會",
-        "url": "https://www.perdc.ntnu.edu.tw/zh_tw/News/-116%E5%B9%B4%E5%85%A8%E6%B0%91i%E9%81%8B%E5%8B%95%E8%A8%88%E7%95%AB-%E5%9C%B0%E6%96%B9%E6%94%BF%E5%BA%9C%E7%94%B3%E8%BE%A6%E4%BD%9C%E6%A5%AD%E5%8E%9F%E5%89%87%E8%AA%AA%E6%98%8E%E6%9C%83-90817502",
-        "date": "2026-08-28",
+        "title": "115 年度體育教學模組反思工作坊",
+        "url": "https://www.perdc.ntnu.edu.tw/zh_tw/News/115%E5%B9%B4%E5%BA%A6%E9%AB%94%E8%82%B2%E6%95%99%E5%AD%B8%E6%A8%A1%E7%B5%84%E5%8F%8D%E6%80%9D%E5%B7%A5%E4%BD%9C%E5%9D%8A-93050104",
+        "date": "2026-10-08",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "「舞韻華章、閃耀無垠」114年全國學生舞蹈比賽特優團隊聯合展演 5月1日及7月1日隆重登場",
-        "url": "https://www.perdc.ntnu.edu.tw/zh_tw/News/-%E8%88%9E%E9%9F%BB%E8%8F%AF%E7%AB%A0-%E9%96%83%E8%80%80%E7%84%A1%E5%9E%A0-114%E5%B9%B4%E5%85%A8%E5%9C%8B%E5%AD%B8%E7%94%9F%E8%88%9E%E8%B9%88%E6%AF%94%E8%B3%BD%E7%89%B9%E5%84%AA%E5%9C%98%E9%9A%8A%E8%81%AF%E5%90%88%E5%B1%95%E6%BC%94-5%E6%9C%881%E6%97%A5%E5%8F%8A7%E6%9C%881%E6%97%A5%E9%9A%86%E9%87%8D%E7%99%BB%E5%A0%B4-77567352",
-        "date": "2025-06-03",
+        "title": "115 年度體育教學模組種子教師增能研習",
+        "url": "https://www.perdc.ntnu.edu.tw/zh_tw/News/115%E5%B9%B4%E5%BA%A6%E9%AB%94%E8%82%B2%E6%95%99%E5%AD%B8%E6%A8%A1%E7%B5%84%E7%A8%AE%E5%AD%90%E6%95%99%E5%B8%AB%E5%A2%9E%E8%83%BD%E7%A0%94%E7%BF%92-20107660",
+        "date": "2026-10-08",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "113學年度安全教育師資增能共備工作坊",
-        "url": "https://www.perdc.ntnu.edu.tw/zh_tw/News/113%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%AE%89%E5%85%A8%E6%95%99%E8%82%B2%E5%B8%AB%E8%B3%87%E5%A2%9E%E8%83%BD%E5%85%B1%E5%82%99%E5%B7%A5%E4%BD%9C%E5%9D%8A-40818732",
-        "date": "2025-03-04",
+        "title": "115 年 體育教學模組教師認證計畫說明會",
+        "url": "https://www.perdc.ntnu.edu.tw/zh_tw/News/115%E5%B9%B4%E9%AB%94%E8%82%B2%E6%95%99%E5%AD%B8%E6%A8%A1%E7%B5%84%E6%95%99%E5%B8%AB%E8%AA%8D%E8%AD%89%E8%A8%88%E7%95%AB%E8%AA%AA%E6%98%8E%E6%9C%83-49392293",
+        "date": "2026-10-08",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "林口校區【探索體育園區】落成 揭幕儀式",
-        "url": "https://www.perdc.ntnu.edu.tw/zh_tw/News/%E6%9E%97%E5%8F%A3%E6%A0%A1%E5%8D%80-%E6%8E%A2%E7%B4%A2%E9%AB%94%E8%82%B2%E5%9C%92%E5%8D%80-%E8%90%BD%E6%88%90-%E6%8F%AD%E5%B9%95%E5%84%80%E5%BC%8F-8607647",
-        "date": "2025-01-16",
+        "title": "115 年 體操教學推廣 2.0 重點學校計畫說明會",
+        "url": "https://www.perdc.ntnu.edu.tw/zh_tw/News/115%E5%B9%B4%E9%AB%94%E6%93%8D%E6%95%99%E5%AD%B8%E6%8E%A8%E5%BB%A32-0%E9%87%8D%E9%BB%9E%E5%AD%B8%E6%A0%A1%E8%A8%88%E7%95%AB%E8%AA%AA%E6%98%8E%E6%9C%83-20614924",
+        "date": "2026-10-08",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "戶外探索：體驗參與、挑戰樂趣、跨域創新- 【 師資增能研習 】",
-        "url": "https://www.perdc.ntnu.edu.tw/zh_tw/News/%E6%88%B6%E5%A4%96%E6%8E%A2%E7%B4%A2-%E9%AB%94%E9%A9%97%E5%8F%83%E8%88%87-%E6%8C%91%E6%88%B0%E6%A8%82%E8%B6%A3-%E8%B7%A8%E5%9F%9F%E5%89%B5%E6%96%B0-%E5%B8%AB%E8%B3%87%E5%A2%9E%E8%83%BD%E7%A0%94%E7%BF%92-48480135",
-        "date": "2023-11-01",
+        "title": "115年教育部國教署交通總辦公室安全教育專家人才庫共備工作坊 圓滿結束",
+        "url": "https://www.perdc.ntnu.edu.tw/zh_tw/News/115%E5%B9%B4%E6%95%99%E8%82%B2%E9%83%A8%E5%9C%8B%E6%95%99%E7%BD%B2%E4%BA%A4%E9%80%9A%E7%B8%BD%E8%BE%A6%E5%85%AC%E5%AE%A4%E5%AE%89%E5%85%A8%E6%95%99%E8%82%B2%E5%B0%88%E5%AE%B6%E4%BA%BA%E6%89%8D%E5%BA%AB%E5%85%B1%E5%82%99%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%9C%93%E6%BB%BF%E7%B5%90%E6%9D%9F-73508106",
+        "date": "2026-10-08",
         "date_label": "發布日期",
         "summary": ""
       }
