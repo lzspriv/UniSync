@@ -3182,19 +3182,35 @@
     "label": "公共事務中心-活動預告",
     "announcements": [
       {
-        "title": "115-1 返校交換生分享會「我的異國冒險」",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10835",
+        "title": "大師講壇｜時尚與媒體產業瞬息萬變，利用新思維技術與實力 報名",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10836",
         "date": "2026-10-16",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-10-08 12:15 ~ 2026-10-22 13:30 / 地點：線上",
+        "summary": "活動時間：2026-10-19 18:30 ~ 2026-11-07 20:00 / 地點：教育大樓202國際會議廳",
         "show_summary": true
       },
       {
-        "title": "115學年度第2學期「補助教學精進創新與專業社群計畫」申請資",
+        "title": "115-1 返校交換生分享會「我的異國冒險」場次三",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10835",
+        "date": "2026-10-16",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-10-22 12:15 ~ 2026-10-22 13:15 / 地點：線上",
+        "show_summary": true
+      },
+      {
+        "title": "115-2「補助教學精進創新與專業社群計畫」申請中",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10834",
         "date": "2026-10-16",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-10-16 ~ 2026-11-13 23:59 / 地點：教學發展中心",
+        "summary": "活動時間：2026-10-19 23:02 ~ 2026-11-13 23:59 / 地點：教學發展中心",
+        "show_summary": true
+      },
+      {
+        "title": "CAL 講座：AI時代的留學申請文件策略 歡迎報名",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10833",
+        "date": "2026-10-16",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-10-19 10:00 ~ 2026-11-18 12:20 / 地點：Google Meet 線上",
         "show_summary": true
       },
       {
@@ -3202,23 +3218,7 @@
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10832",
         "date": "2026-10-15",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-10-15 15:48 ~ 2026-11-03 14:00 / 地點：和平校區I行政大樓2樓第一會議室",
-        "show_summary": true
-      },
-      {
-        "title": "115-1通識影展｜《造山者－世紀的賭注》導演座談",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10828",
-        "date": "2026-10-14",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-10-21 10:00 ~ 2026-10-21 12:10 / 地點：綜202演講廳",
-        "show_summary": true
-      },
-      {
-        "title": "【講座】陳婉伶「 台灣紀錄片發展史」",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10823",
-        "date": "2026-10-14",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-10-30 15:50 ~ 2026-10-30 17:50 / 地點：雲和教學大樓 306會議室",
+        "summary": "活動時間：2026-10-19 12:20 ~ 2026-11-03 14:00 / 地點：和平校區I行政大樓2樓第一會議室",
         "show_summary": true
       }
     ]
@@ -4649,6 +4649,13 @@
     "label": "教育學系-最新消息",
     "announcements": [
       {
+        "title": "【師資生】114入學教育學系師資培育生第二階段甄選公告",
+        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/-%E5%B8%AB%E8%B3%87%E7%94%9F-114%E5%85%A5%E5%AD%B8%E6%95%99%E8%82%B2%E5%AD%B8%E7%B3%BB%E5%B8%AB%E8%B3%87%E5%9F%B9%E8%82%B2%E7%94%9F%E7%AC%AC%E4%BA%8C%E9%9A%8E%E6%AE%B5%E7%94%84%E9%81%B8%E5%85%AC%E5%91%8A-43024198",
+        "date": "2026-10-16",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "恭賀本系三位教師榮獲115年績優教職員工",
         "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/%E6%81%AD%E8%B3%80%E6%9C%AC%E7%B3%BB%E4%B8%89%E4%BD%8D%E6%95%99%E5%B8%AB%E6%A6%AE%E7%8D%B2115%E5%B9%B4%E7%B8%BE%E5%84%AA%E6%95%99%E8%81%B7%E5%93%A1%E5%B7%A5-76242455",
         "date": "2026-10-12",
@@ -4673,13 +4680,6 @@
         "title": "恭賀本系所115年度教師資格考試通過率100%",
         "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/%E6%81%AD%E8%B3%80%E6%9C%AC%E7%B3%BB%E6%89%80115%E5%B9%B4%E5%BA%A6%E6%95%99%E5%B8%AB%E8%B3%87%E6%A0%BC%E8%80%83%E8%A9%A6%E9%80%9A%E9%81%8E%E7%8E%87100-64767300",
         "date": "2026-09-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "有關115-1「李符桐、錢蘋教授紀念獎學金」申請事宜",
-        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/%E6%9C%89%E9%97%9C115-1-%E6%9D%8E%E7%AC%A6%E6%A1%90-%E9%8C%A2%E8%98%8B%E6%95%99%E6%8E%88%E7%B4%80%E5%BF%B5%E7%8D%8E%E5%AD%B8%E9%87%91-%E7%94%B3%E8%AB%8B%E4%BA%8B%E5%AE%9C-75972553",
-        "date": "2026-09-08",
         "date_label": "發布日期",
         "summary": ""
       }
