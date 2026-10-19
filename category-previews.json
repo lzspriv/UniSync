@@ -843,6 +843,20 @@
     "label": "化學系-系所新聞",
     "announcements": [
       {
+        "title": "化學系王彥士團隊赴瑞士發表「藍色生物冶金」研究 以蛋白質奈米技術探索海洋金屬回收新途徑",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=24986",
+        "date": "2026-10-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大47位學者躋身「全球前2%頂尖科學家」 終身及年度榜單入選人數同步成長",
+        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=24973",
+        "date": "2026-10-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "臺師大化學系深化與大阪大學國際合作 三位研究生赴日參與2026 ISP 研究實習成果豐碩、人才培育鏈持續成形",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24941",
         "date": "2026-07-16",
@@ -860,20 +874,6 @@
         "title": "化學系培訓國際化奧選手 臺灣獲3金1銀排世界第三",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24767&fbclid=IwY2xjawTLzIlleHRuA2FlbQIxMABicmlkETFGbFhOcHduUHFEaVQyc0Ftc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHgGDvA7dubMHsYIC39E-K7TfZE7CHj1T540Ovc4_RsNwe0bDogq8q9g1iccX_aem_lI8PKP_cT7xewlAKAcdV-A",
         "date": "2026-07-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "化學系呂家榮藉分析化學連結產業與醫療，破解看不見的氣體分子",
-        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=24746",
-        "date": "2026-07-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大攜手推動原住民族化學人才培育 暑假營激發科學潛能 建構原鄉人才永續培育網絡",
-        "url": "https://pr.ntnu.edu.tw/ntnunews/index.php?mode=data&id=24731",
-        "date": "2026-07-08",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -3144,14 +3144,14 @@
       {
         "title": "相隔30年再相聚 85級校友重溫校園回憶",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24993",
-        "date": "2026-10-18",
+        "date": "2026-10-19",
         "date_label": "發布日期",
         "summary": ""
       },
       {
         "title": "85級校友跨域發展 展現師大人才培育多元成果",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24994",
-        "date": "2026-10-18",
+        "date": "2026-10-19",
         "date_label": "發布日期",
         "summary": ""
       },
@@ -19316,7 +19316,7 @@
         "summary": ""
       },
       {
-        "title": "轉知台中市電腦商公會為企業培育AI應用人才，協助經濟部產業發展署推動［ＡＩ線上課程平台］免費學習資源",
+        "title": "【轉知】台中市電腦商公會為企業培育AI應用人才，協助經濟部產業發展署推動［ＡＩ線上課程平台］免費學習資源",
         "url": "https://careercenter.ntnu.edu.tw/news-detail.php?type=&sid=16136",
         "date": "2026-10-14",
         "date_label": "發布日期",
@@ -19330,14 +19330,14 @@
         "summary": ""
       },
       {
-        "title": "轉知得鼎教育文化有限公司招募「阿基米德」2027年國小冬令營營隊師資",
+        "title": "【轉知】得鼎教育文化有限公司招募「阿基米德」2027年國小冬令營營隊師資",
         "url": "https://careercenter.ntnu.edu.tw/news-detail.php?type=&sid=16103",
         "date": "2026-10-13",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "轉知國立臺南大學辦理「AI智慧應用產業人才培訓班第03期」課程訊息",
+        "title": "【轉知】國立臺南大學辦理「AI智慧應用產業人才培訓班第03期」課程訊息",
         "url": "https://careercenter.ntnu.edu.tw/news-detail.php?type=&sid=16093",
         "date": "2026-10-12",
         "date_label": "發布日期",
@@ -22184,6 +22184,13 @@
     "label": "EMI教學資源中心-活動轉知",
     "announcements": [
       {
+        "title": "【教學發展中心】115-1 EMI TA Training Workshop",
+        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/203",
+        "date": "2026-11-12",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【英語學系】2026 EMI 研討會",
         "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/199",
         "date": "2026-10-31",
@@ -22208,13 +22215,6 @@
         "title": "【教學發展中心】EMI世界咖啡館",
         "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/87",
         "date": "2025-05-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【OBE x CAL Talks】邏輯思辨 × 職場發展",
-        "url": "https://rcemi.ntnu.edu.tw/news/event_focus/content/4/73",
-        "date": "2025-04-30",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -27487,6 +27487,13 @@
     "label": "附屬高級中學-重要公告",
     "announcements": [
       {
+        "title": "宣導116年軍校正期班意願報考案",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU1URTJNek00TVRNPXdjek15a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTEyNTIxODAyNTk2MjI2MVRDaW50ZWx5",
+        "date": "2026-10-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "檢送打詐臺北隊115年10月反詐宣導素材，積極推動識詐宣導觀念",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9UWXlOek0wTVRBPTVNVE15a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTEyNTIxODAyNTk2MjI2MVRDaW50ZWx5",
         "date": "2026-10-16",
@@ -27511,13 +27518,6 @@
         "title": "【國際科展】公告2027年臺灣國際科學展覽會校內報名相關事宜",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9UazBORFF5T1RVPTRBVE01Z3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTEyNTIxODAyNTk2MjI2MVRDaW50ZWx5",
         "date": "2026-10-15",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度全校NIAS系統流感疫苗意願書簽署及注意事項",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9UZ3lOekV3TlRRPTFVRE94a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTEyNTIxODAyNTk2MjI2MVRDaW50ZWx5",
-        "date": "2026-10-14",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -27607,6 +27607,13 @@
     "label": "附屬高級中學-學生",
     "announcements": [
       {
+        "title": "宣導116年軍校正期班意願報考案",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU1URTJNek00TVRNPXdjek15a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5OTY1NDU3Njk2MjI2MVRDaW50ZWx5",
+        "date": "2026-10-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "檢送打詐臺北隊115年10月反詐宣導素材，積極推動識詐宣導觀念",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9UWXlOek0wTVRBPTVNVE15a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5OTY1NDU3Njk2MjI2MVRDaW50ZWx5",
         "date": "2026-10-16",
@@ -27631,13 +27638,6 @@
         "title": "【轉知】臺北市政府教育局來文宣傳115年度臺北市原住民族語言能力認證測驗考前輔導班",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU5qazROelE0TnpRPXlZVE94a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5OTY1NDU3Njk2MjI2MVRDaW50ZWx5",
         "date": "2026-10-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【國際科展】公告2027年臺灣國際科學展覽會校內報名相關事宜",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9UazBORFF5T1RVPTRBVE01Z3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5OTY1NDU3Njk2MjI2MVRDaW50ZWx5",
-        "date": "2026-10-15",
         "date_label": "發布日期",
         "summary": ""
       }
