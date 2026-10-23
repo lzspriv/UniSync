@@ -3144,7 +3144,21 @@
       {
         "title": "國文學系創系80週年系慶 《萬象》書法展以筆墨映照萬象",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24999",
-        "date": "2026-10-22",
+        "date": "2026-10-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大音樂系黎宛艷校友勇闖德國藝術歌曲大賽決賽 獲特別資助獎與傑出鋼琴演奏獎",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=25008",
+        "date": "2026-10-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "美術館《共生之華》特展迎重量級展品 日本百年木雕《豐穰》跨海來臺展出",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=25010",
+        "date": "2026-10-23",
         "date_label": "發布日期",
         "summary": ""
       },
@@ -3158,20 +3172,6 @@
       {
         "title": "教育部領域教學研究中心成果發表 以人為本的AI教學應用",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=25006",
-        "date": "2026-10-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "「能動－動能」激盪當代藝術研究新視野 2026四校博士生聯合研討會於臺師大舉行",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=25009",
-        "date": "2026-10-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "臺師大音樂系黎宛艷校友勇闖德國藝術歌曲大賽決賽 獲特別資助獎與傑出鋼琴演奏獎",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=25008",
         "date": "2026-10-22",
         "date_label": "發布日期",
         "summary": ""
@@ -3206,11 +3206,11 @@
         "show_summary": true
       },
       {
-        "title": "116學年度碩士班考試入學招生，歡迎踴躍報考。",
+        "title": "116學年度碩士班考試入學招生，歡迎11/10-20踴躍報名",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10850",
         "date": "2026-10-22",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-10-20 11:05 ~ 2026-11-09 11:05 / 地點：和平校區I",
+        "summary": "活動時間：2026-10-26 11:05 ~ 2026-11-20 23:59 / 地點：和平校區I",
         "show_summary": true
       },
       {
@@ -10136,6 +10136,13 @@
     "label": "臺灣史研究所-最新消息",
     "announcements": [
       {
+        "title": "116學年度碩士班推薦甄選應試順序公告",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/10/23/26-10-23/",
+        "date": "2026-10-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "狂賀！本所許哲獲115年檔案管理局推廣檔案研究應用獎勵活動甲等",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/10/21/2026-10-21-1/",
         "date": "2026-10-21",
@@ -10162,19 +10169,19 @@
         "date": "2026-10-12",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "【獎助學金】台日文化經濟協會「2026獎勵大專院校日本研究論文比賽」",
-        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/10/12/2026-10-12-01/",
-        "date": "2026-10-12",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "taih_dept": {
     "label": "臺灣史研究所-本所公告",
     "announcements": [
+      {
+        "title": "116學年度碩士班推薦甄選應試順序公告",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/10/23/26-10-23/",
+        "date": "2026-10-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "【課程通知】專業實習（一）",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/09/08/2026090801/",
@@ -10200,13 +10207,6 @@
         "title": "【停課通知】本周四(4/23)「臺灣總督府公文類纂專題研究（一）」因故停課一次。",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2026/04/22/2026-04-22-02/",
         "date": "2026-04-22",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "恭賀本所 顏新恩 獲114-2學期本所范燕秋獎學金",
-        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/03/26/20260326/",
-        "date": "2026-03-26",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -10296,6 +10296,13 @@
     "label": "臺灣史研究所-招生資訊",
     "announcements": [
       {
+        "title": "116學年度碩士班推薦甄選應試順序公告",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2026/10/23/26-10-23/",
+        "date": "2026-10-23",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "115學年度碩士班甄試入學錄取名單公告",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2025/11/20/2025-11-20-001/",
         "date": "2025-11-20",
@@ -10320,13 +10327,6 @@
         "title": "114學年度碩士班招生考試錄取公告",
         "url": "https://www.taih.ntnu.edu.tw/index.php/2025/02/27/2025-02-27-01/",
         "date": "2025-02-27",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "114學年度碩士班甄試入學錄取名單公告",
-        "url": "https://www.taih.ntnu.edu.tw/index.php/2024/11/21/2024-11-21-02/",
-        "date": "2024-11-21",
         "date_label": "發布日期",
         "summary": ""
       }
