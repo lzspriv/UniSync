@@ -2542,7 +2542,15 @@
   },
   "sls_scholarship": {
     "label": "生命科學專業學院-獎學金公告",
-    "announcements": []
+    "announcements": [
+      {
+        "title": "【115學年度師資培育獎學金】開放申請中！9/7(一)12:00止",
+        "url": "https://www.sls.ntnu.edu.tw/index.php/2026/08/11/news-7/",
+        "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      }
+    ]
   },
   "biol_news": {
     "label": "生命科學系-最新消息",
@@ -8761,6 +8769,13 @@
     "label": "歷史學系-最新消息",
     "announcements": [
       {
+        "title": "【師培】二階師資生甄選口試時間公告(114學年度入學者)115.11.9口試",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/11/01/1151101/",
+        "date": "2026-11-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "賀！本系講座教授黑田明伸先生榮獲2026年亞洲圖書獎",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/10/28/1151028/",
         "date": "2026-10-28",
@@ -8785,13 +8800,6 @@
         "title": "【教學研討會】115-2次115.11.24 (二)王麒銘老師：國民黨政府對日外交中的學人運用：以1955年錢穆訪日為例",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/10/21/1151021/",
         "date": "2026-10-21",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年度第1學期優秀獎學金獲獎公告",
-        "url": "https://www.his.ntnu.edu.tw/index.php/2026/10/20/1151020/",
-        "date": "2026-10-20",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -8881,6 +8889,13 @@
     "label": "歷史學系-學士班",
     "announcements": [
       {
+        "title": "【師培】二階師資生甄選口試時間公告(114學年度入學者)115.11.9口試",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/11/01/1151101/",
+        "date": "2026-11-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【招生】116學年度碩士班薦甄選第二階段口試",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/10/28/1161026/",
         "date": "2026-10-28",
@@ -8905,13 +8920,6 @@
         "title": "【重要】畢業生問卷調查(113學年度畢業滿一年、111學年度畢業滿三年及109學年度畢業滿五年)",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/09/01/1150830/",
         "date": "2026-09-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【師培】學士班-申請二階甄選公告(114學年度入學者)即日起至10/12(一)收件截止",
-        "url": "https://www.his.ntnu.edu.tw/index.php/2026/08/25/1150825/",
-        "date": "2026-08-25",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -9121,6 +9129,13 @@
     "label": "歷史學系-師資培育",
     "announcements": [
       {
+        "title": "【師培】二階師資生甄選口試時間公告(114學年度入學者)115.11.9口試",
+        "url": "https://www.his.ntnu.edu.tw/index.php/2026/11/01/1151101/",
+        "date": "2026-11-01",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【返校座談】115-1-2次：115.10.23（五）",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/10/16/1151016/",
         "date": "2026-10-16",
@@ -9144,13 +9159,6 @@
       {
         "title": "賀！本系教師甄試金榜題名！(第12報)",
         "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/14/1150714-2/",
-        "date": "2026-07-14",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "賀！本系教師甄試金榜題名！(第11報)",
-        "url": "https://www.his.ntnu.edu.tw/index.php/2026/07/14/1150714/",
         "date": "2026-07-14",
         "date_label": "發布日期",
         "summary": ""
@@ -20948,43 +20956,7 @@
   },
   "tecs_college": {
     "label": "師資培育學院-訊息公告-師資培育學院",
-    "announcements": [
-      {
-        "title": "Keith M. Graham 柯琦副教授",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=505",
-        "date": "2023-08-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "陳信亨助理教授",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=504",
-        "date": "2023-08-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "葉明芬助理教授",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=502",
-        "date": "2023-08-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "高松景助理教授",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=503",
-        "date": "2023-08-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "葉怡芬教授",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=499",
-        "date": "2023-08-01",
-        "date_label": "發布日期",
-        "summary": ""
-      }
-    ]
+    "announcements": []
   },
   "tecs_curriculum": {
     "label": "師資培育學院-訊息公告-師資培育課程組",
@@ -27547,9 +27519,9 @@
         "summary": ""
       },
       {
-        "title": "育達科大「上銀機械手臂模擬工作坊－HRSim上銀機器人模擬軟體實作」",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU5UazFOVGsyTXpVPTJnRE16a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5NTQ3NzYxODk2MjI2MVRDaW50ZWx5",
-        "date": "2026-10-27",
+        "title": "高師大「無人機科技教育教師增能研習—無人機發展趨勢與教育課程發展」",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU56azJOVFEyT1RnPXlZVE55a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5NTQ3NzYxODk2MjI2MVRDaW50ZWx5",
+        "date": "2026-10-21",
         "date_label": "發布日期",
         "summary": ""
       }
