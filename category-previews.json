@@ -1582,6 +1582,27 @@
     "label": "資訊工程學系-最新消息",
     "announcements": [
       {
+        "title": "【115年 12月9日演講公告 Beyond 5G: Emerging Technologies and New Frontiers toward 6G 】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/11/03/2026-11-03-2/",
+        "date": "2026-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115年 12月2日演講公告 AI以及數位人文 – 以辨識中世紀法庭手稿為例 】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/11/03/2026-11-03/",
+        "date": "2026-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115年 11月18日演講公告 生成式 AI × 專業學習 從「會用」到「用得對、用得深」 】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/11/03/2026-11-13/",
+        "date": "2026-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "2026/10/20（二）NTNU CSIE & University of Warsaw Jonit Workshop",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/10/14/20261014-01/",
         "date": "2026-10-14",
@@ -1594,33 +1615,33 @@
         "date": "2026-10-05",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "【115年 10月28日演講公告 資訊安全之前世、今生及未來】",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/10/05/2026-10-05/",
-        "date": "2026-10-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【115年 10月14日演講公告 Engineering Devices that Augment Senses and Skills】",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/09/29/2026-09-29/",
-        "date": "2026-09-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【115年9月30日演講公告】機器心智理論推理： 訓練、測試與應用",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/09/23/2026-09-23-2/",
-        "date": "2026-09-23",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "csie_announcement": {
     "label": "資訊工程學系-系所公告",
     "announcements": [
+      {
+        "title": "【115年 12月9日演講公告 Beyond 5G: Emerging Technologies and New Frontiers toward 6G 】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/11/03/2026-11-03-2/",
+        "date": "2026-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115年 12月2日演講公告 AI以及數位人文 – 以辨識中世紀法庭手稿為例 】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/11/03/2026-11-03/",
+        "date": "2026-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115年 11月18日演講公告 生成式 AI × 專業學習 從「會用」到「用得對、用得深」 】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/11/03/2026-11-13/",
+        "date": "2026-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "【書卷獎獲獎名單】",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/10/27/20261027/",
@@ -1634,33 +1655,33 @@
         "date": "2026-10-21",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "【師培】115學年度中等資優教育學程（二招）甄選簡章",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/10/08/20261008/",
-        "date": "2026-10-08",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【115年 11月4日演講公告Energy-Efficient LUT-based GEMM Accelerator with Hardware-Aware KV Cache Quantization 】",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/10/05/2026-10-05-2/",
-        "date": "2026-10-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【115年 10月28日演講公告 資訊安全之前世、今生及未來】",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/10/05/2026-10-05/",
-        "date": "2026-10-05",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "csie_seminar": {
     "label": "資訊工程學系-演講公告",
     "announcements": [
+      {
+        "title": "【115年 12月9日演講公告 Beyond 5G: Emerging Technologies and New Frontiers toward 6G 】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/11/03/2026-11-03-2/",
+        "date": "2026-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115年 12月2日演講公告 AI以及數位人文 – 以辨識中世紀法庭手稿為例 】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/11/03/2026-11-03/",
+        "date": "2026-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115年 11月18日演講公告 生成式 AI × 專業學習 從「會用」到「用得對、用得深」 】",
+        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/11/03/2026-11-13/",
+        "date": "2026-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "2026/10/20（二）NTNU CSIE & University of Warsaw Jonit Workshop",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/10/14/20261014-01/",
@@ -1672,27 +1693,6 @@
         "title": "【115年 11月4日演講公告Energy-Efficient LUT-based GEMM Accelerator with Hardware-Aware KV Cache Quantization 】",
         "url": "https://www.csie.ntnu.edu.tw/index.php/2026/10/05/2026-10-05-2/",
         "date": "2026-10-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【115年 10月28日演講公告 資訊安全之前世、今生及未來】",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/10/05/2026-10-05/",
-        "date": "2026-10-05",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【115年 10月14日演講公告 Engineering Devices that Augment Senses and Skills】",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/09/29/2026-09-29/",
-        "date": "2026-09-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【115年9月30日演講公告】機器心智理論推理： 訓練、測試與應用",
-        "url": "https://www.csie.ntnu.edu.tw/index.php/2026/09/23/2026-09-23-2/",
-        "date": "2026-09-23",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -3203,6 +3203,14 @@
     "label": "公共事務中心-活動預告",
     "announcements": [
       {
+        "title": "和平校區｜平日晚間體能訓練班熱烈招生中！",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10863",
+        "date": "2026-11-03",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-11-03 09:10 ~ 2026-12-31 10:10 / 地點：國立臺灣師範大學和平校區Ⅰ游泳館",
+        "show_summary": true
+      },
+      {
         "title": "【華語系學術演講】語言如何形塑我們的敘事",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10861",
         "date": "2026-11-01",
@@ -3232,14 +3240,6 @@
         "date": "2026-10-28",
         "date_label": "新增日期",
         "summary": "活動時間：2026-11-06 10:00 ~ 2026-11-06 11:30 / 地點：線上",
-        "show_summary": true
-      },
-      {
-        "title": "2026 表演藝術管理領導力論壇 歡迎報名",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10857",
-        "date": "2026-10-28",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-11-02 09:00 ~ 2026-12-04 16:40 / 地點：綜合大樓10樓知音劇場",
         "show_summary": true
       }
     ]
@@ -27566,6 +27566,13 @@
     "label": "附屬高級中學-來文公告",
     "announcements": [
       {
+        "title": "【技能競賽】公告「第57屆全國技能競賽北區分區技能競賽」簡章電子檔1份",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU1qUTBNVEF5TVRjPTNZak56a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
+        "date": "2026-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "【英語科學】公告「2027 遠哲盃三分鐘英語科學創新挑戰賽」 活動",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU5EVXpOamt5TWpnPTJNak16a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
         "date": "2026-10-29",
@@ -27580,22 +27587,15 @@
         "summary": ""
       },
       {
+        "title": "2026臺灣閱讀節「閱見新視界」",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU16WXpPRGM0TXpZPTJZak56a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
+        "date": "2026-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "國立中央大學承辦教育部計畫，辦理115年度「客語教學實習輔導員及教學支援教師增能研習工作坊」",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9Ua3lNak00TXpFPXprVE56a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
-        "date": "2026-11-02",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "檢送115學年度十二年國民基本教育課程綱要普通型數位前導計畫跨校交流教師增能之「Google AI 行政自動化：打造你的智慧行政小助手」研習",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9EUXhNelV4TURZPXprVE56a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
-        "date": "2026-11-02",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "檢送本部委請國立臺北藝術大學辦理「藝教30－全國藝術教育論壇」活動資訊",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU5qazJOVE01TlRrPXprVE56a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5ODEzMzE2Mzk2MjI2MVRDaW50ZWx5",
         "date": "2026-11-02",
         "date_label": "發布日期",
         "summary": ""
@@ -27605,6 +27605,13 @@
   "hsnu_students": {
     "label": "附屬高級中學-學生",
     "announcements": [
+      {
+        "title": "【技能競賽】公告「第57屆全國技能競賽北區分區技能競賽」簡章電子檔1份",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU1qUTBNVEF5TVRjPTNZak56a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5OTY1NDU3Njk2MjI2MVRDaW50ZWx5",
+        "date": "2026-11-03",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "115學年度第一學期第2次期中考_考試日程表",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU5EVXpPRE0zTkRFPXdnVE56a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5OTY1NDU3Njk2MjI2MVRDaW50ZWx5",
@@ -27629,13 +27636,6 @@
       {
         "title": "【英語科學】公告「2027 遠哲盃三分鐘英語科學創新挑戰賽」 活動",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU5EVXpOamt5TWpnPTJNak16a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5OTY1NDU3Njk2MjI2MVRDaW50ZWx5",
-        "date": "2026-10-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "115學年第1學期_第三次學測測驗模擬考_考試日程表",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU56TTNNRE15TWpFPTFNak16a3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5OTY1NDU3Njk2MjI2MVRDaW50ZWx5",
         "date": "2026-10-29",
         "date_label": "發布日期",
         "summary": ""
