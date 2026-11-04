@@ -3163,37 +3163,37 @@
     "label": "公共事務中心-師大新聞",
     "announcements": [
       {
+        "title": "臺師大音樂系黃柏瑄校友勇奪保加利亞國際指揮大賽第二名 獲邀明年擔任交響樂團客席指揮",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=25039",
+        "date": "2026-11-05",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大赴新加坡三大名校行政標竿學習 聚焦AI治理與校務轉型",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=25049",
+        "date": "2026-11-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "教育系劉美慧教授接任國教院長 提3大方向「讓臺灣教育被世界看見」",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=25050",
+        "date": "2026-11-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "臺師大社教系攜手故宮，帶你看時間怎麼被留下來 《江月照千年》校園微型展11/3開展",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=25052",
+        "date": "2026-11-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "臺師大深化臺德高教合作 與德國美茵茲大學交流 拓展國際學術夥伴關係",
         "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=25054",
         "date": "2026-11-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "家庭飲食習慣影響個人成長 臺師大調查發現外食極端化",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=25055",
-        "date": "2026-11-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "北市率全國之先 首辦市級 START AI 智慧小車競賽",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=25056",
-        "date": "2026-11-04",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "競技系118級鄭晏晴世大錦奪雙金 刷新大會紀錄瞄準洛杉磯奧運",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=25042",
-        "date": "2026-11-03",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "通識影展《造山者》映後座談 蕭菊貞導演解析臺灣半導體傳奇及未來挑戰",
-        "url": "https://pr.ntnu.edu.tw/news/index.php?mode=data&id=25043",
-        "date": "2026-11-03",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4710,6 +4710,13 @@
     "label": "教育心理與輔導學系-最新消息",
     "announcements": [
       {
+        "title": "公告【師培甄選】114學年度入學師資培育生第二階段甄選（即日起開放線上報名至115/11/18 下午6時止）",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1462&title=公告【師培甄選】114學年度入學師資培育生第二階段甄選（即日起開放線上報名至115/11/18 下午6時止）",
+        "date": "2026-11-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "轉知 國科會「高中生人文及社會科學營」計畫 誠徵博士生輔導員",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1461&title=轉知 國科會「高中生人文及社會科學營」計畫 誠徵博士生輔導員",
         "date": "2026-11-04",
@@ -4736,19 +4743,19 @@
         "date": "2026-11-02",
         "date_label": "發布日期",
         "summary": ""
-      },
-      {
-        "title": "恭賀本系博士生林欣儀同學榮獲115年度中研院「人文社會科學博士生菁英獎學金」",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/News.aspx?id=QTwn%2B%2BDDe40=&Sn=1457&title=恭賀本系博士生林欣儀同學榮獲115年度中研院「人文社會科學博士生菁英獎學金」",
-        "date": "2026-11-01",
-        "date_label": "發布日期",
-        "summary": ""
       }
     ]
   },
   "epc_academic_events": {
     "label": "教育心理與輔導學系-學術活動",
     "announcements": [
+      {
+        "title": "公告【師培甄選】114學年度入學師資培育生第二階段甄選（即日起開放線上報名至115/11/18 下午6時止）",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1462&title=公告【師培甄選】114學年度入學師資培育生第二階段甄選（即日起開放線上報名至115/11/18 下午6時止）",
+        "date": "2026-11-18",
+        "date_label": "發布日期",
+        "summary": ""
+      },
       {
         "title": "公告本系115學年度第1學期碩士在職專班研究生 顏敏慧、蔡佩霖、簡幽雨 論文考試",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1460&title=公告本系115學年度第1學期碩士在職專班研究生 顏敏慧、蔡佩霖、簡幽雨 論文考試",
@@ -4760,13 +4767,6 @@
         "title": "公告本系115學年度第1學期博士班研究生 韓佩倫 論文計畫考試",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1459&title=公告本系115學年度第1學期博士班研究生 韓佩倫 論文計畫考試",
         "date": "2026-11-02",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "公告 國際處舉辦「116-1校級赴外交換甄選：系統操作暨獎學金說明會」",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Academic/News.aspx?id=nczTcFIYBNg=&Sn=1453&title=公告 國際處舉辦「116-1校級赴外交換甄選：系統操作暨獎學金說明會」",
-        "date": "2026-10-28",
         "date_label": "發布日期",
         "summary": ""
       },
@@ -4837,13 +4837,6 @@
         "summary": ""
       },
       {
-        "title": "公告 國際處舉辦「116-1校級赴外交換甄選：系統操作暨獎學金說明會」",
-        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Incentive/News.aspx?id=PrPAeVbJgjo=&Sn=1453&title=公告 國際處舉辦「116-1校級赴外交換甄選：系統操作暨獎學金說明會」",
-        "date": "2026-10-28",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "轉知 公益財團法人日本台灣交流協會台北事務所「2027年度日本國際交流基金會經費資助計畫」",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Incentive/News.aspx?id=PrPAeVbJgjo=&Sn=1448&title=轉知 公益財團法人日本台灣交流協會台北事務所「2027年度日本國際交流基金會經費資助計畫」",
         "date": "2026-10-22",
@@ -4861,6 +4854,13 @@
         "title": "社團法人亞太情緒取向協會─研究生獎學金申請",
         "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Incentive/News.aspx?id=PrPAeVbJgjo=&Sn=1195&title=社團法人亞太情緒取向協會─研究生獎學金申請",
         "date": "2026-02-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "114-2學期_（各類）心輔系獎學金申請表（參見附檔）_於115年3月9日（一）截止申請",
+        "url": "https://www.epc.ntnu.edu.tw/Front/NEW/Incentive/News.aspx?id=PrPAeVbJgjo=&Sn=1193&title=114-2學期_（各類）心輔系獎學金申請表（參見附檔）_於115年3月9日（一）截止申請",
+        "date": "2026-03-09",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -11852,6 +11852,13 @@
     "label": "電機工程學系-最新消息",
     "announcements": [
       {
+        "title": "Keynote Speech：Human Action Recognition on Edge Devices for IoT Systems:From Single-Person to Multi-Person Scenarios，Speaker：Hoang-Cong Le, , 2026.11.04 Thu. A.M.10:20, Education Building International Lecture Hall Jiao201",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/11/04/002-227/",
+        "date": "2026-11-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "電機系專題課程演講活動：Research on Imaging Informatics Based on Interoperable Standards in Medicine，講者：連中岳副教授，臺北護理健康大學資訊管理系，115/11/6(五)下午13:20，機械大樓TC411教室",
         "url": "https://www.ee.ntnu.edu.tw/index.php/2026/11/04/002-226/",
         "date": "2026-11-04",
@@ -11876,13 +11883,6 @@
         "title": "Keynote Speech：Future Virtual Metrology in Semiconductor Manufacturing，Speaker：Prof. Chin-Yih Lin, The University of Texas at El Paso, 2026.10.22 Thu. A.M.10:20, Online Lecture",
         "url": "https://www.ee.ntnu.edu.tw/index.php/2026/10/28/002-224/",
         "date": "2026-10-28",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "116年度電機系學士班特殊選才招生考試複試申請視訊口試相關規定",
-        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/10/21/002-223/",
-        "date": "2026-10-21",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -11932,6 +11932,13 @@
     "label": "電機工程學系-演講公告",
     "announcements": [
       {
+        "title": "Keynote Speech：Human Action Recognition on Edge Devices for IoT Systems:From Single-Person to Multi-Person Scenarios，Speaker：Hoang-Cong Le, , 2026.11.04 Thu. A.M.10:20, Education Building International Lecture Hall Jiao201",
+        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/11/04/002-227/",
+        "date": "2026-11-04",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "電機系專題課程演講活動：Research on Imaging Informatics Based on Interoperable Standards in Medicine，講者：連中岳副教授，臺北護理健康大學資訊管理系，115/11/6(五)下午13:20，機械大樓TC411教室",
         "url": "https://www.ee.ntnu.edu.tw/index.php/2026/11/04/002-226/",
         "date": "2026-11-04",
@@ -11956,13 +11963,6 @@
         "title": "電機系專題課程演講活動：AI-Driven Design and Implementation of Hearing Assistive Technologies，講者：賴穎暉教授兼系主任，陽明交大生物醫學工程系，115/10/23(五)下午13:20，機械大樓TC411教室",
         "url": "https://www.ee.ntnu.edu.tw/index.php/2026/10/20/002-221/",
         "date": "2026-10-20",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "電機系專題演講：Teaching Humanoid Robots How to Walk A Sim-to-Real RL Approach，講者：Hanjaya Hsu Ph.D Candidate，臺師大電機系，115/10/15(四)上午10:20，教201演講廳",
-        "url": "https://www.ee.ntnu.edu.tw/index.php/2026/10/14/002-220/",
-        "date": "2026-10-14",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -20656,7 +20656,7 @@
     "label": "國際事務處-交換/訪問學生計畫",
     "announcements": [
       {
-        "title": "[簡報檔]116-1校級赴外交換甄選：系統操作暨獎學金說明會",
+        "title": "[錄影&簡報檔]116-1校級赴外交換甄選：系統操作暨獎學金說明會",
         "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-exvs/2026110303",
         "date": "2026-11-03",
         "date_label": "發布日期",
@@ -20953,13 +20953,6 @@
     "label": "師資培育學院-訊息公告-全部列表",
     "announcements": [
       {
-        "title": "【收件截止日延長至11月4日】補助臺灣師大理科專長師資生參加日本千葉大學自然科教育交流活動！",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=662",
-        "date": "2026-10-29",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "【公告】115-1師資生教學實務能力檢測「教學演示」、「教師甄試模擬口試」應檢順序及地點",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=607",
         "date": "2026-10-27",
@@ -20984,6 +20977,13 @@
         "title": "教師資格考試－課程教學與評量（特教身障組）」考科分卷（特中小、特幼）說明",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=658",
         "date": "2026-09-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【公告】本校115學年度第1學期教甄備考團錄取名單",
+        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=600",
+        "date": "2026-08-24",
         "date_label": "發布日期",
         "summary": ""
       }
