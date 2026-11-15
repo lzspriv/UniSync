@@ -3480,6 +3480,13 @@
     "label": "教務處-最新消息",
     "announcements": [
       {
+        "title": "116學年度高中英語聽力測驗第二次考試監試工作調查",
+        "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/116%E5%AD%B8%E5%B9%B4%E5%BA%A6%E9%AB%98%E4%B8%AD%E8%8B%B1%E8%AA%9E%E8%81%BD%E5%8A%9B%E6%B8%AC%E9%A9%97%E7%AC%AC%E4%BA%8C%E6%AC%A1%E8%80%83%E8%A9%A6%E7%9B%A3%E8%A9%A6%E5%B7%A5%E4%BD%9C%E8%AA%BF%E6%9F%A5%C2%A0-4930291",
+        "date": "2026-11-15",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
         "title": "臺大學分學程網頁因配合資安系統升級暫時下架",
         "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/%E8%87%BA%E5%A4%A7%E5%AD%B8%E5%88%86%E5%AD%B8%E7%A8%8B%E7%B6%B2%E9%A0%81%E5%9B%A0%E9%85%8D%E5%90%88%E8%B3%87%E5%AE%89%E7%B3%BB%E7%B5%B1%E5%8D%87%E7%B4%9A%E6%9A%AB%E6%99%82%E4%B8%8B%E6%9E%B6-83349319",
         "date": "2026-11-03",
@@ -3504,13 +3511,6 @@
         "title": "臺大部分學分學程115學年度第2學期修讀申請，將於115年11月1日開放。",
         "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/%E8%87%BA%E5%A4%A7%E9%83%A8%E5%88%86%E5%AD%B8%E5%88%86%E5%AD%B8%E7%A8%8B115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC2%E5%AD%B8%E6%9C%9F%E4%BF%AE%E8%AE%80%E7%94%B3%E8%AB%8B-%E5%B0%87%E6%96%BC115%E5%B9%B411%E6%9C%881%E6%97%A5%E9%96%8B%E6%94%BE-15314565",
         "date": "2026-11-01",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
-        "title": "【公告】115學年度新生未完成健康檢查學生證功能停用說明",
-        "url": "https://www.aa.ntnu.edu.tw/zh_tw/News/-%E5%85%AC%E5%91%8A-115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E6%96%B0%E7%94%9F%E6%9C%AA%E5%AE%8C%E6%88%90%E5%81%A5%E5%BA%B7%E6%AA%A2%E6%9F%A5%E5%AD%B8%E7%94%9F%E8%AD%89%E5%8A%9F%E8%83%BD%E5%81%9C%E7%94%A8%E8%AA%AA%E6%98%8E-96098060",
-        "date": "2026-10-15",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -4669,15 +4669,15 @@
         "summary": ""
       },
       {
-        "title": "11/14-15重塑教育文化-以對話邁向共好國際學術研討會行前通知（含手冊）",
-        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/11-14-15%E9%87%8D%E5%A1%91%E6%95%99%E8%82%B2%E6%96%87%E5%8C%96-%E4%BB%A5%E5%B0%8D%E8%A9%B1%E9%82%81%E5%90%91%E5%85%B1%E5%A5%BD%E5%9C%8B%E9%9A%9B%E5%AD%B8%E8%A1%93%E7%A0%94%E8%A8%8E%E6%9C%83%E8%A1%8C%E5%89%8D%E9%80%9A%E7%9F%A5%EF%BC%88%E5%90%AB%E6%89%8B%E5%86%8A%EF%BC%89-98376732",
+        "title": "【研究生學位考試申請】本學期碩博班研究生學位考試申請截止日為11月30日。",
+        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/-%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AD%B8%E4%BD%8D%E8%80%83%E8%A9%A6%E7%94%B3%E8%AB%8B-%E6%9C%AC%E5%AD%B8%E6%9C%9F%E7%A2%A9%E5%8D%9A%E7%8F%AD%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AD%B8%E4%BD%8D%E8%80%83%E8%A9%A6%E7%94%B3%E8%AB%8B%E6%88%AA%E6%AD%A2%E6%97%A5%E7%82%BA11%E6%9C%8830%E6%97%A5-18788377",
         "date": "2026-11-05",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "【研究生學位考試申請】本學期碩博班研究生學位考試申請截止日為11月30日。",
-        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/-%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AD%B8%E4%BD%8D%E8%80%83%E8%A9%A6%E7%94%B3%E8%AB%8B-%E6%9C%AC%E5%AD%B8%E6%9C%9F%E7%A2%A9%E5%8D%9A%E7%8F%AD%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AD%B8%E4%BD%8D%E8%80%83%E8%A9%A6%E7%94%B3%E8%AB%8B%E6%88%AA%E6%AD%A2%E6%97%A5%E7%82%BA11%E6%9C%8830%E6%97%A5-18788377",
+        "title": "11/14-15重塑教育文化-以對話邁向共好國際學術研討會行前通知（含手冊）",
+        "url": "https://www.ed.ntnu.edu.tw/zh_tw/news2/11-14-15%E9%87%8D%E5%A1%91%E6%95%99%E8%82%B2%E6%96%87%E5%8C%96-%E4%BB%A5%E5%B0%8D%E8%A9%B1%E9%82%81%E5%90%91%E5%85%B1%E5%A5%BD%E5%9C%8B%E9%9A%9B%E5%AD%B8%E8%A1%93%E7%A0%94%E8%A8%8E%E6%9C%83%E8%A1%8C%E5%89%8D%E9%80%9A%E7%9F%A5%EF%BC%88%E5%90%AB%E6%89%8B%E5%86%8A%EF%BC%89-98376732",
         "date": "2026-11-05",
         "date_label": "發布日期",
         "summary": ""
@@ -20747,14 +20747,14 @@
     "label": "國際事務處-獎助計畫",
     "announcements": [
       {
-        "title": "116-1【鼓勵赴境外進修補助】自115.11.1開放申請(校級截止日115.11.15，院/系/所雙聯截止日116.05.07)。",
+        "title": "116-1【鼓勵赴境外進修補助】自115.11.1開放申請(校級截止日115.11.16，院/系/所雙聯截止日116.05.07)。",
         "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-subsidy/2026110202",
         "date": "2026-11-02",
         "date_label": "發布日期",
         "summary": ""
       },
       {
-        "title": "【獎補助公告】116年「教育部學海飛颺/學海惜珠獎學金」申請，校級赴外申請(至115.11.15)，院/系/所/雙聯赴外申請(至116.2.25)。(逾期恕不受理)",
+        "title": "【獎補助公告】116年「教育部學海飛颺/學海惜珠獎學金」申請，校級赴外申請(至115.11.16)，院/系/所/雙聯赴外申請(至116.2.25)。(逾期恕不受理)",
         "url": "https://bds.oia.ntnu.edu.tw/bds/web/news-subsidy/2026110201",
         "date": "2026-11-02",
         "date_label": "發布日期",
@@ -27647,8 +27647,8 @@
         "summary": ""
       },
       {
-        "title": "115年11月15日-愛校服務(週輔)暨改過銷過名單",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9EYzNNekUwT0RVPXhrak0wa3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5OTY1NDU3Njk2MjI2MVRDaW50ZWx5",
+        "title": "115學年度學生學習歷程檔案系統上傳時程重要通知(含高三上傳勾選期程不同，請留意)",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU5qYzJOelkwTXpnPXhnak0wa3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTk5OTY1NDU3Njk2MjI2MVRDaW50ZWx5",
         "date": "2026-11-10",
         "date_label": "發布日期",
         "summary": ""
