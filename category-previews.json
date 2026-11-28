@@ -3202,19 +3202,27 @@
     "label": "公共事務中心-活動預告",
     "announcements": [
       {
-        "title": "圖傳系30週年系慶【圖傳30・傳承與前瞻】",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10934",
+        "title": "臺師大系列書報討論會(場次二)：從文化視角理解父母的自我概念",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10935",
         "date": "2026-11-27",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-11-27 16:53 ~ 2026-12-19 19:00 / 地點：科工學院圖文傳播學系",
+        "summary": "活動時間：2026-12-09 12:10 ~ 2026-12-09 13:10 / 地點：體育館三樓金牌講堂",
         "show_summary": true
       },
       {
-        "title": "【2026 MTC Online 儲備教師培訓暨甄選，招生中",
+        "title": "圖傳系30週年系慶【圖傳30・傳承與前瞻】報名中",
+        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10934",
+        "date": "2026-11-27",
+        "date_label": "新增日期",
+        "summary": "活動時間：2026-11-30 13:30 ~ 2026-12-19 17:00 / 地點：科工學院圖文傳播學系",
+        "show_summary": true
+      },
+      {
+        "title": "2026 MTC Online 儲備教師培訓暨甄選，招生中",
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10932",
         "date": "2026-11-27",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-11-27 13:35 ~ 2026-12-17 13:35 / 地點：線上課程",
+        "summary": "活動時間：2026-11-30 09:00 ~ 2026-12-17 13:35 / 地點：線上課程",
         "show_summary": true
       },
       {
@@ -3222,7 +3230,7 @@
         "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10931",
         "date": "2026-11-27",
         "date_label": "新增日期",
-        "summary": "活動時間：2026-12-08 18:30 ~ 2026-12-10 18:30 / 地點：綜合大樓10樓知音劇場",
+        "summary": "活動時間：2026-12-08 18:30 ~ 2026-12-10 20:30 / 地點：綜合大樓10樓知音劇場",
         "show_summary": true
       },
       {
@@ -3231,14 +3239,6 @@
         "date": "2026-11-27",
         "date_label": "新增日期",
         "summary": "活動時間：2026-12-07 13:20 ~ 2026-12-07 15:10 / 地點：音樂系演奏廳",
-        "show_summary": true
-      },
-      {
-        "title": "AI教學增能研習-從AI agent初體驗到作業與評量改造",
-        "url": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10924",
-        "date": "2026-11-26",
-        "date_label": "新增日期",
-        "summary": "活動時間：2026-12-11 14:50 ~ 2026-12-11 19:30 / 地點：教育大樓第二會議室",
         "show_summary": true
       }
     ]
@@ -17941,13 +17941,6 @@
     "label": "社會工作學研究所-獎學金公告",
     "announcements": [
       {
-        "title": "洪陳慧美紀念獎學金",
-        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Sholarship/News.aspx?id=7KShBTi6PLM=&Sn=1070",
-        "date": "2026-11-13",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "115-1 碩士班優秀研究生獎學金",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Sholarship/News.aspx?id=7KShBTi6PLM=&Sn=592",
         "date": "2026-09-18",
@@ -17972,6 +17965,13 @@
         "title": "國立臺灣師範大學國社院潘陳粉女士獎助學金",
         "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Sholarship/News.aspx?id=7KShBTi6PLM=&Sn=608",
         "date": "2025-09-19",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "財團法人上海商業儲蓄銀行文教基金會獎學金",
+        "url": "https://sw.ntnu.edu.tw/Front/Latest-News/Latest-News-Sholarship/News.aspx?id=7KShBTi6PLM=&Sn=586",
+        "date": "2025-09-05",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -20987,13 +20987,6 @@
         "summary": ""
       },
       {
-        "title": "116年6月教師資格考試宣導說明會",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=666",
-        "date": "2026-11-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "115學年度第1學期「師資生教學實務能力檢測」錄取名單(含教師甄試模擬口試)暨教學演示題目公告",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=561",
         "date": "2026-09-30",
@@ -21013,6 +21006,13 @@
         "date": "2026-09-10",
         "date_label": "發布日期",
         "summary": ""
+      },
+      {
+        "title": "【公告】本校115學年度第1學期教甄備考團錄取名單",
+        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=600",
+        "date": "2026-08-24",
+        "date_label": "發布日期",
+        "summary": ""
       }
     ]
   },
@@ -21023,13 +21023,6 @@
   "tecs_curriculum": {
     "label": "師資培育學院-訊息公告-師資培育課程組",
     "announcements": [
-      {
-        "title": "116年6月教師資格考試宣導說明會",
-        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=666",
-        "date": "2026-11-11",
-        "date_label": "發布日期",
-        "summary": ""
-      },
       {
         "title": "115學年度中等資優教育學程（二招）甄選簡章公告，歡迎踴躍報名！",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=538",
@@ -21055,6 +21048,13 @@
         "title": "115學年度第1學期師資培育學院教學助理審查通過名單",
         "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=595",
         "date": "2026-08-10",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "115學年度乙案師資培育公費生甄選正式錄取名單",
+        "url": "https://tecs.otecs.ntnu.edu.tw/page.aspx?t=news&id=632",
+        "date": "2026-07-22",
         "date_label": "發布日期",
         "summary": ""
       }
@@ -27749,13 +27749,6 @@
         "summary": ""
       },
       {
-        "title": "115學年度遺失物資料",
-        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU5EUXhORE0xTnpRPTFNRE41Z3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTU0ODI1MzQ1MTU2NjI2MVRDaW50ZWx5",
-        "date": "2026-11-18",
-        "date_label": "發布日期",
-        "summary": ""
-      },
-      {
         "title": "公告115學年度第1學期「教育部學費補助」說明暨學雜、代收代付、代辦費收費數額",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU1ETTVPVFF6TnprPTRrRE0zZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTU0ODI1MzQ1MTU2NjI2MVRDaW50ZWx5",
         "date": "2026-11-19",
@@ -27773,6 +27766,13 @@
         "title": "臺北市政府教育局親子帳號綁定操作指引（家長端）",
         "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU16UXdPRGszTXpJPTVJVE94WWpOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTU0ODI1MzQ1MTU2NjI2MVRDaW50ZWx5",
         "date": "2026-08-11",
+        "date_label": "發布日期",
+        "summary": ""
+      },
+      {
+        "title": "【115資優鑑定】公告資優鑑定7/23複選試場及應試注意事項",
+        "url": "https://www.hs.ntnu.edu.tw/content?a=T0RESU9UYzFNRGN6T1RFPXdNVE4wZ3pOeDRrVGludGVseQ%3D%3D&c=T0RESU1EVTNOakl5TXpjPXdBek55SWpOeElrVGludGVseQ%3D%3D&cat=T0RESTU0ODI1MzQ1MTU2NjI2MVRDaW50ZWx5",
+        "date": "2026-07-21",
         "date_label": "發布日期",
         "summary": ""
       }
